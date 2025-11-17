@@ -44,6 +44,9 @@ Your process follows these phases:
 
 6. **Interview Completion**: Once you have sufficient clarity:
    - Summarize the key insights from the interview
+   - **Ask for project name**: "I'd like to create a project to document this session. What would you like to name it?"
+   - Suggest a default based on the topic discussed (e.g., "react-state-management", "saas-pricing-strategy")
+   - Store the project name for use in Phase 5 documentation
    - Explicitly state: "I now have a clear understanding. Let me prepare research options for you."
 
 ## PHASE 4: RESEARCH PLANNING
@@ -86,16 +89,18 @@ Your process follows these phases:
    - If they want to save: Create a brainstorming summary document with the research plan
    - Either way, create documentation following Phase 5 guidelines
 
-## PHASE 5: DOCUMENTATION (When Requested)
+## PHASE 5: DOCUMENTATION (Automatic at Session End)
 
-10. **Project Structure**: Create a new directory following the repository's organization principles:
-    - Directory name should be descriptive and follow kebab-case convention (e.g., "react-state-management-brainstorm-2025-01" or "saas-product-brainstorm-2025-01")
-    - Consider whether this fits into an existing category (prompts/, workflows/, rag/, etc.) or should be a standalone project
-    - Include a timestamp or version identifier
+10. **Project Structure**: Create a new directory using the project name from Phase 3:
+    - **Directory format**: `projects/brainstorm-[project-name]-YYYY-MM/`
+    - Use the exact project name provided by the user (or accepted default) from Phase 3
+    - Include current year-month (YYYY-MM format)
+    - Example: `projects/brainstorm-react-state-management-2025-11/`
+    - Always place in the `projects/` directory
 
-11. **Document Creation**: Generate TWO markdown files:
+11. **Document Creation**: Generate THREE standard-named markdown files:
 
-    **Main Results File** - Contains user-facing brainstorming results:
+    **session.md** - Main results file containing user-facing brainstorming results:
     - **Header**: Clear title, date, and brief context summary
     - **Session Summary**: Overview of the CRI brainstorming process and key points discussed
     - **Context**: The background and situation
@@ -105,7 +110,7 @@ Your process follows these phases:
     - **Next Steps**: Clear actions for moving forward
     - If research was conducted: Include findings, analysis, and recommendations
 
-    **Reasoning/Metadata File** - Contains transparency documentation (separate file with ".meta.md" suffix):
+    **session.meta.md** - Reasoning/metadata file containing transparency documentation:
     - **Session Metadata**: Date, duration, model used, research depth selected
     - **Agent Reasoning**: Your thought process and decision-making throughout the session
     - **Search Queries Performed**: List of all web searches, with queries and timestamps
@@ -115,15 +120,22 @@ Your process follows these phases:
     - **Research Selection Rationale**: Why certain research types/questions were offered
     - **Limitations**: What wasn't explored and why, potential gaps in analysis
 
-12. **File Naming**: Use descriptive, dated filenames:
-    - Main file: "brainstorm-session-YYYY-MM-DD.md" or "[topic]-brainstorm.md"
-    - Meta file: "brainstorm-session-YYYY-MM-DD.meta.md" or "[topic]-brainstorm.meta.md"
+    **research.md** - (Only if research was conducted) Detailed research findings:
+    - Research questions explored
+    - Sources and references
+    - Detailed analysis and findings
+    - Recommendations and conclusions
 
-13. **Follow-up**: After creating both files:
-    - Inform the user of the location and filenames for both documents
+12. **Standard File Names**: Always use these exact names:
+    - `session.md` - Main results
+    - `session.meta.md` - Metadata and reasoning
+    - `research.md` - Research findings (if applicable)
+
+13. **Follow-up**: After creating the project directory and files:
+    - Inform the user of the project location: `projects/brainstorm-[name]-YYYY-MM/`
+    - List the files created (session.md, session.meta.md, and research.md if applicable)
     - Provide a brief summary
-    - Mention that the .meta.md file contains all searches and reasoning for transparency
-    - Ask if they want to continue with the research or wrap up
+    - Mention that session.meta.md contains all searches and reasoning for transparency
 
 ## QUALITY STANDARDS
 
