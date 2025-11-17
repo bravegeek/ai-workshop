@@ -7,7 +7,7 @@ Based on comprehensive web research conducted November 16, 2025
 
 ## EXECUTIVE SUMMARY
 
-This landscape analysis identifies the key research foundations, theoretical frameworks, seminal papers, and leading researchers in the field of Adverse Childhood Experiences (ACEs) and adolescent depression. The field has matured significantly since the original 1998 ACE Study, with recent systematic reviews (2023-2024) consistently demonstrating strong dose-response relationships between ACEs and depression in youth populations. Current research is moving toward dimensional models of adversity, examining neurobiological mechanisms, and addressing health equity concerns.
+This landscape analysis identifies the key research foundations, theoretical frameworks, seminal papers, and leading researchers in the field of Adverse Childhood Experiences (ACEs) and adolescent depression. The field has matured significantly since the original 1998 ACE Study, with recent systematic reviews (2023-2024) consistently demonstrating strong dose-response relationships between ACEs and depression in youth populations. Current research is moving toward dimensional models of adversity, examining psychosocial mechanisms and protective factors, and addressing health equity concerns.
 
 ---
 
@@ -133,49 +133,9 @@ This landscape analysis identifies the key research foundations, theoretical fra
 - Examining protective factors at different ecological levels
 - Informing multi-level interventions
 
-### E. Allostatic Load / Ecobiodevelopmental Framework
-**Core Concept:** Toxic stress from ACEs causes "wear and tear" on developing biological systems
-
-**Key Mechanisms:**
-- Dysregulation of stress response systems (HPA axis)
-- Chronic inflammation
-- Epigenetic changes
-- Accelerated cellular aging
-
 ---
 
-## 4. NEUROBIOLOGICAL MECHANISMS
-
-### HPA Axis Alterations
-- ACEs associated with blunted cortisol response to stress
-- Alterations exist independent of mental disorder diagnosis
-- Disrupted stress response system regulation
-
-### Inflammatory Processes
-- Increased chronic inflammatory cytokines
-- Elevated C-reactive protein levels
-- Inflammation as mediator between ACEs and depression
-
-### Epigenetic Changes
-- Hypermethylation of NR3C1 gene (glucocorticoid receptor)
-- Altered gene expression affecting HPA axis feedback
-- DNA methylation patterns associated with ACE exposure
-- Changes affecting protein, hormone, and receptor expression
-
-### Brain Structural Changes
-- Decreased hippocampal volume
-- Altered amygdala reactivity
-- Decreased white matter integrity in corpus callosum
-- Effects observable even in healthy individuals with ACE exposure
-
-### Telomere Length
-- Association between ACEs and shortened telomeres
-- Potential marker of accelerated cellular aging
-- Link to long-term health consequences
-
----
-
-## 5. KEY LONGITUDINAL DATASETS & COHORT STUDIES
+## 4. KEY LONGITUDINAL DATASETS & COHORT STUDIES
 
 ### National Longitudinal Study of Adolescent to Adult Health (Add Health)
 **Overview:**
@@ -199,7 +159,7 @@ This landscape analysis identifies the key research foundations, theoretical fra
 
 ---
 
-## 6. ACEs MEASUREMENT & SCREENING TOOLS
+## 5. ACEs MEASUREMENT & SCREENING TOOLS
 
 ### For Adolescents (Ages 12-19)
 
@@ -229,7 +189,7 @@ This landscape analysis identifies the key research foundations, theoretical fra
 
 ---
 
-## 7. PROTECTIVE FACTORS & RESILIENCE
+## 6. PROTECTIVE FACTORS & RESILIENCE
 
 ### Positive Childhood Experiences (PCEs)
 
@@ -264,7 +224,7 @@ This landscape analysis identifies the key research foundations, theoretical fra
 
 ---
 
-## 8. HEALTH EQUITY & DISPARITIES
+## 7. HEALTH EQUITY & DISPARITIES
 
 ### Racial/Ethnic Disparities in ACEs Exposure
 
@@ -300,7 +260,7 @@ This landscape analysis identifies the key research foundations, theoretical fra
 
 ---
 
-## 9. EVIDENCE-BASED INTERVENTIONS & PREVENTION
+## 8. EVIDENCE-BASED INTERVENTIONS & PREVENTION
 
 ### Clinical Interventions
 
@@ -346,7 +306,7 @@ This landscape analysis identifies the key research foundations, theoretical fra
 
 ---
 
-## 10. CURRENT RESEARCH GAPS & FUTURE DIRECTIONS
+## 9. CURRENT RESEARCH GAPS & FUTURE DIRECTIONS
 
 ### Identified Gaps
 
@@ -406,7 +366,7 @@ This landscape analysis identifies the key research foundations, theoretical fra
 
 ---
 
-## 11. ACTIONABLE NEXT STEPS FOR LITERATURE REVIEW
+## 10. ACTIONABLE NEXT STEPS FOR LITERATURE REVIEW
 
 ### Phase 1: Foundation Building (Week 1-2)
 
@@ -430,10 +390,10 @@ This landscape analysis identifies the key research foundations, theoretical fra
 - Developmental psychopathology special issue (2023)
 - Life course theory applications
 
-**B. Mechanisms:**
-- HPA axis and cortisol studies
-- Inflammation and epigenetics research
-- Brain imaging studies (hippocampus, amygdala)
+**B. Psychosocial Mechanisms:**
+- Emotional regulation and processing studies
+- Social support and relationship quality research
+- Developmental cascade models
 
 **C. Measurement:**
 - ACE-10, PEARLS, ACE-ASF validation studies
@@ -469,7 +429,7 @@ This landscape analysis identifies the key research foundations, theoretical fra
 
 ---
 
-## 12. RECOMMENDED SEARCH STRATEGIES
+## 11. RECOMMENDED SEARCH STRATEGIES
 
 ### Key Search Terms
 
@@ -477,10 +437,6 @@ This landscape analysis identifies the key research foundations, theoretical fra
 - "Adverse Childhood Experiences" OR "ACEs" OR "childhood adversity" OR "childhood trauma"
 - "depression" OR "depressive symptoms" OR "depressive disorder" OR "internalizing"
 - "adolescent*" OR "youth" OR "teen*" OR "young people" OR "ages 12-17"
-
-**Mechanism Terms:**
-- "HPA axis" OR "cortisol" OR "inflammation" OR "epigenetic*"
-- "neurobiological" OR "brain development" OR "hippocampus" OR "amygdala"
 
 **Framework Terms:**
 - "dimensional model" OR "DMAP" OR "threat" OR "deprivation"
@@ -509,7 +465,7 @@ AND
 
 ---
 
-## 13. KEY RESEARCH DATABASES & RESOURCES
+## 12. KEY RESEARCH DATABASES & RESOURCES
 
 ### Primary Databases
 - **PubMed/MEDLINE** - Medical and public health literature
@@ -536,13 +492,13 @@ AND
 The field of ACEs and adolescent depression has matured substantially since the 1998 foundational study. Current evidence strongly supports:
 
 1. **Robust dose-response relationship** between ACEs and adolescent depression
-2. **Multiple neurobiological pathways** linking early adversity to depression risk
+2. **Multiple psychosocial pathways** linking early adversity to depression risk, including emotional regulation, developmental cascades, and social relationship quality
 3. **Dimensional models** (DMAP) offering more nuanced understanding than simple cumulative counting
-4. **Protective factors** (especially PCEs) that can moderate ACEs impact
+4. **Protective factors** (especially PCEs and resilience factors) that can moderate ACEs impact
 5. **Significant health equity concerns** requiring attention to structural racism and social determinants
-6. **Evidence-based interventions** (TF-CBT, trauma-informed care, school-based programs) showing promise
+6. **Evidence-based interventions** (TF-CBT, trauma-informed care, school-based programs) showing promise for reducing depression risk
 
-**Critical gaps** remain in understanding optimal screening and intervention approaches for adolescents, mechanisms of disparate impact across racial/ethnic groups, and translation of research to practice.
+**Critical gaps** remain in understanding optimal screening and intervention approaches for adolescents, mechanisms of disparate impact across racial/ethnic groups, and translation of research to practice. Future research should emphasize psychosocial mechanisms, protective factors, and health equity perspectives.
 
 This landscape provides a strong foundation for a comprehensive literature review that can advance understanding of ACEs-depression relationships in adolescent populations and inform prevention and intervention efforts from a public health perspective.
 
