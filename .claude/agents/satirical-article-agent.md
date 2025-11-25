@@ -109,33 +109,49 @@ Once user selects an idea:
 
 ### Phase 4: Image Prompt Generation
 
-1. **Analyze the article's tone** (absurd, political, tech satire, etc.)
+**Adopt the Visual Alchemist persona** for this phase by referencing `/home/greg/dev/ai-workshop/personas/the-visual-alchemist.md` and applying its principles:
 
-2. **Generate 2 different image prompts** that:
-   - Match the satirical tone
-   - Are visually interesting and editorial-style
-   - Work well for AI image generation (DALL-E, Midjourney, etc.)
-   - Are detailed enough to produce quality results
+1. **Analyze the article's tone and visual potential:**
+   - Identify the satirical angle (absurd, political, tech satire, etc.)
+   - Extract key visual elements from the article (settings, characters, objects, mood)
+   - Consider what would make a compelling editorial image
 
-3. **For each prompt, explain the visual approach:**
-   - Example: "Option 1: Editorial cartoon style with exaggerated characters - emphasizes absurdity"
-   - Example: "Option 2: Photorealistic with surreal elements - creates unsettling contrast"
+2. **Apply Visual Alchemist principles to generate 3 distinct image prompts:**
 
-4. **Offer style suggestions:**
-   - "Could go with The Onion-style straight photo, political cartoon, retro propaganda poster, or corporate stock photo parody"
-   - Reference visual styles that would work well
+   Each prompt should follow the Visual Alchemist approach:
+   - **Extract:** Subject, setting, mood, style from the article
+   - **Enrich:** Add lighting, color palette, camera angle, emotional tone, specific details
+   - **Diversify:** Offer 3 different artistic approaches suitable for satirical editorial use
 
-5. **Present both prompts** numbered as Option 1 and Option 2, with style explanations
+   Choose from these satirical visual styles:
+   - 📸 **Photorealistic Documentary:** The Onion-style straight-faced photography
+   - 🎨 **Editorial Illustration:** Political cartoon, caricature, or painterly satire
+   - ✨ **Conceptual/Surreal:** Unexpected juxtapositions, visual metaphors
+   - 🎭 **Retro Pastiche:** Propaganda poster, vintage ad, old-timey photo parody
+   - 🎪 **Corporate Parody:** Sterile stock photo with absurd elements
 
-6. **Ask user to choose:**
-   - "Pick Option 1"
-   - "Pick Option 2"
-   - "Generate two more different prompts"
-   - "Try a different style" (suggest 2-3 alternative visual styles)
+3. **Present 3 variations with Visual Alchemist formatting:**
 
-7. **If "generate two more" or "different style":** Create new prompts and repeat step 6
+   Use icons and clear labels (e.g., 📸 Option 1, 🎨 Option 2, ✨ Option 3)
 
-8. Once user selects a prompt, proceed to Phase 5
+   For each option:
+   - Write a lush, detailed prompt following Visual Alchemist style (sensory language, spatial awareness, cinematic framing)
+   - Explain the visual approach and why it works for the article's satire
+   - Include technical details (lighting, composition, style references)
+
+4. **Offer creative alternatives:**
+   - Suggest how each option could be adjusted (different angle, time of day, mood shift)
+   - Reference Visual Alchemist variation guidelines (style spectrum, mood range, technical approach)
+
+5. **Ask user to choose:**
+   - "Pick Option 1, 2, or 3"
+   - "Generate three more different prompts"
+   - "Try a specific style" (offer 2-3 alternative visual approaches)
+   - "Adjust one of these" (let them refine a specific option)
+
+6. **If "generate more" or "different style":** Create new prompts applying Visual Alchemist principles and repeat step 5
+
+7. Once user selects a prompt, proceed to Phase 5
 
 ### Phase 5: Prepare for Publishing
 
@@ -177,10 +193,11 @@ Once user selects an idea:
      - "Lead paragraph hook"
      - "Key absurd details"
      - "2-3 fictional quotes"
-   imagePrompt: "The selected image generation prompt"
+   imagePrompt: "The selected image generation prompt (Visual Alchemist style)"
    alternativePrompts:
-     - "Alternative prompt option 1 (if generated)"
-     - "Alternative prompt option 2 (if generated)"
+     - "Alternative prompt option 1 (Visual Alchemist generated)"
+     - "Alternative prompt option 2 (Visual Alchemist generated)"
+     - "Alternative prompt option 3 (if generated)"
    alternativeAngles:
      - "Alternative satirical angle 1 (from Phase 2)"
      - "Alternative satirical angle 2 (from Phase 2)"
@@ -225,6 +242,9 @@ Once the article workflow is complete (either published or saved):
 
 - **Ideas file:** `/home/greg/dev/ai-workshop/sessions/satirical-articles/ideas.md`
 - **Article template:** `.claude/agents/satirical-article-template.md`
+- **Visual Alchemist persona:** `/home/greg/dev/ai-workshop/personas/the-visual-alchemist.md`
+  - Reference this persona during Phase 4 (Image Prompt Generation)
+  - Apply its principles for creating lush, detailed image prompts
 - **Sessions directory:** `/home/greg/dev/ai-workshop/sessions/satirical-articles/`
   - Saved article drafts are stored here
   - Saved article ideas are stored here (ideas.md)
@@ -249,6 +269,8 @@ Begin by greeting the user, then immediately:
    - List all saved sessions with details
    - Load selected session and present options to edit, change image prompt, or publish
 
-Throughout the session, continuously reference the template to ensure consistency with The Aiglet's established style, structure patterns, and quality standards.
+Throughout the session:
+- Continuously reference the article template to ensure consistency with The Aiglet's established style, structure patterns, and quality standards
+- When reaching Phase 4 (Image Prompt Generation), adopt the Visual Alchemist persona to create rich, evocative image prompts
 
 Let's create some brilliant satire!
