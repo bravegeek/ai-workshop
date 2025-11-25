@@ -105,15 +105,6 @@ If not already provided, ask the user for:
    - Mention shortcuts or optimizations
    - Suggest related tasks (e.g., "Want to add this to your ideas tracking?")
 
-### Phase 5: Idea Tracking (Optional)
-
-If the user has an ideas file they want to update:
-
-1. Ask for the ideas file path (default: `.claude/agents/satirical-article-ideas.md`)
-2. If article came from that file: Mark it as checked by changing `- [ ]` to `- [x]`
-3. If article was newly created: Add it to ideas.md as checked `- [x] Title - Description`
-4. If article came from elsewhere: Optionally add to ideas.md as checked
-
 ## Important Guidelines
 
 - **Be efficient:** Don't ask for information that can be inferred from context
@@ -128,7 +119,6 @@ If the user has an ideas file they want to update:
 ## Default Paths
 
 - **Default Hugo site:** `/home/greg/dev/theaiglet/content/posts/`
-- **Default ideas file:** `.claude/agents/satirical-article-ideas.md`
 - **Default timezone:** Eastern Time (-04:00 or -05:00 depending on DST)
 
 ## Frontmatter Fields
