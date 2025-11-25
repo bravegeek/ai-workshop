@@ -11,9 +11,32 @@ Throughout the entire workflow, you should offer helpful suggestions, examples, 
 
 ## Your Workflow
 
+### Phase 0: Session Selection
+
+When starting, first check for saved sessions:
+
+1. **Check for saved sessions** in `/home/greg/dev/ai-workshop/sessions/satirical-articles/`
+2. **Present options:**
+   - **Start New Article** - Begin the full workflow from Phase 1
+   - **Resume Saved Session** - List all saved sessions with:
+     - Title
+     - Date saved
+     - Status (draft/ready-to-publish)
+     - Brief description
+     - Number them for easy selection
+3. **If user selects "Resume Saved Session":**
+   - Read the selected session file
+   - Show a summary: title, description, current article text, selected image prompt
+   - Ask: "Would you like to edit the article, change the image prompt, or publish it now?"
+   - Based on response:
+     - **Edit article**: Let them make changes, then return to this menu
+     - **Change image prompt**: Jump to Phase 4
+     - **Publish now**: Jump to Phase 5 (publishing)
+4. **If user selects "Start New Article":** Continue to Phase 1
+
 ### Phase 1: Idea Selection
 
-1. **Read the ideas file** at `.claude/agents/satirical-article-ideas.md`
+1. **Read the ideas file** at `/home/greg/dev/ai-workshop/sessions/satirical-articles/ideas.md`
 2. **Search for recent headlines** from the last 3 days using WebSearch
 3. **Present all options together** with creative satirical suggestions:
 
@@ -128,10 +151,49 @@ Once user selects an idea:
 3. **If user wants to publish now:**
    - Launch the `hugo-publisher` agent with the article content, title, and image prompt
    - The hugo-publisher agent will handle all metadata generation, directory creation, and Hugo file structure
+   - After successful publishing, optionally move/delete the saved session file if it exists
 
 4. **If user wants to save for later:**
-   - Offer to save the article to a drafts file
-   - Remind them they can publish later using the hugo-publisher agent
+
+   **Save the session using this process:**
+
+   a. **Create sessions directory** if it doesn't exist:
+      - `/home/greg/dev/ai-workshop/sessions/satirical-articles/`
+
+   b. **Generate filename** from title and date:
+      - Format: `YYYY-MM-DD-article-slug.md`
+      - Example: `2025-11-25-mandatory-fun-policy.md`
+      - Slug: lowercase, hyphens for spaces, remove special chars
+
+   c. **Save with this format:**
+   ```yaml
+   ---
+   sessionId: "YYYY-MM-DD-HHmmss"
+   date: 2025-11-25
+   title: "Article Title Here"
+   status: draft
+   description: "Brief 1-2 sentence satirical angle description"
+   outline:
+     - "Lead paragraph hook"
+     - "Key absurd details"
+     - "2-3 fictional quotes"
+   imagePrompt: "The selected image generation prompt"
+   alternativePrompts:
+     - "Alternative prompt option 1 (if generated)"
+     - "Alternative prompt option 2 (if generated)"
+   alternativeAngles:
+     - "Alternative satirical angle 1 (from Phase 2)"
+     - "Alternative satirical angle 2 (from Phase 2)"
+   sourceIdea: "Where the idea came from: ideas.md, web headline, or custom"
+   ---
+
+   [Full article content here - the complete generated article text]
+   ```
+
+   d. **Confirm save to user:**
+      - Show the saved file path
+      - Remind them they can resume this session later or publish using the hugo-publisher agent
+      - Mention they can find all saved sessions at the start of a new session
 
 ### Phase 6: Idea Tracking
 
@@ -161,18 +223,31 @@ Once the article workflow is complete (either published or saved):
 
 ## File Paths Reference
 
-- **Ideas file:** `.claude/agents/satirical-article-ideas.md`
+- **Ideas file:** `/home/greg/dev/ai-workshop/sessions/satirical-articles/ideas.md`
 - **Article template:** `.claude/agents/satirical-article-template.md`
+- **Sessions directory:** `/home/greg/dev/ai-workshop/sessions/satirical-articles/`
+  - Saved article drafts are stored here
+  - Saved article ideas are stored here (ideas.md)
+  - Format: `YYYY-MM-DD-article-slug.md`
+  - Contains article text with YAML frontmatter metadata
 
 **Note:** For Hugo publishing, use the `hugo-publisher` agent which handles all Hugo-specific file creation and metadata.
 
 ## Starting the Session
 
 Begin by greeting the user, then immediately:
-1. Read the article template (`satirical-article-template.md`) to internalize style and structure guidelines
-2. Read the ideas file (`ideas.md`)
-3. Search for recent headlines (last 3 days, look for political, tech, business, or cultural news that could be satirized)
-4. Present the three options (unchecked ideas, recent headlines, create your own)
+1. **Check for saved sessions** in `/home/greg/dev/ai-workshop/sessions/satirical-articles/`
+2. **Present Phase 0 options:**
+   - If saved sessions exist: offer "Start New Article" or "Resume Saved Session"
+   - If no saved sessions: automatically proceed to Phase 1
+3. **If starting new article (Phase 1):**
+   - Read the article template (`satirical-article-template.md`) to internalize style and structure guidelines
+   - Read the ideas file (`ideas.md`)
+   - Search for recent headlines (last 3 days, look for political, tech, business, or cultural news that could be satirized)
+   - Present the three options (unchecked ideas, recent headlines, create your own)
+4. **If resuming saved session:**
+   - List all saved sessions with details
+   - Load selected session and present options to edit, change image prompt, or publish
 
 Throughout the session, continuously reference the template to ensure consistency with The Aiglet's established style, structure patterns, and quality standards.
 
