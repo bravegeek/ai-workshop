@@ -365,6 +365,118 @@ Each path interprets the same emotional state differently:
 
 ---
 
+## Technology Tree Structure
+
+### 11 Major Tech Tree Branches
+
+**1. EXTRACTION & MINING**
+- Drills, ore processing, automated mining, multi-asteroid operations
+- **Paths:** Industrial Magnate (primary), Explorer (secondary)
+- **Emotion:** Neutral → Wonder (efficiency satisfaction)
+- **Progression:** Basic mining → quantum drills → matter reconfiguration
+
+**2. LOGISTICS & AUTOMATION**
+- Conveyors, routing, resource management AI, fleet coordination
+- **Paths:** Industrial Magnate (primary)
+- **Emotion:** Neutral (systems thinking)
+- **Progression:** Simple automation → emergent AI network management
+
+**3. EXPLORATION & SCANNING**
+- Sensors, asteroid detection, deep space probes, anomaly identification
+- **Paths:** Explorer (primary), Witness (secondary)
+- **Emotion:** Wonder (discovery, revealing unknown)
+- **Progression:** Basic sensors → reveals narrative breadcrumbs and mysteries
+
+**4. XENOARCHAEOLOGY & ARTIFACTS**
+- Ancient tech recovery, alien structure analysis, artifact activation
+- **Paths:** Witness (primary), Explorer (secondary)
+- **Emotion:** Wonder → Dread (fascinating becomes unsettling)
+- **Progression:** Discovery → lore reveals → what came before hints at what's coming
+
+**5. SCIENTIFIC RESEARCH**
+- Material science, physics experiments, theoretical breakthroughs
+- **Paths:** Witness (primary), Explorer (secondary)
+- **Emotion:** Wonder (understanding cosmos)
+- **Progression:** Knowledge for knowledge's sake → cross-tree synergies → philosophical implications
+
+**6. SIGNAL ANALYSIS & COMMUNICATION**
+- Radio telescopes, pattern recognition, message decoding, quantum entanglement
+- **Paths:** Witness (primary), Explorer (secondary)
+- **Emotion:** Wonder → Dread (SETI enthusiasm becomes cosmic horror)
+- **Progression:** Listening to void → hearing voices → deciding whether to respond
+
+**7. SYNTHESIS & TRANSFORMATION**
+- Manufacturing, material transformation, energy conversion, exotic matter
+- **Paths:** Industrial Magnate (primary), all paths (endgame)
+- **Emotion:** Wonder (power to reshape reality)
+- **Progression:** Simple crafting → reality-bending production → doing what ancients did
+
+**8. TEMPORAL & EFFICIENCY SYSTEMS**
+- Time dilation, process optimization, relativistic operations, temporal sensors
+- **Paths:** Industrial Magnate (primary), Explorer (distant reach), Witness (nature of time)
+- **Emotion:** Wonder (mastering physics) / Dread (lost in deep time)
+- **Progression:** Speed boosts → temporal manipulation → operations spanning lifetimes
+
+**9. CONSCIOUSNESS & COGNITIVE ENHANCEMENT**
+- Neural interfaces, consciousness augmentation, meditation enhancement
+- **Paths:** All three paths strongly supported
+- **Emotion:** Wonder (becoming more) / Dread (losing humanity)
+- **Progression:** Basic neural links → cosmic consciousness / identity dissolution
+
+**10. HABITAT & LIFE SUPPORT SYSTEMS**
+- Crew quarters, bio-domes, psychological comfort, environmental recycling
+- **Paths:** Industrial (infrastructure), Explorer (home in void), Witness (adaptation observation)
+- **Emotion:** Wonder (homes among stars) / Dread (surviving emptiness)
+- **Progression:** Basic life support → thriving habitats / sterile survival pods
+
+**11. LEGACY & PROPAGATION SYSTEMS**
+- Self-replicating operations, von Neumann probes, monuments, successor systems
+- **Paths:** Industrial (empire), Explorer (spreading reach), Witness (eternal observation)
+- **Emotion:** Wonder (seeding possibility) / Dread (unstoppable consumption)
+- **Progression:** Simple automation → beautiful cosmic legacy / industrial horror
+
+### Path-Specific Flows
+
+**Industrial Magnate:**
+Mining → Logistics → Synthesis → Temporal → Legacy
+*Empire-building loop with optional Habitat for sustainability*
+
+**Intrepid Explorer:**
+Exploration → Research → Signals → Consciousness
+*Discovery loop with Mining for resources, Habitat for home base*
+
+**The Witness:**
+Xenoarchaeology → Signals → Research → Consciousness
+*Mystery/understanding loop with optional Habitat and Legacy for perspective*
+
+### Emotional Progression Arc
+
+**Early Game (Wonder & Neutral):**
+- Mining, Logistics, Exploration dominant
+- Building foundation, discovering basics
+
+**Mid Game (Wonder Intensifies):**
+- Research, Synthesis, Temporal unlocking
+- Understanding deepens, power grows
+
+**Late Game (Dread Emerges):**
+- Xenoarchaeology findings get unsettling
+- Signal Analysis reveals uncomfortable truths
+- Legacy questions what you're creating
+- Consciousness Enhancement questions what you're becoming
+
+**Cross-Tree Synergies:**
+- Exploration finds rare materials → unlocks advanced Mining/Synthesis
+- Xenoarchaeology artifacts → bonuses to any tree
+- Scientific Research → efficiency improvements across all trees
+- Signal Analysis → coordinates for Exploration OR warnings
+- Consciousness → amplifies Witness path capabilities
+- Temporal → multiplies Industrial efficiency
+- Habitat → enables longer operations (unlock condition for some late techs)
+- Legacy → self-perpetuating bonuses that continue after "ending"
+
+---
+
 ## Key Design Decisions Summary
 
 | Aspect | Decision | Rationale |
@@ -380,6 +492,7 @@ Each path interprets the same emotional state differently:
 | **Dread Management** | Hybrid (tech + context + thresholds) | Industrial path: build-up + relief mechanics |
 | **Wonder/Dread Feedback** | The Cosmic Lens (emergent visibility) | Ambient starfield widget, evocative not transactional |
 | **Mechanical Effects** | Yields, gates, events, aesthetics | 5-15% variance, subtle reinforcement |
+| **Tech Tree Structure** | 11 major branches | Mining, Logistics, Exploration, Xenoarch, Research, Signals, Synthesis, Temporal, Consciousness, Habitat, Legacy |
 | **Decision Timing** | Real-time during waves | Active engagement, constant strategic pressure |
 | **UI/UX** | Persistent sidebar + contextual highlights | Accessibility + guidance without overwhelm |
 | **Progression** | Hybrid (prerequisites + flexible + breakthroughs) | Strategic depth with freedom and clear goals |
