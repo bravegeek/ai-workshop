@@ -303,7 +303,7 @@ User asked for "complete agent design documentation" - this indicated they wante
    - Metadata
 
 **Design Document Structure:**
-Followed pattern from satirical-article-agent project:
+Followed pattern from satirical-article project:
 - Frontmatter (name, description, model)
 - Persona definition (detailed character)
 - Mission statement (what it does)

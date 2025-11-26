@@ -13,7 +13,7 @@
 **Output Format:** Complete agent implementation guide with workflow automation
 
 **Files Generated:**
-1. `/home/greg/dev/ai-workshop/projects/satirical-article-agent-2025-11/satirical-article-agent.md` (9,535 words)
+1. `/home/greg/dev/ai-workshop/projects/satirical-article-agent-2025-11/satirical-article.md` (9,535 words)
 2. `/home/greg/dev/ai-workshop/projects/satirical-article-agent-2025-11/ideas.md` (415 words)
 3. `/home/greg/dev/ai-workshop/projects/satirical-article-agent-2025-11/test-article-google-deep-research.md` (4,761 words)
 4. `/home/greg/dev/ai-workshop/projects/satirical-article-agent-2025-11/brainstorm-notes.md` (6,314 words) → Replaced by session.md and session.meta.md
@@ -777,7 +777,7 @@ The Google Deep Research test article demonstrated:
 This session can be fully reconstructed from:
 - session.md (design decisions and outcomes)
 - session.meta.md (this file - reasoning and analysis)
-- satirical-article-agent.md (implementation specification)
+- satirical-article.md (implementation specification)
 - test-article-google-deep-research.md (validation test)
 - ideas.md (supporting file)
 

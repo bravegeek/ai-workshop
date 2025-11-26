@@ -1,7 +1,7 @@
 # Satirical Article Agent - Design Session
 
 **Date:** November 16, 2025
-**Project:** satirical-article-agent
+**Project:** satirical-article
 **Type:** AI Agent Design (Content Creation & Workflow Automation)
 
 ## Session Summary
@@ -342,7 +342,7 @@ img-prompt = 'The full selected image prompt here'
 ## Next Steps
 
 ### Implementation
-1. ✅ Agent design completed (satirical-article-agent.md)
+1. ✅ Agent design completed (satirical-article.md)
 2. ✅ Test run completed (Google Deep Research article)
 3. ✅ Ideas file created and structured
 4. Deploy agent to .claude/agents/ for actual use
@@ -369,7 +369,7 @@ All documentation is saved in:
 **`/home/greg/dev/ai-workshop/projects/satirical-article-agent-2025-11/`**
 
 **Files Created:**
-1. `satirical-article-agent.md` - Complete agent design and implementation guide
+1. `satirical-article.md` - Complete agent design and implementation guide
 2. `ideas.md` - Idea tracking checklist
 3. `test-article-google-deep-research.md` - Test run documentation
 4. `session.md` - This file, documenting the design session and decisions
