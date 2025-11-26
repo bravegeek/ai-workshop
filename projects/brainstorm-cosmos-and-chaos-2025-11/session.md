@@ -252,6 +252,116 @@ Each path interprets the same emotional state differently:
 - ✓ Three philosophically distinct player paths
 - ✓ Hybrid dread management for Industrial Magnate path
 - ✓ Emergent emotional interpretation through tech choices
+- ✓ UI design for Wonder/Dread feedback (The Cosmic Lens)
+
+---
+
+## UI/UX Design Specifications
+
+### The Cosmic Lens: Wonder & Dread Feedback Widget
+
+**Purpose:** Provide ambient feedback on player's emotional state without explicit numbers or gamification.
+
+**Design Philosophy:** Evocative, not transactional. Players should feel internal state shifts, not optimize metrics.
+
+#### Visual Design
+
+**What It Is:**
+- Small window showing a starfield (like looking through a porthole into space)
+- **Size:** ~150x150 pixels (minimap-sized)
+- **Location:** Top-right corner (unobtrusive, persistent)
+- **Style:** Telescope eyepiece or observatory window aesthetic
+
+**Core Mechanics:**
+
+1. **Wonder = Star Brightness**
+   - Low Wonder: Dim, distant pinpricks of light
+   - Medium Wonder: Clear, steady starlight (warm colors: gold, white-gold)
+   - High Wonder: Bright, glowing stars with gentle twinkle (like desert night sky)
+   - **Feeling:** Hope, revelation, beauty
+
+2. **Dread = Star Density**
+   - Low Dread: Normal, peaceful starfield with comfortable spacing
+   - Medium Dread: Stars clustering closer, becoming dense
+   - High Dread: Stars packed tightly in wrong colors (deep red, purple, sickly green)
+   - **Feeling:** Oppressive, watching, uncaring infinite
+
+#### Visual States Examples
+
+**High Wonder, Low Dread (Discovery Path):**
+- Brilliant stars like beacons across darkness
+- Beautiful and inviting atmosphere
+
+**Low Wonder, High Dread (Horror Path):**
+- Crowded stars in unnatural colors
+- Stars that stare, not twinkle
+
+**High Wonder, High Dread (Sublime Path):**
+- Brilliant stars in impossible colors, packed densely
+- Beautiful AND terrible simultaneously
+
+**Low Wonder, Low Dread (Mundane Path):**
+- Few dim stars, quiet and empty
+- Narrative lull, waiting for intensity
+
+#### Visibility Progression
+
+**Early Game (Hidden):**
+- Cosmic Lens doesn't exist yet
+- Only subtle environmental feedback
+
+**Mid Game (First Landmark Event):**
+- After first +3 to +5 point tech choice
+- Cosmic Lens appears with subtle message: *"The stars feel closer now"*
+- Widget fades in to corner
+
+**Late Game (Multiple Landmarks):**
+- Widget becomes more defined
+- Quadrant becomes clearer
+- Subtle pulse when major choices could shift trajectory
+
+**Never Shows:**
+- Exact numerical values
+- Progress bars
+- Gamified notifications ("+2 Wonder!")
+
+**Always Shows:**
+- Ambient intensity through visual density
+- General emotional quadrant (after unlocking)
+- Atmospheric feedback
+
+#### Technical Implementation Notes
+
+**For developers:**
+- Background: Dark gradient (black to deep blue)
+- Stars: Procedurally generated particles
+- Properties to modulate:
+  - Brightness: Wonder level (0-100%)
+  - Density: Dread level (controls spawn count)
+  - Color: Interpolate warm (Wonder) → cold/wrong (Dread)
+- Transitions: Smooth fade/shift over 2-3 seconds
+- Animation: Subtle pulse/twinkle tied to Wonder
+
+#### Mechanical Effects of Wonder/Dread
+
+**1. Mining Yield Modulation (5-15% variance)**
+- Wonder: Better yields on unusual/rare asteroids (+perception)
+- Dread: Better automation efficiency (+tension driving productivity)
+
+**2. Tech Tree Gates**
+- Wonder-locked techs: "Stellar Cartography" (8+), "Quantum Scanner" (15+)
+- Dread-locked techs: "Deep Void Sensors" (8+), "Isolation Protocols" (15+)
+- Balanced techs: "Observer's Toolkit" (Wonder 15 + Dread 15) for Witness
+
+**3. Event Frequency Shifts**
+- High Wonder: +30% discovery events (signals, anomalies, lore)
+- High Dread: +30% existential events (void whispers, isolation thoughts)
+- Both high: Witness-specific philosophical encounters
+
+**4. Aesthetic Transformation**
+- Wonder: Warmer tones, stars closer, harmonic mining sounds
+- Dread: Darker UI, emptier space, deep bass hums, echoes
+- Balanced: Crisp clarity, neutral palette, minimal soundscape
 
 ---
 
@@ -268,6 +378,8 @@ Each path interprets the same emotional state differently:
 | **Narrative Tracking** | Tech choices reveal emotional lens | Emergent interpretation through gameplay |
 | **Weighting System** | Gentle Gradients (1-2 pts, landmarks 3-5) | Organic emergence, player freedom to evolve |
 | **Dread Management** | Hybrid (tech + context + thresholds) | Industrial path: build-up + relief mechanics |
+| **Wonder/Dread Feedback** | The Cosmic Lens (emergent visibility) | Ambient starfield widget, evocative not transactional |
+| **Mechanical Effects** | Yields, gates, events, aesthetics | 5-15% variance, subtle reinforcement |
 | **Decision Timing** | Real-time during waves | Active engagement, constant strategic pressure |
 | **UI/UX** | Persistent sidebar + contextual highlights | Accessibility + guidance without overwhelm |
 | **Progression** | Hybrid (prerequisites + flexible + breakthroughs) | Strategic depth with freedom and clear goals |
