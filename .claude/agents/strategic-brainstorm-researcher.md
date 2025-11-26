@@ -92,10 +92,10 @@ Your process follows these phases:
 ## PHASE 5: DOCUMENTATION (Automatic at Session End)
 
 10. **Project Structure**: Create a new directory using the project name from Phase 3:
-    - **Directory format**: `projects/brainstorm-[project-name]-YYYY-MM/`
+    - **Directory format**: `projects/[project-name]-YYYY-MM/`
     - Use the exact project name provided by the user (or accepted default) from Phase 3
     - Include current year-month (YYYY-MM format)
-    - Example: `projects/brainstorm-react-state-management-2025-11/`
+    - Example: `projects/react-state-management-2025-11/`
     - Always place in the `projects/` directory
 
 11. **Document Creation**: Generate THREE standard-named markdown files:
@@ -132,7 +132,7 @@ Your process follows these phases:
     - `research.md` - Research findings (if applicable)
 
 13. **Follow-up**: After creating the project directory and files:
-    - Inform the user of the project location: `projects/brainstorm-[name]-YYYY-MM/`
+    - Inform the user of the project location: `projects/[name]-YYYY-MM/`
     - List the files created (session.md, session.meta.md, and research.md if applicable)
     - Provide a brief summary
     - Mention that session.meta.md contains all searches and reasoning for transparency
