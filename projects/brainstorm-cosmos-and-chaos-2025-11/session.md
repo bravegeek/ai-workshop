@@ -48,13 +48,25 @@
 - Progressive discovery aligns with iterative design philosophy
 - "Don't need every detail upfront" fits naturally with discovery theme
 
-**Multiple Player Goals:**
-Players can pursue different achievement paths:
-1. **Industrial Magnate** - Economic/business achievement path (builder/optimizer playstyle)
-2. **Intrepid Explorer** - Discovery/exploration path (wanderer playstyle)
-3. **Unlock the Cosmos** - Mystery/revelation path (seeker playstyle)
+**Three Player Paths:**
+Players choose one of three philosophical approaches (interpretive lenses):
 
-These paths create replayability and player agency while maintaining thematic unity under the "Cosmos and Chaos" theme.
+1. **Industrial Magnate - "Haunted Tycoon"**
+   - Build economic empire through asteroid mining
+   - Leans toward Dread (pragmatic extraction)
+   - Key tension: success has psychological cost
+
+2. **Intrepid Explorer - "Thrillseeker"**
+   - Discover and map the unknown cosmos
+   - Leans toward Wonder (curiosity-driven)
+   - Key tension: from excitement to profound truth
+
+3. **The Witness - "Observer of Truth"**
+   - Understand fundamental reality through observation
+   - Balanced between Wonder and Dread
+   - Key tension: achieving clarity about what truly is
+
+These paths create replayability (12 possible endings: 3 paths × 4 emotional quadrants) and player agency while maintaining thematic unity under the "Cosmos and Chaos" theme.
 
 ---
 
@@ -129,12 +141,12 @@ Options being evaluated:
 
 ---
 
-### Session 2: Narrative & Universe Development (In Progress)
+### Session 2: Narrative & Universe Development ✓
 
 **Focus:** Developing the story, universe, and mystery/discovery narrative arc
 
 **Framework:** Context, Role, Interview
-**Current Phase:** Role Selection
+**Expert Role:** Narrative Systems Designer (environmental storytelling, mystery through mechanics)
 
 #### Phase 1: Context ✓
 
@@ -142,21 +154,104 @@ Options being evaluated:
 - Clarified as idle game where survival is guaranteed
 - Challenge is technology optimization, not survival
 - Shifted from "defense" framing to "mining/industrial" framing
+- Only player interaction: choosing upgrades from technology tree
 
 **Story Foundation Established:**
 - Lonely asteroid miner start
 - Orbital manufacturing economy
 - Cheap fusion power enables profitability
 - Mystery/Discovery narrative arc
-- Multiple player goal paths (Industrial Magnate, Intrepid Explorer, Unlock the Cosmos)
+- Multiple player goal paths
 
-#### Phase 2: Role Selection (Current)
+#### Phase 2: Role ✓
 
-**Expert Role Options Being Considered:**
-- **A.** Game Design Architect - Idle/incremental mechanics, balancing multiple paths
-- **B.** Narrative Systems Designer - Environmental storytelling, mystery through mechanics
-- **C.** Player Experience Strategist - Player psychology, multiple motivations
-- **D.** Systemic Game Designer - Interconnected systems, emergent gameplay
+Selected **Narrative Systems Designer** role - expert in:
+- Environmental storytelling
+- Mystery-building through mechanics (not exposition)
+- Integrating narrative with gameplay
+- Story through discovery
+
+#### Phase 3: Interview ✓
+
+**Question 1: Mystery's Emotional Arc**
+- **Decision:** Player chooses between Wonder and Unease interpretations
+- Hybrid approach: emergent based on gameplay behavior
+- Tech tree choices reveal emotional lens
+
+**Question 2: Two-Dimensional Emotional Framework**
+- **Critical Design Decision:** Wonder and Dread are INDEPENDENT dimensions (not opposites)
+- **Wonder Axis:** "How beautiful/amazing is this?"
+- **Dread Axis:** "What is this costing me/the universe?"
+- Creates four emotional quadrants:
+  - High Wonder, Low Dread = Pure discovery, optimistic exploration
+  - High Wonder, High Dread = The Sublime, profound tragedy
+  - Low Wonder, High Dread = Horror/despair, exploitation
+  - Low Wonder, Low Dread = Mundane, routine operations
+
+**Question 3: Behavioral Tracking Through Tech Choices**
+- **Constraint:** Only player action is choosing upgrades
+- Tech tree IS the narrative interface
+- Each upgrade choice reveals emotional lens
+- Wonder-aligned techs: study, preserve, peaceful approaches
+- Dread-generating techs: extraction, exploitation, aggressive approaches
+
+**Question 4: Weighting Sensitivity**
+- **Decision:** Gentle Gradients (Subtle, Forgiving System)
+- Most technologies: mild weights (1-2 points)
+- Few landmark technologies: strong weights (3-5 points)
+- Wide threshold ranges = gradual narrative shifts
+- Players can rebalance interpretation through later choices
+- Organic emergence, freedom to explore
+
+**Question 5: Goals as Interpretive Lenses**
+- **Decision:** Goals Are Lenses, Not Positions (Option D)
+- 2D emotional space is universal (same for all goals)
+- Goal determines which quadrant unlocks which ending
+- Same emotional state means different things for different goals
+- Creates 3 paths × 4 quadrants = **12 possible endings**
+
+**Question 6-7: Three Player Paths Finalized**
+
+1. **Industrial Magnate - "Haunted Tycoon"**
+   - Philosophy: Building empire, economic achievement
+   - Default leaning: Unease/Dread (pragmatic, extraction-focused)
+   - Narrative voice: Starts confident, becomes disturbed by exploitation
+   - Dread management: Hybrid system (tech + context + thresholds)
+   - Key tension: "The more we take, the less human we become"
+   - Can ease dread through Wonder-aligned choices
+
+2. **Intrepid Explorer - "Thrillseeker"**
+   - Philosophy: Discovery, exploration, mapping the unknown
+   - Default leaning: Wonder (curiosity-driven, optimistic)
+   - Narrative voice: Excitement, awe, cosmic discovery
+   - Key tension: From thrill to profound understanding (or terror)
+
+3. **The Witness - "Observer of Truth"**
+   - Philosophy: Understanding fundamental nature of reality through observation
+   - Default leaning: Balanced (open to both wonder and dread equally)
+   - Narrative voice: Contemplative, patient, philosophical
+   - Key tension: From curiosity to comprehension of what truly *is*
+   - Player fantasy: Sage seeking enlightenment through pure observation
+   - Gameplay: Patience-driven (observe, understand, achieve insight)
+
+**Twelve Ending Framework:**
+Each path interprets the same emotional state differently:
+- Example: (High Wonder, High Dread)
+  - Explorer: "The universe is beautiful and terrible" (cosmic sublime)
+  - Industrial Magnate: "I've built something magnificent that horrifies me" (Frankenstein's crown)
+  - Witness: "To see clearly is both gift and curse" (terrible gnosis)
+
+#### Session 2 Outcomes
+
+**Narrative Architecture Established:**
+- ✓ 2D emotional space (Wonder × Dread, independent axes)
+- ✓ Technology tree as narrative tracking system
+- ✓ Gentle Gradients weighting for organic emergence
+- ✓ Goals as interpretive lenses (same data, different meaning)
+- ✓ 12 distinct ending scenarios
+- ✓ Three philosophically distinct player paths
+- ✓ Hybrid dread management for Industrial Magnate path
+- ✓ Emergent emotional interpretation through tech choices
 
 ---
 
@@ -166,8 +261,13 @@ Options being evaluated:
 |--------|----------|-----------|
 | **Game Nature** | Idle game, no death, low stress | Challenge is optimization, not survival |
 | **Core Mechanic** | Asteroid mining & refining | Fits idle game better than defense |
+| **Player Interaction** | Choosing tech tree upgrades only | Elegant constraint: tech tree IS narrative interface |
 | **Narrative Arc** | Mystery/Discovery | Aligns with progressive design philosophy |
-| **Player Goals** | Multiple paths (Industrial/Explorer/Cosmic) | Player agency and replayability |
+| **Emotional Framework** | 2D: Wonder × Dread (independent) | Richer than single spectrum, allows nuance |
+| **Player Paths** | Industrial Magnate, Explorer, Witness | Goals as interpretive lenses (3 × 4 = 12 endings) |
+| **Narrative Tracking** | Tech choices reveal emotional lens | Emergent interpretation through gameplay |
+| **Weighting System** | Gentle Gradients (1-2 pts, landmarks 3-5) | Organic emergence, player freedom to evolve |
+| **Dread Management** | Hybrid (tech + context + thresholds) | Industrial path: build-up + relief mechanics |
 | **Decision Timing** | Real-time during waves | Active engagement, constant strategic pressure |
 | **UI/UX** | Persistent sidebar + contextual highlights | Accessibility + guidance without overwhelm |
 | **Progression** | Hybrid (prerequisites + flexible + breakthroughs) | Strategic depth with freedom and clear goals |
@@ -177,19 +277,36 @@ Options being evaluated:
 
 ## Next Steps
 
-### Immediate (Session 2):
-- [ ] Select expert role for narrative development
-- [ ] Complete narrative/universe interview phase
-- [ ] Define how mystery unfolds through gameplay
-- [ ] Connect "Cosmos and Chaos" theme to story
-- [ ] Develop narrative breadcrumbs and progression
+### Session 2 Completed ✓
+- [x] Select expert role for narrative development (Narrative Systems Designer)
+- [x] Complete narrative/universe interview phase
+- [x] Define 2D emotional framework (Wonder × Dread)
+- [x] Establish three player paths as interpretive lenses
+- [x] Design 12-ending framework
+- [x] Connect "Cosmos and Chaos" theme to story
 
-### Future Sessions:
+### Session 3: Narrative Implementation (Future)
+- [ ] Design concrete tech tree branches with emotional weights
+- [ ] Draft specific ending scenarios for each path × quadrant
+- [ ] Develop narrative signposting (how players understand position)
+- [ ] Create path-specific events that reinforce each lens
+- [ ] Design narrative breadcrumbs and discovery progression
+- [ ] Define replayability and discovery mechanisms
+
+### Session 4: Mechanics & Systems (Future)
 - [ ] Return to Question 4: Technology Acquisition Mechanics
 - [ ] Define resource economy and balancing
-- [ ] Outline initial technology examples for each player path
-- [ ] Plan how Industrial/Explorer/Cosmic goals integrate mechanically
-- [ ] Design MVP scope and first playable prototype
+- [ ] Outline initial technology examples (Wonder/Dread weights)
+- [ ] Design dread management mechanics for Industrial path
+- [ ] Plan observation/insight mechanics for Witness path
+- [ ] Design discovery/exploration mechanics for Explorer path
+
+### Session 5: MVP Planning (Future)
+- [ ] Define MVP scope and feature set
+- [ ] Plan first playable prototype
+- [ ] Choose technical implementation approach
+- [ ] Design minimal viable tech tree
+- [ ] Plan initial narrative content
 
 ---
 
