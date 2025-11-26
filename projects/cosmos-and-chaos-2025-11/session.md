@@ -127,17 +127,164 @@ Progression system:
 - **Breakthrough Moments:** Certain key technologies unlock entire new branches (e.g., "Quantum Research" opens quantum-based defense tree)
 - **Strategic Tension:** Balance building foundations vs saving for breakthroughs vs exploiting immediate tactical opportunities
 
-#### Question 4: Technology Acquisition Mechanics (Paused)
+#### Question 4: Technology Acquisition Mechanics (Resumed)
 
 **Under Consideration:** How players actually acquire and upgrade technologies during gameplay
 
-Options being evaluated:
-- **A.** Wave-Pause Research System (structured planning windows)
-- **B.** Real-Time Passive Research (background research with queuing)
-- **C.** Active Resource Investment (manual allocation during waves)
-- **D.** Hybrid: Instant Purchase + Passive Unlocks (tactical + strategic split)
+*Session initially paused to refine game nature and narrative direction*
 
-*Session paused to refine game nature and narrative direction*
+**Question Refined for Idle Game Nature:**
+
+After clarifying the game as an idle experience (not defense-focused), the acquisition options were refined:
+
+**Options:**
+
+**A. Purchase-on-Demand System (Classic Idle)**
+- Resources accumulate automatically from mining
+- Player clicks to purchase/upgrade techs when affordable
+- Instant application of purchased upgrades
+- *Feel:* Active clicking moments amid passive income (Cookie Clicker, AdVenture Capitalist)
+
+**B. Auto-Purchase with Priority Queue**
+- Player sets research priority queue (drag to reorder)
+- System auto-purchases next tech when resources available
+- Player adjusts queue anytime to change direction
+- *Feel:* Strategic planning with hands-off execution (Idle Skilling, Melvor Idle)
+
+**C. Hybrid: Manual Purchase + Auto-Unlock Milestones**
+- Most techs: manual purchase when affordable
+- Landmark techs: unlock automatically at milestones (triggering narrative moments)
+- *Feel:* Player agency for tactics, destiny-driven for story beats
+
+**D. Time-Gated Research Slots**
+- 1-3 "research slots" that work on techs over time
+- Player assigns which tech to each slot
+- Resources consumed upfront, tech completes after X time
+- Can speed up with boosters or cancel to reassign
+- *Feel:* Strategic commitment with planning ahead (EVE Online skill training)
+
+*Decision pending - paused to explore production unit first*
+
+#### Question 5: Basic Production Unit
+
+**Context:** Before finalizing acquisition mechanics, explored what players are actually producing.
+
+**Decision:** Start with simple "metal" mining
+
+**Rationale:**
+- Simple and familiar for initial gameplay
+- Accessible entry point (no abstract concepts)
+- Creates foundation for complexity to emerge naturally
+- Allows game to evolve the resource system as player progresses
+
+**Evolution Plan:**
+- Early game: Simple metal mining (straightforward, industrial)
+- Mid-late game: Metal evolves to incorporate Wonder/Dread themes
+- Resource transformation reflects player's progression into mystery/discovery
+
+#### Question 6: Resource Evolution Mechanics (In Progress)
+
+**Question:** How should metal evolve into wonder/dread resources?
+
+**Options Under Consideration:**
+
+**(A) Gradual Blend**
+- Metal slowly gains wonder/dread properties as you progress
+- Examples: "Resonant Metal" (50% wonder), "Unstable Alloy" (dread properties)
+- *Feel:* Smooth thematic shift, gradual revelation
+
+**(B) Branching Fork**
+- At a certain point, metal mining splits into two paths
+- One leans into wonder, another into dread
+- *Feel:* Discrete moment of choice, clear decision point
+
+**(C) Transformation Gates**
+- Specific discoveries/events transform entire operation
+- Example: Discovering an anomaly changes mining fundamentally
+- *Feel:* Dramatic story moments, watershed events
+
+**(D) Parallel Systems**
+- Metal stays metal
+- New wonder/dread resources discovered alongside it
+- *Feel:* Expanding complexity, accumulating systems
+
+**Why This Matters:**
+Affects whether players experience gradual thematic shift versus discrete moments of change, which impacts emotional pacing. Also connects to technology tree structure and narrative progression.
+
+*Decision pending*
+
+#### Session 1 Continuation (2025-11-26): Resource System Deep Dive ✓
+
+**Expert Role:** Narrative-Mechanical Integration Specialist
+
+After establishing the basic production unit (metal) and resource evolution approach (discovery, not transformation), explored how resource discovery integrates mechanics and narrative.
+
+**Question 1: Resource Discovery Pacing**
+
+**Decision:** Mixed Approach - Progressive Escalation
+
+- **Basic Exotic Resources:** Gradual recognition (looks ordinary, reveals strangeness through interaction)
+- **Deep Anomalous Resources:** Immediate impact (visibly strange/impossible from first sight)
+- **Throughout:** Lore and mysterious signals provide breadcrumbs
+
+**Rationale:**
+- Creates natural narrative arc from scientific curiosity to cosmic revelation
+- Early: "What is this?" (subtle investigation)
+- Later: "This shouldn't exist" (overwhelming discovery)
+- Supports both Wonder (gradual understanding) and Dread (sudden horror) experiences
+
+**Question 2: Resource Narrative Integration**
+
+**Major Breakthrough: Quadrant-Based Narrative Revelation**
+
+Instead of choosing one narrative model (Archaeological, Transformation, Consciousness, or Forbidden Knowledge), resources reveal different facets of the mystery based on their Wonder/Dread alignment.
+
+**Core Principle:**
+The mystery isn't "what happened?" - it's "what happened AND what does it mean?" The answer changes based on which emotional lens (resource type) you use to investigate.
+
+**Example: The Architects' Final Transmission (Same Event, Four Interpretations)**
+
+| Quadrant | Resources | Interpretation |
+|----------|-----------|----------------|
+| **High Wonder, Low Dread** | Stellar Harmonics, Consciousness Crystals | "They transcended. The transmission is an invitation to join the cosmic consciousness." |
+| **High Wonder, High Dread** | Void Resonators, Paradox Engines | "They exist in quantum superposition - simultaneously enlightened and annihilated. Both/neither is true." |
+| **Low Wonder, High Dread** | Temporal Scars, Forbidden Archives | "They're trapped in a digital hell. The transmission is a warning: don't follow our path." |
+| **Low Wonder, Low Dread** | Ancient Alloys, Archaeological Data | "They just failed and died. The transmission is automated noise creating illusion of meaning." |
+
+**All four interpretations are simultaneously true.** The emotional truth matters more than literal truth.
+
+**Connection to Player Paths:**
+
+- **Industrial Magnate:** Natural Low Wonder/Low Dread (pragmatic) → sees cautionary tale about efficiency
+- **Intrepid Explorer:** Natural High Wonder (variable Dread) → sees transformation/discovery narrative
+- **The Witness:** Natural High Wonder/High Dread (sublime) → holds multiple contradictory truths simultaneously
+
+**Resource-Driven Narrative Examples:**
+
+**Stellar Harmonics (High Wonder, Low Dread):**
+- Discovery: "Rhythmic patterns in stellar radiation. The Architects encoded music into stars."
+- Unlocks: Consciousness Crystal tech tree
+- Narrative: "They didn't die - they became conductors of the cosmic symphony"
+- Effect: Pushes toward Transcendence endings
+
+**Temporal Scar (Low Wonder, High Dread):**
+- Discovery: "Causality breaks down. You see your own wreckage before you've crashed. This is wrong."
+- Unlocks: Forbidden Archives tech tree
+- Narrative: "They broke time. They're stuck in infinite loop, reliving extinction forever"
+- Effect: Pushes toward Dread endings
+
+**Meta-Design Principle:**
+Each resource type is a lens for interpreting the same underlying mystery. Industrial players see ruins, Explorer players see temples, Witness players see both simultaneously.
+
+**Replayability:**
+Players naturally want to replay to experience the mystery through different emotional lenses and see how the "truth" changes based on Wonder/Dread balance.
+
+**Open Design Questions:**
+1. Should every narrative fragment have four quadrant interpretations, or just key moments?
+2. How explicit should this system be to players?
+3. Do the 12 endings need refinement with this quadrant-based narrative system?
+
+*Session paused for documentation - Interview Phase to continue with Q3 (pacing/implementation details)*
 
 ---
 
@@ -536,4 +683,4 @@ Xenoarchaeology → Signals → Research → Consciousness
 ---
 
 *Session started: 2025-11-25*
-*Last updated: 2025-11-25*
+*Last updated: 2025-11-26*
