@@ -24,7 +24,7 @@
 
 **Date:** 2025-11-26 (Final Overhaul)
 **Purpose:** Visual representation of the complete technology tree structure (Tiers 0-5)
-**Technologies:** 34 current technologies across 11 branches
+**Technologies:** 36 current technologies across 11 branches
 
 ---
 
@@ -298,7 +298,7 @@ This section explores how core idle game mechanics can be "bent" or "broken" to 
 
 ### 2. Automation (The "Idle" Part)
 *   **Standard Mechanic:** Buildings produce X resource per second automatically.
-*   **The "Wonder" Bend (Quantum Entanglement):**
+*   **The "Wonder" Bend (Quantum Entanglement)::**
     *   **Mechanic:** "Shared Inventory."
     *   *Effect:* Buildings no longer need to transport resources. Ore mined *instantly* appears in the refinery. Removes all "transit time" or "logistic" delays.
 *   **The "Dread" Bend (Cannibalistic Automation):**
@@ -450,14 +450,6 @@ Wonder should feel like unlocking power through understanding and unity, removin
 
 ---
 
-## Pending Tasks (To-Do)
-
-1.  **Analyze the Tech Tree branches for inconsistencies or dead ends (post-restructure).**
-2.  **Discuss if storage should be a part of the game mechanics (the metal has to go somewhere).**
-
-### Session 7: Habitat Branch Overhaul & Final Polish ✓
-... (rest of the session history)
-
 ## Storage Mechanics: How Do You Hold the Universe?
 
 This section defines how resource storage works, blending capacity management with the game's core Wonder/Dread themes.
@@ -485,3 +477,48 @@ This section defines how resource storage works, blending capacity management wi
         *   Random "Hull Breaches" resulting in the instant loss of a significant portion (e.g., 50%) of the hoarded resources.
     *   **Strategic Risk:** Allows players to rush expensive upgrades early by accumulating resources beyond safe limits, but demands constant vigilance and acceptance of potential catastrophic losses.
 *   **Visual/Flavor:** Chaotic piles of raw materials, external containers bolted haphazardly to the hull, leaking fluids, and visible stress fractures.
+
+---
+
+## Pending Tasks (To-Do)
+
+1.  **Flesh out the "Consciousness" Branch (Tier 4 `Consciousness Crystal` is currently a dead end).**
+2.  **Detail the "Xenoarchaeology" Artifacts (What exactly are those shards we are finding in Tier 1?).**
+3.  **Refine the "Habitat" mechanics (How does `Bio-Domes` vs `Suspended Animation` actually play out?).**
+
+## Gameplay Experience: Wonder vs. Dread
+
+The core design philosophy of Cosmos and Chaos is to offer two fundamentally different gameplay experiences based on the player's accumulation of Wonder (W+) or Dread (D+). This isn't merely a change in stats, but a shift in the very genre and feel of the idle game.
+
+### The High Wonder Experience (W+)
+**The Vibe:** *The Conductor of a Symphony / Driving a Luxury Car.*
+**Core Philosophy:** Removal of Friction & Harmony.
+**Gameplay Style:** Strategic, Elegant, Deterministic.
+
+*   **The "Click":** Active interaction becomes rhythmic and rewarding ("Resonance Multiplier"), rather than frantic mashing. It's about synchronizing with the game's pulse.
+*   **The Loop:** Systems integrate seamlessly. Technologies like "Matter Compression" and "Universal Translator" streamline resource flow and management, reducing complexity and increasing efficiency. The game anticipates needs.
+*   **The UI:** Becomes a tool for perfect planning. "Prescience" removes randomness, allowing players to forecast events and optimize sequences, leading to a deterministic and predictable environment.
+*   **The Feeling:** A state of "Flow." The game feels like a perfectly tuned machine, responding to precise inputs. Players feel intelligent and in control, enjoying a smooth, optimized experience.
+*   **The Risk:** Minimal resource loss. Challenges focus on optimizing complex layouts and leveraging synergistic buffs.
+
+### The High Dread Experience (D+)
+**The Vibe:** *The Captain of a Sinking Ship (on fire, with a rocket engine) / The Adrenaline Rush of a Crazy Plan.*
+**Core Philosophy:** Power at a Cost & Uncontrolled Expansion.
+**Gameplay Style:** Aggressive, Reactive, Glitchy.
+
+*   **The "Click":** Rapid, forceful interaction ("Friction Burns") yields immediate gains but comes with consequences like equipment damage or instability. It's about forcing the system to yield.
+*   **The Loop:** Characterized by chaos and high-stakes gambles. Leveraging "Rift Mining" for instant resources or "External Cargo Webbing" for over-capacity storage, even if it means risking structural integrity or incurring penalties.
+*   **The UI:** Becomes unreliable and actively misleading. "Dread Glitches" cause visual anomalies, misclicks, or incorrect resource displays, demanding constant vigilance and a distrust of the game's interface itself.
+*   **The Feeling:** A mix of "Panic & Power." Players experience bursts of immense power by breaking game rules, but this is balanced by constant crises, unpredictable events, and a sense of being on the brink of disaster. The challenge is crisis management and survival.
+*   **The Risk:** High potential for resource loss, equipment damage, and unexpected setbacks. The reward is often immense but comes with a constant sense of danger and adrenaline.
+
+### Summary Comparison
+
+| Feature | **Wonder (W+)** | **Dread (D+)** |
+| :--- | :--- | :--- |
+| **Progression** | Smooth, exponential curves, predictable. | Spikes and crashes, bursts of speed with high risk. |
+| **Resources** | Unified, simplified, efficient, compressed. | Hoarded, overfilled, potentially corrupted, volatile. |
+| **Automation** | Smart "Steward AI" prioritizes preservation & efficiency. | Aggressive "Grey Goo" prioritizes unchecked growth, consumes resources. |
+| **Offline** | Returns to "Sublime Discoveries" and beneficial buffs. | Returns to "Nightmare Logs" and broken machines/events. |
+| **Skill** | Planning & Layout Optimization (Elegant Puzzle). | Reaction & Risk Assessment (Chaotic Survival). |
+| **The Goal** | Transcendence (Understanding the Universe). | Domination (Consuming the Universe). |

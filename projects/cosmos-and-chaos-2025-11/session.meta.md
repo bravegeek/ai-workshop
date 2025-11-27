@@ -1,21 +1,16 @@
-## Session 11 Meta-Analysis (2025-11-27) - Tier 2 Storage Expansion
+## Session 12 Meta-Analysis (2025-11-27) - Gameplay Experience Defined
 
 ### Session Metadata
 - **Date:** 2025-11-27
-- **Focus:** Expanding the Tech Tree with Wonder/Dread Storage technologies.
+- **Focus:** Articulating the core gameplay experience differences between High Wonder (W+) and High Dread (D+) paths.
 - **Model Used:** Gemini
-- **Search Queries:** None (internal analysis and edit)
+- **Search Queries:** None (internal analysis and creative articulation)
 
 ### Agent Reasoning & Design Process
 
-Following the definition of the Storage Mechanics, the user requested specific technologies to implement these concepts.
+This session aimed to create a "North Star" document for the game's core feel, ensuring all future design decisions align with the intended player experience.
 
-1.  **Tech Placement:** We identified **Tier 2** as the logical place for advanced storage, branching off from `T07: Automated Sorting` (Tier 1 Logistics).
-2.  **Technology Design:**
-    *   **Wonder: T35 Matter Compression.** Implements the "Archive" concept. The mechanical hook is the "Pressure Feed" (refinery speed bonus when full), rewarding players for maintaining high stock levels efficiently.
-    *   **Dread: T36 External Cargo Webbing.** Implements the "Hoard" concept. The hook is "Overfill" (200% capacity) with a "Drag" penalty (thruster efficiency), creating a risk/reward trade-off suitable for Dread.
-3.  **Integration:**
-    *   Updated the Mermaid diagram to include the new branch.
-    *   Updated the detailed list.
-    *   Updated the "Logistics & Automation" branch count in the summary table.
-4.  **Outcome:** The tech tree now has 36 total technologies, maintaining perfect Wonder/Dread symmetry (+41/+41) while adding depth to the Logistics branch.
+1.  **Distilling the Core Contrast:** We synthesized all previous mechanics (Tick Rate, Automation, Storage, UI Glitches) into overarching gameplay philosophies for W+ and D+. The goal was to move beyond feature lists to an emotional and experiential description.
+2.  **Analogies and Summaries:** The user's input of "luxury car" vs. "rat rod with rocket engine" was integrated as it perfectly encapsulated the intended feel for replayability. A clear summary table was created for quick reference.
+3.  **Documentation:** A new "Gameplay Experience" section was added to `session.md` to serve as a high-level guide for all future design and development.
+4.  **Outcome:** We now have a clear, concise statement of the game's intended player experience, which will be invaluable for maintaining thematic and mechanical consistency as we flesh out remaining branches and details.
