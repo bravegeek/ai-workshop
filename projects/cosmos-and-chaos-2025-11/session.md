@@ -927,40 +927,59 @@ Technologies are designed to support different emotional journeys through the ga
 **Effect:** Unlocks ancient signal events, xenoarchaeology breadcrumbs
 **Rationale:** Dread-leaning mystery. SETI enthusiasm becomes "we are not alone (and that's terrifying)."
 
-**16. Xenoarchaeology Kit**
+**16. Anomaly Scanner**
 **Branch:** Xenoarchaeology & Artifacts
-**Cost:** 8000 Metal, 500 Exotic Matter
+**Cost:** 4000 Metal, 250 Exotic Matter
 **Prerequisites:** Ancient Signal Decoder
-**Wonder/Dread:** +2 Wonder / +3 Dread
-**Description:** "Tools for analyzing alien structures discovered in the belt. They're old. Impossibly old. And they're waiting to be understood. Or perhaps they're understanding you."
-**Effect:** Enables artifact research, reveals ancient civilization lore
-**Rationale:** Dread-leaning but high Wonder. Most significant weight so far (5 total). Landmark tech that shifts narrative tone.
+**Wonder/Dread:** +1 Wonder / +1 Dread
+**Description:** "Specialized sensors attuned to spatial anomalies and energy signatures that don't match natural asteroid formation. Something built these structures. Something waited."
+**Effect:** Reveals xenoarchaeological sites, enables basic artifact detection
+**Rationale:** Balanced entry point to xenoarchaeology. First hint that "we are not alone" has physical evidence.
 
-**17. Consciousness Crystal Synthesis**
+**17. Basic Xenoarchaeology Field Kit**
+**Branch:** Xenoarchaeology & Artifacts
+**Cost:** 6000 Metal, 350 Exotic Matter
+**Prerequisites:** Anomaly Scanner
+**Wonder/Dread:** +2 Wonder / +2 Dread
+**Description:** "Portable tools for surface-level artifact analysis. Cataloging, dating, basic structural scans. You're an archaeologist now, not just a miner. The sites are old. Impossibly old."
+**Effect:** +20% artifact research speed, unlocks basic ancient civilization lore
+**Rationale:** Balanced progression. Establishes player as researcher/explorer of ancient mysteries.
+
+**18. Advanced Xenoarchaeology Laboratory**
+**Branch:** Xenoarchaeology & Artifacts
+**Cost:** 10,000 Metal, 750 Exotic Matter
+**Prerequisites:** Basic Xenoarchaeology Field Kit
+**Wonder/Dread:** +2 Wonder / +3 Dread
+**Description:** "Full laboratory suite for deep artifact analysis. Molecular dating, energy pattern reconstruction, linguistic decoding. The more you understand, the less you want to know. They're waiting to be understood. Or perhaps they're understanding you."
+**Effect:** +50% artifact research speed, unlocks advanced ancient civilization lore, enables artifact activation
+**Rationale:** Dread-leaning landmark tech (5 total points). Represents deep commitment to understanding the Architects.
+
+**19. Consciousness Crystal Synthesis**
 **Branch:** Consciousness & Cognitive Enhancement
 **Cost:** 10,000 Metal, 1000 Exotic Matter
-**Prerequisites:** Deep Neural Link I, Xenoarchaeology Kit
+**Prerequisites:** Deep Neural Link I AND (Basic Xenoarchaeology Field Kit OR Advanced Xenoarchaeology Laboratory)
 **Wonder/Dread:** +1 Wonder / +1 Dread
 **Description:** "Crystalline structures that interface with neural patterns. Ancient technology or natural phenomenon? The distinction matters less than the result: expanded awareness. Uncomfortable clarity."
 **Effect:** +25% all yields, philosophical insight events, identity questions deepen
-**Rationale:** Balanced but intense. Witness path support. Power + cost equally weighted.
+**Rationale:** Balanced but intense. Witness path support. Power + cost equally weighted. Flexible prerequisite allows choice between basic field research or deep laboratory understanding - both paths lead to consciousness expansion.
 
 **Mid Game Design Notes:**
-- Wonder total: +9 (scientific achievement, discovery, revelation)
-- Dread total: +12 (isolation, transformation, existential weight)
+- Wonder total: +10 (scientific achievement, discovery, revelation)
+- Dread total: +13 (isolation, transformation, existential weight)
 - Progression is Dread-leaning but balanced
 - Introduces mystery without overwhelming player
-- Xenoarchaeology Kit (#16) is first true landmark (5 points total)
+- Xenoarchaeology branch now has progressive tiers: Anomaly Scanner → Field Kit → Laboratory
+- Advanced Xenoarchaeology Laboratory (#18) is first true landmark (5 points total)
 - Consciousness thread begins raising identity questions
 
 #### Technology Tree Balance Summary
 
 **Cumulative Totals (Tiers 0-3):**
 
-**Total Technologies Designed:** 17
-**Total Wonder:** +11
-**Total Dread:** +12
-**Net Balance:** Slightly Dread-leaning (+1 Dread)
+**Total Technologies Designed:** 19
+**Total Wonder:** +14
+**Total Dread:** +14
+**Net Balance:** Perfectly Balanced (0 difference)
 
 **Balance by Tier:**
 
@@ -969,8 +988,8 @@ Technologies are designed to support different emotional journeys through the ga
 | 0 (Foundation) | 3 | +1 | 0 | +1 Wonder |
 | 1 (Early Expansion) | 5 | +1 | 0 | +1 Wonder |
 | 2 (Deepening Mystery) | 4 | +6 | +5 | +1 Wonder |
-| 3 (Weight Increases) | 5 | +3 | +7 | +4 Dread |
-| **Subtotal (0-3)** | **17** | **+11** | **+12** | **+1 Dread** |
+| 3 (Weight Increases) | 7 | +6 | +9 | +3 Dread |
+| **Subtotal (0-3)** | **19** | **+14** | **+14** | **Balanced (0)** |
 
 **Balance by Branch:**
 
@@ -984,22 +1003,92 @@ Technologies are designed to support different emotional journeys through the ga
 | Signal Analysis | 2 | +1 | +2 | Dread-leaning mystery |
 | Consciousness | 2 | +2 | +3 | Dread-leaning transformation |
 | Habitat & Life Support | 1 | 0 | +2 | Pure Dread (isolation) |
-| Xenoarchaeology | 1 | +2 | +3 | Landmark tech (5 total) |
+| Xenoarchaeology | 3 | +5 | +6 | Progressive tiers, landmark Laboratory (5 pts) |
 
 **Design Rationale:**
 
-**Why Slightly Dread-Leaning?**
-1. **Narrative Arc:** Mystery naturally introduces unease as it deepens
-2. **Contrast Setup:** Early neutral baseline makes mid-game weight feel significant
-3. **Path Support:** Allows Industrial Magnate (default Dread) and Witness (balanced) paths to feel natural
-4. **Late Game Room:** Leaves space for Wonder to catch up or Dread to escalate in Tiers 4-6+
-5. **Player Agency:** Players can choose Wonder-heavy techs to balance if desired
+**Why Perfectly Balanced?**
+1. **Player Agency:** Equal Wonder and Dread totals allow players true freedom to choose their emotional trajectory
+2. **Path Support:** Supports all three player paths equally (Industrial Magnate, Intrepid Explorer, The Witness)
+3. **Xenoarchaeology Redesign:** The two-tier split (Field Kit vs Laboratory) provides meaningful choice without forcing a single path
+4. **Narrative Arc:** Mystery introduces both wonder (discovery) and dread (implications) equally as it deepens
+5. **Late Game Room:** Perfect balance in Tiers 0-3 leaves maximum design space for divergence in Tiers 4-6+
+6. **Contrast Setup:** Early neutral baseline (Tiers 0-1: +2W/0D) makes mid-game weight (Tiers 2-3: +12W/+14D) feel significant
 
 **Progression Philosophy:**
 - Early game: Comfort zone (familiar, safe, industrial)
 - Mid game: Mystery introduction (strange but manageable)
 - Late game: Commitment (path divergence, meaningful choices)
 - Endgame: Culmination (extreme values, endings)
+
+---
+
+### Design Changelog
+
+#### Xenoarchaeology Branch Redesign (2025-11-26)
+
+**Problem Identified:**
+The original single Xenoarchaeology Kit technology (#16) created a prerequisite bottleneck that forced all players down the same path to access consciousness expansion technologies. This reduced player agency and created a forced narrative progression.
+
+**Solution Implemented: Two-Tier Split (Option A)**
+
+**Changes Made:**
+1. **Split single technology into three progressive tiers:**
+   - **Anomaly Scanner** (Tier 3, +1W/+1D) - Entry point, reveals xenoarchaeological sites
+   - **Basic Xenoarchaeology Field Kit** (Tier 3, +2W/+2D) - Surface-level research, basic lore
+   - **Advanced Xenoarchaeology Laboratory** (Tier 3, +2W/+3D) - Deep analysis, landmark tech (5 pts total)
+
+2. **Updated Consciousness Crystal Synthesis prerequisites:**
+   - **Old:** Required Deep Neural Link I AND Xenoarchaeology Kit (forced single path)
+   - **New:** Requires Deep Neural Link I AND (Basic Field Kit OR Advanced Laboratory)
+   - **Result:** Players can choose shallow exploration or deep commitment
+
+3. **Updated technology numbering:**
+   - Anomaly Scanner: #16
+   - Basic Xenoarchaeology Field Kit: #17
+   - Advanced Xenoarchaeology Laboratory: #18
+   - Consciousness Crystal Synthesis: #19 (renumbered from #17)
+
+**Impact on Balance:**
+- **Technology count:** Increased from 17 to 19 technologies in Tiers 0-3
+- **Wonder total:** Increased from +11 to +14 (+3 Wonder from new xenoarch techs)
+- **Dread total:** Increased from +12 to +14 (+2 Dread from new xenoarch techs)
+- **Net balance:** Changed from slightly Dread-leaning (+1D) to **perfectly balanced (0 difference)**
+- **Tier 3 distribution:** Increased from 5 to 7 technologies
+- **Xenoarchaeology branch:** Increased from 1 to 3 technologies
+
+**Impact on Gameplay:**
+1. **Meaningful Choice:** Players decide how deep to explore xenoarchaeology based on their path
+   - Industrial Magnate: Can take Field Kit for minimal commitment, focus elsewhere
+   - Intrepid Explorer: Can choose either path based on curiosity level
+   - The Witness: Can pursue deep Laboratory research for maximum understanding
+
+2. **Narrative Pacing:** Progressive revelation of ancient mysteries
+   - Anomaly Scanner: "Something's out there" (detection)
+   - Field Kit: "We can study it" (surface understanding)
+   - Laboratory: "We can truly understand it... and we wish we couldn't" (deep knowledge)
+
+3. **Cost Distribution:** Spreads xenoarchaeology investment across multiple tiers
+   - Total cost to Laboratory: 20,000 Metal + 1,350 Exotic Matter (across 3 techs)
+   - Alternative route (Field Kit only): 10,000 Metal + 600 Exotic Matter
+   - Provides economic choice: expensive deep dive or cheaper surface exploration
+
+4. **Path Flexibility:** Removes the "Xenoarchaeology Kit prerequisite problem"
+   - Players no longer forced into single 8,000 Metal investment
+   - Can access consciousness expansion with moderate (Field Kit) or deep (Laboratory) xenoarch commitment
+   - Supports diverse playstyles and interpretations
+
+**Design Philosophy:**
+This redesign embodies the core principle that **player agency drives narrative interpretation**. By offering choice at the prerequisite level, we create two meaningful paths to consciousness expansion that reflect different relationships with the mystery:
+- **Field Kit path:** "I'm curious but cautious - surface knowledge is enough"
+- **Laboratory path:** "I must understand completely, regardless of cost"
+
+Both paths are valid. Both lead to consciousness expansion. But they arrive with different emotional weight and narrative context.
+
+**Future Considerations:**
+- Late-game xenoarchaeology technologies (Tiers 4+) should continue this branching pattern
+- Consider whether other branches benefit from similar "shallow vs deep" splits
+- Ensure ending scenarios account for Field Kit vs Laboratory distinction in narrative interpretation
 
 #### Remaining Work: Late Game & Endgame
 
