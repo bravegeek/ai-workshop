@@ -514,73 +514,197 @@ Each path interprets the same emotional state differently:
 
 ## Technology Tree Structure
 
-### 11 Major Tech Tree Branches
+### Technology Tree Diagram and Analysis
+# Cosmos and Chaos - Technology Tree Visualization
 
-**1. EXTRACTION & MINING**
-- Drills, ore processing, automated mining, multi-asteroid operations
-- **Paths:** Industrial Magnate (primary), Explorer (secondary)
-- **Emotion:** Neutral → Wonder (efficiency satisfaction)
-- **Progression:** Basic mining → quantum drills → matter reconfiguration
+**Date:** 2025-11-26 (Updated with Late Game Tiers 4-5)
+**Purpose:** Visual representation of the complete technology tree structure (Tiers 0-5)
+**Technologies:** 25 current technologies across 11 branches
 
-**2. LOGISTICS & AUTOMATION**
-- Conveyors, routing, resource management AI, fleet coordination
-- **Paths:** Industrial Magnate (primary)
-- **Emotion:** Neutral (systems thinking)
-- **Progression:** Simple automation → emergent AI network management
+---
 
-**3. EXPLORATION & SCANNING**
-- Sensors, asteroid detection, deep space probes, anomaly identification
-- **Paths:** Explorer (primary), Witness (secondary)
-- **Emotion:** Wonder (discovery, revealing unknown)
-- **Progression:** Basic sensors → reveals narrative breadcrumbs and mysteries
+## Technology Tree Diagram
 
-**4. XENOARCHAEOLOGY & ARTIFACTS**
-- Ancient tech recovery, alien structure analysis, artifact activation
-- **Paths:** Witness (primary), Explorer (secondary)
-- **Emotion:** Wonder → Dread (fascinating becomes unsettling)
-- **Progression:** Discovery → lore reveals → what came before hints at what's coming
+```mermaid
+graph TB
+    %% Styling
+    classDef tier0 fill:#2c3e50,stroke:#34495e,stroke-width:2px,color:#ecf0f1
+    classDef tier1 fill:#34495e,stroke:#2c3e50,stroke-width:2px,color:#ecf0f1
+    classDef tier2 fill:#16a085,stroke:#1abc9c,stroke-width:2px,color:#ecf0f1
+    classDef tier3 fill:#8e44ad,stroke:#9b59b6,stroke-width:2px,color:#ecf0f1
+    classDef tier4 fill:#27ae60,stroke:#2ecc71,stroke-width:2px,color:#ecf0f1
+    classDef tier5 fill:#d35400,stroke:#e67e22,stroke-width:2px,color:#ecf0f1
+    classDef wonderHeavy fill:#3498db,stroke:#2980b9,stroke-width:3px,color:#ecf0f1
+    classDef dreadHeavy fill:#e74c3c,stroke:#c0392b,stroke-width:3px,color:#ecf0f1
+    classDef balanced fill:#f39c12,stroke:#e67e22,stroke-width:3px,color:#2c3e50
+    classDef landmark fill:#c0392b,stroke:#e74c3c,stroke-width:4px,color:#ecf0f1
+    classDef landmarkWonder fill:#2980b9,stroke:#3498db,stroke-width:4px,color:#ecf0f1
+    classDef landmarkDread fill:#c0392b,stroke:#e74c3c,stroke-width:4px,color:#ecf0f1
 
-**5. SCIENTIFIC RESEARCH**
-- Material science, physics experiments, theoretical breakthroughs
-- **Paths:** Witness (primary), Explorer (secondary)
-- **Emotion:** Wonder (understanding cosmos)
-- **Progression:** Knowledge for knowledge's sake → cross-tree synergies → philosophical implications
+    %% Tier 0: Foundation
+    T01["<b>1. Basic Mining Laser</b><br/>Branch: Extraction & Mining<br/>Tier 0 | W: 0 | D: 0"]
+    T02["<b>2. Ore Scanner</b><br/>Branch: Exploration & Scanning<br/>Tier 0 | W: +1 | D: 0"]
+    T03["<b>3. Cargo Bay I</b><br/>Branch: Logistics & Automation<br/>Tier 0 | W: 0 | D: 0"]
 
-**6. SIGNAL ANALYSIS & COMMUNICATION**
-- Radio telescopes, pattern recognition, message decoding, quantum entanglement
-- **Paths:** Witness (primary), Explorer (secondary)
-- **Emotion:** Wonder → Dread (SETI enthusiasm becomes cosmic horror)
-- **Progression:** Listening to void → hearing voices → deciding whether to respond
+    %% Tier 1: Early Expansion
+    T04["<b>4. Refinery Module</b><br/>Branch: Synthesis & Transformation<br/>Tier 1 | W: 0 | D: 0"]
+    T05["<b>5. Long-Range Sensors</b><br/>Branch: Exploration & Scanning<br/>Tier 1 | W: +1 | D: 0"]
+    T06["<b>6. Communication Array</b><br/>Branch: Signal Analysis<br/>Tier 1 | W: 0 | D: 0"]
+    T07["<b>7. Automated Sorting</b><br/>Branch: Logistics & Automation<br/>Tier 1 | W: 0 | D: 0"]
+    T08["<b>8. Thruster Upgrade I</b><br/>Branch: Temporal & Efficiency<br/>Tier 1 | W: 0 | D: 0"]
 
-**7. SYNTHESIS & TRANSFORMATION**
-- Manufacturing, material transformation, energy conversion, exotic matter
-- **Paths:** Industrial Magnate (primary), all paths (endgame)
-- **Emotion:** Wonder (power to reshape reality)
-- **Progression:** Simple crafting → reality-bending production → doing what ancients did
+    %% Tier 2: Deepening Mystery
+    T09["<b>9. Advanced Propulsion</b><br/>Branch: Temporal & Efficiency<br/>Tier 2 | W: +1 | D: +1"]
+    T10["<b>10. Material Synthesis I</b><br/>Branch: Synthesis & Transformation<br/>Tier 2 | W: +2 | D: +1"]
+    T11["<b>11. Deep Neural Link I</b><br/>Branch: Consciousness<br/>Tier 2 | W: +1 | D: +2"]
+    T12["<b>12. Quantum Scanner</b><br/>Branch: Exploration & Scanning<br/>Tier 2 | W: +2 | D: +1"]
 
-**8. TEMPORAL & EFFICIENCY SYSTEMS**
-- Time dilation, process optimization, relativistic operations, temporal sensors
-- **Paths:** Industrial Magnate (primary), Explorer (distant reach), Witness (nature of time)
-- **Emotion:** Wonder (mastering physics) / Dread (lost in deep time)
-- **Progression:** Speed boosts → temporal manipulation → operations spanning lifetimes
+    %% Tier 3: The Weight Increases
+    T13["<b>13. Exotic Matter Refinery</b><br/>Branch: Synthesis & Transformation<br/>Tier 3 | W: +2 | D: +2"]
+    T14["<b>14. Void Habitat Module</b><br/>Branch: Habitat & Life Support<br/>Tier 3 | W: 0 | D: +2"]
+    T15["<b>15. Ancient Signal Decoder</b><br/>Branch: Signal Analysis<br/>Tier 3 | W: +1 | D: +2"]
+    T16["<b>16. Anomaly Scanner</b><br/>Branch: Xenoarchaeology<br/>Tier 3 | W: +1 | D: +1"]
+    T17["<b>17. Basic Xenoarch Field Kit</b><br/>Branch: Xenoarchaeology<br/>Tier 3 | W: +2 | D: +2"]
+    T18["<b>18. Advanced Xenoarch Lab</b><br/>Branch: Xenoarchaeology<br/>Tier 3 | W: +2 | D: +3<br/><i>LANDMARK: 5 total</i>"]
+    T19["<b>19. Consciousness Crystal</b><br/>Branch: Consciousness<br/>Tier 3 | W: +1 | D: +1"]
 
-**9. CONSCIOUSNESS & COGNITIVE ENHANCEMENT**
-- Neural interfaces, consciousness augmentation, meditation enhancement
-- **Paths:** All three paths strongly supported
-- **Emotion:** Wonder (becoming more) / Dread (losing humanity)
-- **Progression:** Basic neural links → cosmic consciousness / identity dissolution
+    %% Tier 4: Late Game Start
+    T20["<b>20. Grand Unification Theory</b><br/>Branch: Scientific Research<br/>Tier 4 | W: +3 | D: +1"]
+    T23["<b>23. Von Neumann Probes</b><br/>Branch: Legacy & Propagation<br/>Tier 4 | W: +1 | D: +3"]
 
-**10. HABITAT & LIFE SUPPORT SYSTEMS**
-- Crew quarters, bio-domes, psychological comfort, environmental recycling
-- **Paths:** Industrial (infrastructure), Explorer (home in void), Witness (adaptation observation)
-- **Emotion:** Wonder (homes among stars) / Dread (surviving emptiness)
-- **Progression:** Basic life support → thriving habitats / sterile survival pods
+    %% Tier 5: Late Game Choice
+    subgraph "Tier 5 Branch: Scientific Research"
+        direction LR
+        T21["<b>21. Theory of Cosmic Harmonics</b><br/><i>Mutually Exclusive</i><br/>Tier 5 | W: +4 | D: 0<br/><i>LANDMARK: Global Wonder Boost</i>"]
+        T22["<b>22. Paradoxical Loop Analysis</b><br/><i>Mutually Exclusive</i><br/>Tier 5 | W: +3 | D: +3<br/><i>LANDMARK: Global W/D Boost</i>"]
+    end
+    subgraph "Tier 5 Branch: Legacy & Propagation"
+        direction LR
+        T24["<b>24. World-Seeding Protocol</b><br/><i>Mutually Exclusive</i><br/>Tier 5 | W: +5 | D: 0<br/><i>LANDMARK: Genesis Endings</i>"]
+        T25["<b>25. Autonomous Scaling Protocol</b><br/><i>Mutually Exclusive</i><br/>Tier 5 | W: 0 | D: +6<br/><i>LANDMARK: Apocalypse Endings</i>"]
+    end
 
-**11. LEGACY & PROPAGATION SYSTEMS**
-- Self-replicating operations, von Neumann probes, monuments, successor systems
-- **Paths:** Industrial (empire), Explorer (spreading reach), Witness (eternal observation)
-- **Emotion:** Wonder (seeding possibility) / Dread (unstoppable consumption)
-- **Progression:** Simple automation → beautiful cosmic legacy / industrial horror
+
+    %% Prerequisites (Dependencies)
+    T01 --> T04
+    T01 --> T08
+    T02 --> T05
+    T03 --> T07
+    T04 --> T10
+    T05 --> T12
+    T07 --> T11
+    T08 --> T09
+    T10 --> T13
+    T10 --> T23
+    T09 --> T23
+    T06 --> T14
+    T06 --> T15
+    T13 --> T15
+    T13 --> T20
+    T15 --> T16
+    T16 --> T17
+    T17 --> T18
+    T11 --> T19
+    T17 --> T19
+    T18 --> T19
+    
+    %% Tier 4/5 Dependencies
+    T20 -- "CHOICE" --> T21
+    T20 -- "CHOICE" --> T22
+    T23 -- "CHOICE" --> T24
+    T23 -- "CHOICE" --> T25
+
+
+    %% Apply tier styling
+    class T01,T02,T03 tier0
+    class T04,T05,T06,T07,T08 tier1
+    class T09,T10,T11,T12 tier2
+    class T13,T14,T15,T16,T17,T18,T19 tier3
+    class T20,T23 tier4
+    class T21,T22,T24,T25 tier5
+
+    %% Apply emotional weight styling
+    class T02,T05,T10,T12,T20 wonderHeavy
+    class T11,T14,T15,T23 dreadHeavy
+    class T09,T13,T16,T17,T19,T22 balanced
+    
+    %% Apply Landmark styling
+    class T18,T21,T22,T24,T25 landmark
+    class T21,T24 landmarkWonder
+    class T25 landmarkDread
+
+```
+
+---
+
+## Legend
+
+### Node Colors by Tier
+
+| Color | Tier | Stage | Technologies |
+|-------|------|-------|--------------|
+| **Dark Gray** | Tier 0 | Foundation | 3 starter technologies |
+| **Medium Gray**| Tier 1 | Early Expansion | 5 basic technologies |
+| **Teal**| Tier 2 | Deepening Mystery | 4 technologies |
+| **Purple**| Tier 3 | Weight Increases | 7 technologies |
+| **Green**| Tier 4 | Late Game Start | 2 foundational late game techs |
+| **Orange**| Tier 5 | Late Game Choice | 4 mutually exclusive landmark techs |
+
+### Node Border Styling by Emotional Weight
+
+| Border Style | Type | Meaning | Examples |
+|--------------|------|---------|----------|
+| **Blue (3px)** | Wonder-Heavy | More Wonder than Dread | Ore Scanner, Quantum Scanner, Grand Unification Theory |
+| **Red (3px)** | Dread-Heavy | More Dread than Wonder | Deep Neural Link I, Ancient Signal Decoder, Von Neumann Probes |
+| **Orange (3px)** | Balanced | Equal Wonder and Dread | Exotic Matter Refinery, Paradoxical Loop Analysis |
+| **Thick Border (4px)**| Landmark | High total W+D (≥4 points) or critical choice | Advanced Xenoarch Lab, World-Seeding Protocol, Autonomous Scaling Protocol |
+
+---
+
+## Branch Distribution (Tiers 0-5)
+
+| Branch | Tech Count | W Total | D Total | Notes |
+|--------|-----------|---------|---------|-------|
+| **Extraction & Mining** | 1 | 0 | 0 | Pure baseline |
+| **Logistics & Automation** | 2 | 0 | 0 | Neutral efficiency |
+| **Exploration & Scanning** | 3 | +4 | +1 | Wonder-focused discovery |
+| **Synthesis & Transformation** | 3 | +4 | +3 | Balanced progression |
+| **Temporal & Efficiency Systems** | 2 | +1 | +1 | Speed → deep time |
+| **Signal Analysis & Communication**| 2 | +1 | +2 | Dread-leaning mystery |
+| **Consciousness & Cognitive Enhancement** | 2 | +2 | +3 | Identity transformation |
+| **Habitat & Life Support**| 1 | 0 | +2 | Pure isolation/Dread |
+| **Xenoarchaeology & Artifacts** | 3 | +5 | +6 | Progressive tiers, first landmark |
+| **Scientific Research** | 3 | +10 | +4 | Branching path (Wonder vs. Sublime) |
+| **Legacy & Propagation** | 3 | +6 | +9 | Branching path (Creation vs. Consumption) |
+
+**Total:** 25 technologies | +30 Wonder | +27 Dread (nearly balanced)
+
+---
+
+## Progression Paths
+
+### Tiers 0-1: Foundation (Neutral, Industrial)
+**Total:** 8 technologies | W: +2 | D: 0
+- Establishes comfortable baseline.
+
+### Tier 2: Mystery Introduction
+**Total:** 4 technologies | W: +6 | D: +5
+- Wonder and Dread emerge. First balanced and leaning techs.
+
+### Tier 3: Weight and Commitment
+**Total:** 7 technologies | W: +6 | D: +9
+- Mystery deepens. First landmark technology (`Advanced Xenoarch Lab`).
+
+### Tiers 4-5: Path Definition
+**Total:** 6 technologies | W: +13 | D: +13
+- Two major, mutually exclusive choices define the player's philosophical stance.
+- **Scientific Research Choice:** Defines the nature of truth (Elegant vs. Paradoxical).
+- **Legacy & Propagation Choice:** Defines the player's ultimate impact (Creation vs. Consumption).
+- All Tier 5 techs are landmarks, representing a commitment to an ending trajectory.
+
+---
+
+*This diagram represents the current state of the Cosmos and Chaos technology tree as of the Session 4 design work (2025-11-26). Future sessions will expand Tiers 4-5 further and design Endgame (Tier 6+) technologies.*
 
 ### Path-Specific Flows
 
@@ -713,8 +837,6 @@ Technologies are designed to support different emotional journeys through the ga
 #### Early Game Technologies (Tiers 0-1)
 
 **Total Wonder/Dread Balance: +2 Wonder / 0 Dread**
-
-**Tier 0: Foundation (Starter Technologies)**
 
 **1. Basic Mining Laser**
 **Branch:** Extraction & Mining
