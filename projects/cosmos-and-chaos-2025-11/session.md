@@ -57,7 +57,7 @@ graph TB
     T06["<b>6. Communication Array</b>"]
     T07["<b>7. Automated Sorting</b>"]
     T08["<b>8. Thruster Upgrade I</b>"]
-    T09["<b>9. Peculiar Object Analysis</b><br/>(Xenoarchaeology)"]
+    T09["<b>9. Surface Scavenging</b><br/>(Xenoarchaeology)"]
 
     %% Tier 2
     T10["<b>10. Advanced Drilling Tech</b><br/>(Mining)"]
@@ -67,6 +67,7 @@ graph TB
     T14["<b>14. Quantum Scanner</b>"]
     T15["<b>15. Archaeological Survey</b><br/>(Xenoarchaeology)"]
     T16["<b>16. Long-Term Habitation Study</b><br/>(Habitat)"]
+    T20["<b>20. Ancient Signal Decoder</b>"]
 
     %% Tier 3
     subgraph "Tier 3 Choices"
@@ -75,7 +76,6 @@ graph TB
         T18["<b>18. Rift Mining</b>"]
     end
     T19["<b>19. Exotic Matter Refinery</b>"]
-    T20["<b>20. Ancient Signal Decoder</b>"]
     T21["<b>21. Anomaly Scanner</b>"]
     T24["<b>24. Basic Xenoarch Field Kit</b>"]
 
@@ -123,7 +123,8 @@ graph TB
     T16 -- "HABITAT CHOICE" --> T22; T16 -- "HABITAT CHOICE" --> T23
     T17 --> T27
     T18 --> T28
-    T19 --> T20; T19 --> T29
+    T19 --> T29
+    T20 --> T25
     T21 --> T24
     T24 --> T25
     T25 --> T26
@@ -134,8 +135,8 @@ graph TB
     %% Styling
     class T01,T02,T03 tier0
     class T04,T05,T06,T07,T08,T09 tier1
-    class T10,T11,T12,T13,T14,T15,T16 tier2
-    class T17,T18,T19,T20,T21,T24 tier3
+    class T10,T11,T12,T13,T14,T15,T16,T20 tier2
+    class T17,T18,T19,T21,T24 tier3
     class T22,T23,T25,T26,T27,T28,T29,T30 tier4
     class T31,T32,T33,T34 tier5
 
@@ -167,9 +168,32 @@ graph TB
 
 ---
 
-## Detailed Technology List (Tiers 3-5)
+## Detailed Technology List (Tiers 1-5 Highlights)
 
-*Note: Tiers 0-2 remain foundational. Tiers 3-5 have been restructured for pacing and friction.*
+*Note: Tiers 0-2 are mostly foundational, but the "Discovery" branch has been accelerated to Tier 1 to allow early exploration.*
+
+### Tier 0: Foundational Updates
+
+**3. Cargo Bay I** (Balanced - Tier 0)
+- *Benefit:* Unlocks standard storage modules. Increases initial resource capacity (e.g., to 1000 units).
+- *Mechanic:* Essential for buffering resources, ensuring production doesn't halt when away, and increasing global resource cap to afford larger upgrades.
+- *Stats:* +0 Wonder / +0 Dread.
+
+### Tier 1 & 2: Early Discovery Updates
+*Focus: Scavenging, Listening, and Basic Identification.*
+
+**9. Surface Scavenging** (Balanced - Tier 1)
+- *Replaces:* Peculiar Object Analysis.
+- *Benefit:* Basic mining lasers now have a 2% chance to extract "Unidentified Shards" alongside ore.
+- *Stats:* +1 Wonder / +0 Dread.
+- *Note:* Unlocks the inventory for artifacts early.
+
+**20. Ancient Signal Decoder** (Dread - Tier 2)
+- *Moved:* From Tier 3 to Tier 2.
+- *Benefit:* Decrypts weak background signals into Lore Logs and Coordinates.
+- *Stats:* +0 Wonder / +2 Dread.
+- *Penalty:* **Signal Noise.** Efficiency -10% for every "Rift Mining" or "Void Siphon" tech active (Future-proofing).
+- *Requirement:* Critical for unlocking the **Advanced Xenoarch Lab** in Tier 4.
 
 ### Tier 3: The Industrial Expansion
 *Focus: Mining, Refining, and Basic Xenoarchaeology.*
@@ -186,11 +210,6 @@ graph TB
 **19. Exotic Matter Refinery** (Balanced)
 - *Benefit:* Refines ores into stable dark matter.
 - *Stats:* +1 Wonder / +1 Dread.
-
-**20. Ancient Signal Decoder** (Dread)
-- *Benefit:* Translates background radiation into blueprints.
-- *Stats:* +0 Wonder / +2 Dread.
-- *Penalty:* **Signal Noise.** Efficiency -10% for every "Rift Mining" or "Void Siphon" tech active.
 
 **21. Anomaly Scanner** (Balanced)
 - *Benefit:* Highlights potential artifact locations.
@@ -216,6 +235,7 @@ graph TB
 **25. Advanced Xenoarch Lab** (Dread - Landmark)
 - *Benefit:* Safely analyzes dangerous, reality-warping artifacts.
 - *Stats:* +0 Wonder / +3 Dread.
+- *Requirement:* **Must have T20 Ancient Signal Decoder.** You cannot study the artifacts if you cannot read the warnings.
 
 **26. Consciousness Crystal** (Balanced)
 - *Benefit:* Uploads crew minds into crystal storage for immortality.
@@ -419,3 +439,31 @@ Wonder should feel like unlocking power through understanding and unity, removin
 
 ### Session 7: Habitat Branch Overhaul & Final Polish ✓
 ... (rest of the session history)
+
+## Storage Mechanics: How Do You Hold the Universe?
+
+This section defines how resource storage works, blending capacity management with the game's core Wonder/Dread themes.
+
+### 1. The Core Mechanic: Capacity as a Buffer
+*   **Global Cap & Progression Gate:** All resources (Ore, etc.) are subject to a global storage capacity. This capacity acts as a gate, preventing players from accumulating enough resources for expensive upgrades until sufficient storage is built.
+    *   *Example:* Cannot afford a 1,000 Ore Refinery if global storage cap is only 500.
+*   **Overflow & Idle Time Buffer:** When global storage reaches its cap, all production (mining, refining, etc.) will halt. Cargo Bays are built to extend this buffer, allowing for longer periods of idle gameplay without wasted production.
+
+### 2. The Thematic Twist: How Storage Evolves with Wonder and Dread
+
+#### Wonder Storage: "The Archive" (Compression & Flow)
+*   **Philosophy:** "Space is infinite if you fold it correctly." This path focuses on efficiency, organization, and making the most of limited physical space.
+*   **Mechanics:**
+    *   **Deep Storage:** Wonder-aligned storage facilities provide massive capacity increases per unit of physical space.
+    *   **Flow Optimization:** Storage automatically "sorts" and "compresses" resources. This grants a passive bonus to *Refining Speed* based on how full the storage is (e.g., "Pressure bonus"). A full, Wonder-aligned silo feeds processing facilities faster.
+*   **Visual/Flavor:** Clean, modular, and internally lit data banks; resources appear perfectly ordered and contained.
+
+#### Dread Storage: "The Hoard" (Unstable Expansion & Risk)
+*   **Philosophy:** "Just pile it up. If it falls over, pile it higher." This path prioritizes raw quantity and immediate gains, often at significant risk.
+*   **Mechanics:**
+    *   **Over-Capacity (The "Bulge"):** Dread-aligned storage allows players to exceed 100% of their stated capacity (e.g., up to 200%).
+    *   **Structural Stress:** Once storage capacity is exceeded, the station incurs "Structural Stress." This can manifest as:
+        *   Passive, continuous damage to station integrity.
+        *   Random "Hull Breaches" resulting in the instant loss of a significant portion (e.g., 50%) of the hoarded resources.
+    *   **Strategic Risk:** Allows players to rush expensive upgrades early by accumulating resources beyond safe limits, but demands constant vigilance and acceptance of potential catastrophic losses.
+*   **Visual/Flavor:** Chaotic piles of raw materials, external containers bolted haphazardly to the hull, leaking fluids, and visible stress fractures.
