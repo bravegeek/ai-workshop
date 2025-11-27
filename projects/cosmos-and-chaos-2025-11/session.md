@@ -213,6 +213,14 @@ graph TB
 - *Penalty:* **Signal Noise.** Efficiency -10% for every "Rift Mining" or "Void Siphon" tech active (Future-proofing).
 - *Requirement:* Critical for unlocking the **Advanced Xenoarch Lab** in Tier 4.
 
+**11. Advanced Propulsion** (Balanced - Tier 2)
+- *Requirement:* T08 Thruster Upgrade I.
+- *Function:* Unlocks movement between Deep Belt Sectors.
+- *Wonder Path:* **"Gravity Sails."** Silent, efficient, passive movement.
+- *Dread Path:* **"Null-Wake Drive."** Deletes space to move.
+    - *Benefit:* Instant travel.
+    - *Cost:* **"Chronological Erosion."** Offline resource generation decays. Replaced by "Void Essence" which creates bursts of active speed.
+
 ### Tier 3: The Industrial Expansion
 *Focus: Mining, Refining, and Basic Xenoarchaeology.*
 
@@ -402,6 +410,7 @@ This section explores how direct player actions and passive offline periods can 
     *   **"Nightmare Logs":** Disturbing, fragmented messages from crew, suggesting unknown occurrences, resource disappearances, or the feeling of being watched, potentially causing "Fear" debuffs.
     *   **"Temporal Dilation Anomalies":** The offline timer shows wildly different values ("You were away for 3 days... or was it 300 years?"), and resource piles are unexpectedly altered (higher or lower), suggesting external manipulation.
     *   **"Resource Desecration":** Stored resources might be consumed or transformed into dangerous "Void Dust" or worthless slag.
+    *   **"The Chronological Erosion":** (From Null-Wake Drive) Offline time generates "Void Essence" instead of resources. Essence can be burned for massive, violent speed bursts during active play.
 
 ### 3. Achievements (Milestones)
 *   **Standard Mechanic:** Rewards for reaching specific milestones (e.g., "Mine 1,000 Ore").
@@ -479,12 +488,6 @@ This section defines how resource storage works, blending capacity management wi
 *   **Visual/Flavor:** Chaotic piles of raw materials, external containers bolted haphazardly to the hull, leaking fluids, and visible stress fractures.
 
 ---
-
-## Pending Tasks (To-Do)
-
-1.  **Flesh out the "Consciousness" Branch (Tier 4 `Consciousness Crystal` is currently a dead end).**
-2.  **Detail the "Xenoarchaeology" Artifacts (What exactly are those shards we are finding in Tier 1?).**
-3.  **Refine the "Habitat" mechanics (How does `Bio-Domes` vs `Suspended Animation` actually play out?).**
 
 ## Gameplay Experience: Wonder vs. Dread
 

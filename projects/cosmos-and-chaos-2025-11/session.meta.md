@@ -1,16 +1,27 @@
-## Session 12 Meta-Analysis (2025-11-27) - Gameplay Experience Defined
+## Session 13 Meta-Analysis (2025-11-27) - Dread Propulsion & Temporal Mechanics
 
 ### Session Metadata
 - **Date:** 2025-11-27
-- **Focus:** Articulating the core gameplay experience differences between High Wonder (W+) and High Dread (D+) paths.
+- **Focus:** Defining the narrative and mechanics of the Dread Propulsion branch (`T11`).
 - **Model Used:** Gemini
-- **Search Queries:** None (internal analysis and creative articulation)
+- **Search Queries:** None (internal analysis and creative brainstorming)
 
 ### Agent Reasoning & Design Process
 
-This session aimed to create a "North Star" document for the game's core feel, ensuring all future design decisions align with the intended player experience.
+The user challenged the "consequence" of the Dread Propulsion system, pushing for a more disturbing, reality-bending mechanic suitable for an idle game.
 
-1.  **Distilling the Core Contrast:** We synthesized all previous mechanics (Tick Rate, Automation, Storage, UI Glitches) into overarching gameplay philosophies for W+ and D+. The goal was to move beyond feature lists to an emotional and experiential description.
-2.  **Analogies and Summaries:** The user's input of "luxury car" vs. "rat rod with rocket engine" was integrated as it perfectly encapsulated the intended feel for replayability. A clear summary table was created for quick reference.
-3.  **Documentation:** A new "Gameplay Experience" section was added to `session.md` to serve as a high-level guide for all future design and development.
-4.  **Outcome:** We now have a clear, concise statement of the game's intended player experience, which will be invaluable for maintaining thematic and mechanical consistency as we flesh out remaining branches and details.
+1.  **Initial Narrative:** We established the "Mobile Predator" theme. Wonder surfs gravity; Dread eats space.
+2.  **Refining the Dread Drive:**
+    *   *Concept:* **"The Null-Wake Drive."** It pulls the ship by deleting the space behind it, severing the ship from causality.
+    *   *Visual:* Smearing stars into a black scar.
+    *   *Audio:* The sound of tearing fabric.
+3.  **The Mechanical Challenge:** How to make "reality violation" matter in an idle game?
+    *   *Initial Idea:* "Void Scars" (dead zones). User rejected this as inconsequential.
+    *   *Revised Idea:* **"Chronological Erosion."** High Dread reduces *Offline Efficiency*. The universe "forgets" to calculate your production because you've severed your timeline.
+4.  **Solving the "Idle" Paradox:** To prevent rage-quitting, we converted the penalty into a different gameplay loop.
+    *   **The Trade-off:** Instead of Ore, offline time generates **"Void Essence."**
+    *   **The Payoff:** Essence is burned during active play for massive speed bursts (e.g., 50x speed).
+    *   **The Result:** Dread players trade "Passive Growth" for "Active Bursts." They still get their resources, but they have to "force" them into existence upon returning.
+5.  **Outcome:** A unique mechanic that reinforces the "Dread = Active/Intense/Spiky" vs "Wonder = Passive/Calm/Smooth" dichotomy defined in the previous session.
+
+This session successfully transformed a standard "speed upgrade" into a core narrative mechanic that alters the player's daily interaction rhythm.
