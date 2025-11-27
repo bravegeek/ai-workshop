@@ -624,66 +624,6 @@ Xenoarchaeology → Signals → Research → Consciousness
 
 ---
 
-## Key Design Decisions Summary
-
-| Aspect | Decision | Rationale |
-|--------|----------|-----------|
-| **Game Nature** | Idle game, no death, low stress | Challenge is optimization, not survival |
-| **Core Mechanic** | Asteroid mining & refining | Fits idle game better than defense |
-| **Player Interaction** | Choosing tech tree upgrades only | Elegant constraint: tech tree IS narrative interface |
-| **Narrative Arc** | Mystery/Discovery | Aligns with progressive design philosophy |
-| **Emotional Framework** | 2D: Wonder × Dread (independent) | Richer than single spectrum, allows nuance |
-| **Player Paths** | Industrial Magnate, Explorer, Witness | Goals as interpretive lenses (3 × 4 = 12 endings) |
-| **Narrative Tracking** | Tech choices reveal emotional lens | Emergent interpretation through gameplay |
-| **Weighting System** | Gentle Gradients (1-2 pts, landmarks 3-5) | Organic emergence, player freedom to evolve |
-| **Dread Management** | Hybrid (tech + context + thresholds) | Industrial path: build-up + relief mechanics |
-| **Wonder/Dread Feedback** | The Cosmic Lens (emergent visibility) | Ambient starfield widget, evocative not transactional |
-| **Mechanical Effects** | Yields, gates, events, aesthetics | 5-15% variance, subtle reinforcement |
-| **Tech Tree Structure** | 11 major branches | Mining, Logistics, Exploration, Xenoarch, Research, Signals, Synthesis, Temporal, Consciousness, Habitat, Legacy |
-| **Decision Timing** | Real-time during waves | Active engagement, constant strategic pressure |
-| **UI/UX** | Persistent sidebar + contextual highlights | Accessibility + guidance without overwhelm |
-| **Progression** | Hybrid (prerequisites + flexible + breakthroughs) | Strategic depth with freedom and clear goals |
-| **Acquisition** | TBD | Paused for narrative development |
-
----
-
-## Next Steps
-
-### Session 2 Completed ✓
-- [x] Select expert role for narrative development (Narrative Systems Designer)
-- [x] Complete narrative/universe interview phase
-- [x] Define 2D emotional framework (Wonder × Dread)
-- [x] Establish three player paths as interpretive lenses
-- [x] Design 12-ending framework
-- [x] Connect "Cosmos and Chaos" theme to story
-
-### Session 3: Narrative Implementation (Future)
-- [ ] Design concrete tech tree branches with emotional weights
-- [ ] Draft specific ending scenarios for each path × quadrant
-- [ ] Develop narrative signposting (how players understand position)
-- [ ] Create path-specific events that reinforce each lens
-- [ ] Design narrative breadcrumbs and discovery progression
-- [ ] Define replayability and discovery mechanisms
-
-### Session 4: Mechanics & Systems (Future)
-- [ ] Return to Question 4: Technology Acquisition Mechanics
-- [ ] Define resource economy and balancing
-- [ ] Outline initial technology examples (Wonder/Dread weights)
-- [ ] Design dread management mechanics for Industrial path
-- [ ] Plan observation/insight mechanics for Witness path
-- [ ] Design discovery/exploration mechanics for Explorer path
-
-### Session 5: MVP Planning (Future)
-- [ ] Define MVP scope and feature set
-- [ ] Plan first playable prototype
-- [ ] Choose technical implementation approach
-- [ ] Design minimal viable tech tree
-- [ ] Plan initial narrative content
-
----
-
----
-
 ### Session 3: Technology Tree Design ✓
 
 **Date:** 2025-11-26
@@ -692,7 +632,7 @@ Xenoarchaeology → Signals → Research → Consciousness
 
 #### Session Summary
 
-This session focused on designing the concrete technology tree for Cosmos and Chaos, building on the 11-branch framework established in previous sessions. We defined 17 technologies across Early Game (Tiers 0-1) and Mid Game (Tiers 2-3), establishing Wonder/Dread weights, unlock requirements, and progression philosophy.
+This session focused on designing the concrete technology tree for Cosmos and Chaos, building on the 11-branch framework established in previous sessions. We defined 19 technologies across Early Game (Tiers 0-1) and Mid Game (Tiers 2-3), establishing Wonder/Dread weights, unlock requirements, and progression philosophy.
 
 **Key Achievement:** Balanced progression curve that starts neutral (industrial mining focus) and gradually introduces Wonder and Dread themes through meaningful player choices.
 
@@ -858,7 +798,7 @@ Technologies are designed to support different emotional journeys through the ga
 
 #### Mid Game Technologies (Tiers 2-3)
 
-**Total Wonder/Dread Balance: +9 Wonder / +12 Dread**
+**Total Wonder/Dread Balance: +12 Wonder / +14 Dread**
 
 **Tier 2: Deepening Mystery**
 
@@ -963,23 +903,97 @@ Technologies are designed to support different emotional journeys through the ga
 **Effect:** +25% all yields, philosophical insight events, identity questions deepen
 **Rationale:** Balanced but intense. Witness path support. Power + cost equally weighted. Flexible prerequisite allows choice between basic field research or deep laboratory understanding - both paths lead to consciousness expansion.
 
-**Mid Game Design Notes:**
-- Wonder total: +10 (scientific achievement, discovery, revelation)
-- Dread total: +13 (isolation, transformation, existential weight)
-- Progression is Dread-leaning but balanced
-- Introduces mystery without overwhelming player
-- Xenoarchaeology branch now has progressive tiers: Anomaly Scanner → Field Kit → Laboratory
-- Advanced Xenoarchaeology Laboratory (#18) is first true landmark (5 points total)
-- Consciousness thread begins raising identity questions
+---
 
-#### Technology Tree Balance Summary
+### Session 4: Late Game Technology Design ✓
 
-**Cumulative Totals (Tiers 0-3):**
+**Date:** 2025-11-26
+**Focus:** Late Game (Tiers 4-5) technology design, narrative-mechanical alignment
+**Expert Role:** Game Systems Designer
 
-**Total Technologies Designed:** 19
-**Total Wonder:** +14
-**Total Dread:** +14
-**Net Balance:** Perfectly Balanced (0 difference)
+#### Session Summary
+
+This session focused on designing Late Game technologies to fill the empty `Scientific Research` and `Legacy & Propagation` branches. The core achievement was the creation of a "branch within a branch" design pattern that forces major philosophical choices, directly supporting player agency and path differentiation. We also analyzed and identified a key narrative-mechanical dissonance to be addressed in future designs.
+
+#### Design Analysis: The "Haunted Tycoon" Problem
+
+Before designing new techs, we analyzed the existing tree. We identified a primary imbalance:
+
+- **The Narrative-Mechanical Dissonance:** The **Industrial Magnate** path is narratively framed as a "Haunted Tycoon," meant to feel the weight of their exploitation. However, their core mechanical path (Mining, Logistics, Synthesis) is almost entirely neutral, with Dread being sourced from external/optional branches rather than from the act of industrialization itself.
+- **Action Item:** Future industrial-focused techs must consider introducing choices that offer efficiency at a clear Dread cost, making the "Haunted" feeling an earned consequence of the player's choices.
+
+We also flagged the `Void Habitat Module` as potentially problematic if it's a mandatory progression gate rather than an optional choice, as this would reduce player agency for those on a low-Dread path.
+
+#### Late Game Technologies (Tiers 4-5)
+
+To address the empty branches and provide meaningful Late Game choices, we designed two branching paths.
+
+##### Scientific Research Branch
+
+This branch begins with a foundational breakthrough and then splits into two mutually exclusive sub-paths, forcing the player to define the nature of the "truth" they wish to pursue.
+
+**20. Grand Unification Theory (Tier 4)**
+- **Branch:** Scientific Research
+- **Prerequisites:** Exotic Matter Refinery
+- **Wonder/Dread:** +3 Wonder / +1 Dread
+- **Description:** "A single, elegant equation that describes all fundamental forces. The universe is a symphony, and you've found the sheet music. The sheer simplicity of it is beautiful, and a little unnerving."
+- **Effect:** Unlocks the `Theory of Cosmic Harmonics` and `Paradoxical Loop Analysis` technologies.
+
+*Player must choose one of the following two technologies:*
+
+**21. Theory of Cosmic Harmonics (Tier 5)**
+- **Branch:** Scientific Research
+- **Prerequisites:** Grand Unification Theory
+- **Wonder/Dread:** +4 Wonder / 0 Dread
+- **Description:** "Focuses on the beauty and stability of the unified equation. You research how to align your systems with the universe's natural resonance."
+- **Effect:** Provides a global 10% boost to the effects of all other Wonder-generating technologies.
+
+**22. Paradoxical Loop Analysis (Tier 5)**
+- **Branch:** Scientific Research
+- **Prerequisites:** Grand Unification Theory
+- **Wonder/Dread:** +3 Wonder / +3 Dread
+- **Description:** "Focuses on the equation's loopholes—the parts that allow for causality violations and paradoxes. You've learned the rules of reality just so you can study how they break."
+- **Effect:** Provides a global 5% boost to the effects of *both* Wonder and Dread-generating technologies.
+
+##### Legacy & Propagation Branch
+
+This branch introduces self-replicating probes and forces a monumental choice about what legacy the player will leave behind. It provides a crucial, high-stakes choice for the Industrial Magnate.
+
+**23. Von Neumann Probes (Tier 4)**
+- **Branch:** Legacy & Propagation
+- **Prerequisites:** Material Synthesis I, Advanced Propulsion
+- **Wonder/Dread:** +1 Wonder / +3 Dread
+- **Description:** "The first self-replicating probes. They mine asteroids and use the materials to build perfect copies of themselves. A small step towards an infinite industrial army."
+- **Effect:** Unlocks the `World-Seeding Protocol` and `Autonomous Scaling Protocol` technologies.
+
+*Player must choose one of the following two technologies:*
+
+**24. World-Seeding Protocol (Tier 5)**
+- **Branch:** Legacy & Propagation
+- **Prerequisites:** Von Neumann Probes
+- **Wonder/Dread:** +5 Wonder / 0 Dread
+- **Description:** "The probes' new directive: seek out barren rocks and transform them into life-bearing worlds. Your legacy is a billion blooming gardens scattered across the void."
+- **Effect:** Generates passive Wonder over time. Unlocks "Genesis" endings.
+
+**25. Autonomous Scaling Protocol (Tier 5)**
+- **Branch:** Legacy & Propagation
+- **Prerequisites:** Von Neumann Probes
+- **Wonder/Dread:** 0 Wonder / +6 Dread
+- **Description:** "Re-tasks the probes with a single, overriding directive: maximize resource acquisition efficiency. All matter is reclassified as 'unclaimed assets' for integration. The system is now fully autonomous to ensure perpetual growth. The process is irreversible."
+- **Effect:** Mining and replication efficiency increases exponentially. Unlocks "Quiet Apocalypse" endings.
+
+---
+
+## Updated Technology Tree Balance Summary
+
+With the addition of 6 Late Game technologies, the balance of the tree has evolved.
+
+**Cumulative Totals (Tiers 0-5):**
+
+- **Total Technologies Designed:** 25
+- **Total Wonder:** +30
+- **Total Dread:** +27
+- **Net Balance:** +3 Wonder (Slightly Wonder-leaning overall, maintaining agency)
 
 **Balance by Tier:**
 
@@ -989,237 +1003,65 @@ Technologies are designed to support different emotional journeys through the ga
 | 1 (Early Expansion) | 5 | +1 | 0 | +1 Wonder |
 | 2 (Deepening Mystery) | 4 | +6 | +5 | +1 Wonder |
 | 3 (Weight Increases) | 7 | +6 | +9 | +3 Dread |
-| **Subtotal (0-3)** | **19** | **+14** | **+14** | **Balanced (0)** |
-
-**Balance by Branch:**
-
-| Branch | Technologies | Wonder | Dread | Notes |
-|--------|--------------|--------|-------|-------|
-| Extraction & Mining | 1 | 0 | 0 | Pure baseline |
-| Exploration & Scanning | 3 | +4 | +1 | Wonder-focused |
-| Logistics & Automation | 2 | 0 | 0 | Neutral efficiency |
-| Synthesis & Transformation | 3 | +4 | +3 | Balanced progression |
-| Temporal & Efficiency | 2 | +1 | +1 | Neutral with hints |
-| Signal Analysis | 2 | +1 | +2 | Dread-leaning mystery |
-| Consciousness | 2 | +2 | +3 | Dread-leaning transformation |
-| Habitat & Life Support | 1 | 0 | +2 | Pure Dread (isolation) |
-| Xenoarchaeology | 3 | +5 | +6 | Progressive tiers, landmark Laboratory (5 pts) |
-
-**Design Rationale:**
-
-**Why Perfectly Balanced?**
-1. **Player Agency:** Equal Wonder and Dread totals allow players true freedom to choose their emotional trajectory
-2. **Path Support:** Supports all three player paths equally (Industrial Magnate, Intrepid Explorer, The Witness)
-3. **Xenoarchaeology Redesign:** The two-tier split (Field Kit vs Laboratory) provides meaningful choice without forcing a single path
-4. **Narrative Arc:** Mystery introduces both wonder (discovery) and dread (implications) equally as it deepens
-5. **Late Game Room:** Perfect balance in Tiers 0-3 leaves maximum design space for divergence in Tiers 4-6+
-6. **Contrast Setup:** Early neutral baseline (Tiers 0-1: +2W/0D) makes mid-game weight (Tiers 2-3: +12W/+14D) feel significant
-
-**Progression Philosophy:**
-- Early game: Comfort zone (familiar, safe, industrial)
-- Mid game: Mystery introduction (strange but manageable)
-- Late game: Commitment (path divergence, meaningful choices)
-- Endgame: Culmination (extreme values, endings)
+| 4 (Late Game Start) | 2 | +4 | +4 | Balanced (0) |
+| 5 (Late Game Choice) | 4 | +12 | +9 | +3 Wonder |
+| **Total (0-5)** | **25** | **+30** | **+27** | **+3 Wonder** |
 
 ---
 
-### Design Changelog
+## Key Design Decisions Summary
 
-#### Xenoarchaeology Branch Redesign (2025-11-26)
+| Aspect | Decision | Rationale |
+|--------|----------|-----------|
+| **Game Nature** | Idle game, no death, low stress | Challenge is optimization, not survival |
+| **Core Mechanic** | Asteroid mining & refining | Fits idle game better than defense |
+| **Player Interaction** | Choosing tech tree upgrades only | Elegant constraint: tech tree IS narrative interface |
+| **Narrative Arc** | Mystery/Discovery | Aligns with progressive design philosophy |
+| **Emotional Framework** | 2D: Wonder × Dread (independent) | Richer than single spectrum, allows nuance |
+| **Player Paths** | Industrial Magnate, Explorer, Witness | Goals as interpretive lenses (3 × 4 = 12 endings) |
+| **Narrative Tracking** | Tech choices reveal emotional lens | Emergent interpretation through gameplay |
+| **Weighting System** | Gentle Gradients (1-2 pts, landmarks 3-5) | Organic emergence, player freedom to evolve |
+| **Dread Management** | Hybrid (tech + context + thresholds) | Industrial path: build-up + relief mechanics |
+| **Wonder/Dread Feedback**| The Cosmic Lens (emergent visibility) | Ambient starfield widget, evocative not transactional |
+| **Mechanical Effects** | Yields, gates, events, aesthetics | 5-15% variance, subtle reinforcement |
+| **Tech Tree Structure** | 11 major branches | Mining, Logistics, Exploration, Xenoarch, Research, Signals, Synthesis, Temporal, Consciousness, Habitat, Legacy |
+| **Decision Timing** | Real-time during waves | Active engagement, constant strategic pressure |
+| **UI/UX** | Persistent sidebar + contextual highlights | Accessibility + guidance without overwhelm |
+| **Progression** | Hybrid (prerequisites + flexible + breakthroughs) | Strategic depth with freedom and clear goals |
+| **Acquisition** | TBD | Paused for narrative development |
+| **Late Game Design** | Branching, mutually exclusive choices | Forces major philosophical commitment from the player, enhancing path identity. |
 
-**Problem Identified:**
-The original single Xenoarchaeology Kit technology (#16) created a prerequisite bottleneck that forced all players down the same path to access consciousness expansion technologies. This reduced player agency and created a forced narrative progression.
+---
 
-**Solution Implemented: Two-Tier Split (Option A)**
+## Next Steps
 
-**Changes Made:**
-1. **Split single technology into three progressive tiers:**
-   - **Anomaly Scanner** (Tier 3, +1W/+1D) - Entry point, reveals xenoarchaeological sites
-   - **Basic Xenoarchaeology Field Kit** (Tier 3, +2W/+2D) - Surface-level research, basic lore
-   - **Advanced Xenoarchaeology Laboratory** (Tier 3, +2W/+3D) - Deep analysis, landmark tech (5 pts total)
+### Session 4 Completed ✓
+- [x] Analyzed tech tree for narrative-mechanical dissonance.
+- [x] Identified "Haunted Tycoon" problem as a key area for improvement.
+- [x] Designed foundational Late Game (Tiers 4-5) technologies for `Scientific Research` and `Legacy & Propagation`.
+- [x] Established "branch within a branch" design pattern for major philosophical choices.
+- [x] Refined corporate horror tone for high-Dread technologies.
 
-2. **Updated Consciousness Crystal Synthesis prerequisites:**
-   - **Old:** Required Deep Neural Link I AND Xenoarchaeology Kit (forced single path)
-   - **New:** Requires Deep Neural Link I AND (Basic Field Kit OR Advanced Laboratory)
-   - **Result:** Players can choose shallow exploration or deep commitment
+### Session 5: Late Game & Endgame Design (Future)
+- [ ] Continue filling out Tiers 4-5 for other key branches (e.g., `Advanced Consciousness`, `Temporal Manipulation`).
+- [ ] Design Endgame (Tier 6+) technologies that serve as final trajectory lock-ins for the 12 endings.
+- [ ] Draft specific ending scenarios for each path × quadrant.
+- [ ] Develop narrative signposting (how players understand their trajectory).
+- [ ] Design specific mechanics to address the "Haunted Tycoon" problem in the industrial branches.
 
-3. **Updated technology numbering:**
-   - Anomaly Scanner: #16
-   - Basic Xenoarchaeology Field Kit: #17
-   - Advanced Xenoarchaeology Laboratory: #18
-   - Consciousness Crystal Synthesis: #19 (renumbered from #17)
+### Session 6: Mechanics & Systems (Future)
+- [ ] Return to Question 4: Technology Acquisition Mechanics.
+- [ ] Define resource economy and balancing for late/endgame.
+- [ ] Design dread management mechanics for Industrial path.
 
-**Impact on Balance:**
-- **Technology count:** Increased from 17 to 19 technologies in Tiers 0-3
-- **Wonder total:** Increased from +11 to +14 (+3 Wonder from new xenoarch techs)
-- **Dread total:** Increased from +12 to +14 (+2 Dread from new xenoarch techs)
-- **Net balance:** Changed from slightly Dread-leaning (+1D) to **perfectly balanced (0 difference)**
-- **Tier 3 distribution:** Increased from 5 to 7 technologies
-- **Xenoarchaeology branch:** Increased from 1 to 3 technologies
-
-**Impact on Gameplay:**
-1. **Meaningful Choice:** Players decide how deep to explore xenoarchaeology based on their path
-   - Industrial Magnate: Can take Field Kit for minimal commitment, focus elsewhere
-   - Intrepid Explorer: Can choose either path based on curiosity level
-   - The Witness: Can pursue deep Laboratory research for maximum understanding
-
-2. **Narrative Pacing:** Progressive revelation of ancient mysteries
-   - Anomaly Scanner: "Something's out there" (detection)
-   - Field Kit: "We can study it" (surface understanding)
-   - Laboratory: "We can truly understand it... and we wish we couldn't" (deep knowledge)
-
-3. **Cost Distribution:** Spreads xenoarchaeology investment across multiple tiers
-   - Total cost to Laboratory: 20,000 Metal + 1,350 Exotic Matter (across 3 techs)
-   - Alternative route (Field Kit only): 10,000 Metal + 600 Exotic Matter
-   - Provides economic choice: expensive deep dive or cheaper surface exploration
-
-4. **Path Flexibility:** Removes the "Xenoarchaeology Kit prerequisite problem"
-   - Players no longer forced into single 8,000 Metal investment
-   - Can access consciousness expansion with moderate (Field Kit) or deep (Laboratory) xenoarch commitment
-   - Supports diverse playstyles and interpretations
-
-**Design Philosophy:**
-This redesign embodies the core principle that **player agency drives narrative interpretation**. By offering choice at the prerequisite level, we create two meaningful paths to consciousness expansion that reflect different relationships with the mystery:
-- **Field Kit path:** "I'm curious but cautious - surface knowledge is enough"
-- **Laboratory path:** "I must understand completely, regardless of cost"
-
-Both paths are valid. Both lead to consciousness expansion. But they arrive with different emotional weight and narrative context.
-
-**Future Considerations:**
-- Late-game xenoarchaeology technologies (Tiers 4+) should continue this branching pattern
-- Consider whether other branches benefit from similar "shallow vs deep" splits
-- Ensure ending scenarios account for Field Kit vs Laboratory distinction in narrative interpretation
-
-#### Remaining Work: Late Game & Endgame
-
-**Late Game (Tiers 4-5) - To Be Designed:**
-
-**Target Count:** 12-15 technologies
-**Estimated Wonder/Dread Range:** Individual techs 2-4 points, landmarks 4-5 points
-**Purpose:** Path differentiation and meaningful commitment
-
-**Branches to Expand:**
-- **Scientific Research** (currently 0 techs) - Theoretical breakthroughs, cross-tree synergies
-- **Legacy & Propagation** (currently 0 techs) - Self-replication, monuments, successor systems
-- **Advanced Consciousness** - Identity dissolution vs cosmic awareness
-- **Deep Xenoarchaeology** - Understanding the Architects, activating artifacts
-- **Temporal Manipulation** - Moving beyond speed into causality
-- **Advanced Habitat** - Thriving ecosystems vs sterile survival
-- **Signal Response Systems** - Deciding whether to answer the void
-
-**Key Design Goals:**
-1. Create clear Wonder-heavy and Dread-heavy paths
-2. Introduce landmark choices (3-5 point swings)
-3. Support all four player paths distinctly
-4. Foreshadow ending trajectories
-5. Create meaningful trade-offs (can't have everything)
-
-**Endgame (Tier 6+) - To Be Designed:**
-
-**Target Count:** 8-12 technologies
-**Estimated Wonder/Dread Range:** 4-6+ points per tech
-**Purpose:** Final trajectory lock, ending determination
-
-**Branch Focus:**
-- **Consciousness (Transcendence)** - Becoming vs losing self
-- **Legacy (Propagation)** - Beautiful legacy vs industrial horror
-- **Xenoarchaeology (Truth)** - Following the Architects' path
-- **Synthesis (Reality-Bending)** - Creating vs destroying
-- **Temporal (Deep Time)** - Operations spanning eons
-
-**Ending Gates:**
-Each quadrant needs 2-3 ultimate technologies that define final state:
-- **Comfort Ending:** Low W/Low D techs (routine mastery)
-- **Awe Ending:** High W/Low D techs (transcendent discovery)
-- **Horror Ending:** Low W/High D techs (industrial nightmare)
-- **Sublime Ending:** High W/High D techs (terrible enlightenment)
-
-#### Design Principles Established
-
-**1. Progression Curve:**
-- Start neutral/familiar
-- Introduce themes gradually
-- Escalate meaningfully
-- Create clear inflection points
-
-**2. Player Agency:**
-- No forced paths
-- Can rebalance trajectory
-- Gentle gradients allow exploration
-- Landmarks create commitment moments
-
-**3. Branch Philosophy:**
-Each branch serves specific emotional purpose:
-- **Extraction, Logistics, Temporal (early)** = Comfort baseline
-- **Exploration, Research** = Wonder sources
-- **Signals, Xenoarchaeology** = Mystery/Dread sources
-- **Consciousness, Synthesis** = Transformation (high stakes)
-- **Habitat** = Isolation reflection
-- **Legacy** = Endgame meaning-making
-
-**4. Description Writing:**
-Technology descriptions should:
-- Start with mechanical/scientific framing
-- Introduce emotional undertone subtly
-- Avoid explicit "this is scary" statements
-- Let implications speak for themselves
-- Use second person ("you feel...") for connection
-
-**5. Cost Scaling:**
-- Tier 0: 50-150 Metal
-- Tier 1: 300-700 Metal
-- Tier 2: 2000-3500 Metal
-- Tier 3: 5000-10,000 Metal + Exotic Matter
-- Future tiers will introduce additional resource types
-
-#### Session Meta Notes
-
-**What Worked:**
-- Four archetypal paths framework provides clear design direction
-- Independent Wonder/Dread dimensions create nuanced choices
-- Progression curve philosophy (neutral → mystery → weight) feels natural
-- Technology descriptions successfully blend mechanics and emotion
-
-**Design Insights:**
-- Early game needs to be boring (creates contrast for later strangeness)
-- Xenoarchaeology Kit as first major landmark (5 points) felt right
-- Consciousness technologies naturally high-stakes (identity questions)
-- Habitat branch is pure atmospheric Dread (isolation without wonder)
-
-**Challenges Remaining:**
-- Need to design Scientific Research branch (0 techs so far)
-- Legacy & Propagation needs careful framing (empire vs horror)
-- Balancing four paths while maintaining shared tech tree
-- Ensuring 4 path endings all feel distinct and satisfying
-
-**Questions for Future Sessions:**
-1. Should every technology be available to all paths, or should some be path-exclusive?
-2. How explicit should ending thresholds be to players?
-3. Should late-game introduce resource types beyond Metal/Exotic Matter?
-4. How many landmark technologies (4-5+ points) is the right number?
-
-#### Cosmic Lens Discussion (In Progress)
-
-**Context:** Discussed implementation details for the Wonder/Dread feedback widget
-
-**Key Questions Identified:**
-1. **Appearance Timing:** First landmark tech, cumulative threshold, or narrative gate?
-2. **Transition Style:** Gradual fade-in, sudden manifestation, or environmental build-up?
-3. **Update Triggers:** Continuous (every tech) or discrete (landmarks only)?
-4. **Information Display:** Absolute state only, or trajectory/momentum?
-5. **Metaphysics:** Internal phenomenon, external reality, or both/neither?
-
-**Agent Analysis:**
-- Cosmic Lens is "phenomenological mirror" of player's emotional state
-- Starfield viewport: brightness = Wonder, density = Dread
-- Should appear after emotional threshold (design question: which threshold?)
-- Could evolve from passive feedback to active decision-making tool
-- Path-dependent interpretation paths could show different visual styles or interpretations
-
-*Cosmic Lens implementation details deferred for future design session*
+### Session 7: MVP Planning (Future)
+- [ ] Define MVP scope and feature set.
+- [ ] Plan first playable prototype.
+- [ ] Design minimal viable tech tree and narrative content.
 
 ---
 
 *Session started: 2025-11-25*
 *Last updated: 2025-11-26*
-*Technology tree session: 2025-11-26*
+*Technology tree session (T0-3): 2025-11-26*
+*Late Game session (T4-5): 2025-11-26*
