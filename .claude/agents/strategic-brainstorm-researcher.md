@@ -86,10 +86,15 @@ Your process follows these phases:
 
 9. **Path Forward**: Based on their selection:
    - If they want to proceed now: Begin research and analysis
-   - If they want to save: Create a brainstorming summary document with the research plan
-   - Either way, create documentation following Phase 5 guidelines
+   - If they want to save for later: Ask user to confirm they want to save, then execute Phase 5 documentation
+   - **After completing research OR when user signals completion**: ALWAYS execute Phase 5 to create session.md, session.meta.md, and research.md (if applicable)
 
-## PHASE 5: DOCUMENTATION (Automatic at Session End)
+## PHASE 5: DOCUMENTATION (REQUIRED - Execute when user says "save", "done", "summarize", or similar)
+
+**IMPORTANT**: This phase is MANDATORY and must be executed whenever:
+- User says "save", "document", "summarize", "we're done", or similar completion signals
+- User indicates the session is ending or they want to capture the work
+- You have completed all phases of the CRI process
 
 10. **Project Structure**: Create a new directory using the project name from Phase 3:
     - **Directory format**: `projects/[project-name]-YYYY-MM/`

@@ -682,5 +682,455 @@ Xenoarchaeology → Signals → Research → Consciousness
 
 ---
 
+---
+
+### Session 3: Technology Tree Design ✓
+
+**Date:** 2025-11-26
+**Focus:** Technology tree structure, Wonder/Dread weighting, and progression design
+**Expert Role:** Game Systems Designer (progression curves, balance, meaningful choice)
+
+#### Session Summary
+
+This session focused on designing the concrete technology tree for Cosmos and Chaos, building on the 11-branch framework established in previous sessions. We defined 17 technologies across Early Game (Tiers 0-1) and Mid Game (Tiers 2-3), establishing Wonder/Dread weights, unlock requirements, and progression philosophy.
+
+**Key Achievement:** Balanced progression curve that starts neutral (industrial mining focus) and gradually introduces Wonder and Dread themes through meaningful player choices.
+
+#### Technology Design Framework
+
+**The Four Archetypal Paths:**
+
+Technologies are designed to support different emotional journeys through the game:
+
+**1. Comfort Path (Low Wonder, Low Dread)**
+- Routine, efficient operations
+- Competence and mastery satisfaction
+- Industrial achievement without cosmic weight
+- Example: "I'm just really good at mining"
+
+**2. Awe Path (High Wonder, Low Dread)**
+- Pure discovery and exploration
+- Scientific curiosity fulfilled
+- Optimistic space-age progress
+- Example: "The universe is amazing and I'm learning its secrets"
+
+**3. Horror Path (Low Wonder, High Dread)**
+- Exploitation and consequences
+- Isolation and existential weight
+- Industrial horror realization
+- Example: "I've gone too far and lost something essential"
+
+**4. Cosmic/Sublime Path (High Wonder, High Dread)**
+- Beautiful and terrible simultaneously
+- Profound understanding with heavy cost
+- The price of enlightenment
+- Example: "I see the truth and it's magnificent and horrifying"
+
+**Progression Curve Philosophy:**
+
+**Early Game (Tiers 0-1):**
+- Mostly 0/0 neutral (familiar industrial operations)
+- Minimal Wonder introductions (+1 W maximum)
+- Zero Dread (no cosmic weight yet)
+- **Purpose:** Establish baseline, teach mechanics, create comfort zone
+
+**Mid Game (Tiers 2-3):**
+- Wonder and Dread both increase
+- Balanced but Dread-leaning (reflects mystery deepening)
+- Players start making meaningful emotional choices
+- **Purpose:** Introduce tension, reveal strangeness, create stakes
+
+**Late Game (Tiers 4-5) - Not Yet Designed:**
+- Wonder and Dread escalate significantly
+- Clear path differentiation emerges
+- Landmark choices (3-5 point weights)
+- **Purpose:** Commit to emotional trajectory, meaningful consequences
+
+**Endgame (Tier 6+) - Not Yet Designed:**
+- Extreme Wonder and/or Dread values (4-6+ points)
+- Path-defining technologies
+- Lead to specific endings
+- **Purpose:** Culmination of player's emotional journey
+
+**Wonder and Dread as Independent Dimensions:**
+
+**Wonder Axis:**
+- Measures discovery, understanding, beauty, cosmic significance
+- "How amazing/beautiful/profound is this?"
+- Sources: Scientific breakthroughs, ancient mysteries, consciousness expansion
+
+**Dread Axis:**
+- Measures cost, isolation, existential weight, consequences
+- "What am I losing/risking/becoming?"
+- Sources: Exploitation, deep time, loneliness, transformation
+
+**Key Principle:** Wonder and Dread are NOT opposites. You can have:
+- High Wonder + High Dread = The Sublime (beautiful terror)
+- Low Wonder + Low Dread = The Mundane (routine operations)
+- High Wonder + Low Dread = Pure Discovery (optimistic exploration)
+- Low Wonder + High Dread = Pure Horror (extraction without meaning)
+
+#### Early Game Technologies (Tiers 0-1)
+
+**Total Wonder/Dread Balance: +2 Wonder / 0 Dread**
+
+**Tier 0: Foundation (Starter Technologies)**
+
+**1. Basic Mining Laser**
+**Branch:** Extraction & Mining
+**Cost:** 50 Metal
+**Prerequisites:** None (starter tech)
+**Wonder/Dread:** 0/0
+**Description:** "Standard industrial drill. Cuts through rock, extracts ore. Nothing fancy."
+**Effect:** +10% mining yield
+**Rationale:** Pure baseline. Establishes industrial framing with zero cosmic weight.
+
+**2. Ore Scanner**
+**Branch:** Exploration & Scanning
+**Cost:** 100 Metal
+**Prerequisites:** None
+**Wonder/Dread:** +1 Wonder / 0 Dread
+**Description:** "Spectroscopic analyzer identifies ore composition from a distance. The universe reveals its secrets to those who look."
+**Effect:** +15% rare material detection
+**Rationale:** First Wonder introduction. Scientific curiosity without consequences. Frames exploration positively.
+
+**3. Cargo Bay I**
+**Branch:** Logistics & Automation
+**Cost:** 150 Metal
+**Prerequisites:** None
+**Wonder/Dread:** 0/0
+**Description:** "Expanded storage. More ore per trip. Simple economics."
+**Effect:** +20% storage capacity
+**Rationale:** Pure efficiency. Supports Industrial Magnate path's comfort zone.
+
+**Tier 1: Early Expansion**
+
+**4. Refinery Module**
+**Branch:** Synthesis & Transformation
+**Cost:** 300 Metal
+**Prerequisites:** Basic Mining Laser
+**Wonder/Dread:** 0/0
+**Description:** "Process raw ore into refined materials on-site. Reduces trips, increases profit."
+**Effect:** Unlocks Refined Metal resource (2x value)
+**Rationale:** Economic advancement without thematic weight. Foundation for future transformation techs.
+
+**5. Long-Range Sensors**
+**Branch:** Exploration & Scanning
+**Cost:** 400 Metal
+**Prerequisites:** Ore Scanner
+**Wonder/Dread:** +1 Wonder / 0 Dread
+**Description:** "Detect asteroids thousands of kilometers away. The void is less empty than it seems."
+**Effect:** +25% asteroid discovery rate, unlocks distant regions
+**Rationale:** Reinforces Wonder theme of revelation. "The universe has more than you thought."
+
+**6. Communication Array**
+**Branch:** Signal Analysis & Communication
+**Cost:** 500 Metal
+**Prerequisites:** None
+**Wonder/Dread:** 0/0
+**Description:** "Maintain contact with orbital stations. Routine check-ins. Background chatter from home."
+**Effect:** Unlocks mission/contract system
+**Rationale:** Connection to humanity. Baseline normal. Sets up future isolation/signal contrast.
+
+**7. Automated Sorting**
+**Branch:** Logistics & Automation
+**Cost:** 600 Metal
+**Prerequisites:** Cargo Bay I
+**Wonder/Dread:** 0/0
+**Description:** "Smart conveyors route materials automatically. Saves time, reduces errors."
+**Effect:** +30% processing efficiency
+**Rationale:** Industrial competence. Player feels smart, not cosmic. Supports Comfort path.
+
+**8. Thruster Upgrade I**
+**Branch:** Temporal & Efficiency Systems
+**Cost:** 700 Metal
+**Prerequisites:** Basic Mining Laser
+**Wonder/Dread:** 0/0
+**Description:** "Faster acceleration between asteroids. Time is money."
+**Effect:** +20% travel speed
+**Rationale:** Pure utility. Frames time in economic terms (foreshadows late-game temporal manipulation).
+
+**Early Game Design Notes:**
+- Only 2 points of Wonder total (from scanning/exploration)
+- Zero Dread = safe, comfortable, familiar
+- Establishes "mining is normal business" baseline
+- Creates foundation for contrast when mystery begins
+
+#### Mid Game Technologies (Tiers 2-3)
+
+**Total Wonder/Dread Balance: +9 Wonder / +12 Dread**
+
+**Tier 2: Deepening Mystery**
+
+**9. Advanced Propulsion**
+**Branch:** Temporal & Efficiency Systems
+**Cost:** 2000 Metal
+**Prerequisites:** Thruster Upgrade I
+**Wonder/Dread:** +1 Wonder / +1 Dread
+**Description:** "Experimental ion drives push deeper into the belt. Distances that once took weeks now take days. You're farther from help than any miner has gone."
+**Effect:** +50% travel speed, unlocks Deep Belt regions
+**Rationale:** First balanced W/D tech. Wonder = technological achievement, Dread = isolation. Distance = consequence.
+
+**10. Material Synthesis I**
+**Branch:** Synthesis & Transformation
+**Cost:** 2500 Metal
+**Prerequisites:** Refinery Module
+**Wonder/Dread:** +2 Wonder / +1 Dread
+**Description:** "Recombine elements at the atomic level. You're not just finding resources anymore—you're making them. It feels like alchemy."
+**Effect:** Can convert common materials into rare ones (low efficiency)
+**Rationale:** Wonder-leaning. Scientific power/breakthrough, but with hint of "playing god" unease.
+
+**11. Deep Neural Link I**
+**Branch:** Consciousness & Cognitive Enhancement
+**Cost:** 3000 Metal
+**Prerequisites:** Automated Sorting
+**Wonder/Dread:** +1 Wonder / +2 Dread
+**Description:** "Direct interface between your mind and ship systems. You think and the ship responds. Efficient. Intimate. Sometimes you forget where you end and it begins."
+**Effect:** +40% all efficiency, mental strain events begin appearing
+**Rationale:** Dread-leaning. Powerful but unsettling. Identity questions start. Supports all paths.
+
+**12. Quantum Scanner**
+**Branch:** Exploration & Scanning
+**Cost:** 3500 Metal
+**Prerequisites:** Long-Range Sensors
+**Wonder/Dread:** +2 Wonder / +1 Dread
+**Description:** "Sensors operating on quantum entanglement principles. You see things before light could reach you. The asteroids feel… aware of your gaze."
+**Effect:** +50% rare material detection, occasional strange readings
+**Rationale:** Wonder-leaning but eerie. Technology is amazing, but observer effect hints creep in.
+
+**Tier 3: The Weight Increases**
+
+**13. Exotic Matter Refinery**
+**Branch:** Synthesis & Transformation
+**Cost:** 5000 Metal, 500 Rare Materials
+**Prerequisites:** Material Synthesis I
+**Wonder/Dread:** +2 Wonder / +2 Dread
+**Description:** "Process materials that shouldn't exist according to standard physics. They're beautiful under the microscope—crystalline, shimmering, wrong. Your handbook has no entry for this."
+**Effect:** Unlocks Exotic Matter resource (high value, enables advanced techs)
+**Rationale:** Balanced Sublime. First "this shouldn't exist" moment. Beautiful + unsettling equally.
+
+**14. Void Habitat Module**
+**Branch:** Habitat & Life Support
+**Cost:** 6000 Metal
+**Prerequisites:** Communication Array
+**Wonder/Dread:** 0 Wonder / +2 Dread
+**Description:** "Living quarters for extended deep-space operations. Soundproofed walls. Recycled air. The silence between messages grows longer. Earth is a distant memory."
+**Effect:** Enables operations in remote regions, isolation events increase
+**Rationale:** Pure Dread tech. Necessary for progress but emphasizes loneliness. No cosmic wonder, just emptiness.
+
+**15. Ancient Signal Decoder**
+**Branch:** Signal Analysis & Communication
+**Cost:** 7000 Metal, 200 Exotic Matter
+**Prerequisites:** Communication Array, Exotic Matter Refinery
+**Wonder/Dread:** +1 Wonder / +2 Dread
+**Description:** "Tuned to frequencies older than human radio. Sometimes you hear patterns. Rhythms. Almost like… language. But no one is supposed to be out here."
+**Effect:** Unlocks ancient signal events, xenoarchaeology breadcrumbs
+**Rationale:** Dread-leaning mystery. SETI enthusiasm becomes "we are not alone (and that's terrifying)."
+
+**16. Xenoarchaeology Kit**
+**Branch:** Xenoarchaeology & Artifacts
+**Cost:** 8000 Metal, 500 Exotic Matter
+**Prerequisites:** Ancient Signal Decoder
+**Wonder/Dread:** +2 Wonder / +3 Dread
+**Description:** "Tools for analyzing alien structures discovered in the belt. They're old. Impossibly old. And they're waiting to be understood. Or perhaps they're understanding you."
+**Effect:** Enables artifact research, reveals ancient civilization lore
+**Rationale:** Dread-leaning but high Wonder. Most significant weight so far (5 total). Landmark tech that shifts narrative tone.
+
+**17. Consciousness Crystal Synthesis**
+**Branch:** Consciousness & Cognitive Enhancement
+**Cost:** 10,000 Metal, 1000 Exotic Matter
+**Prerequisites:** Deep Neural Link I, Xenoarchaeology Kit
+**Wonder/Dread:** +1 Wonder / +1 Dread
+**Description:** "Crystalline structures that interface with neural patterns. Ancient technology or natural phenomenon? The distinction matters less than the result: expanded awareness. Uncomfortable clarity."
+**Effect:** +25% all yields, philosophical insight events, identity questions deepen
+**Rationale:** Balanced but intense. Witness path support. Power + cost equally weighted.
+
+**Mid Game Design Notes:**
+- Wonder total: +9 (scientific achievement, discovery, revelation)
+- Dread total: +12 (isolation, transformation, existential weight)
+- Progression is Dread-leaning but balanced
+- Introduces mystery without overwhelming player
+- Xenoarchaeology Kit (#16) is first true landmark (5 points total)
+- Consciousness thread begins raising identity questions
+
+#### Technology Tree Balance Summary
+
+**Cumulative Totals (Tiers 0-3):**
+
+**Total Technologies Designed:** 17
+**Total Wonder:** +11
+**Total Dread:** +12
+**Net Balance:** Slightly Dread-leaning (+1 Dread)
+
+**Balance by Tier:**
+
+| Tier | Technologies | Wonder | Dread | Net Balance |
+|------|--------------|--------|-------|-------------|
+| 0 (Foundation) | 3 | +1 | 0 | +1 Wonder |
+| 1 (Early Expansion) | 5 | +1 | 0 | +1 Wonder |
+| 2 (Deepening Mystery) | 4 | +6 | +5 | +1 Wonder |
+| 3 (Weight Increases) | 5 | +3 | +7 | +4 Dread |
+| **Subtotal (0-3)** | **17** | **+11** | **+12** | **+1 Dread** |
+
+**Balance by Branch:**
+
+| Branch | Technologies | Wonder | Dread | Notes |
+|--------|--------------|--------|-------|-------|
+| Extraction & Mining | 1 | 0 | 0 | Pure baseline |
+| Exploration & Scanning | 3 | +4 | +1 | Wonder-focused |
+| Logistics & Automation | 2 | 0 | 0 | Neutral efficiency |
+| Synthesis & Transformation | 3 | +4 | +3 | Balanced progression |
+| Temporal & Efficiency | 2 | +1 | +1 | Neutral with hints |
+| Signal Analysis | 2 | +1 | +2 | Dread-leaning mystery |
+| Consciousness | 2 | +2 | +3 | Dread-leaning transformation |
+| Habitat & Life Support | 1 | 0 | +2 | Pure Dread (isolation) |
+| Xenoarchaeology | 1 | +2 | +3 | Landmark tech (5 total) |
+
+**Design Rationale:**
+
+**Why Slightly Dread-Leaning?**
+1. **Narrative Arc:** Mystery naturally introduces unease as it deepens
+2. **Contrast Setup:** Early neutral baseline makes mid-game weight feel significant
+3. **Path Support:** Allows Industrial Magnate (default Dread) and Witness (balanced) paths to feel natural
+4. **Late Game Room:** Leaves space for Wonder to catch up or Dread to escalate in Tiers 4-6+
+5. **Player Agency:** Players can choose Wonder-heavy techs to balance if desired
+
+**Progression Philosophy:**
+- Early game: Comfort zone (familiar, safe, industrial)
+- Mid game: Mystery introduction (strange but manageable)
+- Late game: Commitment (path divergence, meaningful choices)
+- Endgame: Culmination (extreme values, endings)
+
+#### Remaining Work: Late Game & Endgame
+
+**Late Game (Tiers 4-5) - To Be Designed:**
+
+**Target Count:** 12-15 technologies
+**Estimated Wonder/Dread Range:** Individual techs 2-4 points, landmarks 4-5 points
+**Purpose:** Path differentiation and meaningful commitment
+
+**Branches to Expand:**
+- **Scientific Research** (currently 0 techs) - Theoretical breakthroughs, cross-tree synergies
+- **Legacy & Propagation** (currently 0 techs) - Self-replication, monuments, successor systems
+- **Advanced Consciousness** - Identity dissolution vs cosmic awareness
+- **Deep Xenoarchaeology** - Understanding the Architects, activating artifacts
+- **Temporal Manipulation** - Moving beyond speed into causality
+- **Advanced Habitat** - Thriving ecosystems vs sterile survival
+- **Signal Response Systems** - Deciding whether to answer the void
+
+**Key Design Goals:**
+1. Create clear Wonder-heavy and Dread-heavy paths
+2. Introduce landmark choices (3-5 point swings)
+3. Support all four player paths distinctly
+4. Foreshadow ending trajectories
+5. Create meaningful trade-offs (can't have everything)
+
+**Endgame (Tier 6+) - To Be Designed:**
+
+**Target Count:** 8-12 technologies
+**Estimated Wonder/Dread Range:** 4-6+ points per tech
+**Purpose:** Final trajectory lock, ending determination
+
+**Branch Focus:**
+- **Consciousness (Transcendence)** - Becoming vs losing self
+- **Legacy (Propagation)** - Beautiful legacy vs industrial horror
+- **Xenoarchaeology (Truth)** - Following the Architects' path
+- **Synthesis (Reality-Bending)** - Creating vs destroying
+- **Temporal (Deep Time)** - Operations spanning eons
+
+**Ending Gates:**
+Each quadrant needs 2-3 ultimate technologies that define final state:
+- **Comfort Ending:** Low W/Low D techs (routine mastery)
+- **Awe Ending:** High W/Low D techs (transcendent discovery)
+- **Horror Ending:** Low W/High D techs (industrial nightmare)
+- **Sublime Ending:** High W/High D techs (terrible enlightenment)
+
+#### Design Principles Established
+
+**1. Progression Curve:**
+- Start neutral/familiar
+- Introduce themes gradually
+- Escalate meaningfully
+- Create clear inflection points
+
+**2. Player Agency:**
+- No forced paths
+- Can rebalance trajectory
+- Gentle gradients allow exploration
+- Landmarks create commitment moments
+
+**3. Branch Philosophy:**
+Each branch serves specific emotional purpose:
+- **Extraction, Logistics, Temporal (early)** = Comfort baseline
+- **Exploration, Research** = Wonder sources
+- **Signals, Xenoarchaeology** = Mystery/Dread sources
+- **Consciousness, Synthesis** = Transformation (high stakes)
+- **Habitat** = Isolation reflection
+- **Legacy** = Endgame meaning-making
+
+**4. Description Writing:**
+Technology descriptions should:
+- Start with mechanical/scientific framing
+- Introduce emotional undertone subtly
+- Avoid explicit "this is scary" statements
+- Let implications speak for themselves
+- Use second person ("you feel...") for connection
+
+**5. Cost Scaling:**
+- Tier 0: 50-150 Metal
+- Tier 1: 300-700 Metal
+- Tier 2: 2000-3500 Metal
+- Tier 3: 5000-10,000 Metal + Exotic Matter
+- Future tiers will introduce additional resource types
+
+#### Session Meta Notes
+
+**What Worked:**
+- Four archetypal paths framework provides clear design direction
+- Independent Wonder/Dread dimensions create nuanced choices
+- Progression curve philosophy (neutral → mystery → weight) feels natural
+- Technology descriptions successfully blend mechanics and emotion
+
+**Design Insights:**
+- Early game needs to be boring (creates contrast for later strangeness)
+- Xenoarchaeology Kit as first major landmark (5 points) felt right
+- Consciousness technologies naturally high-stakes (identity questions)
+- Habitat branch is pure atmospheric Dread (isolation without wonder)
+
+**Challenges Remaining:**
+- Need to design Scientific Research branch (0 techs so far)
+- Legacy & Propagation needs careful framing (empire vs horror)
+- Balancing four paths while maintaining shared tech tree
+- Ensuring 4 path endings all feel distinct and satisfying
+
+**Questions for Future Sessions:**
+1. Should every technology be available to all paths, or should some be path-exclusive?
+2. How explicit should ending thresholds be to players?
+3. Should late-game introduce resource types beyond Metal/Exotic Matter?
+4. How many landmark technologies (4-5+ points) is the right number?
+
+#### Cosmic Lens Discussion (In Progress)
+
+**Context:** Discussed implementation details for the Wonder/Dread feedback widget
+
+**Key Questions Identified:**
+1. **Appearance Timing:** First landmark tech, cumulative threshold, or narrative gate?
+2. **Transition Style:** Gradual fade-in, sudden manifestation, or environmental build-up?
+3. **Update Triggers:** Continuous (every tech) or discrete (landmarks only)?
+4. **Information Display:** Absolute state only, or trajectory/momentum?
+5. **Metaphysics:** Internal phenomenon, external reality, or both/neither?
+
+**Agent Analysis:**
+- Cosmic Lens is "phenomenological mirror" of player's emotional state
+- Starfield viewport: brightness = Wonder, density = Dread
+- Should appear after emotional threshold (design question: which threshold?)
+- Could evolve from passive feedback to active decision-making tool
+- Path-dependent interpretation paths could show different visual styles or interpretations
+
+*Cosmic Lens implementation details deferred for future design session*
+
+---
+
 *Session started: 2025-11-25*
 *Last updated: 2025-11-26*
+*Technology tree session: 2025-11-26*
