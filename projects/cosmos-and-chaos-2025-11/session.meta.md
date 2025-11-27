@@ -1,19 +1,21 @@
-## Session 10 Meta-Analysis (2025-11-27) - Storage Mechanics Implementation
+## Session 11 Meta-Analysis (2025-11-27) - Tier 2 Storage Expansion
 
 ### Session Metadata
 - **Date:** 2025-11-27
-- **Focus:** Defining Storage Mechanics, integrating global capacity, buffer functionality, and Wonder/Dread thematic influences.
+- **Focus:** Expanding the Tech Tree with Wonder/Dread Storage technologies.
 - **Model Used:** Gemini
 - **Search Queries:** None (internal analysis and edit)
 
 ### Agent Reasoning & Design Process
 
-This session aimed to transform a basic "Cargo Bay" tech into a central strategic mechanic that reinforces the core Wonder/Dread choices.
+Following the definition of the Storage Mechanics, the user requested specific technologies to implement these concepts.
 
-1.  **Addressing the "Cargo Bay" Ambiguity:** The initial `T03 Cargo Bay I` was a vague stat increase. The goal was to make storage a meaningful decision point.
-2.  **Blending Core Idle Mechanics:** We combined "Global Cap" (classic progression gate) with "Overflow Buffer" (Factorio-lite production buffer). This ensures storage is critical both for unlocking new technologies and for optimizing idle gains over long periods.
-3.  **Thematic Integration (Wonder/Dread):**
-    *   **Wonder Storage ("The Archive"):** Focused on efficiency and conceptual manipulation of space (compression). Rewards intelligent layout and provides flow bonuses (Refining Speed).
-    *   **Dread Storage ("The Hoard"):** Focused on risky, brute-force expansion beyond safe limits (over-capacity). Introduces "Structural Stress" and "Hull Breaches" as direct consequences of aggressive hoarding, reinforcing the game's risk/reward Dread theme.
-4.  **Tech Tree Update:** `T03 Cargo Bay I` was updated in the detailed tech list to reflect its foundational role in this new system. This involved adding a new "Tier 0 Updates" section.
-5.  **Outcome:** Storage is no longer a passive numerical upgrade but a dynamic system with distinct strategic implications, directly influencing player choices and reinforcing the Wonder/Dread narrative through unique benefits and risks.
+1.  **Tech Placement:** We identified **Tier 2** as the logical place for advanced storage, branching off from `T07: Automated Sorting` (Tier 1 Logistics).
+2.  **Technology Design:**
+    *   **Wonder: T35 Matter Compression.** Implements the "Archive" concept. The mechanical hook is the "Pressure Feed" (refinery speed bonus when full), rewarding players for maintaining high stock levels efficiently.
+    *   **Dread: T36 External Cargo Webbing.** Implements the "Hoard" concept. The hook is "Overfill" (200% capacity) with a "Drag" penalty (thruster efficiency), creating a risk/reward trade-off suitable for Dread.
+3.  **Integration:**
+    *   Updated the Mermaid diagram to include the new branch.
+    *   Updated the detailed list.
+    *   Updated the "Logistics & Automation" branch count in the summary table.
+4.  **Outcome:** The tech tree now has 36 total technologies, maintaining perfect Wonder/Dread symmetry (+41/+41) while adding depth to the Logistics branch.

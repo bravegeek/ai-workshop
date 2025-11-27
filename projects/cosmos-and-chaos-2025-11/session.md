@@ -68,6 +68,12 @@ graph TB
     T15["<b>15. Archaeological Survey</b><br/>(Xenoarchaeology)"]
     T16["<b>16. Long-Term Habitation Study</b><br/>(Habitat)"]
     T20["<b>20. Ancient Signal Decoder</b>"]
+    
+    subgraph "Tier 2 Storage Choice"
+        direction LR
+        T35["<b>35. Matter Compression</b><br/>(Storage)"]
+        T36["<b>36. External Cargo Webbing</b><br/>(Storage)"]
+    end
 
     %% Tier 3
     subgraph "Tier 3 Choices"
@@ -112,6 +118,7 @@ graph TB
     T05 --> T14; T05 --> T15
     T06 --> T20
     T07 --> T13
+    T07 -- "STORAGE CHOICE" --> T35; T07 -- "STORAGE CHOICE" --> T36
     T08 --> T11
     T09 --> T15
     T10 -- "MINING CHOICE" --> T17; T10 -- "MINING CHOICE" --> T18
@@ -135,13 +142,13 @@ graph TB
     %% Styling
     class T01,T02,T03 tier0
     class T04,T05,T06,T07,T08,T09 tier1
-    class T10,T11,T12,T13,T14,T15,T16,T20 tier2
+    class T10,T11,T12,T13,T14,T15,T16,T20,T35,T36 tier2
     class T17,T18,T19,T21,T24 tier3
     class T22,T23,T25,T26,T27,T28,T29,T30 tier4
     class T31,T32,T33,T34 tier5
 
-    class T02,T05,T09,T12,T14,T17,T22,T27,T29,T31,T33 wonderHeavy
-    class T13,T18,T20,T23,T28,T30 dreadHeavy
+    class T02,T05,T09,T12,T14,T17,T22,T27,T29,T31,T33,T35 wonderHeavy
+    class T13,T18,T20,T23,T28,T30,T36 dreadHeavy
     class T11,T15,T19,T21,T24,T26,T32 balanced
     class T25,T28,T34 landmarkDread
 ```
@@ -153,7 +160,7 @@ graph TB
 | Branch | Tech Count | W Total | D Total | Notes |
 |--------|-----------|---------|---------|-------|
 | **Extraction & Mining** | 6 | +4 | +12 | Robust branching path for industrial players. |
-| **Logistics & Automation**| 2 | 0 | 0 | Neutral efficiency. |
+| **Logistics & Automation**| 4 | +2 | +2 | Added Tier 2 Storage Choice. |
 | **Exploration & Scanning**| 3 | +4 | +1 | Wonder-focused discovery. |
 | **Synthesis & Transformation**| 3 | +4 | +3 | Balanced progression. |
 | **Temporal & Efficiency**| 2 | +1 | +1 | Speed → deep time. |
@@ -164,7 +171,7 @@ graph TB
 | **Scientific Research** | 3 | +10 | +4 | **New Requirement:** High Science needs High Industry. |
 | **Legacy & Propagation** | 3 | +6 | +11| Merged, ultimate Dread choice. |
 
-**Total:** 34 technologies | **+39 Wonder** | **+39 Dread** (Symmetric Count, Asymmetric Play)
+**Total:** 36 technologies | **+41 Wonder** | **+41 Dread** (Symmetric Count, Asymmetric Play)
 
 ---
 
@@ -179,14 +186,25 @@ graph TB
 - *Mechanic:* Essential for buffering resources, ensuring production doesn't halt when away, and increasing global resource cap to afford larger upgrades.
 - *Stats:* +0 Wonder / +0 Dread.
 
-### Tier 1 & 2: Early Discovery Updates
-*Focus: Scavenging, Listening, and Basic Identification.*
+### Tier 1 & 2: Early Discovery & Storage Updates
+*Focus: Scavenging, Listening, Storage Choice, and Basic Identification.*
 
 **9. Surface Scavenging** (Balanced - Tier 1)
 - *Replaces:* Peculiar Object Analysis.
 - *Benefit:* Basic mining lasers now have a 2% chance to extract "Unidentified Shards" alongside ore.
 - *Stats:* +1 Wonder / +0 Dread.
 - *Note:* Unlocks the inventory for artifacts early.
+
+**35. Matter Compression** (Wonder - Tier 2 Storage Choice)
+- *Benefit:* **"Pressure Feed."** When storage is >90% full, Refinery speed increases by 15%.
+- *Stats:* +2 Wonder / +0 Dread.
+- *Theme:* Efficiency through density.
+
+**36. External Cargo Webbing** (Dread - Tier 2 Storage Choice)
+- *Benefit:* **"The Hoard."** Allows Overfill up to 200% capacity.
+- *Stats:* +0 Wonder / +2 Dread.
+- *Penalty:* **"Drag."** Thruster efficiency -20% when overfilled. Risk of structural damage.
+- *Theme:* Quantity over safety.
 
 **20. Ancient Signal Decoder** (Dread - Tier 2)
 - *Moved:* From Tier 3 to Tier 2.
