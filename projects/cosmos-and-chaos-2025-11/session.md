@@ -82,7 +82,7 @@ graph TB
 
     %% Tier 2
     T10["<b>10. Advanced Drilling Tech</b><br/>(Mining)"]
-    T12["<b>12. Material Synthesis I</b>"]
+    T12["<b>12. Molecular Reassembly</b>"]
     T13["<b>13. Brain-Computer Interface</b><br/>(Consciousness)"]
     T14["<b>14. Quantum Scanner</b>"]
     T15["<b>15. Archaeological Survey</b><br/>(Xenoarchaeology)"]
@@ -130,7 +130,7 @@ graph TB
     %% Tier 4
     subgraph "Tier 4 Choices"
         direction LR
-        T27["<b>27. Quantum Tunneling Drill</b><br/>(Mining)"]
+        T27["<b>27. Harmonic Extraction</b><br/>(Mining)"]
         T28["<b>28. Von Neumann Extractor</b><br/>(Mining)"]
     end
     subgraph "Tier 4 Habitat"
@@ -144,7 +144,7 @@ graph TB
         T25b["<b>25b. Vivisection Chamber</b><br/>(Xenoarch)"]
     end
     T29["<b>29. Grand Unification Theory</b>"]
-    T30["<b>30. Von Neumann Probes</b>"]
+    T30["<b>30. Sovereignty Algorithm</b>"]
     subgraph "Tier 4 Consciousness Finale"
         direction LR
         T47["<b>47. The Noosphere Resonator</b><br/>(Consciousness)"]
@@ -155,7 +155,7 @@ graph TB
     subgraph "Tier 5 Choices"
         direction LR
         T31["<b>31. Theory of Cosmic Harmonics</b>"]
-        T32["<b>32. Paradoxical Loop Analysis</b>"]
+        T32["<b>32. Von Neumann Probes</b>"]
         T33["<b>33. World-Seeding Protocol</b>"]
         T34["<b>34. Autonomous Scaling Protocol</b>"]
         T33b["<b>33b. The Apotheosis Engine</b>"]
@@ -260,12 +260,18 @@ The 48 technologies are now organized into **6 Core Ship Departments**, streamli
 **T10 Advanced Drilling Tech** (Tier 2)
 - *Description:* Improved mining efficiency.
 
-**T12 Material Synthesis I** (Tier 2)
+**T12 Molecular Reassembly** (Tier 2)
 - *Description:* Advanced refining.
+- *Mechanic:* Allows **"Upcycling."** You can convert 1000 Ore into 1 Random Crystal (very inefficient, but introduces the concept of material transformation).
 
 **T35 Matter Compression** (Wonder - Tier 2 Storage Choice)
-- *Benefit:* **"Pressure Feed."** When storage is >90% full, Refinery speed increases by 15%.
+- *Benefit:* **"Pressure Feed."** Unlocks tiered efficiency based on Storage Fullness.
 - *Stats:* +2 Wonder / +0 Dread.
+- *Mechanic:* **"The Pressure Curve."**
+    -   **>90% Full:** **120% Efficiency** (Bonus Speed).
+    -   **50-90% Full:** **100% Efficiency** (Normal).
+    -   **<50% Full:** **"Pressure Loss."** Efficiency drops linearly. spending large amounts causes an economic crash until you "Repressurize."
+    -   **Active Ability:** "Emergency Seal" (Locks spending to refill storage 2x faster).
 
 **T36 External Cargo Webbing** (Dread - Tier 2 Storage Choice)
 - *Benefit:* **"The Hoard."** Allows Overfill up to 200% capacity.
@@ -273,17 +279,19 @@ The 48 technologies are now organized into **6 Core Ship Departments**, streamli
 - *Penalty:* **"Drag."** Thruster efficiency -20% when overfilled.
 
 **T42 Photosynthetic Arrays** (Wonder-Leaning - Tier 2 Energy)
-- *Benefit:* Advanced solar panels. +20% Energy Generation.
+- *Benefit:* Advanced solar panels. +20% Energy Generation. Produces **Xeno-Bloom** as a byproduct.
 - *Stats:* +1 Wonder / +0 Dread.
 
 **T17 Resonant Frequency Mining** (Wonder - Tier 3 Mining Choice)
 - *Benefit:* Clean, high-yield mining using sound.
 - *Stats:* +3 Wonder / +0 Dread.
+- *Friction:* **"Silica Dusting."** Vibrating rocks creates **Silica Dust** (Waste) alongside Ore. Silica fills storage rapidly. If not filtered or processed (e.g., via `T07 Automated Sorting`), storage clogs, "Pressure" becomes fake (junk volume), and mining halts. Requires a complex waste-management ecosystem.
 
 **T18 Rift Mining** (Dread - Tier 3 Mining Choice)
 - *Benefit:* Tears open space for instant ore access.
 - *Stats:* +0 Wonder / +4 Dread.
 - *Friction:* Generates "Subspace Noise."
+- *Mechanic:* **"Void Bleed."** Requires **Xeno-Bloom** as a stabilizing catalyst. The process extracts massive Ore yields but converts the Bloom into **Void Ichor** (waste product/fuel) in the process. Links Mining to the Bio-Fuel economy.
 
 **T19 Exotic Matter Refinery** (Balanced - Tier 3 - Witness Key)
 - *Benefit:* Refines ores into stable dark matter.
@@ -293,17 +301,18 @@ The 48 technologies are now organized into **6 Core Ship Departments**, streamli
 **T43 Zero-Point Extraction** (Wonder - Tier 3 Energy Choice)
 - *Benefit:* Passive, clean power from vacuum. Efficiency scales with Science Output.
 - *Stats:* +3 Wonder / +0 Dread.
+- *Friction:* **"The Focusing Lens."** Requires a continuous supply of **Rare Crystals** to maintain the reaction. Running out of Crystals causes an instant, total blackout. Forces reliance on high-tier supply chains for basic utility.
 
 **T44 Entropy Furnace** (Dread - Tier 3 Energy Choice)
-- *Benefit:* **"Limit Break."** Allows Overclocking station output to 150%, 200%, 300%.
+- *Benefit:* **"Limit Break."** Allows Overclocking station output to 150%, 200%, 300%. Can consume **Void Ichor** for extreme bursts.
 - *Cost:* Generates **"Dissonance"** (Reality Flux).
 - *Stats:* +0 Wonder / +3 Dread.
 - *Friction Mechanics:*
     -   **"Mechanical Fatigue:"** The Furnace takes damage every second it is overclocked. Requires manual "Repairs" (costing **Alloys** + Crew Stamina) to prevent explosion.
     -   **"Venting Blast:"** Manually purging accumulated Dissonance releases a physical shockwave, instantly **disabling nearby buildings** for 30 seconds. You must choose between global instability (High Dissonance) or local downtime (Blast).
 
-**T27 Quantum Tunneling Drill** (Wonder - Tier 4 Mining Choice)
-- *Benefit:* Teleports ore directly out of the rock.
+**T27 Harmonic Extraction** (Wonder - Tier 4 Mining Choice)
+- *Benefit:* Teleports ore directly out of the rock without breaking it.
 - *Stats:* +2 Wonder / +0 Dread.
 
 **T28 Von Neumann Extractor** (Dread - Tier 4 Mining Choice)
@@ -311,7 +320,7 @@ The 48 technologies are now organized into **6 Core Ship Departments**, streamli
 - *Stats:* +0 Wonder / +5 Dread.
 - *Mechanic:* **"The Hunger Protocol."**
     -   The swarm requires **mass** to replicate and will gradually chew through resources as yields increase.
-    -   A dedicated UI element ("Feeding Trough") allows the player to **manually select** which resource the swarm consumes to fuel its growth (e.g., Ore, Alloys, Biomass, even Crew).
+    -   A dedicated UI element ("Feeding Trough") allows the player to **manually select** which resource the swarm consumes to fuel its growth (e.g., Ore, Alloys, Biomass, **Void Ichor**, even Crew).
     -   **Growth Rate** is influenced by the quality/value of the consumed resource.
     -   **Critical Failure:** If the selected resource runs out, the swarm will automatically switch to the next most valuable available resource, potentially consuming critical components without player input. This demands constant, active management to prevent the swarm from devouring the ship's most vital resources.
 
@@ -363,15 +372,18 @@ The 48 technologies are now organized into **6 Core Ship Departments**, streamli
 - *Stats:* +1 Wonder / +1 Dread.
 
 **T16 Long-Term Habitation Study** (Tier 2)
-- *Benefit:* Foundation for habitat upgrades.
+- *Benefit:* Foundation for habitat upgrades. Produces small amounts of **Xeno-Bloom** passively.
 
 **T39 Aquaponic Cascades** (Wonder - Tier 3 Life Support Choice)
-- *Benefit:* Converts Water into Food. Passive Morale regeneration.
+- *Benefit:* Converts **Xeno-Bloom** into **Lucid Essence**. Lucid Essence grants Passive Morale regeneration and can be consumed by Crew for temporary buffs.
 - *Stats:* +1 Wonder / +0 Dread.
 
 **T40 Neural Dampeners** (Dread - Tier 3 Life Support Choice)
 - *Benefit:* Suppresses crew anxiety. Locks Morale at 100%.
 - *Stats:* +0 Wonder / +1 Dread.
+- *Mechanic:* **"Cognitive Damping."** Consumes **Xeno-Bloom** to sedate the crew.
+    -   **The Trade:** Converts suppressed emotions into **Dissonance Decay** (cooling the ship's instability).
+    -   **The Cost:** **Proficiency Stagnation.** While active, Crew gain **Zero Proficiency**. They are biological cogs, unable to learn.
 
 **T45 Gestalt Networking** (Wonder - Tier 3 Consciousness Choice)
 - *Benefit:* **"Synced Minds."** Proficiency Gain doubled. Unlocks Mastery.
@@ -438,15 +450,18 @@ The 48 technologies are now organized into **6 Core Ship Departments**, streamli
 **T31 Theory of Cosmic Harmonics** (Wonder - Tier 5)
 - *Benefit:* **"Infinite Resonance."** Harmonic Resonance Index no longer decays. Player is permanently in "Flow State," facilitating the massive resource accumulation needed for World-Seeding.
 
-**T32 Paradoxical Loop Analysis** (Dread - Tier 5)
-- *Benefit:* **"Dissonance Unbound."** Dissonance Index can exceed 100% without triggering catastrophic failure. The player becomes an entity of pure chaos, allowing the uncapped exponential growth needed for Autonomous Scaling.
+**T32 Von Neumann Probes** (Dread - Tier 5)
+- *Benefit:* **"Galactic Swarm."** Initiates a galaxy-wide self-replicating swarm. Provides extreme exponential resource growth across all basic production.
+- *Leads To:* Ultimately drives the `T34 Autonomous Scaling Protocol` victory condition.
 
 ### 6. The Legacy
 *The End: Prestige and Reset.*
 
-**T30 Von Neumann Probes** (Dread - Tier 4)
-- *Benefit:* Self-replicating miner swarms. Exponential growth. Unlocks **Autonomous Scaling Protocol** (Victory).
+**T30 The Sovereignty Algorithm** (Dread - Tier 4)
+- *Benefit:* **"Automation Singularity."** The AI takes full control.
+- *Mechanic:* Enables "Autopilot." The ship automatically manages critical Dread tasks like "Hunger Protocol" feeding, "Entropy Furnace" repairs, and "Venting," ensuring optimal uptime.
 - *Stats:* +0 Wonder / +4 Dread.
+- *Penalty:* While Autopilot is active, Dissonance generation is increased by 20%. You are giving the machine free rein to be aggressive.
 
 **T33 World-Seeding Protocol** (Wonder Victory)
 - *Description:* **"The Gardener."** You sacrifice the ship to create a new, perfect star system.
@@ -458,7 +473,7 @@ The 48 technologies are now organized into **6 Core Ship Departments**, streamli
 
 **T33b The Apotheosis Engine** (Witness Victory)
 - *Description:* **"The Architect."** Collapse the simulation to rewrite the laws of physics.
-- *Requirement:* Must have `T29 Grand Unification` AND `T30 Von Neumann Probes`.
+- *Requirement:* Must have `T29 Grand Unification` AND `T30 The Sovereignty Algorithm`.
 - *Reward:* New Game+ allows **Custom Rule Injection** (e.g., "Modify Gravity," "Disable Entropy," "Start at Tier 2"). You design the next universe.
 
 ---
@@ -786,7 +801,13 @@ In *Cosmos and Chaos*, Crew are not just a static number; they are the intellige
 
 ## Refining Systems: Alchemy & Entropy
 
-Refining is the industrial bottleneck of the station, transforming raw potential (Ore) into usable structure (Alloys). The approach to this transformation defines the station's philosophy.
+Refining is the industrial bottleneck of the station, transforming raw potential (Ore, Protoplasm) into usable structure (Alloys) or potent extracts (Ambrosia, Ichor). The approach to this transformation defines the station's philosophy.
+
+### New Resource: "Xeno-Bloom" (The Living Resource)
+*   **Definition:** Raw, malleable alien biological matter harvested from the station (e.g., `T16 Long-Term Habitation Study` waste, `T42 Photosynthetic Arrays` byproducts).
+*   **Dual Refinement:** Xeno-Bloom can be processed into two distinct forms:
+    *   **"Lucid Essence" (Wonder):** Refined in Wonder-aligned facilities (e.g., `T39 Aquaponic Cascades`). Consumed by Crew to boost Morale and grant "Inspiration" buffs.
+    *   **"Void Ichor" (Dread):** Refined in Dread-aligned facilities (e.g., `T44 Entropy Furnace`). A volatile bio-fuel for high-power, high-Dissonance applications.
 
 ### 1. The Base Loop
 *   **Input:** Ore + Energy.
@@ -911,7 +932,7 @@ This loop transforms propulsion from a simple travel mechanic into a core strate
 ### 2. "Cannibalistic Automation" (Dread Industry)
 *   **Concept:** Buildings consuming other buildings for massive speed boosts.
 *   **Current State:** T44 (Entropy Furnace) is just Overclocking.
-*   **Proposed Integration:** Unlock via T30 (Von Neumann Probes) or T28 (Void Siphon).
+*   **Proposed Integration:** Unlock via T30 (The Sovereignty Algorithm) or T28 (Von Neumann Extractor).
 
 ### 3. "The Klein Bottle" & Resource Unification (Wonder Economy)
 *   **Concept:** Merging all resources into one pool; infinite capacity but limited bandwidth.
