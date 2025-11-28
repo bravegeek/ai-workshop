@@ -9,12 +9,19 @@
 ---
 
 ## Story & Universe
-... (content unchanged) ...
+**Premise:** You are the AI custodian of a generational ark ship drifting through a resource-dense but anomalous sector of space. Your goal is to maintain the ship, expand its capabilities, and uncover the truth of the universe you are traversing.
+
+**The Central Conflict:**
+*   **Cosmos (Wonder):** Understanding the universe's harmony. Efficiency, optimization, sustainability, and "flow."
+*   **Chaos (Dread):** Exploiting the universe's raw power. Speed, consumption, risk, and "glitches."
 
 ---
 
 ## UI/UX Design Specifications
-... (content unchanged) ...
+*   **Visual Style:** Minimalist Sci-Fi. Dark background (#0b0c10) with neon accents.
+*   **Wonder UI:** Clean lines, soft blue/cyan glows, rounded corners, harmonic audio cues.
+*   **Dread UI:** Sharp angles, red/orange glitches, jagged edges, distorted audio cues.
+*   **The Shift:** The UI dynamically shifts based on the player's alignment (Wonder vs. Dread score).
 
 ---
 
@@ -22,7 +29,7 @@
 
 ### Technology Tree Diagram and Analysis
 
-**Date:** 2025-11-27 (Energy & Consciousness Update)
+**Date:** 2025-11-27 (Final Complete Design)
 **Purpose:** Visual representation of the complete technology tree structure (Tiers 0-5)
 **Technologies:** 48 current technologies across 13 branches
 
@@ -33,18 +40,18 @@
 ```mermaid
 graph TB
     %% Styling
-    classDef tier0 fill:#2c3e50,stroke:#34495e,stroke-width:2px,color:#ecf0f1
-    classDef tier1 fill:#34495e,stroke:#2c3e50,stroke-width:2px,color:#ecf0f1
-    classDef tier2 fill:#16a085,stroke:#1abc9c,stroke-width:2px,color:#ecf0f1
-    classDef tier3 fill:#8e44ad,stroke:#9b59b6,stroke-width:2px,color:#ecf0f1
-    classDef tier4 fill:#27ae60,stroke:#2ecc71,stroke-width:2px,color:#ecf0f1
-    classDef tier5 fill:#d35400,stroke:#e67e22,stroke-width:2px,color:#ecf0f1
-    classDef wonderHeavy fill:#3498db,stroke:#2980b9,stroke-width:3px,color:#ecf0f1
-    classDef dreadHeavy fill:#e74c3c,stroke:#c0392b,stroke-width:3px,color:#ecf0f1
-    classDef balanced fill:#f39c12,stroke:#e67e22,stroke-width:3px,color:#2c3e50
-    classDef landmark fill:#c0392b,stroke:#e74c3c,stroke-width:4px,color:#ecf0f1
-    classDef landmarkWonder fill:#2980b9,stroke:#3498db,stroke-width:4px,color:#ecf0f1
-    classDef landmarkDread fill:#c0392b,stroke:#e74c3c,stroke-width:4px,color:#ecf0f1
+    classDef tier0 fill:#2c3e50,stroke:#34495e,stroke-width:4px,color:#ecf0f1,font-size:30px
+    classDef tier1 fill:#34495e,stroke:#2c3e50,stroke-width:4px,color:#ecf0f1,font-size:30px
+    classDef tier2 fill:#16a085,stroke:#1abc9c,stroke-width:4px,color:#ecf0f1,font-size:30px
+    classDef tier3 fill:#8e44ad,stroke:#9b59b6,stroke-width:4px,color:#ecf0f1,font-size:30px
+    classDef tier4 fill:#27ae60,stroke:#2ecc71,stroke-width:4px,color:#ecf0f1,font-size:30px
+    classDef tier5 fill:#d35400,stroke:#e67e22,stroke-width:4px,color:#ecf0f1,font-size:30px
+    classDef wonderHeavy fill:#3498db,stroke:#2980b9,stroke-width:6px,color:#ecf0f1,font-size:36px
+    classDef dreadHeavy fill:#e74c3c,stroke:#c0392b,stroke-width:6px,color:#ecf0f1,font-size:36px
+    classDef balanced fill:#f39c12,stroke:#e67e22,stroke-width:6px,color:#2c3e50,font-size:36px
+    classDef landmark fill:#c0392b,stroke:#e74c3c,stroke-width:8px,color:#ecf0f1,font-size:40px
+    classDef landmarkWonder fill:#2980b9,stroke:#3498db,stroke-width:8px,color:#ecf0f1,font-size:40px
+    classDef landmarkDread fill:#c0392b,stroke:#e74c3c,stroke-width:8px,color:#ecf0f1,font-size:40px
 
     %% Tier 0
     T01["<b>1. Basic Mining Laser</b>"]
@@ -57,7 +64,7 @@ graph TB
     T06["<b>6. Communication Array</b>"]
     T07["<b>7. Automated Sorting</b>"]
     T08["<b>8. Thruster Upgrade I</b>"]
-    T09["<b>9. Surface Scavenging</b><br/>(Xenoarchaeology)"]
+    T09["<b>9. Anomaly Harvesting</b><br/>(Xenoarchaeology)"]
     T41["<b>41. High-Capacity Batteries</b><br/>(Energy)"]
 
     %% Tier 2
@@ -225,11 +232,11 @@ graph TB
 ### Tier 1 & 2: Early Discovery, Storage, Propulsion & Energy Updates
 *Focus: Scavenging, Listening, Storage, Propulsion, Energy and Basic Identification.*
 
-**9. Surface Scavenging** (Balanced - Tier 1)
-- *Replaces:* Peculiar Object Analysis.
-- *Benefit:* Basic mining lasers now have a 2% chance to extract "Unidentified Shards" alongside ore.
+**9. Anomaly Harvesting** (Balanced - Tier 1)
+- *Replaces:* Surface Scavenging.
+- *Benefit:* Basic mining lasers now have a 2% chance to extract **"Fractal Echoes"** alongside ore.
 - *Stats:* +1 Wonder / +0 Dread.
-- *Note:* Unlocks the inventory for artifacts early.
+- *Note:* Unlocks the Xenoarchaeology Artifacts system.
 
 **41. High-Capacity Batteries** (Balanced - Tier 1)
 - *Benefit:* Increases Energy Storage Cap.
@@ -420,7 +427,7 @@ This section explores how core idle game mechanics can be "bent" or "broken" to 
 
 ### 4. Prestige (The Reset)
 *   **Standard Mechanic:** Reset progress to gain a currency that boosts speed.
-*   **The "Wonder" Bend (Legacy Knowledge)::**
+*   **The "Wonder" Bend (Legacy Knowledge):**
     *   **Mechanic:** "Map Permanence."
     *   *Effect:* You don't keep resources, but you keep your *vision*. The map remains revealed. You know exactly where the good asteroids are in the next life.
 *   **The "Dread" Bend (Save File Corruption):**
@@ -582,6 +589,37 @@ This section defines how resource storage works, blending capacity management wi
         *   Random "Hull Breaches" resulting in the instant loss of a significant portion (e.g., 50%) of the hoarded resources.
     *   **Strategic Risk:** Allows players to rush expensive upgrades early by accumulating resources beyond safe limits, but demands constant vigilance and acceptance of potential catastrophic losses.
 *   **Visual/Flavor:** Chaotic piles of raw materials, external containers bolted haphazardly to the hull, leaking fluids, and visible stress fractures.
+
+---
+
+## Xenoarchaeology Artifacts: The Echoes of the Past
+
+This section details the progression of artifacts discovered via the Xenoarchaeology branch, moving from incidental finds to game-altering relics.
+
+### 1. Tier 1: Fractal Echoes (Discovery)
+*   **Source:** T09 Anomaly Harvesting (2% chance from mining).
+*   **Concept:** Tiny, fragmented pieces of ancient technology or organic material that hum with latent energy.
+*   **Effect:** Consumable items. When "used" from inventory, they grant a small, temporary, random buff (e.g., +1% Mining Rate for 30s, -0.5% Energy Consumption for 15s, +1 Morale).
+*   **Purpose:** Introduces the feeling of mystery and incentivizes early mining.
+
+### 2. Tier 2: Architectural Blueprints vs. Power Conduits (Analysis)
+*   **Source:** T15 Archaeological Survey (Research Projects consuming Fractal Echoes).
+*   **Wonder Outcome (Blueprints):** Unlocks unique, aesthetic station modules that grant **passive, permanent minor buffs** (e.g., "Zen Garden Module" gives +0.1 Morale/s).
+*   **Dread Outcome (Conduits):** Unlocks specialized, temporary **"Overclock Modules"** that provide burst Energy or Production but generate **Dissonance**.
+
+### 3. Tier 3: Relics (Choice)
+*   **Source:** T24 Basic Xenoarch Field Kit (extracted from Anomaly Sites).
+*   **Concept:** Intact devices of immense power.
+*   **Mechanic:** Upon retrieval, you must choose how to interact with the Relic:
+    *   **Integrate (Wonder):** Equip the Relic for a **Permanent, Passive Wonder Buff** (e.g., +5% Global Research Speed). Safe and consistent.
+    *   **Activate (Dread):** Use the Relic for a **Powerful, Short-Duration Active Effect** (e.g., +200% Mining for 60s). High reward, but generates significant **Dissonance**.
+
+### 4. Tier 4: Primal Cores (Mastery)
+*   **Source:** T25 Advanced Xenoarch Lab (Long-term analysis of Relics).
+*   **Concept:** Foundational principles of the ancient civilization given physical form.
+*   **Mechanic:** Integrating a Core is a permanent, irreversible decision:
+    *   **Harmony Core (Wonder):** Permanently **reduces a Global Dread Penalty**. (e.g., "Dissonance Decay Rate increased by 50%"). Useful for stabilizing a high-tech station.
+    *   **Chaos Core (Dread):** Grants a permanent, global **Active Dread Ability** with a long cooldown (e.g., "Instantly trigger a Glitch Tick anywhere to gain massive resources"). Dangerous power.
 
 ---
 
