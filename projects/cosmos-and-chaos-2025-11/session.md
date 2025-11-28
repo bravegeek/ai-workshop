@@ -24,7 +24,7 @@
 
 **Date:** 2025-11-26 (Final Overhaul)
 **Purpose:** Visual representation of the complete technology tree structure (Tiers 0-5)
-**Technologies:** 36 current technologies across 11 branches
+**Technologies:** 40 current technologies across 12 branches
 
 ---
 
@@ -89,6 +89,11 @@ graph TB
     T19["<b>19. Exotic Matter Refinery</b>"]
     T21["<b>21. Anomaly Scanner</b>"]
     T24["<b>24. Basic Xenoarch Field Kit</b>"]
+    subgraph "Tier 3 Life Support Choice"
+        direction LR
+        T39["<b>39. Aquaponic Cascades</b><br/>(Life Support)"]
+        T40["<b>40. Neural Dampeners</b><br/>(Life Support)"]
+    end
 
     %% Tier 4
     subgraph "Tier 4 Choices"
@@ -131,7 +136,7 @@ graph TB
     T13 --> T26
     T14 --> T21
     T15 --> T21
-    T16 -- "HABITAT CHOICE" --> T22; T16 -- "HABITAT CHOICE" --> T23
+    T16 -- "LIFE SUPPORT CHOICE" --> T39; T16 -- "LIFE SUPPORT CHOICE" --> T40
     T17 --> T27
     T18 --> T28
     T19 --> T29
@@ -143,18 +148,20 @@ graph TB
     T30 -- "LEGACY CHOICE" --> T33; T30 -- "LEGACY CHOICE" --> T34
     T37 --> T16; T37 --> T30
     T38 --> T16; T38 --> T30
+    T39 --> T22
+    T40 --> T23
 
 
     %% Styling
     class T01,T02,T03 tier0
     class T04,T05,T06,T07,T08,T09 tier1
     class T10,T12,T13,T14,T15,T16,T20,T35,T36,T37,T38 tier2
-    class T17,T18,T19,T21,T24 tier3
+    class T17,T18,T19,T21,T24,T39,T40 tier3
     class T22,T23,T25,T26,T27,T28,T29,T30 tier4
     class T31,T32,T33,T34 tier5
 
-    class T02,T05,T09,T12,T14,T17,T22,T27,T29,T31,T33,T35,T37 wonderHeavy
-    class T13,T18,T20,T23,T28,T30,T36,T38 dreadHeavy
+    class T02,T05,T09,T12,T14,T17,T22,T27,T29,T31,T33,T35,T37,T39 wonderHeavy
+    class T13,T18,T20,T23,T28,T30,T36,T38,T40 dreadHeavy
     class T15,T19,T21,T24,T26,T32 balanced
     class T25,T28,T34 landmarkDread
 ```
@@ -172,12 +179,13 @@ graph TB
 | **Temporal & Efficiency**| 2 | +1 | +1 | Speed → deep time. |
 | **Signal Analysis**| 2 | +1 | +2 | **New Friction:** Noise from Dread Mining reduces signal clarity. |
 | **Consciousness**| 2 | +2 | +3 | Identity transformation. |
-| **Habitat & Life Support**| 3 | +3 | +5 | **New Friction:** Dread Instability increases habitat costs. |
+| **Habitat & Life Support** | 5 | +4 | +6 | Added Tier 3 Life Support Choice. |
 | **Xenoarchaeology** | 5 | +7 | +7 | Shifted T25/T26 to Tier 4 for better pacing. |
 | **Scientific Research** | 3 | +10 | +4 | **New Requirement:** High Science needs High Industry. |
 | **Legacy & Propagation** | 3 | +6 | +11| Merged, ultimate Dread choice. |
+| **Propulsion & Movement** | 2 | +2 | +2 | New Tier 2 Propulsion Choice. |
 
-**Total:** 36 technologies | **+41 Wonder** | **+41 Dread** (Symmetric Count, Asymmetric Play)
+**Total:** 40 technologies | **+46 Wonder** | **+46 Dread** (Symmetric Count, Asymmetric Play)
 
 ---
 
@@ -192,8 +200,8 @@ graph TB
 - *Mechanic:* Essential for buffering resources, ensuring production doesn't halt when away, and increasing global resource cap to afford larger upgrades.
 - *Stats:* +0 Wonder / +0 Dread.
 
-### Tier 1 & 2: Early Discovery & Storage Updates
-*Focus: Scavenging, Listening, Storage Choice, and Basic Identification.*
+### Tier 1 & 2: Early Discovery, Storage & Propulsion Updates
+*Focus: Scavenging, Listening, Storage Choice, Propulsion Choice and Basic Identification.*
 
 **9. Surface Scavenging** (Balanced - Tier 1)
 - *Replaces:* Peculiar Object Analysis.
@@ -212,6 +220,17 @@ graph TB
 - *Penalty:* **"Drag."** Thruster efficiency -20% when overfilled. Risk of structural damage.
 - *Theme:* Quantity over safety.
 
+**37. Gravity Sails** (Wonder - Tier 2 Propulsion Choice)
+- *Benefit:* **"The Pipeline."** Send a fleet to a distant resource node to establish a permanent supply line, generating passive income. While fleet is in transit, gain a temporary Science Buff.
+- *Stats:* +2 Wonder / +0 Dread.
+- *Theme:* Passive, sustainable expansion.
+
+**38. Null-Wake Drive** (Dread - Tier 2 Propulsion Choice)
+- *Benefit:* **"The Raid."** Instantly gain a massive burst of resources from a distant node.
+- *Stats:* +0 Wonder / +2 Dread.
+- *Penalty:* **"Chronological Erosion."** Offline resource generation decays. Instead, generates "Void Essence" for active speed bursts.
+- *Theme:* Immediate gain, future cost.
+
 **20. Ancient Signal Decoder** (Dread - Tier 2)
 - *Moved:* From Tier 3 to Tier 2.
 - *Benefit:* Decrypts weak background signals into Lore Logs and Coordinates.
@@ -219,16 +238,8 @@ graph TB
 - *Penalty:* **Signal Noise.** Efficiency -10% for every "Rift Mining" or "Void Siphon" tech active (Future-proofing).
 - *Requirement:* Critical for unlocking the **Advanced Xenoarch Lab** in Tier 4.
 
-**11. Advanced Propulsion** (Balanced - Tier 2)
-- *Requirement:* T08 Thruster Upgrade I.
-- *Function:* Unlocks movement between Deep Belt Sectors.
-- *Wonder Path:* **"Gravity Sails."** Silent, efficient, passive movement.
-- *Dread Path:* **"Null-Wake Drive."** Deletes space to move.
-    - *Benefit:* Instant travel.
-    - *Cost:* **"Chronological Erosion."** Offline resource generation decays. Replaced by "Void Essence" which creates bursts of active speed.
-
 ### Tier 3: The Industrial Expansion
-*Focus: Mining, Refining, and Basic Xenoarchaeology.*
+*Focus: Mining, Refining, Xenoarchaeology, and Life Support.*
 
 **17. Resonant Frequency Mining** (Wonder)
 - *Benefit:* Clean, high-yield mining using sound.
@@ -251,18 +262,30 @@ graph TB
 - *Benefit:* Allows safe extraction of small artifacts.
 - *Stats:* +1 Wonder / +1 Dread.
 
+**39. Aquaponic Cascades** (Wonder - Tier 3 Life Support Choice)
+- *Benefit:* Converts Water into Food. Passive Morale regeneration.
+- *Stats:* +1 Wonder / +0 Dread.
+- *Theme:* Cultivating life with cosmic flow.
+
+**40. Neural Dampeners** (Dread - Tier 3 Life Support Choice)
+- *Benefit:* Suppresses crew anxiety. Locks Morale at 100%, preventing Dread decay but no "Inspired" bonus.
+- *Stats:* +0 Wonder / +1 Dread.
+- *Theme:* Control through suppression.
+
 ### Tier 4: The Existential Crisis
 *Focus: Time, Consciousness, and Reality-Breaking.*
 
 **22. Integrated Bio-Domes** (Wonder - Habitat Choice)
-- *Benefit:* Creates a self-sustaining ecosystem. Passively reduces Dread over time.
+- *Benefit:* Creates a self-sustaining ecosystem. Unlocks "Inspiration" (Morale > 100%). At 200% Morale, gain "The Golden Age" buff (+50% to ALL stats).
 - *Stats:* +3 Wonder / +0 Dread.
 - *Penalty:* **Reality Instability.** Upkeep cost increases by +20% for every Dread Tech in Tier 4 (The void hates life).
+- *Requirement:* Must have T39 Aquaponic Cascades.
 
 **23. Suspended Animation Pods** (Dread - Habitat Choice)
-- *Benefit:* **Time Skip.** Allows the player to skip forward 1-50 years to instant-complete tasks.
+- *Benefit:* **"The Skeleton Crew."** Freezes 90% of crew, reducing upkeep to almost zero. Unlocks "Time Skip" ability.
 - *Stats:* +0 Wonder / +4 Dread.
-- *Cost:* High chance of "Lost Time" events (crew memory loss, facility decay).
+- *Cost:* Lose all "Human" bonuses (no Morale > 100%).
+- *Requirement:* Must have T40 Neural Dampeners.
 
 **25. Advanced Xenoarch Lab** (Dread - Landmark)
 - *Benefit:* Safely analyzes dangerous, reality-warping artifacts.
@@ -314,14 +337,14 @@ This section explores how core idle game mechanics can be "bent" or "broken" to 
 *   **Standard Mechanic:** Buildings produce X resource per second automatically.
 *   **The "Wonder" Bend (Quantum Entanglement)::**
     *   **Mechanic:** "Shared Inventory."
-    *   *Effect:* Buildings no longer need to transport resources. Ore mined *instantly* appears in the refinery. Removes all "transit time" or "logistic" delays.
+    *   *Effect:* Buildings no longer need to transport resources. Ore mined *instantly* appears in the refinery. Remoeves all "transit time" or "logistic" delays.
 *   **The "Dread" Bend (Cannibalistic Automation)::**
     *   **Mechanic:** "Self-Eating Logic."
     *   *Effect:* Your machines produce +500% output, but they consume *each other* as fuel. You have to constantly rebuild the "bottom" of your pyramid scheme to keep the "top" running at god-like speeds.
 
 ### 3. Resource Caps & Costs (Math)
 *   **Standard Mechanic:** You have a max storage. Costs scale exponentially ($10, $15, $23...).
-*   **The "Wonder" Bend (Non-Euclidean Storage):**
+*   **The "Wonder" Bend (Non-Euclidean Storage)::**
     *   **Mechanic:** "The Klein Bottle Storage."
     *   *Effect:* Storage cap is removed, but retrieving resources takes time. You have "Infinite" storage, but "Bandwidth" limits how fast you can spend it.
 *   **The "Dread" Bend (Inverted Economics)::**
@@ -480,7 +503,7 @@ This section defines how resource storage works, blending capacity management wi
 *   **Philosophy:** "Space is infinite if you fold it correctly." This path focuses on efficiency, organization, and making the most of limited physical space.
 *   **Mechanics:**
     *   **Deep Storage:** Wonder-aligned storage facilities provide massive capacity increases per unit of physical space.
-    *   **Flow Optimization:** Storage automatically "sorts" and "compresses" resources. This grants a passive bonus to *Refining Speed* based on how full the storage is (e.g., "Pressure bonus"). A full, Wonder-aligned silo feeds processing facilities faster.
+    *   **Flow Optimization:** Storage automatically "sorts" and "compress resources. This grants a passive bonus to *Refining Speed* based on how full the storage is (e.g., "Pressure bonus"). A full, Wonder-aligned silo feeds processing facilities faster.
 *   **Visual/Flavor:** Clean, modular, and internally lit data banks; resources appear perfectly ordered and contained.
 
 #### Dread Storage: "The Hoard" (Unstable Expansion & Risk)
@@ -507,7 +530,7 @@ The core design philosophy of Cosmos and Chaos is to offer two fundamentally dif
 *   **The "Click":** Active interaction becomes rhythmic and rewarding ("Resonance Multiplier"), rather than frantic mashing. It's about synchronizing with the game's pulse.
 *   **The Loop:** Systems integrate seamlessly. Technologies like "Matter Compression" and "Universal Translator" streamline resource flow and management, reducing complexity and increasing efficiency. The game anticipates needs.
 *   **The UI:** Becomes a tool for perfect planning. "Prescience" removes randomness, allowing players to forecast events and optimize sequences, leading to a deterministic and predictable environment.
-*   **The Feeling:** A state of "Flow." The game feels like a perfectly tuned machine, responding to precise inputs. Players feel intelligent and in control, enjoying a smooth, optimized experience.
+    **The Feeling:** A state of "Flow." The game feels like a perfectly tuned machine, responding to precise inputs. Players feel intelligent and in control, enjoying a smooth, optimized experience.
 *   **The Risk:** Minimal resource loss. Challenges focus on optimizing complex layouts and leveraging synergistic buffs.
 
 ### The High Dread Experience (D+)
@@ -539,11 +562,9 @@ The early game for Cosmos and Chaos is structured as a clear "Call to Adventure"
 1.  **The Starting Point (Tier 0):** The player begins as a relatively static mining operation, collecting resources from immediately available asteroids. Their base is limited to local extraction.
 2.  **The Tease (Tier 1):** Researching **Long-Range Sensors (T05)** dramatically expands the player's visible map. They begin to detect distant, richer resource clusters, unique cosmic phenomena (e.g., Pulsars for science), and faint, mysterious alien signals (`T06 Communication Array` leading to `T20 Ancient Signal Decoder`). This creates a clear desire to reach these distant opportunities.
 3.  **The Problem:** The player's initial propulsion capabilities are insufficient. Their current thrusters are slow, and the increasing mass of their **Cargo Bay (T03)** makes long-distance travel impractical or too time-consuming. They can "see" the prize, but cannot "reach" it efficiently.
-4.  **The Solution (Tier 2):** The player invests in **Advanced Propulsion (T11)**. This allows the mothership to move between sectors. This is not merely an "upgrade to go faster," but a fundamental shift in gameplay.
-5.  **The Reward: Strategic Relocation:** With advanced propulsion, the player can now strategically relocate their entire base to:
-    *   **High-Yield Sectors:** For industrial players, parking in a "Dense Iron Cluster" significantly boosts mining output for specific resources.
-    *   **Science Anomalies:** For scientific players, moving to a "Pulsar" or "Black Hole Event Horizon" provides massive science buffs for researching high-tier technologies like `Grand Unification Theory`.
-    *   **Dread Zones:** For Dread players, seeking out "Thin Reality Zones" or "Void Scars" allows them to harvest "Void Essence" and experience the game's unique challenges.
-    *   **Safety Zones:** For habitat-focused players, propulsion acts as a defensive mechanism, allowing them to escape predicted "Solar Flares" or other local hazards.
+4.  **The Solution (Tier 2):** The player invests in **Propulsion Choices (T37/T38)**. This allows the mothership to engage with deep space resources. This is not merely an "upgrade to go faster," but a fundamental shift in gameplay.
+5.  **The Reward: Strategic Deep Space Acquisition:** With advanced propulsion, the player can now strategically acquire resources from distant nodes:
+    *   **Gravity Sails (T37):** Establishes passive, permanent supply lines (Pipelines) from distant resource-rich sectors. Ideal for industrial players seeking steady, reliable income streams.
+    *   **Null-Wake Drive (T38):** Instantly acquires large bursts of resources from distant nodes (Raids). Ideal for Dread players who need immediate gains, trading future stability for present power.
 
 This loop transforms propulsion from a simple travel mechanic into a core strategic choice that allows players to actively sculpt their game environment and optimize for their preferred playstyle. It answers the "Call to Adventure" seen on their long-range sensors.

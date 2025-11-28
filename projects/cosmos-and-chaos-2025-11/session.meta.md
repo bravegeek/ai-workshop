@@ -1,4 +1,4 @@
-## Session 14 Meta-Analysis (2025-11-27) - Propulsion Techs & Core Loop Refinement
+## Session 15 Meta-Analysis (2025-11-27) - Propulsion Techs & Core Loop Refinement
 
 ### Session Metadata
 - **Date:** 2025-11-27
