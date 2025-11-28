@@ -158,6 +158,7 @@ graph TB
         T32["<b>32. Paradoxical Loop Analysis</b>"]
         T33["<b>33. World-Seeding Protocol</b>"]
         T34["<b>34. Autonomous Scaling Protocol</b>"]
+        T33b["<b>33b. The Apotheosis Engine</b>"]
     end
 
     %% Dependencies
@@ -185,8 +186,8 @@ graph TB
     T24 --> T25a; T24 --> T25b
     T25a --> T47
     T25b --> T48
-    T29 -- "RESEARCH CHOICE" --> T31; T29 --> T33
-    T30 -- "LEGACY CHOICE" --> T32; T30 --> T34
+    T29 -- "RESEARCH CHOICE" --> T31; T29 --> T33; T29 --> T33b
+    T30 -- "LEGACY CHOICE" --> T32; T30 --> T34; T30 --> T33b
     T37 --> T16; T37 --> T30
     T38 --> T16; T38 --> T30
     T39 --> T22
@@ -203,13 +204,14 @@ graph TB
     class T10,T12,T13,T14,T15,T16,T20,T35,T36,T37,T38,T42 tier2
     class T17,T18,T19,T21,T24,T39,T40,T43,T44,T45,T46 tier3
     class T22,T23,T25a,T25b,T27,T28,T29,T30,T47,T48 tier4
-    class T31,T32,T33,T34 tier5
+    class T31,T32,T33,T34,T33b tier5
 
     class T02,T05,T09,T12,T14,T17,T22,T25a,T27,T29,T31,T33,T35,T37,T39,T42,T43,T45,T47 wonderHeavy
     class T13,T18,T20,T23,T25b,T28,T30,T32,T34,T36,T38,T40,T44,T46,T48 dreadHeavy
     class T15,T19,T21,T24,T41 balanced
     class T25b,T28,T34 landmarkDread
     class T25a,T27,T33 landmarkWonder
+    class T33b balanced
 ```
 
 ---
@@ -430,11 +432,11 @@ The 48 technologies are now organized into **6 Core Ship Departments**, streamli
 - *Stats:* +5 Wonder / +0 Dread.
 - *Requirement:* High Energy.
 
-**T31 Theory of Cosmic Harmonics** (Tier 5)
-- *Description:* End-game Wonder research.
+**T31 Theory of Cosmic Harmonics** (Wonder - Tier 5)
+- *Benefit:* **"Infinite Resonance."** Harmonic Resonance Index no longer decays. Player is permanently in "Flow State," facilitating the massive resource accumulation needed for World-Seeding.
 
-**T32 Paradoxical Loop Analysis** (Tier 5)
-- *Description:* End-game Dread research.
+**T32 Paradoxical Loop Analysis** (Dread - Tier 5)
+- *Benefit:* **"Dissonance Unbound."** Dissonance Index can exceed 100% without triggering catastrophic failure. The player becomes an entity of pure chaos, allowing the uncapped exponential growth needed for Autonomous Scaling.
 
 ### 6. The Legacy
 *The End: Prestige and Reset.*
@@ -443,11 +445,18 @@ The 48 technologies are now organized into **6 Core Ship Departments**, streamli
 - *Benefit:* Self-replicating miner swarms. Exponential growth. Unlocks **Autonomous Scaling Protocol** (Victory).
 - *Stats:* +0 Wonder / +4 Dread.
 
-**T33 World-Seeding Protocol** (Tier 5 - Wonder Victory)
-- *Description:* The ultimate Wonder achievement. Requires T29.
+**T33 World-Seeding Protocol** (Wonder Victory)
+- *Description:* **"The Gardener."** You sacrifice the ship to create a new, perfect star system.
+- *Reward:* New Game+ starts with a permanent "Eden" planet providing passive resources.
 
-**T34 Autonomous Scaling Protocol** (Tier 5 - Dread Victory)
-- *Description:* The ultimate Dread achievement. Requires T30.
+**T34 Autonomous Scaling Protocol** (Dread Victory)
+- *Description:* **"The Swarm."** You consume the sector to duplicate the ship.
+- *Reward:* New Game+ starts with 2x Mining Speed multiplier.
+
+**T33b The Apotheosis Engine** (Witness Victory)
+- *Description:* **"The Architect."** Collapse the simulation to rewrite the laws of physics.
+- *Requirement:* Must have `T29 Grand Unification` AND `T30 Von Neumann Probes`.
+- *Reward:* New Game+ allows **Custom Rule Injection** (e.g., "Modify Gravity," "Disable Entropy," "Start at Tier 2"). You design the next universe.
 
 ---
 
