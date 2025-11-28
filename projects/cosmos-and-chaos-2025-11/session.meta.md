@@ -83,3 +83,29 @@ These are high-concept ideas for integrating previously "unassigned mechanics" i
     *   **Theoretical Physics:** Merged Scientific Research and Temporal mechanics.
     *   **The Legacy:** Merged final prestige layers.
 3.  **Impact:** This change is purely organizational (UI/UX mental model) and does not require changing the node dependencies or the mermaid diagram. It presents the game as a coherent "Starship Management" simulation rather than a list of abstract tech trees.
+
+---
+
+## Session 20 Meta-Analysis (2025-11-28) - Witness Archetype & Counter Mechanics
+
+### Session Metadata
+- **Date:** 2025-11-28
+- **Focus:** Deepening the "Witness" archetype, defining the "Paradox Protocol" for cross-path research, and introducing "Harmonic Resonance Index" as a counter to "Dissonance Index."
+- **Model Used:** Gemini
+
+### Agent Reasoning & Design Process
+
+1.  **Problem Identification (Witness Viability):** The previous design presented a "binary trap" where balanced play ('The Witness') felt like a mediocre compromise rather than a unique, viable strategy.
+2.  **Strategic Solution (Paradox Protocol):**
+    *   Introduced the **"Paradox Protocol"**: Allows players to research opposing tech choices (e.g., Wonder AND Dread storage) at 1.5x cost after unlocking the next tier. This enables "Chimera" builds.
+    *   **"Paradox Strain":** The cost of the Paradox Protocol is a permanent "Dissonance Floor," requiring the Witness to actively manage and consume Dissonance.
+3.  **Enhancing Balanced Tech Nodes:**
+    *   **T19 Exotic Matter Refinery:** Updated with **"Dissonance Injection"** (converts Dissonance into refining speed).
+    *   **T21 Anomaly Scanner:** Updated with **"Dual-Phase Scanning"** (reveals both W and D aspects of anomalies).
+4.  **Symmetry in Counters (Harmonic Resonance):**
+    *   Introduced the **"Harmonic Resonance Index"** as the Wonder counter, mirroring the Dissonance Index.
+    *   **Behavior:** Naturally decays (Entropy), must be actively maintained through "Flow State" mechanics (rhythmic clicks, synergistic layouts).
+    *   **Thresholds:** Defined four phases (Flow, Entanglement, Unity, The Golden Ratio) that unlock powerful Wonder effects, culminating in a brief "zero-cost" upgrade period.
+5.  **Dread-Corrupted Wonder (Vampiric Mechanics):**
+    *   Discussed adding mechanics for Dread players to "consume" Wonder tech (e.g., T17 Resonant Frequency Mining for "Shatter Note" to instantly destroy asteroids for rare isotopes; T39 Aquaponic Cascades for "Bio-Thermal Dumping" to purge Dissonance by sacrificing the garden). These specific updates were held pending user confirmation.
+6.  **Impact:** The game now supports three distinct, deep, and replayable archetypes: pure Wonder, pure Dread, and the synergistic Witness, each with unique core loops and resource management challenges. The two primary counters (Dissonance/Resonance) provide a clear, thematic "push-pull" dynamic.

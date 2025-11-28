@@ -219,181 +219,232 @@ The 48 technologies are now organized into **6 Core Ship Departments**, streamli
 
 ---
 
-## Detailed Technology List (Tiers 1-5 Highlights)
+## Detailed Technology List (By Department)
 
-*Note: Tiers 0-2 are mostly foundational, but the "Discovery" branch has been accelerated to Tier 1 to allow early exploration.*
+*The complete list of 48 technologies, organized by Ship Department for clarity.*
 
-### Tier 0: Foundational Updates
+### 1. Engineering
+*The Body: Mining, Refining, Power, and Storage.*
 
-**3. Cargo Bay I** (Balanced - Tier 0)
+**T01 Basic Mining Laser** (Tier 0)
+- *Description:* Foundational mining tool.
+
+**T03 Cargo Bay I** (Tier 0)
 - *Benefit:* Unlocks standard storage modules. Increases initial resource capacity (e.g., to 1000 units).
-- *Mechanic:* Essential for buffering resources, ensuring production doesn't halt when away, and increasing global resource cap to afford larger upgrades.
-- *Stats:* +0 Wonder / +0 Dread.
+- *Mechanic:* Essential for buffering resources.
 
-### Tier 1 & 2: Early Discovery, Storage, Propulsion & Energy Updates
-*Focus: Scavenging, Listening, Storage, Propulsion, Energy and Basic Identification.*
+**T04 Refinery Module** (Tier 1)
+- *Description:* Basic ore processing.
 
-**9. Anomaly Harvesting** (Balanced - Tier 1)
-- *Replaces:* Surface Scavenging.
-- *Benefit:* Basic mining lasers now have a 2% chance to extract **"Fractal Echoes"** alongside ore.
-- *Stats:* +1 Wonder / +0 Dread.
-- *Note:* Unlocks the Xenoarchaeology Artifacts system.
+**T07 Automated Sorting** (Tier 1)
+- *Description:* Logistics handling.
 
-**41. High-Capacity Batteries** (Balanced - Tier 1)
+**T41 High-Capacity Batteries** (Balanced - Tier 1)
 - *Benefit:* Increases Energy Storage Cap.
-- *Mechanic:* Foundation for energy management.
 - *Stats:* +0 Wonder / +0 Dread.
 
-**35. Matter Compression** (Wonder - Tier 2 Storage Choice)
+**T10 Advanced Drilling Tech** (Tier 2)
+- *Description:* Improved mining efficiency.
+
+**T12 Material Synthesis I** (Tier 2)
+- *Description:* Advanced refining.
+
+**T35 Matter Compression** (Wonder - Tier 2 Storage Choice)
 - *Benefit:* **"Pressure Feed."** When storage is >90% full, Refinery speed increases by 15%.
 - *Stats:* +2 Wonder / +0 Dread.
-- *Theme:* Efficiency through density.
 
-**36. External Cargo Webbing** (Dread - Tier 2 Storage Choice)
+**T36 External Cargo Webbing** (Dread - Tier 2 Storage Choice)
 - *Benefit:* **"The Hoard."** Allows Overfill up to 200% capacity.
 - *Stats:* +0 Wonder / +2 Dread.
-- *Penalty:* **"Drag."** Thruster efficiency -20% when overfilled. Risk of structural damage.
-- *Theme:* Quantity over safety.
+- *Penalty:* **"Drag."** Thruster efficiency -20% when overfilled.
 
-**37. Gravity Sails** (Wonder - Tier 2 Propulsion Choice)
-- *Benefit:* **"The Pipeline."** Send a fleet to a distant resource node to establish a permanent supply line, generating passive income. While fleet is in transit, gain a temporary Science Buff.
-- *Stats:* +2 Wonder / +0 Dread.
-- *Theme:* Passive, sustainable expansion.
-
-**38. Null-Wake Drive** (Dread - Tier 2 Propulsion Choice)
-- *Benefit:* **"The Raid."** Instantly gain a massive burst of resources from a distant node.
-- *Stats:* +0 Wonder / +2 Dread.
-- *Penalty:* **"Chronological Erosion."** Offline resource generation decays. Instead, generates "Void Essence" for active speed bursts.
-- *Theme:* Immediate gain, future cost.
-
-**42. Photosynthetic Arrays** (Wonder-Leaning - Tier 2 Energy)
+**T42 Photosynthetic Arrays** (Wonder-Leaning - Tier 2 Energy)
 - *Benefit:* Advanced solar panels. +20% Energy Generation.
 - *Stats:* +1 Wonder / +0 Dread.
-- *Theme:* Linking energy to biology. No-brainer upgrade.
 
-**13. Brain-Computer Interface** (Balanced - Tier 2 Consciousness)
-- *Benefit:* Crew learn faster. Increases **Proficiency Gain Rate** by 25%.
-- *Stats:* +1 Wonder / +1 Dread.
-- *Requirement:* Requires a functional Habitat (T16 Long-Term Habitation Study).
-
-**20. Ancient Signal Decoder** (Dread - Tier 2)
-- *Moved:* From Tier 3 to Tier 2.
-- *Benefit:* Decrypts weak background signals into Lore Logs and Coordinates.
-- *Stats:* +0 Wonder / +2 Dread.
-- *Penalty:* **Signal Noise.** Efficiency -10% for every "Rift Mining" or "Void Siphon" tech active (Future-proofing).
-- *Requirement:* Critical for unlocking the **Advanced Xenoarch Lab** in Tier 4.
-
-### Tier 3: The Industrial Expansion
-*Focus: Mining, Refining, Xenoarchaeology, Life Support, Advanced Energy and Crew Specialization.*
-
-**17. Resonant Frequency Mining** (Wonder)
+**T17 Resonant Frequency Mining** (Wonder - Tier 3 Mining Choice)
 - *Benefit:* Clean, high-yield mining using sound.
 - *Stats:* +3 Wonder / +0 Dread.
 
-**18. Rift Mining** (Dread)
+**T18 Rift Mining** (Dread - Tier 3 Mining Choice)
 - *Benefit:* Tears open space for instant ore access.
 - *Stats:* +0 Wonder / +4 Dread.
-- *Friction:* Generates "Subspace Noise" (Reduces Signal Analysis efficiency).
+- *Friction:* Generates "Subspace Noise."
 
-**19. Exotic Matter Refinery** (Balanced - Witness Key)
+**T19 Exotic Matter Refinery** (Balanced - Tier 3 - Witness Key)
 - *Benefit:* Refines ores into stable dark matter.
-- *Witness Mechanic:* **"Dissonance Injection."** You can toggle the refinery to *consume* your Ship's Dissonance (generated by Dread tech) to boost Refining Speed by up to +200%.
+- *Witness Mechanic:* **"Dissonance Injection."** Consume Dissonance to boost Refining Speed.
 - *Stats:* +1 Wonder / +1 Dread.
 
-**21. Anomaly Scanner** (Balanced - Witness Key)
-- *Benefit:* Highlights potential artifact locations.
-- *Witness Mechanic:* **"Dual-Phase Scanning."** Reveals *both* the potential Dread Risk and Wonder Reward of an anomaly before you engage, allowing for "Calculated Risk" gameplay.
-- *Stats:* +2 Wonder / +1 Dread.
-
-**24. Basic Xenoarch Field Kit** (Balanced)
-- *Benefit:* Allows safe extraction of small artifacts.
-- *Stats:* +1 Wonder / +1 Dread.
-
-**39. Aquaponic Cascades** (Wonder - Tier 3 Life Support Choice)
-- *Benefit:* Converts Water into Food. Passive Morale regeneration.
-- *Stats:* +1 Wonder / +0 Dread.
-- *Theme:* Cultivating life with cosmic flow.
-
-**40. Neural Dampeners** (Dread - Tier 3 Life Support Choice)
-- *Benefit:* Suppresses crew anxiety. Locks Morale at 100%, preventing Dread decay but no "Inspired" bonus.
-- *Stats:* +0 Wonder / +1 Dread.
-- *Theme:* Control through suppression.
-
-**44. Entropy Furnace** (Dread - Tier 3 Energy Choice)
-- *Benefit:* **"Limit Break."** Allows Overclocking station output to 150%, 200%, 300%.
-- *Cost:* Generates **"Dissonance"** (Reality Flux). High Dissonance causes buildings to malfunction or break.
-- *Stats:* +0 Wonder / +3 Dread.
-- *Theme:* Power at the cost of stability.
-
-**43. Zero-Point Extraction** (Wonder - Tier 3 Energy Choice)
+**T43 Zero-Point Extraction** (Wonder - Tier 3 Energy Choice)
 - *Benefit:* Passive, clean power from vacuum. Efficiency scales with Science Output.
 - *Stats:* +3 Wonder / +0 Dread.
-- *Theme:* Infinite potential.
 
-**45. Gestalt Networking** (Wonder - Tier 3 Consciousness Choice)
-- *Benefit:* **"Synced Minds."** Proficiency Gain is doubled. Unlocks **"Mastery"** (Proficiency Cap increases to Level 150).
-- *Stats:* +2 Wonder / +0 Dread.
-- *Requirement:* T13 Brain-Computer Interface.
-
-**46. Direct Behavior Control** (Dread - Tier 3 Consciousness Choice)
-- *Benefit:* **"Forced Labor."** You can toggle "Crunch Mode." Proficiency Gain stops, Morale drops, but **Global Speed increases by 50%**.
-- *Stats:* +0 Wonder / +2 Dread.
-- *Requirement:* T13 Brain-Computer Interface.
-
-### Tier 4: The Existential Crisis
-*Focus: Time, Consciousness, and Reality-Breaking.*
-
-**22. Aether Arcologies** (Wonder - Habitat Choice)
-- *Benefit:* Creates a self-sustaining ecosystem. Unlocks "Inspiration" (Morale > 100%). At 200% Morale, gain "The Golden Age" buff (+50% to ALL stats).
-- *Stats:* +3 Wonder / +0 Dread.
-- *Penalty:* **Reality Instability.** Upkeep cost increases by +20% for every Dread Tech in Tier 4 (The void hates life).
-- *Requirement:* Must have T39 Aquaponic Cascades.
-
-**23. Suspended Animation Pods** (Dread - Habitat Choice)
-- *Benefit:* **"The Skeleton Crew."** Freezes 90% of crew, reducing upkeep to almost zero. Unlocks "Time Skip" ability.
-- *Stats:* +0 Wonder / +4 Dread.
-- *Cost:* Lose all "Human" bonuses (no Morale > 100%).
-- *Requirement:* Must have T40 Neural Dampeners.
-
-**25. Advanced Xenoarch Lab** (Dread - Landmark)
-- *Benefit:* Safely analyzes dangerous, reality-warping artifacts.
+**T44 Entropy Furnace** (Dread - Tier 3 Energy Choice)
+- *Benefit:* **"Limit Break."** Overclock station output.
+- *Cost:* Generates **"Dissonance."**
 - *Stats:* +0 Wonder / +3 Dread.
-- *Requirement:* **Must have T20 Ancient Signal Decoder.** You cannot study the artifacts if you cannot read the warnings.
 
-**27. Quantum Tunneling Drill** (Wonder - Mining Choice)
-- *Benefit:* Teleports ore directly out of the rock without breaking it.
+**T27 Quantum Tunneling Drill** (Wonder - Tier 4 Mining Choice)
+- *Benefit:* Teleports ore directly out of the rock.
 - *Stats:* +2 Wonder / +0 Dread.
 
-**28. Void Siphon** (Dread - Mining Choice)
+**T28 Void Siphon** (Dread - Tier 4 Mining Choice)
 - *Benefit:* Consumes the asteroid belt itself for infinite resources.
 - *Stats:* +0 Wonder / +5 Dread.
 - *Friction:* Generates Massive Subspace Noise.
 
-**29. Grand Unification Theory** (Wonder)
-- *Benefit:* The ultimate physics unlock. Reveals the map.
-- *Stats:* +5 Wonder / +0 Dread.
-- *Requirement:* Requires **High Energy**. You must have either `Rift Mining` OR `Exotic Matter Refinery` unlocked to study the high-energy physics.
+### 2. Navigation & Systems
+*The Legs: Propulsion, Exploration, and Signal Analysis.*
 
-**30. Von Neumann Probes** (Dread)
+**T02 Ore Scanner** (Tier 0)
+- *Description:* Basic resource identification.
+
+**T05 Long-Range Sensors** (Tier 1)
+- *Benefit:* Expands visible map.
+
+**T06 Communication Array** (Tier 1)
+- *Benefit:* Detects signals.
+
+**T08 Thruster Upgrade I** (Tier 1)
+- *Benefit:* Improves travel speed.
+
+**T14 Quantum Scanner** (Tier 2)
+- *Benefit:* Detailed asteroid analysis.
+
+**T20 Ancient Signal Decoder** (Dread - Tier 2)
+- *Benefit:* Decrypts weak background signals into Lore Logs/Coordinates.
+- *Stats:* +0 Wonder / +2 Dread.
+- *Penalty:* **Signal Noise.** Efficiency reduced by Rift/Siphon mining.
+
+**T37 Gravity Sails** (Wonder - Tier 2 Propulsion Choice)
+- *Benefit:* **"The Pipeline."** Passive supply lines from distant nodes.
+- *Stats:* +2 Wonder / +0 Dread.
+
+**T38 Null-Wake Drive** (Dread - Tier 2 Propulsion Choice)
+- *Benefit:* **"The Raid."** Instant burst resources from distant nodes.
+- *Stats:* +0 Wonder / +2 Dread.
+- *Penalty:* **"Chronological Erosion."** Offline generation decays.
+
+**T21 Anomaly Scanner** (Balanced - Tier 3 - Witness Key)
+- *Benefit:* Highlights potential artifact locations.
+- *Witness Mechanic:* **"Dual-Phase Scanning."** Reveals Dread Risk and Wonder Reward before engagement.
+- *Stats:* +2 Wonder / +1 Dread.
+
+### 3. Life Science
+*The Soul: Habitat, Life Support, and Consciousness.*
+
+**T13 Brain-Computer Interface** (Balanced - Tier 2)
+- *Benefit:* Crew learn faster. Increases **Proficiency Gain Rate** by 25%.
+- *Stats:* +1 Wonder / +1 Dread.
+
+**T16 Long-Term Habitation Study** (Tier 2)
+- *Benefit:* Foundation for habitat upgrades.
+
+**T39 Aquaponic Cascades** (Wonder - Tier 3 Life Support Choice)
+- *Benefit:* Converts Water into Food. Passive Morale regeneration.
+- *Stats:* +1 Wonder / +0 Dread.
+
+**T40 Neural Dampeners** (Dread - Tier 3 Life Support Choice)
+- *Benefit:* Suppresses crew anxiety. Locks Morale at 100%.
+- *Stats:* +0 Wonder / +1 Dread.
+
+**T45 Gestalt Networking** (Wonder - Tier 3 Consciousness Choice)
+- *Benefit:* **"Synced Minds."** Proficiency Gain doubled. Unlocks Mastery.
+- *Stats:* +2 Wonder / +0 Dread.
+
+**T46 Direct Behavior Control** (Dread - Tier 3 Consciousness Choice)
+- *Benefit:* **"Forced Labor."** Toggle "Crunch Mode" for +50% Global Speed.
+- *Stats:* +0 Wonder / +2 Dread.
+
+**T22 Aether Arcologies** (Wonder - Tier 4 Habitat Choice)
+- *Benefit:* Self-sustaining ecosystem. Unlocks "Inspiration."
+- *Stats:* +3 Wonder / +0 Dread.
+- *Penalty:* **Reality Instability.** Upkeep increases with Dread tech.
+
+**T23 Suspended Animation Pods** (Dread - Tier 4 Habitat Choice)
+- *Benefit:* **"The Skeleton Crew."** Freezes 90% of crew. Unlocks "Time Skip."
+- *Stats:* +0 Wonder / +4 Dread.
+
+**T47 The Noosphere Resonator** (Wonder - Tier 4 Consciousness Finale)
+- *Benefit:* **"Reality Formatting."** Crew can "vote" to change local biomes.
+- *Stats:* +3 Wonder / +0 Dread.
+
+**T48 The Synaptic Lattice** (Dread - Tier 4 Consciousness Finale)
+- *Benefit:* **"Memory Burn."** Sacrifice Proficiency Levels to instantly complete projects.
+- *Stats:* +0 Wonder / +3 Dread.
+- *Penalty:* **"Phantom Echoes."** Generates Dissonance.
+
+### 4. Xenoarchaeology
+*The Mystery: Artifacts and Relics.*
+
+**T09 Anomaly Harvesting** (Balanced - Tier 1)
+- *Benefit:* 2% chance to extract **"Fractal Echoes"** when mining.
+- *Stats:* +1 Wonder / +0 Dread.
+
+**T15 Archaeological Survey** (Tier 2)
+- *Benefit:* Unlocks Tier 2 Artifact Analysis (Blueprints vs. Conduits).
+
+**T24 Basic Xenoarch Field Kit** (Balanced - Tier 3)
+- *Benefit:* Allows safe extraction of small artifacts (Relics).
+- *Stats:* +1 Wonder / +1 Dread.
+
+**T25 Advanced Xenoarch Lab** (Dread - Tier 4 Landmark)
+- *Benefit:* Safely analyzes dangerous, reality-warping artifacts (Primal Cores).
+- *Stats:* +0 Wonder / +3 Dread.
+- *Requirement:* Must have T20 Ancient Signal Decoder.
+
+### 5. Theoretical Physics
+*The Mind: Deep Research and Temporal Mechanics.*
+
+**T29 Grand Unification Theory** (Wonder - Tier 4)
+- *Benefit:* Ultimate physics unlock. Reveals the map.
+- *Stats:* +5 Wonder / +0 Dread.
+- *Requirement:* High Energy.
+
+**T31 Theory of Cosmic Harmonics** (Tier 5)
+- *Description:* End-game Wonder research.
+
+**T32 Paradoxical Loop Analysis** (Tier 5)
+- *Description:* End-game Dread research.
+
+### 6. The Legacy
+*The End: Prestige and Reset.*
+
+**T30 Von Neumann Probes** (Dread - Tier 4)
 - *Benefit:* Self-replicating miner swarms. Exponential growth.
 - *Stats:* +0 Wonder / +4 Dread.
-- *Lockout:* Permanently prevents `World-Seeding Protocol`.
+- *Lockout:* Prevents World-Seeding Protocol.
 
-**47. The Noosphere Resonator** (Wonder - Tier 4 Consciousness Finale)
-- *Benefit:* **"Reality Formatting."** The crew's collective will can "vote" to change the local biome (e.g., "We imagine a Nebula here" for Science, or "a dense asteroid field" for Ore).
-- *Cost:* Requires Proficiency Level 100+.
-- *Stats:* +3 Wonder / +0 Dread.
-- *Requirement:* T45 Gestalt Networking.
+**T33 World-Seeding Protocol** (Tier 5)
+- *Description:* Wonder victory condition.
 
-**48. The Synaptic Lattice** (Dread - Tier 4 Consciousness Finale)
-- *Benefit:* **"Memory Burn."** Instantly complete a long Research or Construction project.
-- *Cost:* Sacrifices **Proficiency Levels** (e.g., "Burn 10 Levels to finish this Tech instantly").
-- *Penalty:* **"Phantom Echoes."** Generates **Dissonance**. The ship occasionally takes random, confused actions (Dissonance Glitches) due to scrambled memory fragments.
-- *Stats:* +0 Wonder / +3 Dread.
-- *Requirement:* T46 Direct Behavior Control.
+**T34 Autonomous Scaling Protocol** (Tier 5)
+- *Description:* Dread victory condition.
 
-### Tier 5: The Finale
-*(unchanged from previous design)*
+---
+
+## Game Mechanics: The Dual Counters
+
+The game is governed by two opposing but interacting physics systems that track the player's playstyle intensity.
+
+### 1. The Dissonance Index (Dread Physics: "Heat")
+*   **Behavior:** Starts at 0. Active use of Dread Tech (e.g., Rift Mining, Void Siphons) generates Dissonance. It naturally decays slowly over time.
+*   **The Stress:** "Don't let it boil over."
+*   **Thresholds:**
+    *   **Low (>25%):** *Resource Hallucinations* (UI lies about numbers).
+    *   **Medium (>50%):** *Ghost Inputs* (Random clicks occur).
+    *   **High (>75%):** *The Monkey's Paw* (Auto-buyers sell assets to buy upgrades).
+    *   **Critical (100%):** *Reality Breach.* Random buildings explode (Level 0) or significant resource loss occurs.
+
+### 2. The Harmonic Resonance Index (Wonder Physics: "Momentum")
+*   **Behavior:** Starts at 0. Naturally decays toward 0 (Entropy). Must be actively maintained through "Rhythmic Clicks," "Synergistic Building Layouts," and "Flow State" mechanics.
+*   **The Stress:** "Don't let the music stop."
+*   **Thresholds:**
+    *   **Flow (>25%):** *Frictionless.* All transit times/logistic delays reduced by 50%.
+    *   **Entanglement (>50%):** *Sympathetic Vibration.* Manual clicks trigger a single production tick in ALL connected buildings.
+    *   **Unity (>75%):** *Matter Fluidity.* Construction costs can be paid with ANY resource of an equivalent tier.
+    *   **The Golden Ratio (100%):** *Crystallization.* For 20 seconds, all Upgrade Costs are **Zero**. Afterwards, Resonance collapses to 0%.
 
 ---
 
