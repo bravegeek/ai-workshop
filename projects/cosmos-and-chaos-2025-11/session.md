@@ -28,10 +28,17 @@
 ## Technology Tree Structure
 
 ### The Paradox Protocol (Witness Mechanic)
-*To support the "Witness" playstyle, mutually exclusive choices are not hard locks.*
-*   **Unlock Rule:** You may purchase the *opposing* choice of a Tier (e.g., Gravity Sails AND Null-Wake Drive) once you have completed **one full technology in the Next Tier**.
-*   **Cost:** **1.5x Resource Cost**.
-*   **Penalty:** **"Paradox Strain."** Holding contradictory technologies creates a permanent **Dissonance Floor** (e.g., Dissonance cannot drop below 10%). The Witness must use technologies that *consume* this Dissonance to survive.
+*To support the "Witness" playstyle, mutually exclusive choices are not hard locks. Players can acquire opposing technologies via two methods:*
+
+*   **Option A: The Standard License (Patience)**
+    *   **Requirement:** Unlock one full technology in the **Next Tier**.
+    *   **Cost:** **Standard Price (1.0x).**
+    *   **Penalty:** Adds **"Paradox Strain"** (Permanent 10% Dissonance Floor).
+
+*   **Option B: The Jailbreak (Greed)**
+    *   **Requirement:** Available **Immediately** (No wait).
+    *   **Cost:** **Double Price (2.0x).**
+    *   **Penalty:** Adds **"Paradox Strain"** PLUS instantly generates a **+50% Dissonance Spike**.
 
 ### Technology Tree Diagram and Analysis
 
@@ -312,10 +319,13 @@ The 48 technologies are now organized into **6 Core Ship Departments**, streamli
 **T14 Quantum Scanner** (Tier 2)
 - *Benefit:* Detailed asteroid analysis.
 
-**T20 Ancient Signal Decoder** (Dread - Tier 2)
-- *Benefit:* Decrypts weak background signals into Lore Logs/Coordinates.
-- *Stats:* +0 Wonder / +2 Dread.
-- *Penalty:* **Signal Noise.** Efficiency reduced by Rift/Siphon mining.
+**T20 Ancient Signal Decoder** (Balanced - Tier 2)
+- *Benefit:* Unlocks **"Deep Space Coordinates"** (Special Mission Nodes with high rewards).
+- *Mechanic:* **"Signal Integrity."**
+    -   **High Resonance (Wonder):** You get a **Clean Signal**. The UI shows you the exact reward and risk. Missions are 100% safe.
+    -   **High Dissonance (Dread):** You get a **Corrupted Signal**. The UI is glitched. Missions are "Mystery Boxes" (massive rewards OR severe penalties). While Dissonance is high, **Signal Range doubles**.
+- *Stats:* +1 Wonder / +1 Dread.
+- *Requirement:* Critical for unlocking the **Advanced Xenoarch Lab** in Tier 4.
 
 **T37 Gravity Sails** (Wonder - Tier 2 Propulsion Choice)
 - *Benefit:* **"The Pipeline."** Passive supply lines from distant nodes.
@@ -445,6 +455,25 @@ The game is governed by two opposing but interacting physics systems that track 
     *   **Entanglement (>50%):** *Sympathetic Vibration.* Manual clicks trigger a single production tick in ALL connected buildings.
     *   **Unity (>75%):** *Matter Fluidity.* Construction costs can be paid with ANY resource of an equivalent tier.
     *   **The Golden Ratio (100%):** *Crystallization.* For 20 seconds, all Upgrade Costs are **Zero**. Afterwards, Resonance collapses to 0%.
+
+### Research Points Twist
+*Research is not just a passive wait; it can be actively influenced by your alignment.*
+
+*   **Wonder: "Eureka Cascade" (Flow-State Research)**
+    *   **Mechanic:** Players can "spend" a significant amount of their **Harmonic Resonance Index** (e.g., 50%) to instantly fill a percentage (e.g., 15%) of a currently active Research project.
+    *   **Effect:** Rewards maintaining high Resonance by allowing it to be converted into direct research progress.
+
+*   **Dread: "Burn the Past" (Sacrificial Lore)**
+    *   **Mechanic:** Players can actively "consume" Xenoarchaeology Artifacts (e.g., "Fractal Echoes," "Relics") from their inventory.
+    *   **Effect:** Each consumed artifact instantly grants a burst of Research Points, based on the artifact's rarity/tier.
+    *   **Penalty:** Permanently removes the artifact from the game. This trades unique lore/collection for raw, immediate progress.
+
+### 3. Safety Valve: "System Purge"
+*To prevent soft-locks where Dissonance becomes unmanageable, a manual override exists.*
+*   **Unlock:** Available from Tier 2 onwards.
+*   **Trigger:** "Purge System" button on the Physics Dashboard.
+*   **Effect:** Instantly resets **Dissonance AND Resonance to 0%**.
+*   **Cost:** **"The Blackout."** The ship loses all power. **All production stops completely for 5 minutes.** This allows players to escape "Death Spirals" without losing their save file, at the cost of time.
 
 ---
 
@@ -677,9 +706,38 @@ This section details the progression of artifacts discovered via the Xenoarchaeo
 
 ---
 
-## Crew Mechanics: The Human Element (or lack thereof)
+### Energy Twists
+*Energy is not just a gate; it's a dynamic resource with active uses and consequences.*
+
+*   **Wonder: "Excess Storage" (Capacitor Discharge)**
+    *   **Mechanic:** Any energy generated above the current consumption rate is stored in a "Capacitor" (limited capacity).
+    *   **Active Use:** Players can discharge the Capacitor to trigger a **"Time Warp"** (e.g., speed up game by 2x for 10 seconds per 1000 units discharged). Rewards efficient overproduction.
+
+*   **Dread: "Brownout Spending" (Sacrificial Power)**
+    *   **Mechanic:** Players can activate buildings even if they do not have sufficient energy.
+    *   **Effect:** The activated building runs at **200% efficiency** (output/speed).
+    *   **Penalty:** Randomly and temporarily **shuts down** other functional buildings across the ship to compensate for the energy deficit (e.g., Life Support flickers off, a mining laser stops). Creates high-risk, high-reward power management.
+
+### Crew Mechanics: The Human Element (or lack thereof)
 
 In *Cosmos and Chaos*, Crew are not just a static number; they are the intelligent force driving your station, represented by two key metrics:
+
+### Crew Mechanics: The Human Element (or lack thereof)
+
+In *Cosmos and Chaos*, Crew are not just a static number; they are the intelligent force driving your station, represented by two key metrics, and can be actively "spent" for strategic gains.
+
+### Crew Twists
+*Crew can be actively consumed for specific benefits, reflecting their value beyond passive labor.*
+
+*   **Wonder: "The Diaspora" (Colonization)**
+    *   **Mechanic:** Permanently "spend" a large number of Crew (e.g., 50) to launch a colonization pod to a nearby celestial body (e.g., moon).
+    *   **Effect:** Reduces your maximum Crew Cap by the amount spent.
+    *   **Reward:** The colony generates a slow, passive stream of **Unique Resources** (e.g., "Exobiology Samples," "Rare Crystals") that cannot be acquired via standard mining. Rewards sacrifice for long-term, specialized gains.
+
+*   **Dread: "The Neural Wetware" (Bio-Computing)**
+    *   **Mechanic:** Permanently "spend" a moderate number of Crew (e.g., 10) to integrate them into the ship's research mainframes.
+    *   **Effect:** Reduces your maximum Crew Cap. The "spent" crew are permanently removed from the workforce.
+    *   **Reward:** Instantly completes a significant percentage (e.g., 50%) of a currently active Research project. Rewards sacrifice for immediate, rapid research progress.
 
 ### 1. Crew Count (The Workforce)
 *   **Definition:** The raw number of sentient beings (or their digitized equivalents) available to operate your station.
@@ -706,6 +764,14 @@ Refining is the industrial bottleneck of the station, transforming raw potential
 *   **Time:** Fixed processing time (e.g., 5 seconds).
 *   **Output:** Alloys.
 *   **Constraint:** Early game is limited by *throughput*. Mining lasers outpace the single refinery module.
+
+### Ore & Alloys Twist
+*Beyond standard production, resources can be acquired in daring, costly ways.*
+
+*   **Dread: "Void Debt" (Inverted Economics)**
+    *   **Mechanic:** Allows players to purchase any upgrade, building, or research **regardless of current resource count**.
+    *   **Effect:** The relevant resource counter goes into **negative numbers** (e.g., -5,000 Ore).
+    *   **Penalty:** While in debt, **Dissonance rises constantly and rapidly**. The player must frantically mine and generate resources to pay off the debt before Dissonance triggers catastrophic failures. Failure to pay back results in accelerating Dissonance and potential soft-lock/game-over. This turns resource acquisition into a high-stakes survival thriller.
 
 ### 2. Wonder Refining: "The Song of Matter"
 *   **Philosophy:** "Matter is not solid; it is a vibration. We simply change the tune."
