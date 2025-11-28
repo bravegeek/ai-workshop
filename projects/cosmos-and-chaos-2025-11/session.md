@@ -61,7 +61,6 @@ graph TB
 
     %% Tier 2
     T10["<b>10. Advanced Drilling Tech</b><br/>(Mining)"]
-    T11["<b>11. Advanced Propulsion</b>"]
     T12["<b>12. Material Synthesis I</b>"]
     T13["<b>13. Deep Neural Link I</b>"]
     T14["<b>14. Quantum Scanner</b>"]
@@ -73,6 +72,12 @@ graph TB
         direction LR
         T35["<b>35. Matter Compression</b><br/>(Storage)"]
         T36["<b>36. External Cargo Webbing</b><br/>(Storage)"]
+    end
+
+    subgraph "Tier 2 Propulsion Choice"
+        direction LR
+        T37["<b>37. Gravity Sails</b><br/>(Propulsion)"]
+        T38["<b>38. Null-Wake Drive</b><br/>(Propulsion)"]
     end
 
     %% Tier 3
@@ -119,10 +124,9 @@ graph TB
     T06 --> T20
     T07 --> T13
     T07 -- "STORAGE CHOICE" --> T35; T07 -- "STORAGE CHOICE" --> T36
-    T08 --> T11
+    T08 -- "PROPULSION CHOICE" --> T37; T08 -- "PROPULSION CHOICE" --> T38
     T09 --> T15
     T10 -- "MINING CHOICE" --> T17; T10 -- "MINING CHOICE" --> T18
-    T11 --> T16; T11 --> T30
     T12 --> T19; T12 --> T30
     T13 --> T26
     T14 --> T21
@@ -137,19 +141,21 @@ graph TB
     T25 --> T26
     T29 -- "RESEARCH CHOICE" --> T31; T29 -- "RESEARCH CHOICE" --> T32
     T30 -- "LEGACY CHOICE" --> T33; T30 -- "LEGACY CHOICE" --> T34
+    T37 --> T16; T37 --> T30
+    T38 --> T16; T38 --> T30
 
 
     %% Styling
     class T01,T02,T03 tier0
     class T04,T05,T06,T07,T08,T09 tier1
-    class T10,T11,T12,T13,T14,T15,T16,T20,T35,T36 tier2
+    class T10,T12,T13,T14,T15,T16,T20,T35,T36,T37,T38 tier2
     class T17,T18,T19,T21,T24 tier3
     class T22,T23,T25,T26,T27,T28,T29,T30 tier4
     class T31,T32,T33,T34 tier5
 
-    class T02,T05,T09,T12,T14,T17,T22,T27,T29,T31,T33,T35 wonderHeavy
-    class T13,T18,T20,T23,T28,T30,T36 dreadHeavy
-    class T11,T15,T19,T21,T24,T26,T32 balanced
+    class T02,T05,T09,T12,T14,T17,T22,T27,T29,T31,T33,T35,T37 wonderHeavy
+    class T13,T18,T20,T23,T28,T30,T36,T38 dreadHeavy
+    class T15,T19,T21,T24,T26,T32 balanced
     class T25,T28,T34 landmarkDread
 ```
 
@@ -309,7 +315,7 @@ This section explores how core idle game mechanics can be "bent" or "broken" to 
 *   **The "Wonder" Bend (Quantum Entanglement)::**
     *   **Mechanic:** "Shared Inventory."
     *   *Effect:* Buildings no longer need to transport resources. Ore mined *instantly* appears in the refinery. Removes all "transit time" or "logistic" delays.
-*   **The "Dread" Bend (Cannibalistic Automation):**
+*   **The "Dread" Bend (Cannibalistic Automation)::**
     *   **Mechanic:** "Self-Eating Logic."
     *   *Effect:* Your machines produce +500% output, but they consume *each other* as fuel. You have to constantly rebuild the "bottom" of your pyramid scheme to keep the "top" running at god-like speeds.
 
@@ -318,7 +324,7 @@ This section explores how core idle game mechanics can be "bent" or "broken" to 
 *   **The "Wonder" Bend (Non-Euclidean Storage):**
     *   **Mechanic:** "The Klein Bottle Storage."
     *   *Effect:* Storage cap is removed, but retrieving resources takes time. You have "Infinite" storage, but "Bandwidth" limits how fast you can spend it.
-*   **The "Dread" Bend (Inverted Economics):**
+*   **The "Dread" Bend (Inverted Economics)::**
     *   **Mechanic:** "Void Debt."
     *   *Effect:* You can buy upgrades you *cannot afford*. Your resource counter goes negative (e.g., -5,000 Ore). While negative, Reality Instability rises. You are borrowing matter from the universe, and it wants it back.
 
@@ -394,7 +400,7 @@ This section explores how direct player actions and passive offline periods can 
 *   **The "Wonder" Bend (Resonance):**
     *   **Mechanic:** "The Conductor."
     *   *Effect:* Clicking in rhythm with game audio/visuals builds a "Resonance Multiplier," making timed clicks more effective than mashing. Harmonizing with the universe grants greater rewards.
-*   **The "Dread" Bend (Entropic Feedback):**
+*   **The "Dread" Bend (Entropic Feedback)::**
     *   **Mechanic:** "Friction Burns."
     *   *Effect:* Rapid, untimed clicking generates instability, potentially damaging equipment or destroying portions of the resource being extracted. Aggressive forcing of the universe yields diminishing returns and negative consequences.
 
@@ -417,7 +423,7 @@ This section explores how direct player actions and passive offline periods can 
 *   **The "Wonder" Bend (Epiphanies):**
     *   **Mechanic:** "Paradigm Shifts."
     *   *Effect:* Achievements don't just give numbers; they rename resources ("Ore" becomes "Stardust"), alter flavor text, and make the game world feel more beautiful and understood.
-*   **The "Dread" Bend (Obsessions):**
+*   **The "Dread" Bend (Obsessions)::**
     *   **Mechanic:** "The Sunk Cost."
     *   *Effect:* Achievements are "accusations." They provide powerful numerical rewards but are accompanied by guilt-inducing text ("Are you happy now?") or subtle atmospheric changes (e.g., background music losing instruments), questioning the player's choices.
 
@@ -525,3 +531,19 @@ The core design philosophy of Cosmos and Chaos is to offer two fundamentally dif
 | **Offline** | Returns to "Sublime Discoveries" and beneficial buffs. | Returns to "Nightmare Logs" and broken machines/events. |
 | **Skill** | Planning & Layout Optimization (Elegant Puzzle). | Reaction & Risk Assessment (Chaotic Survival). |
 | **The Goal** | Transcendence (Understanding the Universe). | Domination (Consuming the Universe). |
+
+## Core Gameplay Loop: The Call to Adventure
+
+The early game for Cosmos and Chaos is structured as a clear "Call to Adventure" that introduces players to the core gameplay cycle of exploration and resource acquisition, and emphasizes the strategic value of propulsion.
+
+1.  **The Starting Point (Tier 0):** The player begins as a relatively static mining operation, collecting resources from immediately available asteroids. Their base is limited to local extraction.
+2.  **The Tease (Tier 1):** Researching **Long-Range Sensors (T05)** dramatically expands the player's visible map. They begin to detect distant, richer resource clusters, unique cosmic phenomena (e.g., Pulsars for science), and faint, mysterious alien signals (`T06 Communication Array` leading to `T20 Ancient Signal Decoder`). This creates a clear desire to reach these distant opportunities.
+3.  **The Problem:** The player's initial propulsion capabilities are insufficient. Their current thrusters are slow, and the increasing mass of their **Cargo Bay (T03)** makes long-distance travel impractical or too time-consuming. They can "see" the prize, but cannot "reach" it efficiently.
+4.  **The Solution (Tier 2):** The player invests in **Advanced Propulsion (T11)**. This allows the mothership to move between sectors. This is not merely an "upgrade to go faster," but a fundamental shift in gameplay.
+5.  **The Reward: Strategic Relocation:** With advanced propulsion, the player can now strategically relocate their entire base to:
+    *   **High-Yield Sectors:** For industrial players, parking in a "Dense Iron Cluster" significantly boosts mining output for specific resources.
+    *   **Science Anomalies:** For scientific players, moving to a "Pulsar" or "Black Hole Event Horizon" provides massive science buffs for researching high-tier technologies like `Grand Unification Theory`.
+    *   **Dread Zones:** For Dread players, seeking out "Thin Reality Zones" or "Void Scars" allows them to harvest "Void Essence" and experience the game's unique challenges.
+    *   **Safety Zones:** For habitat-focused players, propulsion acts as a defensive mechanism, allowing them to escape predicted "Solar Flares" or other local hazards.
+
+This loop transforms propulsion from a simple travel mechanic into a core strategic choice that allows players to actively sculpt their game environment and optimize for their preferred playstyle. It answers the "Call to Adventure" seen on their long-range sensors.

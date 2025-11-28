@@ -1,27 +1,18 @@
-## Session 13 Meta-Analysis (2025-11-27) - Dread Propulsion & Temporal Mechanics
+## Session 14 Meta-Analysis (2025-11-27) - Propulsion Techs & Core Loop Refinement
 
 ### Session Metadata
 - **Date:** 2025-11-27
-- **Focus:** Defining the narrative and mechanics of the Dread Propulsion branch (`T11`).
+- **Focus:** Replacing generic Advanced Propulsion (T11) with distinct Wonder/Dread propulsion technologies (Gravity Sails, Null-Wake Drive) and refining the core gameplay loop.
 - **Model Used:** Gemini
-- **Search Queries:** None (internal analysis and creative brainstorming)
+- **Search Queries:** None (internal analysis and creative articulation)
 
 ### Agent Reasoning & Design Process
 
-The user challenged the "consequence" of the Dread Propulsion system, pushing for a more disturbing, reality-bending mechanic suitable for an idle game.
+This session aimed to formalize the Propulsion branch's mechanics to ensure it offered meaningful choices that aligned with the Wonder/Dread dichotomy and enhanced the idle game loop.
 
-1.  **Initial Narrative:** We established the "Mobile Predator" theme. Wonder surfs gravity; Dread eats space.
-2.  **Refining the Dread Drive:**
-    *   *Concept:* **"The Null-Wake Drive."** It pulls the ship by deleting the space behind it, severing the ship from causality.
-    *   *Visual:* Smearing stars into a black scar.
-    *   *Audio:* The sound of tearing fabric.
-3.  **The Mechanical Challenge:** How to make "reality violation" matter in an idle game?
-    *   *Initial Idea:* "Void Scars" (dead zones). User rejected this as inconsequential.
-    *   *Revised Idea:* **"Chronological Erosion."** High Dread reduces *Offline Efficiency*. The universe "forgets" to calculate your production because you've severed your timeline.
-4.  **Solving the "Idle" Paradox:** To prevent rage-quitting, we converted the penalty into a different gameplay loop.
-    *   **The Trade-off:** Instead of Ore, offline time generates **"Void Essence."**
-    *   **The Payoff:** Essence is burned during active play for massive speed bursts (e.g., 50x speed).
-    *   **The Result:** Dread players trade "Passive Growth" for "Active Bursts." They still get their resources, but they have to "force" them into existence upon returning.
-5.  **Outcome:** A unique mechanic that reinforces the "Dread = Active/Intense/Spiky" vs "Wonder = Passive/Calm/Smooth" dichotomy defined in the previous session.
-
-This session successfully transformed a standard "speed upgrade" into a core narrative mechanic that alters the player's daily interaction rhythm.
+1.  **Replacing Generic Propulsion:** The previous `T11 Advanced Propulsion` was too vague. It was replaced with two specific Tier 2 technologies:
+    *   **T37 Gravity Sails (Wonder):** Implements the "Pipeline" mechanic – passive, permanent resource streams from distant nodes, with a temporary Science Buff during transit. This rewards patience and strategic setup.
+    *   **T38 Null-Wake Drive (Dread):** Implements the "Raid" mechanic – instant, massive resource bursts from distant nodes, but with the "Chronological Erosion" penalty, reinforcing active, high-risk gameplay.
+2.  **Refining the Core Gameplay Loop:** The "Call to Adventure" section was updated to explicitly mention T37/T38 and their respective "Pipeline" and "Raid" mechanics as the key driver for players to choose propulsion. This addresses the question of how propulsion benefits different archetypes by tying it directly to their resource acquisition strategies.
+3.  **Tech Tree Integration:** The Mermaid diagram, Branch Distribution table, and Detailed Technology List in `session.md` were all updated to reflect these new technologies, their dependencies, and their impact on total tech count and W/D scores.
+4.  **Outcome:** The Propulsion branch now offers a compelling, idle-friendly strategic choice, further solidifying the game's core design. The total technology count is now 38, with a balanced +45 Wonder / +45 Dread.
