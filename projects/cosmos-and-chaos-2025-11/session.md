@@ -131,14 +131,18 @@ graph TB
     subgraph "Tier 4 Choices"
         direction LR
         T27["<b>27. Quantum Tunneling Drill</b><br/>(Mining)"]
-        T28["<b>28. Void Siphon</b><br/>(Mining)"]
+        T28["<b>28. Von Neumann Extractor</b><br/>(Mining)"]
     end
     subgraph "Tier 4 Habitat"
         direction LR
         T22["<b>22. Aether Arcologies</b><br/>(Habitat)"]
         T23["<b>23. Suspended Animation Pods</b><br/>(Habitat)"]
     end
-    T25["<b>25. Advanced Xenoarch Lab</b>"]
+    subgraph "Tier 4 Xenoarch Choice"
+        direction LR
+        T25a["<b>25a. Resonance Archives</b><br/>(Xenoarch)"]
+        T25b["<b>25b. Vivisection Chamber</b><br/>(Xenoarch)"]
+    end
     T29["<b>29. Grand Unification Theory</b>"]
     T30["<b>30. Von Neumann Probes</b>"]
     subgraph "Tier 4 Consciousness Finale"
@@ -176,13 +180,13 @@ graph TB
     T17 --> T27
     T18 --> T28
     T19 --> T29
-    T20 --> T25
+    T20 -- "XENOARCH CHOICE" --> T25a; T20 -- "XENOARCH CHOICE" --> T25b
     T21 --> T24
-    T24 --> T25
-    T25 --> T47
-    T25 --> T48
-    T29 -- "RESEARCH CHOICE" --> T31; T29 -- "RESEARCH CHOICE" --> T32
-    T30 -- "LEGACY CHOICE" --> T33; T30 -- "LEGACY CHOICE" --> T34
+    T24 --> T25a; T24 --> T25b
+    T25a --> T47
+    T25b --> T48
+    T29 -- "RESEARCH CHOICE" --> T31; T29 --> T33
+    T30 -- "LEGACY CHOICE" --> T32; T30 --> T34
     T37 --> T16; T37 --> T30
     T38 --> T16; T38 --> T30
     T39 --> T22
@@ -198,13 +202,14 @@ graph TB
     class T04,T05,T06,T07,T08,T09,T41 tier1
     class T10,T12,T13,T14,T15,T16,T20,T35,T36,T37,T38,T42 tier2
     class T17,T18,T19,T21,T24,T39,T40,T43,T44,T45,T46 tier3
-    class T22,T23,T25,T27,T28,T29,T30,T47,T48 tier4
+    class T22,T23,T25a,T25b,T27,T28,T29,T30,T47,T48 tier4
     class T31,T32,T33,T34 tier5
 
-    class T02,T05,T09,T12,T14,T17,T22,T27,T29,T31,T33,T35,T37,T39,T42,T43,T45,T47 wonderHeavy
-    class T13,T18,T20,T23,T28,T30,T36,T38,T40,T44,T46,T48 dreadHeavy
+    class T02,T05,T09,T12,T14,T17,T22,T25a,T27,T29,T31,T33,T35,T37,T39,T42,T43,T45,T47 wonderHeavy
+    class T13,T18,T20,T23,T25b,T28,T30,T32,T34,T36,T38,T40,T44,T46,T48 dreadHeavy
     class T15,T19,T21,T24,T41 balanced
-    class T25,T28,T34 landmarkDread
+    class T25b,T28,T34 landmarkDread
+    class T25a,T27,T33 landmarkWonder
 ```
 
 ---
@@ -296,10 +301,14 @@ The 48 technologies are now organized into **6 Core Ship Departments**, streamli
 - *Benefit:* Teleports ore directly out of the rock.
 - *Stats:* +2 Wonder / +0 Dread.
 
-**T28 Void Siphon** (Dread - Tier 4 Mining Choice)
-- *Benefit:* Consumes the asteroid belt itself for infinite resources.
+**T28 Von Neumann Extractor** (Dread - Tier 4 Mining Choice)
+- *Benefit:* **"Exponential Yield."** Releases a localized swarm. Output grows by 1% per tick automatically.
 - *Stats:* +0 Wonder / +5 Dread.
-- *Friction:* Generates Massive Subspace Noise.
+- *Mechanic:* **"The Hunger Protocol."**
+    -   The swarm requires **mass** to replicate and will gradually chew through resources as yields increase.
+    -   A dedicated UI element ("Feeding Trough") allows the player to **manually select** which resource the swarm consumes to fuel its growth (e.g., Ore, Alloys, Biomass, even Crew).
+    -   **Growth Rate** is influenced by the quality/value of the consumed resource.
+    -   **Critical Failure:** If the selected resource runs out, the swarm will automatically switch to the next most valuable available resource, potentially consuming critical components without player input. This demands constant, active management to prevent the swarm from devouring the ship's most vital resources.
 
 ### 2. Navigation & Systems
 *The Legs: Propulsion, Exploration, and Signal Analysis.*
@@ -373,8 +382,10 @@ The 48 technologies are now organized into **6 Core Ship Departments**, streamli
 - *Penalty:* **Reality Instability.** Upkeep increases with Dread tech.
 
 **T23 Suspended Animation Pods** (Dread - Tier 4 Habitat Choice)
-- *Benefit:* **"The Skeleton Crew."** Freezes 90% of crew. Unlocks "Time Skip."
+- *Benefit:* **"Cryo-Stasis."** Freezes 90% of crew. **Time Skip Effectiveness +100%.**
 - *Stats:* +0 Wonder / +4 Dread.
+- *Cost:* Lose all "Human" bonuses (no Morale > 100%).
+- *Requirement:* Must have T40 Neural Dampeners.
 
 **T47 The Noosphere Resonator** (Wonder - Tier 4 Consciousness Finale)
 - *Benefit:* **"Reality Formatting."** Crew can "vote" to change local biomes.
@@ -399,16 +410,23 @@ The 48 technologies are now organized into **6 Core Ship Departments**, streamli
 - *Benefit:* Allows safe extraction of small artifacts (Relics).
 - *Stats:* +1 Wonder / +1 Dread.
 
-**T25 Advanced Xenoarch Lab** (Dread - Tier 4 Landmark)
-- *Benefit:* Safely analyzes dangerous, reality-warping artifacts (Primal Cores).
+**T25a The Resonance Archives** (Wonder - Tier 4 Choice)
+- *Benefit:* **"Curated Exhibition."** Unlocks a limited number of "Archive Pedestals."
+- *Mechanic:* Artifacts (Primal Cores) are **PRESERVED** (not consumed) and placed onto Pedestals. Each placed Core grants a permanent **Harmony Core** (Passive Buff). Players can freely swap placed Cores for flexibility.
+- *Stats:* +3 Wonder / +0 Dread.
+
+**T25b The Vivisection Chamber** (Dread - Tier 4 Choice)
+- *Benefit:* **"Genetic Integration."**
+- *Mechanic:* Artifacts (Primal Cores) are **DESTROYED** (consumed). Each consumed Core grants a permanent, stacking +X% to **Chaos Core** (Active Ability) power. This offers infinite scaling.
 - *Stats:* +0 Wonder / +3 Dread.
-- *Requirement:* Must have T20 Ancient Signal Decoder.
+
+*Note: A Witness player with **Paradox Protocol** can build BOTH. This allows them to strategically choose whether to preserve an artifact for flexible passive buffs OR consume it for permanent, stacking active power.*
 
 ### 5. Theoretical Physics
 *The Mind: Deep Research and Temporal Mechanics.*
 
 **T29 Grand Unification Theory** (Wonder - Tier 4)
-- *Benefit:* Ultimate physics unlock. Reveals the map.
+- *Benefit:* The ultimate physics unlock. Reveals the map. Unlocks **World-Seeding Protocol** (Victory).
 - *Stats:* +5 Wonder / +0 Dread.
 - *Requirement:* High Energy.
 
@@ -422,15 +440,14 @@ The 48 technologies are now organized into **6 Core Ship Departments**, streamli
 *The End: Prestige and Reset.*
 
 **T30 Von Neumann Probes** (Dread - Tier 4)
-- *Benefit:* Self-replicating miner swarms. Exponential growth.
+- *Benefit:* Self-replicating miner swarms. Exponential growth. Unlocks **Autonomous Scaling Protocol** (Victory).
 - *Stats:* +0 Wonder / +4 Dread.
-- *Lockout:* Prevents World-Seeding Protocol.
 
-**T33 World-Seeding Protocol** (Tier 5)
-- *Description:* Wonder victory condition.
+**T33 World-Seeding Protocol** (Tier 5 - Wonder Victory)
+- *Description:* The ultimate Wonder achievement. Requires T29.
 
-**T34 Autonomous Scaling Protocol** (Tier 5)
-- *Description:* Dread victory condition.
+**T34 Autonomous Scaling Protocol** (Tier 5 - Dread Victory)
+- *Description:* The ultimate Dread achievement. Requires T30.
 
 ---
 
