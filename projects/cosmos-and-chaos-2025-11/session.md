@@ -295,9 +295,12 @@ The 48 technologies are now organized into **6 Core Ship Departments**, streamli
 - *Stats:* +3 Wonder / +0 Dread.
 
 **T44 Entropy Furnace** (Dread - Tier 3 Energy Choice)
-- *Benefit:* **"Limit Break."** Overclock station output.
-- *Cost:* Generates **"Dissonance."**
+- *Benefit:* **"Limit Break."** Allows Overclocking station output to 150%, 200%, 300%.
+- *Cost:* Generates **"Dissonance"** (Reality Flux).
 - *Stats:* +0 Wonder / +3 Dread.
+- *Friction Mechanics:*
+    -   **"Mechanical Fatigue:"** The Furnace takes damage every second it is overclocked. Requires manual "Repairs" (costing **Alloys** + Crew Stamina) to prevent explosion.
+    -   **"Venting Blast:"** Manually purging accumulated Dissonance releases a physical shockwave, instantly **disabling nearby buildings** for 30 seconds. You must choose between global instability (High Dissonance) or local downtime (Blast).
 
 **T27 Quantum Tunneling Drill** (Wonder - Tier 4 Mining Choice)
 - *Benefit:* Teleports ore directly out of the rock.
