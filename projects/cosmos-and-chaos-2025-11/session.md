@@ -22,9 +22,9 @@
 
 ### Technology Tree Diagram and Analysis
 
-**Date:** 2025-11-26 (Final Overhaul)
+**Date:** 2025-11-27 (Energy & Consciousness Update)
 **Purpose:** Visual representation of the complete technology tree structure (Tiers 0-5)
-**Technologies:** 40 current technologies across 12 branches
+**Technologies:** 48 current technologies across 13 branches
 
 ---
 
@@ -58,15 +58,17 @@ graph TB
     T07["<b>7. Automated Sorting</b>"]
     T08["<b>8. Thruster Upgrade I</b>"]
     T09["<b>9. Surface Scavenging</b><br/>(Xenoarchaeology)"]
+    T41["<b>41. High-Capacity Batteries</b><br/>(Energy)"]
 
     %% Tier 2
     T10["<b>10. Advanced Drilling Tech</b><br/>(Mining)"]
     T12["<b>12. Material Synthesis I</b>"]
-    T13["<b>13. Deep Neural Link I</b>"]
+    T13["<b>13. Brain-Computer Interface</b><br/>(Consciousness)"]
     T14["<b>14. Quantum Scanner</b>"]
     T15["<b>15. Archaeological Survey</b><br/>(Xenoarchaeology)"]
     T16["<b>16. Long-Term Habitation Study</b><br/>(Habitat)"]
     T20["<b>20. Ancient Signal Decoder</b>"]
+    T42["<b>42. Photosynthetic Arrays</b><br/>(Energy)"]
     
     subgraph "Tier 2 Storage Choice"
         direction LR
@@ -94,6 +96,16 @@ graph TB
         T39["<b>39. Aquaponic Cascades</b><br/>(Life Support)"]
         T40["<b>40. Neural Dampeners</b><br/>(Life Support)"]
     end
+    subgraph "Tier 3 Energy Choice"
+        direction LR
+        T43["<b>43. Zero-Point Extraction</b><br/>(Energy)"]
+        T44["<b>44. Entropy Furnace</b><br/>(Energy)"]
+    end
+    subgraph "Tier 3 Consciousness Choice"
+        direction LR
+        T45["<b>45. Gestalt Networking</b><br/>(Consciousness)"]
+        T46["<b>46. Direct Behavior Control</b><br/>(Consciousness)"]
+    end
 
     %% Tier 4
     subgraph "Tier 4 Choices"
@@ -103,13 +115,17 @@ graph TB
     end
     subgraph "Tier 4 Habitat"
         direction LR
-        T22["<b>22. Integrated Bio-Domes</b><br/>(Habitat)"]
+        T22["<b>22. Aether Arcologies</b><br/>(Habitat)"]
         T23["<b>23. Suspended Animation Pods</b><br/>(Habitat)"]
     end
     T25["<b>25. Advanced Xenoarch Lab</b>"]
-    T26["<b>26. Consciousness Crystal</b>"]
     T29["<b>29. Grand Unification Theory</b>"]
     T30["<b>30. Von Neumann Probes</b>"]
+    subgraph "Tier 4 Consciousness Finale"
+        direction LR
+        T47["<b>47. The Noosphere Resonator</b><br/>(Consciousness)"]
+        T48["<b>48. The Synaptic Lattice</b><br/>(Consciousness)"]
+    end
     
     %% Tier 5
     subgraph "Tier 5 Choices"
@@ -121,7 +137,7 @@ graph TB
     end
 
     %% Dependencies
-    T01 --> T04; T01 --> T08; T01 --> T10
+    T01 --> T04; T01 --> T08; T01 --> T10; T01 --> T41
     T02 --> T05; T02 --> T09
     T03 --> T07
     T04 --> T12
@@ -133,7 +149,7 @@ graph TB
     T09 --> T15
     T10 -- "MINING CHOICE" --> T17; T10 -- "MINING CHOICE" --> T18
     T12 --> T19; T12 --> T30
-    T13 --> T26
+    T13 -- "CONSCIOUSNESS CHOICE" --> T45; T13 -- "CONSCIOUSNESS CHOICE" --> T46
     T14 --> T21
     T15 --> T21
     T16 -- "LIFE SUPPORT CHOICE" --> T39; T16 -- "LIFE SUPPORT CHOICE" --> T40
@@ -143,26 +159,31 @@ graph TB
     T20 --> T25
     T21 --> T24
     T24 --> T25
-    T25 --> T26
+    T25 --> T47
+    T25 --> T48
     T29 -- "RESEARCH CHOICE" --> T31; T29 -- "RESEARCH CHOICE" --> T32
     T30 -- "LEGACY CHOICE" --> T33; T30 -- "LEGACY CHOICE" --> T34
     T37 --> T16; T37 --> T30
     T38 --> T16; T38 --> T30
     T39 --> T22
     T40 --> T23
+    T41 --> T42
+    T42 -- "ENERGY CHOICE" --> T43; T42 -- "ENERGY CHOICE" --> T44
+    T45 --> T47
+    T46 --> T48
 
 
     %% Styling
     class T01,T02,T03 tier0
-    class T04,T05,T06,T07,T08,T09 tier1
-    class T10,T12,T13,T14,T15,T16,T20,T35,T36,T37,T38 tier2
-    class T17,T18,T19,T21,T24,T39,T40 tier3
-    class T22,T23,T25,T26,T27,T28,T29,T30 tier4
+    class T04,T05,T06,T07,T08,T09,T41 tier1
+    class T10,T12,T13,T14,T15,T16,T20,T35,T36,T37,T38,T42 tier2
+    class T17,T18,T19,T21,T24,T39,T40,T43,T44,T45,T46 tier3
+    class T22,T23,T25,T27,T28,T29,T30,T47,T48 tier4
     class T31,T32,T33,T34 tier5
 
-    class T02,T05,T09,T12,T14,T17,T22,T27,T29,T31,T33,T35,T37,T39 wonderHeavy
-    class T13,T18,T20,T23,T28,T30,T36,T38,T40 dreadHeavy
-    class T15,T19,T21,T24,T26,T32 balanced
+    class T02,T05,T09,T12,T14,T17,T22,T27,T29,T31,T33,T35,T37,T39,T42,T43,T45,T47 wonderHeavy
+    class T13,T18,T20,T23,T28,T30,T36,T38,T40,T44,T46,T48 dreadHeavy
+    class T15,T19,T21,T24,T41 balanced
     class T25,T28,T34 landmarkDread
 ```
 
@@ -178,14 +199,15 @@ graph TB
 | **Synthesis & Transformation**| 3 | +4 | +3 | Balanced progression. |
 | **Temporal & Efficiency**| 2 | +1 | +1 | Speed → deep time. |
 | **Signal Analysis**| 2 | +1 | +2 | **New Friction:** Noise from Dread Mining reduces signal clarity. |
-| **Consciousness**| 2 | +2 | +3 | Identity transformation. |
+| **Consciousness**| 6 | +7 | +9 | Expanded with new Crew Mechanics. |
 | **Habitat & Life Support** | 5 | +4 | +6 | Added Tier 3 Life Support Choice. |
 | **Xenoarchaeology** | 5 | +7 | +7 | Shifted T25/T26 to Tier 4 for better pacing. |
 | **Scientific Research** | 3 | +10 | +4 | **New Requirement:** High Science needs High Industry. |
 | **Legacy & Propagation** | 3 | +6 | +11| Merged, ultimate Dread choice. |
 | **Propulsion & Movement** | 2 | +2 | +2 | New Tier 2 Propulsion Choice. |
+| **Energy Generation** | 4 | +4 | +3 | New Energy Branch (Harvest vs. Burn). |
 
-**Total:** 40 technologies | **+46 Wonder** | **+46 Dread** (Symmetric Count, Asymmetric Play)
+**Total:** 48 technologies | **+56 Wonder** | **+54 Dread** (Still Asymmetric)
 
 ---
 
@@ -200,14 +222,19 @@ graph TB
 - *Mechanic:* Essential for buffering resources, ensuring production doesn't halt when away, and increasing global resource cap to afford larger upgrades.
 - *Stats:* +0 Wonder / +0 Dread.
 
-### Tier 1 & 2: Early Discovery, Storage & Propulsion Updates
-*Focus: Scavenging, Listening, Storage Choice, Propulsion Choice and Basic Identification.*
+### Tier 1 & 2: Early Discovery, Storage, Propulsion & Energy Updates
+*Focus: Scavenging, Listening, Storage, Propulsion, Energy and Basic Identification.*
 
 **9. Surface Scavenging** (Balanced - Tier 1)
 - *Replaces:* Peculiar Object Analysis.
 - *Benefit:* Basic mining lasers now have a 2% chance to extract "Unidentified Shards" alongside ore.
 - *Stats:* +1 Wonder / +0 Dread.
 - *Note:* Unlocks the inventory for artifacts early.
+
+**41. High-Capacity Batteries** (Balanced - Tier 1)
+- *Benefit:* Increases Energy Storage Cap.
+- *Mechanic:* Foundation for energy management.
+- *Stats:* +0 Wonder / +0 Dread.
 
 **35. Matter Compression** (Wonder - Tier 2 Storage Choice)
 - *Benefit:* **"Pressure Feed."** When storage is >90% full, Refinery speed increases by 15%.
@@ -231,6 +258,16 @@ graph TB
 - *Penalty:* **"Chronological Erosion."** Offline resource generation decays. Instead, generates "Void Essence" for active speed bursts.
 - *Theme:* Immediate gain, future cost.
 
+**42. Photosynthetic Arrays** (Wonder-Leaning - Tier 2 Energy)
+- *Benefit:* Advanced solar panels. +20% Energy Generation.
+- *Stats:* +1 Wonder / +0 Dread.
+- *Theme:* Linking energy to biology. No-brainer upgrade.
+
+**13. Brain-Computer Interface** (Balanced - Tier 2 Consciousness)
+- *Benefit:* Crew learn faster. Increases **Proficiency Gain Rate** by 25%.
+- *Stats:* +1 Wonder / +1 Dread.
+- *Requirement:* Requires a functional Habitat (T16 Long-Term Habitation Study).
+
 **20. Ancient Signal Decoder** (Dread - Tier 2)
 - *Moved:* From Tier 3 to Tier 2.
 - *Benefit:* Decrypts weak background signals into Lore Logs and Coordinates.
@@ -239,7 +276,7 @@ graph TB
 - *Requirement:* Critical for unlocking the **Advanced Xenoarch Lab** in Tier 4.
 
 ### Tier 3: The Industrial Expansion
-*Focus: Mining, Refining, Xenoarchaeology, and Life Support.*
+*Focus: Mining, Refining, Xenoarchaeology, Life Support, Advanced Energy and Crew Specialization.*
 
 **17. Resonant Frequency Mining** (Wonder)
 - *Benefit:* Clean, high-yield mining using sound.
@@ -272,10 +309,31 @@ graph TB
 - *Stats:* +0 Wonder / +1 Dread.
 - *Theme:* Control through suppression.
 
+**44. Entropy Furnace** (Dread - Tier 3 Energy Choice)
+- *Benefit:* **"Limit Break."** Allows Overclocking station output to 150%, 200%, 300%.
+- *Cost:* Generates **"Dissonance"** (Reality Flux). High Dissonance causes buildings to malfunction or break.
+- *Stats:* +0 Wonder / +3 Dread.
+- *Theme:* Power at the cost of stability.
+
+**43. Zero-Point Extraction** (Wonder - Tier 3 Energy Choice)
+- *Benefit:* Passive, clean power from vacuum. Efficiency scales with Science Output.
+- *Stats:* +3 Wonder / +0 Dread.
+- *Theme:* Infinite potential.
+
+**45. Gestalt Networking** (Wonder - Tier 3 Consciousness Choice)
+- *Benefit:* **"Synced Minds."** Proficiency Gain is doubled. Unlocks **"Mastery"** (Proficiency Cap increases to Level 150).
+- *Stats:* +2 Wonder / +0 Dread.
+- *Requirement:* T13 Brain-Computer Interface.
+
+**46. Direct Behavior Control** (Dread - Tier 3 Consciousness Choice)
+- *Benefit:* **"Forced Labor."** You can toggle "Crunch Mode." Proficiency Gain stops, Morale drops, but **Global Speed increases by 50%**.
+- *Stats:* +0 Wonder / +2 Dread.
+- *Requirement:* T13 Brain-Computer Interface.
+
 ### Tier 4: The Existential Crisis
 *Focus: Time, Consciousness, and Reality-Breaking.*
 
-**22. Integrated Bio-Domes** (Wonder - Habitat Choice)
+**22. Aether Arcologies** (Wonder - Habitat Choice)
 - *Benefit:* Creates a self-sustaining ecosystem. Unlocks "Inspiration" (Morale > 100%). At 200% Morale, gain "The Golden Age" buff (+50% to ALL stats).
 - *Stats:* +3 Wonder / +0 Dread.
 - *Penalty:* **Reality Instability.** Upkeep cost increases by +20% for every Dread Tech in Tier 4 (The void hates life).
@@ -291,10 +349,6 @@ graph TB
 - *Benefit:* Safely analyzes dangerous, reality-warping artifacts.
 - *Stats:* +0 Wonder / +3 Dread.
 - *Requirement:* **Must have T20 Ancient Signal Decoder.** You cannot study the artifacts if you cannot read the warnings.
-
-**26. Consciousness Crystal** (Balanced)
-- *Benefit:* Uploads crew minds into crystal storage for immortality.
-- *Stats:* +1 Wonder / +2 Dread.
 
 **27. Quantum Tunneling Drill** (Wonder - Mining Choice)
 - *Benefit:* Teleports ore directly out of the rock without breaking it.
@@ -314,6 +368,19 @@ graph TB
 - *Benefit:* Self-replicating miner swarms. Exponential growth.
 - *Stats:* +0 Wonder / +4 Dread.
 - *Lockout:* Permanently prevents `World-Seeding Protocol`.
+
+**47. The Noosphere Resonator** (Wonder - Tier 4 Consciousness Finale)
+- *Benefit:* **"Reality Formatting."** The crew's collective will can "vote" to change the local biome (e.g., "We imagine a Nebula here" for Science, or "a dense asteroid field" for Ore).
+- *Cost:* Requires Proficiency Level 100+.
+- *Stats:* +3 Wonder / +0 Dread.
+- *Requirement:* T45 Gestalt Networking.
+
+**48. The Synaptic Lattice** (Dread - Tier 4 Consciousness Finale)
+- *Benefit:* **"Memory Burn."** Instantly complete a long Research or Construction project.
+- *Cost:* Sacrifices **Proficiency Levels** (e.g., "Burn 10 Levels to finish this Tech instantly").
+- *Penalty:* **"Phantom Echoes."** Generates **Dissonance**. The ship occasionally takes random, confused actions (Dissonance Glitches) due to scrambled memory fragments.
+- *Stats:* +0 Wonder / +3 Dread.
+- *Requirement:* T46 Direct Behavior Control.
 
 ### Tier 5: The Finale
 *(unchanged from previous design)*
@@ -337,7 +404,7 @@ This section explores how core idle game mechanics can be "bent" or "broken" to 
 *   **Standard Mechanic:** Buildings produce X resource per second automatically.
 *   **The "Wonder" Bend (Quantum Entanglement)::**
     *   **Mechanic:** "Shared Inventory."
-    *   *Effect:* Buildings no longer need to transport resources. Ore mined *instantly* appears in the refinery. Remoeves all "transit time" or "logistic" delays.
+    *   *Effect:* Buildings no longer need to transport resources. Ore mined *instantly* appears in the refinery. Removes all "transit time" or "logistic" delays.
 *   **The "Dread" Bend (Cannibalistic Automation)::**
     *   **Mechanic:** "Self-Eating Logic."
     *   *Effect:* Your machines produce +500% output, but they consume *each other* as fuel. You have to constantly rebuild the "bottom" of your pyramid scheme to keep the "top" running at god-like speeds.
@@ -353,7 +420,7 @@ This section explores how core idle game mechanics can be "bent" or "broken" to 
 
 ### 4. Prestige (The Reset)
 *   **Standard Mechanic:** Reset progress to gain a currency that boosts speed.
-*   **The "Wonder" Bend (Legacy Knowledge):**
+*   **The "Wonder" Bend (Legacy Knowledge)::**
     *   **Mechanic:** "Map Permanence."
     *   *Effect:* You don't keep resources, but you keep your *vision*. The map remains revealed. You know exactly where the good asteroids are in the next life.
 *   **The "Dread" Bend (Save File Corruption):**
@@ -383,32 +450,32 @@ Instead of simple automated purchases, Auto-Buyers can act as "characters" whose
 
 ---
 
-## Dread-Induced Glitches: System Corruption
+## Dread-Induced Glitches: System Corruption (Dissonance Glitches)
 
-High Dread should manifest as "System Corruption," making the game's UI and logic (including Auto-Buyers) glitch or behave unpredictably.
+High Dread should manifest as "System Corruption," making the game's UI and logic (including Auto-Buyers) glitch or behave unpredictably. These are now explicitly linked to "Dissonance" levels.
 
 ### 1. The "Monkey's Paw" Auto-Buyer (High Dread)
-*   **Trigger:** Dread > 75%.
+*   **Trigger:** Dread > 75% or High Dissonance.
 *   **The Glitch:** The Auto-Buyer interprets "Buy Max" maliciously. It will buy the requested items but sell other critical assets to meet the cost if short on resources.
 *   *Flavor Text:* "Optimization requires sacrifice."
 
 ### 2. The "Ghost Inputs" (Medium Dread)
-*   **Trigger:** Dread > 50%.
+*   **Trigger:** Dread > 50% or Medium Dissonance.
 *   **The Glitch:** Random UI clicks register based on past mouse positions, leading to unintended actions (e.g., clicking "Research" but activating "Vent Atmosphere").
 *   *Effect:* Requires deliberate, slow mouse movements to mitigate.
 
 ### 3. The "Resource Hallucination" (Low-Medium Dread)
-*   **Trigger:** Dread > 25%.
+*   **Trigger:** Dread > 25% or Low Dissonance.
 *   **The Glitch:** UI resource counters display inflated values. Attempting to purchase items reveals the true, lower count.
 *   *Effect:* Players must verify resource counts (e.g., by hovering) to discern reality.
 
 ### 4. The "Whispering Tooltips" (Any Dread)
-*   **Trigger:** Specific Dread Technologies active.
+*   **Trigger:** Specific Dread Technologies active or Any Dissonance.
 *   **The Glitch:** Tooltips change their text to unsettling, narrative-driven messages when not directly observed.
 *   *Effect:* Purely narrative/psychological horror, making the player distrust game information.
 
 ### 5. The "Save File Bleed" (Extreme Dread)
-*   **Trigger:** Dread > 90% (Near Endgame).
+*   **Trigger:** Dread > 90% (Near Endgame) or Extreme Dissonance.
 *   **The Glitch:** Resources or upgrades are swapped or affected by other save files or future game runs.
 *   *Effect:* Players might lose resources or gain unintended upgrades, implying a leakage across temporal/dimensional boundaries.
 
@@ -503,7 +570,7 @@ This section defines how resource storage works, blending capacity management wi
 *   **Philosophy:** "Space is infinite if you fold it correctly." This path focuses on efficiency, organization, and making the most of limited physical space.
 *   **Mechanics:**
     *   **Deep Storage:** Wonder-aligned storage facilities provide massive capacity increases per unit of physical space.
-    *   **Flow Optimization:** Storage automatically "sorts" and "compress resources. This grants a passive bonus to *Refining Speed* based on how full the storage is (e.g., "Pressure bonus"). A full, Wonder-aligned silo feeds processing facilities faster.
+    *   **Flow Optimization:** Storage automatically "sorts" and "compresses" resources. This grants a passive bonus to *Refining Speed* based on how full the storage is (e.g., "Pressure bonus"). A full, Wonder-aligned silo feeds processing facilities faster.
 *   **Visual/Flavor:** Clean, modular, and internally lit data banks; resources appear perfectly ordered and contained.
 
 #### Dread Storage: "The Hoard" (Unstable Expansion & Risk)
@@ -515,6 +582,26 @@ This section defines how resource storage works, blending capacity management wi
         *   Random "Hull Breaches" resulting in the instant loss of a significant portion (e.g., 50%) of the hoarded resources.
     *   **Strategic Risk:** Allows players to rush expensive upgrades early by accumulating resources beyond safe limits, but demands constant vigilance and acceptance of potential catastrophic losses.
 *   **Visual/Flavor:** Chaotic piles of raw materials, external containers bolted haphazardly to the hull, leaking fluids, and visible stress fractures.
+
+---
+
+## Crew Mechanics: The Human Element (or lack thereof)
+
+In *Cosmos and Chaos*, Crew are not just a static number; they are the intelligent force driving your station, represented by two key metrics:
+
+### 1. Crew Count (The Workforce)
+*   **Definition:** The raw number of sentient beings (or their digitized equivalents) available to operate your station.
+*   **Function:** Every active building requires a certain amount of **Crew** to operate at full efficiency.
+    *   *Example:* A Mine might require 5 Crew, a Refinery 10 Crew, a Research Lab 20 Crew.
+*   **Penalty:** If a building is assigned fewer Crew than required, its efficiency (and thus its output) is proportionally reduced. If 0 Crew are assigned, it operates at a base 10% efficiency (automated but dumb).
+*   **Management:** Crew Cap is increased by building Habitat structures (T16, T22, T23).
+
+### 2. Proficiency (The Global Skill Level)
+*   **Definition:** A global metric (Level 1-150) representing the collective experience, skill, and understanding of your entire Crew.
+*   **Function:** Increases **Global Efficiency**. Each level of Proficiency grants **+1% Global Efficiency** to all resource production, research, and ship operations.
+*   **Gain:** Proficiency increases over time through active operation of buildings and research. Some technologies (like T13 Brain-Computer Interface and T45 Gestalt Networking) accelerate this gain.
+*   **Loss:** Certain Dread technologies (like T48 The Synaptic Lattice) can sacrifice Proficiency for immediate gains, representing a "burning" of collective knowledge.
+*   **Visual/Flavor:** Represents the crew learning the quirks of the ship, finding optimal workflows, and sharing knowledge. "Percussive Maintenance" becomes an art form.
 
 ---
 
@@ -530,7 +617,7 @@ The core design philosophy of Cosmos and Chaos is to offer two fundamentally dif
 *   **The "Click":** Active interaction becomes rhythmic and rewarding ("Resonance Multiplier"), rather than frantic mashing. It's about synchronizing with the game's pulse.
 *   **The Loop:** Systems integrate seamlessly. Technologies like "Matter Compression" and "Universal Translator" streamline resource flow and management, reducing complexity and increasing efficiency. The game anticipates needs.
 *   **The UI:** Becomes a tool for perfect planning. "Prescience" removes randomness, allowing players to forecast events and optimize sequences, leading to a deterministic and predictable environment.
-    **The Feeling:** A state of "Flow." The game feels like a perfectly tuned machine, responding to precise inputs. Players feel intelligent and in control, enjoying a smooth, optimized experience.
+*   **The Feeling:** A state of "Flow." The game feels like a perfectly tuned machine, responding to precise inputs. Players feel intelligent and in control, enjoying a smooth, optimized experience.
 *   **The Risk:** Minimal resource loss. Challenges focus on optimizing complex layouts and leveraging synergistic buffs.
 
 ### The High Dread Experience (D+)

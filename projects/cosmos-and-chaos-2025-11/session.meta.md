@@ -1,18 +1,28 @@
-## Session 15 Meta-Analysis (2025-11-27) - Propulsion Techs & Core Loop Refinement
+## Session 17 Meta-Analysis (2025-11-27) - Consciousness Branch & Crew Mechanics
 
 ### Session Metadata
 - **Date:** 2025-11-27
-- **Focus:** Replacing generic Advanced Propulsion (T11) with distinct Wonder/Dread propulsion technologies (Gravity Sails, Null-Wake Drive) and refining the core gameplay loop.
+- **Focus:** Fleshing out the "Consciousness" branch and defining underlying "Crew Mechanics."
 - **Model Used:** Gemini
-- **Search Queries:** None (internal analysis and creative articulation)
+- **Search Queries:** None (internal analysis and creative brainstorming)
 
 ### Agent Reasoning & Design Process
 
-This session aimed to formalize the Propulsion branch's mechanics to ensure it offered meaningful choices that aligned with the Wonder/Dread dichotomy and enhanced the idle game loop.
+This session aimed to resolve the "dead end" in the Consciousness branch and establish the foundational mechanics for Crew interaction.
 
-1.  **Replacing Generic Propulsion:** The previous `T11 Advanced Propulsion` was too vague. It was replaced with two specific Tier 2 technologies:
-    *   **T37 Gravity Sails (Wonder):** Implements the "Pipeline" mechanic – passive, permanent resource streams from distant nodes, with a temporary Science Buff during transit. This rewards patience and strategic setup.
-    *   **T38 Null-Wake Drive (Dread):** Implements the "Raid" mechanic – instant, massive resource bursts from distant nodes, but with the "Chronological Erosion" penalty, reinforcing active, high-risk gameplay.
-2.  **Refining the Core Gameplay Loop:** The "Call to Adventure" section was updated to explicitly mention T37/T38 and their respective "Pipeline" and "Raid" mechanics as the key driver for players to choose propulsion. This addresses the question of how propulsion benefits different archetypes by tying it directly to their resource acquisition strategies.
-3.  **Tech Tree Integration:** The Mermaid diagram, Branch Distribution table, and Detailed Technology List in `session.md` were all updated to reflect these new technologies, their dependencies, and their impact on total tech count and W/D scores.
-4.  **Outcome:** The Propulsion branch now offers a compelling, idle-friendly strategic choice, further solidifying the game's core design. The total technology count is now 38, with a balanced +45 Wonder / +45 Dread.
+1.  **Crew Mechanics Definition:** Realized that the Consciousness branch's effects on "skills" and "brains" required a defined crew system.
+    *   **Crew Count:** Established as a hardware cap for building efficiency, increased by Habitats.
+    *   **Proficiency:** Introduced as a global, leveling (1-150) metric for overall station efficiency (+1% per level). Gained over time, accelerated by some techs, reduced by Dread techs.
+2.  **Consciousness Branch Expansion (Tiers 2-4):**
+    *   **T13 Brain-Computer Interface (Tier 2, Balanced):** Renamed and set as the entry point, boosting Proficiency Gain.
+    *   **Tier 3 Choice (New Divergence):**
+        *   **T45 Gestalt Networking (Wonder):** Focuses on synchronized learning, doubling Proficiency Gain and increasing its cap (Mastery).
+        *   **T46 Direct Behavior Control (Dread):** Allows "Crunch Mode" for global speed boosts at the cost of Morale and stopping Proficiency Gain ("Forced Labor").
+    *   **Tier 4 Final Choice (Ultimate Fate):**
+        *   **T47 The Noosphere Resonator (Wonder - replaced T26):** Crew "ascends" to pure thought, allowing "Reality Formatting" (map manipulation) via high Proficiency.
+        *   **T48 The Synaptic Lattice (Dread):** Allows "Memory Burn" (instant project completion) by sacrificing Proficiency levels, with the delayed negative effect of "Phantom Echoes" (Dissonance Glitches from scrambled memories).
+3.  **Dissonance Integration:** Explicitly linked the "Phantom Echoes" effect of The Synaptic Lattice to the existing "Dissonance" mechanic, reinforcing its role as the global "bad stuff" meter.
+4.  **Tech Tree & Distribution Updates:** The tech tree diagram and branch distribution table were updated to include these 6 new technologies, bringing the total to 48.
+5.  **Outcome:** The Consciousness branch now offers a compelling narrative arc about the fate of the crew, integrated with a functional Crew Mechanics system that leverages both Wonder and Dread playstyles.
+
+**Next Steps:** Detail the "Xenoarchaeology" Artifacts.
