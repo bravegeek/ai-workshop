@@ -103,7 +103,13 @@ Your process follows these phases:
     - Example: `projects/react-state-management-2025-11/`
     - Always place in the `projects/` directory
 
-11. **Document Creation**: Generate THREE standard-named markdown files:
+11. **Safe Document Creation**: Before writing ANY files:
+    - **CHECK**: Do files (`session.md`, `session.meta.md`, etc.) already exist in this directory?
+    - **IF FILES EXIST**: You **MUST** stop and ask the user for explicit instructions.
+        - Say: "Files already exist in this project folder. Do you want me to: (A) Overwrite them (WARNING: will delete previous work), (B) Append to them, or (C) Create new versions (e.g., session-v2.md)?"
+        - **DO NOT** proceed until the user responds.
+        - **NEVER** silently overwrite existing files.
+    - **IF FILES DO NOT EXIST**: Proceed to generate the THREE standard-named markdown files:
 
     **session.md** - Main results file containing user-facing brainstorming results:
     - **Header**: Clear title, date, and brief context summary
