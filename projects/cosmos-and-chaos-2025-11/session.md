@@ -40,6 +40,13 @@
     *   **Cost:** **Double Price (2.0x).**
     *   **Penalty:** Adds **"Paradox Strain"** PLUS instantly generates a **+50% Dissonance Spike**.
 
+*   **Paradox Strain Balancing (Economy Fix):**
+    *   The "Paradox Strain" Dissonance Floor now incurs diminishing returns:
+        *   1st Paradox Tech: +10% Dissonance Floor
+        *   2nd Paradox Tech: +5% Dissonance Floor
+        *   3rd+ Paradox Tech: +2.5% Dissonance Floor (each)
+    *   **Hard Cap:** The cumulative Dissonance Floor from Paradox Strain **cannot exceed 40%**.
+
 ### Technology Tree Diagram and Analysis
 
 **Date:** 2025-11-28 (Refactored Departmental Design)
@@ -296,7 +303,7 @@ The 48 technologies are now organized into **6 Core Ship Departments**, streamli
 - *Benefit:* **"Void Debt."** Allows purchasing upgrades with insufficient funds, driving resources into negative values (up to -200% Max Storage).
 - *Stats:* +0 Wonder / +2 Dread.
 - *Mechanic:* **"The Usurer."** While in debt, **Dissonance generation is tripled**.
-- *Penalty:* **"Foreclosure."** If Debt persists for > 5 minutes (active time), the system automatically sells (destroys) random buildings to pay off the balance.
+- *Penalty:* **"Garnishment."** If Debt persists for > 5 minutes (active time), all resource production is diverted to paying off the debt (player receives 0 income). If debt is not cleared within 30 minutes, it activates **"Forced Liquidation"** (sells the lowest tier building for 50% value).
 
 **T42 Photosynthetic Arrays** (Wonder-Leaning - Tier 2 Energy)
 - *Benefit:* Advanced solar panels. +20% Energy Generation. Produces **Xeno-Bloom** as a byproduct.
@@ -329,9 +336,10 @@ The 48 technologies are now organized into **6 Core Ship Departments**, streamli
 **T44 Entropy Furnace** (Dread - Tier 3 Energy Choice)
 - *Benefit:* **"The Voracious Engine."** A Multi-Fuel Reactor providing massive Global Production Multipliers.
 - *Stats:* +0 Wonder / +3 Dread.
-- *Mechanic:* **"Fuel Priority."** Player selects a prioritized list of resources to burn as fuel (e.g., **Planck Cinders**, Ore, Alloys).
+- *Mechanic:* **"Fuel Priority."** Player selects a prioritized list of resources to burn as fuel (e.g., **Planck Cinders (0.05 Energy/unit)**, Ore, Alloys).
     -   **"Safe Disposal:"** Burning **Planck Cinders** generates low energy but has **No Side Effects** (clean disposal).
     -   **"Auto-Draft."** If the current fuel source runs out, the Furnace automatically switches to the *next available fuel source* in the priority list.
+    -   **"Failsafe Protocol."** Auto-Draft **CANNOT** consume **Non-Regenerating Resources** (Science Points, Crew, Artifacts) without explicit player override via a "Sacrifice" toggle.
 - *Friction:* **"Reality Flux."** Burning non-waste resources generates **"Dissonance"** proportional to the output multiplier.
 
 **T27 Harmonic Extraction** (Wonder - Tier 4 Mining Choice)
