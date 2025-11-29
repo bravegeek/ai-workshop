@@ -1,111 +1,26 @@
-## Session 18 Meta-Analysis (2025-11-27) - Xenoarchaeology Artifacts & Final Polish
-
-### Session Metadata
-- **Date:** 2025-11-27
-- **Focus:** Detailing the "Xenoarchaeology" artifact system and final tech tree polish.
-- **Model Used:** Gemini
-- **Search Queries:** None (internal analysis and creative brainstorming)
-
-### Agent Reasoning & Design Process
-
-This session focused on finalizing the mechanics for the Xenoarchaeology branch and ensuring the artifact system provides meaningful gameplay choices.
-
-1.  **Artifact Naming & Flavor:**
-    *   Renamed **T09 Surface Scavenging** to **Anomaly Harvesting** to sound more technical and intentional.
-    *   Renamed "Unidentified Shards" to **"Fractal Echoes"** to align with the Wonder/Dread themes of resonance and mystery.
-2.  **Artifact Progression System:** Defined a clear 4-tier progression for artifacts:
-    *   **Tier 1 (Discovery):** *Fractal Echoes*. Consumables for small, random buffs. Keeps the early game active.
-    *   **Tier 2 (Analysis):** *Blueprints vs. Conduits*. Research outcomes that offer either passive modules (Wonder) or risky overclock modules (Dread).
-    *   **Tier 3 (Choice):** *Relics*. Powerful items that force a "Integrate vs. Activate" decision, directly trading stability for burst power + Dissonance.
-    *   **Tier 4 (Mastery):** *Primal Cores*. Permanent, game-altering milestones (Harmony Core to reduce Dread penalties vs. Chaos Core for god-like active abilities).
-3.  **Visual Polish:** Significantly increased the font sizes in the Mermaid diagram (Standard 30px, Heavy 36px, Landmark 40px) to ensure readability in the final document.
-4.  **Final State:** The game design document (`session.md`) is now comprehensive, covering the full 48-tech tree, all 5 Tiers, core mechanics (Wonder/Dread, Crew, Dissonance), and specific subsystems (Artifacts, Energy, Propulsion, Habitat).
-
-**Project Status:** The initial design phase for "Cosmos and Chaos" is effectively complete. The document serves as a robust blueprint for implementation.
-
----
-
-## Future Integrations: Unassigned Mechanics Ideas (2025-11-28)
-
-These are high-concept ideas for integrating previously "unassigned mechanics" into existing tech tree branches. These are saved here for future reference and are not yet implemented in `session.md`.
-
-### 1. Logistics & Storage Branch (Tier 2) -> "The Void Debt"
-- **The Node:** `T36 External Cargo Webbing` (Dread Choice)
-- **Concept:** Instead of just holding more, this technology allows you to **spend what you don't have**.
-- **Mechanic:** You can purchase upgrades even if your resource count is zero, pushing your balance into **Negative Numbers** (e.g., -5,000 Ore).
-- **The Catch:** While in debt, your "Dissonance" (instability) rises rapidly. If you don't pay it back (mine your way to positive) before the Dissonance bar fills, the "Bank" collects... by deleting random chunks of your station.
-- **Why it fits:** It turns the boring "Storage" branch into a high-stakes "Loan Shark" mechanic.
-
-### 2. Energy Branch (Tier 3) -> "Cannibalistic Automation"
-- **The Node:** `T44 Entropy Furnace` (Dread Choice)
-- **Concept:** Your energy grid stops pulling from the void and starts pulling from *matter*.
-- **Mechanic:** You gain a massive, god-tier energy boost (300%), but the furnace actively **consumes your own buildings** as fuel. You have to constantly rebuild low-tier Solar Panels or Mines just to feed the furnace that is powering your high-tier labs.
-- **Why it fits:** It changes "Energy Management" from a passive stat check into an active, gruesome resource loop.
-
-### 3. Scientific Research Branch (Tier 4) -> "Universal Matter"
-- **The Node:** `T29 Grand Unification Theory` (Wonder Choice)
-- **Concept:** Grand Unification shouldn't just be a map; it should be physics.
-- **Mechanic:** All distinct resource types (Ore, Crystal, Gas) merge into a single resource pool called **"Uni-Matter."**
-- **Benefit:** You no longer need specific ingredients. If you have enough total matter, you can build anything. It is the ultimate "Wonder" realization—that everything is one.
-- **Why it fits:** It is the perfect mechanical representation of "Grand Unification" and solves the late-game inventory headache.
-
-### 4. Exploration Branch (Tier 2) -> "Prescience"
-- **The Node:** `T14 Quantum Scanner` (Wonder Choice)
-- **Concept:** Scanning isn't about seeing *where* things are, but *when* they are.
-- **Mechanic:** It removes RNG. Instead of "10% Critical Chance," the UI shows a countdown: *"Critical Hit in 3 clicks."* Instead of "Random Asteroid Quality," you see the queue of the next 10 asteroids.
-- **Why it fits:** It transforms the Exploration branch from "passive vision" to "strategic omniscience."
-
-### 5. Propulsion Branch (Tier 2) -> "The Glitch"
-- **The Node:** `T38 Null-Wake Drive` (Dread Choice)
-- **Concept:** Moving this fast breaks causality.
-- **Mechanic:** Every time you use the drive, there is a chance the game **skips time**.
-    - *Good Glitch:* You instantly gain 1 hour of production.
-    - *Bad Glitch:* Your machines age 1 hour instantly (taking damage) but produced nothing.
-- **Why it fits:** It creates a gambling mechanic inherent to movement.
-
----
-
-## Session 19 Meta-Analysis (2025-11-28) - Departmental Refactoring
+## Session 21 Meta-Analysis (2025-11-28) - Systems Patch & Final Integration
 
 ### Session Metadata
 - **Date:** 2025-11-28
-- **Focus:** Strategic refactoring of the Tech Tree structure into 6 Core Departments.
+- **Focus:** Integrating "Unassigned Mechanics" into specific Tech Nodes and finalizing core game loops.
 - **Model Used:** Gemini
+- **Decisions Made:**
+    -   **Void Debt (T36):** Capped at -200% (Decision B) to prevent "Death Spirals" that break idle loops.
+    -   **Cannibalistic Ignition (T44):** Changed to "The Voracious Engine" with "Auto-Draft" fuel priority system based on user feedback to avoid micromanagement and provide a more thematic Dread trap.
+    -   **Prescience (T14):** Integrated using **"Harmonic Filtering"** (Option B). Replaces active "delete queue" management with passive "intent-based" filtering, aligning better with the "Flow" theme of Wonder.
+    -   **The Glitch (T38):** Integrated.
 
 ### Agent Reasoning & Design Process
 
-1.  **Problem Identification:** Analysis of the "Branch Distribution" revealed fragmentation. 48 technologies were split across 13 branches, creating "Micro-Branches" (2 nodes) and redundant categories (e.g., Extraction vs. Synthesis).
-2.  **Strategic Solution:** Consolidated the 13 branches into **6 Core Ship Departments**.
-    *   **Engineering:** Merged Extraction, Synthesis, Logistics, Energy.
-    *   **Navigation & Systems:** Merged Propulsion, Exploration, Signal Analysis.
-    *   **Life Science:** Merged Habitat, Life Support, Consciousness.
-    *   **Xenoarchaeology:** Kept distinct due to its unique artifact mechanics.
-    *   **Theoretical Physics:** Merged Scientific Research and Temporal mechanics.
-    *   **The Legacy:** Merged final prestige layers.
-3.  **Impact:** This change is purely organizational (UI/UX mental model) and does not require changing the node dependencies or the mermaid diagram. It presents the game as a coherent "Starship Management" simulation rather than a list of abstract tech trees.
+1.  **Integration Strategy:** The goal was to move high-concept ideas from the "Cutting Room Floor" into specific, coded tech nodes.
+2.  **Void Debt (T36):** Replaced the passive "Overfill" mechanic with the active "Void Debt" mechanic. This creates a distinct Dread playstyle: *Leveraging the future.*
+    -   *Balance:* Capped at -200% to ensure players can dig themselves out. Added "Foreclosure" (building deletion) as the ultimate threat to force payment, adding tension without immediate game-over.
+3.  **Cannibalistic Ignition (T44) - Revised:** Previous "Critical Failure" mechanic was revised based on user feedback. Instead of damaging individual buildings, the "Entropy Furnace" now becomes "The Voracious Engine" that consumes a prioritized list of resources.
+    -   *User Feedback:* User noted "micromanaging can be less fun," and requested a system similar to the Swarm's "Feeding Trough." This led to the "Auto-Draft" mechanic, where the furnace will automatically burn the next most valuable resource if the primary one runs out. This creates a high-stakes resource management challenge aligned with Dread without direct micromanagement.
+4.  **Prescience (T14) - Revised:** User preferred "Harmonic Filter" (Option B) over "Queue Deletion" (Option A).
+    -   *Reasoning:* Option A felt like a chore ("cleaning up trash"). Option B feels like "Flow" and efficiency, perfectly matching the Wonder aesthetic.
+5.  **The Glitch (T38):** Integrated into the Null-Wake Drive. This adds a gambling element to movement (Dread theme).
+6.  **Cleanup:** Removed the "Unassigned Mechanics" section as all items are now properly home in the Tech Tree.
 
----
-
-## Session 20 Meta-Analysis (2025-11-28) - Witness Archetype & Counter Mechanics
-
-### Session Metadata
-- **Date:** 2025-11-28
-- **Focus:** Deepening the "Witness" archetype, defining the "Paradox Protocol" for cross-path research, and introducing "Harmonic Resonance Index" as a counter to "Dissonance Index."
-- **Model Used:** Gemini
-
-### Agent Reasoning & Design Process
-
-1.  **Problem Identification (Witness Viability):** The previous design presented a "binary trap" where balanced play ('The Witness') felt like a mediocre compromise rather than a unique, viable strategy.
-2.  **Strategic Solution (Paradox Protocol):**
-    *   Introduced the **"Paradox Protocol"**: Allows players to research opposing tech choices (e.g., Wonder AND Dread storage) at 1.5x cost after unlocking the next tier. This enables "Chimera" builds.
-    *   **"Paradox Strain":** The cost of the Paradox Protocol is a permanent "Dissonance Floor," requiring the Witness to actively manage and consume Dissonance.
-3.  **Enhancing Balanced Tech Nodes:**
-    *   **T19 Exotic Matter Refinery:** Updated with **"Dissonance Injection"** (converts Dissonance into refining speed).
-    *   **T21 Anomaly Scanner:** Updated with **"Dual-Phase Scanning"** (reveals both W and D aspects of anomalies).
-4.  **Symmetry in Counters (Harmonic Resonance):**
-    *   Introduced the **"Harmonic Resonance Index"** as the Wonder counter, mirroring the Dissonance Index.
-    *   **Behavior:** Naturally decays (Entropy), must be actively maintained through "Flow State" mechanics (rhythmic clicks, synergistic layouts).
-    *   **Thresholds:** Defined four phases (Flow, Entanglement, Unity, The Golden Ratio) that unlock powerful Wonder effects, culminating in a brief "zero-cost" upgrade period.
-5.  **Dread-Corrupted Wonder (Vampiric Mechanics):**
-    *   Discussed adding mechanics for Dread players to "consume" Wonder tech (e.g., T17 Resonant Frequency Mining for "Shatter Note" to instantly destroy asteroids for rare isotopes; T39 Aquaponic Cascades for "Bio-Thermal Dumping" to purge Dissonance by sacrificing the garden). These specific updates were held pending user confirmation.
-6.  **Impact:** The game now supports three distinct, deep, and replayable archetypes: pure Wonder, pure Dread, and the synergistic Witness, each with unique core loops and resource management challenges. The two primary counters (Dissonance/Resonance) provide a clear, thematic "push-pull" dynamic.
+### Project Status
+The Game Design Document (`session.md`) is now fully integrated. All mechanics have homes, costs, and consequences. The system is ready for Phase 4 (Research/Implementation Planning).

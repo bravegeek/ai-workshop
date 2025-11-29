@@ -293,9 +293,10 @@ The 48 technologies are now organized into **6 Core Ship Departments**, streamli
     -   **Active Ability:** "Emergency Seal" (Locks spending to refill storage 2x faster).
 
 **T36 External Cargo Webbing** (Dread - Tier 2 Storage Choice)
-- *Benefit:* **"The Hoard."** Allows Overfill up to 200% capacity.
+- *Benefit:* **"Void Debt."** Allows purchasing upgrades with insufficient funds, driving resources into negative values (up to -200% Max Storage).
 - *Stats:* +0 Wonder / +2 Dread.
-- *Penalty:* **"Drag."** Thruster efficiency -20% when overfilled.
+- *Mechanic:* **"The Usurer."** While in debt, **Dissonance generation is tripled**.
+- *Penalty:* **"Foreclosure."** If Debt persists for > 5 minutes (active time), the system automatically sells (destroys) random buildings to pay off the balance.
 
 **T42 Photosynthetic Arrays** (Wonder-Leaning - Tier 2 Energy)
 - *Benefit:* Advanced solar panels. +20% Energy Generation. Produces **Xeno-Bloom** as a byproduct.
@@ -325,12 +326,12 @@ The 48 technologies are now organized into **6 Core Ship Departments**, streamli
 - *Friction:* **"The Focusing Lens."** Requires a continuous supply of **Zero-Point Prisms** to maintain the reaction. Running out of Prisms causes an instant, total blackout. Forces reliance on high-tier supply chains for basic utility.
 
 **T44 Entropy Furnace** (Dread - Tier 3 Energy Choice)
-- *Benefit:* **"Limit Break."** Allows Overclocking station output to 150%, 200%, 300%. Can consume **Void Ichor** for extreme bursts.
-- *Cost:* Generates **"Dissonance"** (Reality Flux).
+- *Benefit:* **"The Voracious Engine."** A Multi-Fuel Reactor providing massive Global Production Multipliers.
 - *Stats:* +0 Wonder / +3 Dread.
-- *Friction Mechanics:*
-    -   **"Mechanical Fatigue:"** The Furnace takes damage every second it is overclocked. Requires manual "Repairs" (costing **Alloys** + Crew Stamina) to prevent explosion.
-    -   **"Venting Blast:"** Manually purging accumulated Dissonance releases a physical shockwave, instantly **disabling nearby buildings** for 30 seconds. You must choose between global instability (High Dissonance) or local downtime (Blast).
+- *Mechanic:* **"Fuel Priority."** Player selects a prioritized list of resources to burn as fuel (e.g., Ore, then Alloys, then Science Points).
+    -   **"Auto-Draft."** If the current fuel source runs out, the Furnace automatically switches to the *next available fuel source* in the priority list.
+    -   **Consequences:** High consumption rates. If critical resources are auto-drafted, it can lead to massive setbacks.
+- *Friction:* **"Reality Flux."** While active, generates **"Dissonance"** proportional to the output multiplier.
 
 **T27 Harmonic Extraction** (Wonder - Tier 4 Mining Choice)
 - *Benefit:* Teleports ore directly out of the rock without breaking it.
@@ -361,7 +362,9 @@ The 48 technologies are now organized into **6 Core Ship Departments**, streamli
 - *Benefit:* Improves travel speed.
 
 **T14 Quantum Scanner** (Tier 2)
-- *Benefit:* Detailed asteroid analysis. Identifies **Zero-Point Prisms**.
+- *Benefit:* **"Prescience."** Removes RNG via **"Harmonic Filtering."**
+- *Mechanic:* Set the scanner to a specific frequency (e.g., "Crystal Only"). Miners will ignore all other signals, ensuring 100% purity of yield at the cost of idle time between matches.
+- *Secondary Benefit:* Identifies **Zero-Point Prisms**.
 
 **T20 Ancient Signal Decoder** (Balanced - Tier 2)
 - *Benefit:* Unlocks **"Deep Space Coordinates"** (Special Mission Nodes with high rewards).
@@ -378,7 +381,10 @@ The 48 technologies are now organized into **6 Core Ship Departments**, streamli
 **T38 Null-Wake Drive** (Dread - Tier 2 Propulsion Choice)
 - *Benefit:* **"The Raid."** Instant burst resources from distant nodes.
 - *Stats:* +0 Wonder / +2 Dread.
-- *Penalty:* **"Chronological Erosion."** Offline generation decays.
+- *Mechanic:* **"The Glitch."** Every use carries a 10% chance to **Skip Time**.
+    -   *Good Glitch:* +1 Hour of Production instantly.
+    -   *Bad Glitch:* +1 Hour of Building Decay (Damage) instantly, with 0 Production.
+- *Penalty:* **"Chronological Erosion."** Offline generation decays rapidly.
 
 **T21 Anomaly Scanner** (Balanced - Tier 3 - Witness Key)
 - *Benefit:* Highlights potential artifact locations.
@@ -944,28 +950,4 @@ The early game for Cosmos and Chaos is structured as a clear "Call to Adventure"
 
 This loop transforms propulsion from a simple travel mechanic into a core strategic choice that allows players to actively sculpt their game environment and optimize for their preferred playstyle. It answers the "Call to Adventure" seen on their long-range sensors.
 
----
-
-## Design Notes: Unassigned Mechanics (The "Cutting Room Floor")
-
-*Mechanics described in the concept but not yet explicitly linked to a Tech Node.*
-
-### 1. The "Void Debt" (Dread Economy)
-*   **Concept:** Buying upgrades with negative resources (Inverted Economics).
-*   **Current State:** T36 (Cargo Webbing) is just Overfill.
-*   **Proposed Integration:** Upgrade T36 or T18 to allow "Event Horizon Loaning" (Spending what you don't have at the cost of Instability).
-
-### 2. "Cannibalistic Automation" (Dread Industry)
-*   **Concept:** Buildings consuming other buildings for massive speed boosts.
-*   **Current State:** T44 (Entropy Furnace) is just Overclocking.
-*   **Proposed Integration:** Unlock via T30 (The Sovereignty Algorithm) or T28 (Replicator Swarm).
-
-### 3. "The Klein Bottle" & Resource Unification (Wonder Economy)
-*   **Concept:** Merging all resources into one pool; infinite capacity but limited bandwidth.
-*   **Current State:** T29 (Grand Unification) reveals the map.
-*   **Proposed Integration:** T29 should also trigger the "Universal Matter" conversion.
-
-### 4. "Prescience" vs. "The Glitch" (UI Mechanics)
-*   **Concept:** Seeing RNG outcomes (Wonder) vs. Forcing Time Skips (Dread).
-*   **Current State:** Listed as passive alignment perks.
-*   **Proposed Integration:** Link Prescience to T14 (Quantum Scanner) and Glitch Ticks to T32 (Axiom Breaker).
+**Proposed Integration:** Link Prescience to T14 (Quantum Scanner) and Glitch Ticks to T32 (Axiom Breaker).
