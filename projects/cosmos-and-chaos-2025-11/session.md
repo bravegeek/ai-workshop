@@ -305,7 +305,9 @@ The 48 technologies are now organized into **6 Core Ship Departments**, streamli
     -   **Active Ability:** "Emergency Seal" (Locks spending to refill storage 2x faster).
 
 **T36 External Cargo Webbing** (Dread - Tier 2 Storage Choice)
-- *Benefit:* **"Void Debt."** Allows purchasing upgrades with insufficient funds, driving resources into negative values (up to -200% Max Storage).
+- *Benefit:* **"Bi-Directional Capacity."** Expands storage limits in both directions.
+    -   **"The Hoard:"** Allows Overfill up to **+200%** of Max Storage.
+    -   **"Void Debt:"** Allows spending down to **-200%** of Max Storage (Negative Resources).
 - *Stats:* +0 Wonder / +2 Dread.
 - *Mechanic:* **"The Usurer."** While in debt, **Dissonance generation is tripled**.
 - *Penalty:* **"Garnishment."** If Debt persists for > 5 minutes (active time), all resource production is diverted to paying off the debt (player receives 0 income). If debt is not cleared within 30 minutes, it activates **"Forced Liquidation"** (sells the lowest tier building for 50% value).
