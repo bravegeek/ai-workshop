@@ -131,7 +131,7 @@ graph TB
     subgraph "Tier 4 Choices"
         direction LR
         T27["<b>27. Harmonic Extraction</b><br/>(Mining)"]
-        T28["<b>28. Von Neumann Extractor</b><br/>(Mining)"]
+        T28["<b>28. Replicator Swarm</b><br/>(Mining)"]
     end
     subgraph "Tier 4 Habitat"
         direction LR
@@ -154,8 +154,8 @@ graph TB
     %% Tier 5
     subgraph "Tier 5 Choices"
         direction LR
-        T31["<b>31. Theory of Cosmic Harmonics</b>"]
-        T32["<b>32. Von Neumann Probes</b>"]
+        T31["<b>31. Harmonic Convergence</b>"]
+        T32["<b>32. Axiom Breaker</b>"]
         T33["<b>33. World-Seeding Protocol</b>"]
         T34["<b>34. Autonomous Scaling Protocol</b>"]
         T33b["<b>33b. The Apotheosis Engine</b>"]
@@ -216,6 +216,24 @@ graph TB
 
 ---
 
+## Narrative Arc: The Dread Swarm (The 3 Acts of Consumption)
+
+The Dread tech path offers a specific, evolving narrative arc centered on the concept of self-replicating machines. This is not just a mechanic, but a story of the player losing control to their own creation.
+
+*   **Act 1: The Wild Beast (T28 Replicator Swarm)**
+    *   *The Action:* You build the prototype. It is hungry, dangerous, and needs constant babysitting.
+    *   *The Conflict:* You must manually feed it via the "Hunger Protocol" to keep it growing. If you neglect it, it starves or eats something you didn't want it to. It is a tool you barely control.
+
+*   **Act 2: The Leash (T30 The Sovereignty Algorithm)**
+    *   *The Action:* You invent the AI to manage the beast. The "Automation Singularity" takes over.
+    *   *The Conflict:* You willingly hand over the keys. The AI manages the feeding, the repairs, and the expansion. You are no longer the pilot; you are the passenger. The swarm is now efficient, but it is no longer yours.
+
+*   **Act 3: The Plague (T34 Autonomous Scaling Protocol)**
+    *   *The Action:* The Swarm eats the galaxy.
+    *   *The Resolution:* Victory. The ship becomes a self-perpetuating entity that consumes everything to replicate. You have won, but you have unleashed a cosmic horror.
+
+---
+
 ## Departmental Organization (Refactored)
 
 The 48 technologies are now organized into **6 Core Ship Departments**, streamlining the player's mental model from 13 fragmented branches into coherent disciplines.
@@ -223,11 +241,11 @@ The 48 technologies are now organized into **6 Core Ship Departments**, streamli
 | Department | Focus | Components (Original Branches) | W/D Balance |
 | :--- | :--- | :--- | :--- |
 | **1. Engineering** | *The Body* (Mining, Refining, Power, Storage) | Extraction, Synthesis, Logistics, Energy | **High Dread** (Industrial Output) |
-| **2. Navigation & Systems** | *The Legs* (Movement, Sensors, Map) | Propulsion, Exploration, Signal Analysis | **Balanced** (Discovery vs. Speed) |
+| **2. Navigation & Systems** | *The Legs* (Movement, Sensors, Map, Automation) | Propulsion, Exploration, Signal Analysis, Control | **Dread-Leaning** (Aggressive Control) |
 | **3. Life Science** | *The Soul* (Crew, Morale, Psychology) | Habitat, Life Support, Consciousness | **High Wonder** (Harmony & Utopia) |
 | **4. Xenoarchaeology** | *The Mystery* (Artifacts, Relics) | Xenoarchaeology (Distinct) | **High Impact** (Game-Breaking) |
 | **5. Theoretical Physics** | *The Mind* (Deep Time, Reality Bending) | Scientific Research, Temporal | **Wonder Dominant** (Understanding) |
-| **6. The Legacy** | *The End* (Prestige, Reset) | Legacy & Propagation | **Dread Dominant** (Survival) |
+| **6. The Legacy** | *The End* (Prestige, Reset) | Legacy & Propagation | **Balanced** (Shared Victory Paths) |
 
 **Total:** 48 Technologies | **+56 Wonder** | **+54 Dread**
 
@@ -315,7 +333,7 @@ The 48 technologies are now organized into **6 Core Ship Departments**, streamli
 - *Benefit:* Teleports ore directly out of the rock without breaking it.
 - *Stats:* +2 Wonder / +0 Dread.
 
-**T28 Von Neumann Extractor** (Dread - Tier 4 Mining Choice)
+**T28 Replicator Swarm** (Dread - Tier 4 Mining Choice)
 - *Benefit:* **"Exponential Yield."** Releases a localized swarm. Output grows by 1% per tick automatically.
 - *Stats:* +0 Wonder / +5 Dread.
 - *Mechanic:* **"The Hunger Protocol."**
@@ -363,6 +381,12 @@ The 48 technologies are now organized into **6 Core Ship Departments**, streamli
 - *Benefit:* Highlights potential artifact locations.
 - *Witness Mechanic:* **"Dual-Phase Scanning."** Reveals Dread Risk and Wonder Reward before engagement.
 - *Stats:* +2 Wonder / +1 Dread.
+
+**T30 The Sovereignty Algorithm** (Dread - Tier 4)
+- *Benefit:* **"Automation Singularity."** The AI takes full control.
+- *Mechanic:* Enables "Autopilot." The ship automatically manages critical Dread tasks like "Hunger Protocol" feeding, "Entropy Furnace" repairs, and "Venting," ensuring optimal uptime.
+- *Stats:* +0 Wonder / +4 Dread.
+- *Penalty:* While Autopilot is active, Dissonance generation is increased by 20%. You are giving the machine free rein to be aggressive.
 
 ### 3. Life Science
 *The Soul: Habitat, Life Support, and Consciousness.*
@@ -443,25 +467,30 @@ The 48 technologies are now organized into **6 Core Ship Departments**, streamli
 *The Mind: Deep Research and Temporal Mechanics.*
 
 **T29 Grand Unification Theory** (Wonder - Tier 4)
-- *Benefit:* The ultimate physics unlock. Reveals the map. Unlocks **World-Seeding Protocol** (Victory).
+- *Benefit:* **"Unified Field Theory."** The ultimate simplification of physics.
 - *Stats:* +5 Wonder / +0 Dread.
-- *Requirement:* High Energy.
+- *Mechanic:* **"Universal Matter."**
+    -   All physical resources (Ore, Gas, Crystals, Alloys, Xeno-Bloom) are mathematically unified into a single pool: **"Matter."**
+    -   **Effect:** Removes all conversion costs and distinct storage types. You can pay for any cost using raw Matter. Complexity vanishes; only flow remains.
+    -   *Secondary Bonus:* Instantly reveals the entire sector map (Fog of War removed).
+    -   *Requirement:* Unlocks **World-Seeding Protocol** (Victory).
 
-**T31 Theory of Cosmic Harmonics** (Wonder - Tier 5)
-- *Benefit:* **"Infinite Resonance."** Harmonic Resonance Index no longer decays. Player is permanently in "Flow State," facilitating the massive resource accumulation needed for World-Seeding.
+**T31 Harmonic Convergence** (Wonder - Tier 5)
+- *Benefit:* **"The Zero-Point Grid."** Distance is erased. Transit time is 0.
+- *Mechanic:* **"The Composer."** Grants a Global Frequency Slider.
+    -   **Low Freq:** +500% Mining Speed.
+    -   **Mid Freq:** +500% Energy Generation.
+    -   **High Freq:** +500% Research Speed.
+    -   Allows you to "play" the station to match current needs instantly.
 
-**T32 Von Neumann Probes** (Dread - Tier 5)
-- *Benefit:* **"Galactic Swarm."** Initiates a galaxy-wide self-replicating swarm. Provides extreme exponential resource growth across all basic production.
-- *Leads To:* Ultimately drives the `T34 Autonomous Scaling Protocol` victory condition.
+**T32 Axiom Breaker** (Dread - Tier 5)
+- *Benefit:* **"Reality Injection."** The ultimate assertion of will.
+- *Mechanic:* **"Impose Value."** Allows you to manually **Overwrite** a resource count to a target value (e.g., Set Ore to 1 Billion).
+- *Cost:* **"Permanent Scar."** Each use increases your **Minimum Dissonance Floor** by +15%. You are permanently filling the ship with noise.
+- *Passive:* **"Event Horizon."** Reaching 100% Dissonance no longer destroys buildings. Instead, it triggers **"Phase Out"** (The ship ceases to exist for 30 seconds; production halts; Dissonance resets to Floor). You trade stability for godhood.
 
 ### 6. The Legacy
 *The End: Prestige and Reset.*
-
-**T30 The Sovereignty Algorithm** (Dread - Tier 4)
-- *Benefit:* **"Automation Singularity."** The AI takes full control.
-- *Mechanic:* Enables "Autopilot." The ship automatically manages critical Dread tasks like "Hunger Protocol" feeding, "Entropy Furnace" repairs, and "Venting," ensuring optimal uptime.
-- *Stats:* +0 Wonder / +4 Dread.
-- *Penalty:* While Autopilot is active, Dissonance generation is increased by 20%. You are giving the machine free rein to be aggressive.
 
 **T33 World-Seeding Protocol** (Wonder Victory)
 - *Description:* **"The Gardener."** You sacrifice the ship to create a new, perfect star system.
