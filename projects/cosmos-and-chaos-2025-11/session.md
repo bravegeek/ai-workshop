@@ -319,7 +319,7 @@ The 48 technologies are now organized into **6 Core Ship Departments**, streamli
 **T43 Zero-Point Extraction** (Wonder - Tier 3 Energy Choice)
 - *Benefit:* Passive, clean power from vacuum. Efficiency scales with Science Output.
 - *Stats:* +3 Wonder / +0 Dread.
-- *Friction:* **"The Focusing Lens."** Requires a continuous supply of **Rare Crystals** to maintain the reaction. Running out of Crystals causes an instant, total blackout. Forces reliance on high-tier supply chains for basic utility.
+- *Friction:* **"The Focusing Lens."** Requires a continuous supply of **Zero-Point Prisms** to maintain the reaction. Running out of Prisms causes an instant, total blackout. Forces reliance on high-tier supply chains for basic utility.
 
 **T44 Entropy Furnace** (Dread - Tier 3 Energy Choice)
 - *Benefit:* **"Limit Break."** Allows Overclocking station output to 150%, 200%, 300%. Can consume **Void Ichor** for extreme bursts.
@@ -358,7 +358,7 @@ The 48 technologies are now organized into **6 Core Ship Departments**, streamli
 - *Benefit:* Improves travel speed.
 
 **T14 Quantum Scanner** (Tier 2)
-- *Benefit:* Detailed asteroid analysis.
+- *Benefit:* Detailed asteroid analysis. Identifies **Zero-Point Prisms**. Identifies **Crystal-Rich Asteroids**.
 
 **T20 Ancient Signal Decoder** (Balanced - Tier 2)
 - *Benefit:* Unlocks **"Deep Space Coordinates"** (Special Mission Nodes with high rewards).
@@ -805,7 +805,7 @@ In *Cosmos and Chaos*, Crew are not just a static number; they are the intellige
 *   **Wonder: "The Diaspora" (Colonization)**
     *   **Mechanic:** Permanently "spend" a large number of Crew (e.g., 50) to launch a colonization pod to a nearby celestial body (e.g., moon).
     *   **Effect:** Reduces your maximum Crew Cap by the amount spent.
-    *   **Reward:** The colony generates a slow, passive stream of **Unique Resources** (e.g., "Exobiology Samples," "Rare Crystals") that cannot be acquired via standard mining. Rewards sacrifice for long-term, specialized gains.
+    *   **Reward:** The colony generates a slow, passive stream of **Unique Resources** (e.g., "Exobiology Samples," "Zero-Point Prisms") that cannot be acquired via standard mining. Rewards sacrifice for long-term, specialized gains.
 
 *   **Dread: "The Neural Wetware" (Bio-Computing)**
     *   **Mechanic:** Permanently "spend" a moderate number of Crew (e.g., 10) to integrate them into the ship's research mainframes.
@@ -961,7 +961,7 @@ This loop transforms propulsion from a simple travel mechanic into a core strate
 ### 2. "Cannibalistic Automation" (Dread Industry)
 *   **Concept:** Buildings consuming other buildings for massive speed boosts.
 *   **Current State:** T44 (Entropy Furnace) is just Overclocking.
-*   **Proposed Integration:** Unlock via T30 (The Sovereignty Algorithm) or T28 (Von Neumann Extractor).
+*   **Proposed Integration:** Unlock via T30 (The Sovereignty Algorithm) or T28 (Replicator Swarm).
 
 ### 3. "The Klein Bottle" & Resource Unification (Wonder Economy)
 *   **Concept:** Merging all resources into one pool; infinite capacity but limited bandwidth.
@@ -971,4 +971,4 @@ This loop transforms propulsion from a simple travel mechanic into a core strate
 ### 4. "Prescience" vs. "The Glitch" (UI Mechanics)
 *   **Concept:** Seeing RNG outcomes (Wonder) vs. Forcing Time Skips (Dread).
 *   **Current State:** Listed as passive alignment perks.
-*   **Proposed Integration:** Link Prescience to T14 (Quantum Scanner) and Glitch Ticks to T32 (Paradoxical Loop Analysis).
+*   **Proposed Integration:** Link Prescience to T14 (Quantum Scanner) and Glitch Ticks to T32 (Axiom Breaker).
