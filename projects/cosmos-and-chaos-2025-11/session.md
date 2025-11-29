@@ -212,6 +212,7 @@ graph TB
     class T25b,T28,T34 landmarkDread
     class T25a,T27,T33 landmarkWonder
     class T33b balanced
+
 ```
 
 ---
@@ -308,8 +309,10 @@ The 48 technologies are now organized into **6 Core Ship Departments**, streamli
 **T18 Rift Mining** (Dread - Tier 3 Mining Choice)
 - *Benefit:* Tears open space for instant ore access.
 - *Stats:* +0 Wonder / +4 Dread.
-- *Friction:* Generates "Subspace Noise."
-- *Mechanic:* **"Void Bleed."** Requires **Xeno-Bloom** as a stabilizing catalyst. The process extracts massive Ore yields but converts the Bloom into **Void Ichor** (waste product/fuel) in the process. Links Mining to the Bio-Fuel economy.
+- *Mechanic:* **"Void Bleed."** Requires **Xeno-Bloom** as a catalyst. Extracts massive Ore yields but converts Bloom into **Void Ichor** (Fuel).
+- *Friction:* **"Radioactive Slag."** Produces toxic Slag alongside Ore.
+    -   **The Hazard:** Stored Slag generates **Passive Dissonance**. The more you hoard, the more unstable the ship becomes.
+    -   **The Disposal:** **"Airlock Purge."** You can instantly eject Slag into space, but the venting process kills **1 Crew Member** per batch. "Optimization requires sacrifice."
 
 **T19 Exotic Matter Refinery** (Balanced - Tier 3 - Witness Key)
 - *Benefit:* Refines ores into stable dark matter.
@@ -358,7 +361,7 @@ The 48 technologies are now organized into **6 Core Ship Departments**, streamli
 - *Benefit:* Improves travel speed.
 
 **T14 Quantum Scanner** (Tier 2)
-- *Benefit:* Detailed asteroid analysis. Identifies **Zero-Point Prisms**. Identifies **Crystal-Rich Asteroids**.
+- *Benefit:* Detailed asteroid analysis. Identifies **Zero-Point Prisms**.
 
 **T20 Ancient Signal Decoder** (Balanced - Tier 2)
 - *Benefit:* Unlocks **"Deep Space Coordinates"** (Special Mission Nodes with high rewards).
@@ -565,19 +568,19 @@ This section explores how core idle game mechanics can be "bent" or "broken" to 
 
 ### 2. Automation (The "Idle" Part)
 *   **Standard Mechanic:** Buildings produce X resource per second automatically.
-*   **The "Wonder" Bend (Quantum Entanglement)::**
+*   **The "Wonder" Bend (Quantum Entanglement):**
     *   **Mechanic:** "Shared Inventory."
     *   *Effect:* Buildings no longer need to transport resources. Ore mined *instantly* appears in the refinery. Removes all "transit time" or "logistic" delays.
-*   **The "Dread" Bend (Cannibalistic Automation)::**
+*   **The "Dread" Bend (Cannibalistic Automation):**
     *   **Mechanic:** "Self-Eating Logic."
     *   *Effect:* Your machines produce +500% output, but they consume *each other* as fuel. You have to constantly rebuild the "bottom" of your pyramid scheme to keep the "top" running at god-like speeds.
 
 ### 3. Resource Caps & Costs (Math)
-*   **Standard Mechanic:** You have a max storage. Costs scale exponentially ($10, $15, $23...).
-*   **The "Wonder" Bend (Non-Euclidean Storage)::**
+*   **Standard Mechanic:** You have a max storage. Costs scale exponentially ($10, $15, $23...). 
+*   **The "Wonder" Bend (Non-Euclidean Storage):**
     *   **Mechanic:** "The Klein Bottle Storage."
     *   *Effect:* Storage cap is removed, but retrieving resources takes time. You have "Infinite" storage, but "Bandwidth" limits how fast you can spend it.
-*   **The "Dread" Bend (Inverted Economics)::**
+*   **The "Dread" Bend (Inverted Economics):**
     *   **Mechanic:** "Void Debt."
     *   *Effect:* You can buy upgrades you *cannot afford*. Your resource counter goes negative (e.g., -5,000 Ore). While negative, Reality Instability rises. You are borrowing matter from the universe, and it wants it back.
 
@@ -653,7 +656,7 @@ This section explores how direct player actions and passive offline periods can 
 *   **The "Wonder" Bend (Resonance):**
     *   **Mechanic:** "The Conductor."
     *   *Effect:* Clicking in rhythm with game audio/visuals builds a "Resonance Multiplier," making timed clicks more effective than mashing. Harmonizing with the universe grants greater rewards.
-*   **The "Dread" Bend (Entropic Feedback)::**
+*   **The "Dread" Bend (Entropic Feedback):**
     *   **Mechanic:** "Friction Burns."
     *   *Effect:* Rapid, untimed clicking generates instability, potentially damaging equipment or destroying portions of the resource being extracted. Aggressive forcing of the universe yields diminishing returns and negative consequences.
 
@@ -676,13 +679,13 @@ This section explores how direct player actions and passive offline periods can 
 *   **The "Wonder" Bend (Epiphanies):**
     *   **Mechanic:** "Paradigm Shifts."
     *   *Effect:* Achievements don't just give numbers; they rename resources ("Ore" becomes "Stardust"), alter flavor text, and make the game world feel more beautiful and understood.
-*   **The "Dread" Bend (Obsessions)::**
+*   **The "Dread" Bend (Obsessions):**
     *   **Mechanic:** "The Sunk Cost."
     *   *Effect:* Achievements are "accusations." They provide powerful numerical rewards but are accompanied by guilt-inducing text ("Are you happy now?") or subtle atmospheric changes (e.g., background music losing instruments), questioning the player's choices.
 
 ---
 
-## Positive Wonder Mechanics: The "Flow State"
+## Positive Wonder Mechanics: The "Flow State" 
 
 Wonder should feel like unlocking power through understanding and unity, removing friction, connecting systems, and streamlining the UI, creating a smoother, faster, and more elegant gameplay experience.
 
@@ -731,14 +734,14 @@ This section defines how resource storage works, blending capacity management wi
 
 #### Wonder Storage: "The Archive" (Compression & Flow)
 *   **Philosophy:** "Space is infinite if you fold it correctly." This path focuses on efficiency, organization, and making the most of limited physical space.
-*   **Mechanics:**
+*   **Mechanics:** 
     *   **Deep Storage:** Wonder-aligned storage facilities provide massive capacity increases per unit of physical space.
     *   **Flow Optimization:** Storage automatically "sorts" and "compresses" resources. This grants a passive bonus to *Refining Speed* based on how full the storage is (e.g., "Pressure bonus"). A full, Wonder-aligned silo feeds processing facilities faster.
 *   **Visual/Flavor:** Clean, modular, and internally lit data banks; resources appear perfectly ordered and contained.
 
 #### Dread Storage: "The Hoard" (Unstable Expansion & Risk)
 *   **Philosophy:** "Just pile it up. If it falls over, pile it higher." This path prioritizes raw quantity and immediate gains, often at significant risk.
-*   **Mechanics:**
+*   **Mechanics:** 
     *   **Over-Capacity (The "Bulge"):** Dread-aligned storage allows players to exceed 100% of their stated capacity (e.g., up to 200%).
     *   **Structural Stress:** Once storage capacity is exceeded, the station incurs "Structural Stress." This can manifest as:
         *   Passive, continuous damage to station integrity.
@@ -790,10 +793,6 @@ This section details the progression of artifacts discovered via the Xenoarchaeo
     *   **Mechanic:** Players can activate buildings even if they do not have sufficient energy.
     *   **Effect:** The activated building runs at **200% efficiency** (output/speed).
     *   **Penalty:** Randomly and temporarily **shuts down** other functional buildings across the ship to compensate for the energy deficit (e.g., Life Support flickers off, a mining laser stops). Creates high-risk, high-reward power management.
-
-### Crew Mechanics: The Human Element (or lack thereof)
-
-In *Cosmos and Chaos*, Crew are not just a static number; they are the intelligent force driving your station, represented by two key metrics:
 
 ### Crew Mechanics: The Human Element (or lack thereof)
 
@@ -872,20 +871,18 @@ Refining is the industrial bottleneck of the station, transforming raw potential
     *   **Instant Process:** 0.1s processing time. Throughput is effectively infinite.
     *   **The Cost:** **Yield Loss.** 50% of Ore is destroyed in the violent process. You need massive Mining input (Void Siphons) to feed this beast.
 *   **New Resource: Slag (Waste)**
-    *   **Definition:** Toxic, useless byproducts of Flash Smelting.
-    *   **Problem:** Slag fills up Storage Space. If Storage is full of Slag, *all production stops*.
-    *   **Management:**
-        *   **Ejection:** Manually vent Slag into space (Active Click).
-        *   **Incineration:** Burn Slag (Costs Energy).
-        *   **Weaponization:** Research "Mass Drivers" to fire Slag blocks at anomalies to crack them open.
-*   **Active Mini-Game: "Venting"**
-    *   The Refinery builds up **Heat/Pressure**.
-    *   If Pressure hits 100%, the Refinery explodes (goes offline for repairs).
-    *   The player must manually "Vent" the pressure. Venting releases a cloud of steam that temporarily obscures the UI (blindness).
+    *   **Source:** `T18 Rift Mining` (Byproduct).
+    *   **Definition:** Unstable, radioactive material torn from the rift.
+    *   **Problem:** **Radiation.** Slag does not just fill storage; it generates **Dissonance** continuously while stored.
+    *   **Management:** 
+        *   **Ejection (Manual):** Vent Slag into space. **Cost:** 1 Crew (Accident).
+        *   **Incineration (T44):** Burn Slag in the Entropy Furnace. **Risk:** Increases explosion chance.
+        *   **Weaponization:** Research "Mass Drivers" to fire Slag blocks at anomalies.
 
----
+```
+*   **TODO: Crew Growth Mechanic.** Explicitly define how Crew Count increases. (e.g., passive growth over time, specific habitat upgrades, recruitment missions, consuming specific resources like Lucid Essence).
 
-## Gameplay Experience: Wonder vs. Dread
+# Gameplay Experience: Wonder vs. Dread
 
 The core design philosophy of Cosmos and Chaos is to offer two fundamentally different gameplay experiences based on the player's accumulation of Wonder (W+) or Dread (D+). This isn't merely a change in stats, but a shift in the very genre and feel of the idle game.
 
