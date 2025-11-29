@@ -311,9 +311,10 @@ The 48 technologies are now organized into **6 Core Ship Departments**, streamli
 - *Benefit:* Tears open space for instant ore access.
 - *Stats:* +0 Wonder / +4 Dread.
 - *Mechanic:* **"Void Bleed."** Requires **Xeno-Bloom** as a catalyst. Extracts massive Ore yields but converts Bloom into **Void Ichor** (Fuel).
-- *Friction:* **"Radioactive Slag."** Produces toxic Slag alongside Ore.
-    -   **The Hazard:** Stored Slag generates **Passive Dissonance**. The more you hoard, the more unstable the ship becomes.
-    -   **The Disposal:** **"Airlock Purge."** You can instantly eject Slag into space, but the venting process kills **1 Crew Member** per batch. "Optimization requires sacrifice."
+- *Friction:* **"Planck Cinders."** Produces "Planck Cinders" (Ash of Reality) alongside Ore.
+    -   **The Hazard:** Storing Cinders generates **Passive Dissonance** (scales exponentially with amount stored).
+    -   **The Disposal:** **"Airlock Purge."** Instantly ejects Cinders into space.
+    -   **The Penalty:** **"Glitch Cloud."** Ejection creates a temporary field of low-level Dissonance Glitches. The duration is **proportional to the amount ejected**.
 
 **T19 Exotic Matter Refinery** (Balanced - Tier 3 - Witness Key)
 - *Benefit:* Refines ores into stable dark matter.
@@ -328,10 +329,10 @@ The 48 technologies are now organized into **6 Core Ship Departments**, streamli
 **T44 Entropy Furnace** (Dread - Tier 3 Energy Choice)
 - *Benefit:* **"The Voracious Engine."** A Multi-Fuel Reactor providing massive Global Production Multipliers.
 - *Stats:* +0 Wonder / +3 Dread.
-- *Mechanic:* **"Fuel Priority."** Player selects a prioritized list of resources to burn as fuel (e.g., Ore, then Alloys, then Science Points).
+- *Mechanic:* **"Fuel Priority."** Player selects a prioritized list of resources to burn as fuel (e.g., **Planck Cinders**, Ore, Alloys).
+    -   **"Safe Disposal:"** Burning **Planck Cinders** generates low energy but has **No Side Effects** (clean disposal).
     -   **"Auto-Draft."** If the current fuel source runs out, the Furnace automatically switches to the *next available fuel source* in the priority list.
-    -   **Consequences:** High consumption rates. If critical resources are auto-drafted, it can lead to massive setbacks.
-- *Friction:* **"Reality Flux."** While active, generates **"Dissonance"** proportional to the output multiplier.
+- *Friction:* **"Reality Flux."** Burning non-waste resources generates **"Dissonance"** proportional to the output multiplier.
 
 **T27 Harmonic Extraction** (Wonder - Tier 4 Mining Choice)
 - *Benefit:* Teleports ore directly out of the rock without breaking it.
@@ -949,5 +950,3 @@ The early game for Cosmos and Chaos is structured as a clear "Call to Adventure"
     *   **Null-Wake Drive (T38):** Instantly acquires large bursts of resources from distant nodes (Raids). Ideal for Dread players who need immediate gains, trading future stability for present power.
 
 This loop transforms propulsion from a simple travel mechanic into a core strategic choice that allows players to actively sculpt their game environment and optimize for their preferred playstyle. It answers the "Call to Adventure" seen on their long-range sensors.
-
-**Proposed Integration:** Link Prescience to T14 (Quantum Scanner) and Glitch Ticks to T32 (Axiom Breaker).
