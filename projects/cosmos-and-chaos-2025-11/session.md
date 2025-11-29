@@ -47,6 +47,11 @@
         *   3rd+ Paradox Tech: +2.5% Dissonance Floor (each)
     *   **Hard Cap:** The cumulative Dissonance Floor from Paradox Strain **cannot exceed 40%**.
 
+*   **Dissonance Coupling (Witness Synergy):**
+    *   **Mechanic:** "Chaos Fuels Harmony."
+    *   *Effect:* **Resonance Generation Rate** scales with your **Current Dissonance Level**. The higher your Dissonance (or floor), the faster you can build Resonance/Flow.
+    *   *Vibe:* Turning the noise into a signal.
+
 ### Technology Tree Diagram and Analysis
 
 **Date:** 2025-11-28 (Refactored Departmental Design)
@@ -304,6 +309,7 @@ The 48 technologies are now organized into **6 Core Ship Departments**, streamli
 - *Stats:* +0 Wonder / +2 Dread.
 - *Mechanic:* **"The Usurer."** While in debt, **Dissonance generation is tripled**.
 - *Penalty:* **"Garnishment."** If Debt persists for > 5 minutes (active time), all resource production is diverted to paying off the debt (player receives 0 income). If debt is not cleared within 30 minutes, it activates **"Forced Liquidation"** (sells the lowest tier building for 50% value).
+- *Restriction (Economy Fix):* **"Credit Check."** Players **cannot purchase** Tier 4 or Tier 5 technologies while in Void Debt.
 
 **T42 Photosynthetic Arrays** (Wonder-Leaning - Tier 2 Energy)
 - *Benefit:* Advanced solar panels. +20% Energy Generation. Produces **Xeno-Bloom** as a byproduct.
@@ -425,7 +431,7 @@ The 48 technologies are now organized into **6 Core Ship Departments**, streamli
 - *Stats:* +0 Wonder / +1 Dread.
 - *Mechanic:* **"Cognitive Damping."** Consumes **Xeno-Bloom** to sedate the crew.
     -   **The Trade:** Converts suppressed emotions into **Dissonance Decay** (cooling the ship's instability).
-    -   **The Cost:** **Proficiency Stagnation.** While active, Crew gain **Zero Proficiency**. They are biological cogs, unable to learn.
+    -   **The Cost (Narrative Enhancement):** While Morale is locked, the crew's will is broken. They no longer learn, gaining **Zero Proficiency**. Production speed is fixed at 100%, but the ship feels lifeless and hollow.
 
 **T45 Gestalt Networking** (Wonder - Tier 3 Consciousness Choice)
 - *Benefit:* **"Synced Minds."** Proficiency Gain doubled. Unlocks Mastery.
@@ -521,6 +527,7 @@ The 48 technologies are now organized into **6 Core Ship Departments**, streamli
 **T33b The Apotheosis Engine** (Witness Victory)
 - *Description:* **"The Architect."** Collapse the simulation to rewrite the laws of physics.
 - *Requirement:* Must have `T29 Grand Unification` AND `T30 The Sovereignty Algorithm`.
+- *Mechanic (QA Fix):* **"The Harmonic Bridge."** While researching this technology, **Dissonance converts directly into Research Speed**. The higher your current Dissonance, the faster the research progresses.
 - *Reward:* New Game+ allows **Custom Rule Injection** (e.g., "Modify Gravity," "Disable Entropy," "Start at Tier 2"). You design the next universe.
 
 ---
@@ -534,7 +541,7 @@ The game is governed by two opposing but interacting physics systems that track 
 *   **The Stress:** "Don't let it boil over."
 *   **Thresholds:**
     *   **Low (>25%):** *Resource Hallucinations* (UI lies about numbers).
-    *   **Medium (>50%):** *Ghost Inputs* (Random clicks occur).
+    *   **Medium (>50%):** *Layout Instability* (The UI becomes fluid. Buttons drift, resource cards swap places, and the interface resists muscle memory).
     *   **High (>75%):** *The Monkey's Paw* (Auto-buyers sell assets to buy upgrades).
     *   **Critical (100%):** *Reality Breach.* Random buildings explode (Level 0) or significant resource loss occurs.
 
@@ -670,7 +677,7 @@ This section explores how direct player actions and passive offline periods can 
 *   **Standard Mechanic:** Direct interaction (e.g., clicking) yields immediate resources.
 *   **The "Wonder" Bend (Resonance):**
     *   **Mechanic:** "The Conductor."
-    *   *Effect:* Clicking in rhythm with game audio/visuals builds a "Resonance Multiplier," making timed clicks more effective than mashing. Harmonizing with the universe grants greater rewards.
+    *   *Effect:* A **"Resonance Wave"** meter fills up. Clicking in rhythm with the visual pulse sustains a massive **"Harmony Multiplier."** This turns active play into a rhythmic performance.
 *   **The "Dread" Bend (Entropic Feedback):**
     *   **Mechanic:** "Friction Burns."
     *   *Effect:* Rapid, untimed clicking generates instability, potentially damaging equipment or destroying portions of the resource being extracted. Aggressive forcing of the universe yields diminishing returns and negative consequences.
@@ -839,6 +846,15 @@ In *Cosmos and Chaos*, Crew are not just a static number; they are the intellige
 *   **Gain:** Proficiency increases over time through active operation of buildings and research. Some technologies (like T13 Brain-Computer Interface and T45 Gestalt Networking) accelerate this gain.
 *   **Loss:** Certain Dread technologies (like T48 The Synaptic Lattice) can sacrifice Proficiency for immediate gains, representing a "burning" of collective knowledge.
 *   **Visual/Flavor:** Represents the crew learning the quirks of the ship, finding output workflows, and sharing knowledge. "Percussive Maintenance" becomes an art form.
+
+### 3. Morale (The Emotional Engine)
+*   **Definition:** A global metric (0-100%) representing the collective well-being and psychological state of your Crew.
+*   **Function:** Morale acts as a **Global Efficiency Multiplier**.
+    *   100% Morale = 100% Global Production Speed.
+    *   50% Morale = 50% Global Production Speed.
+    *   0% Morale = **"Catatonic State."** Production Speed reduced to 10% (minimal, automated processes only).
+*   **Gain:** Increases via Wonder tech (e.g., T39 Aquaponic Cascades) or positive events.
+*   **Loss:** Decreases via Dread tech (e.g., high Dissonance), negative events, or extended periods of neglect.
 
 ---
 
