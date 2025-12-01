@@ -709,7 +709,99 @@ This section explores how direct player actions and passive offline periods can 
 
 ---
 
-## Positive Wonder Mechanics: The "Flow State" 
+## UI Physics & Dynamic Grid System
+**Date:** 2025-11-30
+**Focus:** "Luxury Car vs. Rat Rod" Interaction Design & Card Physics Spectrum
+
+### 1. The UI Physics Spectrum
+The user interface behaves according to a "Physics Engine" that shifts based on the player's alignment. It moves from "Assisted Luxury" (Wonder) to "Manual/Mechanical Rat Rod" (Dread).
+
+| Behavior Category | **Wonder (Luxury)** | **Neutral (Standard)** | **Dread (Rat Rod)** |
+| :--- | :--- | :--- | :--- |
+| **1. Manual Drag**<br>*(The Hand Feel)* | **"Magnetic Assist"**<br>Cards snap to grid slots from a distance. Movement is smoothed/damped. Feels weightless. | **"Direct Control"**<br>Standard 1:1 movement. Snaps only when close to the slot. | **"Heavy Inertia"**<br>Simulated weight. Cursor "pulls" the card (spring physics). No snap assist; you must be precise. |
+| **2. Drag Preview**<br>*(The Visual)* | **"Holographic Ghost"**<br>A glowing blue outline appears in the target slot *before* you drop. | **"Outline"**<br>A simple grey dashed border shows the drop zone. | **"The Skid"**<br>No preview. Dragging leaves "scratches" or sparks on the background. You drop it "blind." |
+| **3. Expansion**<br>*(Level Up)* | **"Fluid Re-flow"**<br>Grid automatically rearranges to open space. Animations glide. | **"Gated Check"**<br>Button disabled if blocked. Player must manually clear space first. | **"The Bulldozer"**<br>Violent expansion. Shoves neighbor cards to random open slots (or off-screen). |
+| **4. Collision**<br>*(Impact)* | **"Polite Displacement"**<br>Neighbor cards slide out of the way proactively. | **"Block"**<br>You simply cannot drop a card on top of another. It snaps back. | **"Impact Stun"**<br>Dropping a card *on top* of another knocks the bottom one away and "Stuns" it (0% output) for 10s. |
+| **5. Idle State**<br>*(The Vibe)* | **"Levitation"**<br>Subtle, synchronized vertical bob. "Breathing" margins. | **"Static"**<br>Cards sit still on the grid. | **"Vibration"**<br>Asynchronous jitter. High Dread = violently shaking cards. |
+
+### 2. The Influence Thresholds
+The transition between these states is not binary but gradual, governed by an "Influence Curve."
+
+*   **0% - 30% (Neutral Zone):**
+    *   Behaves like standard software (The Neutral Column). Safe, predictable.
+*   **30% - 70% (The Shift Begins):**
+    *   *Wonder Bias:* Dragging gets smoother (magnetic snap radius increases). Margins widen.
+    *   *Dread Bias:* Cards feel heavy (drag lag). Margins tighten. Audio "clanks" on interaction.
+*   **70% - 90% (The Identity Lock):**
+    *   *Wonder High:* "Smart Grid" activates. Auto-organization turns on. Glassmorphism effects apply.
+    *   *Dread High:* "Bulldozer" physics activate. Cards shove each other. Visual rust/glitches appear.
+*   **100% (The Extremes):**
+    *   *Wonder:* **The Singularity.** The grid disappears; cards float in free space in a perfect constellation.
+    *   *Dread:* **The Breakdown.** Cards overlap. UI elements fall off-screen. Player must physically "catch" resources.
+
+### 3. Visualized Physics Logic
+
+```mermaid
+graph TD
+    subgraph "Input: Player Action"
+        A[Player Drags Card]
+        B[Card Needs Expansion]
+    end
+
+    subgraph "Physics Engine Check"
+        C{Check Alignment}
+        C -- "Wonder (>70%)" --> W[Apply Luxury Physics]
+        C -- "Neutral (30-70%)" --> N[Apply Standard Physics]
+        C -- "Dread (>70%)" --> D[Apply Rat Rod Physics]
+    end
+
+    subgraph "Wonder Execution"
+        W --> W1[Magnetic Snap Assist]
+        W --> W2[Auto-Layout Reflow]
+        W --> W3[Glassmorphic Ghost Preview]
+    end
+
+    subgraph "Neutral Execution"
+        N --> N1[Standard Snap]
+        N --> N2[Collision Block]
+        N --> N3[Grey Outline Preview]
+    end
+
+    subgraph "Dread Execution"
+        D --> D1[Heavy Inertia Drag]
+        D --> D2[Bulldozer Expansion]
+        D --> D3[Skid Mark Visuals]
+        D2 --> D4[Impact Stun Effect]
+    end
+
+    style W fill:#2980b9,stroke:#3498db,stroke-width:4px
+    style N fill:#95a5a6,stroke:#7f8c8d,stroke-width:4px
+    style D fill:#c0392b,stroke:#e74c3c,stroke-width:4px
+```
+
+---
+
+## Cutting Room Floor (Superseded Ideas)
+*Items in this section have been replaced by newer design iterations but are preserved for reference.*
+
+### UI/UX Design Specifications (Superseded 2025-11-30)
+**Original Date:** 2025-11-28
+**Replaced By:** UI Physics & Dynamic Grid System (The Bento Grid)
+
+#### 1. Overview (Mega-Scroll Concept)
+*   **Navigation Style:** "Mega-Scroll" / Single Column Feed.
+    *   *Original Concept:* Wonder behaved like a magnetic scrolling feed; Dread behaved like a glitchy feed where cards drifted off-screen.
+    *   *Reason for Cutting:* We pivoted to a "Bento Grid" layout to allow for spatial puzzles (cards expanding/colliding) which provides richer gameplay mechanics than a linear feed.
+
+#### 2. Styling & Dynamic Effects (Mobile Focus)
+*   **Glitches:** "CSS-based animations... no manipulation of touch hit-boxes on mobile."
+    *   *Notes:* While we are still using CSS for performance, the "No manipulation of hit-boxes" rule might be challenged by the new "Dread Rat Rod" physics (e.g., "Impact Stun" or "Cards falling off screen"). We need to ensure this remains playable on touch screens.
+
+#### 3. Interactive Modules
+*   **"Feeding Trough" Card:** Originally a dedicated UI element.
+    *   *Update:* This likely becomes a specific "Mode" or "Expansion" of the Replicator Swarm card in the new Grid system.
+
+    ## Positive Wonder Mechanics: The "Flow State" 
 
 Wonder should feel like unlocking power through understanding and unity, removing friction, connecting systems, and streamlining the UI, creating a smoother, faster, and more elegant gameplay experience.
 
