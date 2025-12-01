@@ -359,7 +359,7 @@ The 48 technologies are now organized into **6 Core Ship Departments**, streamli
 - *Stats:* +0 Wonder / +5 Dread.
 - *Mechanic:* **"The Hunger Protocol."**
     -   The swarm requires **mass** to replicate and will gradually chew through resources as yields increase.
-    -   A dedicated UI element ("Feeding Trough") allows the player to **manually select** which resource the swarm consumes to fuel its growth (e.g., Ore, Alloys, Biomass, **Void Ichor**, even Crew).
+        -   A dedicated UI element ("Feeding Trough") allows the player to **manualy select** which resource the swarm consumes to fuel its growth (e.g., Ore, Alloys, Biomass, **Void Ichor**, even Crew).
     -   **Growth Rate** is influenced by the quality/value of the consumed resource.
     -   **Critical Failure:** If the selected resource runs out, the swarm will automatically switch to the next most valuable available resource, potentially consuming critical components without player input. This demands constant, active management to prevent the swarm from devouring the ship's most vital resources.
 
@@ -400,7 +400,7 @@ The 48 technologies are now organized into **6 Core Ship Departments**, streamli
 - *Stats:* +0 Wonder / +2 Dread.
 - *Mechanic:* **"The Glitch."** Every use carries a 10% chance to **Skip Time**.
     -   *Good Glitch:* +1 Hour of Production instantly.
-    -   *Bad Glitch:* +1 Hour of Building Decay (Damage) instantly, with 0 Production.
+    *   *Bad Glitch:* +1 Hour of Building Decay (Damage) instantly, with 0 Production.
 - *Penalty:* **"Chronological Erosion."** Offline generation decays rapidly.
 
 **T21 Anomaly Scanner** (Balanced - Tier 3 - Witness Key)
@@ -586,7 +586,7 @@ This section explores how core idle game mechanics can be "bent" or "broken" to 
 *   **The "Wonder" Bend (Harmonic Resonance):**
     *   **Mechanic:** "Tick Synchronization."
     *   *Effect:* Production waves align. Every 10th tick produces 100x resources, creating a satisfying rhythmic "heartbeat" to the resource counter rather than a blur.
-*   **The "Dread" Bend (Temporal Skipping):**
+*   **The "Dread" Bend (Temporal Skipping):
     *   **Mechanic:** "The Glitch Tick."
     *   *Effect:* The game randomly *skips* 10 seconds of logic instantly. It's jarring. You suddenly have resources you didn't earn, but your machines took 10 seconds of damage instantly. It feels like the game is breaking.
 
@@ -976,3 +976,76 @@ The early game for Cosmos and Chaos is structured as a clear "Call to Adventure"
     *   **Null-Wake Drive (T38):** Instantly acquires large bursts of resources from distant nodes (Raids). Ideal for Dread players who need immediate gains, trading future stability for present power.
 
 This loop transforms propulsion from a simple travel mechanic into a core strategic choice that allows players to actively sculpt their game environment and optimize for their preferred playstyle. It answers the "Call to Adventure" seen on their long-range sensors.
+
+---
+
+## UI/UX Design Specifications (Continued)
+**Date:** 2025-11-28
+**Focus:** Detailed UI Architecture for Desktop & Mobile
+
+### 1. Overview
+*   **Platform Target:** Desktop Web & Mobile Web (Responsive Design).
+*   **Navigation Style:** "Mega-Scroll" / Single Column Feed.
+    *   *Wonder Behavior:* Smooth, "magnetic" scrolling, cards snap cleanly.
+    *   *Dread Behavior:* Cards can dynamically reorder, tilt, overlap, or drift off-screen, requiring player interaction to "re-center" or "fix" them.
+*   **Component Architecture:** Modular, card-based design for all UI elements.
+
+### 2. Core UI Elements
+*   **Heads-Up Display (HUD):**
+    *   **Global Resource Bar (Sticky Top):** Displays key resource counts (Ore, Energy, Crew, Research Points).
+        *   *Dread Glitch:* Numbers can flicker, change fonts, or visually drift to indicate "Resource Hallucinations."
+    *   **Dual-Physics Meter (Sticky Bottom):** Prominent gauge for Wonder (Resonance) vs. Dread (Dissonance).
+        *   *Wonder Visuals:* Smooth animations, pulsing glow, clean lines.
+        *   *Dread Visuals:* Erratic shaking, static interference, color bleeding, jagged edges.
+    *   **"Purge System" Button:** Distinct, safety-cover protected button, linked to the Physics Meter.
+*   **Interactive Modules (Card-Based):**
+    *   **"The Clicker" / Resonance Wave Card:**
+        *   *Wonder Mode:* Visualizes a smooth sine wave; rhythmic clicks build Harmony.
+        *   *Dread Mode:* Visualizes a cracking plate/unstable core; rapid clicks cause visual fractures/sparks.
+    *   **Department Cards:** Expandable/collapsible cards for each of the 6 Ship Departments (Engineering, Navigation, etc.). Each card contains relevant building/upgrade lists.
+    *   **"Feeding Trough" Card (Replicator Swarm):** A dedicated UI element within the Engineering card for selecting resources to feed the swarm. Needs clear visual feedback for "Hunger" state.
+    *   **"Frequency Slider" Card (Refining Mini-Game):** A draggable slider with a visual waveform to tune refinery output.
+*   **Navigation & Tech Systems (Card-Based):**
+    *   **Star Map Card (Mini-Map):** A compact interactive mini-map showing discovered asteroids, anomalies, and signals.
+        *   *Wonder:* Clear, well-defined paths (pipelines).
+        *   *Dread:* Jagged, unstable paths (raids), with visual static or distortion.
+    *   **Tech Tree Card:** Presents the 48 technologies in a navigable format.
+        *   *Desktop:* Likely a pan & zoom graph, potentially an interactive embedded view within the card.
+        *   *Mobile:* Likely a simplified list or accordion view by Tier/Department due to screen size constraints.
+*   **Styling & Dynamic Effects:**
+    *   **Wonder Theme:** Clean lines, rounded corners, soft glows (blue/cyan), smooth transitions (CSS `ease-in-out`).
+    *   **Dread Theme:** Sharp angles, jagged edges, red/orange glows, rapid cuts, static, and distortion (CSS `transform`, `filter`, `clip-path` for effects).
+    *   **UI Shift:** Dynamic CSS class changes based on Wonder/Dread score, affecting entire UI theme.
+    *   **Glitches:** CSS-based animations, transforms, and filters for visual glitches, layout shifts (card reordering), card tilting, overlapping, and subtle drifts. **Crucially, no manipulation of touch hit-boxes on mobile.**
+
+### 3. Technical Implementation Details
+*   **Front-end Framework:** React (using Vite for tooling).
+*   **State Management:** Zustand.
+*   **Styling:** CSS Modules, Styled Components, or Tailwind CSS for dynamic class application.
+*   **Performance:** Prioritize CSS-only visual effects to ensure smooth performance and battery life on mobile devices. No Canvas/WebGL overlay for general glitches to avoid performance bottlenecks.
+
+---
+
+## Automation & Auto-Buyers (Continued)
+**Date:** 2025-11-28
+**Focus:** Review and Elaboration of Automation Mechanics
+
+### 1. Auto-Buyers: "The Interpreters of Will"
+*   **Wonder Auto-Buyer ("The Curator Protocol"):**
+    *   **Theme:** Preservation & Efficiency.
+    *   **Mechanic:** Buys *smart*, prioritizing "Green" (Eco/Wonder) tech. May *REFUSE* to buy Dread tech, requiring manual override. UI for this might involve a toggle or priority list that explicitly excludes Dread items.
+*   **Dread Auto-Buyer ("The Replication Imperative"):**
+    *   **Theme:** Unchecked Growth.
+    *   **Mechanic:** Buys *IMMEDIATELY*, prioritizing pure Output (Dread/Industrial) tech. May start buying things you didn't ask for (duplicating buildings to consume resources). UI should reflect its aggressive nature, possibly with fewer configuration options, or warnings about its "autonomous" decisions.
+*   **Balanced Auto-Buyer ("Automated Logistics Network"):**
+    *   **Theme:** Bureaucracy.
+    *   **Mechanic:** Works perfectly... *9 to 5*. It has "Shifts," running at 100% for a period, then going on "Maintenance Break." Player choices can influence overtime (Dread) or efficiency (Wonder). UI for this would include a schedule or "shift management" interface.
+*   **"Monkey's Paw" Auto-Buyer (Dread Glitch):**
+    *   **Trigger:** Dread > 75% or High Dissonance.
+    *   **The Glitch:** The Auto-Buyer interprets "Buy Max" maliciously. It will buy the requested items but sell other critical assets to meet the cost if short on resources. This is a behavioral glitch, not just visual.
+
+### 2. General Automation: "The Idle Part" (Bending Reality)
+*   **Wonder Bend (Quantum Entanglement):**
+    *   **Mechanic:** "Shared Inventory." Buildings no longer need to transport resources. Ore mined *instantly* appears in the refinery. Removes all "transit time" or "logistic" delays. Visually, this means no resource "travel" animations, just instant updates.
+*   **Dread Bend (Cannibalistic Automation):**
+    *   **Mechanic:** "Self-Eating Logic." Machines produce +500% output, but they consume *each other* as fuel. Players must constantly rebuild the "bottom" of their pyramid scheme. UI would show buildings dynamically taking damage or being consumed, with clear "rebuild" buttons.
