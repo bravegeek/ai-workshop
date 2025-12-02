@@ -642,32 +642,35 @@ Instead of simple automated purchases, Auto-Buyers can act as "characters" whose
 
 ## Dread-Induced Glitches: System Corruption (Dissonance Glitches)
 
-High Dread should manifest as "System Corruption," making the game's UI and logic (including Auto-Buyers) glitch or behave unpredictably. These are now explicitly linked to "Dissonance" levels.
+High Dread manifests as "System Corruption," making the game's UI and its displayed information unreliable and actively hostile. These glitches scale with Dissonance levels, requiring player intervention to fix.
 
-### 1. The "Monkey's Paw" Auto-Buyer (High Dread)
-*   **Trigger:** Dread > 75% or High Dissonance.
-*   **The Glitch:** The Auto-Buyer interprets "Buy Max" maliciously. It will buy the requested items but sell other critical assets to meet the cost if short on resources.
-*   *Flavor Text:* "Optimization requires sacrifice."
+### The Glitch Escalation Ladder (Dread/Dissonance Levels)
 
-### 2. The "Ghost Inputs" (Medium Dread)
-*   **Trigger:** Dread > 50% or Medium Dissonance.
-*   **The Glitch:** Random UI clicks register based on past mouse positions, leading to unintended actions (e.g., clicking "Research" but activating "Vent Atmosphere").
-*   *Effect:* Requires deliberate, slow mouse movements to mitigate.
+**Level 1: The "Dead Pixel" (Dissonance > 20%)**
+*   **Symptom:** Minor visual artifacts. A single number on a gauge flickers or freezes for a second. A tooltip text is garbled ("Prod: 150" becomes "PrXd: 1$0").
+*   **The Fix:** Ignore it. It corrects itself. It’s just atmospheric creeping doubt.
+*   **The Feeling:** "Is my screen broken? Or is it the game?"
 
-### 3. The "Resource Hallucination" (Low-Medium Dread)
-*   **Trigger:** Dread > 25% or Low Dissonance.
-*   **The Glitch:** UI resource counters display inflated values. Attempting to purchase items reveals the true, lower count.
-*   *Effect:* Players must verify resource counts (e.g., by hovering) to discern reality.
+**Level 2: The "Stuck Gauge" (Dissonance > 40%)**
+*   **Symptom:** **Information Denial.** A resource counter (e.g., "Ore") freezes completely. You are mining, but the number isn't moving. A progress bar gets stuck at 99%.
+*   **The Fix:** **Single Tap.** You tap the frozen gauge. *Clack.* The number jumps instantly to the correct value (e.g., from 100 -> 540).
+*   **The Feeling:** Annoyance. Like a bad fuel gauge in an old car.
 
-### 4. The "Whispering Tooltips" (Any Dread)
-*   **Trigger:** Specific Dread Technologies active or Any Dissonance.
-*   **The Glitch:** Tooltips change their text to unsettling, narrative-driven messages when not directly observed.
-*   *Effect:* Purely narrative/psychological horror, making the player distrust game information.
+**Level 3: The "Visual Static" (Dissonance > 60%)**
+*   **Symptom:** **Readability Compromised.**
+    *   **Moving Vertical Bars:** A card displays moving vertical bars, obscuring the text beneath.
+    *   **Color Cycling:** The background and/or font color of a UI element cycles rapidly through high-contrast, unreadable colors.
+*   **The Fix:** **Tap (1-3 times, RNG-based).** Tap the affected element. Each tap has a chance to clear a layer of static or stabilize the color. Success requires 1 to 3 taps, introducing an element of RNG-based persistence.
+*   **The Feeling:** Active struggle to regain control of information. "My eyes are bleeding."
 
-### 5. The "Save File Bleed" (Extreme Dread)
-*   **Trigger:** Dread > 90% (Near Endgame) or Extreme Dissonance.
-*   **The Glitch:** Resources or upgrades are swapped or affected by other save files or future game runs.
-*   *Effect:* Players might lose resources or gain unintended upgrades, implying a leakage across temporal/dimensional boundaries.
+**Level 4: The "Drifting Grid" (Dissonance > 80%)**
+*   **Symptom:** **Physical Dislocation.**
+    *   The cards don't just swap; they **drift**.
+    *   A card slowly slides 50 pixels to the left, overlapping its neighbor.
+*   **The Fix:** **"Shake to Realign."**
+    *   You have to **Hold and Shake** the card (drag it back and forth) to recalibrate its position.
+    *   Or you just "Smack" (Click) the side of the screen to jar everything back into place.
+*   **The Feeling:** The ship is falling apart.
 
 ---
 
