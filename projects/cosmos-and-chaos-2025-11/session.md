@@ -676,13 +676,29 @@ High Dread should manifest as "System Corruption," making the game's UI and logi
 This section explores how direct player actions and passive offline periods can be influenced by Wonder and Dread.
 
 ### 1. The "Click" (Active Play)
-*   **Standard Mechanic:** Direct interaction (e.g., clicking) yields immediate resources.
-*   **The "Wonder" Bend (Resonance):**
-    *   **Mechanic:** "The Conductor."
-    *   *Effect:* A **"Resonance Wave"** meter fills up. Clicking in rhythm with the visual pulse sustains a massive **"Harmony Multiplier."** This turns active play into a rhythmic performance.
-*   **The "Dread" Bend (Entropic Feedback):**
-    *   **Mechanic:** "Friction Burns."
-    *   *Effect:* Rapid, untimed clicking generates instability, potentially damaging equipment or destroying portions of the resource being extracted. Aggressive forcing of the universe yields diminishing returns and negative consequences.
+**Model C: Contextual Flow (Mobile-First Design)**
+The input method adapts automatically based on the state of the target object, creating a seamless "Call and Response" loop that works identically on mobile and desktop.
+
+*   **State A: The Conductor (Functioning Machine)**
+    *   **Context:** The machine is running smoothly.
+    *   **Input:** **Rhythmic Tapping.**
+    *   **Visual Cue (Silent Support):** A soft **Cyan/Teal vignette** pulses at the screen edges in time with the BPM. The target machine emits a **White Circular Ripple** on the beat.
+    *   **Action:** Tapping on the beat triggers a "Perfect Note" (2x Yield).
+    *   **Feedback:** Clean, expanding circle wave visual.
+
+*   **State B: The Mechanic (Stalled/Glitch Machine)**
+    *   **Context:** The machine jams or glitches (Dread Event).
+    *   **Input:** **Percussive Maintenance (The Kick).**
+    *   **Visual Cue (Silent Support):** The Cyan glow is shattered by a jagged **Red/Orange Static** effect at the borders. The target machine has a **Vibrating Red Outline** to draw the eye instantly.
+    *   **Action:** Tapping the jammed machine performs a "Kick" (Instant Fix + Surge Boost).
+    *   **Feedback:** Jagged "BAM!" impact visual and distorted text.
+
+*   **State C: The Flow State (Max Combo)**
+    *   **Context:** High Rhythm Combo maintained.
+    *   **Visual Cue:** Borders turn **Gold/White** with a high-frequency shimmer.
+    *   **Effect:** "Auto-Conductor" activates. All input is buffed.
+
+*   **The Witness Synergy:** A Witness player does not need to toggle modes. They simply react to the *visuals*. They play the "Jazz Drummer," keeping the smooth beat (Wonder) while instantly reacting to and fixing glitches (Dread) without breaking their flow.
 
 ### 2. Offline Progress (The "Welcome Back" Screen)
 *   **Standard Mechanic:** Production continues at a calculated rate while the player is away.
@@ -724,8 +740,8 @@ The user interface behaves according to a "Physics Engine" that shifts based on 
 | **4. Collision**<br>*(Impact)* | **"Polite Displacement"**<br>Neighbor cards slide out of the way proactively. | **"Block"**<br>You simply cannot drop a card on top of another. It snaps back. | **"Impact Stun"**<br>Dropping a card *on top* of another knocks the bottom one away and "Stuns" it (0% output) for 10s. |
 | **5. Idle State**<br>*(The Vibe)* | **"Levitation"**<br>Subtle, synchronized vertical bob. "Breathing" margins. | **"Static"**<br>Cards sit still on the grid. | **"Vibration"**<br>Asynchronous jitter. High Dread = violently shaking cards. |
 
-### 2. The Influence Thresholds
-The transition between these states is not binary but gradual, governed by an "Influence Curve."
+### 2. The Influence Thresholds (with 10% Hysteresis Buffer)
+The transition between these states is not binary but gradual, governed by an "Influence Curve" and a 10% Hysteresis Buffer. This means features unlock at a given percentage but remain active until the alignment drops 10% below that threshold, preventing flickering.
 
 *   **0% - 30% (Neutral Zone):**
     *   Behaves like standard software (The Neutral Column). Safe, predictable.
@@ -738,6 +754,19 @@ The transition between these states is not binary but gradual, governed by an "I
 *   **100% (The Extremes):**
     *   *Wonder:* **The Singularity.** The grid disappears; cards float in free space in a perfect constellation.
     *   *Dread:* **The Breakdown.** Cards overlap. UI elements fall off-screen. Player must physically "catch" resources.
+
+### The Neutral State (0-30%)
+This defines the baseline experience at the start of the game or when the player has no strong alignment. The goal is "Functional but Uninspired"—standard software.
+
+| Feature | **Neutral / Baseline (0-30%)** | **Transition to Wonder** | **Transition to Dread** |
+| :--- | :--- | :--- | :--- |
+| **The Click** | **Standard Input.**<br>1 Click = 1 Resource. No bonuses, no penalties. Standard "click" sound effect. | Becomes Rhythmic. | Becomes Physical/Violent. |
+| **Card Drag** | **Standard OS.**<br>1:1 mouse movement. No momentum. Snaps to grid only when releasing the mouse button. | Magnetic Snap Assist. | Heavy Momentum & Slide. |
+| **Collision** | **Block.**<br>You cannot drop a card on an occupied slot. It snaps back to its origin. | Cards slide out of the way. | **"The Weld"** (Force-Stacking). |
+| **Expansion** | **Manual.**<br>"Expand Grid" button costs resources. You must click it to get more rows. | Auto-Expansion (Fluid). | No Expansion (You must stack). |
+| **Tooltips** | **Static.**<br>Shows cost and current effect. 0.5s hover delay. | Instant, predictive. | Raw data, flickering. |
+
+---
 
 ### 3. Visualized Physics Logic
 
@@ -781,6 +810,32 @@ graph TD
 
 ---
 
+### Dread UI: "The Manual Overdrive"
+
+If Wonder UI is about **Luxury & Automation** (The Rolls Royce), Dread UI should be about **Aggression & Rule-Breaking** (The heavily modified Rat Rod). Instead of just "glitches," Dread gives you **manual tools to cheat the grid**.
+
+#### A. Wonder Feature: "Smart Spacing" vs. Dread Feature: "Force-Stacking"
+*   **Wonder (Luxury):** The grid automatically expands and shifts cards around to make room. You never run out of space; the ship grows for you.
+*   **Dread (Rule-Breaking):** The grid is rigid and rusty. It won't expand. **BUT**, you can drag one card *on top* of another.
+    *   **Mechanic:** **"The Weld."** Dropping a Mine onto a Refinery doesn't swap them—it fuses them into a **"Slag Tower."**
+    *   **Benefit:** You get the output of BOTH cards in a single tile. Space efficiency is infinite.
+    *   **Cost:** The "Slag Tower" generates massive Heat (Dissonance) and takes constant damage. You have to repair it manually or it explodes.
+
+#### B. Wonder Feature: "Auto-Collect" vs. Dread Feature: "Percussive Maintenance"
+*   **Wonder (Luxury):** Resources fly into your inventory automatically. You can idle peacefully.
+*   **Dread (Rule-Breaking):** Resources get "stuck" in the output hopper.
+    *   **Mechanic:** **"The Kick."** You can click a stalled machine violently.
+    *   **Benefit:** Each click doesn't just unstuck it—it triggers a **"Surge Tick"** (instant 5x production for that second).
+    *   **Vibe:** You are literally banging on the machinery to make it work faster than designed.
+
+#### C. Wonder Feature: "Liquid Tooltips" vs. Dread Feature: "Raw Readout"
+*   **Wonder (Luxury):** "Production: +150/sec. Next upgrade in 2m." (Clean, helpful).
+*   **Dread (Rule-Breaking):** The tooltip breaks, revealing the code.
+    *   **Mechanic:** **"Frame Data."** You see the raw server ticks. "Next Tick: 0.45s. Global_Mult: 12.4x."
+    *   **Benefit:** It reveals **Hidden Weaknesses**. You might see a variable fluctuating (e.g., "Grid_Stability: 42%"). If you click *exactly* when stability is low, you might trigger a critical success or a glitch. It rewards high-focus, "twitchy" play.
+
+---
+
 ## The Wonder Gradient: "The Path to Effortless"
 
 | Wonder % | Feature Name | The "Luxury" Upgrade |
@@ -795,6 +850,12 @@ graph TD
 | **80%** | **Time-to-Goal** | Hovering an expensive upgrade shows a countdown: *"Affordable in 2m 14s."* |
 | **90%** | **Harmony Links** | Golden lines visually connect synergistic buildings (e.g., Mine → Refinery), showing the flow of resources. |
 | **100%** | **The Singularity** | **UI Ascension.** The Grid dissolves. Cards float in a perfect, self-organizing constellation. You click *nothing*; you simply "conduct" the flow with mouse gestures. |
+
+---
+
+## Outstanding Questions (For Future Session)
+*   **Influence Curve Mechanics:** Do the percentages in the Wonder Gradient represent the minimum score required for activation (e.g., 20% feature unlocks at 20% score), or is there a more complex formula?
+*   **Neutral Card Behaviors:** How do cards behave by default? What is the baseline for auto-expansion, alerts, and finding space?
 
 ---
 
