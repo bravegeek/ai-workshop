@@ -663,14 +663,28 @@ High Dread manifests as "System Corruption," making the game's UI and its displa
 *   **The Fix:** **Tap (1-3 times, RNG-based).** Tap the affected element. Each tap has a chance to clear a layer of static or stabilize the color. Success requires 1 to 3 taps, introducing an element of RNG-based persistence.
 *   **The Feeling:** Active struggle to regain control of information. "My eyes are bleeding."
 
-**Level 4: The "Drifting Grid" (Dissonance > 80%)**
-*   **Symptom:** **Physical Dislocation.**
-    *   The cards don't just swap; they **drift**.
-    *   A card slowly slides 50 pixels to the left, overlapping its neighbor.
-*   **The Fix:** **"Shake to Realign."**
-    *   You have to **Hold and Shake** the card (drag it back and forth) to recalibrate its position.
-    *   Or you just "Smack" (Click) the side of the screen to jar everything back into place.
-*   **The Feeling:** The ship is falling apart.
+**Level 4: The "Glitch Storm" (Whiteout) (Dissonance > 80%)**
+*   **The Trigger:** Random event, probability scales with Dread level.
+*   **The Buildup:**
+    *   **Phase 1 (Warning):** The borders of all Dread cards begin to bloom with a harsh, blinding white glow. Contrast drops.
+    *   **Phase 2 (The Fog):** The background of the grid fades to pure white (`#FFFFFF`). Text becomes light grey. Readability drops to 10%.
+*   **The Climax (The Storm):**
+    *   **Total Whiteout:** For X seconds (determined by Dread level), the entire Dread UI segment becomes a flat white plane. No borders, no text, no numbers.
+    *   **Functionality:** The buttons *still work*. If you remember where the "Coolant Flush" button was, you can click it. If you miss... well, good luck.
+*   **The Feeling:** Snow blindness. You are piloting through a blizzard.
+
+**Level 5: The "Reality Quake" (Dissonance > 95% / Critical Event)**
+*   **The Trigger:** Very rare. Or guaranteed if you hit 100% Dissonance (The "Reality Breach").
+*   **The Effect:**
+    *   **The Shudder:** The entire screen shakes violently (camera shake).
+    *   **The Reshuffle:** All cards on the grid are **randomly permuted**.
+        *   Your Refinery is now where your Life Support was.
+        *   Your Batteries are now next to the Reactor (maybe that's good?).
+        *   Your careful Wonder organization is destroyed.
+*   **The Consequence:**
+    *   **Disorientation:** Muscle memory is broken. You go to click "Mine" and you accidentally click "Eject Cargo."
+    *   **Loss of Adjacency:** Any bonuses you set up are broken. You have to re-drag everything back into place.
+*   **The Feeling:** The ship itself is rejecting your order. Chaos reigns.
 
 ---
 
@@ -839,6 +853,40 @@ If Wonder UI is about **Luxury & Automation** (The Rolls Royce), Dread UI should
 
 ---
 
+## Card Automation & Evolution: The Card is the Machine
+
+Instead of separate automation menus, auto-buyers, and automation upgrades will manifest directly on the card's UI, making the card itself evolve to reflect its capabilities. The card visually and functionally changes as its automation level increases.
+
+### Evolution of the "Mining Laser" Card (Example)
+
+**Stage 1: The Manual Tool (Tier 0)**
+*   **Card Appearance:** Simple, rugged design. A prominent "FIRE" button in the center.
+*   **Interaction:** Player must manually click the "FIRE" button to mine 1 Ore.
+*   **Automation:** None.
+*   **Vibe:** Hard labor, direct control.
+
+**Stage 2: The Auto-Clicker (Tier 1 - "Servo Motors" Upgrade)**
+*   **Card Evolution:** A small "Toggle Switch" appears on the card (e.g., 'Auto-Fire: ON/OFF'). A "Rate Gauge" (e.g., "1/sec") appears at the bottom, indicating its automated production speed.
+*   **Interaction:** Player can still click manually for an immediate boost, but the card also fires itself at regular intervals.
+*   **Vibe:** Helpful assistance, basic automation.
+
+**Stage 3: The Smart Logic (Tier 2 - "Ore Scanner Integration" Upgrade)**
+*   **Card Evolution:** The "FIRE" button shrinks, and a "Target Selection" UI element appears (e.g., a dropdown menu or toggle buttons for "Target: [Ore] [Crystal] [Gas]"). The card begins to look more like a control panel.
+*   **Interaction:** Player programs *what* the card mines. The card displays its current target.
+*   **Vibe:** Operator console, early programming.
+
+**Stage 4: The Full Automation (Tier 3 - "Self-Replicating Protocols" or "Curator AI" Upgrade)**
+*   **Card Evolution:** An "Upgrade" button and a "Budget" display/slider are integrated directly onto the card face. A new "Auto-Level: ON/OFF" checkbox or a resource allocation input appears.
+*   **Interaction:** The card can now autonomously spend player resources to upgrade *itself* or manage its own functions within a set budget or parameters. It displays its current budget and auto-leveling status.
+*   **Vibe:** The machine is alive and self-managing. You are its overseer, not its operator.
+
+### Strategic Implications
+*   **Tactile Progression:** Players visually experience the technological advancement of their ship as card UIs become richer and more complex.
+*   **Zero Menu Diving:** Automation controls are contextually available directly where they are needed, eliminating the need to navigate separate settings or global automation tabs.
+*   **Integrated Glitches:** Dread-induced glitches can directly target these on-card automation controls (e.g., "Auto-Level" checkbox becomes unresponsive, "Target Selection" dropdown cycles randomly), forcing manual intervention and reinforcing the mechanical failure theme.
+
+---
+
 ## The Wonder Gradient: "The Path to Effortless"
 
 | Wonder % | Feature Name | The "Luxury" Upgrade |
@@ -857,6 +905,10 @@ If Wonder UI is about **Luxury & Automation** (The Rolls Royce), Dread UI should
 ---
 
 ## Outstanding Questions (For Future Session)
+*   **Defining the Card System (TOP PRIORITY):**
+    *   **Archetypes:** Formalize the categories: Generators (Engines), Modifiers (Attachments), and Globals (OS/System Tray).
+    *   **Connectivity:** Finalize the **Adjacency Bonus (Option B)** rules for resource flow and strategic placement (Wonder clusters vs. Dread stacks).
+    *   **Examples:** Detail specific technologies (e.g., Mining Laser, Refinery) as fully functional cards within this system.
 *   **Influence Curve Mechanics:** Do the percentages in the Wonder Gradient represent the minimum score required for activation (e.g., 20% feature unlocks at 20% score), or is there a more complex formula?
 *   **Neutral Card Behaviors:** How do cards behave by default? What is the baseline for auto-expansion, alerts, and finding space?
 
