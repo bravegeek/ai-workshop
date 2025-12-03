@@ -904,6 +904,23 @@ Instead of separate automation menus, auto-buyers, and automation upgrades will 
 
 ---
 
+## The Dread Gradient: "The Descent into Chaos"
+
+| Dread % | Feature Name | The "Rat Rod" Upgrade / UI Corruption |
+| :--- | :--- | :--- |
+| **10%** | **Flickering Readout** | Numbers on gauges briefly glitch (`150` becomes `1$0`) before correcting. Tooltips have a slight `text-shadow` displacement (red/blue). |
+| **20%** | **Unstable Grid Frame** | Card borders begin to show subtle `clip-path` imperfections and a thin, pulsing red glow. Occasional `transform: skew(0.5deg)` on inactive cards. |
+| **30%** | **Impact Resonance** | Clicking a card sends a minor "shockwave" (CSS `box-shadow` ripple) to adjacent cards, causing a temporary `transform: translateY(1px)` jitter. |
+| **40%** | **Data Scramble** | Tooltips for Dread cards occasionally display random, meaningless characters for 0.5s before showing the correct text. |
+| **50%** | **The Static Veil** | **Major Visual Shift.** Dread card backgrounds become noisy (`repeating-linear-gradient` with `mix-blend-mode`). Active Dread cards gain a `filter: contrast(150%)` to make colors harsher. |
+| **60%** | **Phantom Inputs** | Occasionally, a random Dread button will highlight as if hovered, or briefly activate a "click" animation without user input. |
+| **70%** | **System Bleed** | Resources that flow between connected Dread cards leave a "trail" of red/orange pixels on the grid background. |
+| **80%** | **Feedback Loop** | Performing a Dread action (e.g., activating a Leech bonus) causes a slight, brief `transform: scale(0.98)` on the entire UI, as if it's recoiling. |
+| **90%** | **Reality Fracture** | The grid lines themselves begin to intermittently disappear and reappear, or randomly shift their `border-style` to `dashed` or `dotted`. |
+| **100%** | **The Breakdown** | **UI Cataclysm.** Cards actively try to push each other off-screen (slow `transform: translateX/Y` animations). Critical UI elements become hard to click due to aggressive `z-index` flickering. |
+
+---
+
 ## Outstanding Questions (For Future Session)
 *   **Influence Curve Mechanics:** Do the percentages in the Wonder Gradient represent the minimum score required for activation (e.g., 20% feature unlocks at 20% score), or is there a more complex formula?
 *   **Neutral Card Behaviors:** How do cards behave by default? What is the baseline for auto-expansion, alerts, and finding space?
