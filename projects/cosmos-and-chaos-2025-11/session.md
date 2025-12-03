@@ -921,7 +921,63 @@ Instead of separate automation menus, auto-buyers, and automation upgrades will 
 
 ---
 
-## Outstanding Questions (For Future Session)
+## UI Influence Curve & Neutral State
+**Date:** 2025-12-02
+**Decision:** Option A - "The Blank Slate" (Evolution)
+
+### 1. The Narrative Arc
+*   **Start (Neutral):** The UI is stark, wireframe, greyscale. Minimalist. The AI is "booting up."
+*   **Progression:**
+    *   **Wonder:** "Ascension." Adds color, curves, gradients, and glassmorphism.
+    *   **Dread:** "Corruption." Adds noise, fractured geometry, burn-in, and glitch artifacts.
+*   **Metaphor:** You start as raw code. You choose to become a God (Wonder) or a Monster (Dread).
+
+### 2. Visual Evolution Guide (CSS Strategy)
+This transition is handled via CSS Variables and Class Overrides on the `body` tag.
+
+| Feature | **Neutral (The Code)** | **Wonder (The Dream)** | **Dread (The Nightmare)** |
+| :--- | :--- | :--- | :--- |
+| **Shape** | Perfect Square (`border-radius: 0`) | Rounded / Circles (`border-radius: 16px`) | Fractured / Skewed (`clip-path: polygon(...)`) |
+| **Border** | 1px Solid Grey | Thin Glowing Cyan/Gold | Throbbinng Red / jagged edges |
+| **Background** | Black (`#000`) | Deep Blue/Purple Gradient + Blur | Pitch Black + Noise Texture |
+| **Typography** | Monospace (Consolas/Courier) | Sans-Serif (Quicksand/Roboto) | Distorted Monospace / All Caps |
+| **Motion** | Static (No transition) | Float / Ease-Out (Fluid) | Jitter / Snap (Linear / Violent) |
+
+### 3. Dread CSS Implementation Details
+*   **The "Burn-In":** Use `text-shadow` and `box-shadow` with Red/Orange values to simulate CRT phosphor decay.
+*   **The "Fracture":** Use `clip-path` to slice corners off cards, making them irregular polygons.
+*   **The "Static":** Use `repeating-linear-gradient` overlay with `mix-blend-mode: exclusion` to create noise.
+*   **The "Shudder":** CSS Animations that rapidly translate X/Y coordinates by 1-2px to simulate vibration.
+
+---
+
+## Technology Tree and Card Interaction: The Singleton / Hero Card System
+**Date:** 2025-12-02
+**Decision:** Singleton / Hero Card System
+
+### 1. Core Principle: One Card Per Tech
+*   Each node in the Technology Tree (e.g., "T01 Basic Mining Laser," "T04 Refinery Module") corresponds to a **single, unique "Hero Card"** on the player's Bento Grid.
+*   The game is NOT about building multiples of the same card. It's about strategically placing and evolving a finite set of powerful, unique systems.
+
+### 2. Hero Card Characteristics
+*   **Unique Identity:** Each card represents a specific, named system (e.g., "The Stellar Siphon," "The Molecular Reassembly Plant").
+*   **Characterful:** Cards will have distinct visuals, animations, and potentially sound effects that evolve with their upgrades and the player's alignment.
+*   **Strategic Focus:** Placement is paramount. The grid becomes a "Dashboard of a Spaceship" where every component's position relative to others is a critical decision.
+
+### 3. Tech Tree Integration
+*   **Unlocking Tech = Receiving a Card:** When a technology node in the Tech Tree is unlocked, the corresponding "Hero Card" is made available in the player's "Shipyard" or inventory. From there, it can be dragged onto the Bento Grid.
+*   **Upgrading Tech = Evolving a Card:** When a subsequent technology node *related to an existing card* is unlocked, the existing Hero Card on the grid physically and functionally *evolves*.
+    *   **Visual Evolution:** It might grow in size (e.g., from 1x1 to 2x1 or 2x2), change its visual aesthetic (e.g., from a basic laser to a complex array), or unlock new interactive elements on its face.
+    *   **Functional Evolution:** It gains new abilities, increased production, or changes its adjacency/connectivity bonuses. This forces players to adapt their grid layout to accommodate the evolved card.
+
+### 4. Benefits
+*   **Mobile-Friendly:** Prevents grid clutter, optimizing for limited screen real estate and player attention on mobile devices.
+*   **Meaningful Decisions:** Every card placement and every tech unlock has a significant, visible impact on the grid and gameplay.
+*   **Narrative Richness:** Each card becomes a memorable component of the player's ship, reinforcing the "AI custodian" theme.
+
+---
+
+## Cutting Room Floor (Superseded Ideas)
 *   **Influence Curve Mechanics:** Do the percentages in the Wonder Gradient represent the minimum score required for activation (e.g., 20% feature unlocks at 20% score), or is there a more complex formula?
 *   **Neutral Card Behaviors:** How do cards behave by default? What is the baseline for auto-expansion, alerts, and finding space?
 
