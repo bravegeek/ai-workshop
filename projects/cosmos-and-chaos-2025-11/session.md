@@ -905,12 +905,102 @@ Instead of separate automation menus, auto-buyers, and automation upgrades will 
 ---
 
 ## Outstanding Questions (For Future Session)
-*   **Defining the Card System (TOP PRIORITY):**
-    *   **Archetypes:** Formalize the categories: Generators (Engines), Modifiers (Attachments), and Globals (OS/System Tray).
-    *   **Connectivity:** Finalize the **Adjacency Bonus (Option B)** rules for resource flow and strategic placement (Wonder clusters vs. Dread stacks).
-    *   **Examples:** Detail specific technologies (e.g., Mining Laser, Refinery) as fully functional cards within this system.
 *   **Influence Curve Mechanics:** Do the percentages in the Wonder Gradient represent the minimum score required for activation (e.g., 20% feature unlocks at 20% score), or is there a more complex formula?
 *   **Neutral Card Behaviors:** How do cards behave by default? What is the baseline for auto-expansion, alerts, and finding space?
+
+---
+
+## The Bento Grid Card System
+**Date:** 2025-12-02
+**Focus:** Archetypes, Connectivity, and Card Anatomy.
+
+### 1. Card Archetypes
+Every card in the game falls into one of three functional categories. This standardization allows players to instantly recognize a card's role by its shape/border, even if they haven't unlocked it yet.
+
+| Archetype | **The Generators** (Engines) | **The Modifiers** (Attachments) | **The Globals** (System) |
+| :--- | :--- | :--- | :--- |
+| **Role** | Primary Resource Producers. | Passive buffers or Active converters. | System-wide effects or Passive Cap increases. |
+| **Grid Behavior** | **Solid Blocks.** They occupy space and block movement. They are the "terrain." | **Fluid Elements.** Can be placed in empty slots OR (in Dread) dragged *onto* Generators. | **Anchors.** Usually fixed or float above the grid layer. |
+| **Visual Cue** | **Square (1x1 or 2x2).** Thick borders. Heavy visual weight. | **Rectangular / Small.** Thin borders. Often transparent or "Lens" like. | **Circular / Abstract.** No distinct borders. Glowing icons. |
+| **Examples** | Mining Laser, Refinery, Reactor. | Overclock Chip, Cooling Vent, Prism. | Storage Node, Research Core, AI Hub. |
+
+### 2. Connectivity Rules: "The Flow" vs "The Weld"
+How cards interact defines the puzzle element of the game.
+
+#### A. Wonder Path: "The Flow" (Adjacency & Harmonics)
+*   **The Rule:** **Proximity = Connection.**
+*   **Visual:** If two compatible cards touch, the border between them dissolves or glows (CSS `border-image` change).
+*   **Mechanic:** **"Chain Bonus."**
+    *   A specific sequence (e.g., Mine -> Refinery -> Storage) arranged in a line or L-shape creates a **"Resonance Chain."**
+    *   **Effect:** +10% Output for *every* card in the chain. Encourages building large, snake-like patterns.
+*   **Modifier Behavior:** **"The Lens."**
+    *   Modifiers are placed in empty slots *between* Generators.
+    *   A "Prism" modifier placed between a Mine and a Refinery amplifies the resource passing through it (e.g., x2 Yield).
+
+#### B. Dread Path: "The Leech" (Parasitic Adjacency)
+*   **The Rule:** **Contact = Consumption.**
+*   **Visual:** Dark tendrils or pipes visibly stab into neighboring cards.
+*   **Mechanic:** **"Parasitic Gain."**
+    *   Dread Generators receive massive output bonuses based on **what they touch**, but they **drain or damage** the neighbor.
+    *   **Example:** A "Rift Miner" gets +50% Speed if touching a "Habitat."
+        *   *The Cost:* It drains -1 Crew Morale/sec from that Habitat (or deals HP damage to it).
+    *   **The Puzzle:** You must surround high-output Dread machines with "sacrificial" buffers (like cheap Batteries) or high-regen Wonder cards to feed them.
+*   **Modifier Behavior:** **"The Spike."**
+    *   Modifiers are placed next to Generators but are "Thorns."
+    *   An "Overclock Spike" boosts the neighbor's speed but increases its **Dissonance Generation**.
+
+### 3. Card Anatomy: "The Mining Laser" (Example)
+
+**Tier 1: Basic Mining Laser**
+*   **Type:** Generator (1x1 Block).
+*   **Wonder Look:**
+    *   Clean, matte black box.
+    *   **Output:** Soft blue pulse emits from the *right* side.
+    *   **Action:** Gentle thrumming animation.
+*   **Dread Look:**
+    *   Rusty industrial crate.
+    *   **Output:** A "Hopper" tray on the bottom fills with chunks. Must be clicked to empty (unless automated).
+    *   **Action:** Violent shaking on every tick.
+
+**Tier 3: Resonant Frequency Miner (Wonder Variant)**
+*   **Evolution:** Becomes a **2x1 Horizontal** card (Wide).
+*   **Feature:** **"Pass-Through."** Resources from the *left* can flow through it to the *right*, picking up ore along the way.
+*   **Adjacency:** If placed next to a "Crystal Formation" (Map Node), it vibrates in sync (Visual harmonic wave).
+
+**Tier 3: Rift Miner (Dread Variant)**
+*   **Evolution:** Becomes a **1x2 Vertical** card (Tall).
+*   **Feature:** **"The Vent."** Top of the card opens. Requires a "Coolant" modifier to be welded on top, or it overheats in 30s.
+*   **Adjacency:** Burns neighboring cards (deals 1 damage/sec to neighbors). Must be isolated or shielded.
+
+---
+
+## UI Influence Curve & Neutral State
+**Date:** 2025-12-02
+**Decision:** Option A - "The Blank Slate" (Evolution)
+
+### 1. The Narrative Arc
+*   **Start (Neutral):** The UI is stark, wireframe, greyscale. Minimalist. The AI is "booting up."
+*   **Progression:**
+    *   **Wonder:** "Ascension." Adds color, curves, gradients, and glassmorphism.
+    *   **Dread:** "Corruption." Adds noise, fractured geometry, burn-in, and glitch artifacts.
+*   **Metaphor:** You start as raw code. You choose to become a God (Wonder) or a Monster (Dread).
+
+### 2. Visual Evolution Guide (CSS Strategy)
+This transition is handled via CSS Variables and Class Overrides on the `body` tag.
+
+| Feature | **Neutral (The Code)** | **Wonder (The Dream)** | **Dread (The Nightmare)** |
+| :--- | :--- | :--- | :--- |
+| **Shape** | Perfect Square (`border-radius: 0`) | Rounded / Circles (`border-radius: 16px`) | Fractured / Skewed (`clip-path: polygon(...)`) |
+| **Border** | 1px Solid Grey | Thin Glowing Cyan/Gold | Throbbinng Red / jagged edges |
+| **Background** | Black (`#000`) | Deep Blue/Purple Gradient + Blur | Pitch Black + Noise Texture |
+| **Typography** | Monospace (Consolas/Courier) | Sans-Serif (Quicksand/Roboto) | Distorted Monospace / All Caps |
+| **Motion** | Static (No transition) | Float / Ease-Out (Fluid) | Jitter / Snap (Linear / Violent) |
+
+### 3. Dread CSS Implementation Details
+*   **The "Burn-In":** Use `text-shadow` and `box-shadow` with Red/Orange values to simulate CRT phosphor decay.
+*   **The "Fracture":** Use `clip-path` to slice corners off cards, making them irregular polygons.
+*   **The "Static":** Use `repeating-linear-gradient` overlay with `mix-blend-mode: exclusion` to create noise.
+*   **The "Shudder":** CSS Animations that rapidly translate X/Y coordinates by 1-2px to simulate vibration.
 
 ---
 
