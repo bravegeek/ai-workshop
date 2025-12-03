@@ -977,6 +977,108 @@ This transition is handled via CSS Variables and Class Overrides on the `body` t
 
 ---
 
+## Card Definition & Evolution Map (Tiers 0-5)
+**Date:** 2025-12-02
+**Purpose:** Mapping every tech node to a physical Card Identity.
+
+### 1. Engineering Department (The Body)
+*Focus: Extraction, Processing, Power, Storage.*
+
+**Card: The Mining Laser**
+*   **T01 Base:** **Proton Cutter** (1x1). Simple manual clicker.
+*   **T10 Upgrade:** **Resonant Drill** (Grows to 2x1). Automates mining.
+*   **T17 Wonder Choice:** **Harmonic Siphon** (Grows to 2x2). Pass-through mining; no vibration.
+*   **T18 Dread Choice:** **Rift Bore** (Shrinks to 1x1). "The Leech" - drains neighbors for massive speed.
+*   **T27/T28 Finale:**
+    *   **Wonder:** **Quantum Excavator** (Teleports ore).
+    *   **Dread:** **The Grey Goo** (Card "melts" and spreads to adjacent tiles).
+
+**Card: The Refinery**
+*   **T04 Base:** **Smelter** (1x1). Manual conversion (Ore -> Alloy).
+*   **T12 Upgrade:** **Molecular Forge** (1x1). Automated. Unlocks "Upcycling."
+*   **T19 Upgrade:** **Dark Matter Kiln** (Grows to 1x2). Consumes Dissonance to speed up refining.
+*   **T29 Finale:** **Universal Fabricator**. Removes inputs; produces "Matter" directly.
+
+**Card: The Storage Bay**
+*   **T03 Base:** **Bulk Hold** (2x2). Static capacity increase.
+*   **T07 Upgrade:** **Smart Vault** (2x2). Adds resource filtering.
+*   **T35 Wonder Choice:** **Klein Bottle** (Shrinks to 1x1). Infinite capacity, flow-limited.
+*   **T36 Dread Choice:** **Void Locker** (Grows to 3x3). Allows Negative Resources (Debt).
+
+**Card: The Power Core**
+*   **T41 Base:** **Battery Bank** (1x1). Buffers energy.
+*   **T42 Upgrade:** **Photosynthetic Array** (2x2). Solar power + Xeno-Bloom production.
+*   **T43 Wonder Choice:** **Zero-Point Prism** (1x1). Passive infinite energy if "Tuned."
+*   **T44 Dread Choice:** **Entropy Furnace** (2x1). Burns physical items (or cards!) for power.
+
+---
+
+### 2. Navigation Department (The Legs)
+*Focus: Map, Sensors, Movement.*
+
+**Card: The Sensor Array**
+*   **T02 Base:** **LIDAR Unit** (1x1). Shows next rock composition.
+*   **T05 Upgrade:** **Deep Void Eye** (Grows to 1x2). Unlocks Sector Map.
+*   **T14 Upgrade:** **Oracle Core** (1x2). Removes RNG; allows filtering specific rocks.
+*   **T21 Upgrade:** **Reality Mapper** (2x2). Reveals Wonder/Dread paths on the map.
+
+**Card: The Comms Relay**
+*   **T06 Base:** **Subspace Radio** (1x1). Random trade events.
+*   **T20 Upgrade:** **The Translator** (1x1). Decodes Artifact signals (Missions).
+*   **T30 Finale (Dread):** **The Overlord**. Automates all decisions (Autopilot).
+
+**Card: The Engine**
+*   **T08 Base:** **Ion Drive** (2x1). Reduces travel time.
+*   **T37 Wonder Choice:** **Solar Sail** (Grows to 3x1). Passive movement; slow but constant.
+*   **T38 Dread Choice:** **Blink Drive** (Shrinks to 1x1). Instant travel; deals damage to ship.
+*   **T31 Finale:** **Harmonic Gate**. Teleportation (Travel time = 0).
+
+---
+
+### 3. Life Science Department (The Soul)
+*Focus: Crew, Habitat, Psychology.*
+
+**Card: The Habitat**
+*   **T16 Base:** **Crew Quarters** (2x1). Houses crew; generates Morale.
+*   **T39 Wonder Choice:** **Aquaponic Garden** (2x2). Converts Bloom -> Lucid Essence (Buffs).
+*   **T40 Dread Choice:** **Isolation Tanks** (1x1). Locks Morale; converts Emotions -> Dissonance Decay.
+*   **T22/T23 Finale:**
+    *   **Wonder:** **Arcology Spire** (Self-sustaining city).
+    *   **Dread:** **Cryo-Morgue** (Suspended animation; time skipping).
+
+**Card: The Neural Interface**
+*   **T13 Base:** **Learning Center** (1x1). Increases XP gain.
+*   **T45 Wonder Choice:** **The Hive Mind** (Wireless). XP shared across all crew.
+*   **T46 Dread Choice:** **Control Collar** (Wired). "Crunch Mode" toggle (+Speed / -Health).
+*   **T47/T48 Finale:**
+    *   **Wonder:** **Noosphere Resonator** (Reality bending via vote).
+    *   **Dread:** **Synaptic Lattice** (Burn XP for instant construction).
+
+---
+
+### 4. Xenoarchaeology Department (The Mystery)
+*Focus: Artifacts, Relics.*
+
+**Card: The Artifact Lab**
+*   **T09 Base:** **Specimen Jar** (1x1). Stores 1 Artifact.
+*   **T15 Upgrade:** **Xeno-Gallery** (Grows to 2x2). Analyzes artifacts.
+*   **T24 Upgrade:** **Relic Cracker** (2x1). Safely extracts cores.
+*   **T25a Wonder Choice:** ** The Museum**. Preserves artifacts for passive buffs.
+*   **T25b Dread Choice:** **The Grinder**. Destroys artifacts for permanent stats.
+
+---
+
+### 5. Theoretical Physics (The Mind)
+*Focus: The End Game.*
+
+**Card: The Reality Anchor** (Unlocks at Tier 5)
+*   **T29 Base:** **The Equation**. (1x1). The final puzzle piece.
+*   **T33 Wonder Victory:** **The Seed**. Blooms into a new star system.
+*   **T34 Dread Victory:** **The Virus**. Replicates the ship endlessly.
+*   **T33b Witness Victory:** **The Architect**. Rewrites the game rules.
+
+---
+
 ## Cutting Room Floor (Superseded Ideas)
 *   **Influence Curve Mechanics:** Do the percentages in the Wonder Gradient represent the minimum score required for activation (e.g., 20% feature unlocks at 20% score), or is there a more complex formula?
 *   **Neutral Card Behaviors:** How do cards behave by default? What is the baseline for auto-expansion, alerts, and finding space?
