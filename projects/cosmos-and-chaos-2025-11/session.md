@@ -17,6 +17,28 @@
 
 ---
 
+## 3. Critical Systems Audit (2025-12-03)
+**Refactoring the "48 Cards" Problem.**
+Based on a strategic review, the 48 technologies have been consolidated into **8 Core Evolutionary Lines** to prevent grid bloat.
+
+### The 8 Core Slots
+1.  **The Extractor** (Mining)
+2.  **The Processor** (Refining)
+3.  **The Storage** (Logistics)
+4.  **The Reactor** (Energy)
+5.  **The Engine** (Propulsion)
+6.  **The Sensor** (Map/RNG)
+7.  **The Habitat** (Crew/Morale)
+8.  **The Lab** (Research/Artifacts)
+
+### The Mechanic: "Evolution & Forking"
+*   **Tier 0-2:** Linear upgrades. The card transforms in place (e.g., Mining Laser -> Drill).
+*   **Tier 3:** **The Fork.** The card splits into a Wonder Variant or a Dread Variant.
+*   **Standard Play:** User chooses ONE. The card evolves into that variant.
+*   **Witness Play:** User builds BOTH. Requires finding space for a second card on the grid.
+
+---
+
 ## UI/UX Design Specifications
 *   **Visual Style:** Minimalist Sci-Fi. Dark background (#0b0c10) with neon accents.
 *   **Wonder UI:** Clean lines, soft blue/cyan glows, rounded corners, harmonic audio cues.
@@ -918,36 +940,6 @@ Instead of separate automation menus, auto-buyers, and automation upgrades will 
 | **80%** | **Feedback Loop** | Performing a Dread action (e.g., activating a Leech bonus) causes a slight, brief `transform: scale(0.98)` on the entire UI, as if it's recoiling. |
 | **90%** | **Reality Fracture** | The grid lines themselves begin to intermittently disappear and reappear, or randomly shift their `border-style` to `dashed` or `dotted`. |
 | **100%** | **The Breakdown** | **UI Cataclysm.** Cards actively try to push each other off-screen (slow `transform: translateX/Y` animations). Critical UI elements become hard to click due to aggressive `z-index` flickering. |
-
----
-
-## UI Influence Curve & Neutral State
-**Date:** 2025-12-02
-**Decision:** Option A - "The Blank Slate" (Evolution)
-
-### 1. The Narrative Arc
-*   **Start (Neutral):** The UI is stark, wireframe, greyscale. Minimalist. The AI is "booting up."
-*   **Progression:**
-    *   **Wonder:** "Ascension." Adds color, curves, gradients, and glassmorphism.
-    *   **Dread:** "Corruption." Adds noise, fractured geometry, burn-in, and glitch artifacts.
-*   **Metaphor:** You start as raw code. You choose to become a God (Wonder) or a Monster (Dread).
-
-### 2. Visual Evolution Guide (CSS Strategy)
-This transition is handled via CSS Variables and Class Overrides on the `body` tag.
-
-| Feature | **Neutral (The Code)** | **Wonder (The Dream)** | **Dread (The Nightmare)** |
-| :--- | :--- | :--- | :--- |
-| **Shape** | Perfect Square (`border-radius: 0`) | Rounded / Circles (`border-radius: 16px`) | Fractured / Skewed (`clip-path: polygon(...)`) |
-| **Border** | 1px Solid Grey | Thin Glowing Cyan/Gold | Throbbinng Red / jagged edges |
-| **Background** | Black (`#000`) | Deep Blue/Purple Gradient + Blur | Pitch Black + Noise Texture |
-| **Typography** | Monospace (Consolas/Courier) | Sans-Serif (Quicksand/Roboto) | Distorted Monospace / All Caps |
-| **Motion** | Static (No transition) | Float / Ease-Out (Fluid) | Jitter / Snap (Linear / Violent) |
-
-### 3. Dread CSS Implementation Details
-*   **The "Burn-In":** Use `text-shadow` and `box-shadow` with Red/Orange values to simulate CRT phosphor decay.
-*   **The "Fracture":** Use `clip-path` to slice corners off cards, making them irregular polygons.
-*   **The "Static":** Use `repeating-linear-gradient` overlay with `mix-blend-mode: exclusion` to create noise.
-*   **The "Shudder":** CSS Animations that rapidly translate X/Y coordinates by 1-2px to simulate vibration.
 
 ---
 
