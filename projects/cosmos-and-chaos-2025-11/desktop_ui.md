@@ -36,14 +36,19 @@ The entire screen represents the ship's primary AI terminal. It is "Always On," 
     *   **No Wires:** We rely entirely on physical contact (Side-by-Side).
 
 ### Card Anatomy (Desktop Scale)
-*   **Size:** Cards are large (e.g., 160x160px).
-*   **Density:** We can show much more data than on mobile.
-    *   **Header:** Card Name + Tier Icon.
-    *   **Body:**
-        *   Live animated graph (e.g., Sine wave for Energy).
-        *   Status text ("Running at 105% Efficiency").
-        *   Small interactive toggles (e.g., "Priority: High/Low").
-    *   **Footer:** Input/Output indicators (Arrows pointing to neighboring edges).
+*   **Size:** Cards are **240x240px** (desktop standard).
+*   **Viewport Size:** 1200x1200px (5x5 cards visible).
+*   **Total Grid:** 2400x2400px minimum (10x10 capacity).
+*   **Density:** Desktop-first design with clear, readable counters.
+*   **Layout:**
+    *   **Header (50px):** Card Name + Tier Icon + Status LED (8x8px).
+    *   **Body (140px):**
+        *   Large icon/visual (60x60px) representing card type.
+        *   Primary counter (24px bold font - main resource output/input).
+        *   Secondary counters (16px font - efficiency, status, rates).
+        *   Tertiary stats (12px font - additional metrics).
+        *   Interactive toggles/sliders (if needed for manual cards).
+    *   **Footer (50px):** Input/Output indicators (Arrows + resource types on all 4 sides) + Health/Efficiency bars.
 
 ### The Glitch Mechanics (Hardware Failure)
 *   **Dread Effect:** Instead of just UI glitching, the "Hardware" fails.
