@@ -41,9 +41,10 @@ Based on a strategic review, the 48 technologies have been consolidated into **8
 
 ## UI/UX Design Specifications
 *   **Visual Style:** Minimalist Sci-Fi. Dark background (#0b0c10) with neon accents.
-*   **Wonder UI:** Clean lines, soft blue/cyan glows, rounded corners, harmonic audio cues.
-*   **Dread UI:** Sharp angles, red/orange glitches, jagged edges, distorted audio cues.
+*   **Wonder UI:** Clean lines, soft blue/cyan borders, rounded corners, harmonic audio cues.
+*   **Dread UI:** Sharp angles, red/orange borders, jagged edges, distorted audio cues.
 *   **The Shift:** The UI dynamically shifts based on the player's alignment (Wonder vs. Dread score).
+*   **Performance Target:** 60 FPS with 25+ cards using CSS-only effects (no Canvas/WebGL).
 
 ---
 
@@ -698,7 +699,6 @@ High Dread manifests as "System Corruption," making the game's UI and its displa
 **Level 5: The "Reality Quake" (Dissonance > 95% / Critical Event)**
 *   **The Trigger:** Very rare. Or guaranteed if you hit 100% Dissonance (The "Reality Breach").
 *   **The Effect:**
-    *   **The Shudder:** The entire screen shakes violently (camera shake).
     *   **The Reshuffle:** All cards on the grid are **randomly permuted**.
         *   Your Refinery is now where your Life Support was.
         *   Your Batteries are now next to the Reactor (maybe that's good?).
@@ -721,20 +721,20 @@ The input method adapts automatically based on the state of the target object, c
 *   **State A: The Conductor (Functioning Machine)**
     *   **Context:** The machine is running smoothly.
     *   **Input:** **Rhythmic Tapping.**
-    *   **Visual Cue (Silent Support):** A soft **Cyan/Teal vignette** pulses at the screen edges in time with the BPM. The target machine emits a **White Circular Ripple** on the beat.
+    *   **Visual Cue:** Screen borders pulse cyan in time with the BPM. Target card border pulses white on the beat.
     *   **Action:** Tapping on the beat triggers a "Perfect Note" (2x Yield).
-    *   **Feedback:** Clean, expanding circle wave visual.
+    *   **Feedback:** Card border flashes cyan.
 
 *   **State B: The Mechanic (Stalled/Glitch Machine)**
     *   **Context:** The machine jams or glitches (Dread Event).
     *   **Input:** **Percussive Maintenance (The Kick).**
-    *   **Visual Cue (Silent Support):** The Cyan glow is shattered by a jagged **Red/Orange Static** effect at the borders. The target machine has a **Vibrating Red Outline** to draw the eye instantly.
+    *   **Visual Cue:** Card border turns red and pulses rapidly.
     *   **Action:** Tapping the jammed machine performs a "Kick" (Instant Fix + Surge Boost).
-    *   **Feedback:** Jagged "BAM!" impact visual and distorted text.
+    *   **Feedback:** Card border flashes bright red.
 
 *   **State C: The Flow State (Max Combo)**
     *   **Context:** High Rhythm Combo maintained.
-    *   **Visual Cue:** Borders turn **Gold/White** with a high-frequency shimmer.
+    *   **Visual Cue:** Card borders turn gold.
     *   **Effect:** "Auto-Conductor" activates. All input is buffed.
 
 *   **The Witness Synergy:** A Witness player does not need to toggle modes. They simply react to the *visuals*. They play the "Jazz Drummer," keeping the smooth beat (Wonder) while instantly reacting to and fixing glitches (Dread) without breaking their flow.
@@ -774,10 +774,10 @@ The user interface behaves according to a "Physics Engine" that shifts based on 
 | Behavior Category | **Wonder (Luxury)** | **Neutral (Standard)** | **Dread (Rat Rod)** |
 | :--- | :--- | :--- | :--- |
 | **1. Manual Drag**<br>*(The Hand Feel)* | **"Magnetic Assist"**<br>Cards snap to grid slots from a distance. Movement is smoothed/damped. Feels weightless. | **"Direct Control"**<br>Standard 1:1 movement. Snaps only when close to the slot. | **"Heavy Inertia"**<br>Simulated weight. Cursor "pulls" the card (spring physics). No snap assist; you must be precise. |
-| **2. Drag Preview**<br>*(The Visual)* | **"Holographic Ghost"**<br>A glowing blue outline appears in the target slot *before* you drop. | **"Outline"**<br>A simple grey dashed border shows the drop zone. | **"The Skid"**<br>No preview. Dragging leaves "scratches" or sparks on the background. You drop it "blind." |
-| **3. Expansion**<br>*(Level Up)* | **"Fluid Re-flow"**<br>Grid automatically rearranges to open space. Animations glide. | **"Gated Check"**<br>Button disabled if blocked. Player must manually clear space first. | **"The Bulldozer"**<br>Violent expansion. Shoves neighbor cards to random open slots (or off-screen). |
-| **4. Collision**<br>*(Impact)* | **"Polite Displacement"**<br>Neighbor cards slide out of the way proactively. | **"Block"**<br>You simply cannot drop a card on top of another. It snaps back. | **"Impact Stun"**<br>Dropping a card *on top* of another knocks the bottom one away and "Stuns" it (0% output) for 10s. |
-| **5. Idle State**<br>*(The Vibe)* | **"Levitation"**<br>Subtle, synchronized vertical bob. "Breathing" margins. | **"Static"**<br>Cards sit still on the grid. | **"Vibration"**<br>Asynchronous jitter. High Dread = violently shaking cards. |
+| **2. Drag Preview**<br>*(The Visual)* | **"Preview Ghost"**<br>A cyan border outline appears in the target slot *before* you drop. | **"Outline"**<br>A simple grey dashed border shows the drop zone. | **"No Preview"**<br>No visual preview. You drop it "blind." |
+| **3. Expansion**<br>*(Level Up)* | **"Fluid Re-flow"**<br>Grid automatically rearranges to open space. CSS transitions smooth. | **"Gated Check"**<br>Button disabled if blocked. Player must manually clear space first. | **"The Bulldozer"**<br>Expansion pushes neighbor cards to adjacent slots. |
+| **4. Collision**<br>*(Impact)* | **"Polite Displacement"**<br>Neighbor cards slide out of the way proactively. | **"Block"**<br>You simply cannot drop a card on top of another. It snaps back. | **"No Block"**<br>Cards cannot overlap. Collision is blocked. |
+| **5. Idle State**<br>*(The Vibe)* | **"Breathing"**<br>Subtle, synchronized opacity shift. "Breathing" effect. | **"Static"**<br>Cards sit still on the grid. | **"Jitter"**<br>Asynchronous small transforms. High Dread = more frequent jitter. |
 
 ### 2. The Influence Thresholds (with 10% Hysteresis Buffer)
 The transition between these states is not binary but gradual, governed by an "Influence Curve" and a 10% Hysteresis Buffer. This means features unlock at a given percentage but remain active until the alignment drops 10% below that threshold, preventing flickering.
@@ -788,11 +788,11 @@ The transition between these states is not binary but gradual, governed by an "I
     *   *Wonder Bias:* Dragging gets smoother (magnetic snap radius increases). Margins widen.
     *   *Dread Bias:* Cards feel heavy (drag lag). Margins tighten. Audio "clanks" on interaction.
 *   **70% - 90% (The Identity Lock):**
-    *   *Wonder High:* "Smart Grid" activates. Auto-organization turns on. Glassmorphism effects apply.
-    *   *Dread High:* "Bulldozer" physics activate. Cards shove each other. Visual rust/glitches appear.
+    *   *Wonder High:* "Smart Grid" activates. Auto-organization turns on. Soft borders and rounded corners apply.
+    *   *Dread High:* "Bulldozer" physics activate. Cards shove each other. Visual corruption/glitches appear.
 *   **100% (The Extremes):**
-    *   *Wonder:* **The Singularity.** The grid disappears; cards float in free space in a perfect constellation.
-    *   *Dread:* **The Breakdown.** Cards overlap. UI elements fall off-screen. Player must physically "catch" resources.
+    *   *Wonder:* **The Singularity.** Cards organize into perfect geometric patterns automatically.
+    *   *Dread:* **The Breakdown.** Cards overlap. UI elements become difficult to interact with.
 
 ### The Neutral State (0-30%)
 This defines the baseline experience at the start of the game or when the player has no strong alignment. The goal is "Functional but Uninspired"—standard software.
@@ -801,9 +801,9 @@ This defines the baseline experience at the start of the game or when the player
 | :--- | :--- | :--- | :--- |
 | **The Click** | **Standard Input.**<br>1 Click = 1 Resource. No bonuses, no penalties. Standard "click" sound effect. | Becomes Rhythmic. | Becomes Physical/Violent. |
 | **Card Drag** | **Standard OS.**<br>1:1 mouse movement. No momentum. Snaps to grid only when releasing the mouse button. | Magnetic Snap Assist. | Heavy Momentum & Slide. |
-| **Collision** | **Block.**<br>You cannot drop a card on an occupied slot. It snaps back to its origin. | Cards slide out of the way. | **"The Weld"** (Force-Stacking). |
-| **Expansion** | **Manual.**<br>"Expand Grid" button costs resources. You must click it to get more rows. | Auto-Expansion (Fluid). | No Expansion (You must stack). |
-| **Tooltips** | **Static.**<br>Shows cost and current effect. 0.5s hover delay. | Instant, predictive. | Raw data, flickering. |
+| **Collision** | **Block.**<br>You cannot drop a card on an occupied slot. It snaps back to its origin. | Cards slide out of the way. | Cards cannot overlap (blocked). |
+| **Expansion** | **Manual.**<br>"Expand Grid" button costs resources. You must click it to get more rows. | Auto-Expansion (Fluid). | Manual expansion only. |
+| **Tooltips** | **Static.**<br>Shows cost and current effect. 0.5s hover delay. | Instant, predictive. | Raw data, delayed. |
 
 ---
 
@@ -851,14 +851,14 @@ graph TD
 
 ### Dread UI: "The Manual Overdrive"
 
-If Wonder UI is about **Luxury & Automation** (The Rolls Royce), Dread UI should be about **Aggression & Rule-Breaking** (The heavily modified Rat Rod). Instead of just "glitches," Dread gives you **manual tools to cheat the grid**.
+If Wonder UI is about **Luxury & Automation** (The Rolls Royce), Dread UI should be about **Aggression & Efficiency** (The heavily modified Rat Rod). Instead of just "glitches," Dread gives you **manual tools to optimize the grid**.
 
-#### A. Wonder Feature: "Smart Spacing" vs. Dread Feature: "Force-Stacking"
+#### A. Wonder Feature: "Smart Spacing" vs. Dread Feature: "Dense Packing"
 *   **Wonder (Luxury):** The grid automatically expands and shifts cards around to make room. You never run out of space; the ship grows for you.
-*   **Dread (Rule-Breaking):** The grid is rigid and rusty. It won't expand. **BUT**, you can drag one card *on top* of another.
-    *   **Mechanic:** **"The Weld."** Dropping a Mine onto a Refinery doesn't swap them—it fuses them into a **"Slag Tower."**
-    *   **Benefit:** You get the output of BOTH cards in a single tile. Space efficiency is infinite.
-    *   **Cost:** The "Slag Tower" generates massive Heat (Dissonance) and takes constant damage. You have to repair it manually or it explodes.
+*   **Dread (Efficiency):** The grid is fixed. Cards can be placed closer together (reduced margins).
+    *   **Mechanic:** **"Tight Quarters."** Dread cards have smaller margins, fitting more on the grid.
+    *   **Benefit:** Higher card density = more production per viewport.
+    *   **Cost:** Cards generate **Dissonance** when too close together. Requires careful management.
 
 #### B. Wonder Feature: "Auto-Collect" vs. Dread Feature: "Percussive Maintenance"
 *   **Wonder (Luxury):** Resources fly into your inventory automatically. You can idle peacefully.
@@ -917,12 +917,12 @@ Instead of separate automation menus, auto-buyers, and automation upgrades will 
 | **20%** | **Smart Grid Alignment** | When you manually drag a card, neighboring cards intelligently shift slightly to create a smooth path and automatically resettle to eliminate gaps. |
 | **30%** | **Profit Meters** | Green "+12/sec" indicators appear on cards. You now see *rates*, not just totals. |
 | **40%** | **Smart Batching** | "Buy 1" becomes "Buy 10" (or "Buy Max") automatically if you have the cash. The game anticipates your scale. |
-| **50%** | **The Glass Wall** | **Major Visual Shift.** UI borders vanish. Backgrounds become semi-transparent blur (Glassmorphism). The interface feels weightless. |
+| **50%** | **The Clean Interface** | **Major Visual Shift.** UI borders become rounded and soft. Increased padding and spacing. The interface feels calm. |
 | **60%** | **Auto-Claim** | You no longer need to click "Collect" on finished jobs. They fly into your inventory automatically. |
 | **70%** | **Focus Mode** | Buttons you *cannot* afford fade to 50% opacity. Your eyes are guided only to actionable elements. |
 | **80%** | **Time-to-Goal** | Hovering an expensive upgrade shows a countdown: *"Affordable in 2m 14s."* |
-| **90%** | **Harmony Links** | Golden lines visually connect synergistic buildings (e.g., Mine → Refinery), showing the flow of resources. |
-| **100%** | **The Singularity** | **UI Ascension.** The Grid dissolves. Cards float in a perfect, self-organizing constellation. You click *nothing*; you simply "conduct" the flow with mouse gestures. |
+| **90%** | **Harmony Links** | Colored borders visually connect synergistic buildings (e.g., Mine → Refinery), showing the flow of resources. |
+| **100%** | **The Singularity** | **UI Ascension.** Cards auto-organize into perfect geometric patterns. All automation is maximized. |
 
 ---
 
@@ -930,16 +930,16 @@ Instead of separate automation menus, auto-buyers, and automation upgrades will 
 
 | Dread % | Feature Name | The "Rat Rod" Upgrade / UI Corruption |
 | :--- | :--- | :--- |
-| **10%** | **Flickering Readout** | Numbers on gauges briefly glitch (`150` becomes `1$0`) before correcting. Tooltips have a slight `text-shadow` displacement (red/blue). |
-| **20%** | **Unstable Grid Frame** | Card borders begin to show subtle `clip-path` imperfections and a thin, pulsing red glow. Occasional `transform: skew(0.5deg)` on inactive cards. |
-| **30%** | **Impact Resonance** | Clicking a card sends a minor "shockwave" (CSS `box-shadow` ripple) to adjacent cards, causing a temporary `transform: translateY(1px)` jitter. |
-| **40%** | **Data Scramble** | Tooltips for Dread cards occasionally display random, meaningless characters for 0.5s before showing the correct text. |
-| **50%** | **The Static Veil** | **Major Visual Shift.** Dread card backgrounds become noisy (`repeating-linear-gradient` with `mix-blend-mode`). Active Dread cards gain a `filter: contrast(150%)` to make colors harsher. |
-| **60%** | **Phantom Inputs** | Occasionally, a random Dread button will highlight as if hovered, or briefly activate a "click" animation without user input. |
-| **70%** | **System Bleed** | Resources that flow between connected Dread cards leave a "trail" of red/orange pixels on the grid background. |
-| **80%** | **Feedback Loop** | Performing a Dread action (e.g., activating a Leech bonus) causes a slight, brief `transform: scale(0.98)` on the entire UI, as if it's recoiling. |
-| **90%** | **Reality Fracture** | The grid lines themselves begin to intermittently disappear and reappear, or randomly shift their `border-style` to `dashed` or `dotted`. |
-| **100%** | **The Breakdown** | **UI Cataclysm.** Cards actively try to push each other off-screen (slow `transform: translateX/Y` animations). Critical UI elements become hard to click due to aggressive `z-index` flickering. |
+| **10%** | **Flickering Readout** | Numbers on gauges briefly glitch (`150` becomes `1$0`) before correcting. Color shifts red momentarily. |
+| **20%** | **Unstable Grid Frame** | Card borders change to sharp angles (`border-radius: 0`). Borders pulse red. |
+| **30%** | **Impact Resonance** | Clicking a card causes adjacent cards to briefly shift color to red. |
+| **40%** | **Data Scramble** | Tooltips for Dread cards occasionally display corrupted text for 0.5s before showing correct text. |
+| **50%** | **The Harsh Interface** | **Major Visual Shift.** Dread card backgrounds become darker. Borders become jagged. Increased contrast. |
+| **60%** | **Phantom Inputs** | Occasionally, a random Dread button will highlight as if hovered without user input. |
+| **70%** | **System Bleed** | Connected Dread cards show red connection indicators on shared borders. |
+| **80%** | **Feedback Loop** | Performing a Dread action causes the card border to briefly flash bright red. |
+| **90%** | **Reality Fracture** | Grid borders intermittently switch between solid, dashed, and dotted styles. |
+| **100%** | **The Breakdown** | **UI Cataclysm.** Cards show severe visual corruption. Difficult to read but still functional. |
 
 ---
 
@@ -953,7 +953,7 @@ Instead of separate automation menus, auto-buyers, and automation upgrades will 
 
 ### 2. Hero Card Characteristics
 *   **Unique Identity:** Each card represents a specific, named system (e.g., "The Stellar Siphon," "The Molecular Reassembly Plant").
-*   **Characterful:** Cards will have distinct visuals, animations, and potentially sound effects that evolve with their upgrades and the player's alignment.
+*   **Characterful:** Cards will have distinct visuals, color schemes, and sound effects that evolve with their upgrades and the player's alignment.
 *   **Strategic Focus:** Placement is paramount. The grid becomes a "Dashboard of a Spaceship" where every component's position relative to others is a critical decision.
 
 ### 3. Tech Tree Integration
@@ -1091,52 +1091,46 @@ Every card in the game falls into one of three functional categories. This stand
 | **Visual Cue** | **Square (1x1 or 2x2).** Thick borders. Heavy visual weight. | **Rectangular / Small.** Thin borders. Often transparent or "Lens" like. | **Circular / Abstract.** No distinct borders. Glowing icons. |
 | **Examples** | Mining Laser, Refinery, Reactor. | Overclock Chip, Cooling Vent, Prism. | Storage Node, Research Core, AI Hub. |
 
-### 2. Connectivity Rules: "The Flow" vs "The Weld"
+### 2. Connectivity Rules: "The Flow" vs "The Leech"
 How cards interact defines the puzzle element of the game.
 
 #### A. Wonder Path: "The Flow" (Adjacency & Harmonics)
 *   **The Rule:** **Proximity = Connection.**
-*   **Visual:** If two compatible cards touch, the border between them dissolves or glows (CSS `border-image` change).
+*   **Visual:** If two compatible cards touch, the border between them changes color (CSS `border-color` change).
 *   **Mechanic:** **"Chain Bonus."**
     *   A specific sequence (e.g., Mine -> Refinery -> Storage) arranged in a line or L-shape creates a **"Resonance Chain."**
     *   **Effect:** +10% Output for *every* card in the chain. Encourages building large, snake-like patterns.
-*   **Modifier Behavior:** **"The Lens."**
-    *   Modifiers are placed in empty slots *between* Generators.
-    *   A "Prism" modifier placed between a Mine and a Refinery amplifies the resource passing through it (e.g., x2 Yield).
 
 #### B. Dread Path: "The Leech" (Parasitic Adjacency)
 *   **The Rule:** **Contact = Consumption.**
-*   **Visual:** Dark tendrils or pipes visibly stab into neighboring cards.
+*   **Visual:** Red borders appear between connected Dread cards.
 *   **Mechanic:** **"Parasitic Gain."**
     *   Dread Generators receive massive output bonuses based on **what they touch**, but they **drain or damage** the neighbor.
     *   **Example:** A "Rift Miner" gets +50% Speed if touching a "Habitat."
         *   *The Cost:* It drains -1 Crew Morale/sec from that Habitat (or deals HP damage to it).
     *   **The Puzzle:** You must surround high-output Dread machines with "sacrificial" buffers (like cheap Batteries) or high-regen Wonder cards to feed them.
-*   **Modifier Behavior:** **"The Spike."**
-    *   Modifiers are placed next to Generators but are "Thorns."
-    *   An "Overclock Spike" boosts the neighbor's speed but increases its **Dissonance Generation**.
 
 ### 3. Card Anatomy: "The Mining Laser" (Example)
 
 **Tier 1: Basic Mining Laser**
 *   **Type:** Generator (1x1 Block).
 *   **Wonder Look:**
-    *   Clean, matte black box.
-    *   **Output:** Soft blue pulse emits from the *right* side.
-    *   **Action:** Gentle thrumming animation.
+    *   Clean, dark background.
+    *   **Output:** Soft blue border on the *right* side.
+    *   **Action:** Gentle opacity pulse.
 *   **Dread Look:**
-    *   Rusty industrial crate.
-    *   **Output:** A "Hopper" tray on the bottom fills with chunks. Must be clicked to empty (unless automated).
-    *   **Action:** Violent shaking on every tick.
+    *   Dark industrial background.
+    *   **Output:** Counter display on the card. Must be clicked to collect (unless automated).
+    *   **Action:** Brief border flash on every tick.
 
 **Tier 3: Resonant Frequency Miner (Wonder Variant)**
 *   **Evolution:** Becomes a **2x1 Horizontal** card (Wide).
 *   **Feature:** **"Pass-Through."** Resources from the *left* can flow through it to the *right*, picking up ore along the way.
-*   **Adjacency:** If placed next to a "Crystal Formation" (Map Node), it vibrates in sync (Visual harmonic wave).
+*   **Adjacency:** If placed next to a "Crystal Formation" (Map Node), borders pulse in sync (synchronized timing).
 
 **Tier 3: Rift Miner (Dread Variant)**
 *   **Evolution:** Becomes a **1x2 Vertical** card (Tall).
-*   **Feature:** **"The Vent."** Top of the card opens. Requires a "Coolant" modifier to be welded on top, or it overheats in 30s.
+*   **Feature:** **"The Vent."** Heat indicator appears. Requires adjacent "Coolant" card or it overheats in 30s.
 *   **Adjacency:** Burns neighboring cards (deals 1 damage/sec to neighbors). Must be isolated or shielded.
 
 ---
@@ -1148,26 +1142,27 @@ How cards interact defines the puzzle element of the game.
 ### 1. The Narrative Arc
 *   **Start (Neutral):** The UI is stark, wireframe, greyscale. Minimalist. The AI is "booting up."
 *   **Progression:**
-    *   **Wonder:** "Ascension." Adds color, curves, gradients, and glassmorphism.
-    *   **Dread:** "Corruption." Adds noise, fractured geometry, burn-in, and glitch artifacts.
+    *   **Wonder:** "Ascension." Adds color, rounded corners, smooth transitions.
+    *   **Dread:** "Corruption." Adds harsh borders, text corruption, visual instability.
 *   **Metaphor:** You start as raw code. You choose to become a God (Wonder) or a Monster (Dread).
+*   **Performance:** All effects use CSS-only animations and transforms. No Canvas/WebGL/SVG filters.
 
 ### 2. Visual Evolution Guide (CSS Strategy)
 This transition is handled via CSS Variables and Class Overrides on the `body` tag.
 
 | Feature | **Neutral (The Code)** | **Wonder (The Dream)** | **Dread (The Nightmare)** |
 | :--- | :--- | :--- | :--- |
-| **Shape** | Perfect Square (`border-radius: 0`) | Rounded / Circles (`border-radius: 16px`) | Fractured / Skewed (`clip-path: polygon(...)`) |
-| **Border** | 1px Solid Grey | Thin Glowing Cyan/Gold | Throbbinng Red / jagged edges |
-| **Background** | Black (`#000`) | Deep Blue/Purple Gradient + Blur | Pitch Black + Noise Texture |
-| **Typography** | Monospace (Consolas/Courier) | Sans-Serif (Quicksand/Roboto) | Distorted Monospace / All Caps |
-| **Motion** | Static (No transition) | Float / Ease-Out (Fluid) | Jitter / Snap (Linear / Violent) |
+| **Shape** | Perfect Square (`border-radius: 0`) | Rounded (`border-radius: 8px`) | Sharp angles (`border-radius: 0`, sharp corners) |
+| **Border** | 1px Solid Grey | 2px Solid Cyan | 2px Solid Red |
+| **Background** | Dark Grey (`#1a1a1a`) | Slightly lighter (`#2a2a3a`) | Pitch Black (`#000`) |
+| **Typography** | Monospace (Consolas/Courier) | Sans-Serif (Roboto) | Monospace / All Caps |
+| **Motion** | Static (No transition) | Smooth transitions (`transition: all 0.3s ease`) | Instant changes (`transition: none`) |
 
 ### 3. Dread CSS Implementation Details
-*   **The "Burn-In":** Use `text-shadow` and `box-shadow` with Red/Orange values to simulate CRT phosphor decay.
-*   **The "Fracture":** Use `clip-path` to slice corners off cards, making them irregular polygons.
-*   **The "Static":** Use `repeating-linear-gradient` overlay with `mix-blend-mode: exclusion` to create noise.
-*   **The "Shudder":** CSS Animations that rapidly translate X/Y coordinates by 1-2px to simulate vibration.
+*   **The "Corruption":** Use alternating border colors (red/orange) with CSS animations.
+*   **The "Jagged Edge":** Sharp `border-radius: 0` and increased `border-width`.
+*   **The "Glitch Text":** Briefly replace text content with corrupted characters using JavaScript.
+*   **The "Jitter":** Small `transform: translate` animations (1-2px) at irregular intervals.
 
 ---
 

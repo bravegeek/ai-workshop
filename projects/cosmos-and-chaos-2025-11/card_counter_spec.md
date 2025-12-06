@@ -2,7 +2,7 @@
 
 **Date:** 2025-12-04
 **Design Decision:** Counter-based cards (no animations)
-**Card Size:** 240x240px
+**Card Size:** 240x240px (configurable via CSS variable)
 
 ## Design Philosophy
 
@@ -513,6 +513,39 @@ Grid space: Still occupies 1x1 (240px)
 - Enter to open inspector
 - Arrow keys to navigate grid
 - Number keys to jump to card slots
+
+## CSS Variable Architecture
+
+**Implementation Note (2025-12-05):**
+Use CSS variables for card sizing from day one to enable rapid experimentation and responsive design.
+
+```css
+:root {
+  --card-size: 200px;
+  --card-header: 50px;
+  --card-body: 100px;
+  --card-footer: 50px;
+  --viewport-cols: 5;
+  --viewport-rows: 4;
+}
+```
+
+**Rationale:**
+- Easier to scale down later than discover insufficient space
+- Enables responsive sizing tiers without HTML changes
+- Allows for A/B testing of card density
+
+**Recommended Default: 200px with 5×4 viewport (1000×800px)**
+- Fits comfortably on 1920×1080 after browser chrome (~900-950px usable height)
+- Leaves ~100px vertical breathing room
+- 11% more space than 180px for counter hierarchy
+- Shows 20 cards at once (sufficient for early/mid game)
+
+**Alternative Size Tiers:**
+- Mobile: 160px (3×3 viewport = 480×480px)
+- Desktop 1080p: 200px (5×4 viewport = 1000×800px) ← **Recommended Default**
+- Desktop 1440p: 240px (5×5 viewport = 1200×1200px)
+- Ultrawide: 280px (6×5 viewport = 1680×1400px)
 
 ## Implementation Priority
 
