@@ -1,0 +1,190 @@
+/* Card Styles */
+
+/* ============================================
+   CARD STRUCTURE (200×200px)
+   Header: 50px | Body: 100px | Footer: 50px
+   ============================================ */
+
+.card {
+  width: var(--card-size);
+  height: var(--card-size);
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-neutral);
+  border-radius: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-mono);
+  position: relative;
+  cursor: pointer;
+  transition: border-color 0.2s ease;
+}
+
+.card:hover {
+  border-color: var(--text-primary);
+}
+
+/* ============================================
+   CARD HEADER (50px)
+   ============================================ */
+
+.card-header {
+  height: var(--card-header);
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--border-neutral);
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.card-name {
+  font-size: var(--font-size-header);
+  color: var(--text-primary);
+  letter-spacing: 0.05em;
+  font-weight: bold;
+  text-transform: uppercase;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex: 1;
+}
+
+.card-tier {
+  font-size: 10px;
+  color: var(--text-secondary);
+  margin-left: 0.5rem;
+}
+
+.card-status {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.status-led {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: var(--border-neutral);
+}
+
+.status-led.active {
+  background-color: var(--wonder-accent);
+  box-shadow: 0 0 4px var(--wonder-glow);
+}
+
+/* ============================================
+   CARD BODY (100px)
+   ============================================ */
+
+.card-body {
+  height: var(--card-body);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  position: relative;
+}
+
+.card-icon {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  color: var(--text-secondary);
+}
+
+.card-button {
+  padding: 0.5rem 1rem;
+  margin: 0.5rem 0;
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-neutral);
+  color: var(--text-primary);
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.card-button:hover {
+  background-color: var(--wonder-accent);
+  border-color: var(--wonder-accent);
+  color: var(--bg-dark);
+  box-shadow: 0 0 8px var(--wonder-glow);
+}
+
+.card-button:active {
+  transform: scale(0.95);
+}
+
+.card-counter {
+  text-align: center;
+}
+
+.counter-primary {
+  font-size: var(--font-size-primary);
+  color: var(--text-primary);
+  font-weight: bold;
+  line-height: 1;
+}
+
+.counter-secondary {
+  font-size: 11px;
+  color: var(--text-secondary);
+  margin-top: 0.25rem;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.counter-label {
+  font-size: 10px;
+  color: var(--text-secondary);
+  margin-bottom: 2px;
+}
+
+/* ============================================
+   CARD FOOTER (50px)
+   ============================================ */
+
+.card-footer {
+  height: var(--card-footer);
+  padding: 0.5rem;
+  border-top: 1px solid var(--border-neutral);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.status-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.status-bar-fill {
+  flex: 1;
+  height: 8px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid var(--border-neutral);
+  position: relative;
+  overflow: hidden;
+}
+
+.status-bar-progress {
+  height: 100%;
+  background-color: var(--wonder-accent);
+  transition: width 0.3s ease;
+}
+
+.status-bar-text {
+  font-size: 10px;
+  color: var(--text-secondary);
+  min-width: 32px;
+  text-align: right;
+}

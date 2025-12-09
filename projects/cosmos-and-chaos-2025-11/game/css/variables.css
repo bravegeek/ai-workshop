@@ -1,0 +1,36 @@
+/* CSS Custom Properties */
+:root {
+  /* Card Sizing */
+  --card-size: 200px;
+  --card-header: 50px;
+  --card-body: 100px;
+  --card-footer: 50px;
+
+  /* Viewport */
+  --viewport-cols: 5;
+  --viewport-rows: 4;
+
+  /* Colors - Base */
+  --bg-dark: #0b0c10;
+  --bg-card: #1a1a1a;
+  --border-neutral: #666;
+  --text-primary: #e0e0e0;
+  --text-secondary: #999;
+
+  /* Colors - Wonder (Cosmos) */
+  --wonder-accent: #00d9ff;
+  --wonder-glow: rgba(0, 217, 255, 0.3);
+
+  /* Colors - Dread (Chaos) */
+  --dread-accent: #ff4500;
+  --dread-glow: rgba(255, 69, 0, 0.3);
+
+  /* Spacing */
+  --grid-gap: 8px;
+
+  /* Typography */
+  --font-mono: 'Consolas', 'Courier New', monospace;
+  --font-size-primary: 24px;
+  --font-size-secondary: 14px;
+  --font-size-header: 12px;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cosmos and Chaos</title>
+
+  <!-- CSS Files -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/cards.css">
+</head>
+<body>
+  <!-- 3-Zone Command Console -->
+  <div class="command-console">
+    <!-- Zone A: Log Feed (Left Sidebar) -->
+    <aside class="log-feed">
+      <h2>SHIP LOG</h2>
+      <div class="log-entries">
+        <div class="log-entry">[00:00:00] System initialization...</div>
+        <div class="log-entry">[00:00:01] AI Custodian online</div>
+        <div class="log-entry">[00:00:02] Awaiting commands...</div>
+      </div>
+    </aside>
+
+    <!-- Zone B: Grid Canvas (Center) -->
+    <main class="grid-canvas">
+      <div class="grid-viewport">
+        <div class="grid-container">
+          <!-- Grid will be populated in Step 3 -->
+          <div class="placeholder-text">
+            <h1>COSMOS AND CHAOS</h1>
+            <p>Grid Canvas</p>
+            <p class="hint">Grid system will be built in Step 3</p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Zone C: Data Stack (Right Sidebar) -->
+    <aside class="data-stack">
+      <h2>RESOURCES</h2>
+      <div class="resource-counters">
+        <div class="resource-item">
+          <span class="resource-label">ORE</span>
+          <span class="resource-value">0</span>
+        </div>
+        <div class="resource-item">
+          <span class="resource-label">METAL</span>
+          <span class="resource-value">0</span>
+        </div>
+        <div class="resource-item">
+          <span class="resource-label">ENERGY</span>
+          <span class="resource-value">0</span>
+        </div>
+        <div class="resource-item">
+          <span class="resource-label">SCIENCE</span>
+          <span class="resource-value">0</span>
+        </div>
+      </div>
+
+      <div class="tech-tree-button">
+        <button disabled>TECH TREE</button>
+        <p class="hint">(Phase 2+)</p>
+      </div>
+    </aside>
+  </div>
+
+  <!-- JS Modules -->
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
