@@ -188,3 +188,57 @@
   min-width: 32px;
   text-align: right;
 }
+
+/* ============================================
+   FLASH EFFECTS (Visual Feedback)
+   ============================================ */
+
+.flash-success {
+  animation: flashSuccess 0.2s ease;
+}
+
+.flash-error {
+  animation: flashError 0.2s ease;
+}
+
+@keyframes flashSuccess {
+  0% {
+    border-color: var(--wonder-accent);
+    box-shadow: 0 0 16px var(--wonder-glow);
+  }
+  100% {
+    border-color: var(--border-neutral);
+    box-shadow: none;
+  }
+}
+
+@keyframes flashError {
+  0% {
+    border-color: var(--dread-accent);
+    box-shadow: 0 0 16px var(--dread-glow);
+  }
+  100% {
+    border-color: var(--border-neutral);
+    box-shadow: none;
+  }
+}
+
+/* ============================================
+   DRAG & DROP STATES
+   ============================================ */
+
+.card.dragging {
+  opacity: 0.5;
+  cursor: grabbing;
+  transform: rotate(2deg);
+  border-color: var(--wonder-accent);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.card {
+  cursor: grab;
+}
+
+.card:active {
+  cursor: grabbing;
+}

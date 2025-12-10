@@ -25,8 +25,8 @@ function init() {
   // Step 4: Initialize cards (test card for template verification)
   initCards();
 
-  // Resources will be initialized in Step 6
-  // initResources() - Step 6
+  // Step 6: Initialize resources
+  initResources();
 
   gameState.initialized = true;
   console.log('✓ Game systems ready');

@@ -26,3 +26,33 @@ export function log(message, type = 'info') {
   const prefix = type === 'error' ? '❌' : type === 'warn' ? '⚠️' : 'ℹ️';
   console.log(`[${timestamp}] ${prefix} ${message}`);
 }
+
+// Add entry to log feed UI
+export function addLogEntry(message) {
+  const logEntries = document.querySelector('.log-entries');
+  if (!logEntries) return;
+
+  // Get current time in HH:MM:SS format
+  const now = new Date();
+  const timeStr = now.toTimeString().split(' ')[0];
+
+  // Create log entry
+  const entry = document.createElement('div');
+  entry.className = 'log-entry';
+  entry.textContent = `[${timeStr}] ${message}`;
+
+  // Add to log feed
+  logEntries.appendChild(entry);
+
+  // Auto-scroll to bottom
+  logEntries.scrollTop = logEntries.scrollHeight;
+
+  // Keep only last 100 entries
+  const entries = logEntries.querySelectorAll('.log-entry');
+  if (entries.length > 100) {
+    entries[0].remove();
+  }
+}
+
+// Expose globally for console testing
+window.addLogEntry = addLogEntry;

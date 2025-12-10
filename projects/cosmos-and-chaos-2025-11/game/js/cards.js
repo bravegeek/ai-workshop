@@ -3,6 +3,9 @@
  * Manages the 8 core cards and their interactions
  */
 
+import { addResource, subtractResource, getResource } from './resources.js';
+import { addLogEntry } from './utils.js';
+
 console.log('🃏 Cards module loaded');
 
 // Card registry
@@ -106,12 +109,99 @@ const CARD_CONFIGS = {
   }
 };
 
+// Track production counts for each card
+const productionCounts = {
+  extractor: 0,
+  sensor: 0,
+  storage: 0,
+  processor: 0,
+  reactor: 0,
+  engine: 0,
+  habitat: 0,
+  lab: 0
+};
+
+// Handle card button clicks
+function handleCardClick(cardId, buttonAction) {
+  switch (cardId) {
+    case 'extractor':
+      // FIRE - Mine ore
+      addResource('ore', 1);
+      productionCounts.extractor++;
+      updateCardCounter(cards.extractor, productionCounts.extractor);
+      addLogEntry('Proton Cutter: +1 Ore');
+      flashCard(cards.extractor);
+      break;
+
+    case 'sensor':
+      // SCAN - Perform scan
+      productionCounts.sensor++;
+      updateCardCounter(cards.sensor, productionCounts.sensor);
+      addLogEntry(`Ore Scanner: Scan #${productionCounts.sensor} complete`);
+      flashCard(cards.sensor);
+      break;
+
+    case 'processor':
+      // REFINE - Convert 10 Ore → 1 Metal
+      if (getResource('ore') >= 10) {
+        subtractResource('ore', 10);
+        addResource('metal', 1);
+        productionCounts.processor++;
+        updateCardCounter(cards.processor, productionCounts.processor);
+        addLogEntry('Refinery: -10 Ore, +1 Metal');
+        flashCard(cards.processor);
+      } else {
+        addLogEntry('Refinery: Insufficient Ore (need 10)');
+        flashCard(cards.processor, 'error');
+      }
+      break;
+
+    case 'reactor':
+      // GENERATE - Produce energy
+      addResource('energy', 5);
+      productionCounts.reactor++;
+      updateCardCounter(cards.reactor, productionCounts.reactor);
+      addLogEntry('Reactor: +5 Energy');
+      flashCard(cards.reactor);
+      break;
+
+    case 'lab':
+      // RESEARCH - Produce science
+      addResource('science', 1);
+      productionCounts.lab++;
+      updateCardCounter(cards.lab, productionCounts.lab);
+      addLogEntry('Lab: +1 Science');
+      flashCard(cards.lab);
+      break;
+  }
+}
+
+// Update a card's counter display
+function updateCardCounter(card, value) {
+  if (!card) return;
+  const counterPrimary = card.querySelector('.counter-primary');
+  if (counterPrimary) {
+    counterPrimary.textContent = value;
+  }
+}
+
+// Flash effect for visual feedback
+function flashCard(card, type = 'success') {
+  if (!card) return;
+  const flashClass = type === 'error' ? 'flash-error' : 'flash-success';
+  card.classList.add(flashClass);
+  setTimeout(() => card.classList.remove(flashClass), 200);
+}
+
 // Create a card element
 export function createCard(config) {
   const card = document.createElement('div');
   card.className = 'card';
   card.dataset.cardId = config.id;
   card.dataset.tier = config.tier || 0;
+
+  // Make card draggable
+  card.draggable = true;
 
   // Build body content with optional button
   let bodyContent = `
@@ -144,7 +234,58 @@ export function createCard(config) {
     </div>
   `;
 
+  // Add click event listener to button if present
+  if (config.button) {
+    const button = card.querySelector('.card-button');
+    if (button) {
+      console.log(`✓ Adding click handler to ${config.name} button`);
+      button.addEventListener('click', (e) => {
+        e.stopPropagation(); // Prevent card drag when clicking button
+        console.log(`🖱️ Button clicked: ${config.name}`);
+        handleCardClick(config.id, config.button.toLowerCase());
+      });
+    } else {
+      console.warn(`⚠️ Button not found for ${config.name}`);
+    }
+  }
+
+  // Add drag event handlers
+  card.addEventListener('dragstart', handleDragStart);
+  card.addEventListener('dragend', handleDragEnd);
+
   return card;
+}
+
+// Drag event handlers
+let draggedCard = null;
+let sourceCell = null;
+
+function handleDragStart(e) {
+  draggedCard = e.target;
+  sourceCell = draggedCard.parentElement;
+
+  // Store card ID for drop handler
+  e.dataTransfer.effectAllowed = 'move';
+  e.dataTransfer.setData('text/html', draggedCard.innerHTML);
+
+  // Add dragging class for visual feedback
+  setTimeout(() => {
+    draggedCard.classList.add('dragging');
+  }, 0);
+
+  addLogEntry(`Dragging ${draggedCard.dataset.cardId}...`);
+}
+
+function handleDragEnd(e) {
+  draggedCard.classList.remove('dragging');
+
+  // Remove all drop-target highlights
+  document.querySelectorAll('.grid-cell').forEach(cell => {
+    cell.classList.remove('drop-target', 'drop-invalid');
+  });
+
+  draggedCard = null;
+  sourceCell = null;
 }
 
 // Place a card on the grid
@@ -195,5 +336,9 @@ export function initCards() {
 
   return cards;
 }
+
+// Expose for debugging
+window.cards = cards;
+window.handleCardClick = handleCardClick;
 
 export { cards, CARD_CONFIGS };

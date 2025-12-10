@@ -19,7 +19,75 @@ function createGridCell(row, col) {
   cell.dataset.row = row;
   cell.dataset.col = col;
   cell.dataset.occupied = 'false';
+
+  // Add drop zone event handlers
+  cell.addEventListener('dragover', handleDragOver);
+  cell.addEventListener('dragleave', handleDragLeave);
+  cell.addEventListener('drop', handleDrop);
+
   return cell;
+}
+
+// Drop zone handlers
+function handleDragOver(e) {
+  e.preventDefault(); // Allow drop
+
+  const cell = e.currentTarget;
+  const isEmpty = cell.dataset.occupied === 'false';
+
+  if (isEmpty) {
+    cell.classList.add('drop-target');
+    cell.classList.remove('drop-invalid');
+    e.dataTransfer.dropEffect = 'move';
+  } else {
+    cell.classList.add('drop-invalid');
+    cell.classList.remove('drop-target');
+    e.dataTransfer.dropEffect = 'none';
+  }
+}
+
+function handleDragLeave(e) {
+  const cell = e.currentTarget;
+  cell.classList.remove('drop-target', 'drop-invalid');
+}
+
+function handleDrop(e) {
+  e.preventDefault();
+
+  const cell = e.currentTarget;
+  const isEmpty = cell.dataset.occupied === 'false';
+
+  if (!isEmpty) {
+    console.warn('Cannot drop on occupied cell');
+    return;
+  }
+
+  // Get the dragged card (from cards.js)
+  const draggedCard = document.querySelector('.dragging');
+  if (!draggedCard) return;
+
+  const sourceCell = draggedCard.parentElement;
+
+  // Move card to new cell
+  cell.appendChild(draggedCard);
+  cell.dataset.occupied = 'true';
+
+  // Update source cell
+  if (sourceCell && sourceCell.classList.contains('grid-cell')) {
+    sourceCell.dataset.occupied = 'false';
+  }
+
+  // Log the move
+  const cardId = draggedCard.dataset.cardId;
+  const row = cell.dataset.row;
+  const col = cell.dataset.col;
+
+  // Import addLogEntry (will be available from cards.js context)
+  if (window.addLogEntry) {
+    window.addLogEntry(`Moved ${cardId} to [${row},${col}]`);
+  }
+
+  console.log(`Card moved to [${row},${col}]`);
 }
 
 // Initialize grid system
