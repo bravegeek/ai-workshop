@@ -4,8 +4,8 @@
  */
 
 import { describe, it, expect, beforeEach, afterEach, vi } from 'vitest'
-import { SaveManager } from '../game/js/save.js'
-import { GameState } from '../game/js/state.js'
+import { SaveManager } from '../src/js/save.js'
+import { GameState } from '../src/js/state.js'
 
 // Mock localStorage
 const localStorageMock = (() => {

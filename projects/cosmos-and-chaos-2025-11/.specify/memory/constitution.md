@@ -162,7 +162,7 @@ Sync Impact Report:
 - ❌ Browser APIs (localStorage - mock in tests)
 
 **Test organization:**
-- Mirror source structure: `game/js/state.js` → `tests/state.test.js`
+- Mirror source structure: `src/js/state.js` → `tests/state.test.js`
 - Use Vitest for test runner (fast, ES modules support)
 - Run tests with: `npm test`
 - CI integration (future): Tests must pass before merge

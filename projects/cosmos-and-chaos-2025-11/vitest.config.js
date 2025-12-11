@@ -12,8 +12,8 @@ export default defineConfig({
     coverage: {
       provider: 'v8',
       reporter: ['text', 'html', 'json'],
-      include: ['game/js/**/*.js'],
-      exclude: ['game/js/main.js', 'game/js/utils.js'], // Exclude entry points and utils for now
+      include: ['src/js/**/*.js'],
+      exclude: ['src/js/main.js', 'src/js/utils.js'], // Exclude entry points and utils for now
       thresholds: {
         lines: 70,
         functions: 70,
@@ -26,6 +26,6 @@ export default defineConfig({
     include: ['tests/**/*.test.js'],
 
     // Watch mode excludes
-    exclude: ['node_modules', 'game', '.specify', 'archive']
+    exclude: ['node_modules', 'src', '.specify', 'archive']
   }
 })

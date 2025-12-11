@@ -8,7 +8,7 @@
     "test:ui": "vitest --ui",
     "test:run": "vitest run",
     "coverage": "vitest --coverage",
-    "dev": "python3 -m http.server 8000 --directory game"
+    "dev": "python3 -m http.server 8000 --directory src"
   },
   "keywords": ["game", "idle-game", "javascript"],
   "author": "",

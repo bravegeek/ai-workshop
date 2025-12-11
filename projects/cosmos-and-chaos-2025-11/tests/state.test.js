@@ -4,7 +4,7 @@
  */
 
 import { describe, it, expect, beforeEach, vi } from 'vitest'
-import { GameState } from '../game/js/state.js'
+import { GameState } from '../src/js/state.js'
 
 describe('GameState - Resource Management', () => {
   let state
