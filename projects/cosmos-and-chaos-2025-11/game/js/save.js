@@ -278,15 +278,17 @@ class SaveManager {
 // Create singleton instance
 const saveManager = new SaveManager(gameState);
 
-// Expose for console debugging
-window.saveManager = saveManager;
-window.saveGame = () => saveManager.save();
-window.loadGame = () => saveManager.load();
-window.exportSave = () => {
-  const data = saveManager.exportSave();
-  console.log('Copy this save data:');
-  console.log(data);
-  return data;
-};
+// Expose for console debugging (browser only)
+if (typeof window !== 'undefined') {
+  window.saveManager = saveManager;
+  window.saveGame = () => saveManager.save();
+  window.loadGame = () => saveManager.load();
+  window.exportSave = () => {
+    const data = saveManager.exportSave();
+    console.log('Copy this save data:');
+    console.log(data);
+    return data;
+  };
+}
 
 export { saveManager, SaveManager };
