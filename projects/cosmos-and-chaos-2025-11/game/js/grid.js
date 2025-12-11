@@ -1,7 +1,10 @@
 /**
  * Grid management system
  * Handles 10×10 grid with 5×4 viewport
+ * Now uses centralized GameState
  */
+
+import { gameState } from './state.js';
 
 console.log('📐 Grid module loaded');
 
@@ -77,12 +80,14 @@ function handleDrop(e) {
     sourceCell.dataset.occupied = 'false';
   }
 
-  // Log the move
+  // Update gameState with new position
   const cardId = draggedCard.dataset.cardId;
-  const row = cell.dataset.row;
-  const col = cell.dataset.col;
+  const row = parseInt(cell.dataset.row);
+  const col = parseInt(cell.dataset.col);
 
-  // Import addLogEntry (will be available from cards.js context)
+  gameState.placeCard(cardId, row, col);
+
+  // Log the move
   if (window.addLogEntry) {
     window.addLogEntry(`Moved ${cardId} to [${row},${col}]`);
   }

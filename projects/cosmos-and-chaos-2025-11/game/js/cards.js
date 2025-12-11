@@ -1,14 +1,16 @@
 /**
  * Card system
  * Manages the 8 core cards and their interactions
+ * Now uses centralized GameState
  */
 
 import { addResource, subtractResource, getResource } from './resources.js';
 import { addLogEntry } from './utils.js';
+import { gameState } from './state.js';
 
 console.log('🃏 Cards module loaded');
 
-// Card registry
+// Card registry (DOM elements)
 const cards = {
   extractor: null,  // T01 Proton Cutter
   sensor: null,     // T02 Ore Scanner
@@ -109,35 +111,23 @@ const CARD_CONFIGS = {
   }
 };
 
-// Track production counts for each card
-const productionCounts = {
-  extractor: 0,
-  sensor: 0,
-  storage: 0,
-  processor: 0,
-  reactor: 0,
-  engine: 0,
-  habitat: 0,
-  lab: 0
-};
-
 // Handle card button clicks
 function handleCardClick(cardId, buttonAction) {
   switch (cardId) {
     case 'extractor':
       // FIRE - Mine ore
       addResource('ore', 1);
-      productionCounts.extractor++;
-      updateCardCounter(cards.extractor, productionCounts.extractor);
+      gameState.incrementProduction(cardId);
+      updateCardCounter(cards.extractor, gameState.getCard(cardId).production);
       addLogEntry('Proton Cutter: +1 Ore');
       flashCard(cards.extractor);
       break;
 
     case 'sensor':
       // SCAN - Perform scan
-      productionCounts.sensor++;
-      updateCardCounter(cards.sensor, productionCounts.sensor);
-      addLogEntry(`Ore Scanner: Scan #${productionCounts.sensor} complete`);
+      gameState.incrementProduction(cardId);
+      updateCardCounter(cards.sensor, gameState.getCard(cardId).production);
+      addLogEntry(`Ore Scanner: Scan #${gameState.getCard(cardId).production} complete`);
       flashCard(cards.sensor);
       break;
 
@@ -146,8 +136,8 @@ function handleCardClick(cardId, buttonAction) {
       if (getResource('ore') >= 10) {
         subtractResource('ore', 10);
         addResource('metal', 1);
-        productionCounts.processor++;
-        updateCardCounter(cards.processor, productionCounts.processor);
+        gameState.incrementProduction(cardId);
+        updateCardCounter(cards.processor, gameState.getCard(cardId).production);
         addLogEntry('Refinery: -10 Ore, +1 Metal');
         flashCard(cards.processor);
       } else {
@@ -159,8 +149,8 @@ function handleCardClick(cardId, buttonAction) {
     case 'reactor':
       // GENERATE - Produce energy
       addResource('energy', 5);
-      productionCounts.reactor++;
-      updateCardCounter(cards.reactor, productionCounts.reactor);
+      gameState.incrementProduction(cardId);
+      updateCardCounter(cards.reactor, gameState.getCard(cardId).production);
       addLogEntry('Reactor: +5 Energy');
       flashCard(cards.reactor);
       break;
@@ -168,8 +158,8 @@ function handleCardClick(cardId, buttonAction) {
     case 'lab':
       // RESEARCH - Produce science
       addResource('science', 1);
-      productionCounts.lab++;
-      updateCardCounter(cards.lab, productionCounts.lab);
+      gameState.incrementProduction(cardId);
+      updateCardCounter(cards.lab, gameState.getCard(cardId).production);
       addLogEntry('Lab: +1 Science');
       flashCard(cards.lab);
       break;
@@ -294,6 +284,11 @@ function placeCard(card, row, col) {
   if (gridCell && gridCell.dataset.occupied !== 'true') {
     gridCell.appendChild(card);
     gridCell.dataset.occupied = 'true';
+
+    // Update gameState
+    const cardId = card.dataset.cardId;
+    gameState.placeCard(cardId, row, col);
+
     return true;
   }
   return false;

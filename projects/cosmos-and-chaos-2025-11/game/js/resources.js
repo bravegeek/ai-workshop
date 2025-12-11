@@ -1,40 +1,47 @@
 /**
  * Resource tracking system
  * Manages Ore, Metal, Energy, Science
+ * Now uses centralized GameState
  */
+
+import { gameState } from './state.js';
 
 console.log('💎 Resources module loaded');
 
-// Resource state
-const resources = {
-  ore: 0,
-  metal: 0,
-  energy: 0,
-  science: 0
-};
+// Cache DOM elements for performance
+let resourceElements = null;
 
 // Update resource display in UI
 function updateResourceDisplay(type) {
-  // Find the resource label by text content
-  const allLabels = document.querySelectorAll('.resource-label');
-  let valueElement = null;
+  // Use cached elements if available
+  if (!resourceElements) {
+    cacheResourceElements();
+  }
 
-  allLabels.forEach(label => {
-    if (label.textContent.trim() === type.toUpperCase()) {
-      valueElement = label.parentElement.querySelector('.resource-value');
-    }
-  });
-
-  if (valueElement) {
-    valueElement.textContent = resources[type];
+  if (resourceElements[type]) {
+    resourceElements[type].textContent = gameState.getResource(type);
   } else {
     console.warn(`Could not find display element for resource: ${type}`);
   }
 }
 
+// Cache DOM element references for performance
+function cacheResourceElements() {
+  resourceElements = {};
+  const allLabels = document.querySelectorAll('.resource-label');
+
+  allLabels.forEach(label => {
+    const type = label.textContent.trim().toLowerCase();
+    const valueElement = label.parentElement.querySelector('.resource-value');
+    if (valueElement) {
+      resourceElements[type] = valueElement;
+    }
+  });
+}
+
 // Update all resource displays
 function updateAllDisplays() {
-  Object.keys(resources).forEach(type => {
+  ['ore', 'metal', 'energy', 'science'].forEach(type => {
     updateResourceDisplay(type);
   });
 }
@@ -43,51 +50,44 @@ function updateAllDisplays() {
 export function initResources() {
   console.log('💎 Initializing resource system...');
 
+  // Cache DOM elements
+  cacheResourceElements();
+
+  // Subscribe to state changes for automatic UI updates
+  gameState.on('resource:changed', ({ type, total }) => {
+    updateResourceDisplay(type);
+  });
+
   // Set initial display values
   updateAllDisplays();
 
   console.log('✓ Resource system initialized');
-  return resources;
 }
 
-// Add resource
+// Add resource - delegates to gameState
 export function addResource(type, amount) {
-  if (resources.hasOwnProperty(type)) {
-    resources[type] += amount;
-    updateResourceDisplay(type);
-    console.log(`+${amount} ${type} (Total: ${resources[type]})`);
-  }
+  return gameState.addResource(type, amount);
 }
 
-// Subtract resource
+// Subtract resource - delegates to gameState
 export function subtractResource(type, amount) {
-  if (resources.hasOwnProperty(type)) {
-    resources[type] = Math.max(0, resources[type] - amount);
-    updateResourceDisplay(type);
-    console.log(`-${amount} ${type} (Total: ${resources[type]})`);
-  }
+  return gameState.subtractResource(type, amount);
 }
 
 // Get resource amount (utility)
 export function getResource(type) {
-  return resources.hasOwnProperty(type) ? resources[type] : 0;
+  return gameState.getResource(type);
 }
 
 // Check if player has enough resources
 export function hasResources(costs) {
-  for (const [type, amount] of Object.entries(costs)) {
-    if (getResource(type) < amount) {
-      return false;
-    }
-  }
-  return true;
+  return gameState.hasResources(costs);
 }
 
 // Expose functions globally for console testing
 window.addResource = addResource;
 window.subtractResource = subtractResource;
 window.getResource = getResource;
-window.resources = resources;
 
 // Test function for console testing
 // Usage in browser console: testResources()
@@ -103,5 +103,3 @@ window.testResources = function() {
   addResource('science', 25);
   console.log('✓ Test complete! Check the Data Stack sidebar.');
 };
-
-export { resources };
