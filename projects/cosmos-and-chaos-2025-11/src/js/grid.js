@@ -137,4 +137,81 @@ export function isCellOccupied(row, col) {
   return cell ? cell.dataset.occupied === 'true' : false;
 }
 
+/**
+ * Get adjacent cell coordinates for a given cell (N, S, E, W)
+ * @param {number} row
+ * @param {number} col
+ * @returns {Array<Object>} Array of {row, col} for adjacent cells
+ */
+export function getAdjacentCells(row, col) {
+  const neighbors = [];
+  const directions = [[-1, 0], [1, 0], [0, 1], [0, -1]]; // N, S, E, W
+
+  for (const [dr, dc] of directions) {
+    const newRow = row + dr;
+    const newCol = col + dc;
+
+    if (newRow >= 0 && newRow < gridState.rows &&
+        newCol >= 0 && newCol < gridState.cols) {
+      neighbors.push({ row: newRow, col: newCol });
+    }
+  }
+  return neighbors;
+}
+
+/**
+ * Determine if two cards are logically connected based on I/O
+ * @param {Object} cardA - First card object from gameState.cards
+ * @param {Object} cardB - Second card object from gameState.cards
+ * @returns {boolean} True if cardA produces something cardB consumes, or vice-versa
+ */
+export function areCardsConnected(cardA, cardB) {
+  if (!cardA || !cardB) return false;
+
+  // Check if cardA's outputs match cardB's inputs
+  const aToB = (cardA.outputs || []).some(outputType =>
+    (cardB.inputRequirements && cardB.inputRequirements[outputType])
+  );
+
+  // Check if cardB's outputs match cardA's inputs
+  const bToA = (cardB.outputs || []).some(outputType =>
+    (cardA.inputRequirements && cardA.inputRequirements[outputType])
+  );
+
+  return aToB || bToA;
+}
+
+/**
+ * Get all placed and logically connected neighbor cards for a given card.
+ * A neighbor is connected if it's adjacent and has matching I/O.
+ * @param {Object} card - The card object (from gameState.cards) to find neighbors for.
+ * @returns {Array<Object>} An array of connected neighbor card objects.
+ */
+export function getConnectedNeighbors(card) {
+  if (!card || !card.placed) return [];
+
+  const connectedNeighbors = [];
+  const adjacentCells = getAdjacentCells(card.row, card.col);
+
+  for (const { row, col } of adjacentCells) {
+        // Directly query gameState for card at adjacent position
+        const neighborCardId = Object.keys(gameState.cards).find(id => {
+          const currentCard = gameState.cards[id];
+          console.log(`    Checking gameState.cards[${id}]: placed=${currentCard.placed}, row=${currentCard.row}, col=${currentCard.col} against target (row=${row}, col=${col})`);
+          return currentCard.placed &&
+                 currentCard.row === row &&
+                 currentCard.col === col;
+        });
+        
+        if (neighborCardId) {      const neighborCard = gameState.getCard(neighborCardId);
+
+      // Check if they are logically connected
+      if (neighborCard && areCardsConnected(card, neighborCard)) {
+        connectedNeighbors.push(neighborCard);
+      }
+    }
+  }
+  return connectedNeighbors;
+}
+
 export { gridState };

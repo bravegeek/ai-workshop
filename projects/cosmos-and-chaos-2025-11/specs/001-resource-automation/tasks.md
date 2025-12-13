@@ -127,9 +127,9 @@ Project structure (from plan.md):
 
 ### Tests for User Story 3
 
-- [ ] T046 [P] [US3] Write unit test for getAdjacentCells(row, col) in tests/grid.test.js
-- [ ] T047 [P] [US3] Write unit test for areCardsConnected(cardA, cardB) in tests/grid.test.js
-- [ ] T048 [P] [US3] Write unit test for I/O indicator connection detection in tests/grid.test.js
+- [X] T046 [P] [US3] Write unit test for getAdjacentCells(row, col) in tests/grid.test.js
+- [X] T047 [P] [US3] Write unit test for areCardsConnected(cardA, cardB) in tests/grid.test.js
+- [X] T048 [P] [US3] Write unit test for I/O indicator connection detection in tests/grid.test.js
 
 ### Implementation for User Story 3
 
