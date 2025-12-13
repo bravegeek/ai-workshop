@@ -98,22 +98,22 @@ Project structure (from plan.md):
 
 ### Tests for User Story 2
 
-- [ ] T033 [P] [US2] Write unit test for LED color thresholds (80%, 40%) in tests/efficiency.test.js
-- [ ] T034 [P] [US2] Write unit test for base producer LED always green in tests/efficiency.test.js
-- [ ] T035 [P] [US2] Write unit test for LED updates when efficiency changes in tests/display.test.js
+- [X] T033 [P] [US2] Write unit test for LED color thresholds (80%, 40%) in tests/efficiency.test.js
+- [X] T034 [P] [US2] Write unit test for base producer LED always green in tests/efficiency.test.js
+- [X] T035 [P] [US2] Write unit test for LED updates when efficiency changes in tests/display.test.js
 
 ### Implementation for User Story 2
 
-- [ ] T036 [P] [US2] Add status LED HTML element to card rendering in src/js/cards.js renderCard()
-- [ ] T037 [P] [US2] Add status LED CSS styles (.status-led, .green, .yellow, .red) in src/css/cards.css
-- [ ] T038 [US2] Create DisplayUpdateManager class with updateRates in src/js/display.js
-- [ ] T039 [US2] Implement DisplayUpdateManager.shouldUpdate(tier, timestamp) in src/js/display.js
-- [ ] T040 [US2] Implement DisplayUpdateManager.updateCardDisplay(cardId) to update LED in src/js/display.js
-- [ ] T041 [US2] Implement DisplayUpdateManager.startUpdateLoop() with RAF in src/js/display.js
-- [ ] T042 [US2] Register all cards with DisplayUpdateManager in src/js/main.js
-- [ ] T043 [US2] Add data-card-id attribute to card DOM elements in src/js/cards.js
-- [ ] T044 [US2] Subscribe to card:efficiency:changed event to update LED in src/js/display.js
-- [ ] T045 [US2] Run tests for User Story 2 to validate LED system works
+- [X] T036 [P] [US2] Add status LED HTML element to card rendering in src/js/cards.js renderCard()
+- [X] T037 [P] [US2] Add status LED CSS styles (.status-led, .green, .yellow, .red) in src/css/cards.css
+- [X] T038 [US2] Create DisplayUpdateManager class with updateRates in src/js/display.js
+- [X] T039 [US2] Implement DisplayUpdateManager.shouldUpdate(tier, timestamp) in src/js/display.js
+- [X] T040 [US2] Implement DisplayUpdateManager.updateCardDisplay(cardId) to update LED in src/js/display.js
+- [X] T041 [US2] Implement DisplayUpdateManager.startUpdateLoop() with RAF in src/js/display.js
+- [X] T042 [US2] Register all cards with DisplayUpdateManager in src/js/main.js
+- [X] T043 [US2] Add data-card-id attribute to card DOM elements in src/js/cards.js
+- [X] T044 [US2] Subscribe to card:efficiency:changed event to update LED in src/js/display.js
+- [X] T045 [US2] Run tests for User Story 2 to validate LED system works
 
 **Checkpoint**: At this point, User Stories 1 AND 2 should both work independently - cards produce AND show visual health
 

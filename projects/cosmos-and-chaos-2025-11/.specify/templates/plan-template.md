@@ -31,30 +31,7 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-### Performance-First (NON-NEGOTIABLE)
-- [ ] Feature design achieves 60 FPS with expected load (cards/animations)
-- [ ] CSS-only effects planned (or Canvas/WebGL justified with performance proof)
-- [ ] Performance profiling plan included
-
-### Simplicity & YAGNI
-- [ ] No speculative features beyond current phase requirements
-- [ ] Frameworks/build tools justified (or using vanilla HTML/CSS/JS)
-- [ ] Abstractions justified by 3+ pattern occurrences
-
-### Desktop-First Design
-- [ ] Feature targets 1920×1080 desktop browsers
-- [ ] Card sizing uses 200×200px standard (or justified deviation)
-- [ ] Mouse/keyboard interactions primary (touch deferred)
-
-### Design Integrity
-- [ ] Feature specification documented before implementation
-- [ ] Updates to DESIGN.md/IMPLEMENTATION.md included if needed
-- [ ] No ad-hoc UI changes without spec update
-
-### MVP-First Progression
-- [ ] Feature delivers independently demonstrable value
-- [ ] Clear phase deliverable defined
-- [ ] Previous phase validated before starting
+[Gates determined based on constitution file]
 
 ## Project Structure
 
