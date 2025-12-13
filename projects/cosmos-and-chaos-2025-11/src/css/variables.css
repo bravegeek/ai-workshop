@@ -25,6 +25,11 @@
   --dread-accent: #ff4500;
   --dread-glow: rgba(255, 69, 0, 0.3);
 
+  /* Colors - Status */
+  --led-green: #4caf50;
+  --led-yellow: #ffeb3b;
+  --led-red: #f44336;
+
   /* Spacing */
   --grid-gap: 8px;
 

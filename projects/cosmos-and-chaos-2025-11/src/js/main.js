@@ -9,6 +9,7 @@ import { initResources } from './resources.js';
 import { gameState } from './state.js';
 import { saveManager } from './save.js';
 import { productionLoop } from './production.js'; // Phase 2
+import { displayManager } from './display.js'; // Phase 2
 
 console.log('🚀 Cosmos and Chaos - Initializing...');
 
@@ -104,6 +105,9 @@ function init() {
   // Step 6: Start production loop (Phase 2)
   productionLoop.start();
 
+  // Step 7: Start display loop (Phase 2)
+  displayManager.startUpdateLoop();
+
   // Mark as initialized
   gameState.meta.initialized = true;
   console.log('✓ Game systems ready');
@@ -112,6 +116,7 @@ function init() {
   // Expose for console debugging
   window.gameState = gameState;
   window.productionLoop = productionLoop; // Phase 2
+  window.displayManager = displayManager; // Phase 2
   window.dev = {
     state: () => console.table(gameState.toJSON()),
     resources: () => console.table(gameState.resources),

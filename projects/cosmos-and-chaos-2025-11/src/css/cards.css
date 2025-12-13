@@ -73,6 +73,21 @@
   box-shadow: 0 0 4px var(--wonder-glow);
 }
 
+.status-led.green {
+  background-color: var(--led-green);
+  box-shadow: 0 0 4px var(--led-green);
+}
+
+.status-led.yellow {
+  background-color: var(--led-yellow);
+  box-shadow: 0 0 4px var(--led-yellow);
+}
+
+.status-led.red {
+  background-color: var(--led-red);
+  box-shadow: 0 0 4px var(--led-red);
+}
+
 /* ============================================
    CARD BODY (100px)
    ============================================ */
