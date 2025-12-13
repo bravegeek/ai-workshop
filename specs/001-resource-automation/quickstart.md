@@ -757,6 +757,11 @@ Verify all tests pass:
 - [ ] Test with 25+ cards simultaneously
 - [ ] Confirm no resource loss after 10+ minutes
 
+**Edge Case Validation** (covered by automated tests):
+- [ ] Move card while producing → verify resources persist (covered by save/load tests T014-T015)
+- [ ] Leave tab unfocused for 30 seconds → verify accurate accumulation on return (covered by T082 performance accuracy test)
+- [ ] Generate >1,000,000 resources → verify K/M/B formatting displays correctly (covered by T068 formatNumber implementation, T084 manual validation)
+
 ### 7.3 Performance Profiling
 
 ```bash

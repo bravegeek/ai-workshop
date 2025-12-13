@@ -182,6 +182,18 @@ efficiency.getBottleneck(); // 'ore'
 
 ---
 
+## Terminology Clarification: Counter vs. Production Buffer
+
+**Important**: This document uses two distinct terms that are sometimes conflated:
+
+- **Counter** (Entity 4 below): A visual display component that shows formatted resource values to the player. Updates are throttled (2Hz/1Hz/0.5Hz) for performance. This is what the player sees.
+
+- **Production Buffer / Accumulator**: Internal state fields (`resourceAccumulators`, `cardAccumulators`) that track fractional resource amounts with full precision. Updated every frame (60 FPS) to maintain calculation accuracy.
+
+**Key Distinction**: The production buffer maintains accurate calculations at 60 FPS, while the Counter displays updates are throttled for performance. This separation ensures visual smoothness without sacrificing accuracy.
+
+---
+
 ### 4. Counter
 
 Visual display component for showing resource values on cards.

@@ -5,9 +5,28 @@
 
 console.log('🔧 Utils module loaded');
 
-// Format large numbers with commas
-export function formatNumber(num) {
+// Format large numbers with commas (legacy - Phase 1)
+export function formatNumberWithCommas(num) {
   return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+}
+
+// Format numbers with K/M/B notation (Phase 2)
+export function formatNumber(num) {
+  const isNegative = num < 0;
+  const absNum = Math.abs(num);
+
+  let formatted;
+  if (absNum < 1000) {
+    formatted = absNum.toString();
+  } else if (absNum < 1_000_000) {
+    formatted = (absNum / 1000).toFixed(1) + 'K';
+  } else if (absNum < 1_000_000_000) {
+    formatted = (absNum / 1_000_000).toFixed(1) + 'M';
+  } else {
+    formatted = (absNum / 1_000_000_000).toFixed(1) + 'B';
+  }
+
+  return isNegative ? '-' + formatted : formatted;
 }
 
 // Clamp value between min and max
@@ -54,5 +73,7 @@ export function addLogEntry(message) {
   }
 }
 
-// Expose globally for console testing
-window.addLogEntry = addLogEntry;
+// Expose globally for console testing (browser only)
+if (typeof window !== 'undefined') {
+  window.addLogEntry = addLogEntry;
+}

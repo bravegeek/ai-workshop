@@ -26,11 +26,11 @@ Project structure (from plan.md):
 
 **Purpose**: Project initialization and basic structure extensions for Phase 2
 
-- [ ] T001 [P] Add Phase 2 resource types (data, biomass, nanites) to src/js/state.js GameState.resources
-- [ ] T002 [P] Initialize resource accumulators object in src/js/state.js GameState constructor
-- [ ] T003 [P] Initialize card accumulators object in src/js/state.js GameState constructor
-- [ ] T004 [P] Initialize productionRates object in src/js/state.js GameState constructor
-- [ ] T005 [P] Initialize efficiencies object in src/js/state.js GameState constructor
+- [X] T001 [P] Add Phase 2 resource types (data, biomass, nanites) to src/js/state.js GameState.resources
+- [X] T002 [P] Initialize resource accumulators object in src/js/state.js GameState constructor
+- [X] T003 [P] Initialize card accumulators object in src/js/state.js GameState constructor
+- [X] T004 [P] Initialize productionRates object in src/js/state.js GameState constructor
+- [X] T005 [P] Initialize efficiencies object in src/js/state.js GameState constructor
 
 ---
 
@@ -40,19 +40,19 @@ Project structure (from plan.md):
 
 **⚠️ CRITICAL**: No user story work can begin until this phase is complete
 
-- [ ] T006 Implement addResourceAccurate(type, amount) method in src/js/state.js
-- [ ] T007 Implement getTrueResourceValue(type) method in src/js/state.js
-- [ ] T008 Implement calculateCardEfficiency(cardId) method in src/js/state.js
-- [ ] T009 Implement getCardStatusLED(cardId) method in src/js/state.js
-- [ ] T010 [P] Create formatNumber(num) utility function in src/js/utils.js
-- [ ] T011 [P] Write unit tests for accumulator logic in tests/accumulators.test.js
-- [ ] T012 [P] Write unit tests for efficiency calculation in tests/efficiency.test.js
-- [ ] T013 [P] Write unit tests for formatNumber utility in tests/utils.test.js
-- [ ] T014 Extend SaveManager.serialize() to include resourceAccumulators in src/js/save.js
-- [ ] T015 Extend SaveManager.deserialize() to restore resourceAccumulators in src/js/save.js
-- [ ] T016 Add inputRequirements field to all card configs in src/js/cards.js CARD_CONFIGS
-- [ ] T017 Add outputs array field to all card configs in src/js/cards.js CARD_CONFIGS
-- [ ] T018 Add baseRate field to automated card configs in src/js/cards.js CARD_CONFIGS
+- [X] T006 Implement addResourceAccurate(type, amount) method in src/js/state.js
+- [X] T007 Implement getTrueResourceValue(type) method in src/js/state.js
+- [X] T008 Implement calculateCardEfficiency(cardId) method in src/js/state.js
+- [X] T009 Implement getCardStatusLED(cardId) method in src/js/state.js
+- [X] T010 [P] Create formatNumber(num) utility function in src/js/utils.js
+- [X] T011 [P] Write unit tests for accumulator logic in tests/accumulators.test.js
+- [X] T012 [P] Write unit tests for efficiency calculation in tests/efficiency.test.js
+- [X] T013 [P] Write unit tests for formatNumber utility in tests/utils.test.js
+- [X] T014 Extend SaveManager.serialize() to include resourceAccumulators in src/js/save.js
+- [X] T015 Extend SaveManager.deserialize() to restore resourceAccumulators in src/js/save.js
+- [X] T016 Add inputRequirements field to all card configs in src/js/cards.js CARD_CONFIGS
+- [X] T017 Add outputs array field to all card configs in src/js/cards.js CARD_CONFIGS
+- [X] T018 Add baseRate field to automated card configs in src/js/cards.js CARD_CONFIGS
 
 **Checkpoint**: Foundation ready - user story implementation can now begin in parallel
 
@@ -190,7 +190,7 @@ Project structure (from plan.md):
 - [ ] T078 Add migration logic for old saves without accumulators in src/js/save.js
 - [ ] T079 [P] Add CSS variables for LED colors (--led-green, --led-yellow, --led-red) in src/css/variables.css
 - [ ] T080 [P] Add CSS variables for resource colors in src/css/variables.css
-- [ ] T081 Performance test: Verify 60 FPS with 25 cards producing (DevTools Performance tab)
+- [ ] T081 Performance test: Verify 60 FPS with 25 cards producing (DevTools Performance tab) - includes validation that fast production rates (e.g., 100/sec) work correctly with 2Hz counter throttling without loss of accuracy
 - [ ] T082 Performance test: Verify resource accuracy <1% error after 10 minutes
 - [ ] T083 [P] Run full test suite (npm test) and ensure all tests pass
 - [ ] T084 Manual test: Follow quickstart.md validation checklist

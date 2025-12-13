@@ -33,7 +33,11 @@ const CARD_CONFIGS = {
     counterValue: 0,
     button: 'FIRE',
     secondaryCounters: '<span>+1/click</span>',
-    progress: 0
+    progress: 0,
+    // Phase 2: Production automation
+    inputRequirements: {},        // Base producer - no inputs
+    outputs: ['ore'],             // Produces ore
+    baseRate: 1.0                 // 1 ore per second at Tier 1
   },
   sensor: {
     id: 'sensor',
@@ -44,7 +48,11 @@ const CARD_CONFIGS = {
     counterValue: 0,
     button: 'SCAN',
     secondaryCounters: '<span>Reveals info</span>',
-    progress: 0
+    progress: 0,
+    // Phase 2: Production automation
+    inputRequirements: {},        // Base producer
+    outputs: ['data'],            // Produces data
+    baseRate: 0.5                 // 0.5 data per second at Tier 1
   },
   storage: {
     id: 'storage',
@@ -54,7 +62,11 @@ const CARD_CONFIGS = {
     counterLabel: 'CAPACITY',
     counterValue: '0/1000',
     secondaryCounters: '<span>Passive</span>',
-    progress: 0
+    progress: 0,
+    // Phase 2: Passive card - no production
+    inputRequirements: {},
+    outputs: [],
+    baseRate: 0
   },
   processor: {
     id: 'processor',
@@ -65,7 +77,11 @@ const CARD_CONFIGS = {
     counterValue: 0,
     button: 'REFINE',
     secondaryCounters: '<span>10 Ore → 1 Metal</span>',
-    progress: 0
+    progress: 0,
+    // Phase 2: Production automation
+    inputRequirements: { ore: 5 },  // Requires 5 ore per cycle
+    outputs: ['metal'],            // Produces metal
+    baseRate: 0.4                  // 0.4 metal per second (2 metal per 5 seconds)
   },
   reactor: {
     id: 'reactor',
@@ -76,7 +92,11 @@ const CARD_CONFIGS = {
     counterValue: 0,
     button: 'GENERATE',
     secondaryCounters: '<span>+5/click</span>',
-    progress: 0
+    progress: 0,
+    // Phase 2: Production automation
+    inputRequirements: {},        // Base producer
+    outputs: ['energy'],          // Produces energy
+    baseRate: 5.0                 // 5 energy per second
   },
   engine: {
     id: 'engine',
@@ -86,7 +106,11 @@ const CARD_CONFIGS = {
     counterLabel: 'SPEED',
     counterValue: '0 m/s',
     secondaryCounters: '<span>Passive</span>',
-    progress: 0
+    progress: 0,
+    // Phase 2: Passive card - no production
+    inputRequirements: {},
+    outputs: [],
+    baseRate: 0
   },
   habitat: {
     id: 'habitat',
@@ -96,7 +120,11 @@ const CARD_CONFIGS = {
     counterLabel: 'CREW',
     counterValue: '10',
     secondaryCounters: '<span>Morale: 100%</span>',
-    progress: 100
+    progress: 100,
+    // Phase 2: Production automation
+    inputRequirements: {},        // Base producer
+    outputs: ['biomass'],         // Produces biomass
+    baseRate: 0.2                 // 0.2 biomass per second
   },
   lab: {
     id: 'lab',
@@ -107,7 +135,11 @@ const CARD_CONFIGS = {
     counterValue: 0,
     button: 'RESEARCH',
     secondaryCounters: '<span>+1/click</span>',
-    progress: 0
+    progress: 0,
+    // Phase 2: Production automation
+    inputRequirements: { data: 2, energy: 1 },  // Requires data and energy
+    outputs: ['science'],         // Produces science
+    baseRate: 0.3                 // 0.3 science per second
   }
 };
 
