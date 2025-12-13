@@ -68,23 +68,23 @@ Project structure (from plan.md):
 
 > **NOTE: Write these tests FIRST, ensure they FAIL before implementation**
 
-- [ ] T019 [P] [US1] Write unit test for updateCardProduction() in tests/production.test.js
-- [ ] T020 [P] [US1] Write unit test for ProductionLoop.tick() in tests/production.test.js
-- [ ] T021 [P] [US1] Write unit test for card production buffer flushing in tests/production.test.js
+- [X] T019 [P] [US1] Write unit test for updateCardProduction() in tests/production.test.js
+- [X] T020 [P] [US1] Write unit test for ProductionLoop.tick() in tests/production.test.js
+- [X] T021 [P] [US1] Write unit test for card production buffer flushing in tests/production.test.js
 
 ### Implementation for User Story 1
 
-- [ ] T022 [P] [US1] Create production.js module with updateCardProduction(cardId, deltaTime) function in src/js/production.js
-- [ ] T023 [US1] Create ProductionLoop class with start(), stop(), tick() methods in src/js/production.js
-- [ ] T024 [US1] Implement delta time calculation and clamping in ProductionLoop.tick() in src/js/production.js
-- [ ] T025 [US1] Implement production buffer accumulation logic in updateCardProduction() in src/js/production.js
-- [ ] T026 [US1] Implement buffer-to-global-resource flushing in updateCardProduction() in src/js/production.js
-- [ ] T027 [US1] Emit card:produced event when flushing production in updateCardProduction() in src/js/production.js
-- [ ] T028 [US1] Initialize ProductionLoop in src/js/main.js initGame() function
-- [ ] T029 [US1] Start production loop after DOM ready in src/js/main.js
-- [ ] T030 [US1] Add automated flag to card state initialization in src/js/state.js
-- [ ] T031 [US1] Implement startAutomation(cardId) method in src/js/state.js
-- [ ] T032 [US1] Run tests for User Story 1 to validate production system works
+- [X] T022 [P] [US1] Create production.js module with updateCardProduction(cardId, deltaTime) function in src/js/production.js
+- [X] T023 [US1] Create ProductionLoop class with start(), stop(), tick() methods in src/js/production.js
+- [X] T024 [US1] Implement delta time calculation and clamping in ProductionLoop.tick() in src/js/production.js
+- [X] T025 [US1] Implement production buffer accumulation logic in updateCardProduction() in src/js/production.js
+- [X] T026 [US1] Implement buffer-to-global-resource flushing in updateCardProduction() in src/js/production.js
+- [X] T027 [US1] Emit card:produced event when flushing production in updateCardProduction() in src/js/production.js
+- [X] T028 [US1] Initialize ProductionLoop in src/js/main.js initGame() function
+- [X] T029 [US1] Start production loop after DOM ready in src/js/main.js
+- [X] T030 [US1] Add automated flag to card state initialization in src/js/state.js
+- [X] T031 [US1] Implement startAutomation(cardId) method in src/js/state.js
+- [X] T032 [US1] Run tests for User Story 1 to validate production system works
 
 **Checkpoint**: At this point, User Story 1 should be fully functional - cards auto-produce resources and counters accumulate
 

@@ -309,6 +309,71 @@ class GameState {
   // ===== PHASE 2: EFFICIENCY & PRODUCTION =====
 
   /**
+   * Enable automated production for a card (Phase 2 - User Story 1)
+   * @param {string} cardId - Card identifier
+   * @returns {boolean} Success status
+   */
+  startAutomation(cardId) {
+    const card = this.cards[cardId];
+    if (!card) {
+      console.warn(`Invalid card ID: ${cardId}`);
+      return false;
+    }
+
+    // Check if card is Tier 1+
+    if (card.tier < 1) {
+      console.warn(`Card ${cardId} is Tier 0 (manual only)`);
+      return false;
+    }
+
+    // Check if card is placed
+    if (!card.placed) {
+      console.warn(`Card ${cardId} must be placed on grid first`);
+      return false;
+    }
+
+    // Enable automation
+    card.automated = true;
+
+    // Initialize production rate from card config
+    // Note: This assumes card has baseRate defined in CARD_CONFIGS
+    const baseRate = card.baseRate || 1.0;
+    const outputs = card.outputs || [];
+    const resourceType = outputs[0] || 'ore';
+
+    this.productionRates[cardId] = {
+      resourceType,
+      baseRate,
+      efficiency: 1.0,
+      actualRate: baseRate,
+      lastUpdate: performance.now()
+    };
+
+    // Calculate initial efficiency
+    this.calculateCardEfficiency(cardId);
+
+    console.log(`✓ Automation started for ${cardId}`);
+    return true;
+  }
+
+  /**
+   * Disable automated production for a card
+   * @param {string} cardId - Card identifier
+   * @returns {boolean} Success status
+   */
+  stopAutomation(cardId) {
+    const card = this.cards[cardId];
+    if (!card) {
+      console.warn(`Invalid card ID: ${cardId}`);
+      return false;
+    }
+
+    card.automated = false;
+    console.log(`✓ Automation stopped for ${cardId}`);
+    return true;
+  }
+
+  /**
    * Calculate card efficiency based on input availability
    * @param {string} cardId - Card identifier
    * @returns {number} Efficiency from 0.0 to 1.0
