@@ -1,3 +1,16 @@
++++
+date = '2025-12-12T09:00:00-04:00'
+type = 'posts'
+draft = false
+title = 'Secretary of State Bans Sans-Serif Fonts in U.S. Diplomacy, Cites 1982 Spelling Bee Trauma'
+slug = 'serif-restoration-act-font-war'
+image = 'serif-restoration-act.jpg'
+alt = 'Secretary of State at podium surrounded by typography samples, shouting at a Helvetica letter'
+tags = ['politics', 'foreign-policy', 'typography', 'satire']
+description = "Marco Rubio announces the Serif Restoration Act, requiring Times New Roman for all U.S. diplomatic correspondence and sanctioning nations using sans-serif fonts."
+img-prompt = 'Photorealistic editorial image: A stern government official at a marble podium in the State Department briefing room, surrounded by enormous blown-up typography samples showing serif vs sans-serif fonts. The official is pointing accusingly at a giant Helvetica letter "I" with visible disgust. In the foreground, confused diplomats examine official documents with magnifying glasses. The lighting is dramatic with harsh overhead lights, color palette of official blues and grays with pops of red highlighting the forbidden sans-serif fonts. Documentary photography style with a touch of absurdist theater, sharp focus on the typography samples, shallow depth of field on the background crowd.'
++++
+
 **WASHINGTON, D.C.** — Secretary of State Marco Rubio just announced the "Serif Restoration Act," sending foreign ministers scrambling to their style guides and graphic designers updating their LinkedIn profiles.
 
 The new rule is simple but brutal: Times New Roman is now the only legal font for U.S. diplomacy. Any nation caught using "soul-less" sans-serifs like Arial, Helvetica, or the now-contraband Calibri faces immediate, crippling economic sanctions.
