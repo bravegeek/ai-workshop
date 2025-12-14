@@ -1,11 +1,9 @@
 # Article Ideas
 
-## Unchecked Ideas
 
-- [ ] Tech CEO Announces "Mandatory Fun" Policy - Silicon Valley exec requires employees to smile or face termination
-- [ ] Local Man Discovers Internet Isn't Real, Just Very Convincing Hallucination
-- [ ] Congress Passes Bill to Rename Fridays to "Pre-Weekend Anxiety Day"
 
 ## Completed Ideas
+
+- [x] The Serif Restoration Act: State Dept Declares Font War, Sanctions Sans-Serif States
 
 <!-- Ideas marked with [x] will appear here after being processed by the agent -->
