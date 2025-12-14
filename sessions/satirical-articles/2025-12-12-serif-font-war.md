@@ -2,7 +2,7 @@
 date = '2025-12-12T09:00:00-04:00'
 type = 'posts'
 draft = false
-title = 'Secretary of State Bans Sans-Serif Fonts in U.S. Diplomacy, Cites 1982 Spelling Bee Trauma'
+title = 'Rubio’s Serif Restoration Act: '"If It Doesn't Have Feet, How Do You Know Where It Stands?"'
 slug = 'serif-restoration-act-font-war'
 image = 'serif-restoration-act.jpg'
 alt = 'Secretary of State at podium surrounded by typography samples, shouting at a Helvetica letter'
@@ -17,11 +17,15 @@ The new rule is simple but brutal: Times New Roman is now the only legal font fo
 
 "This isn't just about aesthetics," Rubio declared from a podium reinforced with marble columns, his voice sharp with disgust. "A letter without feet is a letter that cannot be trusted. It floats. It wavers. It hides its true nature. The United States will no longer conduct business with nations that let their letters lie about who they are."
 
+## The Typography Inquisition Begins
+
 The crackdown has been swift. The new "Serif Security Council" has already seized a cargo ship of ink cartridges bound for "Sans-Serif States," labeling them "supplies for the stick-figures." The State Department has designated Switzerland—home of the neutral Helvetica—as a "Typography Concern of Particular Interest," with Rubio reportedly expressing deep concern that U.S. citizens might be hiding illicit sans-serif fonts in Swiss bank accounts. Last Thursday, Rubio's security team raided the State Department basement and confiscated twelve iPads, all set to Helvetica Neue. Two diplomats were placed on administrative leave.
 
 State Department insiders report that Rubio personally shreds any memo without "proper terminal strokes," muttering about "ambiguity" and "deception."
 
 "He's obsessed," whispered a source close to the Secretary, communicating via a self-destructing serif-free PDF. "I saw him fire an intern for using a sans-serif 'I' on a post-it note."
+
+## The 1982 Incident
 
 Yesterday's press briefing went off the rails when a reporter from the *Washington Post* challenged the Secretary on the odd specificity of his crusade.
 

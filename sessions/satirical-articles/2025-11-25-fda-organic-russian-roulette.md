@@ -28,6 +28,8 @@ The initiative comes after a month-long outbreak linked to organic rigatoni kill
 
 "People just trust that their food is safe," Kennedy lamented. "Where's the awareness in that? Where's the mindfulness? Our grandparents didn't have the luxury of assuming their food wouldn't kill them, and look how hardy they were. Well, the ones who survived."
 
+## The Mindfulness Movement Goes Viral
+
 The program has received endorsement from several wellness influencers, who praised the initiative for its "authentic connection to pre-industrial food systems" and "rejection of toxic safety culture." Gwyneth Paltrow's Goop released a statement calling it "a brave return to eating with intuition rather than relying on oppressive government standards."
 
 However, the initiative has faced criticism from food safety advocates, epidemiologists, and people who enjoy not dying from preventable diseases. The Center for Science in the Public Interest called the program "criminally negligent," "insane," and "possibly evidence that we're living in a simulation and the programmers have given up."
@@ -35,6 +37,8 @@ However, the initiative has faced criticism from food safety advocates, epidemio
 Consumer advocacy groups noted that the eleven deaths from the recent outbreak could have been prevented with basic safety protocols. The FDA countered that those deaths have now been "recontextualized as pilot program participants."
 
 The pasta industry responded with confusion and horror. The National Pasta Association issued a statement reading simply: "What the fuck?" followed by seventeen question marks and a plea for someone to "please make this stop."
+
+## Liability? What Liability?
 
 When asked about liability concerns, FDA officials responded: "We're the government. Good luck suing us."
 
