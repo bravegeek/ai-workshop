@@ -25,6 +25,20 @@
   --dread-accent: #ff4500;
   --dread-glow: rgba(255, 69, 0, 0.3);
 
+  /* Colors - Status */
+  --led-green: #4caf50;
+  --led-yellow: #ffeb3b;
+  --led-red: #f44336;
+
+  /* Colors - Resources (Phase 2) */
+  --resource-ore: #8b7355;
+  --resource-energy: #00d9ff;
+  --resource-data: #9c27b0;
+  --resource-biomass: #4caf50;
+  --resource-nanites: #ff9800;
+  --resource-metal: #78909c;
+  --resource-science: #2196f3;
+
   /* Spacing */
   --grid-gap: 8px;
 

@@ -1,6 +1,5 @@
 # Article Ideas
 
-## Unchecked Ideas
 
 
 - [ ] Disney Strikes Deal to Let Users Create "AI Mickey Mouse," Immediately Regrets Everything
@@ -11,5 +10,7 @@
 - [x] FBI Launches Nationwide Manhunt for "Antifa's Manager," Demands to Speak to Corporate
 
 ## Completed Ideas
+
+- [x] The Serif Restoration Act: State Dept Declares Font War, Sanctions Sans-Serif States
 
 <!-- Ideas marked with [x] will appear here after being processed by the agent -->

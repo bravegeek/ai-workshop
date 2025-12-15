@@ -22,7 +22,10 @@ class GameState {
       ore: 0,
       metal: 0,
       energy: 0,
-      science: 0
+      science: 0,
+      data: 0,        // Phase 2: New resource type
+      biomass: 0,     // Phase 2: New resource type
+      nanites: 0      // Phase 2: New resource type
     };
 
     // Card state - Each card tracks its full state
@@ -35,7 +38,8 @@ class GameState {
         production: 0,
         automated: false,
         rate: 0,
-        tier: 0
+        tier: 0,
+        ioIndicators: []
       },
       sensor: {
         id: 'sensor',
@@ -45,7 +49,8 @@ class GameState {
         production: 0,
         automated: false,
         rate: 0,
-        tier: 0
+        tier: 0,
+        ioIndicators: []
       },
       storage: {
         id: 'storage',
@@ -55,7 +60,8 @@ class GameState {
         production: 0,
         automated: false,
         rate: 0,
-        tier: 0
+        tier: 0,
+        ioIndicators: []
       },
       processor: {
         id: 'processor',
@@ -65,7 +71,8 @@ class GameState {
         production: 0,
         automated: false,
         rate: 0,
-        tier: 1
+        tier: 1,
+        ioIndicators: []
       },
       reactor: {
         id: 'reactor',
@@ -75,7 +82,8 @@ class GameState {
         production: 0,
         automated: false,
         rate: 0,
-        tier: 0
+        tier: 0,
+        ioIndicators: []
       },
       engine: {
         id: 'engine',
@@ -85,7 +93,8 @@ class GameState {
         production: 0,
         automated: false,
         rate: 0,
-        tier: 0
+        tier: 0,
+        ioIndicators: []
       },
       habitat: {
         id: 'habitat',
@@ -95,7 +104,8 @@ class GameState {
         production: 0,
         automated: false,
         rate: 0,
-        tier: 0
+        tier: 0,
+        ioIndicators: []
       },
       lab: {
         id: 'lab',
@@ -105,7 +115,8 @@ class GameState {
         production: 0,
         automated: false,
         rate: 0,
-        tier: 0
+        tier: 0,
+        ioIndicators: []
       }
     };
 
@@ -114,6 +125,37 @@ class GameState {
       rows: 4,
       cols: 5
     };
+
+    // === PHASE 2 ADDITIONS ===
+
+    // Resource accumulators for fractional tracking
+    this.resourceAccumulators = {
+      ore: 0,
+      metal: 0,
+      energy: 0,
+      science: 0,
+      data: 0,
+      biomass: 0,
+      nanites: 0
+    };
+
+    // Card production accumulators
+    this.cardAccumulators = {
+      extractor: 0,
+      sensor: 0,
+      storage: 0,
+      processor: 0,
+      reactor: 0,
+      engine: 0,
+      habitat: 0,
+      lab: 0
+    };
+
+    // Production rates for each card
+    this.productionRates = {};
+
+    // Efficiency tracking for each card
+    this.efficiencies = {};
 
     // Game metadata
     this.meta = {
@@ -132,7 +174,57 @@ class GameState {
   // ===== RESOURCE MUTATIONS =====
 
   /**
-   * Add resource with validation
+   * Add resource with fractional support (Phase 2)
+   * Automatically flushes whole units and emits events
+   * @param {string} type - Resource type
+   * @param {number} amount - Amount to add (fractional supported)
+   * @returns {boolean} Success status
+   */
+  addResourceAccurate(type, amount) {
+    // Validation
+    if (!this.resources.hasOwnProperty(type)) {
+      console.warn(`Invalid resource type: ${type}`);
+      return false;
+    }
+    if (typeof amount !== 'number' || !isFinite(amount)) {
+      console.warn(`Invalid amount: ${amount}`);
+      return false;
+    }
+
+    // Add to accumulator
+    this.resourceAccumulators[type] += amount;
+
+    // Flush whole units
+    if (Math.abs(this.resourceAccumulators[type]) >= 1) {
+      const whole = Math.floor(this.resourceAccumulators[type]);
+      this.resources[type] += whole;
+      this.resourceAccumulators[type] -= whole;
+
+      // Emit event for display updates
+      this.emit('resource:changed', {
+        type,
+        total: this.resources[type],
+        accumulated: this.resourceAccumulators[type]
+      });
+    }
+
+    return true;
+  }
+
+  /**
+   * Get true resource value (whole + fractional)
+   * @param {string} type - Resource type
+   * @returns {number} Precise value
+   */
+  getTrueResourceValue(type) {
+    if (!this.resources.hasOwnProperty(type)) {
+      return 0;
+    }
+    return this.resources[type] + this.resourceAccumulators[type];
+  }
+
+  /**
+   * Add resource with validation (legacy method for Phase 1 compatibility)
    * @param {string} type - Resource type (ore, metal, energy, science)
    * @param {number} amount - Amount to add
    * @returns {boolean} Success status
@@ -220,6 +312,148 @@ class GameState {
       }
     }
     return true;
+  }
+
+  // ===== PHASE 2: EFFICIENCY & PRODUCTION =====
+
+  /**
+   * Enable automated production for a card (Phase 2 - User Story 1)
+   * @param {string} cardId - Card identifier
+   * @returns {boolean} Success status
+   */
+  startAutomation(cardId) {
+    const card = this.cards[cardId];
+    if (!card) {
+      console.warn(`Invalid card ID: ${cardId}`);
+      return false;
+    }
+
+    // Check if card is Tier 1+
+    if (card.tier < 1) {
+      console.warn(`Card ${cardId} is Tier 0 (manual only)`);
+      return false;
+    }
+
+    // Check if card is placed
+    if (!card.placed) {
+      console.warn(`Card ${cardId} must be placed on grid first`);
+      return false;
+    }
+
+    // Enable automation
+    card.automated = true;
+
+    // Initialize production rate from card config
+    // Note: This assumes card has baseRate defined in CARD_CONFIGS
+    const baseRate = card.baseRate || 1.0;
+    const outputs = card.outputs || [];
+    const resourceType = outputs[0] || 'ore';
+
+    this.productionRates[cardId] = {
+      resourceType,
+      baseRate,
+      efficiency: 1.0,
+      actualRate: baseRate,
+      lastUpdate: performance.now()
+    };
+
+    // Calculate initial efficiency
+    this.calculateCardEfficiency(cardId);
+
+    console.log(`✓ Automation started for ${cardId}`);
+    return true;
+  }
+
+  /**
+   * Disable automated production for a card
+   * @param {string} cardId - Card identifier
+   * @returns {boolean} Success status
+   */
+  stopAutomation(cardId) {
+    const card = this.cards[cardId];
+    if (!card) {
+      console.warn(`Invalid card ID: ${cardId}`);
+      return false;
+    }
+
+    card.automated = false;
+    console.log(`✓ Automation stopped for ${cardId}`);
+    return true;
+  }
+
+  /**
+   * Calculate card efficiency based on input availability
+   * @param {string} cardId - Card identifier
+   * @returns {number} Efficiency from 0.0 to 1.0
+   */
+  calculateCardEfficiency(cardId) {
+    const card = this.cards[cardId];
+    if (!card) {
+      console.warn(`Invalid card ID: ${cardId}`);
+      return 0;
+    }
+
+    // Base producer check (no inputs required)
+    if (!card.inputRequirements || Object.keys(card.inputRequirements).length === 0) {
+      this.efficiencies[cardId] = {
+        value: 1.0,
+        bottleneck: null,
+        isBaseProducer: true,
+        lastCalculated: performance.now()
+      };
+      return 1.0;
+    }
+
+    // Calculate ratio for each input
+    const ratios = Object.entries(card.inputRequirements).map(([type, required]) => {
+      const available = this.getTrueResourceValue(type);
+      return Math.min(available / required, 1.0);
+    });
+
+    // Efficiency = minimum ratio (bottleneck determines overall efficiency)
+    const efficiency = Math.min(...ratios);
+    const bottleneckIndex = ratios.indexOf(efficiency);
+    const bottleneck = Object.keys(card.inputRequirements)[bottleneckIndex];
+
+    // Store efficiency
+    this.efficiencies[cardId] = {
+      value: efficiency,
+      bottleneck,
+      isBaseProducer: false,
+      lastCalculated: performance.now()
+    };
+
+    // Update production rate if it exists
+    if (this.productionRates[cardId]) {
+      this.productionRates[cardId].efficiency = efficiency;
+      this.productionRates[cardId].actualRate =
+        this.productionRates[cardId].baseRate * efficiency;
+    }
+
+    // Emit event
+    this.emit('card:efficiency:changed', {
+      cardId,
+      efficiency: this.efficiencies[cardId]
+    });
+
+    return efficiency;
+  }
+
+  /**
+   * Get status LED color based on efficiency
+   * @param {string} cardId - Card identifier
+   * @returns {string} 'green' | 'yellow' | 'red'
+   */
+  getCardStatusLED(cardId) {
+    const efficiency = this.efficiencies[cardId];
+
+    if (!efficiency || efficiency.isBaseProducer) {
+      return 'green';
+    }
+
+    if (efficiency.value >= 0.80) return 'green';
+    if (efficiency.value >= 0.40) return 'yellow';
+    return 'red';
   }
 
   // ===== CARD MUTATIONS =====
@@ -361,13 +595,16 @@ class GameState {
   // ===== SERIALIZATION =====
 
   /**
-   * Serialize to JSON for saving
+   * Serialize to JSON for saving (Phase 2 updated)
    * @returns {Object} Serialized state
    */
   toJSON() {
     return {
       version: this.version,
       resources: { ...this.resources },
+      resourceAccumulators: { ...this.resourceAccumulators },  // Phase 2
+      cardAccumulators: { ...this.cardAccumulators },          // Phase 2
+      productionRates: JSON.parse(JSON.stringify(this.productionRates)), // Phase 2
       cards: JSON.parse(JSON.stringify(this.cards)), // Deep copy
       grid: { ...this.grid },
       meta: { ...this.meta }
@@ -395,9 +632,26 @@ class GameState {
 
       // Restore state
       this.resources = { ...data.resources };
+
+      // Phase 2: Restore accumulators (backwards compatible)
+      this.resourceAccumulators = data.resourceAccumulators || {
+        ore: 0, metal: 0, energy: 0, science: 0, data: 0, biomass: 0, nanites: 0
+      };
+      this.cardAccumulators = data.cardAccumulators || {
+        extractor: 0, sensor: 0, storage: 0, processor: 0, reactor: 0, engine: 0, habitat: 0, lab: 0
+      };
+      this.productionRates = data.productionRates || {};
+
       this.cards = JSON.parse(JSON.stringify(data.cards));
       this.grid = { ...data.grid };
       this.meta = { ...data.meta };
+
+      // Phase 2: Recalculate efficiencies after load
+      Object.keys(this.cards).forEach(cardId => {
+        if (this.cards[cardId].placed && this.cards[cardId].automated) {
+          this.calculateCardEfficiency(cardId);
+        }
+      });
 
       // Emit restore event
       this.emit('state:restored', { data });
