@@ -146,6 +146,7 @@
   color: var(--text-primary);
   font-weight: bold;
   line-height: 1;
+  transition: opacity 0.2s ease, transform 0.2s ease;
 }
 
 .counter-secondary {
@@ -256,4 +257,140 @@
 
 .card:active {
   cursor: grabbing;
+}
+
+/* ============================================
+   I/O INDICATORS (Phase 2 - User Story 3)
+   ============================================ */
+
+.card-io-indicator {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: var(--border-neutral);
+  border: 2px solid var(--bg-card);
+  opacity: 0.6;
+  transition: all 0.2s ease;
+}
+
+/* Position indicators on card edges */
+.card-io-indicator.left {
+  left: -6px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.card-io-indicator.right {
+  right: -6px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.card-io-indicator.top {
+  top: -6px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.card-io-indicator.bottom {
+  bottom: -6px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Input/Output visual differentiation */
+.card-io-indicator.input {
+  background-color: var(--dread-accent);
+}
+
+.card-io-indicator.output {
+  background-color: var(--wonder-accent);
+}
+
+/* Connected state */
+.card-io-indicator.connected {
+  opacity: 1;
+  box-shadow: 0 0 8px currentColor;
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+/* Pulse animation for connected indicators */
+@keyframes pulse {
+  0%, 100% {
+    transform: translateY(-50%) scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(-50%) scale(1.2);
+    opacity: 0.8;
+  }
+}
+
+/* Adjust pulse for different positions */
+.card-io-indicator.connected.right {
+  animation: pulseRight 1.5s ease-in-out infinite;
+}
+
+@keyframes pulseRight {
+  0%, 100% {
+    transform: translateY(-50%) scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(-50%) scale(1.2);
+    opacity: 0.8;
+  }
+}
+
+.card-io-indicator.connected.top {
+  animation: pulseTop 1.5s ease-in-out infinite;
+}
+
+@keyframes pulseTop {
+  0%, 100% {
+    transform: translateX(-50%) scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: translateX(-50%) scale(1.2);
+    opacity: 0.8;
+  }
+}
+
+.card-io-indicator.connected.bottom {
+  animation: pulseBottom 1.5s ease-in-out infinite;
+}
+
+@keyframes pulseBottom {
+  0%, 100% {
+    transform: translateX(-50%) scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: translateX(-50%) scale(1.2);
+    opacity: 0.8;
+  }
+}
+
+/* ============================================
+   TOOLTIPS (Phase 2 - Polish)
+   ============================================ */
+
+.efficiency-tooltip {
+  position: absolute;
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-neutral);
+  padding: 0.5rem;
+  font-size: 11px;
+  color: var(--text-secondary);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  z-index: 1000;
+  white-space: nowrap;
+}
+
+.card-status:hover .efficiency-tooltip {
+  opacity: 1;
 }

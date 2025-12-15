@@ -255,4 +255,71 @@ describe('Production System', () => {
       expect(gameState.productionRates.processor.actualRate).toBeCloseTo(0.8);
     });
   });
+
+  // T061: Test cross-resource consumption (ore+energy → metal)
+  describe('Cross-Resource Consumption', () => {
+    it('handles cards that consume multiple resource types', () => {
+      gameState.cards.lab.placed = true;
+      gameState.cards.lab.automated = true;
+      gameState.cards.lab.inputRequirements = { data: 2, energy: 1 };
+      gameState.cards.lab.outputs = ['science'];
+
+      // Provide sufficient resources
+      gameState.resources.data = 10;
+      gameState.resources.energy = 5;
+
+      const efficiency = gameState.calculateCardEfficiency('lab');
+      expect(efficiency).toBe(1.0); // Both inputs available in sufficient quantity
+    });
+
+    it('reduces efficiency when one of multiple inputs is low', () => {
+      gameState.cards.lab.placed = true;
+      gameState.cards.lab.automated = true;
+      gameState.cards.lab.inputRequirements = { data: 2, energy: 1 };
+      gameState.cards.lab.outputs = ['science'];
+
+      // Low data, sufficient energy
+      gameState.resources.data = 1; // Only 50% of required
+      gameState.resources.energy = 5;
+
+      const efficiency = gameState.calculateCardEfficiency('lab');
+      expect(efficiency).toBeCloseTo(0.5); // Limited by data availability
+    });
+
+    it('uses minimum efficiency when multiple inputs are constrained', () => {
+      gameState.cards.lab.placed = true;
+      gameState.cards.lab.automated = true;
+      gameState.cards.lab.inputRequirements = { data: 2, energy: 1 };
+      gameState.cards.lab.outputs = ['science'];
+
+      // Both resources low, but data is more constrained
+      gameState.resources.data = 0.4; // 20% of required (2)
+      gameState.resources.energy = 0.5; // 50% of required (1)
+
+      const efficiency = gameState.calculateCardEfficiency('lab');
+      expect(efficiency).toBeCloseTo(0.2); // Limited by most constrained input (data at 20%)
+    });
+
+    it('produces output when consuming multiple inputs', () => {
+      gameState.cards.lab.placed = true;
+      gameState.cards.lab.automated = true;
+      gameState.cards.lab.inputRequirements = { data: 2, energy: 1 };
+      gameState.cards.lab.outputs = ['science'];
+      gameState.cardAccumulators.lab = 0;
+
+      // Provide sufficient resources
+      gameState.resources.data = 10;
+      gameState.resources.energy = 5;
+
+      // Calculate efficiency and produce
+      const efficiency = gameState.calculateCardEfficiency('lab');
+      const baseRate = 0.3; // from CARD_CONFIGS
+      const actualRate = baseRate * efficiency;
+
+      const deltaTime = 1.0; // 1 second
+      gameState.cardAccumulators.lab += actualRate * deltaTime;
+
+      expect(gameState.cardAccumulators.lab).toBeCloseTo(0.3);
+    });
+  });
 });

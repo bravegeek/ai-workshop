@@ -38,7 +38,8 @@ class GameState {
         production: 0,
         automated: false,
         rate: 0,
-        tier: 0
+        tier: 0,
+        ioIndicators: []
       },
       sensor: {
         id: 'sensor',
@@ -48,7 +49,8 @@ class GameState {
         production: 0,
         automated: false,
         rate: 0,
-        tier: 0
+        tier: 0,
+        ioIndicators: []
       },
       storage: {
         id: 'storage',
@@ -58,7 +60,8 @@ class GameState {
         production: 0,
         automated: false,
         rate: 0,
-        tier: 0
+        tier: 0,
+        ioIndicators: []
       },
       processor: {
         id: 'processor',
@@ -68,7 +71,8 @@ class GameState {
         production: 0,
         automated: false,
         rate: 0,
-        tier: 1
+        tier: 1,
+        ioIndicators: []
       },
       reactor: {
         id: 'reactor',
@@ -78,7 +82,8 @@ class GameState {
         production: 0,
         automated: false,
         rate: 0,
-        tier: 0
+        tier: 0,
+        ioIndicators: []
       },
       engine: {
         id: 'engine',
@@ -88,7 +93,8 @@ class GameState {
         production: 0,
         automated: false,
         rate: 0,
-        tier: 0
+        tier: 0,
+        ioIndicators: []
       },
       habitat: {
         id: 'habitat',
@@ -98,7 +104,8 @@ class GameState {
         production: 0,
         automated: false,
         rate: 0,
-        tier: 0
+        tier: 0,
+        ioIndicators: []
       },
       lab: {
         id: 'lab',
@@ -108,7 +115,8 @@ class GameState {
         production: 0,
         automated: false,
         rate: 0,
-        tier: 0
+        tier: 0,
+        ioIndicators: []
       }
     };
 

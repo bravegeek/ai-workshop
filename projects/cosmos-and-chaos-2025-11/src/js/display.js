@@ -4,6 +4,7 @@
  */
 
 import { gameState } from './state.js';
+import { formatNumber } from './utils.js';
 
 console.log('🖥️ Display module loaded');
 
@@ -23,9 +24,13 @@ export class DisplayUpdateManager {
     // Track last update time for each card
     this.cardLastUpdates = {};
 
+    // Track card priorities/tiers for update rate assignment
+    this.cardPriorities = {};
+
     // Bind methods
     this.tick = this.tick.bind(this);
     this.handleEfficiencyChange = this.handleEfficiencyChange.bind(this);
+    this.handleResourceChange = this.handleResourceChange.bind(this);
   }
 
   /**
@@ -40,7 +45,11 @@ export class DisplayUpdateManager {
     
     // Subscribe to events
     gameState.on('card:efficiency:changed', this.handleEfficiencyChange);
-    
+    gameState.on('resource:changed', this.handleResourceChange);
+
+    // Initial resource display update
+    this.updateResourceDisplay();
+
     console.log('✓ Display loop started');
   }
 
@@ -56,8 +65,29 @@ export class DisplayUpdateManager {
     
     // Unsubscribe events
     gameState.off('card:efficiency:changed', this.handleEfficiencyChange);
-    
+    gameState.off('resource:changed', this.handleResourceChange);
+
     console.log('✓ Display loop stopped');
+  }
+
+  /**
+   * Register a card with its tier/priority for update rate assignment (T073)
+   * @param {string} cardId - Card identifier
+   * @param {number} tier - Card tier (0, 1, 2, etc.)
+   */
+  registerCard(cardId, tier) {
+    // Map tier to update priority
+    // Tier 0 = primary (2Hz), Tier 1 = secondary (1Hz), Tier 2+ = tertiary (0.5Hz)
+    let priority;
+    if (tier === 0) {
+      priority = 'primary';
+    } else if (tier === 1) {
+      priority = 'secondary';
+    } else {
+      priority = 'tertiary';
+    }
+
+    this.cardPriorities[cardId] = priority;
   }
 
   /**
@@ -69,19 +99,19 @@ export class DisplayUpdateManager {
   shouldUpdate(cardId, timestamp) {
     const lastUpdate = this.cardLastUpdates[cardId] || 0;
     const card = gameState.getCard(cardId);
-    
+
     if (!card) return false;
 
-    // Determine rate based on importance (currently just simplified)
-    // Future: Use tier or specific config
-    const rateHz = this.updateRates.primary; 
+    // Determine rate based on registered priority
+    const priority = this.cardPriorities[cardId] || 'primary';
+    const rateHz = this.updateRates[priority];
     const intervalMs = 1000 / rateHz;
 
     if (timestamp - lastUpdate >= intervalMs) {
       this.cardLastUpdates[cardId] = timestamp;
       return true;
     }
-    
+
     return false;
   }
 
@@ -136,6 +166,35 @@ export class DisplayUpdateManager {
    */
   handleEfficiencyChange(data) {
     this.updateCardDisplay(data.cardId);
+  }
+
+  /**
+   * Update global resource display panel (T064)
+   * Updates all resource values in the UI with formatted numbers
+   */
+  updateResourceDisplay() {
+    const resourceElements = document.querySelectorAll('.resource-value[data-resource]');
+
+    resourceElements.forEach(element => {
+      const resourceType = element.dataset.resource;
+      const value = gameState.getTrueResourceValue(resourceType);
+
+      // Apply formatNumber for large values (T069)
+      element.textContent = formatNumber(Math.floor(value));
+    });
+  }
+
+  /**
+   * Event Handler: Resource Changed (T070)
+   * @param {Object} data { resourceType, amount, total }
+   */
+  handleResourceChange(data) {
+    // Update the specific resource display
+    const element = document.querySelector(`.resource-value[data-resource="${data.resourceType}"]`);
+    if (element) {
+      const value = gameState.getTrueResourceValue(data.resourceType);
+      element.textContent = formatNumber(Math.floor(value));
+    }
   }
 }
 

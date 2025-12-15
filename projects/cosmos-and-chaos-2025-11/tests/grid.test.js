@@ -144,7 +144,7 @@ describe('Grid System', () => {
 
       // Test extractor (0,0) - connected to processor (0,1)
       const extractor = gameState.getCard('extractor');
-      const extractorNeighbors = getConnectedNeighbors(extractor);
+      const extractorNeighbors = getConnectedNeighbors(extractor, gameState);
       expect(extractorNeighbors).toHaveLength(1);
       expect(extractorNeighbors[0].id).toBe('processor'); // Extractor outputs ore, processor consumes ore
 
@@ -153,7 +153,7 @@ describe('Grid System', () => {
       // Adjust sensor to consume metal to make this connection work
       gameState.cards.sensor.inputRequirements = { metal: 1 }; // Sensor now consumes metal
 
-      const processorNeighborsAdjusted = getConnectedNeighbors(processor);
+      const processorNeighborsAdjusted = getConnectedNeighbors(processor, gameState);
       expect(processorNeighborsAdjusted).toHaveLength(2);
       const neighborIds = processorNeighborsAdjusted.map(n => n.id).sort();
       expect(neighborIds).toEqual(['extractor', 'sensor']); // Extractor (outputs ore) and Sensor (consumes metal from processor)
@@ -162,7 +162,7 @@ describe('Grid System', () => {
       const reactor = gameState.getCard('reactor');
       // Reset sensor for reactor test
       gameState.cards.sensor.inputRequirements = { energy: 1 };
-      const reactorNeighborsAdjusted = getConnectedNeighbors(reactor);
+      const reactorNeighborsAdjusted = getConnectedNeighbors(reactor, gameState);
       expect(reactorNeighborsAdjusted).toHaveLength(1);
       expect(reactorNeighborsAdjusted[0].id).toBe('sensor'); // Reactor outputs energy, sensor consumes energy
     });

@@ -133,16 +133,16 @@ Project structure (from plan.md):
 
 ### Implementation for User Story 3
 
-- [ ] T049 [P] [US3] Implement getAdjacentCells(row, col) function in src/js/grid.js
-- [ ] T050 [P] [US3] Implement areCardsConnected(cardA, cardB) function in src/js/grid.js
-- [ ] T051 [US3] Implement getConnectedNeighbors(card) function in src/js/grid.js
-- [ ] T052 [US3] Add I/O indicator HTML elements to card rendering in src/js/cards.js
-- [ ] T053 [US3] Add I/O indicator CSS styles (.card-io-indicator, positions, .connected) in src/css/cards.css
-- [ ] T054 [US3] Add pulse animation for connected indicators in src/css/cards.css
-- [ ] T055 [US3] Implement updateIOIndicators(cardId) to detect and highlight connections in src/js/cards.js
-- [ ] T056 [US3] Call updateIOIndicators() when cards are placed/moved in src/js/grid.js
-- [ ] T057 [US3] Add ioIndicators array to card state in src/js/state.js
-- [ ] T058 [US3] Run tests for User Story 3 to validate I/O indicator system works
+- [X] T049 [P] [US3] Implement getAdjacentCells(row, col) function in src/js/grid.js
+- [X] T050 [P] [US3] Implement areCardsConnected(cardA, cardB) function in src/js/grid.js
+- [X] T051 [US3] Implement getConnectedNeighbors(card) function in src/js/grid.js
+- [X] T052 [US3] Add I/O indicator HTML elements to card rendering in src/js/cards.js
+- [X] T053 [US3] Add I/O indicator CSS styles (.card-io-indicator, positions, .connected) in src/css/cards.css
+- [X] T054 [US3] Add pulse animation for connected indicators in src/css/cards.css
+- [X] T055 [US3] Implement updateIOIndicators(cardId) to detect and highlight connections in src/js/cards.js
+- [X] T056 [US3] Call updateIOIndicators() when cards are placed/moved in src/js/grid.js
+- [X] T057 [US3] Add ioIndicators array to card state in src/js/state.js
+- [X] T058 [US3] Run tests for User Story 3 to validate I/O indicator system works
 
 **Checkpoint**: All three user stories (US1, US2, US3) should now work independently - production, LEDs, and I/O indicators all functional
 
@@ -156,22 +156,22 @@ Project structure (from plan.md):
 
 ### Tests for User Story 4
 
-- [ ] T059 [P] [US4] Write unit test for multiple resource type tracking in tests/resources.test.js
-- [ ] T060 [P] [US4] Write unit test for resource aggregation across multiple producers in tests/resources.test.js
-- [ ] T061 [P] [US4] Write unit test for cross-resource consumption (ore+energy → metal) in tests/production.test.js
+- [X] T059 [P] [US4] Write unit test for multiple resource type tracking in tests/resources.test.js
+- [X] T060 [P] [US4] Write unit test for resource aggregation across multiple producers in tests/resources.test.js
+- [X] T061 [P] [US4] Write unit test for cross-resource consumption (ore+energy → metal) in tests/production.test.js
 
 ### Implementation for User Story 4
 
-- [ ] T062 [P] [US4] Add global resource display panel HTML in src/index.html
-- [ ] T063 [P] [US4] Add resource display CSS styles in src/css/layout.css
-- [ ] T064 [US4] Implement DisplayUpdateManager.updateResourceDisplay() in src/js/display.js
-- [ ] T065 [US4] Add data-resource attributes to resource display elements in src/index.html
-- [ ] T066 [US4] Update card configs with multiple input requirements (e.g., ore+energy) in src/js/cards.js
-- [ ] T067 [US4] Verify efficiency calculation handles multiple input types in src/js/state.js
-- [ ] T068 [US4] Update formatNumber() to handle large values (K/M/B notation) in src/js/utils.js
-- [ ] T069 [US4] Apply formatNumber() to all resource displays in src/js/display.js
-- [ ] T070 [US4] Subscribe to resource:changed events to update global display in src/js/display.js
-- [ ] T071 [US4] Run tests for User Story 4 to validate multi-resource tracking works
+- [X] T062 [P] [US4] Add global resource display panel HTML in src/index.html
+- [X] T063 [P] [US4] Add resource display CSS styles in src/css/layout.css
+- [X] T064 [US4] Implement DisplayUpdateManager.updateResourceDisplay() in src/js/display.js
+- [X] T065 [US4] Add data-resource attributes to resource display elements in src/index.html
+- [X] T066 [US4] Update card configs with multiple input requirements (e.g., ore+energy) in src/js/cards.js
+- [X] T067 [US4] Verify efficiency calculation handles multiple input types in src/js/state.js
+- [X] T068 [US4] Update formatNumber() to handle large values (K/M/B notation) in src/js/utils.js
+- [X] T069 [US4] Apply formatNumber() to all resource displays in src/js/display.js
+- [X] T070 [US4] Subscribe to resource:changed events to update global display in src/js/display.js
+- [X] T071 [US4] Run tests for User Story 4 to validate multi-resource tracking works
 
 **Checkpoint**: All user stories should now be independently functional with full multi-resource support
 
@@ -181,21 +181,21 @@ Project structure (from plan.md):
 
 **Purpose**: Improvements that affect multiple user stories and final validation
 
-- [ ] T072 [P] Add counter update rate configuration (primary/secondary/tertiary) to DisplayUpdateManager in src/js/display.js
-- [ ] T073 [P] Implement DisplayUpdateManager.registerCard(cardId, tier) for configurable rates in src/js/display.js
-- [ ] T074 [P] Add smooth CSS transitions for counter value changes in src/css/cards.css
-- [ ] T075 [P] Add hover tooltips for efficiency details on status LEDs in src/js/display.js
-- [ ] T076 [P] Add tooltip CSS styles (.efficiency-tooltip) in src/css/cards.css
-- [ ] T077 Update SaveManager to persist cardAccumulators and productionRates in src/js/save.js
-- [ ] T078 Add migration logic for old saves without accumulators in src/js/save.js
-- [ ] T079 [P] Add CSS variables for LED colors (--led-green, --led-yellow, --led-red) in src/css/variables.css
-- [ ] T080 [P] Add CSS variables for resource colors in src/css/variables.css
-- [ ] T081 Performance test: Verify 60 FPS with 25 cards producing (DevTools Performance tab) - includes validation that fast production rates (e.g., 100/sec) work correctly with 2Hz counter throttling without loss of accuracy
-- [ ] T082 Performance test: Verify resource accuracy <1% error after 10 minutes
-- [ ] T083 [P] Run full test suite (npm test) and ensure all tests pass
-- [ ] T084 Manual test: Follow quickstart.md validation checklist
-- [ ] T085 [P] Update CLAUDE.md with Phase 2 implementation notes
-- [ ] T086 Create git commit with all Phase 2 changes
+- [X] T072 [P] Add counter update rate configuration (primary/secondary/tertiary) to DisplayUpdateManager in src/js/display.js
+- [X] T073 [P] Implement DisplayUpdateManager.registerCard(cardId, tier) for configurable rates in src/js/display.js
+- [X] T074 [P] Add smooth CSS transitions for counter value changes in src/css/cards.css
+- [X] T075 [P] Add hover tooltips for efficiency details on status LEDs in src/js/display.js
+- [X] T076 [P] Add tooltip CSS styles (.efficiency-tooltip) in src/css/cards.css
+- [X] T077 Update SaveManager to persist cardAccumulators and productionRates in src/js/save.js
+- [X] T078 Add migration logic for old saves without accumulators in src/js/save.js
+- [X] T079 [P] Add CSS variables for LED colors (--led-green, --led-yellow, --led-red) in src/css/variables.css
+- [X] T080 [P] Add CSS variables for resource colors in src/css/variables.css
+- [X] T081 Performance test: Verify 60 FPS with 25 cards producing (DevTools Performance tab) - includes validation that fast production rates (e.g., 100/sec) work correctly with 2Hz counter throttling without loss of accuracy
+- [X] T082 Performance test: Verify resource accuracy <1% error after 10 minutes
+- [X] T083 [P] Run full test suite (npm test) and ensure all tests pass
+- [X] T084 Manual test: Follow quickstart.md validation checklist
+- [X] T085 [P] Update CLAUDE.md with Phase 2 implementation notes
+- [X] T086 Create git commit with all Phase 2 changes
 
 ---
 
