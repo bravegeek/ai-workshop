@@ -4,8 +4,27 @@
 
 ## Current Status
 
-**Phase:** Pre-Implementation Design
-**Last Updated:** 2025-12-05
+**Phase:** Phase 2 Complete - Resource Automation & Live Counters ✅
+**Last Updated:** 2025-12-14
+**Tests:** 150/150 passing (100%)
+
+## Getting Started
+
+### Run the Game
+
+```bash
+# From the project root
+npm run dev
+```
+
+This starts a local server at **http://localhost:8000**
+
+### Run Tests
+
+```bash
+npm test        # Watch mode
+npm run test:run # Single run
+```
 
 ## Project Overview
 
@@ -127,14 +146,18 @@ You are the AI custodian of a generational ark ship. Your goal is to maintain th
 
 **Deliverable:** Can place cards on grid, drag them, click to produce resources.
 
-### Phase 2: Automation & Counters
-- [ ] Counter updates (live data)
-- [ ] Status LEDs
-- [ ] I/O indicators
-- [ ] Auto-production
-- [ ] Basic resource system
+### Phase 2: Automation & Counters ✅ COMPLETE
+- [x] Counter updates (live data)
+- [x] Status LEDs (efficiency indicators)
+- [x] I/O indicators (connection visualization)
+- [x] Auto-production (placed cards produce automatically)
+- [x] Multi-resource system (5 resource types)
+- [x] DisplayUpdateManager (throttled updates)
+- [x] Sub-unit precision (accumulator system)
+- [x] Save/load persistence
+- [x] Comprehensive test suite (150 tests)
 
-**Deliverable:** Cards auto-produce, display live counters.
+**Deliverable:** Cards auto-produce, display live counters. ✅
 
 ### Phase 3: Wonder/Dread Systems
 - [ ] Dual counters (Resonance/Dissonance)
@@ -210,5 +233,5 @@ You are the AI custodian of a generational ark ship. Your goal is to maintain th
 
 ---
 
-**Last Updated:** 2025-12-05
-**Version:** 0.1.0 (Design Phase)
+**Last Updated:** 2025-12-14
+**Version:** 0.2.0 (Phase 2 Complete - Resource Automation)

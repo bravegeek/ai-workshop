@@ -7,6 +7,7 @@
 import { addResource, subtractResource, getResource } from './resources.js';
 import { addLogEntry } from './utils.js';
 import { gameState } from './state.js';
+import { getConnectedNeighbors } from './grid.js';
 
 console.log('🃏 Cards module loaded');
 
@@ -33,7 +34,11 @@ const CARD_CONFIGS = {
     counterValue: 0,
     button: 'FIRE',
     secondaryCounters: '<span>+1/click</span>',
-    progress: 0
+    progress: 0,
+    // Phase 2: Production automation
+    inputRequirements: {},        // Base producer - no inputs
+    outputs: ['ore'],             // Produces ore
+    baseRate: 1.0                 // 1 ore per second at Tier 1
   },
   sensor: {
     id: 'sensor',
@@ -44,7 +49,11 @@ const CARD_CONFIGS = {
     counterValue: 0,
     button: 'SCAN',
     secondaryCounters: '<span>Reveals info</span>',
-    progress: 0
+    progress: 0,
+    // Phase 2: Production automation
+    inputRequirements: {},        // Base producer
+    outputs: ['data'],            // Produces data
+    baseRate: 0.5                 // 0.5 data per second at Tier 1
   },
   storage: {
     id: 'storage',
@@ -54,7 +63,11 @@ const CARD_CONFIGS = {
     counterLabel: 'CAPACITY',
     counterValue: '0/1000',
     secondaryCounters: '<span>Passive</span>',
-    progress: 0
+    progress: 0,
+    // Phase 2: Passive card - no production
+    inputRequirements: {},
+    outputs: [],
+    baseRate: 0
   },
   processor: {
     id: 'processor',
@@ -65,7 +78,11 @@ const CARD_CONFIGS = {
     counterValue: 0,
     button: 'REFINE',
     secondaryCounters: '<span>10 Ore → 1 Metal</span>',
-    progress: 0
+    progress: 0,
+    // Phase 2: Production automation
+    inputRequirements: { ore: 5 },  // Requires 5 ore per cycle
+    outputs: ['metal'],            // Produces metal
+    baseRate: 0.4                  // 0.4 metal per second (2 metal per 5 seconds)
   },
   reactor: {
     id: 'reactor',
@@ -76,7 +93,11 @@ const CARD_CONFIGS = {
     counterValue: 0,
     button: 'GENERATE',
     secondaryCounters: '<span>+5/click</span>',
-    progress: 0
+    progress: 0,
+    // Phase 2: Production automation
+    inputRequirements: {},        // Base producer
+    outputs: ['energy'],          // Produces energy
+    baseRate: 5.0                 // 5 energy per second
   },
   engine: {
     id: 'engine',
@@ -86,7 +107,11 @@ const CARD_CONFIGS = {
     counterLabel: 'SPEED',
     counterValue: '0 m/s',
     secondaryCounters: '<span>Passive</span>',
-    progress: 0
+    progress: 0,
+    // Phase 2: Passive card - no production
+    inputRequirements: {},
+    outputs: [],
+    baseRate: 0
   },
   habitat: {
     id: 'habitat',
@@ -96,7 +121,11 @@ const CARD_CONFIGS = {
     counterLabel: 'CREW',
     counterValue: '10',
     secondaryCounters: '<span>Morale: 100%</span>',
-    progress: 100
+    progress: 100,
+    // Phase 2: Production automation
+    inputRequirements: {},        // Base producer
+    outputs: ['biomass'],         // Produces biomass
+    baseRate: 0.2                 // 0.2 biomass per second
   },
   lab: {
     id: 'lab',
@@ -107,7 +136,11 @@ const CARD_CONFIGS = {
     counterValue: 0,
     button: 'RESEARCH',
     secondaryCounters: '<span>+1/click</span>',
-    progress: 0
+    progress: 0,
+    // Phase 2: Production automation
+    inputRequirements: { data: 2, energy: 1 },  // Requires data and energy
+    outputs: ['science'],         // Produces science
+    baseRate: 0.3                 // 0.3 science per second
   }
 };
 
@@ -204,6 +237,26 @@ export function createCard(config) {
     </div>
   `;
 
+  // Build I/O indicators
+  let ioIndicatorsHTML = '';
+  const positions = ['left', 'right', 'top', 'bottom'];
+
+  // Create output indicators (outputs go to the right by default)
+  if (config.outputs && config.outputs.length > 0) {
+    config.outputs.forEach((resourceType, index) => {
+      const position = index === 0 ? 'right' : positions[index % positions.length];
+      ioIndicatorsHTML += `<div class="card-io-indicator output ${position}" data-resource="${resourceType}" data-direction="output" data-position="${position}"></div>`;
+    });
+  }
+
+  // Create input indicators (inputs come from the left by default)
+  if (config.inputRequirements && Object.keys(config.inputRequirements).length > 0) {
+    Object.keys(config.inputRequirements).forEach((resourceType, index) => {
+      const position = index === 0 ? 'left' : positions[index % positions.length];
+      ioIndicatorsHTML += `<div class="card-io-indicator input ${position}" data-resource="${resourceType}" data-direction="input" data-position="${position}"></div>`;
+    });
+  }
+
   // Card HTML structure
   card.innerHTML = `
     <div class="card-header">
@@ -222,6 +275,7 @@ export function createCard(config) {
         <div class="status-bar-text">${config.progress || 0}%</div>
       </div>
     </div>
+    ${ioIndicatorsHTML}
   `;
 
   // Add click event listener to button if present
@@ -292,6 +346,62 @@ function placeCard(card, row, col) {
     return true;
   }
   return false;
+}
+
+/**
+ * Update I/O indicators for a card to show connections to adjacent cards
+ * @param {string} cardId - The card ID to update
+ */
+export function updateIOIndicators(cardId) {
+  const card = gameState.getCard(cardId);
+  if (!card || !card.placed) return;
+
+  // Get the DOM element
+  const cardElement = document.querySelector(`.card[data-card-id="${cardId}"]`);
+  if (!cardElement) return;
+
+  // Get all I/O indicators for this card
+  const indicators = cardElement.querySelectorAll('.card-io-indicator');
+
+  // Reset all indicators to disconnected state
+  indicators.forEach(indicator => {
+    indicator.classList.remove('connected');
+  });
+
+  // Get connected neighbors
+  const connectedNeighbors = getConnectedNeighbors(card);
+
+  if (connectedNeighbors.length === 0) return;
+
+  // For each connected neighbor, highlight the appropriate indicators
+  connectedNeighbors.forEach(neighbor => {
+    // Determine the direction from this card to the neighbor
+    const rowDiff = neighbor.row - card.row;
+    const colDiff = neighbor.col - card.col;
+
+    let position = '';
+    if (rowDiff === -1) position = 'top';
+    else if (rowDiff === 1) position = 'bottom';
+    else if (colDiff === -1) position = 'left';
+    else if (colDiff === 1) position = 'right';
+
+    // Find indicators that match this position and resource type
+    indicators.forEach(indicator => {
+      const indicatorPosition = indicator.dataset.position;
+      const indicatorResource = indicator.dataset.resource;
+      const indicatorDirection = indicator.dataset.direction;
+
+      // Check if this indicator should be connected
+      if (indicatorPosition === position) {
+        // Check if the resource types match
+        if (indicatorDirection === 'output' && neighbor.inputRequirements && neighbor.inputRequirements[indicatorResource]) {
+          indicator.classList.add('connected');
+        } else if (indicatorDirection === 'input' && neighbor.outputs && neighbor.outputs.includes(indicatorResource)) {
+          indicator.classList.add('connected');
+        }
+      }
+    });
+  });
 }
 
 // Initialize card system

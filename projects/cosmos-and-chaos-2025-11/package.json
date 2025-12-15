@@ -10,12 +10,17 @@
     "coverage": "vitest --coverage",
     "dev": "python3 -m http.server 8000 --directory src"
   },
-  "keywords": ["game", "idle-game", "javascript"],
+  "keywords": [
+    "game",
+    "idle-game",
+    "javascript"
+  ],
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "vitest": "^1.0.4",
+    "@vitest/coverage-v8": "^1.0.4",
     "@vitest/ui": "^1.0.4",
-    "@vitest/coverage-v8": "^1.0.4"
+    "jsdom": "^27.3.0",
+    "vitest": "^1.0.4"
   }
 }

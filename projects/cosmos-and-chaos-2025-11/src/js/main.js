@@ -8,6 +8,8 @@ import { initCards } from './cards.js';
 import { initResources } from './resources.js';
 import { gameState } from './state.js';
 import { saveManager } from './save.js';
+import { productionLoop } from './production.js'; // Phase 2
+import { displayManager } from './display.js'; // Phase 2
 
 console.log('🚀 Cosmos and Chaos - Initializing...');
 
@@ -100,6 +102,12 @@ function init() {
     }
   }
 
+  // Step 6: Start production loop (Phase 2)
+  productionLoop.start();
+
+  // Step 7: Start display loop (Phase 2)
+  displayManager.startUpdateLoop();
+
   // Mark as initialized
   gameState.meta.initialized = true;
   console.log('✓ Game systems ready');
@@ -107,6 +115,8 @@ function init() {
 
   // Expose for console debugging
   window.gameState = gameState;
+  window.productionLoop = productionLoop; // Phase 2
+  window.displayManager = displayManager; // Phase 2
   window.dev = {
     state: () => console.table(gameState.toJSON()),
     resources: () => console.table(gameState.resources),
@@ -114,7 +124,12 @@ function init() {
     save: () => saveManager.save(),
     load: () => saveManager.load(),
     export: () => console.log(saveManager.exportSave()),
-    reset: () => saveManager.newGame(false)
+    reset: () => saveManager.newGame(false),
+    // Phase 2: Production debugging
+    production: () => console.table(gameState.productionRates),
+    efficiency: () => console.table(gameState.efficiencies),
+    accumulators: () => console.table(gameState.resourceAccumulators),
+    automate: (cardId) => gameState.startAutomation(cardId)
   };
 
   console.log('💡 Tip: Use window.dev.state() to inspect game state');
