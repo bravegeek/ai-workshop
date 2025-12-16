@@ -38,7 +38,18 @@ const CARD_CONFIGS = {
     // Phase 2: Production automation
     inputRequirements: {},        // Base producer - no inputs
     outputs: ['ore'],             // Produces ore
-    baseRate: 1.0                 // 1 ore per second at Tier 1
+    baseRate: 1.0,                 // 1 ore per second at Tier 1
+    // Phase 3: Tier upgrades
+    upgradeCosts: {
+      1: { ore: 50 }              // Cost to upgrade from Tier 0 to Tier 1
+    },
+    tierBenefits: {
+      1: {
+        automation: true,
+        rateMultiplier: 1.0,
+        description: 'Unlocks automated production'
+      }
+    }
   },
   sensor: {
     id: 'sensor',
@@ -53,7 +64,18 @@ const CARD_CONFIGS = {
     // Phase 2: Production automation
     inputRequirements: {},        // Base producer
     outputs: ['data'],            // Produces data
-    baseRate: 0.5                 // 0.5 data per second at Tier 1
+    baseRate: 0.5,                 // 0.5 data per second at Tier 1
+    // Phase 3: Tier upgrades
+    upgradeCosts: {
+      1: { ore: 40, data: 10 }
+    },
+    tierBenefits: {
+      1: {
+        automation: true,
+        rateMultiplier: 1.0,
+        description: 'Unlocks automated scanning'
+      }
+    }
   },
   storage: {
     id: 'storage',
@@ -67,7 +89,18 @@ const CARD_CONFIGS = {
     // Phase 2: Passive card - no production
     inputRequirements: {},
     outputs: [],
-    baseRate: 0
+    baseRate: 0,
+    // Phase 3: Tier upgrades
+    upgradeCosts: {
+      1: { ore: 30, metal: 10 }
+    },
+    tierBenefits: {
+      1: {
+        automation: false,
+        capacityBonus: 1000,
+        description: 'Increases storage capacity'
+      }
+    }
   },
   processor: {
     id: 'processor',
@@ -82,7 +115,18 @@ const CARD_CONFIGS = {
     // Phase 2: Production automation
     inputRequirements: { ore: 5 },  // Requires 5 ore per cycle
     outputs: ['metal'],            // Produces metal
-    baseRate: 0.4                  // 0.4 metal per second (2 metal per 5 seconds)
+    baseRate: 0.4,                  // 0.4 metal per second (2 metal per 5 seconds)
+    // Phase 3: Tier upgrades (already Tier 1, so starts at 2)
+    upgradeCosts: {
+      2: { metal: 100, energy: 50 }
+    },
+    tierBenefits: {
+      2: {
+        automation: true,
+        rateMultiplier: 1.5,
+        description: 'Increases refining efficiency by 50%'
+      }
+    }
   },
   reactor: {
     id: 'reactor',
@@ -97,7 +141,18 @@ const CARD_CONFIGS = {
     // Phase 2: Production automation
     inputRequirements: {},        // Base producer
     outputs: ['energy'],          // Produces energy
-    baseRate: 5.0                 // 5 energy per second
+    baseRate: 5.0,                 // 5 energy per second
+    // Phase 3: Tier upgrades
+    upgradeCosts: {
+      1: { ore: 60, metal: 20 }
+    },
+    tierBenefits: {
+      1: {
+        automation: true,
+        rateMultiplier: 1.0,
+        description: 'Unlocks automated energy generation'
+      }
+    }
   },
   engine: {
     id: 'engine',
@@ -111,7 +166,18 @@ const CARD_CONFIGS = {
     // Phase 2: Passive card - no production
     inputRequirements: {},
     outputs: [],
-    baseRate: 0
+    baseRate: 0,
+    // Phase 3: Tier upgrades
+    upgradeCosts: {
+      1: { metal: 50, energy: 100 }
+    },
+    tierBenefits: {
+      1: {
+        automation: false,
+        speedBonus: 50,
+        description: 'Increases ship speed'
+      }
+    }
   },
   habitat: {
     id: 'habitat',
@@ -125,7 +191,18 @@ const CARD_CONFIGS = {
     // Phase 2: Production automation
     inputRequirements: {},        // Base producer
     outputs: ['biomass'],         // Produces biomass
-    baseRate: 0.2                 // 0.2 biomass per second
+    baseRate: 0.2,                 // 0.2 biomass per second
+    // Phase 3: Tier upgrades
+    upgradeCosts: {
+      1: { ore: 45, biomass: 20 }
+    },
+    tierBenefits: {
+      1: {
+        automation: true,
+        rateMultiplier: 1.0,
+        description: 'Unlocks automated biomass production'
+      }
+    }
   },
   lab: {
     id: 'lab',
@@ -140,7 +217,18 @@ const CARD_CONFIGS = {
     // Phase 2: Production automation
     inputRequirements: { data: 2, energy: 1 },  // Requires data and energy
     outputs: ['science'],         // Produces science
-    baseRate: 0.3                 // 0.3 science per second
+    baseRate: 0.3,                 // 0.3 science per second
+    // Phase 3: Tier upgrades
+    upgradeCosts: {
+      1: { data: 50, energy: 30, science: 10 }
+    },
+    tierBenefits: {
+      1: {
+        automation: true,
+        rateMultiplier: 1.0,
+        description: 'Unlocks automated research'
+      }
+    }
   }
 };
 
@@ -257,11 +345,12 @@ export function createCard(config) {
     });
   }
 
-  // Card HTML structure
+  // Card HTML structure (Phase 3 - T010: Add upgrade button)
   card.innerHTML = `
     <div class="card-header">
       <div class="card-name">${config.name}</div>
       <div class="card-tier">T${config.tier || 0}</div>
+      <button class="card-upgrade-btn" data-card-id="${config.id}" title="Upgrade card">⬆</button>
       <div class="card-status">
         <div class="status-led ${config.active ? 'active' : ''}"></div>
       </div>
@@ -291,6 +380,21 @@ export function createCard(config) {
     } else {
       console.warn(`⚠️ Button not found for ${config.name}`);
     }
+  }
+
+  // Add click event listener to upgrade button (Phase 3 - T010)
+  const upgradeBtn = card.querySelector('.card-upgrade-btn');
+  if (upgradeBtn) {
+    upgradeBtn.addEventListener('click', (e) => {
+      e.stopPropagation(); // Prevent card drag when clicking button
+      console.log(`🔼 Upgrade button clicked: ${config.name}`);
+      // This will be implemented in T013
+      if (window.openUpgradeModal) {
+        window.openUpgradeModal(config.id);
+      } else {
+        console.warn('openUpgradeModal not yet implemented');
+      }
+    });
   }
 
   // Add drag event handlers
@@ -442,8 +546,9 @@ export function initCards() {
   return cards;
 }
 
-// Expose for debugging
+// Expose for debugging and state.js access
 window.cards = cards;
 window.handleCardClick = handleCardClick;
+window.CARD_CONFIGS = CARD_CONFIGS;  // Phase 3: Needed for upgrade logic
 
 export { cards, CARD_CONFIGS };

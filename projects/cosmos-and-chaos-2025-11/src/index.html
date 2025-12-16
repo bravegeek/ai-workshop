@@ -86,6 +86,35 @@
     </aside>
   </div>
 
+  <!-- Phase 3: Upgrade Modal (T011) -->
+  <div id="upgrade-modal" class="modal hidden">
+    <div class="modal-overlay"></div>
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 id="modal-title">Upgrade Card</h2>
+        <button class="modal-close" id="modal-close">✕</button>
+      </div>
+      <div class="modal-body">
+        <div id="modal-card-info">
+          <div class="modal-card-name"></div>
+          <div class="modal-card-tier"></div>
+        </div>
+        <div id="modal-upgrade-costs">
+          <h3>Upgrade Cost:</h3>
+          <div id="cost-list"></div>
+        </div>
+        <div id="modal-tier-benefits">
+          <h3>Benefits:</h3>
+          <div id="benefits-list"></div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button id="confirm-upgrade-btn" class="modal-button modal-button-primary">Upgrade</button>
+        <button id="cancel-upgrade-btn" class="modal-button modal-button-secondary">Cancel</button>
+      </div>
+    </div>
+  </div>
+
   <!-- JS Modules -->
   <script type="module" src="js/main.js"></script>
 </body>
