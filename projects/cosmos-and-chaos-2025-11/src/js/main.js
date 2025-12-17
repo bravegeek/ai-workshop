@@ -10,6 +10,7 @@ import { gameState } from './state.js';
 import { saveManager } from './save.js';
 import { productionLoop } from './production.js'; // Phase 2
 import { displayManager } from './display.js'; // Phase 2
+import { initModal } from './modal.js'; // Phase 3
 
 console.log('🚀 Cosmos and Chaos - Initializing...');
 
@@ -107,6 +108,9 @@ function init() {
 
   // Step 7: Start display loop (Phase 2)
   displayManager.startUpdateLoop();
+
+  // Step 8: Initialize modal system (Phase 3)
+  initModal();
 
   // Mark as initialized
   gameState.meta.initialized = true;

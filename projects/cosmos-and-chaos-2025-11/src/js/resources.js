@@ -84,10 +84,50 @@ export function hasResources(costs) {
   return gameState.hasResources(costs);
 }
 
+/**
+ * Check if a resource has been discovered (Phase 3 - US3)
+ * A resource is considered "discovered" if the player has ever had any amount of it
+ * This is used for spoiler protection in upgrade modals
+ * @param {string} resourceType - Resource type (ore, metal, energy, etc.)
+ * @returns {boolean} True if resource has been discovered
+ */
+export function isResourceDiscovered(resourceType) {
+  // For Phase 3 MVP, we'll use a simple heuristic:
+  // A resource is discovered if the player currently has any amount OR has ever produced it
+  // In the future, this could be tracked explicitly in gameState
+
+  const currentAmount = gameState.getResource(resourceType);
+  if (currentAmount > 0) {
+    return true;
+  }
+
+  // Check if any card that produces this resource has ever been used
+  // This requires checking if any card with this resource as output has production > 0
+  const cards = gameState.cards;
+  for (const cardId in cards) {
+    const card = cards[cardId];
+    const cardConfig = window.CARD_CONFIGS?.[cardId];
+
+    if (cardConfig && cardConfig.outputs && cardConfig.outputs.includes(resourceType)) {
+      if (card.production > 0) {
+        return true;
+      }
+    }
+  }
+
+  // Default to discovered for basic resources (ore, energy are always known)
+  if (resourceType === 'ore' || resourceType === 'energy') {
+    return true;
+  }
+
+  return false;
+}
+
 // Expose functions globally for console testing
 window.addResource = addResource;
 window.subtractResource = subtractResource;
 window.getResource = getResource;
+window.isResourceDiscovered = isResourceDiscovered;  // Phase 3 - needed by display.js
 
 // Test function for console testing
 // Usage in browser console: testResources()

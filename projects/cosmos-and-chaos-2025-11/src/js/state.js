@@ -546,6 +546,97 @@ class GameState {
     return this.cards.hasOwnProperty(cardId) ? this.cards[cardId] : null;
   }
 
+  // ===== PHASE 3: TIER UPGRADES =====
+
+  /**
+   * Check if a card can be upgraded (Phase 3 - US1)
+   * @param {string} cardId - Card identifier
+   * @returns {boolean} Can upgrade
+   */
+  canUpgrade(cardId) {
+    const card = this.cards[cardId];
+    if (!card) {
+      console.warn(`Invalid card ID: ${cardId}`);
+      return false;
+    }
+
+    // Import CARD_CONFIGS to check upgrade costs
+    // Note: This assumes CARD_CONFIGS is available globally or imported
+    // For now, we'll check if the card has upgrade configuration
+    const cardConfig = window.CARD_CONFIGS?.[cardId];
+    if (!cardConfig || !cardConfig.upgradeCosts) {
+      console.warn(`No upgrade configuration for ${cardId}`);
+      return false;
+    }
+
+    const nextTier = card.tier + 1;
+    const upgradeCost = cardConfig.upgradeCosts[nextTier];
+
+    if (!upgradeCost) {
+      console.warn(`No upgrade available for ${cardId} tier ${card.tier}`);
+      return false;
+    }
+
+    // Check if player has enough resources for all costs
+    return this.hasResources(upgradeCost);
+  }
+
+  /**
+   * Upgrade a card to the next tier (Phase 3 - US1)
+   * Handles resource deduction, state update, and automation enabling
+   * @param {string} cardId - Card identifier
+   * @returns {boolean} Success status
+   */
+  upgradeCard(cardId) {
+    const card = this.cards[cardId];
+    if (!card) {
+      console.warn(`Invalid card ID: ${cardId}`);
+      return false;
+    }
+
+    // Atomic check - verify we can still upgrade
+    if (!this.canUpgrade(cardId)) {
+      console.warn(`Cannot upgrade ${cardId} - insufficient resources or no upgrade available`);
+      return false;
+    }
+
+    const cardConfig = window.CARD_CONFIGS?.[cardId];
+    const nextTier = card.tier + 1;
+    const upgradeCost = cardConfig.upgradeCosts[nextTier];
+    const tierBenefit = cardConfig.tierBenefits[nextTier];
+
+    // Deduct resources (atomic - all or nothing)
+    for (const [resourceType, amount] of Object.entries(upgradeCost)) {
+      if (!this.subtractResource(resourceType, amount)) {
+        // This shouldn't happen if canUpgrade passed, but safety check
+        console.error(`Failed to deduct ${amount} ${resourceType} during upgrade`);
+        return false;
+      }
+    }
+
+    // Update card tier
+    card.tier = nextTier;
+
+    // Apply tier benefits
+    if (tierBenefit) {
+      if (tierBenefit.automation && card.placed) {
+        card.automated = true;
+        this.startAutomation(cardId);
+      }
+    }
+
+    // Emit upgrade event
+    this.emit('card:upgraded', {
+      cardId,
+      newTier: nextTier,
+      automated: card.automated,
+      benefits: tierBenefit
+    });
+
+    console.log(`✓ ${cardId} upgraded to Tier ${nextTier}`);
+    return true;
+  }
+
   // ===== EVENT BUS =====
 
   /**
