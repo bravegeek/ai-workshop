@@ -424,3 +424,354 @@ describe('GameState - Integration Scenarios', () => {
     expect(newState.cards.extractor.placed).toBe(true)
   })
 })
+
+describe('GameState - Tier Upgrades (Phase 3)', () => {
+  let state
+
+  // Mock CARD_CONFIGS for upgrade tests
+  const mockCardConfigs = {
+    extractor: {
+      id: 'extractor',
+      name: 'PROTON CUTTER',
+      upgradeCosts: {
+        1: { ore: 50 }
+      },
+      tierBenefits: {
+        1: {
+          automation: true,
+          rateMultiplier: 1.0,
+          description: 'Unlocks automated production'
+        }
+      }
+    },
+    sensor: {
+      id: 'sensor',
+      name: 'ORE SCANNER',
+      upgradeCosts: {
+        1: { ore: 40, data: 10 }
+      },
+      tierBenefits: {
+        1: {
+          automation: true,
+          rateMultiplier: 1.0,
+          description: 'Unlocks automated scanning'
+        }
+      }
+    },
+    storage: {
+      id: 'storage',
+      name: 'CARGO BAY',
+      upgradeCosts: {
+        1: { ore: 30, metal: 10 }
+      },
+      tierBenefits: {
+        1: {
+          automation: false,
+          capacityBonus: 1000,
+          description: 'Increases storage capacity'
+        }
+      }
+    },
+    maxed: {
+      id: 'maxed',
+      name: 'MAXED CARD',
+      upgradeCosts: {},
+      tierBenefits: {}
+    }
+  }
+
+  beforeEach(() => {
+    state = new GameState()
+    // Mock window.CARD_CONFIGS
+    global.window = { CARD_CONFIGS: mockCardConfigs }
+  })
+
+  describe('canUpgrade()', () => {
+    it('should return false when card ID is invalid', () => {
+      const result = state.canUpgrade('invalid_card')
+      expect(result).toBe(false)
+    })
+
+    it('should return false when no upgrade configuration exists', () => {
+      const result = state.canUpgrade('maxed')
+      expect(result).toBe(false)
+    })
+
+    it('should return false when insufficient resources (single resource)', () => {
+      state.addResource('ore', 30) // Need 50
+      const result = state.canUpgrade('extractor')
+      expect(result).toBe(false)
+    })
+
+    it('should return true when sufficient resources (single resource)', () => {
+      state.addResource('ore', 50)
+      const result = state.canUpgrade('extractor')
+      expect(result).toBe(true)
+    })
+
+    it('should return true when more than sufficient resources', () => {
+      state.addResource('ore', 100)
+      const result = state.canUpgrade('extractor')
+      expect(result).toBe(true)
+    })
+
+    it('should return false when insufficient resources (multi-resource)', () => {
+      state.addResource('ore', 40)
+      state.addResource('data', 5) // Need ore:40, data:10
+      const result = state.canUpgrade('sensor')
+      expect(result).toBe(false)
+    })
+
+    it('should return false when one resource missing (multi-resource)', () => {
+      state.addResource('ore', 40)
+      // data is 0, need 10
+      const result = state.canUpgrade('sensor')
+      expect(result).toBe(false)
+    })
+
+    it('should return true when all resources sufficient (multi-resource)', () => {
+      state.addResource('ore', 40)
+      state.addResource('data', 10)
+      const result = state.canUpgrade('sensor')
+      expect(result).toBe(true)
+    })
+
+    it('should handle exact resource amounts correctly', () => {
+      state.addResource('ore', 50) // Exactly 50
+      const result = state.canUpgrade('extractor')
+      expect(result).toBe(true)
+    })
+
+    it('should return false when card is already at max tier', () => {
+      state.cards.extractor.tier = 1
+      state.addResource('ore', 1000)
+      const result = state.canUpgrade('extractor')
+      expect(result).toBe(false) // No tier 2 upgrade defined
+    })
+  })
+
+  describe('upgradeCard()', () => {
+    beforeEach(() => {
+      // Place cards so automation can be enabled
+      state.placeCard('extractor', 0, 0)
+      state.placeCard('sensor', 0, 1)
+      state.placeCard('storage', 0, 2)
+    })
+
+    it('should fail when card ID is invalid', () => {
+      state.addResource('ore', 100)
+      const result = state.upgradeCard('invalid_card')
+      expect(result).toBe(false)
+    })
+
+    it('should fail when insufficient resources', () => {
+      state.addResource('ore', 30) // Need 50
+      const result = state.upgradeCard('extractor')
+      expect(result).toBe(false)
+      expect(state.cards.extractor.tier).toBe(0) // Unchanged
+      expect(state.getResource('ore')).toBe(30) // Not deducted
+    })
+
+    it('should successfully upgrade with single resource cost', () => {
+      state.addResource('ore', 50)
+      const result = state.upgradeCard('extractor')
+
+      expect(result).toBe(true)
+      expect(state.cards.extractor.tier).toBe(1)
+      expect(state.getResource('ore')).toBe(0) // Resources deducted
+    })
+
+    it('should successfully upgrade with multi-resource cost', () => {
+      state.addResource('ore', 40)
+      state.addResource('data', 10)
+
+      const result = state.upgradeCard('sensor')
+
+      expect(result).toBe(true)
+      expect(state.cards.sensor.tier).toBe(1)
+      expect(state.getResource('ore')).toBe(0)
+      expect(state.getResource('data')).toBe(0)
+    })
+
+    it('should enable automation when tierBenefit specifies it', () => {
+      state.addResource('ore', 50)
+      state.upgradeCard('extractor')
+
+      expect(state.cards.extractor.automated).toBe(true)
+    })
+
+    it('should not enable automation when tierBenefit does not specify it', () => {
+      state.addResource('ore', 30)
+      state.addResource('metal', 10)
+      state.upgradeCard('storage')
+
+      expect(state.cards.storage.automated).toBe(false)
+    })
+
+    it('should emit card:upgraded event', () => {
+      const listener = vi.fn()
+      state.on('card:upgraded', listener)
+
+      state.addResource('ore', 50)
+      state.upgradeCard('extractor')
+
+      expect(listener).toHaveBeenCalledTimes(1)
+      expect(listener).toHaveBeenCalledWith({
+        cardId: 'extractor',
+        newTier: 1,
+        automated: true,
+        benefits: mockCardConfigs.extractor.tierBenefits[1]
+      })
+    })
+
+    it('should only deduct resources once (atomic operation)', () => {
+      state.addResource('ore', 50)
+
+      // Call upgrade
+      state.upgradeCard('extractor')
+
+      // Resources should be deducted exactly once
+      expect(state.getResource('ore')).toBe(0)
+
+      // Try to upgrade again (should fail - no tier 2 defined)
+      const secondAttempt = state.upgradeCard('extractor')
+      expect(secondAttempt).toBe(false)
+      expect(state.getResource('ore')).toBe(0) // Still 0, not negative
+    })
+
+    it('should leave extra resources untouched', () => {
+      state.addResource('ore', 100) // 50 more than needed
+      state.addResource('metal', 20) // Extra resource
+
+      state.upgradeCard('extractor')
+
+      expect(state.getResource('ore')).toBe(50) // 100 - 50 cost
+      expect(state.getResource('metal')).toBe(20) // Unchanged
+    })
+
+    it('should handle tier progression correctly', () => {
+      // Add tier 2 upgrade for testing
+      mockCardConfigs.extractor.upgradeCosts[2] = { ore: 200, metal: 50 }
+      mockCardConfigs.extractor.tierBenefits[2] = {
+        automation: true,
+        rateMultiplier: 1.5,
+        description: 'Faster production'
+      }
+
+      // First upgrade: Tier 0 -> 1
+      state.addResource('ore', 300)
+      state.addResource('metal', 100)
+      state.upgradeCard('extractor')
+
+      expect(state.cards.extractor.tier).toBe(1)
+
+      // Second upgrade: Tier 1 -> 2
+      const secondUpgrade = state.upgradeCard('extractor')
+
+      expect(secondUpgrade).toBe(true)
+      expect(state.cards.extractor.tier).toBe(2)
+      expect(state.getResource('ore')).toBe(50) // 300 - 50 - 200
+      expect(state.getResource('metal')).toBe(50) // 100 - 50
+    })
+
+    it('should fail when no upgrade available (max tier)', () => {
+      state.addResource('ore', 1000)
+
+      // Upgrade to tier 1
+      state.upgradeCard('extractor')
+      expect(state.cards.extractor.tier).toBe(1)
+
+      // Try to upgrade again (no tier 2 in base config)
+      const result = state.upgradeCard('extractor')
+
+      expect(result).toBe(false)
+      expect(state.cards.extractor.tier).toBe(1) // Still tier 1
+    })
+
+    it('should handle race condition check (insufficient after check)', () => {
+      state.addResource('ore', 50)
+
+      // Simulate canUpgrade passing, then resources being spent elsewhere
+      const canUpgrade = state.canUpgrade('extractor')
+      expect(canUpgrade).toBe(true)
+
+      // Someone else spends the resources
+      state.subtractResource('ore', 10)
+
+      // Now upgrade should fail
+      const result = state.upgradeCard('extractor')
+      expect(result).toBe(false)
+      expect(state.cards.extractor.tier).toBe(0) // Not upgraded
+    })
+  })
+
+  describe('Upgrade Integration Scenarios', () => {
+    beforeEach(() => {
+      state.placeCard('extractor', 0, 0)
+      state.placeCard('sensor', 0, 1)
+    })
+
+    it('should handle complete upgrade flow', () => {
+      const listener = vi.fn()
+      state.on('card:upgraded', listener)
+
+      // Start with no resources
+      expect(state.canUpgrade('extractor')).toBe(false)
+
+      // Gather resources
+      state.addResource('ore', 50)
+
+      // Check if can upgrade
+      expect(state.canUpgrade('extractor')).toBe(true)
+
+      // Perform upgrade
+      const success = state.upgradeCard('extractor')
+
+      // Verify results
+      expect(success).toBe(true)
+      expect(state.cards.extractor.tier).toBe(1)
+      expect(state.cards.extractor.automated).toBe(true)
+      expect(state.getResource('ore')).toBe(0)
+      expect(listener).toHaveBeenCalled()
+    })
+
+    it('should handle multiple card upgrades independently', () => {
+      state.addResource('ore', 100)
+      state.addResource('data', 20)
+
+      // Upgrade extractor
+      state.upgradeCard('extractor')
+      expect(state.cards.extractor.tier).toBe(1)
+
+      // Upgrade sensor
+      state.upgradeCard('sensor')
+      expect(state.cards.sensor.tier).toBe(1)
+
+      // Both should be upgraded
+      expect(state.cards.extractor.tier).toBe(1)
+      expect(state.cards.sensor.tier).toBe(1)
+
+      // Resources should be properly deducted
+      expect(state.getResource('ore')).toBe(10) // 100 - 50 - 40
+      expect(state.getResource('data')).toBe(10) // 20 - 10
+    })
+
+    it('should persist upgrade state across save/load', () => {
+      state.addResource('ore', 50)
+      state.upgradeCard('extractor')
+
+      // Save state
+      const saveData = state.toJSON()
+
+      // Create new state and restore
+      const newState = new GameState()
+      global.window = { CARD_CONFIGS: mockCardConfigs }
+      newState.fromJSON(saveData)
+
+      // Verify tier and automation persisted
+      expect(newState.cards.extractor.tier).toBe(1)
+      expect(newState.cards.extractor.automated).toBe(true)
+      expect(newState.getResource('ore')).toBe(0)
+    })
+  })
+})

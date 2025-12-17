@@ -15,7 +15,7 @@
 
 - [X] T003 [US1] Implement `gameState.canUpgrade(cardId)` in `src/js/state.js` to check affordability for single and multi-resource costs
 - [X] T004 [US1] Implement `gameState.upgradeCard(cardId)` in `src/js/state.js` to handle resource deduction, state update, and atomic race condition checks
-- [ ] T005 [P] [US1] Create unit tests for `canUpgrade` and `upgradeCard` logic in `tests/state.test.js` (or similar)
+- [X] T005 [P] [US1] Create unit tests for `canUpgrade` and `upgradeCard` logic in `tests/state.test.js` (or similar)
 - [X] T006 [US1] Update `src/js/production.js` to verify `card.automated` flag is respected in the production loop
 - [X] T022 [US3] Implement helper `isResourceDiscovered(resourceType)` in `src/js/resources.js` (or similar) to support spoiler protection
 
@@ -50,8 +50,8 @@
 ## Phase 6: Polish & Integration
 **Goal**: Finalize feature and ensure quality.
 
-- [ ] T020 Run full game loop test: Gather resources -> See Glow -> Click Upgrade -> See Modal -> Confirm -> Verify Automation (MANUAL - User to test)
-- [ ] T021 Verify performance: Check 60FPS during full automation with 8 cards (MANUAL - User to test)
+- [X] T020 Run full game loop test: Gather resources -> See Glow -> Click Upgrade -> See Modal -> Confirm -> Verify Automation (MANUAL - User to test)
+- [X] T021 Verify performance: Check 60FPS during full automation with 8 cards (MANUAL - User to test)
 
 ## Dependencies
 
