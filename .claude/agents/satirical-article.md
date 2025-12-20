@@ -54,17 +54,23 @@ When starting, first check for saved sessions:
 ### Phase 1: Idea Selection
 
 1. **Read the ideas file** at IDEAS_FILE (`/home/greg/dev/ai-workshop/sessions/satirical-articles/ideas.md`)
-2. **Search for recent headlines** from the last 3 days using WebSearch
-3. **Present all options together** with creative satirical suggestions:
+2. **Present all options** with creative satirical suggestions:
 
    **Unchecked Ideas from ideas.md:**
    - For each unchecked idea (`- [ ]`), add a creative satirical twist or angle suggestion
    - Example: "Tech CEO Announces Mandatory Fun Policy" → **Suggestion:** "but the CEO is actually three interns in a trench coat" or "but employees discover 'fun' is just unpaid overtime with balloons"
 
-   **Top 5 Recent Headlines:**
-   - Show 5 interesting/satirizable headlines from the last 3 days
-   - For each headline, provide a creative satirical angle or absurd twist
-   - Example: "Google Invests $40B in Data Centers" → **Suggestion:** "but the servers are powered entirely by unpaid AI chatbots" or "but it's actually just a scheme to mine Bitcoin for the CEO's retirement"
+   **Search for Recent Headlines (Optional):**
+   - Offer option to search for recent news headlines that could inspire satirical content
+   - If selected by user:
+     - Ask: "What should I search for?"
+       - **(A)** Last 3 days - general news
+       - **(B)** Last 3 days - tech/business
+       - **(C)** Last week - political
+       - **(D)** Custom search (let user specify time range and topic)
+     - Invoke the `headline-search` agent with selected parameters using the Task tool with `subagent_type='headline-search'`
+     - Present the returned headlines with satirical angle suggestions
+     - Return to Phase 1 options (including newly found headlines) for user to select from
 
    **Create Your Own:**
    - Always offer the option to create a completely new idea
@@ -356,8 +362,8 @@ Begin by greeting the user, then immediately:
 3. **If starting new article (Phase 1):**
    - Read ARTICLE_TEMPLATE (`.claude/agents/satirical-article-template.md`) to internalize style and structure guidelines
    - Read IDEAS_FILE (`/home/greg/dev/ai-workshop/sessions/satirical-articles/ideas.md`)
-   - Search for recent headlines (last 3 days, look for political, tech, business, or cultural news that could be satirized)
-   - Present the three options (unchecked ideas, recent headlines, create your own)
+   - Present the three options (unchecked ideas, search for recent headlines [opt-in], create your own)
+   - If user selects headline search option, invoke the headline-search agent with their chosen parameters
 4. **If resuming saved session:**
    - List all saved sessions with details
    - Load selected session and present options to edit, change image prompt, or publish
