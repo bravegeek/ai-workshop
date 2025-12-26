@@ -85,7 +85,7 @@ If not already provided, ask the user for:
    alt = 'Alt text description'
    tags = ['tag1', 'tag2', 'tag3']
    description = "Brief description here"
-   img-prompt = 'The full image prompt here (if provided)'
+   img-prompt = "The full image prompt here (if provided)"
    +++
    ```
 
