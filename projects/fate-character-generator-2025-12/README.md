@@ -19,12 +19,16 @@ This directory contains the development files for the `fate-character-generator`
 
 ## Recent Enhancements (2025-12-30)
 
-The agent has been **fortified with official Fate Core rules and examples** extracted from:
+### Phase 1: Initial Fortification
+The agent was **fortified with official Fate Core rules and examples** extracted from:
 - `bin/fate_core.txt` - Fate Core System rulebook
 - `bin/fate_accelerated.txt` - Fate Accelerated Edition
 - `bin/fate_toolkit.txt` - Fate System Toolkit
 
-### What's New:
+### Phase 2: Self-Contained Robustness
+The agent was made **fully self-contained** by embedding all essential rules and examples directly into the agent definition. The agent no longer requires access to external files during execution.
+
+### What's Now Embedded:
 
 **High Concept Guidance**:
 - Four specific approaches for creating High Concepts (literal job/role, job + adjective, mash two jobs, important relationship)
@@ -49,9 +53,38 @@ The agent has been **fortified with official Fate Core rules and examples** extr
   - Should push into conflict AND help excel in it
   - Better to leave blank than pick uninspiring aspects
 
-**Complete Skill List**:
-- All 18 default Fate Core skills listed for easy reference
+**Complete Skill List with Descriptions**:
+- All 18 default Fate Core skills with brief descriptions of what they do
+- Examples: Athletics (physical fitness), Lore (knowledge), Will (mental fortitude)
+
+**Stress & Consequence Calculation Rules**:
+- Exact formulas for Physical/Mental stress based on Physique/Will
+- Clear consequence slot definitions (Mild/Moderate/Severe) with recovery times
+- Explanation of how stress and consequences work mechanically
+
+**Genre-Specific Aspect Examples**:
+- Pre-written aspect examples for 6 different genres:
+  - Fantasy (Wizard for Hire, Tempted by Shiny Things)
+  - Cyberpunk/Sci-Fi (Corporate Netrunner, Glitching Neural Implant)
+  - Noir/Detective (Hard-Boiled Private Eye, The Bottle Calls to Me)
+  - Pulp Adventure (Daring Archaeologist, Never Backs Down)
+  - Modern/Urban Fantasy (Vampire Social Worker, The Fae Courts Want Me Back)
+  - Horror (Haunted Psychic Medium, Something Followed Me Home)
+
+**Core Mechanics Quick Reference**:
+- The Ladder (skill ratings from Terrible to Legendary)
+- The Four Outcomes (Fail, Tie, Success, Success with Style)
+- The Four Actions (Overcome, Create Advantage, Attack, Defend)
+- Using Aspects (Invoke for +2 or reroll, Compel for fate point)
+
+## Why This Matters
+
+The agent is now **completely self-sufficient** - it doesn't need to access external files or search for rules during character creation. All essential Fate Core mechanics, examples, and guidelines are embedded directly in the agent definition, making it:
+- **Faster**: No file lookups needed
+- **More reliable**: Works even if bin/ files are missing
+- **More consistent**: Same quality output every time
+- **Easier to deploy**: Single file contains everything
 
 ## Source Materials
 
-This agent draws directly from official Evil Hat Productions Fate Core materials. All examples of character creation, High Concepts, Troubles, Skills, and Stunts are canonical references from the core rulebooks.
+This agent draws directly from official Evil Hat Productions Fate Core materials. All examples of character creation, High Concepts, Troubles, Skills, and Stunts are canonical references from the core rulebooks, now permanently embedded in the agent.
