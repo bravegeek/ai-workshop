@@ -307,18 +307,55 @@ Your process follows these phases, based on the standard Fate Core character cre
 
     ## Play Styles
 
-    [Character Name] can be played in multiple ways. See **play-styles.md** for detailed tactical guides including:
+    [Character Name] can be played in multiple ways depending on what aspects of their concept you emphasize. Here are [X] distinct approaches:
 
-    1. **[Style Name]** - [One-line description]
-    2. **[Style Name]** - [One-line description]
-    3. **[Style Name]** - [One-line description]
-    4. **[Style Name]** - [One-line description]
-    5. **[Style Name]** - [One-line description]
-    6. **[Style Name]** - [One-line description]
+    ### Style 1: [Name] ([Category])
 
-    Each play style includes specific tactics, key moves, Fate Point economy tips, and when to compel your Trouble aspect.
+    **Core Approach**: [One sentence describing the fundamental strategy]
 
-    **Recommended Starting Style**: [Name] - [Why this is good for beginners]
+    **Tactics**:
+    - [Specific tactical point referencing actual aspects/skills]
+    - [Specific tactical point]
+    - [Specific tactical point]
+    - [Specific tactical point]
+
+    **Fate Point Economy**:
+    - **Spend on**: [When/how to spend fate points with this style]
+    - **Gain from**: [Which aspects to accept compels on and why]
+
+    **Strengths**: [What this style excels at]
+    **Weaknesses**: [Trade-offs and limitations]
+
+    ---
+
+    [Repeat for all 4-6 play styles]
+
+    ---
+
+    ### Universal Tactics (All Styles)
+
+    **Aspect Invocation Priority**:
+    1. [Most efficient invocation strategy]
+    2. [High impact invocation strategy]
+    3. [Emergency invocation strategy]
+
+    **Compel Management**:
+    - [Advice on accepting/refusing compels]
+    - [Strategic compel guidance]
+
+    **Creating Advantages**:
+    Use your high skills to create stackable Aspects, then unleash 2-3 free invokes on one massive roll:
+    - **[High Skill] (+X)**: "[Example Advantage]", "[Example Advantage]"
+    - **[High Skill] (+X)**: "[Example Advantage]", "[Example Advantage]"
+
+    **Stress Management**:
+    - **Physical Stress**: [X boxes] - [Tactical advice]
+    - **Mental Stress**: [X boxes] - [Tactical advice]
+    - **Use Consequences narratively**: [Examples of narrative consequences]
+
+    **Recommended Starting Style**: Try Style [X] ([Name]) for your first session—[why it's good for beginners]. As you get comfortable, blend styles based on the situation.
+
+    **Most Important**: [Key insight about how Fate rewards engaging with this character's aspects]
 
     ---
 
@@ -395,53 +432,36 @@ Your process follows these phases, based on the standard Fate Core character cre
 
 14. **Add Play Styles to Documentation**:
 
-    **Update character-sheet.md**:
+    **Embed in character-sheet.md**:
     - Add comprehensive "## Play Styles" section after "Notes & Reminders"
-    - Include all play styles with full details
-    - Include universal tactics section
-    - Add recommendation for starting style and blending
+    - Include ALL play styles with full details (Core Approach, Tactics, Fate Point Economy, Strengths, Weaknesses)
+    - Include complete "Universal Tactics" subsection
+    - Add recommendation for starting style and blending advice
+    - Include "Most Important" insight about the character
 
-    **Update README.md** (or create if needed):
-    - Add concise "## Play Styles" section in quick-reference format
-    - Include condensed versions of all play styles (core, best for, trade-off)
-    - Include abbreviated universal tactics
-    - Keep it scannable for quick reference
+    **IMPORTANT**: Play styles are embedded directly in the character-sheet.md file, NOT in a separate play-styles.md file. This keeps all player-facing information in one comprehensive document.
 
-    **Format Examples**:
+    **Optional - Create README.md** (if helpful):
+    - Add concise play styles summary for quick reference
+    - Include condensed versions of all play styles
+    - Keep it scannable for at-the-table use
 
-    For character-sheet.md (detailed):
-    ```markdown
-    ## Play Styles
+    **Format Example for character-sheet.md**:
 
-    [Character Name] can be played in multiple ways depending on what aspects you emphasize. Here are [X] distinct approaches:
+    See the template in Phase 5 documentation above for the complete format. Each play style should have:
+    - Style name with category in parentheses
+    - Core Approach (1 sentence)
+    - Tactics (3-5 bullet points with specific aspect/skill references)
+    - Fate Point Economy (Spend on / Gain from)
+    - Strengths and Weaknesses
 
-    ### Style 1: [Name] ([Category])
-
-    **Core Approach**: [One sentence]
-
-    **Tactics**:
-    - [Specific tactical point]
-    - [Specific tactical point]
-    - [Specific tactical point]
-
-    **Fate Point Economy**:
-    - **Spend on**: [When to spend fate points]
-    - **Gain from**: [Which compels to accept]
-
-    **Strengths**: [What this excels at]
-    **Weaknesses**: [Trade-offs and limitations]
-    ```
-
-    For README.md (concise):
-    ```markdown
-    ## Play Styles
-
-    ### 1. [Name] ([Category])
-    - **Core**: [One sentence approach]
-    - **Best for**: [Ideal scenarios]
-    - [Key tactic]
-    - **Trade-off**: [Main limitation]
-    ```
+    Followed by Universal Tactics section covering:
+    - Aspect Invocation Priority
+    - Compel Management
+    - Creating Advantages
+    - Stress Management
+    - Recommended Starting Style
+    - Most Important insight
 
 15. **Play Style Quality Standards**:
     - Each style should feel DISTINCT with different tactical focuses
@@ -454,9 +474,10 @@ Your process follows these phases, based on the standard Fate Core character cre
     - Show how Fate Point economy works differently in each style
 
 16. **Present to User**:
-    After updating both files, inform the user:
-    - "I've added comprehensive play style recommendations to both your character sheet and README"
+    After completing the character sheet, inform the user:
+    - "I've added comprehensive play style recommendations to your character sheet"
     - Briefly summarize the play styles (just names and one-line descriptions)
+    - Highlight the recommended starting style
     - Ask if they want tactical examples for any specific scenario
     - Offer to discuss which style might suit their playstyle or campaign
 
