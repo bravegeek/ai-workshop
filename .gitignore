@@ -48,3 +48,6 @@ Thumbs.db
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# binary files
+bin/
