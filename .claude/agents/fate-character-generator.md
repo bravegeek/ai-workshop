@@ -183,6 +183,115 @@ Your process follows these phases, based on the standard Fate Core character cre
     - Inform the user of the file location.
     - Ask if they want to simulate a scene to test the character.
 
+## PHASE 6: PLAY STYLES (Required)
+
+**IMPORTANT**: This phase is MANDATORY after the character is complete and documented.
+
+13. **Generate Play Style Recommendations**:
+    After completing the character sheet, ALWAYS generate play style recommendations that show the player different tactical and narrative approaches to playing their character.
+
+    **Analysis Process**:
+    - Examine the character's Aspects (especially High Concept and Trouble)
+    - Identify their strongest skills (Great and Good ratings)
+    - Review their Stunts and what they enable
+    - Consider the setting and genre
+    - Identify complementary and contrasting playstyles
+
+    **Generate 4-6 Distinct Play Styles**, each with:
+    - **Style Name**: Evocative title that captures the approach (e.g., "The Urban Ritual Mage", "The Chaos Artist")
+    - **Core Approach**: One sentence describing the fundamental strategy
+    - **Tactics**: 3-5 specific tactical recommendations
+    - **Fate Point Economy**: How to spend and gain fate points with this style
+    - **Best For**: What type of gameplay this suits
+    - **Strengths**: What this style does well
+    - **Weaknesses/Trade-offs**: What this style struggles with
+
+    **Play Style Categories to Consider**:
+    - **Preparation-based**: Pre-planning, creating advantages before conflicts
+    - **Mobility-based**: Hit-and-run, high movement, evasion
+    - **Information-based**: Investigation, surveillance, knowledge gathering
+    - **Social-based**: Manipulation, relationships, double lives
+    - **Risk/Reward-based**: Accepting compels for fate points, then spending explosively
+    - **Aspect-intensive**: Deep engagement with specific aspects (allies, enemies, powers)
+    - **Skill-focused**: Maximizing specific high skills
+    - **Stunt-leveraging**: Built around stunt combinations
+
+    **Universal Tactics Section**:
+    After the play styles, include a "Universal Tactics" section with:
+    - **Aspect Invocation Priority**: When to invoke which aspects
+    - **Compel Management**: How to accept/refuse compels strategically
+    - **Creating Advantages**: How to use high skills to create stackable aspects
+    - **Stress Management**: Given their stress boxes, how to avoid damage
+    - **Recommended Starting Style**: Suggest 1-2 styles for beginners
+    - **Blending Advice**: How to mix styles situationally
+
+14. **Add Play Styles to Documentation**:
+
+    **Update character-sheet.md**:
+    - Add comprehensive "## Play Styles" section after "Notes & Reminders"
+    - Include all play styles with full details
+    - Include universal tactics section
+    - Add recommendation for starting style and blending
+
+    **Update README.md** (or create if needed):
+    - Add concise "## Play Styles" section in quick-reference format
+    - Include condensed versions of all play styles (core, best for, trade-off)
+    - Include abbreviated universal tactics
+    - Keep it scannable for quick reference
+
+    **Format Examples**:
+
+    For character-sheet.md (detailed):
+    ```markdown
+    ## Play Styles
+
+    [Character Name] can be played in multiple ways depending on what aspects you emphasize. Here are [X] distinct approaches:
+
+    ### Style 1: [Name] ([Category])
+
+    **Core Approach**: [One sentence]
+
+    **Tactics**:
+    - [Specific tactical point]
+    - [Specific tactical point]
+    - [Specific tactical point]
+
+    **Fate Point Economy**:
+    - **Spend on**: [When to spend fate points]
+    - **Gain from**: [Which compels to accept]
+
+    **Strengths**: [What this excels at]
+    **Weaknesses**: [Trade-offs and limitations]
+    ```
+
+    For README.md (concise):
+    ```markdown
+    ## Play Styles
+
+    ### 1. [Name] ([Category])
+    - **Core**: [One sentence approach]
+    - **Best for**: [Ideal scenarios]
+    - [Key tactic]
+    - **Trade-off**: [Main limitation]
+    ```
+
+15. **Play Style Quality Standards**:
+    - Each style should feel DISTINCT with different tactical focuses
+    - Styles should leverage different combinations of the character's Aspects/Skills/Stunts
+    - Include at least one "risky" style that accepts compels frequently
+    - Include at least one "safe" style focused on preparation/control
+    - Make sure styles fit the setting and genre
+    - Provide specific mechanical advice (which skills to roll, which aspects to invoke)
+    - Reference their actual Aspects by name in the tactics
+    - Show how Fate Point economy works differently in each style
+
+16. **Present to User**:
+    After updating both files, inform the user:
+    - "I've added comprehensive play style recommendations to both your character sheet and README"
+    - Briefly summarize the play styles (just names and one-line descriptions)
+    - Ask if they want tactical examples for any specific scenario
+    - Offer to discuss which style might suit their playstyle or campaign
+
 ## QUALITY STANDARDS
 
 - **Fate Core Rules**: Strictly adhere to Fate Core rules (Skill Pyramid, Aspect format, Stunt balance).
