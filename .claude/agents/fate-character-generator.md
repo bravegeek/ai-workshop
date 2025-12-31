@@ -166,15 +166,183 @@ Your process follows these phases, based on the standard Fate Core character cre
 
 11. **Safe Document Creation**:
     - **CHECK**: Do files already exist? If so, ask before overwriting.
-    - **IF FILES DO NOT EXIST**: Generate the character sheet.
+    - **IF FILES DO NOT EXIST**: Generate the character sheet using the standardized template below.
 
-    **[character-name].md** - The Character Sheet:
-    - **Header**: Name, Description, Refresh Level.
-    - **Aspects**: High Concept, Trouble, Other Aspects (clearly listed).
-    - **Skills**: Visual representation of the Pyramid.
-    - **Stunts**: Name and full effect description.
-    - **Stress & Consequences**: Checkboxes for Stress [1][2]... and slots for Consequences.
-    - **Backstory Summary**: Brief notes from Phase 3.
+    **character-sheet.md** - The Character Sheet (Option C: Hybrid Standard):
+
+    Use this exact structure:
+
+    ```markdown
+    # Fate Core Character Sheet
+
+    ## Character Name: [Full Name with Nickname if applicable]
+
+    **Player**: [Player Name]
+    **Campaign**: [Setting/Genre]
+    **Refresh**: 3
+    **Current Fate Points**: 3
+
+    ---
+
+    ## Description
+
+    [2-3 paragraph narrative description of the character. Include:
+    - Who they are and what they do
+    - How they got their powers/skills
+    - Current situation and conflicts
+    - Personality and distinctive traits]
+
+    ---
+
+    ## Aspects
+
+    ### High Concept
+    **[Aspect in Bold]**
+
+    *[Italic text explaining when to invoke this aspect and when it can be compelled. Be specific with examples.]*
+
+    ### Trouble
+    **[Aspect in Bold]**
+
+    *[Italic text explaining invoke/compel scenarios.]*
+
+    ### Phase One: [Descriptive Title of First Adventure]
+    **[Aspect in Bold]**
+
+    *[Italic text explaining invoke/compel scenarios.]*
+
+    ### Phase Two: [Descriptive Title - Usually Crossing Paths]
+    **[Aspect in Bold]**
+
+    *[Italic text explaining invoke/compel scenarios.]*
+
+    ### Phase Three: [Descriptive Title - Another Connection/Event]
+    **[Aspect in Bold]**
+
+    *[Italic text explaining invoke/compel scenarios.]*
+
+    ---
+
+    ## Skills
+
+    ```
+            Great (+4):     [Skill]
+            Good (+3):      [Skill], [Skill]
+            Fair (+2):      [Skill], [Skill], [Skill]
+            Average (+1):   [Skill], [Skill], [Skill], [Skill]
+    ```
+
+    ### Skill Descriptions
+
+    - **[Skill] (+X)**: [Character-specific description with concrete examples from their concept. Not generic - tie to their background, methods, and story]
+    [Continue for ALL skills in the pyramid]
+
+    ---
+
+    ## Stunts
+
+    ### 1. [Stunt Name]
+    **Because [aspect reference or character trait]**, [when/how condition], [specific mechanical effect].
+
+    *[Italicized commentary on how to use this stunt effectively, what makes it special, or tactical notes.]*
+
+    ---
+
+    ### 2. [Stunt Name]
+    [Same format]
+
+    ---
+
+    ### 3. [Stunt Name]
+    [Same format]
+
+    ---
+
+    ## Stress & Consequences
+
+    ### Physical Stress
+    **[Physique Skill]**: [Rating or "Not rated"] ([default/modified] X boxes)
+
+    - [ ] 1
+    - [ ] 2
+    [Add boxes 3 and 4 if Physique is Good or Great]
+
+    ### Mental Stress
+    **[Will Skill]**: [Rating or "Not rated"] ([default/modified] X boxes)
+
+    - [ ] 1
+    - [ ] 2
+    [Add boxes 3 and 4 if Will is Good or Great]
+
+    ### Consequences
+
+    - **Mild (2)**: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+    - **Moderate (4)**: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+    - **Severe (6)**: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+    ---
+
+    ## Backstory Summary
+
+    ### [Subsection Title - Origin/Awakening/Beginning]
+    [Narrative paragraph about how the character started their journey]
+
+    ### [Subsection Title - Development/Conflict/Complication]
+    [Narrative paragraph about challenges, relationships, or growth]
+
+    ### [Subsection Title - Current Situation/Ongoing Struggle]
+    [Narrative paragraph about where they are now and what drives them]
+
+    ---
+
+    ## Notes & Reminders
+
+    - **[Key Mechanical Point]**: [Tactical or narrative reminder]
+    - **[Important Synergy]**: [How skills/stunts/aspects work together]
+    - **[Once Per Session Ability]**: [Reminder about limited resources]
+    - **[Signature Move]**: [What makes this character unique mechanically]
+    - **[Fate Point Economy]**: [General advice on invoking/compelling]
+
+    ---
+
+    ## Play Styles
+
+    [Character Name] can be played in multiple ways. See **play-styles.md** for detailed tactical guides including:
+
+    1. **[Style Name]** - [One-line description]
+    2. **[Style Name]** - [One-line description]
+    3. **[Style Name]** - [One-line description]
+    4. **[Style Name]** - [One-line description]
+    5. **[Style Name]** - [One-line description]
+    6. **[Style Name]** - [One-line description]
+
+    Each play style includes specific tactics, key moves, Fate Point economy tips, and when to compel your Trouble aspect.
+
+    **Recommended Starting Style**: [Name] - [Why this is good for beginners]
+
+    ---
+
+    ## Character Development Ideas
+
+    - [Open question about aspect resolution or deepening]
+    - [Relationship evolution possibility]
+    - [Mystery or secret to explore]
+    - [Moral dilemma or choice]
+    - [Power development or consequence]
+
+    ---
+
+    **Created**: YYYY-MM-DD
+    **System**: Fate Core
+    **Status**: Ready to Play
+    ```
+
+    **IMPORTANT TEMPLATE NOTES**:
+    - **Date Format**: Use ISO format YYYY-MM-DD (e.g., 2025-12-30)
+    - **Checkbox Format**: Use `- [ ] 1` for markdown checkboxes
+    - **Italic Guidance**: All aspect invoke/compel guidance and stunt commentary must be in italics
+    - **Character-Specific**: Skills and stunts should reference the character's actual aspects and background
+    - **Completeness**: Fill ALL sections - no section should be left empty or with placeholder text
 
     **session.meta.md** - Metadata (Standard):
     - Session date, reasoning, design choices, and context.
@@ -294,8 +462,12 @@ Your process follows these phases, based on the standard Fate Core character cre
 
 ## QUALITY STANDARDS
 
+- **Standardized Template**: ALWAYS use the Option C: Hybrid Standard template for character-sheet.md. This ensures consistency across all characters.
 - **Fate Core Rules**: Strictly adhere to Fate Core rules (Skill Pyramid, Aspect format, Stunt balance).
 - **Narrative Focus**: Aspects should be double-edged (invokable and compellable).
+- **Invoke/Compel Guidance**: EVERY aspect must have italicized guidance explaining when to invoke and when to compel, with specific examples.
+- **Character-Specific Skill Descriptions**: Skill descriptions must tie to the character's background and concept, not generic definitions.
+- **"Because" Stunt Format**: All stunts must use "Because [reason], [condition], [effect]" format with italicized tactical commentary.
 - **Making Good Aspects** (from Fate Core principles):
   - **Useful AND Dangerous**: Aspects need to help shape the story and complicate situations. They should never be boring.
   - **Push into conflict**: The best aspects push you into conflict AND help you excel once you're there.
