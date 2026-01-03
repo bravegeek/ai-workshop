@@ -4,16 +4,17 @@
 - **Date**: 2026-01-02
 - **Model**: Gemini 2.5 Flash
 - **Project**: hidden-dreamers
-- **Phase Reached**: Character and Setting Definition (Pre-Story Phase).
+- **Phase Reached**: Setting & Role Consolidation (The Meridia Nexus).
 
 ## Agent Reasoning
-The session successfully transitioned from broad world-building (Phase 1-3) into specific narrative development (Phase 4).
-- **Setting Choice**: The "Metropolis Anchor" was selected to maximize stakes. By tethering the Eldritch horror to a high-population center, the "leak" becomes an existential threat to millions, creating immediate tension.
-- **Character Dynamics**:
-    - **Elara (Natural)** provides the "emotional stakes" and sensory immersion.
-    - **Kaelen (Ritualist)** provides the "metaphysical depth" and expertise.
-    - **IO (Tech)** provides the "intellectual threat." By moving away from a "Skeptic" to a "Monetizer," we create a more modern, dangerous antagonist who understands the horror but chooses to exploit it.
-- **Structural Strategy**: Used the "Needle" metaphor to create a "Descent" narrative structure, which naturally mirrors the "Pressure/Sanity" mechanic of the universe.
+The latest update focused on **Information-Centric World Building**.
+- **Ley Lines as Data Streams**: This move perfectly connects the "Magic" of the Ritualists with the "Espionage" of the Techs. It justifies why the Needle is built in a specific city (Meridia) and why it's so dangerous.
+- **The "Wiretap" Metaphor**: This provides a clear, high-stakes motivation for IO. She isn't just "mining energy"; she's the guardian of the world's secrets. This makes the "Signal" from the Entity a direct threat to her entire power base.
+- **Refined Roles**:
+    - **IO (The Editor)**: Her power is now about "Control of the Narrative."
+    - **Elara (The Tuner)**: Her power is about "Focus/Sanity."
+    - **Kaelen (The Encryptor)**: His power is about "Decoding the Truth."
+- **The Babel Problem**: This concept (too much noise/data) acts as the primary atmospheric threat, explaining the crew's madness and the need for a balanced team.
 
 ## Search Queries Performed
 - `lovecraft dream cycle geography and sanity mechanics`
@@ -21,9 +22,7 @@ The session successfully transitioned from broad world-building (Phase 1-3) into
 - `psychological effects of deep sea isolation sensory deprivation`
 
 ## Interview Strategy
-- Iterative refinement: Presented options (A/B/C) and then hybridized the user's favorite elements.
-- Stake Escalation: Moved from "a mining rig" to "a syringe over the city's jugular."
+- The user's input to keep IO as a "spymaster" was the key driver. We shifted from "Energy Harvesting" to "Information Harvesting," which necessitated the "Ley Line/Nexus" infrastructure.
 
 ## Limitations
-- The "Otherworldly Entity" (The Static) is still intentionally vague to preserve the mystery for the short story.
-- The specific corporate name and city name remain placeholders for the user to define.
+- The physical layout of the "Obsidian Needle" floors between the surface and the tip hasn't been mapped.
