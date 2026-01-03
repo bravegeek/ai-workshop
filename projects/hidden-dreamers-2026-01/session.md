@@ -33,3 +33,18 @@ This session established the metaphysical and social foundation for "Hidden Drea
 ## Next Steps
 - **The Anomaly**: Script the first encounter/distortion in the elevator as the team enters the "Babel Zone."
 - **The Floors**: Map the abandoned "Mesh," "Hive," and "Airlock" levels.
+
+## The Lantern Crew: HQ & Operations
+- **HQ Location**: "Reservoir No. 1" (The Cistern).
+    - **Description**: An abandoned Victorian-era gravity-fed filtration plant. A cathedral of brick and dark, still water.
+    - **Atmosphere**: Gothic industrial, damp, silent.
+    - **Tech**: "Hydro-Thermal Computing."
+        - **Immersion Rigs**: Sensory deprivation tanks floating in the reservoir (cooling the neural load).
+        - **Servers**: Oil-filled glass obelisks submerged in the cold water.
+- **IO's "Faceman" Persona Options**:
+    1.  **The Architect of Silence**: A high-end "Information Security Consultant" who cleans up digital/reputation spills. Accessible only via dark networks.
+    2.  **The Patron of the Obscure**: A reclusive antiquities dealer/curator. Uses the art world for laundering and exchanging "cursed" dream objects.
+    3.  **The Algorithmic Oracle**: A corporate futurist who uses "psychic trends" to advise on macro-strategy.
+
+## Artifacts & Items
+*(To be populated)*
