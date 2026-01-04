@@ -92,6 +92,25 @@ This session established the metaphysical and social foundation for "Hidden Drea
         -   **Small Items**: 1 Surge. Stable.
         -   **Large Items**: Multiple Surges. The object must "incubate" between storms. High risk of mutation/detonation if the tank environment fluctuates.
 
+## Entity Ecology & Knowledge
+*What the Adventurers Know*
+
+### 1. Classification
+- **The Echoes (Shallows)**: "Flickers" or remnants of strong memories. Mostly harmless but addictive (Nostalgia Traps).
+- **The Scavengers (The Mid-Levels)**: "Archetype-Vultures" (e.g., Deep-Sea Whales made of nightmares). They feed on emotional runoff/context, stripping a dreamer of their identity/purpose.
+- **The Architects (The Deep)**: Ancient, massive consciousnesses acting as "Laws of Physics" in the Psychosphere.
+
+### 2. The Primary Antagonist: The Unbroken Tongue
+- **Nature**: A Sentient Data-Cluster currently occupying the Obsidian Needle.
+- **Capabilities**:
+    - **The Gaze**: Perceives via *Attention*. Thinking about it allows it to locate your physical body.
+    - **The Flood**: Forces raw secret data into a mind, causing "Babel Syndrome" (aphasia/madness).
+    - **The Whispering Iron**: Uses psychic beacons ("Bugs") stitched to a dreamer's shadow.
+
+### 3. Crew Perspectives
+- **IO (The Vector)**: Views Entities as **High-Level Malware**. Tracks their "Static Signature." Fears "The Monolith of Truth" (the Entity's plan to end privacy).
+- **Elara (The Chorus)**: Hears them as **"The Great Static."** Senses their hunger via color shifts in the Shallows (Indigo -> Bruised Purple).
+- **Kaelen (The Tethered)**: Feels them physically (Cold Lead). His **Serpent Rune** tattoo burns in the presence of Deep Entities (60-second warning).
+
 ## Next Steps
 - **The Anomaly**: Script the first encounter/distortion in the elevator as the team enters the "Babel Zone."
-
