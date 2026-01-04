@@ -12,38 +12,14 @@ This session established the metaphysical and social foundation for "Hidden Drea
     - **The Deep (The Abyssal Void)**: The drain at the bottom of the world where heavy, repressed secrets sink.
 
 ## The Setting: Meridia (The Data Nexus)
-- **Concept**: A metropolis built at the confluence of three major global Ley Lines. It is the "Switchboard of the World."
-- **The Obsidian Needle (The Wiretap)**: An inverted skyscraper built at the "Zero Point" of the city. It acts as a massive probe/ear designed to intercept and harvest the world's secrets as they flow through the Meridia Nexus.
-- **The "Babel Problem"**: The Needle collects too much data. The volume of 20 million local minds plus global Ley Line traffic creates a deafening "Noise" that erodes the identities of those inside.
-
-## The Cosmology: The Exile
-- **The Entity**: **The Unbroken Tongue** (a.k.a. The Static).
-- **The History**: The deposed king of a pre-Babel Hive Mind. It represents **Total Unity** at the cost of the **Individual**.
-- **The Signal**: Re-Integration. It is rewriting the stolen secrets of the world into a single, unified "Truth" that dissolves the observer's ego.
-
-## The Cast (Revised Roles)
-1. **Proctor IO (The Vector - The Editor)**: A spymaster who views the dream as code. She tries to "Edit" the noise to save her family (the Lantern Crew) and her data.
-2. **Elara Vance (The Chorus - The Tuner)**: A hypersensitive artist. She acts as a "Human Equalizer," muting the deafening noise to create a bubble of sanity for the team.
-3. **Kaelen Thorne (The Tethered - The Encryptor)**: A rogue academic. His tattoos are ciphers that allow him to "Translate" the non-Euclidean data of the Deep.
-
-## The Story: "Hadal Recovery"
-- **Status**: Scene 1 (The Threshold and Descent) drafted.
-- **The Mission**: Investigate Rig 9 (The Obsidian Needle) which has become an antenna for the Unbroken Tongue.
-
-## The Story Arc: "The Lazarus Protocol"
-*The inciting incident. The crew defied the laws of death.*
-
-- **The Goal**: Resurrection of **Nia** (The Team's former Pilot/Navigator), lost in the Deep 6 months ago.
-- **The Method**: "The Crucible" (Cistern Tank + Convergence Event). A "Frankenstein" procedure using gathered soul-fragments.
-- **The Result**: Nia returns, but she is... wrong.
-    -   **The "Stranger" Effect**: Though only gone 6 months, she acts as if she has lived a thousand years. She treats the crew with distant, alien fondness.
-    -   **The Ambiguity**: Is she traumatized? Or is she a "Skin-Suit" piloted by an Entity?
-    -   **The Tell**: Her shadow lags half a second behind her movements. The air chills when she lies.
-    -   **The Power**: She is a living "Reality Breach." She can stabilize or destabilize physics, but it cracks her skin like porcelain.
-    -   **The Knowledge**: She knows the "Source Code" of the world. She claims the Obsidian Needle is "set to the wrong key."
-
-## Next Steps
-- **The Anomaly**: Script the first encounter/distortion in the elevator as the team enters the "Babel Zone."
+- **The Obsidian Needle (The Mirror Spire)**:
+    - **Reality**: A 20-foot minimalist glass monument ("The Zenith") in a public plaza.
+    - **Psychosphere**: A miles-long inverted spire piercing the Deep. The seat of the Unbroken Tongue.
+    - **Function**: Harvesting the world's secrets via the Ley Line gravity well it creates.
+- **The Cistern (The Psychic Void)**:
+    - **Reality**: A massive, ancient underground reservoir (The Lantern Crew HQ).
+    - **Psychosphere**: A "Blind Spot." A patch of un-dreamed space invisible to the Entity.
+    - **The Conflict**: The Entity is trying to "flood" the void with static to force it to manifest. Nia's presence is "leaking" the dream world into the HQ, threatening their invisibility.
 
 ## The Lantern Crew: HQ & Operations
 - **HQ Location**: "Reservoir No. 1" (The Cistern).
