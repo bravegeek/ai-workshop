@@ -1,28 +1,26 @@
 # Session Metadata: Hidden Dreamers
 
 ## Session Info
-- **Date**: 2026-01-02
+- **Date**: 2026-01-03
 - **Model**: Gemini 2.5 Flash
 - **Project**: hidden-dreamers
-- **Phase Reached**: Setting & Role Consolidation (The Meridia Nexus).
+- **Phase Reached**: Narrative Act 1 - The Descent.
 
 ## Agent Reasoning
-The latest update focused on **Information-Centric World Building**.
-- **Ley Lines as Data Streams**: This move perfectly connects the "Magic" of the Ritualists with the "Espionage" of the Techs. It justifies why the Needle is built in a specific city (Meridia) and why it's so dangerous.
-- **The "Wiretap" Metaphor**: This provides a clear, high-stakes motivation for IO. She isn't just "mining energy"; she's the guardian of the world's secrets. This makes the "Signal" from the Entity a direct threat to her entire power base.
-- **Refined Roles**:
-    - **IO (The Editor)**: Her power is now about "Control of the Narrative."
-    - **Elara (The Tuner)**: Her power is about "Focus/Sanity."
-    - **Kaelen (The Encryptor)**: His power is about "Decoding the Truth."
-- **The Babel Problem**: This concept (too much noise/data) acts as the primary atmospheric threat, explaining the crew's madness and the need for a balanced team.
+The aesthetic has shifted from **Cyberpunk-Espionage** to **Analog Survivalism / Techno-Mage Noir**.
+- **The "Clockwork" Pivot**: Moving away from tech-metaphors (malware/server) to physical metaphors (gears, pressure, sediment) has deepened the stakes.
+- **The Loser's Library**: This provides a massive, high-concept goal. The crew isn't just looking for "data"; they are navigating the "Museum of Collective Guilt."
+- **The Silence (Babel Zone)**: This mechanic forces character-driven action (Intent/Vibes) rather than exposition-heavy dialogue.
 
-## Search Queries Performed
-- `lovecraft dream cycle geography and sanity mechanics`
-- `deep sea abyssal gigantism bioluminescence horror inspiration`
-- `psychological effects of deep sea isolation sensory deprivation`
+## Search Queries Performed (Mental/Conceptual)
+- `Victorian gravity-fed reservoir industrial aesthetics`
+- `mechanical watch reality anchor dream logic`
+- `collective guilt and repressed history as physical strata`
 
 ## Interview Strategy
-- The user's input to keep IO as a "spymaster" was the key driver. We shifted from "Energy Harvesting" to "Information Harvesting," which necessitated the "Ley Line/Nexus" infrastructure.
+- The user's focus on "History written by the winners" and the "Deep" being the source of valuable artifacts drove the creation of the Diamond Theory (Pressure = Hard-Code).
+- The transition to "Homebrew/Low-Tech" survival gear was the key tonal shift.
 
 ## Limitations
-- The physical layout of the "Obsidian Needle" floors between the surface and the tip hasn't been mapped.
+- The specific "Objective Artifact" for this mission is still undefined.
+- The geography of the "Indigo Void" ledge needs mapping.

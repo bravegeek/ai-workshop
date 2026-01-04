@@ -5,25 +5,24 @@ This session established the metaphysical and social foundation for "Hidden Drea
 
 ## Core World Mechanics
 - **The Collective Construct (The Psychosphere)**: The dreamworld is a biological internet sustained by the consciousness of all living things.
-- **Ley Lines (The Data Streams)**: Natural conduits where information travels globally in the collective unconscious.
+- **Ley Lines (The Data Streams)**: Natural conduits where information travels globally in the collective unconscious. These radiate a "Psychic Static" that fry modern electronics.
 - **Vertical Geography**:
     - **The Surface**: Individual daily dreams.
     - **The Shallows**: Shared subconscious (archetypes).
-    - **The Deep (The Abyssal Void)**: The drain at the bottom of the world where heavy, repressed secrets sink.
+    - **The Deep (The Abyssal Void)**: The drain at the bottom of the world.
+    - **The Silt**: The "Loser's Library." The sediment of erased history, conquered gods, and civilizational guilt.
 
-## The Setting: Meridia (The Data Nexus)
-- **The Obsidian Needle (The Mirror Spire)**:
-    - **Reality**: A 20-foot minimalist glass monument ("The Zenith") in a public plaza.
-    - **Psychosphere**: A miles-long inverted spire piercing the Deep. The seat of the Unbroken Tongue.
-    - **Function**: Harvesting the world's secrets via the Ley Line gravity well it creates.
-- **The Cistern (The Psychic Void)**:
-    - **Reality**: A massive, ancient underground reservoir (The Lantern Crew HQ).
-    - **Psychosphere**: A "Blind Spot." A patch of un-dreamed space invisible to the Entity.
-    - **The Conflict**: The Entity is trying to "flood" the void with static to force it to manifest. Nia's presence is "leaking" the dream world into the HQ, threatening their invisibility.
+## The Aesthetic: Analog Survivalism
+- **The Rule**: Silicon burns; Gears survive. 
+- **The Tech**: A mix of jury-rigged high-tech (for mapping) and mechanical homebrew (for survival). 
+    - **Mechanical Watches/Timers**: Used as "Reality Anchors" to track linear time in the void.
+    - **Tuning Forks**: Used to shatter dream-logic and clear mental fog.
+    - **Artifact Dynamos**: Engines that drain the energy of dream-objects to power reality-side equipment.
 
 ## The Lantern Crew: HQ & Operations
 - **HQ Location**: "Reservoir No. 1" (The Cistern).
     - **Description**: An abandoned Victorian-era gravity-fed filtration plant. A cathedral of brick and dark, still water.
+    - **The Broker Strategy**: IO operates as a Information Broker/Censor. Her goal is **Leverage**. She harvests secrets from the Deep to maintain world stability or blackmail the powerful.
     - **Atmosphere**: Gothic industrial, damp, silent.
     - **Tech**: "Hydro-Thermal Computing."
         - **Immersion Rigs**: Sensory deprivation tanks floating in the reservoir (cooling the neural load).

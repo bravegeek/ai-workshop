@@ -40,7 +40,8 @@ As a Dreamwalker descends, the "Physics of Thought" changes. These are the relia
 *   **The Sensation:** Crushing pressure. Every movement requires immense willpower.
 *   **The Reality:** Here, **Metaphor becomes Literal.** If you say "I'm falling apart," your limbs will actually detach.
 
----
+- **The Whispering Iron**: Uses psychic beacons ("Bugs") stitched to a dreamer's shadow.
+- **The Gilded Rot (Corruption)**: The Entity transmutes opaque, natural dream-materials (Stone, Wood, Silt) into **Transparent Amber Glass**. This "Exposure" strips away mystery and creates a brittle, high-resonance environment where stealth is impossible.
 
 ## II. Why We Dive: Motivations for Descent
 Beyond the Lantern Crew's espionage, there are distinct types of "Divers" who risk the Deep.

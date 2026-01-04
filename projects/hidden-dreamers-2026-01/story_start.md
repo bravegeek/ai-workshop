@@ -68,3 +68,95 @@ I look past the Proctor’s digital projections. I see the whale-thing Elara is 
 I look down. The elevator shaft is a long, black throat. And we are going straight to the stomach.
 
 "Ignore the fish, Elara," I growl, tightening the straps on my gloves. "They aren't the problem. Watch the floor. The Needle is vibrating. We’re passing through a pocket of The Static."
+
+---
+
+## Scene 2: The Silence (The Thermocline)
+
+**I. Proctor IO (The Vector)**
+The tablet in my hand screams once—a high, digital shriek—and the screen dissolves into a swarm of dead pixels. I don't curse. I expected it. I slide the useless slab of glass and rare earth into my coat and reach for the leather strap on my wrist.
+
+I wind the crown of the mechanical watch. *Click. Click. Click.* The sound is tiny, but in the growing cold of the elevator, it sounds like a hammer on an anvil.
+
+"Digital's dark," I say. Or I try to. The words leave my mouth as a puff of grey smoke that smells like wet wool. I frown. We’ve hit the Babel Zone. Language is no longer a sound; it's a physical weight.
+
+I reach for the brass egg-timer bolted to the elevator’s control panel. I twist it to five minutes. *Rrrrriiiinnng.* 
+
+The mechanical ticking begins. It is the only thing in the world that still makes sense.
+
+**II. Elara Vance (The Chorus)**
+I try to tell IO that the air is turning into glass, but when I open my mouth, a handful of blue marbles spills out. They clatter on the floor, rolling toward Kaelen’s boots. 
+
+I stop trying to speak. I close my eyes and listen to the *tension*.
+
+The elevator isn't just descending; it's being squeezed. The "Silence" isn't a lack of noise—it’s a frequency so low it vibrates in my marrow. Up above, the city's dreams were a chaotic choir. Down here, at the lip of the Deep, the choir has been replaced by a single, crushing note. 
+
+The Unbroken Tongue is watching us. I can feel its attention like a cold needle pressed against the back of my neck. 
+
+I reach out and grab the iron tuning fork hanging from my belt. I don't strike it yet. I’m waiting for the moment the air becomes too thick to breathe.
+
+**III. Kaelen Thorne (The Tethered)**
+The blue marbles hit my boots and vanish. 
+
+I can feel the Needle groaning. Not the steel of the elevator, but the *idea* of the Needle. We’re passing through a layer of Collective Guilt—the sediment of a hundred forgotten wars. It feels like walking through waist-deep mud.
+
+The Serpent Rune on my ribs is no longer just warm; it’s a brand. I can feel the ink trying to peel itself off my skin, reaching out toward the darkness beyond the glass. Something massive is drifting alongside the car. It doesn't have a shape, just a sense of "Ancient Hunger."
+
+I look at IO. She’s staring at the ticking egg-timer, her face a mask of iron. She doesn't need words. She just points down. 
+
+The floor of the elevator starts to glow a dull, bruised purple. We’ve breached the barrier. We’re in the Deep now.
+
+---
+
+## The Threshold of the Void
+
+The elevator doors don't slide open. They **dissolve** into a thousand rusty skeleton keys that fall to the floor and vanish into the grey silt. 
+
+We aren't in a building anymore. We are standing on a ledge of calcified secrets, looking out into an infinite indigo void. The only light comes from the "Perpetual Cell" in IO’s lantern—a flickering, pale glow that barely carves a circle out of the dark.
+
+**IO's Intent (Projected):** *Keep your hands on the Tether. If you lose the rhythm of the watch, you’ll forget your names.*
+
+---
+
+## Scene 3: The Fossil Grove
+
+**I. Elara Vance (The Naturalist)**
+The grey silt of the Deep is cold and dead, like walking through the ashes of a burned library. Every time my boots hit the ground, a cloud of "Maybe" and "Forgot" puffs up around my ankles.
+
+But at the very edge of IO’s lantern light, where the indigo void begins, I see it. 
+
+A tiny spark of emerald. 
+
+I drop to my knees. The movement sends a ripple through the grey ash. It’s a seedling—no larger than a thumbnail—pushing through the calcified remains of a thousand-year-old lie. It’s vibrant, wet, and defiant. 
+
+"Found it," I say. The words come out as a pair of green leaves that flutter to the ground and dissolve. 
+
+IO steps forward, her mechanical watch ticking like a nervous heartbeat. She reaches down, her fingers curled to pluck it, to "archive" it. 
+
+"Wait," I say. My intent hits her like a physical hand on her shoulder. 
+
+I don't touch the plant. I just hover my palms over it, breathing with it. I match my pulse to its tiny, frantic rhythm. *Grow,* I think. *Bloom. Remember.*
+
+The seedling shudders. Then, it explodes. 
+
+It doesn't just grow; it **unravels**. Thick, thorny vines of ivy—dark as veins and pulsing with a deep, earthy green—tear through the silt. They knit together in the air, weaving a circular archway that smells of rain and fresh dirt. A forest-gate in the middle of a graveyard.
+
+**II. Proctor IO (The Vector)**
+I pull my hand back. The vines are growing with a violent, terrifying speed. They aren't "dream-logic"; they feel real. I can smell the damp soil—a smell that shouldn't exist this deep in the void.
+
+Elara looks different in this light. She isn't the jittery girl from the elevator. She’s the gardener of the abyss.
+
+I look through the vine-portal she’s grown. The forest beyond is a graveyard of giants—towering trees of slate with leaves made of silver foil. It is silent and dignified. But deep in the distance, the grey canopy is infected with light.
+
+A creeping **Gold Frost** is moving through the trees. Where it touches the slate, the bark doesn't burn—it clarifies. The ancient, opaque stone is being transmuted into **transparent amber glass**.
+
+The wind blowing from that direction doesn't smell like earth anymore. It smells like a soldering iron. And I can hear it—the horrible, high-pitched *tinking* sound of a million glass leaves shattering against each other.
+
+The Unbroken Tongue is turning the sanctuary into a cathedral of light. It’s stripping the mystery away.
+
+**III. Kaelen Thorne (The Tethered)**
+The air through the portal is hot. It tastes like ozone and copper.
+
+I grip the hilt of the Glitch-Blade on my belt. The Serpent Rune is no longer just burning; it’s vibrating. It wants to go in. 
+
+"It's brittle," I project toward the others. "If we step on that glass, it'll wake the whole damn floor. The Entity isn't just watching anymore. It’s **feeding**."
