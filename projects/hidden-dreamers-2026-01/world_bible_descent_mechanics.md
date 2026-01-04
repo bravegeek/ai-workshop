@@ -43,13 +43,14 @@ As a Dreamwalker descends, the "Physics of Thought" changes. These are the relia
 ---
 
 ## II. Why We Dive: Motivations for Descent
-Beyond the Lantern Crew's espionage, there are four main types of "Divers" who risk the Deep.
+Beyond the Lantern Crew's espionage, there are distinct types of "Divers" who risk the Deep.
 
-### 1. The Excavators (Therapy & Exorcism)
-*   **Goal:** To cure the incurable.
-*   **The Mission:** Deep-seated trauma, phobias, and addictions manifest as physical "Weeds" or "Parasites" in the Deep. Excavators dive to locate the **Root Cause** (e.g., a repressed memory of a fire) and physically destroy it or heal it.
-*   **The Risk:** "Psychic Surgery" is messy. Cut the wrong root, and the patient wakes up lobotomized or with a completely different personality.
-*   **Market:** High-end, illegal psychiatric care for the wealthy.
+### 1. The Brokers (Data-Miners / Spymasters)
+*   **Goal:** **Information Supremacy & Leverage.**
+*   **The Archetype:** **IO (The Vector).**
+*   **The Mission:** To map the "Dark Data." Brokers treat the Deep as a vault of blackmail material ("Kompromat") and dangerous truths. They dive to extract secrets from powerful minds or to "bury" secrets that threaten stability.
+*   **The Philosophy:** "The waking world is built on lies. The Dream is where the ledger is kept."
+*   **The Risk:** **"The Glare."** Knowing too much makes you a target for both human enemies and the Entities who hoard secrets.
 
 ### 2. The Muse-Hunters (Inspiration Theft)
 *   **Goal:** To find the "Pure Idea."

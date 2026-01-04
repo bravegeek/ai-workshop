@@ -56,4 +56,27 @@ Ley Lines map roughly to human population density and emotional intensity, but t
 *   **Why it's Hard**: Dream objects are made of *meaning*, not matter.
 *   **The Anchor Principle**: To bring an item back, you must "convince" the universe it exists.
     *   *Method*: You need a physical "Seed" (The Crucible Method) that shares a *sympathetic resonance* with the dream object.
-    *   *Example*: To bring back a "Sword of Truth," you might need to use an antique judge's gavel as the seed. The "Truth" concept bonds to the "Judgment" object.
+    *   *Example:* To bring back a "Sword of Truth," you might need to use an antique judge's gavel as the seed. The "Truth" concept bonds to the "Judgment" object.
+
+## IV. The Economy of Depth (Mining Mechanics)
+
+### 1. The Physics of Denial (Why Things Sink)
+Not all secrets are heavy. The Psychosphere sorts data by **Emotional Mass**.
+*   **Surface Flotsam (The Mask):** Light, daily lies ("I skipped the gym"). These float in the Shallows. They are malleable and weak.
+*   **Abyssal Anchors (The Truth):** Things sink when the mind actively represses them. The energy required to *ignore* a truth gives it weight.
+    *   *The Rule:* "The harder you try to forget it, the deeper it sinks."
+    *   These are foundational traumas, cultural taboos, and structural fears. They accumulate at the bottom, forming the "Bedrock" of the psyche.
+
+### 2. Collective Repression (The Loser's Library)
+The Deep is not just personal; it is historical.
+*   **The Sediment of History:** "History is written by the winners." The stories of the losers—conquered nations, erased gods, inconveniences to the dominant narrative—don't vanish. They sink.
+*   **The Bedrock:** The deepest layer of the Psychosphere is composed of **Civilizational Guilt**. It is the mass grave of the truths that society agreed to ignore to maintain its "Order."
+*   **Danger:** Dredging this layer is catastrophic. Bringing a "Lost Truth" back to the surface doesn't just add an object; it destabilizes the current reality's narrative foundation.
+
+### 3. Artifact Density (The Diamond Theory)
+Why risk a Deep Dive? Because pressure creates diamonds.
+*   **Surface Artifacts (Soft-Code):** An item pulled from a shallow dream is unstable. It requires constant mental focus to maintain. If you blink, a "Gun" might turn into a "Banana."
+*   **Deep Artifacts (Hard-Code):**
+    *   **Compression:** In the Deep, an object is subjected to megatons of psychic pressure. A "Shield" found here isn't just an image of a shield; it is the *Platonic Ideal of Protection*, condensed into a solid form.
+    *   **Stability:** When brought to reality, these items are **Hyper-Real**. They are indestructible and impose their own physics on the world.
+    *   **Value:** One "Deep Artifact" is worth a thousand Surface trinkets. It is the difference between a flashlight and a laser.
