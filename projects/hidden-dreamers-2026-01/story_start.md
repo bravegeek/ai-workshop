@@ -91,7 +91,7 @@ I stop trying to speak. I close my eyes and listen to the *tension*.
 
 The elevator isn't just descending; it's being squeezed. The "Silence" isn't a lack of noise—it’s a frequency so low it vibrates in my marrow. Up above, the city's dreams were a chaotic choir. Down here, at the lip of the Deep, the choir has been replaced by a single, crushing note. 
 
-The Unbroken Tongue is watching us. I can feel its attention like a cold needle pressed against the back of my neck. 
+The Void is watching us. I can feel its attention like a cold needle pressed against the back of my neck. 
 
 I reach out and grab the iron tuning fork hanging from my belt. I don't strike it yet. I’m waiting for the moment the air becomes too thick to breathe.
 
@@ -150,13 +150,15 @@ I look through the vine-portal she’s grown. The forest beyond is a graveyard o
 
 A creeping **Gold Frost** is moving through the trees. Where it touches the slate, the bark doesn't burn—it clarifies. The ancient, opaque stone is being transmuted into **transparent amber glass**.
 
-The wind blowing from that direction doesn't smell like earth anymore. It smells like a soldering iron. And I can hear it—the horrible, high-pitched *tinking* sound of a million glass leaves shattering against each other.
+The wind blowing from that direction doesn't smell like earth anymore. It smells like a soldering iron... and lavender. Nia's favorite soap.
 
-The Unbroken Tongue is turning the sanctuary into a cathedral of light. It’s stripping the mystery away.
+My heart hammers against my ribs. It’s not a data-leak. It’s a memory. Why is her scent here? Is she trapped in the glass? Or is she *making* it?
+
+The amber isn't just watching. It’s **remembering**.
 
 **III. Kaelen Thorne (The Tethered)**
 The air through the portal is hot. It tastes like ozone and copper.
 
 I grip the hilt of the Glitch-Blade on my belt. The Serpent Rune is no longer just burning; it’s vibrating. It wants to go in. 
 
-"It's brittle," I project toward the others. "If we step on that glass, it'll wake the whole damn floor. The Entity isn't just watching anymore. It’s **feeding**."
+"It's brittle," I project toward the others. "If we step on that glass, it'll wake the whole damn floor. The Anomaly isn't just watching anymore. It’s **feeding**."
