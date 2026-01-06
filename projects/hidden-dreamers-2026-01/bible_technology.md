@@ -40,11 +40,17 @@ IO bridges the gap between Dream-Logic and Silicon.
     *   **Reality Anchor:** Projects a "Logic Field" that keeps the HQ's physics stable despite the depth.
 *   **Control:** **Tuning Dampers** (Lead/Copper plates) are mechanically lowered to muffle the battery or raised to "Harpoon" a passing Ley Line.
 
-### 2. Immersion Rigs (Diving Bells)
-*   **Design:** Brass and glass spheres, airtight and shielded.
-*   **Usage:** Crew enters on the "Dry Deck," and the bells are lowered 10-20m into the freezing water.
-*   **Purpose:** The physical sensation of cold and suspension helps trigger the "Somatic Shift" required for deep diving.
+### 2. Dive Gear & Immersion
+*   **Standard Rigs (Dry Dives):**
+    *   **Location:** The Ground Floor "Rim."
+    *   **Tech:** Shielded, sensory-deprivation pods.
+    *   **Usage:** The default method for 90% of missions. Safe, buffered, and grounded.
+*   **The Wet-Rigs (Overclocking):**
+    *   **Design:** Modified full-face SCUBA masks with integrated Psyloc-Comms.
+    *   **Usage:** **Emergency Only**. The crew dives physically into the Cistern water.
+    *   **Effect:** The water acts as a superconductor for the Ley Line. It removes the safety buffers, allowing for massive feats of "Dream Logic" modification, but risks frying the user's nervous system.
 
 ### 3. The Tuning Forks (Medical)
 *   **Purpose:** Treating "The Bends" (Psychic Decompression).
-*   **Mechanism:** Massive, floor-standing iron forks. When struck, they emit a pure tone that shatters "Dream Logic" residue clinging to a diver's mind, forcing them to re-sync with linear time and reality.
+*   **Mechanism:** Massive, floor-standing iron forks. 
+*   **Acoustic Interface:** When struck, they use the **Heptagonal acoustics** of the vault to propagate a "Logic-Pulse." The non-repeating echo shatters dream-logic residues clinging to a diver's mind, forcing them to re-sync with reality.

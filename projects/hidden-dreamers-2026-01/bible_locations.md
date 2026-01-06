@@ -3,24 +3,29 @@
 ## I. Reality: The Lantern Crew HQ (The Abyssal Cistern)
 
 ### 1. Overview
-*   **Location:** Buried 150m deep in the city's "Living Bedrock," beneath the industrial district. Accessible via a hidden service tunnel in an abandoned pump station.
-*   **Concept:** A Victorian-Era Water Cathedral converted into a **Liquid-Cooled Supercomputer**.
-*   **The Psychic Watershed:** Located at the natural drainage point of the city's "Psychic Aquifers." It catches the emotional runoff of millions of minds.
+*   **Location:** Buried 150m deep in the city's bedrock.
+*   **Concept:** A "Failed Victorian Dream-Engine." The architecture represents an attempt by 19th-century occultists to bridge the gap between industrial order and esoteric power.
+*   **Symbolism (The Clock & The Spell):** 
+    *   The tension between the **12 sides** of the room and the **7 sides** of the pit reflects the struggle to "Clock" the chaotic nature of dreams into a predictable machine.
 
 ### 2. Layout
-*   **The Hanging Lab (0m - 30m):**
-    *   **Structure:** Catwalks, server racks, and living quarters suspended from the ceiling by massive chains. Swaying slightly over the abyss.
-    *   **Tech:** "Dry-Deck Computing." Servers are air-cooled or water-cooled via pipes, not submerged.
-    *   **IO's Perch:** A soundproofed glass office overlooking the drop.
-*   **The Reservoir (30m - 150m):**
-    *   **The Water:** A 120-meter deep column of freezing, dark water. Acts as a heat sink and psychic damper.
-    *   **The Heart of the Storm (80m depth):** The **Indigo Geode Battery**. Suspended in the center. It glows from the bottom, illuminating the water during surges.
-    *   **The Divert Mechanism:** No physical tap. IO uses **Tuning Dampers** (Lead/Copper plates) to "muffle" or "harpoon" passing Ley Lines.
+*   **The Vault (The Shell):**
+    *   **Shape:** **Dodecagon (12-Sided)**.
+    *   **Structure:** A massive dry chamber. The 12 sides represent the Zodiac and the Clock, imposing "Order" on the space.
+    *   **The Catwalks (The Cloud Layer):** High-level walkways holding the sensitive Server Racks. The "Psychic Gravity" pulls interference down toward the pit, making the ceiling the safest zone for electronics.
+*   **The Ground Floor (The Rim):**
+    *   **Function:** The stone floor encircling the central pit. Contains living quarters and "Dry-Dive" pods.
+*   **The Cistern (The Central Pool):**
+    *   **Shape:** **Heptagon (7-Sided)**.
+    *   **Geometry:** A "Magical" number (The Seeker). Seven-sided rooms are mathematically "unstable," creating a non-repeating acoustic echo.
+    *   **Depth:** 150m deep vertical pit.
+    *   **The Submerged Platform (The Crucible):** Accessed via stairs. A metal grating platform sitting waist-deep in the water.
+    *   **The Heart of the Storm (80m depth):** The Indigo Geode Battery. Its glow is a faint, pulsing "star" in the black heptagonal void.
+    *   **Usage:** **High Risk / High Reward**. Entering the water (A "Wet Dive") connects the dreamer directly to the raw Ley Line current.
 
 ### 3. Atmosphere
-*   **Sound:** The "God's Ear." The bedrock is resonant; whispers carry for miles.
-*   **Smell:** Ozone, damp brick, old oil, lavender (faint, from IO's quarters).
-*   **Lighting:** Blue status LEDs from servers, industrial cage lights, and the deep indigo glow of the battery.
+*   **Sound:** **The God's Ear**. The 7-sided geometry prevents standing waves, making whispers carry for miles with eerie clarity.
+*   **Lighting:** Blue status LEDs and the faint, scary indigo pulse from the deep.
 
 ---
 

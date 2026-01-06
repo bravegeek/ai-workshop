@@ -45,9 +45,9 @@ The Deep is not a land; it is a **pressure zone**.
 ### 2. Entity Ecology (The Deep Fauna)
 *   **The Leviathans (The Silent Ones)**: Massive, slow-moving shapes (abstract gigantism) that consume abandoned dreamscapes to recycle data.
 *   **The Amber Bleed (The Vitrification)**:
-    *   **The Effect**: A physical manifestation of the **Sleeping God's** dream leaking into the void.
-    *   **Mechanism**: It **freezes** the chaotic Deep into **Transparent Amber Glass** ("Perfect Memory").
-    *   **Danger**: Getting trapped means becoming a static image in the God's dream forever.
+    *   **The Effect**: A physical manifestation of the **Sleeping God's** dream leaking into the void, filtered through a human **Host** (Nia).
+    *   **Mechanism**: It **freezes** the chaotic Deep into **Transparent Amber Glass**. It preserves the Host's memories as static, indestructible "fossilized" moments.
+    *   **Danger**: Getting trapped means becoming a static image in the dream forever.
 *   **The Anglers (Lure-Lights)**: Predatory thoughts that manifest as desires (lost loved ones, safety) to trap consciousness in a Loop.
 *   **The Mycelium (The Rot)**: A fungal network connecting disparate fears.
 
