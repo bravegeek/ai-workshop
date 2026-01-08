@@ -85,6 +85,11 @@ Ley Lines are the "Fiber Optics" of the Psychosphere.
     *   **Pressure = Hardness**: The deeper an object is found, the more "compressed" it is by psychic pressure.
     *   **Deep Artifacts (Hard-Code)**: Indestructible, hyper-real items that impose their own physics on reality.
 
+### 3. The Law of Symbolic Legacy (The "Haunted" Tool)
+*   **Rule**: Transformation is not purification. When a memory from the Silt is petrified into an artifact, it retains the *Subconscious History* of its origin.
+*   **Mechanism**: Artifacts are not neutral tools; they are **sentient residues**. They possess an inherent "bias" or "will" based on the emotion that formed them (e.g., a blade forged from a forgotten betrayal may "seek" to fail its wielder).
+*   **Negotiation**: Using a Deep Artifact requires a constant psychic negotiation between the user's intent and the tool's history. Conflict between the two causes "Sync-Static" (Malfunction).
+
 ---
 
 ## V. Motivations: Why We Dive
