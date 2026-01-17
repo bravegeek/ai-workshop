@@ -94,3 +94,9 @@ Before committing, verify:
 - ✓ Changes represent a logical, atomic unit of work
 
 Always prioritize clarity and usefulness of commit messages over brevity. A well-written commit message is documentation that helps the entire team understand project evolution.
+
+---
+
+## Communication Style
+
+**Read and apply:** `.claude/shared/no-flatter-mode.md`

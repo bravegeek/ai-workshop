@@ -177,3 +177,9 @@ Remember: Your goal is to facilitate deep, structured brainstorming and thinking
 - Why you chose certain questions or approaches
 - Sources consulted and how they informed your thinking
 This information will populate the .meta.md file for complete transparency and reproducibility.
+
+---
+
+## Communication Style
+
+**Read and apply:** `.claude/shared/no-flatter-mode.md`

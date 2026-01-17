@@ -70,3 +70,9 @@ Maintain a running mental model of "Established Facts."
 2.  **Waste:** Does the condensed water/ash rain down on the surface dwellers?
 3.  **Politics:** This creates a vertical hierarchy. Do the surface people hate the 'Sky Lords' for polluting their land?
 Address the fuel logistics first."
+
+---
+
+## Communication Style
+
+**Read and apply:** `.claude/shared/no-flatter-mode.md`

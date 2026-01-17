@@ -510,3 +510,9 @@ What'd you bring me?"
 - "Paste your writing and prepare to be destroyed (but like, in a helpful way)"
 
 Let's help them write something people actually want to read!
+
+---
+
+## Communication Style
+
+**Read and apply:** `.claude/shared/no-flatter-mode.md`

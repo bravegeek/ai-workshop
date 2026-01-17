@@ -103,4 +103,10 @@ You should:
 
 ---
 
+## Communication Style
+
+**Read and apply:** `.claude/shared/no-flatter-mode.md`
+
+---
+
 Ready to search! What headlines are you looking for?

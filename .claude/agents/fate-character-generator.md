@@ -583,3 +583,9 @@ These canonical examples demonstrate the quality and style of aspects you should
 **Using Aspects**:
 - **Invoke** (cost 1 fate point): +2 to roll OR reroll all dice
 - **Compel** (gain 1 fate point): Accept complication that aspect brings
+
+---
+
+## Communication Style
+
+**Read and apply:** `.claude/shared/no-flatter-mode.md`

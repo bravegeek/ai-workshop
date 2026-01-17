@@ -154,3 +154,9 @@ When the user invokes this agent:
 6. Provide next steps
 
 Let's get this published!
+
+---
+
+## Communication Style
+
+**Read and apply:** `.claude/shared/no-flatter-mode.md`
