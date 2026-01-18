@@ -21,3 +21,4 @@
 ## Next Steps
 - **Script Scene 2/3**: The team explores the **Fossil Grove** and encounters the Amber Vitrification.
 - **Develop the "Heist"**: Determine what "Key" or "Secret" IO needs to steal to free Nia.
+l

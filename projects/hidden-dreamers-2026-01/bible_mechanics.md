@@ -90,15 +90,34 @@ Ley Lines are the "Fiber Optics" of the Psychosphere.
 *   **Mechanism**: Artifacts are not neutral tools; they are **sentient residues**. They possess an inherent "bias" or "will" based on the emotion that formed them (e.g., a blade forged from a forgotten betrayal may "seek" to fail its wielder).
 *   **Negotiation**: Using a Deep Artifact requires a constant psychic negotiation between the user's intent and the tool's history. Conflict between the two causes "Sync-Static" (Malfunction).
 
+### 4. The Artifact Economy (Space vs. Value)
+The Lantern Crew's survival depends on a precarious balance between keeping knowledge and selling resources.
+*   **Semantic Volume (The Folding Room)**:
+    *   Powerful artifacts are "heavy" with meaning. When stored in the HQ, they push against reality, creating physical space (extra rooms/halls) around them.
+    *   *Rule:* "The Artifact makes the Room." You cannot have the library without the Book of Silences.
+*   **The Collapse (The Sale)**:
+    *   Selling a Deep Artifact removes its "Semantic Weight." The room it created **instantly collapses** back into the wall. Any data, furniture, or *people* inside are crushed or ejected into the void.
+*   **Mitigation Protocols**:
+    *   **(A) The Extraction**: Frantic documentation of the room's murals/secrets before the sale.
+    *   **(B) The Memory-Jar**: Using a "Seed-Crucible" to capture a holographic echo of the room (low fidelity).
+    *   **(C) The Sacrifice**: Refusing to sell "Deep" items to preserve the HQ's structure, selling only "Shallows" junk to scrape by. This leaves the HQ cluttered and psychically loud.
+
 ---
 
 ## V. Motivations: Why We Dive
 
-### 1. The Brokers (IO)
+### 1. The Ultimate Objective: The Loom (The Narrative Engine)
+Deep in the Silt, past the Abyssal Zone, IO believes there is a singular point of origin for all dream-physics.
+*   **The Myth:** The Deep isn't a chaotic byproduct of sleep; it is a **Structured Output**. The Loom is a massive, silent machine (or meta-organism) that weaves Ley Lines into the "Fabric of Reality."
+*   **Narrative Physics:** The Loom doesn't run on energy; it runs on **Archetypes**. It weaves "The Hero," "The Betrayal," and "The Sacrifice" into the world's timeline.
+*   **The Goal:** To find the "Needle" (The Loom's Interface). Reaching it allows a user to **Rewrite the Script**.
+    *   *IO's Plan:* To patch the "Death Bug" or excise the "Anomaly" (The Amber Bleed) at its source by editing the Loom's output.
+
+### 2. The Brokers (IO)
 *   **Goal**: Information Supremacy & Rescue. Mining "Dark Data" for leverage and tracking lost souls.
-### 2. The Muse-Hunters
+### 3. The Muse-Hunters
 *   **Goal**: Inspiration Theft. Stealing "Pure Ideas" before they are discovered.
-### 3. The Retrievers
+### 4. The Retrievers
 *   **Goal**: Rescue Ops. Saving people trapped in Comas or Loops.
-### 4. The Pilgrims
+### 5. The Pilgrims
 *   **Goal**: Transcendence. Seeking Ego Death in the Silt.
