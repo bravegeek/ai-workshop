@@ -1,4 +1,4 @@
-# Hidden Dreamers: Technology & Artifacts
+/# Hidden Dreamers: Technology & Artifacts
 
 ## I. The Aethelgard Tech (Bio-Crystalline)
 
@@ -10,47 +10,46 @@
 *   **Application:**
     *   **The Headsets:** IO has integrated small shards into the team's throat-mics.
     *   **The Danger:** The connection is "Open." If you don't toggle it off, you hear the other person's intrusive thoughts. Prolonged exposure causes "Drift" (identity loss).
-    *   **Nia's Fall:** Nia Aethelgard wore a raw, unshielded shard 24/7. She eventually tuned into the **Sleeping God's** frequency and was lured into the Deep.
 
 ### 2. The Techno-Mage Loadout (IO's Kit)
 IO bridges the gap between Dream-Logic and Silicon.
 *   **The Deck (The Grimoire)**: A brass-bound cyberdeck with fluid-pump keys. It runs "Translation Scripts" (Python spells) that force dream-physics to obey logic rules.
-    *   *Example:* `sudo /root/gravity -invert`
-*   **The Monocle (Mage-Sight)**: A multi-lens goggle with corneal implants. It renders the dream as a **LIDAR Point-Cloud**, revealing the wireframe structure of Ley Lines and Entities.
+*   **The Monocle (Mage-Sight)**: A multi-lens goggle with corneal implants. It renders the dream as a **LIDAR Point-Cloud**. 
+    *   **Anti-Mesmerism:** The Monocle filters the Eye's gaze, preventing the user from falling into the "Symmetry Trance."
 *   **The Gauntlet (The Wand)**: A haptic glove allowing "Cursor" interaction. She can "Drag and Drop" small dream objects or "Copy/Paste" structures.
 
 ## II. The Cursed Tools (Espionage)
 
 ### 1. The Whispering Iron (The Psychic Wiretap)
 *   **Description:** A rusted iron nail or needle made of "Dead Data" (Deep Matter).
-*   **Function:**
-    *   **Dream:** Driven into a target's shadow.
-    *   **Reality:** Placed near a bed or workspace.
-    *   **Effect:** It records the target's **Inner Monologue** and emotional state.
-*   **The Risk:** Playback is viral. Listening to the recording risks infecting the listener with the target's neuroses, obsessions, or phobias.
-*   **Prevalence:** Recently appearing in high numbers near **Amber Bleed** zones, suggesting a massive surveillance effort by an unknown actor (The Anomaly).
+*   **Function:** Records the target's **Inner Monologue** and emotional state.
 
 ## III. The HQ Tech (The Cistern)
 
-### 1. The Heart of the Storm (The Battery)
+### 1. The Schema-Plates (Retrieval)
+*   **Description:** Heavy, 8x10 panes of leaded glass.
+*   **Function:** "Flash-Burns" the symbolic wireframe of an object onto the plate.
+
+### 2. The Abyssal Bath (The Developer)
+*   **Role:** The Cistern water acts as the universal developer fluid.
+*   **Star-Field (Light-Pollution):** Each print leaves bioluminescent motes. If unpurged by a Tidal Flush, these fragments corrupt future prints (Fidelity Loss).
+
+### 3. The Heart of the Storm (The Battery)
 *   **Type:** A Class-5 Manic Geode (Indigo).
-*   **Location:** Suspended 80m deep in the Abyssal Reservoir.
-*   **Function:**
-    *   **Power Source:** Absorbs ambient Ley Line radiation.
-    *   **Reality Anchor:** Projects a "Logic Field" that keeps the HQ's physics stable despite the depth.
-*   **Control:** **Tuning Dampers** (Lead/Copper plates) are mechanically lowered to muffle the battery or raised to "Harpoon" a passing Ley Line.
+*   **The Reality:** The **Eye of a Leviathan**, trapped in rusted 19th-century anchor chains at 80m.
+*   **Function:** Power source and reality anchor for the HQ.
+*   **Maintenance:** Requires "Barnacle Scraping" to remove **Psychic Lampreys** that drain the field.
+*   **Control:** **Tuning Dampers** (Lead eyelids) are mechanically lowered to muffle the Eye's gaze.
 
-### 2. Dive Gear & Immersion
-*   **Standard Rigs (Dry Dives):**
-    *   **Location:** The Ground Floor "Rim."
-    *   **Tech:** Shielded, sensory-deprivation pods.
-    *   **Usage:** The default method for 90% of missions. Safe, buffered, and grounded.
-*   **The Wet-Rigs (Overclocking):**
-    *   **Design:** Modified full-face SCUBA masks with integrated Psyloc-Comms.
-    *   **Usage:** **Emergency Only**. The crew dives physically into the Cistern water.
-    *   **Effect:** The water acts as a superconductor for the Ley Line. It removes the safety buffers, allowing for massive feats of "Dream Logic" modification, but risks frying the user's nervous system.
+### 4. Dive Gear & Chronometry
+*   **Standard Rigs (Dry Dives):** Sensory-deprivation pods for 90% of missions.
+*   **The Wet-Rigs:** Modified SCUBA for physical immersion. 
+    *   **Thermal Lining:** The Cistern water is "Psychically Cold."
+    *   **Non-Conductive Crowbars:** Used for prying lampreys off the Eye without conducting the "Song."
+*   **Mechanical Chronometers:**
+    *   **Necessity:** Digital clocks fail or glitch near the Eye. Time Dilation (1 min = 1 hour) makes internal time-sensing impossible.
+    *   **Design:** Over-sized, brass, wind-up clocks worn on the forearm.
+    *   **The Rule:** "Trust the Tick." If the hand moves, time has passed, regardless of how you feel.
 
-### 3. The Tuning Forks (Medical)
-*   **Purpose:** Treating "The Bends" (Psychic Decompression).
-*   **Mechanism:** Massive, floor-standing iron forks. 
-*   **Acoustic Interface:** When struck, they use the **Heptagonal acoustics** of the vault to propagate a "Logic-Pulse." The non-repeating echo shatters dream-logic residues clinging to a diver's mind, forcing them to re-sync with reality.
+### 5. The Tuning Forks (Medical)
+*   **Purpose:** Treating "The Bends" (Psychic Decompression). When struck, the heptagonal acoustics shatter dream-logic residues clinging to a diver's mind.

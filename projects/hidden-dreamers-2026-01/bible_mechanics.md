@@ -53,7 +53,7 @@ The Deep is not a land; it is a **pressure zone**.
 
 ---
 
-## III. Ley Lines (The Data Streams)
+### 3. Ley Lines (The Data Streams)
 Ley Lines are the "Fiber Optics" of the Psychosphere.
 
 ### 1. Structure & Flow
@@ -66,7 +66,7 @@ Ley Lines are the "Fiber Optics" of the Psychosphere.
 ### 2. Interaction with Reality (The Bleed)
 *   **Nodes (Confluences)**: Intersections of lines (Haunted places, The Cistern).
 *   **The Psychic Watershed**: Ley Lines drift like weather, influenced by the city's collective mood (The Metropolitan Psyche).
-*   **Burst Events**: If a line clogs, it ruptures into reality (Poltergeist phenomena).
+*   **The Tidal Flush (The Eclipse)**: High tides pull the bioluminescent "Star-Field" (Light Pollution) out of the Cistern and into the Deep, resetting the developer bath.
 
 ---
 
@@ -79,8 +79,26 @@ Ley Lines are the "Fiber Optics" of the Psychosphere.
     *   **Lucid (10-30%)**: Safe. Watching a movie.
     *   **Deep Dive (80-90%)**: Dangerous. You *are* the dream. Risk of Drowning.
 
-### 2. Artifact Translation
-*   **The Anchor Principle**: To bring an item back, you need a physical "Seed" (The Crucible Method) that shares a *sympathetic resonance* with the dream object.
+### 2. Chronal Pressure (Time Dilation)
+*   **Source:** The intense "Psychic Gravity" of the Leviathan's Eye (The Battery).
+*   **Mechanism:** Proximity to the Eye warps the flow of time relative to the surface.
+*   **Gradient:**
+    *   **Surface/Rim:** 1:1 ratio.
+    *   **The Mid-Zone (40m):** 1:10 ratio (1 min = 10 mins).
+    *   **The Eye (80m):** 1:60 ratio (1 min = 1 hour).
+*   **Hazard:** Divers may experience "Reality Drift," surfacing to find days have passed while they were performimg a "quick" repair.
+
+### 3. Psychic Parasitism (The Lampreys)
+*   **Entity:** **Psychic Lampreys** (Deep Parasites).
+*   **Behavior:** They are drawn to high-density logic fields. They latch onto the Leviathan's Eye like barnacles to feed on the Indigo current.
+*   **Symptom:** As they feed, the HQ's "Reality Buffer" thins. Walls may become translucent, gravity may flicker, or the "Folding Rooms" may begin to compress unexpectedly.
+*   **Treatment:** Physical removal (The Barnacle Scrape) using non-conductive tools.
+
+### 4. Artifact Translation
+*   **The Schema-Plate Principle**: To bring an item back, you must "Capture" its code on lead-glass plates.
+*   **The Gestation Cycle (The Cistern)**:
+    *   **Development**: Plates are submerged. Silt accretes onto the fractal etchings.
+    *   **Seasoning (Ontological Cooling)**: Objects must "cool" in the water until their resonance matches Reality.
 *   **Artifact Density (The Diamond Theory)**:
     *   **Pressure = Hardness**: The deeper an object is found, the more "compressed" it is by psychic pressure.
     *   **Deep Artifacts (Hard-Code)**: Indestructible, hyper-real items that impose their own physics on reality.

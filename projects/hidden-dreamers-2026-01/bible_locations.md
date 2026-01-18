@@ -23,15 +23,22 @@
     *   **Function:** The stone floor encircling the central pit. Contains living quarters and "Dry-Dive" pods.
 *   **The Cistern (The Central Pool):**
     *   **Shape:** **Heptagon (7-Sided)**.
-    *   **Geometry:** A "Magical" number (The Seeker). Seven-sided rooms are mathematically "unstable," creating a non-repeating acoustic echo.
-    *   **The Ghost Floors (Storm Resonance):** During **Ley Line Surges (High Tide)**, the 7-sided geometry acts like a broken radio receiver.
-        *   **Temporal Overlay:** The walls "glitch," overlaying the current reality with the **19th-Century Past**. The crew might suddenly be standing on wooden scaffolding, surrounded by the "Ghost-Engineers" (The Original Occultists) who dug the pit.
-        *   **The Risk:** These ghosts are "echoes of failure." Interacting with them offers "Original Intent" knowledge but risks "Temporal Bleed" (getting stuck in a past trauma loop).
-    *   **Depth:** 150m deep vertical pit.
-    *   **The Submerged Platform (The Crucible):** Accessed via stairs. A metal grating platform sitting waist-deep in the water.
-    *   **The Heart of the Storm (80m depth):** The Indigo Geode Battery. Its glow is a faint, pulsing "star" in the black heptagonal void.
-    *   **Usage:** **High Risk / High Reward**. Entering the water (A "Wet Dive") connects the dreamer directly to the raw Ley Line current.
-
+    *   **Geometry:** A "Magical" number. Creates non-repeating acoustic echoes that prevent "Standing Ideas" (obsessions) from taking root in the HQ.
+    *   **The Ghost Floors (Storm Resonance):** During **Ley Line Surges (High Tide)**, the walls "glitch," overlaying reality with the **19th-Century Past**.
+        *   **The Origin:** These are "Psychic Snapshots" captured by the Eye during the Victorian collapse.
+        *   **The Blink:** During storms, the Eye "blinks," projecting the moment of the Architects' death onto the current room. 
+        *   **Danger:** Modern catwalks may vanish, replaced by ghostly, rotting 19th-century scaffolding that cannot support weight.
+    *   **The Gestation Racks (The Darkroom):** Submerged at 10m to 50m. This is where Schema-Plates are developed in the Star-Field (Light Pollution).
+    *   **Depth & Chronal Pressure:**
+        *   **The Gradient:** Proximity to the Eye causes **Time Dilation**.
+        *   **80m Depth:** 1 minute at the battery equals roughly 1 hour in the HQ. Divers must use mechanical timers to track their air and relative reality.
+    *   **The Heart of the Storm (80m depth):** The **Indigo Geode**.
+        *   **The Truth:** It is the **Eye of a Leviathan**, harpooned and dragged up by the original Architects.
+        *   **The Suspension:** It is tangled in a massive, rusted web of 19th-century anchor chains (The Harpoon Snap). The winch systems are shattered, leaving the god-beast's eye paralyzed halfway to the surface.
+        *   **Maintenance (The Barnacle Scrape):** The Eye attracts **Psychic Lampreys** (Deep Parasites) that feed on its "Logic Leakage." 
+            *   *Crisis:* If too many lampreys attach, they drain the HQ's Logic Field, causing rooms to collapse or gravity to fail.
+            *   *The Job:* The crew must perform "Wet Dives" to physically pry the lampreys off the Geode with non-conductive crowbars.
+    *   **Usage:** The industrial and existential hub. Maintenance of the Eye is the price of power.
 ### 3. Atmosphere
 *   **Sound:** **The God's Ear**. The 7-sided geometry prevents standing waves, making whispers carry for miles with eerie clarity.
 *   **Lighting:** Blue status LEDs and the faint, scary indigo pulse from the deep.
