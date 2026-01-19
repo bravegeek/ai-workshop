@@ -24,3 +24,9 @@ The aesthetic has shifted from **Cyberpunk-Espionage** to **Analog Survivalism /
 ## Limitations
 - The specific "Objective Artifact" for this mission is still undefined.
 - The geography of the "Indigo Void" ledge needs mapping.
+
+## 2026-01-18 Update: Security & The Muse
+- **Creative Muse Agent**: Utilized the "Cognitive Psychologist" persona (NO_FLATTERY) to stress-test the HQ security.
+- **Logic Gap Identified**: The "Artifact makes the Room" rule created a structural vulnerability (The Divorce Event).
+- **Solution**: Introduced the "Emotional Airlock" to solve the panic-entry paradox.
+- **The Dog**: Evolved from a standard guard to a "System Parasite" that enforces thematic/temporal rules (Victorian Etiquette) rather than just biting intruders.

@@ -39,3 +39,18 @@ l
 1. Define the "Heist" logic: What is the specific "Key" or "Secret" IO needs to steal to free Nia?
 2. Develop the PESTLE impact: How do the "Method Actor" mechanics change the value of information in the city?
 3. Detail the "Nia-Amber" shard: What memory does it contain, and what does it reveal about the Sleeping God?
+
+## 2026-01-18: HQ Security & The Ghost Dog (Brainstorming)
+
+### Security Concept: The Semantic Perimeter
+- **The Vulnerability:** Since artifacts generate rooms ("Semantic Volume"), removing an artifact collapses the room. Intruders could "divorce" the room by introducing dissonance.
+- **The Solution (Front Door):** A **Script-Lock Artifact**. It requires a specific emotional frequency to manifest the entrance.
+    - *The Panic Deadlock:* If the crew is stressed/fleeing, they can't open the door.
+    - *The Fix:* An **Emotional Airlock** (Decompression Chamber). A buffer zone that forcibly dampens resonance/adrenaline for 60 seconds to "key" the entrant.
+
+### The Guardian: The Polymorphic Ghost Dog
+- **Origin:** A ghost dog from the Victorian Architects' era, trapped in an artifact before the abandonment.
+- **Mechanic:** It sleeps inside artifacts, traveling via the "Logic Field Tether."
+- **"The Polymorphic Mutt":** It takes on the properties of the artifact it sleeps in (e.g., Inferno = Hellhound, Script-Lock = Stone Gargoyle).
+- **The Danger:** It acts as a system parasite. It migrates to the warmest/most active artifact.
+- **Victorian Loyalty:** It might view the crew as squatters. It potentially enforces strict **19th-Century Etiquette** (no running, no swearing) rather than IFF (Identify Friend/Foe). Waking it might collapse the modern reality of the room back to the 19th century.
