@@ -131,7 +131,45 @@ The Lantern Crew's survival depends on a precarious balance between keeping know
 
 ---
 
-## V. Motivations: Why We Dive
+## VI. The Immune System & The Operator (Method Mechanics)
+
+### 1. The Principle: "The Foreign Body"
+The Deep behaves like a **Psychic Immune System**. It seeks to maintain narrative coherence.
+*   **The Breach:** A Diver entering a memory is a "Foreign Body" (an infection).
+*   **The Response:** If the environment detects an anomaly (e.g., a diver wearing modern clothes in a Victorian memory), it attacks.
+    *   *Mild Response:* "Narrative Friction." Doors lock, NPCs become hostile, weather turns bad.
+    *   *Severe Response:* "Rejection." The floor collapses, gravity reverses, or the diver is forcibly ejected (waking up with a migraine).
+*   **The Camouflage:** "Method Acting" is survival. It is the art of convincing the Immune System that you *belong* in the scene.
+
+### 2. Preparation: Tuning the Radio
+We do not prep for every dive. Zone 1-2 (The Shallows) are chaotic enough to allow "Smash-and-Grab" tactics. Zone 3+ requires "Scripting."
+
+*   **The Hum (Passive Monitoring):**
+    *   The Cistern acts as a massive antenna. The water vibrates to the frequency of nearby "Drifts."
+    *   *The Read:* The Technomancer monitors the "Genre Frequency." (e.g., "I'm picking up Jazz and rain. It's a Noir Zone.")
+*   **The Tap (Active Intel):**
+    *   **Action:** Dropping a sensor-buoy (The Mic) into the Cistern.
+    *   **Result:** Audio-only feed of the target zone. The team listens to the "Script" to determine the necessary costumes and roles.
+    *   *Decision:* "It's a War Zone. Load the 'Medic' and 'Soldier' avatars. Do not break character."
+
+### 3. The Technomancer (The Stage Manager)
+The Technomancer stays "Dry" in the HQ, operating the **Soundboard**. They are the lifeline.
+
+*   **The Monitor (Script Stability):**
+    *   **Visual:** They watch a waveform on a CRT. Smooth = "In Character." Jagged/Red = "Dissonance" (The Immune System is suspicious).
+    *   **The Prompt:** If a Diver forgets their role or freezes, the Technomancer feeds them lines via the Psyloc-Link.
+        *   *Operator:* "IO, don't look at the camera. Pick up the phone. Act natural."
+*   **The Backdrop (Rendering Support):**
+    *   **Problem:** High-fidelity memories require immense processing power to render convincing avatars.
+    *   **Action:** The Technomancer burns server power (or sacrifices artifacts) to "Up-Res" the Diver's camouflage if it starts to glitch.
+*   **The Stage Hook (Narrative Extraction):**
+    *   **Problem:** Waking up abruptly from Zone 4 causes "The Bends" (Psychic Shock).
+    *   **Solution:** The Technomancer hacks the environment to spawn a "Narrative Exit."
+    *   *Example:* In a Sci-Fi memory, the Technomancer hacks a console to announce "Emergency Venting." The airlock opens—that is the safe exit point.
+
+---
+
+## VII. Motivations: Why We Dive
 
 ### 1. The Ultimate Objective: The Loom (The Narrative Engine)
 Deep in the Silt, past the Abyssal Zone, IO believes there is a singular point of origin for all dream-physics.
