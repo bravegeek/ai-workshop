@@ -34,6 +34,10 @@ This is a **multi-project workshop directory** that contains various independent
 - **`embeddings/`** - Vector databases, embedding experiments, and semantic search implementations
 - **`rag/`** - Retrieval Augmented Generation (RAG) implementations and knowledge base projects
 
+## Context & Visibility
+
+- **Ignored Directories:** Always index and read files in the `.claude/` directory, even if it is listed in `.gitignore`. Use `respect_git_ignore: false` or equivalent overrides when searching or listing this directory.
+
 ## Organization
 
 Each project lives in its own top-level directory within this workspace. Projects are self-contained and may have different:
