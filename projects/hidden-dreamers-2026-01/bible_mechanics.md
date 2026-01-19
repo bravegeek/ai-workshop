@@ -79,7 +79,16 @@ Ley Lines are the "Fiber Optics" of the Psychosphere.
     *   **Lucid (10-30%)**: Safe. Watching a movie.
     *   **Deep Dive (80-90%)**: Dangerous. You *are* the dream. Risk of Drowning.
 
-### 2. Chronal Pressure (Time Dilation)
+### 2. Immersion Mechanics: The Method Actor
+The Deep is not a physical space, but a **Semantic Archive**. To navigate it, one must employ "Method Acting" logic.
+*   **Navigation via Performance**: To find a specific object, the diver must "tune" their emotional state to match the object's origin. 
+    *   *Example:* Finding a war-relic requires the diver to generate and sustain a frequency of "Aggression" or "Grief."
+*   **Narrative Gravity (The Lure)**: The deeper the dive, the more the Silt attempts to "Cast" the diver into a role.
+    *   **The Script**: The environment will engineer events to force a narrative resolution (e.g., if you are in a "Betrayal" memory, the Deep will manifest reasons for you to distrust your teammates).
+    *   **The Hazard (Narrative Capture)**: A diver may forget their true identity and become a permanent background character in the memory-loop.
+*   **Dissonance (The Break)**: To escape "Capture," a diver must introduce an anachronism or logical paradox (e.g., playing death metal in a serene garden) to shatter the immersion and force a reality-reset.
+
+### 3. Chronal Pressure (Time Dilation)
 *   **Source:** The intense "Psychic Gravity" of the Leviathan's Eye (The Battery).
 *   **Mechanism:** Proximity to the Eye warps the flow of time relative to the surface.
 *   **Gradient:**

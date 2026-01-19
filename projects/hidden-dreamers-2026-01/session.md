@@ -22,3 +22,8 @@
 - **Script Scene 2/3**: The team explores the **Fossil Grove** and encounters the Amber Vitrification.
 - **Develop the "Heist"**: Determine what "Key" or "Secret" IO needs to steal to free Nia.
 l
+# Session: 2026-01-18
+- **Focus:** Scene 2/3 - The Fossil Grove.
+- **Agent:** Creative Muse (Cognitive Scaffold).
+- **Decision:** Adopted 'Method Actor' immersion model (Option 2).
+- **Mechanic:** Narrative Gravity and Performance-based navigation established.
