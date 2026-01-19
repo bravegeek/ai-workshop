@@ -28,7 +28,7 @@ This is a **multi-project workshop directory** that contains various independent
 
 - **`prompts/`** - Prompt templates, examples, experiments, system prompts, and few-shot examples
 - **`personas/`** - AI personas, character definitions, role-specific instructions, and personality configurations
-- **`agents/`** - AI agent implementations, configurations, and autonomous agent systems
+- **`.claude/agents/`** - **PRIMARY LOCATION FOR AGENTS.** Shared AI agent implementations and configurations are stored here. Always check this directory for agent definitions.
 - **`workflows/`** - Multi-step AI workflows, chains, orchestration patterns, and complex task flows
 - **`fine-tuning/`** - Datasets, configurations, and scripts for model fine-tuning
 - **`embeddings/`** - Vector databases, embedding experiments, and semantic search implementations
