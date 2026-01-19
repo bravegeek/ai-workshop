@@ -1,72 +1,80 @@
 # Shared .claude Configuration
 
-This directory contains Claude Code agents and shared configurations that can be synced across multiple repositories using a bare git repo approach.
+This directory contains Claude Code agents and shared configurations that are synced across multiple repositories using a central GitHub repository.
 
 ## Overview
 
-Each project's `.claude` directory is an independent git repo that pushes/pulls to a central bare repo, enabling bidirectional sync with standard git commands.
+Each project's `.claude` directory is an independent git repo that pushes/pulls to a central GitHub repository, enabling synchronization of agents and settings across all your projects.
 
 ```
-~/dev/.claude-shared.git/     # bare repo (central hub)
-
-project-a/.claude/            # working clone
-project-b/.claude/            # working clone
-project-c/.claude/            # working clone
+GitHub Repo (private/shared-ai-tools)
+       ^
+       | push/pull
+       v
+project-a/.claude/
+project-b/.claude/
 ```
 
-## Initial Setup
+## Initial Setup (One Time)
 
-### 1. Create the Bare Repo (One Time)
+1. **Create a Repository**: Create a repository on GitHub (e.g., `shared-ai-tools`).
 
-```bash
-git init --bare ~/dev/.claude-shared.git
-```
+2. **Initialize Your First .claude Directory**:
 
-### 2. Initialize Your First .claude Directory
+   ```bash
+   cd /path/to/your/project/.claude
+   git init
+   git branch -M main
+   git remote add origin https://github.com/YOUR_USERNAME/shared-ai-tools.git
 
-```bash
-cd /path/to/your/project/.claude
-git init
-git remote add origin ~/dev/.claude-shared.git
+   # Ignore repo-specific files
+   echo "settings.local.json" > .gitignore
 
-# Ignore repo-specific files
-echo "settings.local.json" > .gitignore
+   # Initial commit and push
+   git add agents/ shared/ .gitignore
+   git commit -m "Initial shared .claude config"
+   git push -u origin main
+   ```
 
-# Initial commit and push
-git add agents/ shared/ .gitignore
-git commit -m "Initial shared .claude config"
-git push -u origin main
-```
+3. **Tell Parent Repo to Ignore .claude**:
 
-### 3. Tell Parent Repo to Ignore .claude
+   Since `.claude` is its own git repo, the parent project must ignore it:
 
-Since `.claude` is now its own git repo, the parent project should ignore it:
-
-```bash
-cd /path/to/your/project
-echo ".claude/" >> .gitignore
-git add .gitignore
-git commit -m "Ignore .claude directory (managed separately)"
-```
+   ```bash
+   cd /path/to/your/project
+   echo ".claude/" >> .gitignore
+   git add .gitignore
+   git commit -m "Ignore .claude directory (managed via submodule/repo)"
+   ```
 
 ## Adding to New Projects
 
-```bash
-cd /path/to/new/project
-git clone ~/dev/.claude-shared.git .claude
+To use your shared configuration in a new project:
 
-# Add repo-specific settings (not synced)
-cat > .claude/settings.local.json << 'EOF'
-{
-  "permissions": {
-    "allow": []
-  }
-}
-EOF
+1. **Clone the Config**:
 
-# Tell parent repo to ignore .claude
-echo ".claude/" >> .gitignore
-```
+   ```bash
+   cd /path/to/new/project
+   git clone https://github.com/YOUR_USERNAME/shared-ai-tools.git .claude
+   ```
+
+2. **Add Local Settings** (Optional/Not Synced):
+
+   ```bash
+   cat > .claude/settings.local.json << 'EOF'
+   {
+     "permissions": {
+       "allow": []
+     }
+   }
+   EOF
+   ```
+
+3. **Ignore in Parent**:
+
+   ```bash
+   echo ".claude/" >> .gitignore
+   ```
 
 ## Daily Workflow
 
@@ -86,30 +94,22 @@ cd .claude
 git pull
 ```
 
-### Check Status
-
-```bash
-cd .claude
-git status
-git log --oneline -5
-```
-
 ## Repo-Specific Agents
 
-To create agents that stay local to one repo (not synced):
+To create agents that stay local to one repo (not synced to GitHub):
 
-```bash
-cd .claude
+1. **Configure .gitignore**:
+   ```bash
+   cd .claude
+   echo "agents/local-*.md" >> .gitignore
+   git add .gitignore
+   git commit -m "Allow local-only agents"
+   git push
+   ```
 
-# Add pattern to .gitignore
-echo "agents/local-*.md" >> .gitignore
-git add .gitignore
-git commit -m "Allow local-only agents"
-git push
-
-# Now create local agents with the prefix
-touch agents/local-my-project-agent.md
-```
+2. **Create Local Agent**:
+   Create files with the ignored prefix:
+   `touch agents/local-my-project-agent.md`
 
 ## Directory Structure
 
@@ -121,30 +121,7 @@ touch agents/local-my-project-agent.md
 │   └── ...
 ├── shared/                    # Shared resources (synced)
 │   └── no-flatter-mode.md
-├── settings.local.json        # Repo-specific (not synced)
+├── settings.local.json        # Repo-specific (ignored)
 ├── .gitignore
 └── README.md
 ```
-
-## Handling Conflicts
-
-If you edit the same file in multiple repos before syncing:
-
-```bash
-cd .claude
-git pull
-# If conflicts, resolve them in your editor
-git add .
-git commit -m "Resolve merge conflict"
-git push
-```
-
-## Quick Reference
-
-| Action | Command |
-|--------|---------|
-| Save changes | `cd .claude && git add . && git commit -m "msg" && git push` |
-| Get changes | `cd .claude && git pull` |
-| New project | `git clone ~/dev/.claude-shared.git .claude` |
-| View history | `cd .claude && git log --oneline` |
-| Check status | `cd .claude && git status` |
