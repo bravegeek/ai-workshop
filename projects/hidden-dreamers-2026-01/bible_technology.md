@@ -40,6 +40,10 @@ IO bridges the gap between Dream-Logic and Silicon.
 *   **Function:** Power source and reality anchor for the HQ.
 *   **Maintenance:** Requires "Barnacle Scraping" to remove **Psychic Lampreys** that drain the field.
 *   **Control:** **Tuning Dampers** (Lead eyelids) are mechanically lowered to muffle the Eye's gaze.
+*   **The Sight (Dual-Mode):**
+    *   **Passive Mode (The Oracle):** The Eye exists outside of linear time. It bleeds "Ghost Files" onto the HQ servers—corrupted logs of dives that haven't happened yet or blueprints for tech not yet invented. The crew mines this "Future Echo" for intel, though interpretation is risky (The Self-Fulfilling Prophecy).
+    *   **Active Mode (The Periscope):** In emergencies, the Technomancer can mechanically retract the Lead Eyelids. This projects a holographic, real-time sphere of any location in the Deep.
+        *   *The Cost:* Opening the Eye releases **Lethe-Light**. It doesn't burn skin; it bleaches memory. Exposure >30 seconds causes permanent "Mnestic Rot" (forgetting names, faces, or core motivations).
 
 ### 4. Dive Gear & Chronometry
 *   **Standard Rigs (Dry Dives):** Sensory-deprivation pods for 90% of missions.

@@ -26,7 +26,8 @@
     *   **Geometry:** A "Magical" number. Creates non-repeating acoustic echoes that prevent "Standing Ideas" (obsessions) from taking root in the HQ.
     *   **The Ghost Floors (Storm Resonance):** During **Ley Line Surges (High Tide)**, the walls "glitch," overlaying reality with the **19th-Century Past**.
         *   **The Origin:** These are "Psychic Snapshots" captured by the Eye during the Victorian collapse.
-        *   **The Blink:** During storms, the Eye "blinks," projecting the moment of the Architects' death onto the current room. 
+        *   **The Event (The Long Fade):** The collapse wasn't sudden; it was a slow, agonizing erosion. After harpooning the Leviathan, the Architects began to suffer from **Lethe-Light** exposure. First came the forgetting of names, then functions, then humanity. They didn't die all at once; they "drifted" while still awake.
+        *   **The Echoes:** During storms, the HQ replays this era of confusion. You see spectral Architects wandering the catwalks, staring at tools they no longer recognize, or endlessly repeating the same maintenance task because they forgot they just finished it. 
         *   **Danger:** Modern catwalks may vanish, replaced by ghostly, rotting 19th-century scaffolding that cannot support weight.
     *   **The Gestation Racks (The Darkroom):** Submerged at 10m to 50m. This is where Schema-Plates are developed in the Star-Field (Light Pollution).
     *   **Depth & Chronal Pressure:**

@@ -122,8 +122,10 @@ The Lantern Crew's survival depends on a precarious balance between keeping know
 *   **Semantic Volume (The Folding Room)**:
     *   Powerful artifacts are "heavy" with meaning. When stored in the HQ, they push against reality, creating physical space (extra rooms/halls) around them.
     *   *Rule:* "The Artifact makes the Room." You cannot have the library without the Book of Silences.
-*   **The Collapse (The Sale)**:
-    *   Selling a Deep Artifact removes its "Semantic Weight." The room it created **instantly collapses** back into the wall. Any data, furniture, or *people* inside are crushed or ejected into the void.
+*   **The Collapse (The Sale/Removal)**:
+    *   **The Logic Field Tether**: Artifacts only manifest their "Semantic Volume" when within the HQ's Class-5 Logic Field (powered by the Leviathan Eye).
+    *   **The Divorce**: Selling or removing an artifact from the HQ severs this tether. The item physically "shrinks" back to its base object size. The room it generated **instantly collapses** back into the wall. Any data, furniture, or *people* inside are crushed or ejected into the void.
+    *   **The Market**: Buyers (Corporations, Cults) purchase these items for their standalone utility, but they cannot replicate the spatial distortion without their own "Heart of the Storm."
 *   **Mitigation Protocols**:
     *   **(A) The Extraction**: Frantic documentation of the room's murals/secrets before the sale.
     *   **(B) The Memory-Jar**: Using a "Seed-Crucible" to capture a holographic echo of the room (low fidelity).
@@ -157,8 +159,8 @@ The Technomancer stays "Dry" in the HQ, operating the **Soundboard**. They are t
 
 *   **The Monitor (Script Stability):**
     *   **Visual:** They watch a waveform on a CRT. Smooth = "In Character." Jagged/Red = "Dissonance" (The Immune System is suspicious).
-    *   **The Prompt:** If a Diver forgets their role or freezes, the Technomancer feeds them lines via the Psyloc-Link.
-        *   *Operator:* "IO, don't look at the camera. Pick up the phone. Act natural."
+    *   **The Emotional Key-Frame (The Prompt):** Because language breaks in Zone 3+, the Technomancer cannot feed "lines." Instead, they pulse **Emotional Archetypes** through the Psyloc-Link.
+        *   *Example:* If IO freezes in a Noir scene, the Technomancer doesn't say "Act natural." They transmit a **"High-Contrast Melancholy"** pulse, forcing IO's body to adopt the correct slumped, weary posture of the role.
 *   **The Backdrop (Rendering Support):**
     *   **Problem:** High-fidelity memories require immense processing power to render convincing avatars.
     *   **Action:** The Technomancer burns server power (or sacrifices artifacts) to "Up-Res" the Diver's camouflage if it starts to glitch.
