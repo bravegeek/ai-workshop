@@ -57,13 +57,21 @@ The Deep is not a land; it is a **pressure zone**.
 Ley Lines are the "Fiber Optics" of the Psychosphere.
 
 ### 1. Structure & Flow
-*   **The Current**: A river of liquid light (Code/Starlight) carrying humanity's "Active" data (conversations, trends).
+*   **The Current (Mnemosyne-Current)**: A river of liquid light carrying the **"Semantic Plankton"**—the raw, unformed data of the collective human experience (half-formed ideas, stray emotions, sensory echoes).
+    *   **The Look:** A bioluminescent blizzard of glowing motes. To touch it is to experience a "Flash-Flood" of random human memories.
+    *   **The Function:** This is the **"Ink"** of reality. It provides the raw creative mass required for artifact crystallization.
 *   **The Tides (The Somatic Cycle)**:
     *   **The Heartbeat**: The Deep rises and falls with the REM cycle of the **Sleeping God**.
-    *   **High Tide (REM Active)**: Chaos. Gravity shifts. Ley Lines twist. Dangerous.
-    *   **Low Tide (Delta Wave)**: Deep sleep. Calm, silent, navigable. The only safe window for diving.
+    *   **High Tide (REM Active)**: The "Storm." The current surges, flushing the Silt from the Cistern and filling it with high-density Mnemosyne-Current. This is the only window for **Storm-Forging**.
+    *   **Low Tide (Delta Wave)**: Deep sleep. The current slows to a trickle. Calm, silent, and navigable for divers.
 
-### 2. Interaction with Reality (The Bleed)
+### 2. The Great Duality: The Eye vs. The Lines
+The stability of the HQ depends on the balance between two opposing forces:
+*   **The Eye (Lethe-Light):** The **Eraser**. It projects a field of "Null-Silence" that bleaches memory and dissolves narrative. It provides the "Blank Paper" of reality.
+*   **The Lines (Mnemosyne-Current):** The **Ink**. It provides the emotional weight and material density needed to "Write" new objects into existence.
+*   **The Synthesis:** Artifact development is the act of using the Eye’s power to hold a space open (The Paper) while the Ley Line Storm fills it with data (The Ink).
+
+### 3. Interaction with Reality (The Bleed)
 *   **Nodes (Confluences)**: Intersections of lines (Haunted places, The Cistern).
 *   **The Psychic Watershed**: Ley Lines drift like weather, influenced by the city's collective mood (The Metropolitan Psyche).
 *   **The Tidal Flush (The Eclipse)**: High tides pull the bioluminescent "Star-Field" (Light Pollution) out of the Cistern and into the Deep, resetting the developer bath.

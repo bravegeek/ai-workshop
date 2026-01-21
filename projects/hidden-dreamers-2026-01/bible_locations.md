@@ -46,7 +46,59 @@
 
 ---
 
-## II. The Deep: Key Biomes
+## II. HQ Access: The Alchemical Threshold
+
+### 1. The Entrance (B4 Surface Façade)
+*   **Location:** Fourth sub-basement (B4) of a nondescript commercial building.
+*   **Appearance:** A dusty, neglected storage area filled with outdated office furniture and rusted ventilation units.
+*   **The Transition:** A set of heavy, industrial non-descript doors leads to a clean, pressurized hallway. This serves as a "Decontamination" zone to keep surface grit from the sensitive 300m shaft.
+
+### 2. The Shaft (The Octagon)
+*   **Shape:** **Octagonal (8-Sided)**.
+*   **Depth:** 300 meters.
+*   **Symbolism (The Gate):** In occult tradition, the Octagon represents the bridge between the **Square** (Earth/Material) and the **Circle** (Spirit/Infinite). It is the geometry of "Squaring the Circle."
+*   **Architecture:** The shaft walls are lined with polished stone and brass vertical channels. A massive stairway wraps the circumference of the shaft, cantilevered from the ridges of the octagon.
+*   **Atmosphere:** Looking down, the shaft feels like a vertical foyer. The 300m drop is up-lit, highlighting the architectural precision.
+
+### 3. The Elevator (The Transforming Cage)
+*   **Concept:** A dual-purpose vessel that shifts geometry based on the "Class" of the descent.
+*   **Mechanism (Squaring the Circle):**
+    *   **Luxury Mode (The Circle):** For patrons and core crew. The floor segments retract to form a perfect, opulent circle. The interior is finished in dark wood, velvet, and warm brass. It feels isolated from the "Industrial" shaft outside.
+    *   **Freight Mode (The Octagon):** For hauling Silt or heavy gear. The curved wall panels slide back, and floor segments unfold to fill the entire octagonal footprint of the shaft. 
+    *   **Logic:** Pallets and mining equipment are rectangular; the octagon maximizes floor space and locks into the heavy-load guide rails for stability.
+*   **Psychic Significance:** The transition from Circle to Octagon is a physical manifestation of "breaking the dream" to deal with the "raw matter" of the Deep.
+
+### 4. Security Protocols
+
+#### Top-Side: The "Dead" Zone (B4)
+*   **Concept:** Security through **Psychic Exclusion**. The area is designed to be "cognitively slippery."
+*   **The Setting:** A dimly lit corridor, dusty with age.
+    *   **Right Side:** A decoy door (looks like a janitor's closet or bathroom).
+    *   **Left Side:** A wall of ancient filing cabinets and detritus.
+    *   **The Anchor:** A small side table with an **Old Tube Radio** playing faint classical music from public radio.
+*   **The Guard (The Broadcaster):** The Radio is a minor Artifact. It broadcasts a **"Normalcy Field"** woven into the music.
+    *   **The Effect:** If you turn Left toward the actual entrance (the Filing Cabinets), the field hits you. Your eyes slide off the furniture. You feel an overwhelming, gentle urge to leave—a sudden memory that you're late, or a conviction that "this is just trash, nothing here."
+    *   **The Decoy:** The mind naturally seeks the path of least resistance, steering intruders toward the harmless door on the Right.
+*   **The Key (Dissonance):** To see the entrance, you must **break the harmony**.
+    *   **Method:** Authorized personnel must actively hum a dissonant tune, focus on a sharp/painful memory, or use a "Static Generator" to cut through the soothing "Nothing to see here" signal.
+    *   **Access:** Once the trance is broken, the filing cabinets are revealed as a facade for the heavy, hermetic blast doors of the Decontamination Hallway.
+
+#### Bottom-Side: The Orthogonal Foyer
+*   **Origin:** This room did not exist in the original blueprints. It grew when the crew recovered **The Pale Lens** (Class-4 Artifact).
+    *   **Source:** Recovered from "The Lighthouse of Lethe"—a Dead Drift of a coastal city that forgot language. The Lens originally projected "Darkness" that erased identity; IO recalibrated it to target only *false* identities.
+*   **Layout:**
+    *   **The Rotunda:** A cold, grey marble circular chamber.
+    *   **Traffic Flow:** The elevator opens to a grand central staircase for "Patron" access. Wide, utilitarian ramps spiral down the perimeter walls for freight/carts, hiding behind heavy stone columns.
+    *   **The Centerpiece:** The Pale Lens sits on a rotating brass pedestal at the base of the stairs, constantly sweeping the room with a beam of "Null-Light" (light that casts no shadows).
+*   **The Mechanism (Narrative Detection):**
+    *   The Lens was originally a lighthouse meant to guide nightmares. Now, it filters **Intent**. It functions as a "Psychic Metal Detector," humming violently if it detects a "Foreign Narrative" (a spy with a cover story, a disguised intruder, or someone possessed by a Deep Parasite).
+*   **The Trap (The Zeno Loop):**
+    *   If the Lens flags a target, it doesn't attack physically. It warps the room's geometry using **Zeno's Paradox**.
+    *   **The Effect:** The intruder can walk toward the exit door, but they never get closer. Every step covers half the remaining distance, trapping them in an infinite, stretching hallway until security can "collect" them.
+
+---
+
+## III. The Deep: Key Biomes
 
 ### 1. The Drift (The Moving Continents)
 *   **Concept:** Massive, stable landmasses made of collective "Zeitgeist" (e.g., "The Cold War Paranoia," "The Victorian Repression," "The 2020s Anxiety").

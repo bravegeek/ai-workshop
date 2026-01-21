@@ -26,9 +26,18 @@ IO bridges the gap between Dream-Logic and Silicon.
 
 ## III. The HQ Tech (The Cistern)
 
-### 1. The Schema-Plates (Retrieval)
-*   **Description:** Heavy, 8x10 panes of leaded glass.
-*   **Function:** "Flash-Burns" the symbolic wireframe of an object onto the plate.
+### 1. The Resonant Seeds (Retrieval)
+*   **The Tool:** **"The Seed-Core"** (Null-Glass geometric forms).
+    *   **Material:** **Null-Glass** is a synthetic, non-reactive crystal that acts as a psychic vacuum. It has zero "Semantic Weight."
+    *   **Disguise:** Can be holographically masked to look like common props (coins, bolts, pocket watches) to bypass the Dream's Immune System.
+*   **Function:** Acoustic capture of an object's "Concept."
+*   **The Mechanic (The Heist):**
+    *   **The Tuning:** The Diver vibrates the Seed-Core (using a "Tuning Fork") to match the target object's frequency.
+    *   **The Vacuum:** The seed sucks the "Soul/Pattern" out of the dream object. The original object turns to grey ash, and the seed begins to glow.
+    *   **The Decay (The Rot):** A charged seed is volatile. It must be developed within **3 Somatic Cycles** (approx. 48 hours). If it sits too long, the captured pattern "rots," turning the seed into a **"Poltergeist Shard"** (a glitched, hostile anomaly that haunts the HQ).
+*   **The Development (Storm-Forging):**
+    *   **The Storm:** You cannot develop just anytime. You must wait for a **Ley Line Storm (High Tide)** to flush the Silt from the Cistern.
+    *   **The Crystallization:** The seed is lowered into the storm. The "Liquid Starlight" rushes into the vacuum pattern, solidifying into the "Hyper-Real" matter of the artifact.
 
 ### 2. The Abyssal Bath (The Developer)
 *   **Role:** The Cistern water acts as the universal developer fluid.
@@ -57,3 +66,10 @@ IO bridges the gap between Dream-Logic and Silicon.
 
 ### 5. The Tuning Forks (Medical)
 *   **Purpose:** Treating "The Bends" (Psychic Decompression). When struck, the heptagonal acoustics shatter dream-logic residues clinging to a diver's mind.
+
+### 6. The Pale Lens (Security)
+*   **Class:** Class-4 Narrative Artifact.
+*   **Origin:** Recovered from "The Lighthouse of Lethe" (a Dead Drift).
+*   **Function:** Projects "Null-Light" that reveals **Intent**.
+    *   **Narrative Detection:** Hums violently in the presence of a "False Narrative" (lies, cover identities, or Deep Parasite possession).
+    *   **Defense:** Triggers a "Zeno Loop" in the Orthogonal Foyer, trapping intruders in an infinite hallway until neutralized.

@@ -54,3 +54,26 @@ l
 - **"The Polymorphic Mutt":** It takes on the properties of the artifact it sleeps in (e.g., Inferno = Hellhound, Script-Lock = Stone Gargoyle).
 - **The Danger:** It acts as a system parasite. It migrates to the warmest/most active artifact.
 - **Victorian Loyalty:** It might view the crew as squatters. It potentially enforces strict **19th-Century Etiquette** (no running, no swearing) rather than IFF (Identify Friend/Foe). Waking it might collapse the modern reality of the room back to the 19th century.
+
+## 2026-01-20: Ley Line Storm Prediction & Confluence
+
+### Core Concept: The Meteorology of Meaning
+- **Premise:** Storms are not just "High Tide" (Sleep Cycles) but **Confluence Events** where wandering Ley Lines intersect.
+- **The "Wander":** Ley Lines shift paths based on "Psychic Erosion" from the City's waking mood (The Metropolitan Psyche).
+- **The "Vortex":** When lines cross, they create a vacuum that dredges up specific **Nodes** (lost places/rooms) from the Silt.
+
+### TODO: Storm Prediction Models (To Mix/Refine)
+The user wants to blend these three models into a cohesive system:
+1.  **"Flavor Mixing" (The Recipe):** You predict the *content* of the storm by analyzing the intersecting currents.
+    *   *Formula:* "Grief Current" + "Greed Current" = Spawns "Foreclosed Home" Node.
+    *   *Gameplay:* Knowing the "ingredients" tells the team what gear/personas to pack.
+2.  **"Soft Earth" (Erosion Mapping):** Predicting *where* the lines will move based on the City's stability.
+    *   *Mechanic:* Lines erode through "Soft Earth" (Panic, Scandal, Change) and flow around "Hard Rock" (Dogma, Tradition).
+    *   *Intel:* Social/Political intel predicts the river's path.
+3.  **"Drift-Net" (The Debris Tracker):** Tracking specific Nodes as they travel down the current like debris.
+    *   *Mechanic:* Using radar/blips to track a known "Memory" (e.g., a Bunker) as it approaches a confluence point.
+    *   *Intel:* "Tagging" debris upstream to intercept it later.
+
+### Other TODO:
+1.  **What artifacts do they have and what's their properties power level?**
+2.  **Barnaby, what's his story and motivation?**
