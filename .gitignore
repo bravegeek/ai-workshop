@@ -51,5 +51,3 @@ desktop.ini
 
 # binary files
 bin/
-# Ignore .claude directory (managed via submodule/repo)
-.claude/
