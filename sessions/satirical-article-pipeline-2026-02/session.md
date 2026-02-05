@@ -543,12 +543,33 @@ If any check fails, fix it before presenting to user.
 
 ---
 
-## Next Steps
+## Next Steps: Implementation Roadmap
 
-1. **Review these recommendations** and identify which solutions resonate most
-2. **Choose a starting point** (recommend Phase 1: Quick Wins)
-3. **Implement image automation script** first for immediate productivity gain
-4. **Test file-based handoffs** on next article to validate the approach
-5. **Build reference library** as you publish more articles (iterative improvement)
+### Immediate Implementation (Weeks 1-4)
 
-Would you like me to help implement any of these solutions, or do you have questions about specific recommendations?
+1. **Review & Approve Architecture:** Confirm the orchestrator + file-based state + sub-agent model.
+2. **Phase 1: Core Orchestrator (Week 1):** Build `aiglet-publisher` core (session management, idea selection, drafting).
+3. **Phase 2: Roast Integration (Weeks 1-2):** Connect `roast-my-writing` and build the revision proposal logic.
+4. **Phase 3: Image Workflow (Week 2):** Integrate `prep-image.sh` and Visual Alchemist persona.
+5. **Phase 4: Polish & UAT (Weeks 3-4):** Final testing, error handling, and hard cutover.
+
+### Post-MVP Enhancements (Months 2-12)
+
+**Phase 5: Workflow Automation (Months 2-3)**
+- **Git Integration:** Auto-commit articles with generated messages ("Add: [headline]").
+- **Preview Generation:** Automatic `hugo server` execution after publishing.
+- **Social Media Drafts:** Generate Twitter/X threads and LinkedIn blurbs automatically.
+
+**Phase 6: Intelligence & Analytics (Months 3-6)**
+- **Analytics Dashboard:** Track which ideas/angles perform best.
+- **Roast Pattern Tracking:** Identify common writing weaknesses over time.
+- **Image Generation API:** Direct integration with Midjourney/DALL-E for automated asset creation.
+
+**Phase 7: Advanced AI Collaboration (Months 6-12)**
+- **Smart Revisions:** AI-assisted targeted enhancements for specific sections.
+- **Quality Prediction:** Predict article performance/quality before publishing.
+- **Batch Processing:** Ability to generate and queue multiple articles from `ideas.md`.
+
+---
+
+Should I proceed with creating the `aiglet-publisher` agent definition, or would you like to discuss any aspects of this proposal first?
