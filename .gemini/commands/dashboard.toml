@@ -1,0 +1,10 @@
+description = "Runs the dashboard script and analyzes the output"
+
+prompt = """
+I have executed my local dashboard script.
+
+Here is the raw output from 'scripts/dashboard.py':
+```text
+!{ python3 scripts/dashboard.py }
+```
+"""
