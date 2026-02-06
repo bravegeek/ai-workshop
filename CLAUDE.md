@@ -38,7 +38,22 @@ When working on a specific project:
 3. Look for standard configuration files (package.json, requirements.txt, Makefile, etc.) to understand build/test commands
 4. Each project is independent - don't assume shared dependencies or conventions across projects
 
+## Common Commands
+
+Commands vary by project. Check each project's configuration files first:
+
+- **JavaScript/TypeScript**: Prefer bun (`bun install`, `bun test`, `bun run build`), npm also acceptable
+- **Python**: `pip install -r requirements.txt`, `pytest`
+- **General**: Look for `Makefile`, `justfile`, or scripts in `package.json`
+
+## Conventions
+
+@.claude/shared/no-flatter-mode.md
+
+- Use descriptive commit messages following conventional commits style
+- Keep experiments isolated in their own directories
+- Document non-obvious decisions in project READMEs
+
 ## Notes
 
 - The repository uses `main` as the default branch
-- The `.claude/settings.local.json` file contains Claude Code IDE permissions configuration
