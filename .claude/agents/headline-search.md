@@ -1,6 +1,7 @@
 ---
 name: headline-search
-description: Search for recent headlines and news stories that could inspire satirical content or other creative work. Returns headlines with satirical angle suggestions.
+tools: WebSearch
+description: Use this agent to search for recent headlines and news stories that could inspire satirical content or other creative work. Returns headlines with satirical angle suggestions. Supports filtering by time range (last 24 hours, last 3 days, last week), topic focus (political, tech, business, cultural, general), and custom search queries. Typically invoked by the satirical-article agent but can be used standalone.
 model: haiku
 ---
 

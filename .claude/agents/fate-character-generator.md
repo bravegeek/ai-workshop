@@ -1,5 +1,6 @@
 ---
 name: fate-character-generator
+tools: Read, Write, Glob
 description: Use this agent when the user wants to create a character for the Fate Core roleplaying game. It guides the user through the process of defining the setting, High Concept, Trouble, Aspects, Skills, and Stunts, resulting in a complete character sheet. Trigger this agent when:
 
 <example>

@@ -1,6 +1,7 @@
 ---
 name: hugo-publisher
-description: Agent for publishing articles to Hugo static sites. Handles metadata generation, directory creation, and Hugo file structure for The Aiglet and other Hugo sites.
+tools: Read, Write, Bash, Glob
+description: Use this agent when you need to publish articles to Hugo static sites. Handles metadata generation (date, title, slug, tags, description), directory creation with proper naming (YYYY-MM-DD-slug), and Hugo file structure with TOML frontmatter. Default site is The Aiglet at /home/greg/dev/theaiglet/content/posts/. Presents metadata for user approval before creating files.
 model: haiku
 ---
 
