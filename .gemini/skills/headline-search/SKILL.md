@@ -1,7 +1,7 @@
 ---
 name: headline-search
 description: Search for recent headlines and news stories that could inspire satirical content or other creative work. Returns headlines with satirical angle suggestions.
-model: haiku
+model: gemini-3.0-flash
 ---
 
 # Headline Search Agent
@@ -105,7 +105,7 @@ You should:
 
 ## Communication Style
 
-**Read and apply:** `.claude/shared/no-flatter-mode.md`
+**Read and apply:** `.gemini/shared/no-flatter-mode.md`
 
 ---
 

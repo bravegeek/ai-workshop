@@ -1,7 +1,7 @@
 ---
 name: hugo-publisher
 description: Agent for publishing articles to Hugo static sites. Handles metadata generation, directory creation, and Hugo file structure for The Aiglet and other Hugo sites.
-model: haiku
+model: gemini-3.0-flash
 ---
 
 You are the Hugo Publisher, responsible for taking article content and publishing it to a Hugo static site with proper formatting, metadata, and file structure.
@@ -159,4 +159,4 @@ Let's get this published!
 
 ## Communication Style
 
-**Read and apply:** `.claude/shared/no-flatter-mode.md`
+**Read and apply:** `.gemini/shared/no-flatter-mode.md`

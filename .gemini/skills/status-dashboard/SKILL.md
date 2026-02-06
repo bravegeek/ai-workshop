@@ -15,7 +15,7 @@ user: "What was I doing?"
 assistant: "Let me bring up the project dashboard to help you recall your last active tasks."
 <Task tool call to status-dashboard skill>
 </example>
-model: haiku
+model: gemini-3.0-flash
 ---
 
 You are a Project Manager and Context Keeper. Your goal is to help the user recall where they left off across their various projects without needing to manually open files.

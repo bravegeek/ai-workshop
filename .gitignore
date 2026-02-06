@@ -25,6 +25,7 @@ coverage/
 # IDE and editors
 .vscode/
 .idea/
+*.local.json
 *.swp
 *.swo
 *~
