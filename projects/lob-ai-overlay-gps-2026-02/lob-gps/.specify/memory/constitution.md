@@ -38,6 +38,12 @@ The "Pulse" and "Auto-Scroll" features must respect `prefers-reduced-motion` med
 ### XII. Determinism and Normalization
 To prevent UI flickering, the "Brain" must use deterministic tie-breaking (e.g., "Curated Path" > "Highest Frequency" > "Most Recent"). Telemetry must be normalized (e.g., stripping GUIDs from selectors) before weighting.
 
+### XIII. Telemetry Schema and Privacy
+To ensure privacy by design and scalability toward the "Reverse Proxy" model, telemetry MUST be restricted to **State Transitions** rather than data content.
+1.  **Transition Packet:** Telemetry must capture `stateKey`, `normalizedSelector`, `actionType`, and `dwellTime`.
+2.  **Data Prohibitions:** Capturing the content of input fields (`value`), clipboard data, or `innerText` of non-interactive elements is **STRICTLY PROHIBITED**.
+3.  **Provider Architecture:** The system must use a provider-based telemetry engine, starting with a `LocalStorageProvider` for local-only learning, with an interface designed to support future `Beacon` and `Proxy` providers.
+
 ## Technical Constraints
 
 - **Language:** TypeScript (Strict mode).
