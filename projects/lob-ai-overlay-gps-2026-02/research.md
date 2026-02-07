@@ -21,4 +21,20 @@
 ## 4. Technical Constraints (Browser Extensions)
 - **Permissions:** Manifest V3 requires explicit `host_permissions` for the LOB domains.
 - **Isolation:** Content scripts run in an "isolated world," which is good for security but requires `chrome.runtime.sendMessage` to talk to a background worker for data persistence or API calls.
-- **Performance:** Avoid `MutationObserver` on the entire `body` if possible; target specific containers to reduce CPU overhead.
+
+## 5. Quick Scan Findings: Proxy & Security (2026-02-06)
+
+### Proxy Overhead (Latency)
+- **Nginx `sub_filter` Performance:** Efficient for simple replacements but sensitive to the "Gzip Trap."
+- **Gzip Conflict:** To inject content, the proxy must disable `Accept-Encoding` in the request to the backend. This forces the backend to send uncompressed content, which the proxy then modifies and re-compresses. This adds significant CPU overhead and potential latency at scale.
+- **Recommendation:** Monitor CPU load during POC; consider streaming Go-based proxies for production.
+
+### StateKey Robustness (Collision Rates)
+- **Problem:** `URL + Selector` is highly susceptible to collisions in dynamic LOB apps (AJAX, dynamic IDs).
+- **Hierarchical Semantic Selectors:** Move from flat CSS selectors to text-anchored XPaths or relative positioning (e.g., `[label: 'SSN'] -> input`).
+- **Isolation:** Shadow DOM prevents host CSS from leaking into the overlay, but also complicates global selector logic for state detection.
+
+### PII Masking Feasibility
+- **Reliability:** Schema-based masking is the "Gold Standard" for accuracy (low false positives).
+- **Regex Risks:** Pure Regex masking is context-agnostic and prone to over-masking (e.g., zip codes vs. part numbers).
+- **Hybrid Strategy:** Use a simple "Selector-to-PII" map in the proxy (e.g., "Always mask the value of `#patient-id`") to combine the speed of Regex with the precision of a light schema.

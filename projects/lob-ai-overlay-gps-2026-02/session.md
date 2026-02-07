@@ -80,4 +80,33 @@ test-pages/
 - **Vite:** Best for development experience; uses esbuild for fast HMR (Hot Module Replacement).
 - **Bun:** All-in-one tool (already in env) that can handle building without extra dependencies.
 
-**Selection:** Use **Vite** for the local dev environment and **esbuild/tsup** for the final production library bundle.
+
+---
+
+## Session Update: 2026-02-06 (CRIT Review)
+
+### Strategy Map: LOB AI Overlay Review
+
+**1. The Problem Space**
+*   **The Goal:** Modernize UX in legacy "Black Box" LOB applications without touching their source code.
+*   **The Constraint:** Must operate in a "Zero-Touch" environment, necessitating a Reverse Proxy for script injection.
+*   **The Core Risk:** Telemetry accuracy and user annoyance ("Clippy Syndrome").
+
+**2. The Solution Space**
+*   **Phase 1 (The Prototype):** Passive "Waze-style" guidance (Option A). Highlights the path but doesn't force it. Uses `URL + LastActionSelector` for state detection and `localStorage` for persistence.
+*   **Phase 2 (The Proxy Pivot):** Implement the Reverse Proxy to handle injection. Introduce PII/PHI masking at the edge to satisfy Security.
+*   **Phase 3 (The Brain Expansion):** Move from local storage to proxy-stitched sessions (Option B) to handle multi-app "Golden Paths."
+
+**3. Shadow Perspectives**
+*   **Senior UX Researcher:** Warns that a "Passive" UI might be ignored. Recommends "Micro-Hooks" (e.g., hover tooltips) to provide the "Why" behind a prediction.
+*   **Security & Compliance:** Views the Reverse Proxy as a major win for data privacy, as it allows for a "Sanitization Layer" before telemetry ever hits the analytics engine.
+
+**4. High-Impact Unknowns**
+*   **The "StateKey" Collision Rate:** How often will `URL + Selector` fail in the real-world LOB apps?
+*   **Proxy Latency:** How much overhead does injecting the "Sanitization Layer" add to the legacy app's response time?
+*   **PII Masking Reliability:** Can the proxy identify sensitive data without complex schemas?
+
+### Interview Insights & Decisions
+- **Persistence:** Start with `localStorage` (A), then move to `Proxy-Stitched Sessions` (B) and eventually `Enterprise ID` (C).
+- **Injection:** Prioritize "Zero-Touch" via Reverse Proxy as the primary delivery mechanism.
+- **Guidance Model:** Lean toward the "Passive Waze" model (A) for initial rollout to lower risk and capture cleaner telemetry data.
