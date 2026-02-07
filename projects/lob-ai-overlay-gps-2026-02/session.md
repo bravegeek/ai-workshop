@@ -44,25 +44,51 @@ Adopted to focus on human-computer interaction, proactive guidance, and minimizi
 ### Proposed Project Structure
 ```text
 src/
-├── brain.ts         # Prediction Algorithm
-├── overlay.ts       # UI logic (Auto-Scroll & Pulse)
-├── telemetry.ts     # DOM event listeners
+├── mapper/          # Manual Path Recording & Management
+│   ├── recorder.ts  # Captures expert clicks into a Path JSON
+│   └── player.ts    # Executes "Auto-Scroll & Pulse" from a Path
+├── ui/              # Shadow DOM Overlay components
+│   ├── pulse.ts     # The visual highlight logic
+│   └── tooltip.ts   # The "Why" labels
+├── engine/          # State detection & Fingerprinting
+│   └── fingerprint.ts
 └── index.ts         # Entry point
 test-pages/
 └── messy-app.html   # Mock LOB page for testing
 ```
 
+## Next Steps (Utility First)
+
+1. **Build the "Manual Mapper" Core:**
+   - Create a `Recorder` module that listens for clicks and generates a "Golden Path" JSON object.
+   - Implement `Page Fingerprinting` using semantic anchors (H1s, unique buttons) instead of fragile URLs.
+
+2. **Develop the "Shadow UI" Prototype:**
+   - Build a Shadow DOM-based "Pulse" and "Tooltip" system that tracks target elements using `requestAnimationFrame` to avoid jitter.
+   - Ensure zero interference with the host app's CSS/JS.
+
+3. **Create the "Messy App" Benchmark:**
+   - Stand up a `test-pages/messy-app.html` with nested scrolls, dynamic IDs, and iframes to stress-test the Fingerprinting and Pulse positioning.
+
+4. **Expert Workflow Export/Import:**
+   - Allow an "Expert" to record a path and export it as a JSON blob that can be manually loaded into another user's session (via console or local storage) for immediate utility.
+
+---
+
+## Session Update: 2026-02-06 (Refining for Immediate Utility)
+
+### Strategy Shift: Manual Mapping over Auto-Telemetry
+- **Decision:** Prioritize a **"Manual Mapper"** (Human-in-the-loop) over the "Automatic Telemetry" engine. 
+- **Rationale:** Automatic learning requires a "Cold Start" period where the tool is useless. A Manual Mapper provides **Day 1 Value** by allowing experts to codify "Golden Paths" instantly.
+- **Zero-Touch Postponement:** While Zero-Touch (Proxy) is the goal for enterprise deployment, the script must first prove its utility as a standalone library/snippet.
+
+### Refined UX: The "Why" Layer
+- **Requirement:** Every pulse/suggestion MUST include a micro-label (e.g., "Step 2: Enter Account ID"). 
+- **Trust Building:** This prevents "Clippy Syndrome" by providing context for the AI's guidance.
+
 ### Future Consideration: Reverse Proxy Injection (Application Shimming)
 - **Concept:** Use a Reverse Proxy (Nginx, Cloudflare Worker) to inject the `<script>` tag into HTML responses.
-- **Pros:**
-    - **Zero-Touch:** No user installation or app code access required.
-    - **Enhanced State Intelligence:** Proxy can see API payloads and HTTP headers to refine predictions.
-    - **Security Gateway:** Centralized PII/PHI masking before telemetry leaves the network.
-- **Cons:**
-    - **Infrastructure:** Requires a high-availability proxy layer.
-    - **Latency:** Real-time stream modification adds small overhead.
-    - **Complexity:** Man-in-the-Middle SSL management and dynamic CSP header rewriting.
-- **Status:** Documented as a "Gold Standard" alternative for limited-control environments. Not selected for initial prototype.
+- **Status:** Documented as a "Gold Standard" alternative for limited-control environments. Postponed until standalone utility is proven.
 
 ---
 
