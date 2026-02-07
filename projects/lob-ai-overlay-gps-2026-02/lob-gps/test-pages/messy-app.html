@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legacy LOB App - Messy Interface</title>
+    <style>
+        body { font-family: "MS Sans Serif", "Tahoma", sans-serif; background: #c0c0c0; margin: 20px; }
+        .container { display: flex; flex-direction: column; border: 2px inset #fff; background: #eee; height: 90vh; }
+        .header { background: #000080; color: white; padding: 5px; font-weight: bold; }
+        .toolbar { display: flex; background: #ccc; border-bottom: 1px solid #888; padding: 5px; gap: 5px; }
+        .main-content { display: flex; flex: 1; overflow: hidden; }
+        .sidebar { width: 200px; border-right: 1px solid #888; overflow-y: auto; background: #ddd; }
+        .workspace { flex: 1; padding: 20px; overflow-y: scroll; position: relative; }
+        .form-row { margin-bottom: 15px; }
+        label { display: block; font-size: 12px; margin-bottom: 3px; }
+        input[type="text"] { border: 1px inset #888; padding: 2px; width: 250px; }
+        .btn { background: #ccc; border: 2px outset #fff; padding: 3px 10px; cursor: pointer; font-size: 12px; }
+        .btn:active { border-style: inset; }
+        .dynamic-list { margin-top: 500px; /* Force scroll */ border: 1px solid #000; padding: 10px; }
+        #ember-unique-12345 { color: red; } /* Simulating dynamic ID */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">Mainframe Connect v4.2.1 - CUSTOMER_SVC_PROD</div>
+        <div class="toolbar">
+            <button class="btn" id="save-btn">Save (F2)</button>
+            <button class="btn" id="clear-btn">Clear (F3)</button>
+            <button class="btn" id="exit-btn">Exit (Esc)</button>
+        </div>
+        <div class="main-content">
+            <div class="sidebar">
+                <div style="padding: 10px;">
+                    <strong>Navigation</strong>
+                    <ul style="font-size: 11px; padding-left: 15px;">
+                        <li><a href="#">Search Records</a></li>
+                        <li><a href="#">Billing Dashboard</a></li>
+                        <li><a href="#">Audit Logs</a></li>
+                        <li><a href="#">System Config</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="workspace">
+                <h3>Customer Information Entry</h3>
+                <div class="form-row">
+                    <label>Account ID:</label>
+                    <input type="text" id="acc_id_input" placeholder="e.g. ACC-9921">
+                </div>
+                <div class="form-row">
+                    <label>Internal Reference (Dynamic):</label>
+                    <!-- Simulated dynamic ID -->
+                    <input type="text" id="ember-id-7721-a" name="ref_code">
+                </div>
+                
+                <div style="height: 600px; border: 1px dashed #aaa; margin: 20px 0; display: flex; align-items: center; justify-content: center;">
+                    <p>(Very Long Empty Space to test Scrolling)</p>
+                </div>
+
+                <div class="dynamic-list">
+                    <h4>Action Items</h4>
+                    <p>Click the button below to finalize the record.</p>
+                    <button class="btn" id="finalize-transaction-btn">Finalize Transaction</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- The Overlay Library will be injected here during dev -->
+    <script type="module" src="/src/index.ts"></script>
+</body>
+</html>
