@@ -145,11 +145,11 @@ test-pages/
 
 | # | Module | Depends On | Spec Path | Status |
 |---|--------|-----------|-----------|--------|
-| 1 | **Mapper** | — | `specs/mapper/spec.md` | In Progress |
-| 2 | **Telemetry** | Mapper | `specs/telemetry/spec.md` | Pending |
-| 3 | **Engine** | Mapper, Telemetry | `specs/engine/spec.md` | Pending |
-| 4 | **UI** | Engine | `specs/ui/spec.md` | Pending |
-| 5 | **Integration** | All above | `specs/integration/spec.md` | Pending |
+| 1 | **Mapper** | — | `specs/mapper/spec.md` | Done |
+| 2 | **Telemetry** | Mapper | `specs/telemetry/spec.md` | Done |
+| 3 | **Engine** | Mapper, Telemetry | `specs/engine/spec.md` | Done |
+| 4 | **UI** | Engine | `specs/ui/spec.md` | Done |
+| 5 | **Integration** | All above | `specs/integration/spec.md` | Done |
 
 ### Module Summaries
 
