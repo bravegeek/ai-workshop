@@ -66,6 +66,51 @@
         </div>
     </div>
 
+    <script>
+        // Multi-step Workflow Simulation
+        const saveBtn = document.getElementById('save-btn');
+        const finalizeSection = document.querySelector('.dynamic-list');
+        const accIdInput = document.getElementById('acc_id_input');
+        const workspace = document.querySelector('.workspace');
+
+        // Initialize state: Hide the next step until "Save" is clicked
+        finalizeSection.style.display = 'none';
+
+        saveBtn.addEventListener('click', () => {
+            saveBtn.disabled = true;
+            saveBtn.innerText = 'Saving...';
+            
+            // Simulate network latency
+            setTimeout(() => {
+                saveBtn.disabled = false;
+                saveBtn.innerText = 'Save (F2)';
+                finalizeSection.style.display = 'block';
+                
+                // Auto-scroll to the newly revealed action
+                finalizeSection.scrollIntoView({ behavior: 'smooth' });
+            }, 800);
+        });
+
+        // Context Shift Simulation
+        accIdInput.addEventListener('change', () => {
+            workspace.style.opacity = '0.5';
+            setTimeout(() => {
+                workspace.style.opacity = '1';
+                
+                // Inject dynamic "noise" to test StateKey robustness
+                const noise = document.createElement('div');
+                noise.style.cssText = 'position:absolute; top:10px; right:10px; background:#ffffcc; padding:4px; border:1px solid #999; font-size:9px;';
+                noise.innerText = 'MSG_ID: ' + Math.random().toString(36).substring(7).toUpperCase();
+                workspace.appendChild(noise);
+            }, 400);
+        });
+
+        document.getElementById('finalize-transaction-btn').addEventListener('click', () => {
+            alert('Transaction Finalized successfully.');
+            finalizeSection.style.display = 'none';
+        });
+    </script>
+
     <!-- The Overlay Library will be injected here during dev -->
     <script type="module" src="/src/index.ts"></script>
 </body>
