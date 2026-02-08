@@ -136,3 +136,49 @@ test-pages/
 - **Persistence:** Start with `localStorage` (A), then move to `Proxy-Stitched Sessions` (B) and eventually `Enterprise ID` (C).
 - **Injection:** Prioritize "Zero-Touch" via Reverse Proxy as the primary delivery mechanism.
 - **Guidance Model:** Lean toward the "Passive Waze" model (A) for initial rollout to lower risk and capture cleaner telemetry data.
+
+---
+
+## Session Update: 2026-02-08 (Module Specifications)
+
+### Next Steps: Spec Roadmap (by dependency)
+
+| # | Module | Depends On | Spec Path | Status |
+|---|--------|-----------|-----------|--------|
+| 1 | **Mapper** | — | `specs/mapper/spec.md` | In Progress |
+| 2 | **Telemetry** | Mapper | `specs/telemetry/spec.md` | Pending |
+| 3 | **Engine** | Mapper, Telemetry | `specs/engine/spec.md` | Pending |
+| 4 | **UI** | Engine | `specs/ui/spec.md` | Pending |
+| 5 | **Integration** | All above | `specs/integration/spec.md` | Pending |
+
+### Module Summaries
+
+**1. Mapper (`src/mapper/`)** — Foundation layer. Selector normalization, StateKey generation, DOM observation.
+- Selector hierarchy: Unique ID > data-testid > aria-label > Text Content > DOM Path
+- Dynamic ID detection/stripping (e.g. `ember123`)
+- StateKey = URL + LastActionSelector, with page fingerprinting fallback
+- MutationObserver for state transitions
+- Constraints: read-only host DOM, sub-50ms, strict try-catch
+
+**2. Telemetry** — Privacy-first event capture with provider architecture.
+- Transition Packet: stateKey, normalizedSelector, actionType, dwellTime
+- Data prohibitions: no input values, clipboard, innerText
+- Provider interface: record(), query(), flush()
+- LocalStorageProvider first, Beacon/Proxy later
+- PII/PHI masking before storage
+
+**3. Engine (`src/engine/`)** — Brain weighting and guidance logic. Pure computation, no DOM.
+- Hybrid: Curated Golden Paths vs Predictive (frequency-based)
+- Deterministic tie-breaking: Curated > Highest Frequency > Most Recent
+- Suggestion output: target selector, label/why, confidence, source
+
+**4. UI (`src/ui/`)** — Shadow DOM overlay, pulse, auto-scroll, contextual labels.
+- Shadow DOM host lifecycle
+- Pulse animation, auto-scroll, "Why" micro-labels
+- Passive UX: never blocks or hijacks
+- Constructable Stylesheets only, ARIA-compliant, prefers-reduced-motion
+
+**5. Integration** — Top-level wiring, drop-in script, error boundaries.
+- Single `<script>` entry point with config object
+- Boot: mapper → telemetry → engine → UI
+- Kill switch, error boundaries, clean teardown, no global namespace pollution
