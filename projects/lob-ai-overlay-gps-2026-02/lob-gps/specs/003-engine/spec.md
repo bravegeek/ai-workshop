@@ -1,6 +1,6 @@
 # Feature Specification: Engine Module
 
-**Feature Branch**: `engine-module`
+**Feature Branch**: `003-engine`
 **Created**: 2026-02-08
 **Status**: Draft
 **Input**: Constitution v1.0.0, session.md, Mapper spec, Telemetry spec

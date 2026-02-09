@@ -1,6 +1,6 @@
 # Feature Specification: UI Module
 
-**Feature Branch**: `ui-module`
+**Feature Branch**: `004-ui`
 **Created**: 2026-02-08
 **Status**: Draft
 **Input**: Constitution v1.0.0, session.md, Mapper spec, Telemetry spec, Engine spec

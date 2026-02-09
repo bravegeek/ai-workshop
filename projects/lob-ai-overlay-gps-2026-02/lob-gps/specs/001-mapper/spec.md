@@ -1,6 +1,6 @@
 # Feature Specification: Mapper Module
 
-**Feature Branch**: `mapper-module`
+**Feature Branch**: `001-mapper`
 **Created**: 2026-02-08
 **Status**: Draft
 **Input**: Constitution v1.0.0, session.md, messy-app.html test page
@@ -117,6 +117,15 @@ The mapper must observe the host DOM for meaningful state changes (element visib
 - **StateKey**: A string representing the user's current position in the application workflow. Format: `{urlKey}::{normalizedSelector}` or `{fingerprint}::{normalizedSelector}`.
 - **StateChangeEvent**: An object emitted when the mapper detects a meaningful DOM transition. Contains: `previousStateKey`, `newStateKey`, `trigger` (mutation type), `timestamp`.
 - **SelectorTier**: Enum indicating which hierarchy level was used: `ID`, `DATA_TESTID`, `ARIA_LABEL`, `TEXT_CONTENT`, `DOM_PATH`.
+
+## Assumptions
+
+- Target browsers support MutationObserver, `querySelectorAll`, and `performance.now()` (all modern evergreen browsers).
+- The host DOM is a standard HTML document — no XML or XHTML namespacing.
+- `messy-app.html` is the canonical test fixture for acceptance validation.
+- The Mapper operates within the overlay's Shadow DOM execution context but reads the host DOM in read-only mode.
+- Dynamic ID patterns are finite and enumerable; new framework ID patterns (beyond Ember, Angular, React) may require allowlist/denylist configuration updates, not code changes.
+- Upstream dependency: the Mapper defines types (NormalizedSelector, StateKey, StateChangeEvent, SelectorTier) consumed by Telemetry, Engine, and UI modules.
 
 ## Success Criteria
 
