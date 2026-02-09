@@ -160,16 +160,15 @@ clean_branch_name() {
 # were initialised with --no-git.
 SCRIPT_DIR="$(CDPATH="" cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-# Prefer .specify directory to locate project root (supports monorepos/nested projects)
-REPO_ROOT="$(find_repo_root "$SCRIPT_DIR")"
-if [ -z "$REPO_ROOT" ]; then
-    echo "Error: Could not determine repository root. Please run this script from within the repository." >&2
-    exit 1
-fi
-
 if git rev-parse --show-toplevel >/dev/null 2>&1; then
+    REPO_ROOT=$(git rev-parse --show-toplevel)
     HAS_GIT=true
 else
+    REPO_ROOT="$(find_repo_root "$SCRIPT_DIR")"
+    if [ -z "$REPO_ROOT" ]; then
+        echo "Error: Could not determine repository root. Please run this script from within the repository." >&2
+        exit 1
+    fi
     HAS_GIT=false
 fi
 
