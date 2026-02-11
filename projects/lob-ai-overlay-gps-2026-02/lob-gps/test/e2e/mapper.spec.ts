@@ -77,7 +77,7 @@ test.describe('Mapper E2E', () => {
       document.body.appendChild(div);
       
       // Wait for debounce
-      await new Promise(r => setTimeout(resolve, 50));
+      await new Promise(r => setTimeout(r, 50));
       
       mapper.teardown();
       
@@ -86,7 +86,7 @@ test.describe('Mapper E2E', () => {
       div2.innerHTML = '<button>New 2</button>';
       document.body.appendChild(div2);
       
-      await new Promise(r => setTimeout(resolve, 50));
+      await new Promise(r => setTimeout(r, 50));
       
       return count;
     });
