@@ -5,6 +5,16 @@
 **Status**: Draft
 **Input**: Constitution v1.0.0, session.md, messy-app.html test page
 
+## Clarifications
+
+### Session 2026-02-10
+
+- Q: Which strategy should NormalizedSelector use for text-content matching — custom pseudo-selector or stable ancestor + text encoding? → A: Stable ancestor + text encoding. The CSS selector targets the closest stable ancestor + tag (native `querySelector`-compatible), with visible text stored as a separate `textHint` metadata annotation.
+- Q: What should the mapper return when a selector cannot be made unique (ambiguous)? → A: Return a result object (`SelectorResult`) containing the selector string, the `SelectorTier`, and an `ambiguous: boolean` flag. Callers decide whether to use or discard it.
+- Q: Which DOM mutations count as "meaningful state changes" beyond the examples in US4? → A: Structural + visibility only. Only childList additions/removals and style/class changes affecting visibility of containers with interactive children. Attribute and text changes on existing elements are ignored.
+- Q: What format should allowlist/denylist entries use for ID classification overrides? → A: JavaScript RegExp pattern strings (ECMAScript regex dialect), compiled via `new RegExp()`. Examples below in FR-003.
+- Q: How should page fingerprinting mode be activated? → A: Global config flag (`useFingerprinting: boolean`) passed at mapper initialization. Per-call override is out of scope for v1 but the API should not preclude adding it later.
+
 ## User Scenarios & Testing
 
 ### User Story 1 - Stable Selector Generation (Priority: P1)
@@ -21,9 +31,9 @@ When the overlay observes a user interaction (click, focus, input) on a host DOM
 2. **Given** an element with a dynamic ID matching known patterns (e.g. `#ember-id-7721-a`), **When** a selector is generated, **Then** the dynamic ID is ignored and the selector falls through to the next tier (e.g. `input[name="ref_code"]`).
 3. **Given** an element with a `data-testid` attribute, **When** a selector is generated, **Then** the result uses `[data-testid="value"]`.
 4. **Given** an element with an `aria-label` but no stable ID or data-testid, **When** a selector is generated, **Then** the result uses `[aria-label="value"]`.
-5. **Given** an interactive element (button, link) with unique visible text but no stable attributes, **When** a selector is generated, **Then** the result encodes the text content as a selector hint (e.g. via a custom text-match strategy or closest stable ancestor + text).
+5. **Given** an interactive element (button, link) with unique visible text but no stable attributes, **When** a selector is generated, **Then** the result uses the closest stable ancestor as a CSS selector scope combined with a tag match (e.g. `#form-section button`), with the visible text stored as a separate metadata annotation — not embedded in the selector string. The selector itself remains native `querySelector`-compatible.
 6. **Given** an element with no stable attributes at all, **When** a selector is generated, **Then** a DOM path selector is produced using tag names, nth-child indices, and stable ancestor anchors.
-7. **Given** any generated selector, **When** `document.querySelector(selector)` is called (or the custom text-match equivalent), **Then** it returns exactly one element — the original target.
+7. **Given** any generated selector, **When** `document.querySelector(selector)` is called, **Then** it returns exactly one element — the original target. For TEXT_CONTENT tier selectors where the CSS selector alone may match multiple elements, the `textHint` metadata is used as a secondary filter to resolve to the correct element.
 
 ---
 
@@ -89,7 +99,7 @@ The mapper must observe the host DOM for meaningful state changes (element visib
 - **Iframes**: Out of scope for v1. The mapper should not attempt to observe inside iframes. Document this limitation.
 - **Shadow DOM in host app**: If the host app itself uses Shadow DOM, the mapper cannot observe inside those shadow roots. Document this limitation.
 - **Very deep DOM trees**: DOM path selectors should cap depth (e.g. max 5 ancestors) to avoid brittle long paths.
-- **Multiple elements matching a selector**: If a generated selector matches more than one element, the mapper must either refine it (add nth-child) or flag it as ambiguous.
+- **Multiple elements matching a selector**: If a generated selector matches more than one element, the mapper must attempt to refine it (add nth-child). If still ambiguous after exhausting all tiers, return a `SelectorResult` with `ambiguous: true`; callers decide how to handle it.
 - **Rapid-fire mutations**: The observer must debounce or batch mutations to avoid flooding downstream with events. Target: coalesce within a single animation frame.
 
 ## Requirements
@@ -98,24 +108,27 @@ The mapper must observe the host DOM for meaningful state changes (element visib
 
 - **FR-001**: Mapper MUST generate selectors following the hierarchy: Unique ID > `data-testid` > `aria-label` > Text Content (interactive elements) > DOM Path. (Constitution §Dev Workflow #3)
 - **FR-002**: Mapper MUST detect and discard dynamic IDs matching known framework patterns (Ember, Angular, React) and GUID formats. (Constitution §Dev Workflow #4)
-- **FR-003**: Mapper MUST support a configurable allowlist/denylist for ID classification overrides.
+- **FR-003**: Mapper MUST support a configurable allowlist/denylist for ID classification overrides. Entries are JavaScript RegExp pattern strings (ECMAScript dialect), compiled at initialization via `new RegExp(pattern)`. Allowlist patterns force-classify matching IDs as stable; denylist patterns force-classify as dynamic. Allowlist takes precedence over denylist. Examples:
+  - Denylist: `"^section-\\d+$"` (treat `section-1`, `section-42` as dynamic), `"^row-item-"` (treat any `row-item-*` as dynamic)
+  - Allowlist: `"^app-header$"` (preserve `app-header` as stable even if it matches a denylist pattern), `"^nav-\\d+$"` (treat authored `nav-1`, `nav-2` as stable)
 - **FR-004**: Mapper MUST generate deterministic StateKeys using URL + LastActionSelector as the default formula. (Constitution §Dev Workflow #2)
-- **FR-005**: Mapper MUST support a page fingerprinting mode using semantic anchors (headings, unique button text) for StateKey generation. (Constitution §Dev Workflow #2)
+- **FR-005**: Mapper MUST support a page fingerprinting mode using semantic anchors (headings, unique button text) for StateKey generation. Fingerprinting is enabled via a `useFingerprinting: boolean` configuration flag passed at mapper initialization. When `true`, all StateKeys use a semantic fingerprint in place of the URL component. Per-call fingerprinting overrides are out of scope for v1, but the StateKey generation API should accept an options parameter to allow this extension in future versions without breaking changes. (Constitution §Dev Workflow #2)
 - **FR-006**: Mapper MUST normalize selectors by stripping GUIDs and dynamic components before output. (Constitution §XII)
-- **FR-007**: Mapper MUST observe the host DOM for meaningful state changes via MutationObserver and emit structured events.
+- **FR-007**: Mapper MUST observe the host DOM for meaningful state changes via MutationObserver and emit structured events. A "meaningful state change" is defined as: (1) childList mutations that add or remove DOM nodes containing interactive elements, or (2) style/class attribute changes that toggle visibility (`display`, `visibility`, `hidden` attribute) of containers with interactive children. Attribute changes and text content changes on existing elements are NOT considered meaningful state changes.
 - **FR-008**: Mapper MUST debounce/batch mutation events to prevent event flooding (coalesce within one animation frame).
 - **FR-009**: Mapper MUST NOT read, capture, or expose input field values, clipboard data, or innerText of non-interactive elements. (Constitution §XIII.2)
 - **FR-010**: Mapper MUST wrap all host DOM interactions in try-catch boundaries. Any error MUST be silenced. (Constitution §X)
 - **FR-011**: Mapper MUST be read-only with respect to the host DOM — no mutations, no style changes, no attribute modifications. (Constitution §Tech Constraints)
 - **FR-012**: Mapper MUST provide a `teardown()` method that disconnects all observers and removes all event listeners.
 - **FR-013**: Selector generation MUST complete within 5ms for a single element. (Supports Constitution §VIII sub-50ms target with budget for other layers.)
-- **FR-014**: Generated selectors MUST be unique — `querySelectorAll(selector).length === 1` — or flagged as ambiguous.
+- **FR-014**: Generated selectors MUST be unique — `querySelectorAll(selector).length === 1`. If uniqueness cannot be achieved after exhausting all tiers, the mapper MUST return a `SelectorResult` with `ambiguous: true` containing the best-effort selector. Callers decide whether to use or discard ambiguous results.
 
 ### Key Entities
 
-- **NormalizedSelector**: A string representing a stable, normalized CSS selector (or text-match descriptor) for a host DOM element. Never contains dynamic IDs or GUIDs.
+- **NormalizedSelector**: A stable, native `querySelector`-compatible CSS selector string for a host DOM element. Never contains dynamic IDs or GUIDs. For TEXT_CONTENT tier selectors, the CSS selector targets the closest stable ancestor + tag, and a separate `textHint` metadata field carries the visible text for disambiguation — the selector string itself contains no custom pseudo-selectors.
 - **StateKey**: A string representing the user's current position in the application workflow. Format: `{urlKey}::{normalizedSelector}` or `{fingerprint}::{normalizedSelector}`.
 - **StateChangeEvent**: An object emitted when the mapper detects a meaningful DOM transition. Contains: `previousStateKey`, `newStateKey`, `trigger` (mutation type), `timestamp`.
+- **SelectorResult**: The return type of selector generation. Contains: `selector` (NormalizedSelector string), `tier` (SelectorTier), `ambiguous` (boolean — true if the selector matches more than one element after all refinement attempts), and optionally `textHint` (string — visible text for TEXT_CONTENT tier selectors).
 - **SelectorTier**: Enum indicating which hierarchy level was used: `ID`, `DATA_TESTID`, `ARIA_LABEL`, `TEXT_CONTENT`, `DOM_PATH`.
 
 ## Assumptions
