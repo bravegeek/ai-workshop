@@ -1,9 +1,9 @@
 # Feature Specification: Telemetry Module
 
-**Feature Branch**: `telemetry-module`
+**Feature Branch**: `002-telemetry`
 **Created**: 2026-02-08
 **Status**: Draft
-**Input**: Constitution v1.0.0, session.md, Mapper spec (`specs/mapper/spec.md`)
+**Input**: Constitution v1.0.0, session.md, Mapper spec (`specs/001-mapper/spec.md`)
 
 ## Upstream Dependencies
 

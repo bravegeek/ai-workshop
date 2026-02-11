@@ -20,8 +20,8 @@ The system must be designed as a drop-in JavaScript library that requires zero m
 ### VI. Privacy-First Telemetry
 Interaction telemetry is the lifeblood of the system, but it must be handled with extreme care. Telemetry collection should focus on selectors and state transitions, and MUST support PII/PHI masking to ensure no sensitive data leaves the local network.
 
-### VII. Strict Type Safety and Minimal Overhead
-The codebase must adhere to strict TypeScript standards to ensure maintainability. Furthermore, the library must remain lightweight with minimal dependencies to ensure it does not degrade the performance of the host application.
+### VII. Strict Type Safety and Zero Warning Policy
+The codebase must adhere to strict TypeScript standards to ensure maintainability. A "Zero Warning Policy" is in effect: all linting, type-checking, and build-time warnings MUST be corrected immediately. Furthermore, the library must remain lightweight with minimal dependencies to ensure it does not degrade the performance of the host application.
 
 ### VIII. Performance and Responsiveness (Speed)
 Latency is the enemy of guidance. The "Auto-Scroll & Pulse" UI must be non-blocking and execute with sub-50ms latency for state detection and UI updates. Heavy computations (like frequency map weighting) must be optimized or offloaded to avoid UI thread jitter.
@@ -68,4 +68,4 @@ To ensure privacy by design and scalability toward the "Reverse Proxy" model, te
 ## Governance
 This constitution supersedes general development practices within this project. Any deviation from these principles (e.g., direct DOM modification of host elements) requires explicit justification and a transition plan to compliant patterns.
 
-**Version**: 1.0.0 | **Ratified**: 2026-02-06 | **Last Amended**: 2026-02-06
+**Version**: 1.1.0 | **Ratified**: 2026-02-06 | **Last Amended**: 2026-02-10
