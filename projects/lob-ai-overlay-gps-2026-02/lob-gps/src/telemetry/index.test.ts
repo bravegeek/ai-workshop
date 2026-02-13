@@ -1,7 +1,8 @@
 import { describe, it, expect, beforeEach, vi } from "vitest";
 import { Telemetry } from "./index.js";
+import { LocalStorageProvider } from "./local-storage-provider.js";
 import { ActionType } from "./types.js";
-import type { NormalizedSelector, StateKey, TransitionPacket } from "./types.js";
+import type { NormalizedSelector, StateKey, TransitionPacket, TelemetryProvider } from "./types.js";
 import { MockProvider } from "./test-helpers.js";
 
 // ─── Helpers ────────────────────────────────────────────────────────────────
@@ -249,5 +250,73 @@ describe("Telemetry.teardown()", () => {
 
     // flush should not throw
     expect(() => telemetry.flush()).not.toThrow();
+  });
+});
+
+// ─── US4: Provider Contract ─────────────────────────────────────────────────
+
+describe("Provider Contract — US4", () => {
+  it("accepts any class implementing TelemetryProvider (US4-AC1)", () => {
+    class CustomProvider implements TelemetryProvider {
+      record(_p: TransitionPacket) {}
+      query(_sk: StateKey) { return []; }
+      flush() {}
+    }
+    const telemetry = new Telemetry({ provider: new CustomProvider() });
+    expect(() => telemetry.record(stateKey, selector, ActionType.CLICK)).not.toThrow();
+  });
+
+  it("custom provider receives all record() calls (US4-AC2)", () => {
+    const provider = new MockProvider();
+    const telemetry = new Telemetry({ provider });
+
+    telemetry.record(stateKey, selector, ActionType.CLICK);
+    telemetry.record(stateKey, selector, ActionType.FOCUS);
+
+    expect(provider.calls).toHaveLength(2);
+  });
+
+  it("defaults to LocalStorageProvider when no provider specified (US4-AC3)", () => {
+    // Stub localStorage so default provider can construct
+    const store: Record<string, string> = {};
+    vi.stubGlobal("localStorage", {
+      getItem: (k: string) => store[k] ?? null,
+      setItem: (k: string, v: string) => { store[k] = String(v); },
+      removeItem: (k: string) => { delete store[k]; },
+      clear: () => { for (const k in store) delete store[k]; },
+      get length() { return Object.keys(store).length; },
+      key: (i: number) => Object.keys(store)[i] ?? null,
+    });
+
+    const telemetry = new Telemetry();
+    telemetry.record(stateKey, selector, ActionType.CLICK);
+
+    // Should have written to localStorage via the default provider
+    const raw = store["lob-gps:telemetry"];
+    expect(raw).toBeDefined();
+    const parsed = JSON.parse(raw);
+    expect(parsed.v).toBe(1);
+
+    vi.unstubAllGlobals();
+  });
+
+  it("swapProvider() flushes old provider before activating new one (US4-AC4)", () => {
+    const oldProvider = new MockProvider();
+    const flushSpy = vi.spyOn(oldProvider, "flush");
+    const telemetry = new Telemetry({ provider: oldProvider });
+
+    telemetry.record(stateKey, selector, ActionType.CLICK);
+    const callCountBeforeSwap = oldProvider.calls.length;
+    expect(callCountBeforeSwap).toBe(1);
+
+    const newProvider = new MockProvider();
+    telemetry.swapProvider(newProvider);
+
+    // Old provider's flush was called
+    expect(flushSpy).toHaveBeenCalledOnce();
+
+    // New record goes to new provider
+    telemetry.record(stateKey, selector, ActionType.CLICK);
+    expect(newProvider.calls).toHaveLength(1);
   });
 });

@@ -87,15 +87,15 @@
 
 > **NOTE: Write these tests FIRST, ensure they FAIL before implementation**
 
-- [ ] T009 [US3] Write LocalStorageProvider tests in `src/telemetry/local-storage-provider.test.ts` — test all 6 acceptance scenarios: (1) recorded data persists across provider re-instantiation (simulates page reload), (2) all data under namespaced key `lob-gps:telemetry` only, (3) LRU eviction by `lastSeenTimestamp` when over storage cap, (4) corrupt JSON → discard and reinitialize, (5) localStorage unavailable → in-memory fallback, (6) flush() removes all namespaced data. Also test: schema versioning (StorageEnvelope `v` field), aggregate running average for `avgDwellTime`, `lastSeenTimestamp` uses `Date.now()` for cross-session comparability, configurable `storageCap` and `namespace`.
+- [x] T009 [US3] Write LocalStorageProvider tests in `src/telemetry/local-storage-provider.test.ts` — test all 6 acceptance scenarios: (1) recorded data persists across provider re-instantiation (simulates page reload), (2) all data under namespaced key `lob-gps:telemetry` only, (3) LRU eviction by `lastSeenTimestamp` when over storage cap, (4) corrupt JSON → discard and reinitialize, (5) localStorage unavailable → in-memory fallback, (6) flush() removes all namespaced data. Also test: schema versioning (StorageEnvelope `v` field), aggregate running average for `avgDwellTime`, `lastSeenTimestamp` uses `Date.now()` for cross-session comparability, configurable `storageCap` and `namespace`.
 
 ### Implementation for User Story 3
 
-- [ ] T010 [US3] Implement core LocalStorageProvider in `src/telemetry/local-storage-provider.ts` — constructor accepts config (`storageCap`, `namespace`), implements `record()` with aggregate-on-write: read StorageEnvelope from localStorage, update `{stateKey → {selector → {c, d, t}}}` map (running average for `d`, increment `c`, update `t` with `Date.now()`), serialize and write back. Implement `query()`: read envelope, extract entries for stateKey, map to `FrequencyEntry[]`, sort by count descending. Implement `flush()`: remove namespaced key from localStorage. Wrap all localStorage access in try-catch (FR-009).
-- [ ] T011 [US3] Implement LRU eviction in `src/telemetry/local-storage-provider.ts` — after each `record()`, check serialized size against `storageCap`. If over cap: collect all stateKeys with max `lastSeenTimestamp`, sort ascending, remove oldest stateKeys until under cap. If single stateKey exceeds cap, evict its least-recently-updated selectors. Per research.md R2.
-- [ ] T012 [US3] Implement corruption recovery in `src/telemetry/local-storage-provider.ts` — on read, validate JSON parse succeeds, `v` field matches current schema version (currently `1`), `data` field is an object. If any check fails: discard data, reinitialize with empty envelope. If `v` is lower, run migration (placeholder for future). If `v` is higher (downgrade), treat as corrupt. Per research.md R1.
-- [ ] T013 [US3] Implement in-memory fallback in `src/telemetry/local-storage-provider.ts` — at construction, test localStorage availability via `setItem`/`removeItem` probe. If throws, set `mode: 'memory'` and use `Map<string, Map<string, AggregateEntry>>` with identical aggregation logic. `flush()` clears the Map. Eviction estimates size via entry count. Per research.md R4.
-- [ ] T014 [US3] Implement cross-tab StorageEvent handling in `src/telemetry/local-storage-provider.ts` — listen for `StorageEvent` on `window` for the namespaced key. On external write: invalidate internal cache so next `record()` re-reads from localStorage before writing. Cleanup listener on provider disposal. Per research.md R3.
+- [x] T010 [US3] Implement core LocalStorageProvider in `src/telemetry/local-storage-provider.ts` — constructor accepts config (`storageCap`, `namespace`), implements `record()` with aggregate-on-write: read StorageEnvelope from localStorage, update `{stateKey → {selector → {c, d, t}}}` map (running average for `d`, increment `c`, update `t` with `Date.now()`), serialize and write back. Implement `query()`: read envelope, extract entries for stateKey, map to `FrequencyEntry[]`, sort by count descending. Implement `flush()`: remove namespaced key from localStorage. Wrap all localStorage access in try-catch (FR-009).
+- [x] T011 [US3] Implement LRU eviction in `src/telemetry/local-storage-provider.ts` — after each `record()`, check serialized size against `storageCap`. If over cap: collect all stateKeys with max `lastSeenTimestamp`, sort ascending, remove oldest stateKeys until under cap. If single stateKey exceeds cap, evict its least-recently-updated selectors. Per research.md R2.
+- [x] T012 [US3] Implement corruption recovery in `src/telemetry/local-storage-provider.ts` — on read, validate JSON parse succeeds, `v` field matches current schema version (currently `1`), `data` field is an object. If any check fails: discard data, reinitialize with empty envelope. If `v` is lower, run migration (placeholder for future). If `v` is higher (downgrade), treat as corrupt. Per research.md R1.
+- [x] T013 [US3] Implement in-memory fallback in `src/telemetry/local-storage-provider.ts` — at construction, test localStorage availability via `setItem`/`removeItem` probe. If throws, set `mode: 'memory'` and use `Map<string, Map<string, AggregateEntry>>` with identical aggregation logic. `flush()` clears the Map. Eviction estimates size via entry count. Per research.md R4.
+- [x] T014 [US3] Implement cross-tab StorageEvent handling in `src/telemetry/local-storage-provider.ts` — listen for `StorageEvent` on `window` for the namespaced key. On external write: invalidate internal cache so next `record()` re-reads from localStorage before writing. Cleanup listener on provider disposal. Per research.md R3.
 
 **Checkpoint**: LocalStorageProvider passes all 6 acceptance scenarios. Data persists, eviction works, corruption recovers, fallback activates, flush clears. Wire Telemetry class to LocalStorageProvider and verify record→query roundtrip.
 
@@ -111,11 +111,11 @@
 
 > **NOTE: Write these tests FIRST, ensure they FAIL before implementation**
 
-- [ ] T015 [US4] Write provider contract tests in `src/telemetry/index.test.ts` — test all 4 acceptance scenarios: (1) any class implementing `TelemetryProvider` is accepted, (2) custom provider receives all `record()` calls, (3) no provider specified → defaults to LocalStorageProvider, (4) `swapProvider()` flushes old provider before activating new one. Verify flush is called on old provider (mock assertion).
+- [x] T015 [US4] Write provider contract tests in `src/telemetry/index.test.ts` — test all 4 acceptance scenarios: (1) any class implementing `TelemetryProvider` is accepted, (2) custom provider receives all `record()` calls, (3) no provider specified → defaults to LocalStorageProvider, (4) `swapProvider()` flushes old provider before activating new one. Verify flush is called on old provider (mock assertion).
 
 ### Implementation for User Story 4
 
-- [ ] T016 [US4] Implement `swapProvider(provider)` on Telemetry class in `src/telemetry/index.ts` — call `flush()` on current provider (in try-catch), replace with new provider. Implement default provider logic: when `TelemetryConfig.provider` is undefined, instantiate `LocalStorageProvider` with config's `storageCap` and `namespace`.
+- [x] T016 [US4] Implement `swapProvider(provider)` on Telemetry class in `src/telemetry/index.ts` — call `flush()` on current provider (in try-catch), replace with new provider. Implement default provider logic: when `TelemetryConfig.provider` is undefined, instantiate `LocalStorageProvider` with config's `storageCap` and `namespace`.
 
 **Checkpoint**: Mock provider substitution works. Default provider is LocalStorageProvider. Runtime swap flushes old provider.
 
@@ -125,10 +125,10 @@
 
 **Purpose**: E2E tests, public API exports, coverage verification
 
-- [ ] T017 Write e2e test in `test/e2e/telemetry.spec.ts` — Playwright test: load `messy-app.html`, wire Mapper + Telemetry, perform 3-step workflow (Account ID focus → Save click → Finalize click), verify 3 transitions recorded. Reload page, re-instantiate Telemetry, query, verify data persisted with correct frequency counts (SC-001, SC-003).
-- [ ] T018 [P] Update `src/index.ts` to re-export all telemetry public API: `Telemetry` class, `LocalStorageProvider` class, and all public types (`ActionType`, `TransitionPacket`, `FrequencyEntry`, `TelemetryProvider`, `TelemetryConfig`) from `src/telemetry/types.ts`.
-- [ ] T019 Run full test suite (`bun run test`) and verify 100% unit test coverage on TransitionPacket creation, query aggregation, LocalStorageProvider CRUD, and eviction logic (SC-006). Verify all provider error paths exercised and confirmed silent (SC-007).
-- [ ] T020 Run quickstart.md validation — verify all code examples compile, dev server starts, usage examples work as documented.
+- [x] T017 Write e2e test in `test/e2e/telemetry.spec.ts` — Playwright test: load `messy-app.html`, wire Mapper + Telemetry, perform 3-step workflow (Account ID focus → Save click → Finalize click), verify 3 transitions recorded. Reload page, re-instantiate Telemetry, query, verify data persisted with correct frequency counts (SC-001, SC-003).
+- [x] T018 [P] Update `src/index.ts` to re-export all telemetry public API: `Telemetry` class, `LocalStorageProvider` class, and all public types (`ActionType`, `TransitionPacket`, `FrequencyEntry`, `TelemetryProvider`, `TelemetryConfig`) from `src/telemetry/types.ts`.
+- [x] T019 Run full test suite (`bun run test`) and verify 100% unit test coverage on TransitionPacket creation, query aggregation, LocalStorageProvider CRUD, and eviction logic (SC-006). Verify all provider error paths exercised and confirmed silent (SC-007).
+- [x] T020 Run quickstart.md validation — verify all code examples compile, dev server starts, usage examples work as documented.
 
 ---
 

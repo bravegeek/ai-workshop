@@ -4,11 +4,27 @@ import type { NormalizedSelector, StateKey } from "./types.js";
 import { createMockPacket } from "./test-helpers.js";
 import { ActionType } from "./types.js";
 
+// ─── localStorage mock ─────────────────────────────────────────────────────
+
+function createMockLocalStorage(): Storage {
+  let store: Record<string, string> = {};
+  return {
+    getItem: (key: string) => store[key] ?? null,
+    setItem: (key: string, value: string) => { store[key] = String(value); },
+    removeItem: (key: string) => { delete store[key]; },
+    clear: () => { store = {}; },
+    get length() { return Object.keys(store).length; },
+    key: (index: number) => Object.keys(store)[index] ?? null,
+  };
+}
+
 // ─── Helpers ────────────────────────────────────────────────────────────────
 
 const NS = "lob-gps:telemetry";
 const stateKey = "http://localhost/test::#save-btn" as StateKey;
 const selector = "#save-btn" as NormalizedSelector;
+
+let mockStorage: Storage;
 
 function makeProvider(opts?: { storageCap?: number; namespace?: string }) {
   return new LocalStorageProvider(opts);
@@ -18,7 +34,12 @@ function makeProvider(opts?: { storageCap?: number; namespace?: string }) {
 
 describe("LocalStorageProvider", () => {
   beforeEach(() => {
-    localStorage.clear();
+    mockStorage = createMockLocalStorage();
+    vi.stubGlobal("localStorage", mockStorage);
+  });
+
+  afterEach(() => {
+    vi.restoreAllMocks();
   });
 
   // US3-AC1: Data persists across provider re-instantiation
