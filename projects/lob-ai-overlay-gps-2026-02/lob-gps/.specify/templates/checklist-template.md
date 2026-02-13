@@ -32,6 +32,21 @@
 - [ ] CHK005 Item with specific criteria
 - [ ] CHK006 Final item in this category
 
+## INVEST Compliance
+
+<!--
+  Validate each user story against INVEST criteria.
+  Check per story, then summarize. A story can partially
+  satisfy a criterion — note the gap rather than failing it outright.
+-->
+
+- [ ] **Independent**: Each user story can be developed, tested, and delivered without requiring other stories to be complete first
+- [ ] **Negotiable**: Stories describe outcomes and constraints, not rigid solutions — leaving room for implementation flexibility
+- [ ] **Valuable**: Each story delivers identifiable value to a user or the system, with a "Why this priority" justification
+- [ ] **Estimable**: Stories are specific enough that a developer can scope the work without needing to resolve major unknowns first
+- [ ] **Small**: Each story is a single deliverable slice — not a multi-sprint epic bundling unrelated concerns
+- [ ] **Testable**: Every story has concrete acceptance scenarios (Given/When/Then) and an independent test description
+
 ## Notes
 
 - Check items off as completed: `[x]`
