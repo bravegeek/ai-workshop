@@ -19,8 +19,8 @@
 
 **Purpose**: Directory structure and type definitions
 
-- [ ] T001 Create `src/engine/` directory and empty module files per plan.md structure
-- [ ] T002 Define all types in `src/engine/types.ts`: Suggestion, SuggestionSource, CuratedPath, CuratedStep, EngineConfig — import NormalizedSelector, StateKey from `src/mapper/types.ts` and FrequencyEntry, TelemetryProvider from `src/telemetry/types.ts` (reference `specs/003-engine/contracts/engine.ts`)
+- [x] T001 Create `src/engine/` directory and empty module files per plan.md structure
+- [x] T002 Define all types in `src/engine/types.ts`: Suggestion, SuggestionSource, CuratedPath, CuratedStep, EngineConfig — import NormalizedSelector, StateKey from `src/mapper/types.ts` and FrequencyEntry, TelemetryProvider from `src/telemetry/types.ts` (reference `specs/003-engine/contracts/engine.ts`)
 
 ---
 
@@ -30,7 +30,7 @@
 
 **⚠️ CRITICAL**: No user story work can begin until this phase is complete
 
-- [ ] T003 Create mock TelemetryProvider factory in `src/engine/test-helpers.ts` — accepts a `Record<string, FrequencyEntry[]>` map, returns a TelemetryProvider whose `query()` returns the matching entries. Include helper to create branded StateKey and NormalizedSelector values for tests.
+- [x] T003 Create mock TelemetryProvider factory in `src/engine/test-helpers.ts` — accepts a `Record<string, FrequencyEntry[]>` map, returns a TelemetryProvider whose `query()` returns the matching entries. Include helper to create branded StateKey and NormalizedSelector values for tests.
 
 **Checkpoint**: Foundation ready — user story implementation can begin
 
@@ -46,13 +46,13 @@
 
 > **NOTE: Write these tests FIRST, ensure they FAIL before implementation**
 
-- [ ] T004 [P] [US1] Write ranking tests in `src/engine/ranker.test.ts`: (1) correct frequency order for 3 selectors, (2) 7 entries → all 7 returned in frequency order (ranker does not truncate), (3) tie-breaking by lastSeenTimestamp when counts are equal, (4) empty FrequencyEntry[] returns [], (5) confidence normalization (count/sum = expected value), (6) single entry yields confidence 1.0
-- [ ] T005 [P] [US1] Write predicted label tests in `src/engine/labels.test.ts`: (1) confidence ≥0.5 → "Most common next action (N%)", (2) confidence ≥0.2 and <0.5 → "Frequently used (N%)", (3) confidence <0.2 → "Sometimes used (N%)", (4) percentage is always whole number (Math.round), (5) boundary values: exactly 0.5, exactly 0.2
+- [x] T004 [P] [US1] Write ranking tests in `src/engine/ranker.test.ts`: (1) correct frequency order for 3 selectors, (2) 7 entries → all 7 returned in frequency order (ranker does not truncate), (3) tie-breaking by lastSeenTimestamp when counts are equal, (4) empty FrequencyEntry[] returns [], (5) confidence normalization (count/sum = expected value), (6) single entry yields confidence 1.0
+- [x] T005 [P] [US1] Write predicted label tests in `src/engine/labels.test.ts`: (1) confidence ≥0.5 → "Most common next action (N%)", (2) confidence ≥0.2 and <0.5 → "Frequently used (N%)", (3) confidence <0.2 → "Sometimes used (N%)", (4) percentage is always whole number (Math.round), (5) boundary values: exactly 0.5, exactly 0.2
 
 ### Implementation for User Story 1
 
-- [ ] T006 [P] [US1] Implement label generation for predicted suggestions in `src/engine/labels.ts`: export `generatePredictedLabel(confidence: number): string` using the three-tier template with Math.round(confidence * 100) percentage
-- [ ] T007 [US1] Implement frequency ranking in `src/engine/ranker.ts`: export `rankPredicted(entries: FrequencyEntry[]): Suggestion[]` — compute totalTransitions, map to Suggestion with confidence + label, sort by count desc then lastSeenTimestamp desc. Do NOT truncate — the merger (T011) owns final truncation after combining with curated suggestions
+- [x] T006 [P] [US1] Implement label generation for predicted suggestions in `src/engine/labels.ts`: export `generatePredictedLabel(confidence: number): string` using the three-tier template with Math.round(confidence * 100) percentage
+- [x] T007 [US1] Implement frequency ranking in `src/engine/ranker.ts`: export `rankPredicted(entries: FrequencyEntry[]): Suggestion[]` — compute totalTransitions, map to Suggestion with confidence + label, sort by count desc then lastSeenTimestamp desc. Do NOT truncate — the merger (T011) owns final truncation after combining with curated suggestions
 
 **Checkpoint**: Ranker produces correctly ordered predicted suggestions with confidence labels. Tests pass.
 
@@ -68,13 +68,13 @@
 
 > **NOTE: Write these tests FIRST, ensure they FAIL before implementation**
 
-- [ ] T008 [P] [US2] Write curated path tests in `src/engine/curated.test.ts`: (1) 4-step path at S2 suggests S3 as next, (2) last step produces no suggestion, (3) empty paths array → no curated suggestions, (4) no matching StateKey → empty array, (5) exact string match only (no partial), (6) multiple paths matching same StateKey → both next steps returned, (7) multi-path dedup: same target selector → first-registered path wins, (8) curated suggestion has confidence 1.0, avgDwellTime 0, correct curatedPathId
-- [ ] T009 [P] [US2] Write merger tests in `src/engine/merger.test.ts`: (1) curated before predicted in output, (2) same selector in curated and predicted → only curated kept, (3) total respects maxSuggestions (2 curated + 3 predicted, max 3 → 2 curated + 1 predicted), (4) zero curated → only predicted, (5) zero predicted → only curated, (6) both empty → empty array, (7) more curated than maxSuggestions → only curated returned
+- [x] T008 [P] [US2] Write curated path tests in `src/engine/curated.test.ts`: (1) 4-step path at S2 suggests S3 as next, (2) last step produces no suggestion, (3) empty paths array → no curated suggestions, (4) no matching StateKey → empty array, (5) exact string match only (no partial), (6) multiple paths matching same StateKey → both next steps returned, (7) multi-path dedup: same target selector → first-registered path wins, (8) curated suggestion has confidence 1.0, avgDwellTime 0, correct curatedPathId
+- [x] T009 [P] [US2] Write merger tests in `src/engine/merger.test.ts`: (1) curated before predicted in output, (2) same selector in curated and predicted → only curated kept, (3) total respects maxSuggestions (2 curated + 3 predicted, max 3 → 2 curated + 1 predicted), (4) zero curated → only predicted, (5) zero predicted → only curated, (6) both empty → empty array, (7) more curated than maxSuggestions → only curated returned
 
 ### Implementation for User Story 2
 
-- [ ] T010 [US2] Implement curated path indexing and step resolution in `src/engine/curated.ts`: export `CuratedIndex` class — constructor builds `Map<StateKey, {step: CuratedStep, pathId: string}[]>` from CuratedPath[], export `resolve(stateKey: StateKey): Suggestion[]` that looks up next steps, deduplicates by targetSelector (first-registered wins), converts to Suggestion with source CURATED, confidence 1.0, avgDwellTime 0, label from step
-- [ ] T011 [US2] Implement merge and deduplication in `src/engine/merger.ts`: export `mergeSuggestions(curated: Suggestion[], predicted: Suggestion[], maxSuggestions: number): Suggestion[]` — build selector Set from curated, filter predicted, concatenate, truncate
+- [x] T010 [US2] Implement curated path indexing and step resolution in `src/engine/curated.ts`: export `CuratedIndex` class — constructor builds `Map<StateKey, {step: CuratedStep, pathId: string}[]>` from CuratedPath[], export `resolve(stateKey: StateKey): Suggestion[]` that looks up next steps, deduplicates by targetSelector (first-registered wins), converts to Suggestion with source CURATED, confidence 1.0, avgDwellTime 0, label from step
+- [x] T011 [US2] Implement merge and deduplication in `src/engine/merger.ts`: export `mergeSuggestions(curated: Suggestion[], predicted: Suggestion[], maxSuggestions: number): Suggestion[]` — build selector Set from curated, filter predicted, concatenate, truncate
 
 **Checkpoint**: Curated paths resolve correctly, merge with predicted respects priority and dedup. Tests pass.
 
@@ -90,7 +90,7 @@
 
 > **NOTE: Write these tests FIRST, ensure they FAIL before implementation**
 
-- [ ] T012 [US3] Write cross-cutting label validation tests in `src/engine/labels.test.ts` (append to existing file): (1) curated label passthrough — input label "Step 3: Review billing details" → output label identical, (2) label is never null/empty/undefined across all suggestion types, (3) label never contains a raw CSS selector string (no `#`, no `[data-testid=`, no `:nth-of-type`), (4) predicted label at confidence 0.84 → "Most common next action (84%)", (5) predicted label at confidence 0.35 → "Frequently used (35%)", (6) predicted label at confidence 0.08 → "Sometimes used (8%)", (7) confidence 0.0 → "Sometimes used (0%)", (8) confidence 1.0 predicted → "Most common next action (100%)"
+- [x] T012 [US3] Write cross-cutting label validation tests in `src/engine/labels.test.ts` (append to existing file): (1) curated label passthrough — input label "Step 3: Review billing details" → output label identical, (2) label is never null/empty/undefined across all suggestion types, (3) label never contains a raw CSS selector string (no `#`, no `[data-testid=`, no `:nth-of-type`), (4) predicted label at confidence 0.84 → "Most common next action (84%)", (5) predicted label at confidence 0.35 → "Frequently used (35%)", (6) predicted label at confidence 0.08 → "Sometimes used (8%)", (7) confidence 0.0 → "Sometimes used (0%)", (8) confidence 1.0 predicted → "Most common next action (100%)"
 
 ### Implementation for User Story 3
 
@@ -106,12 +106,12 @@ No new implementation needed — curated labels are set directly from `step.labe
 
 ### Tests
 
-- [ ] T013 [P] Write Engine integration tests in `src/engine/index.test.ts`: (1) full pipeline: mock provider → query → correctly ranked Suggestion[], (2) cold start (empty provider, no paths) → [], (3) curated + predicted mixed scenario → correct order, dedup, labels, (4) maxSuggestions config respected, (5) error in provider.query() → returns [] and calls onError, (6) error in onError callback → silenced, still returns [], (7) onError not configured → errors silently return [], (8) query is stateless — two consecutive calls with different StateKeys return independent results, (9) default maxSuggestions is 3 when not configured, (10) curatedPaths defaults to [] when not configured
+- [x] T013 [P] Write Engine integration tests in `src/engine/index.test.ts`: (1) full pipeline: mock provider → query → correctly ranked Suggestion[], (2) cold start (empty provider, no paths) → [], (3) curated + predicted mixed scenario → correct order, dedup, labels, (4) maxSuggestions config respected, (5) error in provider.query() → returns [] and calls onError, (6) error in onError callback → silenced, still returns [], (7) onError not configured → errors silently return [], (8) query is stateless — two consecutive calls with different StateKeys return independent results, (9) default maxSuggestions is 3 when not configured, (10) curatedPaths defaults to [] when not configured
 
 ### Implementation
 
-- [ ] T014 Implement Engine class in `src/engine/index.ts`: constructor takes EngineConfig, builds CuratedIndex from curatedPaths, stores telemetryProvider and maxSuggestions. Export `query(stateKey: StateKey): Suggestion[]` — calls provider.query(), resolves curated, ranks predicted, merges, returns. Top-level try-catch with onError forwarding per FR-015.
-- [ ] T015 Add Engine exports to `src/index.ts`: export Engine class, Suggestion, SuggestionSource, CuratedPath, CuratedStep, EngineConfig types from `src/engine/`
+- [x] T014 Implement Engine class in `src/engine/index.ts`: constructor takes EngineConfig, builds CuratedIndex from curatedPaths, stores telemetryProvider and maxSuggestions. Export `query(stateKey: StateKey): Suggestion[]` — calls provider.query(), resolves curated, ranks predicted, merges, returns. Top-level try-catch with onError forwarding per FR-015.
+- [x] T015 Add Engine exports to `src/index.ts`: export Engine class, Suggestion, SuggestionSource, CuratedPath, CuratedStep, EngineConfig types from `src/engine/`
 
 **Checkpoint**: Full engine pipeline works end-to-end. All tests pass.
 
@@ -121,10 +121,10 @@ No new implementation needed — curated labels are set directly from `step.labe
 
 **Purpose**: Build validation, performance, and zero-warnings compliance
 
-- [ ] T016 Run `bun run lint` and fix any TypeScript strict-mode warnings in `src/engine/` — zero warnings policy (Constitution §VII)
-- [ ] T017 Run `bun run build` and verify Engine types appear in `dist/index.d.ts` output
-- [ ] T018 Run `bun run test` and verify 100% coverage on all `src/engine/` files (SC-006)
-- [ ] T019 Add a performance benchmark test in `src/engine/index.test.ts`: generate a mock provider with 100 FrequencyEntries for a single StateKey + 3 curated paths with 10 steps each, call query() 1000 times, assert average <50ms per call (FR-014)
+- [x] T016 Run `bun run lint` and fix any TypeScript strict-mode warnings in `src/engine/` — zero warnings policy (Constitution §VII)
+- [x] T017 Run `bun run build` and verify Engine types appear in `dist/index.d.ts` output
+- [x] T018 Run `bun run test` and verify 100% coverage on all `src/engine/` files (SC-006)
+- [x] T019 Add a performance benchmark test in `src/engine/index.test.ts`: generate a mock provider with 100 FrequencyEntries for a single StateKey + 3 curated paths with 10 steps each, call query() 1000 times, assert average <50ms per call (FR-014)
 
 ---
 
