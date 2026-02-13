@@ -104,3 +104,10 @@ bun --hot ./index.ts
 ```
 
 For more information, read the Bun API docs in `node_modules/bun-types/docs/**.mdx`.
+
+## Active Technologies
+- TypeScript (Strict mode), targeting ESNext + Zero runtime dependencies (Constitution §VII). Dev: Vitest, Playwright, tsup, Vite, happy-dom. (002-telemetry)
+- `localStorage` under namespaced key `lob-gps:telemetry` (Constitution §Tech Constraints). In-memory `Map` fallback when unavailable. (002-telemetry)
+
+## Recent Changes
+- 002-telemetry: Added TypeScript (Strict mode), targeting ESNext + Zero runtime dependencies (Constitution §VII). Dev: Vitest, Playwright, tsup, Vite, happy-dom.
