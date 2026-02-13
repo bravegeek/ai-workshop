@@ -18,7 +18,7 @@ Use a single-pass sort with a composite comparator. No complex data structures n
    - `label` = generated from confidence tier
    - `avgDwellTime = entry.avgDwellTime`
 4. Sort by `count` descending, then by `lastSeenTimestamp` descending for ties.
-5. Truncate to `maxSuggestions`.
+5. Return the full ranked array. Truncation to `maxSuggestions` is handled by the merger (R4) after combining with curated suggestions — this ensures curated dedup doesn't cause fewer results than max when more valid predictions exist.
 
 ### Rationale
 

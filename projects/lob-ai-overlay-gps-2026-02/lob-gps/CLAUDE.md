@@ -108,6 +108,8 @@ For more information, read the Bun API docs in `node_modules/bun-types/docs/**.m
 ## Active Technologies
 - TypeScript (Strict mode), targeting ESNext + Zero runtime dependencies (Constitution §VII). Dev: Vitest, Playwright, tsup, Vite, happy-dom. (002-telemetry)
 - `localStorage` under namespaced key `lob-gps:telemetry` (Constitution §Tech Constraints). In-memory `Map` fallback when unavailable. (002-telemetry)
+- TypeScript (Strict mode), targeting ESNext + Zero runtime dependencies (Constitution §VII). Dev: Vitest, tsup, Vite. (003-engine)
+- N/A — the engine reads from TelemetryProvider (injected), does not persist anything. (003-engine)
 
 ## Recent Changes
 - 002-telemetry: Added TypeScript (Strict mode), targeting ESNext + Zero runtime dependencies (Constitution §VII). Dev: Vitest, Playwright, tsup, Vite, happy-dom.
