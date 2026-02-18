@@ -24,3 +24,6 @@ export {
 
 export { OverlayUI } from "./ui/index.js";
 export { type UIConfig, type MiniMapAnchor } from "./ui/types.js";
+
+export { LobGPS } from "./integration/index.js";
+export { type LobGPSConfig, type ResolvedConfig } from "./integration/types.js";

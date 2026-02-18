@@ -105,7 +105,7 @@ The integration layer orchestrates the end-to-end flow: when the Mapper detects 
 1. **Given** the user clicks `#save-btn` on `messy-app.html`, **When** the Mapper detects the Action Items section appearing, **Then** the full pipeline executes: state change → telemetry record → engine query → UI render.
 2. **Given** the pipeline is running, **When** timed end-to-end (state change event to UI pulse visible), **Then** the total duration is under 50ms. **Note**: Constitution §VIII mandates sub-50ms for "state detection and UI updates." The pipeline's processing time (telemetry record + engine query + UI render) begins after the Mapper emits StateChangeEvent, so the 50ms budget applies to the integration layer's own work. DOM observation latency is inherent to MutationObserver and outside this budget.
 3. **Given** the Engine returns no suggestions (cold start), **When** the UI receives an empty list, **Then** no overlay elements are rendered — no empty panels, no errors.
-4. **Given** state changes fire rapidly (e.g. user clicking fast), **When** multiple pipeline cycles overlap, **Then** the most recent cycle wins — stale suggestions from earlier cycles are discarded, not rendered.
+4. **Given** state changes fire rapidly (e.g. user clicking fast), **When** multiple StateChangeEvents arrive within 100ms, **Then** the pipeline uses leading-edge debounce: the first event triggers an immediate cycle, subsequent events within the 100ms window are dropped. This prevents flood while preserving instant response to the first interaction.
 5. **Given** one module in the pipeline fails (caught by error boundary), **When** the next state change occurs, **Then** the pipeline retries the full cycle — previous failures don't permanently break the loop.
 
 ---
@@ -115,11 +115,20 @@ The integration layer orchestrates the end-to-end flow: when the Mapper detects 
 - **Script load order**: The library must work whether loaded in `<head>` (defers to DOMContentLoaded) or at end of `<body>` (immediate init). `async` and `defer` attributes should both work.
 - **CSP restrictions**: Some enterprise environments have strict Content-Security-Policy headers. Constructable Stylesheets avoid `style-src 'unsafe-inline'` issues, but the library should document CSP requirements.
 - **Multiple LOB apps in tabs**: Each tab runs its own instance with its own telemetry (localStorage is shared by origin, but namespaced by the library). Cross-tab coordination is out of scope for v1.
-- **Memory leaks**: Long-running LOB sessions (8+ hours) must not accumulate detached DOM nodes or unbounded event listener lists. The pipeline should not hold references to old suggestions or stale DOM elements.
+- **Memory leaks**: Long-running LOB sessions (8+ hours) must not accumulate detached DOM nodes or unbounded event listener lists. The pipeline should not hold references to old suggestions or stale DOM elements. The error buffer is capped at 100 entries to prevent unbounded growth.
 - **Hot reload during development**: The library must handle being re-initialized (Vite HMR) without duplicating overlays or observers. The duplicate-detection logic in US1 covers this.
 - **SPA-style navigation**: When the host app changes routes via History API (`pushState`/`replaceState`) or hash changes without a full page reload, the Mapper's existing observation handles DOM mutations. The pipeline does not need to reset — it treats route changes as ordinary state transitions. Full page navigations naturally reinitialize the library.
 - **Iframe isolation**: The library operates only within the top-level document where the `<script>` tag is placed. Content inside iframes is out of scope for v1. The Mapper does not observe iframe contents, and the UI does not render overlays targeting iframe elements.
 - **Auto-disable recovery**: After auto-disable from repeated failures, `window.LobGPS.isActive` returns `false` and `window.LobGPS.errors` contains the triggering errors plus an auto-disable event. The overlay remains disabled until `enable()` is called explicitly.
+
+## Clarifications
+
+### Session 2026-02-17
+
+- Q: What is the maximum size of the error buffer (`window.LobGPS.errors`)? → A: Capped ring buffer, max 100 errors (oldest dropped first).
+- Q: Should the pipeline debounce rapid state changes from the Mapper? → A: Leading-edge debounce: execute immediately on first event, ignore further events for 100ms.
+- Q: Relationship between `onError` callback and the internal error buffer? → A: Additive — errors always go to buffer AND to `onError` callback if provided.
+- Q: What happens when API methods are called in unexpected states (e.g., `configure()` when disabled)? → A: Silent no-op — no error, no buffer entry.
 
 ## Requirements
 
@@ -133,9 +142,9 @@ The integration layer orchestrates the end-to-end flow: when the Mapper detects 
 - **FR-006**: Kill switch MUST be triggerable via configurable key combo (default: `Ctrl+Shift+K`) and via API (`window.LobGPS.disable()`).
 - **FR-007**: `window.LobGPS.enable()` MUST reinitialize the overlay after disable, preserving existing telemetry data.
 - **FR-008**: Every module boundary MUST have try-catch error isolation. No overlay error may propagate to `window.onerror` or `unhandledrejection`. (Constitution §X)
-- **FR-009**: Caught errors MUST be stored in an internal buffer accessible via `window.LobGPS.errors` for debugging.
+- **FR-009**: Caught errors MUST be stored in a capped ring buffer (max 100 entries, oldest dropped first) accessible via `window.LobGPS.errors` for debugging. If an `onError` callback is configured, it MUST also be called with the error — the buffer and callback are additive (both always fire).
 - **FR-010**: The integration pipeline (from StateChangeEvent received through UI render initiated) MUST complete within 50ms. (Constitution §VIII)
-- **FR-011**: When multiple pipeline cycles overlap, the most recent MUST win — stale results discarded.
+- **FR-011**: The pipeline MUST use leading-edge debounce (100ms window): the first StateChangeEvent triggers an immediate cycle; subsequent events within the window are dropped. This prevents flood while ensuring instant response to the first state change.
 - **FR-012**: Configuration MUST be providable at init time via `window.LobGPS = { ... }` and modifiable at runtime via `window.LobGPS.configure()`.
 - **FR-013**: Library MUST work with `async`, `defer`, and synchronous script loading.
 - **FR-014**: Teardown (`disable()`) MUST NOT flush telemetry data — historical data survives disable/enable cycles.
@@ -147,10 +156,11 @@ The integration layer orchestrates the end-to-end flow: when the Mapper detects 
 - **FR-020**: When `debug` is `true` in config, caught errors MUST also be logged to `console.warn` in addition to the internal error buffer.
 - **FR-021**: `window.LobGPS.configure()` MUST apply changes to the next pipeline cycle. The method does not trigger an immediate re-render — the updated config takes effect when the Mapper emits the next StateChangeEvent.
 - **FR-022**: When repeated failures trigger auto-disable (5 consecutive errors within 10 seconds by default), the system MUST log an auto-disable event to the error buffer and set `isActive` to `false`. Only an explicit `enable()` call restarts the overlay.
+- **FR-023**: API calls in unexpected states MUST be silent no-ops: `enable()` when already active, `disable()` when already disabled, `configure()` when disabled or torn down, any method after `teardown()`. No error is thrown or buffered.
 
 ### Key Entities
 
-- **LobGPS**: The global API object. Methods: `enable()`, `disable()`, `configure(options)`, `teardown()`. Properties: `errors: Error[]` (read-only), `version: string` (read-only), `isActive: boolean` (read-only).
+- **LobGPS**: The global API object. Methods: `enable()`, `disable()`, `configure(options)`, `teardown()`. Properties: `errors: Error[]` (read-only), `version: string` (read-only), `isActive: boolean` (read-only). Lifecycle states: **active** → `disable()` → **disabled** → `enable()` → **active**; **active** or **disabled** → `teardown()` → **torn down** (terminal). All API calls in invalid states are silent no-ops (FR-023).
 - **LobGPSConfig**: Init-time configuration. All fields optional (sensible defaults apply):
   - **Engine**: `maxSuggestions: number` (default 3), `curatedPaths: CuratedPath[]` (default [])
   - **Telemetry**: `telemetryProvider: TelemetryProvider` (default LocalStorageProvider), `storageCap: number` (default 1MB), `namespace: string` (default "lob-gps:telemetry")
