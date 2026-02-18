@@ -3,7 +3,7 @@
 **Feature Branch**: `005-integration`
 **Created**: 2026-02-08
 **Status**: Draft
-**Input**: Constitution v1.0.0, session.md, Mapper spec, Telemetry spec, Engine spec, UI spec
+**Input**: Constitution v1.1.0, session.md, Mapper spec, Telemetry spec, Engine spec, UI spec
 
 ## Upstream Dependencies
 
@@ -68,7 +68,7 @@ Every module boundary has a try-catch wrapper. Any error in Mapper, Telemetry, E
 3. **Given** the Engine's query logic throws, **When** the error occurs, **Then** an empty suggestion list is returned to the UI, the overlay shows nothing for this cycle.
 4. **Given** the UI's pulse rendering throws, **When** the error occurs, **Then** the suggestion is skipped, the Engine and Mapper continue operating.
 5. **Given** errors are caught, **When** logged, **Then** they are logged to an internal buffer (not `console.error` by default — configurable). The buffer is accessible via `window.LobGPS.errors` for debugging.
-6. **Given** a cascade of errors causes all modules to fail, **When** the system detects repeated failures (e.g. 5 consecutive errors within 10 seconds), **Then** it auto-disables via the kill switch to stop further interference. [NEEDS CLARIFICATION: is auto-disable desired, or should it keep retrying?]
+6. **Given** a cascade of errors causes all modules to fail, **When** the system detects repeated failures (5 consecutive errors within 10 seconds), **Then** it auto-disables via the kill switch to stop further interference. The error buffer records the auto-disable event. Re-enabling requires an explicit `window.LobGPS.enable()` call. The thresholds (error count and time window) are configurable via `errorThreshold` and `errorWindowMs` in LobGPSConfig.
 
 ---
 
@@ -86,8 +86,9 @@ The library exposes a configuration API that controls all tunable behaviors. Con
 2. **Given** config `{ curatedPaths: [...] }`, **When** the Engine queries, **Then** curated paths are active and prioritized.
 3. **Given** config `{ telemetryProvider: customProvider }`, **When** transitions are recorded, **Then** they route to the custom provider.
 4. **Given** config `{ killSwitch: 'Ctrl+Alt+G' }`, **When** the user presses `Ctrl+Alt+G`, **Then** the overlay disables.
-5. **Given** `window.LobGPS.configure({ maxSuggestions: 1 })` is called at runtime, **When** the next suggestion cycle runs, **Then** only 1 suggestion is returned.
-6. **Given** no config is provided, **When** the library initializes, **Then** all defaults are applied: LocalStorageProvider, 3 max suggestions, `Ctrl+Shift+K` kill switch, no curated paths.
+5. **Given** `window.LobGPS.configure({ maxSuggestions: 1 })` is called at runtime, **When** the next StateChangeEvent triggers a pipeline cycle, **Then** only 1 suggestion is returned. The `configure()` call does not trigger an immediate re-render.
+6. **Given** no config is provided, **When** the library initializes, **Then** all defaults are applied: LocalStorageProvider, 3 max suggestions, `Ctrl+Shift+K` kill switch, no curated paths, bottom-right mini-map, debug off.
+7. **Given** config `{ debug: true }`, **When** an error is caught at a module boundary, **Then** the error is logged to `console.warn` in addition to the internal error buffer.
 
 ---
 
@@ -97,12 +98,12 @@ The integration layer orchestrates the end-to-end flow: when the Mapper detects 
 
 **Why this priority**: P1 because this is what makes the modules a product rather than four disconnected libraries.
 
-**Independent Test**: On `messy-app.html`, click `#save-btn`. Verify the full pipeline fires: Mapper emits StateChangeEvent → Telemetry records TransitionPacket → Engine queries and returns Suggestions → UI pulses `#finalize-transaction-btn` (if telemetry has data) or shows nothing (cold start). The entire cycle completes within 50ms of the state change.
+**Independent Test**: On a test page, trigger a state change (e.g., click a button that reveals a new section). Verify the full pipeline fires: Mapper emits StateChangeEvent → Telemetry records TransitionPacket → Engine queries and returns Suggestions → UI renders pulse (if telemetry has data) or shows nothing (cold start). The pipeline processing completes within 50ms of the StateChangeEvent.
 
 **Acceptance Scenarios**:
 
 1. **Given** the user clicks `#save-btn` on `messy-app.html`, **When** the Mapper detects the Action Items section appearing, **Then** the full pipeline executes: state change → telemetry record → engine query → UI render.
-2. **Given** the pipeline is running, **When** timed end-to-end (state change event to UI pulse visible), **Then** the total duration is under 100ms (50ms per Constitution §VIII, with 50ms budget for DOM observation latency).
+2. **Given** the pipeline is running, **When** timed end-to-end (state change event to UI pulse visible), **Then** the total duration is under 50ms. **Note**: Constitution §VIII mandates sub-50ms for "state detection and UI updates." The pipeline's processing time (telemetry record + engine query + UI render) begins after the Mapper emits StateChangeEvent, so the 50ms budget applies to the integration layer's own work. DOM observation latency is inherent to MutationObserver and outside this budget.
 3. **Given** the Engine returns no suggestions (cold start), **When** the UI receives an empty list, **Then** no overlay elements are rendered — no empty panels, no errors.
 4. **Given** state changes fire rapidly (e.g. user clicking fast), **When** multiple pipeline cycles overlap, **Then** the most recent cycle wins — stale suggestions from earlier cycles are discarded, not rendered.
 5. **Given** one module in the pipeline fails (caught by error boundary), **When** the next state change occurs, **Then** the pipeline retries the full cycle — previous failures don't permanently break the loop.
@@ -116,6 +117,9 @@ The integration layer orchestrates the end-to-end flow: when the Mapper detects 
 - **Multiple LOB apps in tabs**: Each tab runs its own instance with its own telemetry (localStorage is shared by origin, but namespaced by the library). Cross-tab coordination is out of scope for v1.
 - **Memory leaks**: Long-running LOB sessions (8+ hours) must not accumulate detached DOM nodes or unbounded event listener lists. The pipeline should not hold references to old suggestions or stale DOM elements.
 - **Hot reload during development**: The library must handle being re-initialized (Vite HMR) without duplicating overlays or observers. The duplicate-detection logic in US1 covers this.
+- **SPA-style navigation**: When the host app changes routes via History API (`pushState`/`replaceState`) or hash changes without a full page reload, the Mapper's existing observation handles DOM mutations. The pipeline does not need to reset — it treats route changes as ordinary state transitions. Full page navigations naturally reinitialize the library.
+- **Iframe isolation**: The library operates only within the top-level document where the `<script>` tag is placed. Content inside iframes is out of scope for v1. The Mapper does not observe iframe contents, and the UI does not render overlays targeting iframe elements.
+- **Auto-disable recovery**: After auto-disable from repeated failures, `window.LobGPS.isActive` returns `false` and `window.LobGPS.errors` contains the triggering errors plus an auto-disable event. The overlay remains disabled until `enable()` is called explicitly.
 
 ## Requirements
 
@@ -130,28 +134,42 @@ The integration layer orchestrates the end-to-end flow: when the Mapper detects 
 - **FR-007**: `window.LobGPS.enable()` MUST reinitialize the overlay after disable, preserving existing telemetry data.
 - **FR-008**: Every module boundary MUST have try-catch error isolation. No overlay error may propagate to `window.onerror` or `unhandledrejection`. (Constitution §X)
 - **FR-009**: Caught errors MUST be stored in an internal buffer accessible via `window.LobGPS.errors` for debugging.
-- **FR-010**: The full event loop (state change → telemetry → engine → UI) MUST complete within 100ms end-to-end.
+- **FR-010**: The integration pipeline (from StateChangeEvent received through UI render initiated) MUST complete within 50ms. (Constitution §VIII)
 - **FR-011**: When multiple pipeline cycles overlap, the most recent MUST win — stale results discarded.
 - **FR-012**: Configuration MUST be providable at init time via `window.LobGPS = { ... }` and modifiable at runtime via `window.LobGPS.configure()`.
 - **FR-013**: Library MUST work with `async`, `defer`, and synchronous script loading.
-- **FR-014**: Teardown MUST NOT flush telemetry data — historical data survives disable/enable cycles.
+- **FR-014**: Teardown (`disable()`) MUST NOT flush telemetry data — historical data survives disable/enable cycles.
 - **FR-015**: Library bundle MUST be under 50KB gzipped. (Constitution §Tech Constraints)
+- **FR-016**: On initialization, the library MUST read any pre-existing `window.LobGPS` object as the config, then replace it with the full API object (methods + properties). The original config values are preserved internally.
+- **FR-017**: `window.LobGPS.version` MUST expose the library's semantic version string (read-only).
+- **FR-018**: `window.LobGPS.isActive` MUST reflect whether the overlay is currently running (read-only). Returns `true` after initialization and `enable()`, `false` after `disable()` or `teardown()`.
+- **FR-019**: `window.LobGPS.teardown()` MUST permanently destroy the instance — unlike `disable()`, calling `enable()` after `teardown()` is a no-op. Use case: host app cleanup on unload.
+- **FR-020**: When `debug` is `true` in config, caught errors MUST also be logged to `console.warn` in addition to the internal error buffer.
+- **FR-021**: `window.LobGPS.configure()` MUST apply changes to the next pipeline cycle. The method does not trigger an immediate re-render — the updated config takes effect when the Mapper emits the next StateChangeEvent.
+- **FR-022**: When repeated failures trigger auto-disable (5 consecutive errors within 10 seconds by default), the system MUST log an auto-disable event to the error buffer and set `isActive` to `false`. Only an explicit `enable()` call restarts the overlay.
 
 ### Key Entities
 
-- **LobGPS**: The global API object. Methods: `enable()`, `disable()`, `configure(options)`, `teardown()`. Properties: `errors: Error[]`, `version: string`, `isActive: boolean`.
-- **LobGPSConfig**: Init-time configuration. Fields: `maxSuggestions: number`, `curatedPaths: CuratedPath[]`, `telemetryProvider?: TelemetryProvider`, `killSwitch: string` (key combo), `debug: boolean` (enables console logging of caught errors).
-- **Pipeline**: Internal orchestrator. Listens for Mapper's StateChangeEvents, triggers Telemetry record → Engine query → UI render. Handles cycle cancellation and error isolation.
+- **LobGPS**: The global API object. Methods: `enable()`, `disable()`, `configure(options)`, `teardown()`. Properties: `errors: Error[]` (read-only), `version: string` (read-only), `isActive: boolean` (read-only).
+- **LobGPSConfig**: Init-time configuration. All fields optional (sensible defaults apply):
+  - **Engine**: `maxSuggestions: number` (default 3), `curatedPaths: CuratedPath[]` (default [])
+  - **Telemetry**: `telemetryProvider: TelemetryProvider` (default LocalStorageProvider), `storageCap: number` (default 1MB), `namespace: string` (default "lob-gps:telemetry")
+  - **Mapper**: `useFingerprinting: boolean` (default false), `dynamicIdDenylist: string[]`, `dynamicIdAllowlist: string[]`, `maxAncestorDepth: number` (default 5)
+  - **UI**: `miniMapAnchor: MiniMapAnchor` (default "bottom-right"), `zIndex: number` (default auto)
+  - **Integration**: `killSwitch: string` (key combo, default "Ctrl+Shift+K"), `debug: boolean` (default false), `onError: (error: Error) => void` (optional external error callback), `errorThreshold: number` (default 5, consecutive errors before auto-disable), `errorWindowMs: number` (default 10000)
+- **Pipeline**: Internal orchestrator. Listens for Mapper's StateChangeEvents, triggers Telemetry record → Engine query → UI render. Uses AbortController per cycle to cancel stale pipelines when a new StateChangeEvent arrives. Wraps each module call in independent try-catch boundaries.
 
 ## Success Criteria
 
 ### Measurable Outcomes
 
-- **SC-001**: `<script src="lob-gps.js"></script>` on `messy-app.html` initializes without errors, shadow host appears, mapper observes — verified by Playwright.
-- **SC-002**: Kill switch (`Ctrl+Shift+K`) removes all overlay elements and stops all observation — verified by checking DOM and event listener counts pre/post.
-- **SC-003**: `enable()` after `disable()` restores the overlay with telemetry data intact — verified by querying telemetry after re-enable.
-- **SC-004**: Injected faults in each module do not trigger `window.onerror` — verified by setting a trap handler and asserting zero calls.
-- **SC-005**: Full pipeline (click → pulse visible) completes within 100ms on `messy-app.html` — benchmarked via Playwright performance timing.
-- **SC-006**: Duplicate `<script>` tags result in exactly one overlay instance — verified by counting shadow hosts.
-- **SC-007**: Final bundle is under 50KB gzipped — verified by build output.
-- **SC-008**: Library works with `async`, `defer`, and sync loading — verified by 3 Playwright test variants.
+- **SC-001**: A single `<script>` tag on a test page initializes the library without errors — shadow host appears, mapper begins observing, zero host DOM mutations.
+- **SC-002**: Kill switch removes all overlay elements and stops all observation within one animation frame. No stale listeners or observers remain.
+- **SC-003**: `enable()` after `disable()` restores the overlay with previously recorded telemetry data intact and queryable.
+- **SC-004**: Injected faults in each module (Mapper, Telemetry, Engine, UI) produce zero unhandled exceptions visible to the host application's error handlers.
+- **SC-005**: Full pipeline (StateChangeEvent received → UI render initiated) completes within 50ms on a representative LOB test page.
+- **SC-006**: Duplicate `<script>` tags result in exactly one overlay instance — no duplicate shadow hosts, no errors.
+- **SC-007**: Final library bundle is under 50KB gzipped.
+- **SC-008**: Library initializes correctly with `async`, `defer`, and synchronous script loading modes.
+- **SC-009**: After 5 consecutive errors within 10 seconds, the overlay auto-disables and `isActive` returns `false`.
+- **SC-010**: `teardown()` permanently destroys the instance — subsequent `enable()` calls are no-ops.
