@@ -110,6 +110,8 @@ For more information, read the Bun API docs in `node_modules/bun-types/docs/**.m
 - `localStorage` under namespaced key `lob-gps:telemetry` (Constitution §Tech Constraints). In-memory `Map` fallback when unavailable. (002-telemetry)
 - TypeScript (Strict mode), targeting ESNext + Zero runtime dependencies (Constitution §VII). Dev: Vitest, tsup, Vite. (003-engine)
 - N/A — the engine reads from TelemetryProvider (injected), does not persist anything. (003-engine)
+- TypeScript (Strict mode), targeting ESNext + Zero runtime dependencies (Constitution §VII). Dev: Vitest, Playwright, tsup, Vite, happy-dom. (004-ui)
+- N/A — the UI module is stateless and renders whatever it receives. (004-ui)
 
 ## Recent Changes
 - 002-telemetry: Added TypeScript (Strict mode), targeting ESNext + Zero runtime dependencies (Constitution §VII). Dev: Vitest, Playwright, tsup, Vite, happy-dom.

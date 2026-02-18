@@ -52,3 +52,6 @@ desktop.ini
 
 # binary files
 bin/
+
+# Codex local artifacts
+.codex/

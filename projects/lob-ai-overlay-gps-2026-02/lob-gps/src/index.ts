@@ -21,3 +21,6 @@ export {
   type CuratedStep,
   type EngineConfig,
 } from "./engine/types.js";
+
+export { OverlayUI } from "./ui/index.js";
+export { type UIConfig, type MiniMapAnchor } from "./ui/types.js";
