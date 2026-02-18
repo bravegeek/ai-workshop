@@ -26,8 +26,10 @@ export default defineConfig({
     },
   ],
   webServer: {
-    command: 'npm run dev',
-    url: 'http://localhost:3000',
+    command: 'bunx vite --port 3000',
+    url: 'http://localhost:3000/test-pages/messy-app.html',
     reuseExistingServer: !process.env.CI,
+    timeout: 30000,
+    stdout: 'pipe',
   },
 });
