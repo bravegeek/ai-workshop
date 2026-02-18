@@ -112,6 +112,7 @@ For more information, read the Bun API docs in `node_modules/bun-types/docs/**.m
 - N/A — the engine reads from TelemetryProvider (injected), does not persist anything. (003-engine)
 - TypeScript (Strict mode), targeting ESNext + Zero runtime dependencies (Constitution §VII). Dev: Vitest, Playwright, tsup, Vite, happy-dom. (004-ui)
 - N/A — the UI module is stateless and renders whatever it receives. (004-ui)
+- N/A — the integration layer delegates all persistence to Telemetry's TelemetryProvider. (005-integration)
 
 ## Recent Changes
 - 002-telemetry: Added TypeScript (Strict mode), targeting ESNext + Zero runtime dependencies (Constitution §VII). Dev: Vitest, Playwright, tsup, Vite, happy-dom.
