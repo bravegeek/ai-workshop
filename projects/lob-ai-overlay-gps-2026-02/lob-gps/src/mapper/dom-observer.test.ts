@@ -47,7 +47,8 @@ describe("dom-observer", () => {
     let callCount = 0;
     const observer = new DomObserver({
         onStateChange,
-        generateStateKey: () => `key-${callCount++}` as any
+        generateStateKey: () => `key-${callCount++}` as any,
+        generateElementSelector: () => "",
     });
 
     observer.observe();
@@ -74,7 +75,8 @@ describe("dom-observer", () => {
     let callCount = 0;
     const observer = new DomObserver({
         onStateChange,
-        generateStateKey: () => `key-${callCount++}` as any
+        generateStateKey: () => `key-${callCount++}` as any,
+        generateElementSelector: () => "",
     });
 
     observer.observe();
@@ -99,7 +101,8 @@ describe("dom-observer", () => {
     const onStateChange = vi.fn();
     const observer = new DomObserver({
         onStateChange,
-        generateStateKey: (sel) => `key::${sel}` as any
+        generateStateKey: (sel) => `key::${sel}` as any,
+        generateElementSelector: () => "",
     });
 
     observer.observe();
@@ -123,7 +126,8 @@ describe("dom-observer", () => {
     const onStateChange = vi.fn();
     const observer = new DomObserver({
         onStateChange,
-        generateStateKey: (sel) => `key::${sel}` as any
+        generateStateKey: (sel) => `key::${sel}` as any,
+        generateElementSelector: () => "",
     });
 
     observer.observe();

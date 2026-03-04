@@ -3,6 +3,7 @@ import { StateChangeTrigger, type StateChangeEvent, type StateKey, type Normaliz
 interface DomObserverOptions {
   onStateChange: (event: StateChangeEvent) => void;
   generateStateKey: (lastSelector: NormalizedSelector | "") => StateKey;
+  generateElementSelector: (el: Element) => NormalizedSelector | "";
 }
 
 /**
@@ -15,6 +16,8 @@ export class DomObserver {
   private pendingRecords: MutationRecord[] = [];
   private rafId: number | null = null;
   private previousStateKey: StateKey;
+  private lastActionSelector: NormalizedSelector | "" = "";
+  private clickHandler: ((e: MouseEvent) => void) | null = null;
   private isDisposed = false;
 
   constructor(private options: DomObserverOptions) {
@@ -42,6 +45,20 @@ export class DomObserver {
         subtree: true,
         attributeFilter: ["style", "class", "hidden"],
       });
+
+      // 3. Click listener to track last action selector (FR-004)
+      this.clickHandler = (e: MouseEvent) => {
+        const target = e.target instanceof Element ? e.target : null;
+        if (target && this.isInteractive(target)) {
+          try {
+            const sel = this.options.generateElementSelector(target);
+            if (sel) this.lastActionSelector = sel;
+          } catch {
+            // Fail-safe (FR-010)
+          }
+        }
+      };
+      document.addEventListener("click", this.clickHandler, { capture: true });
     } catch (e) {
       // Fail-safe (FR-010)
     }
@@ -66,6 +83,11 @@ export class DomObserver {
     if (this.rafId !== null) {
       cancelAnimationFrame(this.rafId);
       this.rafId = null;
+    }
+
+    if (this.clickHandler) {
+      document.removeEventListener("click", this.clickHandler, { capture: true });
+      this.clickHandler = null;
     }
 
     this.pendingRecords = [];
@@ -111,7 +133,7 @@ export class DomObserver {
       }
 
       if (trigger) {
-        const newStateKey = this.options.generateStateKey(""); // Simplified for v1
+        const newStateKey = this.options.generateStateKey(this.lastActionSelector);
         if (newStateKey !== this.previousStateKey) {
           const event: StateChangeEvent = {
             previousStateKey: this.previousStateKey,

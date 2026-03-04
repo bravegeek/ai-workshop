@@ -12,6 +12,7 @@ test.describe("Telemetry E2E", () => {
       `,
       type: "module",
     });
+    await page.waitForFunction(() => window.Mapper !== undefined && window.Telemetry !== undefined);
   });
 
   test("SC-001: 3-step workflow produces 3 transitions with correct fields", async ({
@@ -85,6 +86,7 @@ test.describe("Telemetry E2E", () => {
       `,
       type: "module",
     });
+    await page.waitForFunction(() => window.Mapper !== undefined && window.Telemetry !== undefined);
 
     // Query back after reload
     const entries = await page.evaluate(async () => {

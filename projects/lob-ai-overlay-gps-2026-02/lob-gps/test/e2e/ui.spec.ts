@@ -26,6 +26,9 @@ function makeSuggestion(
 test.describe("UI Module E2E", () => {
   test.beforeEach(async ({ page }) => {
     await page.goto("/test-pages/messy-app.html");
+    // Tear down boot.ts-created overlay so test controls the only host
+    await page.waitForFunction(() => window.LobGPS?.version !== undefined, null, { timeout: 2000 }).catch(() => {});
+    await page.evaluate(() => (window as any).LobGPS?.teardown?.());
     await page.addScriptTag({ content: INJECT_SCRIPT, type: "module" });
     // Wait for module to load
     await page.waitForFunction(() => window.OverlayUI !== undefined);

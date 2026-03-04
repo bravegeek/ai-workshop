@@ -61,6 +61,13 @@ export class Mapper implements IMapper {
         });
       },
       generateStateKey: (sel) => this.generateStateKey(sel),
+      generateElementSelector: (el) => {
+        try {
+          return this.generateSelector(el).selector;
+        } catch {
+          return "";
+        }
+      },
     });
 
     this.observer.observe();

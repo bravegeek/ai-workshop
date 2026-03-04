@@ -3,10 +3,6 @@ import { test, expect } from '@playwright/test';
 test.describe('Mapper E2E', () => {
   test.beforeEach(async ({ page }) => {
     await page.goto('/test-pages/messy-app.html');
-    // Inject the library
-    // In a real scenario, the library would be loaded via script tag.
-    // For testing, we can use page.addScriptTag or evaluate.
-    // Since we are using Vite dev server, we can try to import it.
     await page.addScriptTag({
       content: `
         import { Mapper } from '/src/index.ts';
@@ -14,6 +10,7 @@ test.describe('Mapper E2E', () => {
       `,
       type: 'module'
     });
+    await page.waitForFunction(() => window.Mapper !== undefined);
   });
 
   test('SC-001: generates stable selectors for interactive elements', async ({ page }) => {
