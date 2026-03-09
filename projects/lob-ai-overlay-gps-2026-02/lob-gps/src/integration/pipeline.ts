@@ -95,9 +95,11 @@ export class Pipeline {
 
     let hadError = false;
 
-    // Step 1: Record telemetry
+    // Step 1: Record telemetry — index by previousStateKey so the engine learns
+    // "from state A, the user's next action was selector X (arriving at state B)".
+    // Querying newStateKey then returns what others did *after* reaching this state.
     try {
-      this.deps.telemetry.record(event.newStateKey, selector, ActionType.NAVIGATION);
+      this.deps.telemetry.record(event.previousStateKey, selector, ActionType.NAVIGATION);
     } catch (err) {
       hadError = true;
       this.deps.errorReporter(err instanceof Error ? err : new Error(String(err)));

@@ -97,14 +97,15 @@ describe("Pipeline", () => {
       expect(engine.query).toHaveBeenCalledWith("page::#submit");
     });
 
-    test("calls telemetry.record with newStateKey", () => {
+    test("calls telemetry.record with previousStateKey", () => {
       const { mapper, telemetry, engine, ui, errorReporter, config } = createMocks();
       const pipeline = new Pipeline({ mapper, telemetry, engine, ui, config, errorReporter });
       pipeline.start();
 
       mapper._emit("state-change", makeEvent("page::#submit"));
       expect(telemetry.record).toHaveBeenCalledOnce();
-      expect(telemetry.record.mock.calls[0][0]).toBe("page::#submit");
+      // Records at previousStateKey so engine learns "from A, user went to B via selector"
+      expect(telemetry.record.mock.calls[0][0]).toBe("main::");
     });
   });
 

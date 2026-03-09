@@ -18,14 +18,11 @@ export const STYLES_CSS = /* css */ `
 /* ─── Pulse Highlight ──────────────────────────────────────────────────── */
 
 @keyframes lob-pulse-glow {
-  0% {
-    box-shadow: 0 0 0 0 rgba(59, 130, 246, 0.5);
+  0%, 100% {
+    box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.8);
   }
   50% {
-    box-shadow: 0 0 0 8px rgba(59, 130, 246, 0.15);
-  }
-  100% {
-    box-shadow: 0 0 0 0 rgba(59, 130, 246, 0.5);
+    box-shadow: 0 0 0 10px rgba(59, 130, 246, 0.0);
   }
 }
 
@@ -157,7 +154,7 @@ export const STYLES_CSS = /* css */ `
 @media (prefers-reduced-motion: reduce) {
   .lob-pulse {
     animation: none;
-    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.5);
+    box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.8);
   }
 }
 
