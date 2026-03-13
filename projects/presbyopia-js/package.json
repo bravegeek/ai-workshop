@@ -1,0 +1,21 @@
+{
+  "name": "presbyopia-js",
+  "version": "0.1.0",
+  "description": "Accessibility-first mobile web library for presbyopic users",
+  "type": "module",
+  "module": "dist/presbyopia.js",
+  "main": "dist/presbyopia.iife.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "bun run build:esm && bun run build:iife",
+    "build:esm": "bun build src/index.ts --outfile dist/presbyopia.js --format esm --sourcemap",
+    "build:iife": "bun build src/index.ts --outfile dist/presbyopia.iife.js --format iife --global-name presbyopia --sourcemap",
+    "test": "bun test",
+    "dev": "bun build src/index.ts --outfile dist/presbyopia.js --format esm --watch"
+  },
+  "devDependencies": {
+    "@happy-dom/global-registrator": "^15.0.0",
+    "bun-types": "latest",
+    "typescript": "^5.0.0"
+  }
+}
