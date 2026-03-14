@@ -74,5 +74,28 @@ Has the Psychosphere accumulated enough mass over a billion years that it persis
 
 ---
 
+## Priority 2 (continued) — Psyloc Open Questions
+
+### Psyloc Origins & Control (see `canon/cistern_advantage.md`)
+Core mechanics documented. Decisions still needed:
+- Did IO discover Psyloc independently or re-discover something the Architects already knew and lost?
+- Can it be cultivated outside the Deep, or is it Deep-only? (Determines whether the crew's supply monopoly holds)
+- Does IO know about the cumulative barrier-thinning effect — and does she use Psyloc herself?
+- Is the thinning effect suppressed knowledge, or is it genuinely unknown even to practitioners?
+
+### Architects — History & Legacy
+The Architects are a recurring thread across multiple documents. Needs a dedicated session:
+- What specifically did they discover, and in what order?
+- What did they attempt with oubliettes?
+- Did they have knowledge of non-human depth?
+- Did they leave anything besides the Cistern — other sites, documents, surviving students?
+- Is Barnaby's connection to their collapse a story to be told, or background?
+
+---
+
 ## Done
 - ~~Phase 2: Strip digital/pop-culture metaphors from `mechanics.md`~~ (4K TV, Looney Tunes, buffering)
+- ~~Oubliettes core document~~ (see `canon/oubliettes.md`)
+- ~~Cistern advantage & world context~~ (see `canon/cistern_advantage.md`)
+- ~~Psychosphere foundation~~ (see `canon/psychosphere.md`)
+- ~~Ghost Storm mechanic~~ (documented in `canon/cistern_advantage.md`)
