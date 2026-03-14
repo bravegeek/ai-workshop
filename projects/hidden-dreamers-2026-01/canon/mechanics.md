@@ -38,7 +38,7 @@ As a Dreamwalker descends, the "Physics of Thought" changes. These are the relia
 
 ### 1. Geography of the Void
 The Deep is not a land; it is a **pressure zone**.
-*   **The Silt**: The "floor" is composed of billions of forgotten secrets, ground down into a fine, grey powder.
+*   **The Silt**: The "floor" appears to be composed of billions of forgotten secrets, ground down into fine, grey powder. This is the crew's working interpretation. The truth — that it is compressed residue from approximately a billion years of all life on Earth — is not yet in the maps.
 *   **The Trenches**: Rifts in the Silt where "Dead Data" flows.
 *   **The Gravity**: Down here, emotional weight is literal weight. A "Guilt" complex can weigh as much as a tank.
 
@@ -49,7 +49,7 @@ The Deep is not a land; it is a **pressure zone**.
     *   **Mechanism**: It **freezes** the chaotic Deep into **Transparent Amber Glass**. It preserves the Host's memories as static, indestructible "fossilized" moments.
     *   **Danger**: Getting trapped means becoming a static image in the dream forever.
 *   **The Anglers (Lure-Lights)**: Predatory thoughts that manifest as desires (lost loved ones, safety) to trap consciousness in a Loop.
-*   **The Mycelium (The Rot)**: A fungal network connecting disparate fears.
+*   **The Mycelium (The Rot)**: Currently classified as a hazard — a fungal network connecting disparate fears. This classification is likely wrong. See `psychosphere.md`. The Mycelium may predate animals in the Psychosphere by hundreds of millions of years. It is not an enemy. It is infrastructure doing its job. The crew has been treating part of the oldest system in the Deep as an obstacle.
 
 ---
 

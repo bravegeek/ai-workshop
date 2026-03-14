@@ -62,7 +62,32 @@
 
 ---
 
-## III. The Anomalies
+## III. The Inanimate (Presences & Prisoners)
+
+### 1. The Eye (The Heart of the Storm)
+*   **Nature:** A living Leviathan — a god-beast of the Deep — harpooned and dragged to the surface by the Victorian Architects.
+*   **Status:** **Imprisoned.** Paralyzed in rusted anchor chains at 80m depth inside the Cistern. The winch systems are shattered. It has been here since the Architects' collapse.
+*   **What it is not:** A battery. A tool. Infrastructure. The crew calls it "The Heart of the Storm" and treats it as a power source. This is a convenience that says more about the crew than the Eye.
+*   **Presence:**
+    *   **The Oracle Bleed:** It exists outside linear time. It leaks "Ghost Files" onto the HQ's instruments — corrupted records of dives that haven't happened yet, blueprints for technology not yet invented. Whether this is communication, distress, or something with no human analogue is unknown.
+    *   **Lethe-Light:** When its lead eyelids are retracted, it releases light that bleaches memory. The Architects died of this — slowly, forgetting names, then faces, then themselves. The crew uses mechanical shutters and strict time limits. The Eye has no shutters of its own.
+    *   **The Lampreys:** Deep parasites are drawn to it constantly. The crew scrapes them off with crowbars. From the Eye's position, this is indistinguishable from further torment.
+*   **Open:** Does it know what the crew is? Does it distinguish them from the Architects who caught it? Does it want anything, or has it been here long enough that want has become something else?
+
+### 2. The Cistern (The Witness)
+*   **Nature:** Not an agent — a *presence*. A place that accumulates.
+*   **Memory:** The Ghost Floors. During High Tide, the Cistern replays the Architects' dissolution — spectral figures wandering the catwalks, staring at tools they no longer recognize. This is not haunting in the decorative sense. The building absorbed what happened here and cannot stop replaying it.
+*   **Geometry as Behavior:** The heptagonal pool actively prevents "Standing Ideas" (obsessions) from taking root in the HQ. The building manages the psychic environment. It is not passive.
+*   **The Intersection:** The Cistern is where two characters — the Deep and the human world — are in permanent, uncomfortable contact. The Eye is the Deep's presence inside the structure. The crew lives above a prisoner.
+
+### 3. The Vault (The Archive)
+*   **Nature:** A record, not a presence. The physical shape of every choice the crew has made.
+*   **Semantic Volume:** Every artifact brought in warps the architecture outward — new rooms, alcoves, sub-chambers themed to the artifact's origin. To walk the Vault is to walk the crew's history.
+*   **It does not act.** It reflects. The distinction matters.
+
+---
+
+## IV. The Anomalies
 
 ### 1. The Sleeping God (The Unbroken Tongue)
 *   **Nature:** An ancient Archetype of **Unity** and **Truth**.

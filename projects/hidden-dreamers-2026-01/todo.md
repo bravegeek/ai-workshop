@@ -2,6 +2,13 @@
 
 ## Priority 1 — Prerequisite (do first, unlocks everything)
 
+### Inanimate Characters — Develop Further
+The Eye, the Cistern, and the Vault have been added to `characters.md` as presences/prisoners. The Eye in particular is underwritten given what it actually is — a living god-beast that has been imprisoned since the Victorian era. Open questions to resolve:
+- Does the Eye know what the crew is? Does it distinguish them from the Architects?
+- Does it want anything, or has it been captive long enough that want has transformed into something else?
+- How does the crew's relationship to the Eye change if/when they begin to think of it as a prisoner rather than infrastructure?
+- Does the Cistern's "management" of the psychic environment ever feel like *preference* — spaces it allows, states it resists?
+
 ### The Deep as Character
 The Deep needs interiority before any other world-building is revised. Everything else — zones, ecology, immune response — should feel like it follows from what the Deep *is*, not from a system designed top-down. This is a discussion session, not research.
 - What does the Deep want, if anything? Neutral, indifferent, curious, hungry?
@@ -32,12 +39,13 @@ Not every dream, zone, or Oubliette has the same response. The current model imp
 
 ## Priority 3 — Expansion
 
-### Oubliettes
-The best concept in the project; currently gets the least space. Needs its own document.
-- Expand examples beyond the two listed
-- Define internal logic: why do some preserve perfectly while others decay?
-- Entry and exit mechanics — how do you get in without shattering what's inside?
-- These are the short story containers; treat them accordingly
+### Oubliettes — Open Questions (see `canon/oubliettes.md`)
+Core document written. Remaining questions to resolve when stories require them:
+- Minimum size: can a single person's recurring trauma create one?
+- Pre-animal oubliettes: purely microbial/chemical experience — could any mind survive contact?
+- Can an oubliette be deliberately created? By whom, for what purpose?
+- Shell behaviour after entry: does it reseal, degrade, or collapse?
+- The Architects and oubliettes: what did they attempt, and did it contribute to their dissolution?
 
 ### Ecology
 Leviathans, Anglers, Mycelium are archetypes. Make them specific to a world built from collective human experience.
@@ -50,6 +58,19 @@ Leviathans, Anglers, Mycelium are archetypes. Make them specific to a world buil
 
 ### Rebuild `mechanics.md`
 Once the above is resolved, restructure around the Method Actor content as the lead — it's the best material and currently buried. Everything else organizes beneath it.
+
+---
+
+## Priority 2 (continued) — Foundational Questions from `psychosphere.md`
+
+### Does the crew know about non-human depth?
+The existing maps were made by the Architects, who likely never descended far enough to encounter non-human contributions. If the crew doesn't know, the discovery of pre-human layers becomes a major narrative event — not just a new location but a paradigm shift in what they think the Deep is.
+
+### Is the Psychosphere finite?
+Does it extend only as far as Earth life, or — if consciousness is a fundamental property of information-processing matter — does it connect to something larger? Implications for the Sleeping God's nature and origin.
+
+### What happens when nothing is dreaming?
+Has the Psychosphere accumulated enough mass over a billion years that it persists independently of active dreaming? Or is it sustained continuously by sleeping life? Relevant to the Amber Bleed crisis: if the Deep becomes too clogged to process sleep, and the city stops sleeping, does the Psychosphere begin to collapse?
 
 ---
 
