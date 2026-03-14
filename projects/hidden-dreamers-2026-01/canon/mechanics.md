@@ -177,22 +177,3 @@ The Technomancer stays "Dry" in the HQ, operating the **Soundboard**. They are t
     *   **Solution:** The Technomancer hacks the environment to spawn a "Narrative Exit."
     *   *Example:* In a Sci-Fi memory, the Technomancer hacks a console to announce "Emergency Venting." The airlock opens—that is the safe exit point.
 
----
-
-## VII. Motivations: Why We Dive
-
-### 1. The Ultimate Objective: The Loom (The Narrative Engine)
-Deep in the Silt, past the Abyssal Zone, IO believes there is a singular point of origin for all dream-physics.
-*   **The Myth:** The Deep isn't a chaotic byproduct of sleep; it is a **Structured Output**. The Loom is a massive, silent machine (or meta-organism) that weaves Ley Lines into the "Fabric of Reality."
-*   **Narrative Physics:** The Loom doesn't run on energy; it runs on **Archetypes**. It weaves "The Hero," "The Betrayal," and "The Sacrifice" into the world's timeline.
-*   **The Goal:** To find the "Needle" (The Loom's Interface). Reaching it allows a user to **Rewrite the Script**.
-    *   *IO's Plan:* To patch the "Death Bug" or excise the "Anomaly" (The Amber Bleed) at its source by editing the Loom's output.
-
-### 2. The Brokers (IO)
-*   **Goal**: Information Supremacy & Rescue. Mining "Dark Data" for leverage and tracking lost souls.
-### 3. The Muse-Hunters
-*   **Goal**: Inspiration Theft. Stealing "Pure Ideas" before they are discovered.
-### 4. The Retrievers
-*   **Goal**: Rescue Ops. Saving people trapped in Comas or Loops.
-### 5. The Pilgrims
-*   **Goal**: Transcendence. Seeking Ego Death in the Silt.
