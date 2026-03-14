@@ -5,8 +5,8 @@ As a Dreamwalker descends, the "Physics of Thought" changes. These are the relia
 
 ### Zone 1: The Surface (The R.E.M. Crust)
 *   **Depth:** 0 - 100m (Psychic Equivalent)
-*   **The Look:** Hyper-real, chaotic, and glitchy. Like flipping channels on a 4K TV.
-*   **Physics:** Looney Tunes logic. You can fly if you believe you can. Doors lead to random places.
+*   **The Look:** Hyper-real, chaotic, and glitchy. Reality flickers between states without warning.
+*   **Physics:** Unstable and absurd. You can fly if you believe you can. Doors lead to random places.
 *   **The Danger:** Low. Mostly embarrassing or confusing.
 
 ### Zone 2: The Shallows (The Archetypal Twilight)
@@ -19,7 +19,7 @@ As a Dreamwalker descends, the "Physics of Thought" changes. These are the relia
 *   **Depth:** The Transition Layer
 *   **The Phenomenon:** The temperature (emotional warmth) drops instantly.
 *   **The Shift:** **Language breaks down.** Words on signs scramble into alien glyphs. Spoken language becomes sound-color (Synesthesia). You must *communicate via Intent* (or use Psyloc-Shard comms).
-*   **Visuals:** Geometric fractals intrude on reality. The world looks like it's buffering.
+*   **Visuals:** Geometric fractals intrude on reality. Surfaces repeat themselves; edges stutter like a skipping record.
 
 ### Zone 4: The Deep (The Midnight Zone)
 *   **Depth:** 1,000m+

@@ -5,8 +5,9 @@
 ### 1. Overview
 *   **Location:** Buried 150m deep in the city's bedrock.
 *   **Concept:** A "Failed Victorian Dream-Engine." The architecture represents an attempt by 19th-century occultists to bridge the gap between industrial order and esoteric power.
-*   **Symbolism (The Clock & The Spell):** 
+*   **Symbolism (The Clock & The Spell):**
     *   The tension between the **12 sides** of the room and the **7 sides** of the pit reflects the struggle to "Clock" the chaotic nature of dreams into a predictable machine.
+*   **In Practice:** Museum and workshop in equal measure. The Vault holds artifacts in various states of integration; the catwalks are strung with Ren's drift-charts and ley line maps; and every room that has folded outward from an artifact's semantic weight serves as an accidental archive of somewhere the crew has been. The Architects failed here. The crew works in the ruins of that failure, using the same tools.
 
 ### 2. Layout
 *   **The Vault (The Shell):**
