@@ -76,12 +76,12 @@ Has the Psychosphere accumulated enough mass over a billion years that it persis
 
 ## Priority 2 (continued) — Psyloc Open Questions
 
-### Psyloc Origins & Control (see `canon/cistern_advantage.md`)
-Core mechanics documented. Decisions still needed:
-- Did IO discover Psyloc independently or re-discover something the Architects already knew and lost?
-- Can it be cultivated outside the Deep, or is it Deep-only? (Determines whether the crew's supply monopoly holds)
-- Does IO know about the cumulative barrier-thinning effect — and does she use Psyloc herself?
-- Is the thinning effect suppressed knowledge, or is it genuinely unknown even to practitioners?
+### Psyloc — Open Questions (see `canon/psyloc.md`)
+Core document written. Remaining:
+- Is there an optimal thinning level that can be deliberately managed without inevitably progressing?
+- Are the crew thinning themselves through standard Psyloc-Shard comms use?
+- Is the thinning effect known, suspected, or actively suppressed in dreamer circles?
+- At what point does the Eye protocol become inaccessible — too much structural damage to target precisely?
 
 ### Architects — History & Legacy
 The Architects are a recurring thread across multiple documents. Needs a dedicated session:

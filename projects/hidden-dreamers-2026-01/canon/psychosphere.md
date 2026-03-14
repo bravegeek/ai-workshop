@@ -96,6 +96,11 @@ The Mnemosyne-Current (already documented) is likely episodic/semantic — riche
 
 ## VII. Open Questions
 
+### Psyloc in Dreamer Circles
+IO discovered Psyloc independently — it is not a difficult observation for the gifted. Harvesting it is known practice in Level 2 dreamer circles. What IO contributed was *application*: the communications technology, the comms integration, the understanding of resonance properties. The substance itself is not secret. The crew's advantage is not knowledge monopoly — it is depth. Shallow Psyloc is available to anyone who can reach Zone 1–2. The crew's deep-harvested product is categorically more potent and more precise than anything a surface practitioner can obtain.
+
+---
+
 1. **Does the crew know this?** Not fully — but they've felt the edges of it. The Architects' maps only cover what humans can navigate. The non-human depth is unmapped. Each crew member has encountered anomalies that don't fit the human model and has no framework to explain them. The `psychosphere.md` framework is the explanation they've been missing. Discovery is a process of it clicking into place, story by story.
 
    **Per character:**
@@ -105,6 +110,6 @@ The Mnemosyne-Current (already documented) is likely episodic/semantic — riche
    - **Kaelen** feels it physically. The Itch — the pull toward the Deep from the Indigo Ink — may partly be the non-human layers. He has the most visceral sense of something ancient without the vocabulary to name it.
    - **Barnaby** almost certainly knows. He has been in the Psychosphere since the Victorian era — longer than any of them. Whether he can communicate what he knows, or whether the crew has thought to ask, is another matter.
 
-2. **Is the Psychosphere finite?** Does it extend only as far as Earth life extends, or — if consciousness is a fundamental property of information-processing matter — does it connect to something larger?
+2. **Is the Psychosphere finite?** No. It extends wherever consciousness exists. If consciousness is a fundamental property of information-processing matter — and under IIT it is — the Psychosphere connects to whatever is out there. Earth is a node, not the whole network. The deepest Silt may not be purely terrestrial. The Sleeping God's origin becomes a more open question. This is a long horizon, not a near-term story concern, but it changes the nature of what the very bottom of the Deep actually is.
 
-3. **What happens when nothing is dreaming?** If every conscious being were simultaneously awake, would the Psychosphere thin? Or has it accumulated enough over a billion years that it now persists independently of active dreaming?
+3. **What happens when nothing is dreaming?** Wrong question. All life contributes continuously — plants, fungi, microbes never stop processing. The Psychosphere is not sustained by sleeping humans; it is sustained by life itself, which never sleeps entirely. What the Amber Bleed threatens is not the Psychosphere's existence but specifically the *human processing layer* — the city's ability to consolidate experience. The deeper pre-animal substrate continues regardless. The Psychosphere would outlast humanity without noticing. That is worth sitting with.

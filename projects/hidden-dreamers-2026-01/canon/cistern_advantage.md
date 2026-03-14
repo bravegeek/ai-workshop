@@ -61,9 +61,9 @@ Walking the Vault is walking the history of how far ahead of everyone else they'
 
 ## V. The Psyloc Supply Chain
 
-The crew harvests at depth, producing the highest-quality Psyloc available. Surface-level practitioners get mediocre shallow harvests. The crew's deep product is categorically better — stronger, more precise, more stable.
+Psyloc and its properties are known in Level 2 dreamer circles — harvesting it is common practice for those with access to Zone 1–2. IO's contribution was application: communications technology, resonance integration, the comms infrastructure the crew uses. She did not discover a secret. She built something with what was already known.
 
-They are likely the primary supplier to the high-end recreational and chaperone ecosystem without most clients knowing where the supply originates. The wealthy Psyloc event circuit runs on product that only exists because the crew goes where no one else can.
+The crew's advantage is not knowledge — it is **depth**. Shallow Psyloc is serviceable. Deep-harvested Psyloc from Zone 4+ is categorically more potent, more precise, and more stable than anything a surface practitioner can obtain. The wealthy event circuit and high-end chaperone ecosystem run on product that requires going where no one else can go. The crew don't hold a monopoly on the substance. They hold a monopoly on quality.
 
 ---
 
