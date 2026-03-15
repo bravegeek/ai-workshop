@@ -22,21 +22,27 @@
 *   **Motivations:** **Ecology**. She wants to understand the Deep as a living system — not extract from it. The salvage operation troubles her. She sees what gets taken and what gets left behind, and she keeps a private tally.
 *   **Backstory:** Before the crew, she found an Oubliette on her own — a place that felt, impossibly, like it recognized her. She mapped nothing, told no one. When she returned it was gone, pulled apart by salvagers she never identified. She joined IO's crew on the logic that organized expeditions cause less destruction than the alternative. She hasn't decided if she was right.
 *   **Contradiction:** Her ability to read the Deep makes the crew better at not disturbing things — which makes them better at finding things worth taking. She can't disentangle her value from the salvage operation.
+*   **After reintegration:** The operation's destructive foundation is gone — and so is the operation. Relief and loss arrive together. She steps into the vacuum IO leaves, not by claiming leadership but by having something to teach. Her clan training — patience, non-interpretation, belonging to the Deep rather than performing through it — becomes the crew's new operational foundation. She teaches what she knows. It is the first time she has not been troubled by her own usefulness.
 *   **Capabilities:**
     *   **Resonance Reading:** Can sense whether a place or entity is aware of the crew's intrusion, and what it feels about it — beyond the mechanical response of the Immune System. Sometimes it's warning. Sometimes it's something closer to welcome.
     *   **Drift-Wood Manifestation:** Can coax the Deep's raw creative material into temporary structures — bridges, barriers, cover. She grows them rather than builds them.
 
 ### 3. Kaelen Thorne - "The Tethered"
-*   **Role:** The Muscle / Diver / Anchor.
-*   **Archetype:** The "Grizzled Veteran" / "Living Weapon."
-*   **Visuals:** Heavy leather trench coat (to block psychic wind), fingerless gloves.
-*   **The Tattoos:** Covered in **Indigo Ink** (derived from the Psyloc Fungus).
-    *   **Serpent Rune:** A tattoo on his ribs that burns/vibrates when Entities are near.
-*   **Motivations:** **Survival & Duty**. He is the physical anchor who hauls the team out when things go wrong.
-*   **Backstory:** A former "dream-mercenary" who got too close to the Void. The ink saved him but also bound him to the Deep. He feels the "Itch" constantly.
+*   **Role:** Diver / Anchor / Warden.
+*   **Archetype:** The last practitioner of a tradition the world stopped believing in.
+*   **Visuals:** Heavy leather trench coat, fingerless gloves. The tattoos are visible at every edge — throat, wrists, the back of his hands. Not decorative. Working marks.
+*   **The Tattoos:** Indigo Ink — clan work, not mercenary equipment. They were given to him, not chosen. Each mark is a negotiated term in a relationship between his body and the Deep. The Serpent Rune on his ribs burns and vibrates near entities — a warden's early warning system, not an alarm he bought.
+*   **Clan — The Wardens:** Where Elara's tradition taught you to disappear into the Deep and belong to it, Kaelen's taught you to declare yourself to it. The Indigo Ink is a two-way marking system: *this person is known to us, leave them alone* — and simultaneously — *this person has standing to be here, they have business.* The wardens maintained the boundary between the Deep and the surface world. Not warriors — they didn't fight the Deep. They managed it. When something was bleeding through into waking life, when a sleeper went somewhere they couldn't return from alone, the wardens went in and held the line.
+*   **What happened to the clan:** The world outgrew them. Cities expanded, the old knowledge became superstition, and the tradition couldn't sustain itself without the social recognition that gave it meaning. They dispersed. Kaelen went mercenary because warden skills are warden skills regardless of who's paying. He hasn't gone back to look for what remains. He doesn't know if anything does, and hasn't let himself find out.
+*   **Getting too close to the Void:** For a warden, the Void is where the boundary doesn't thin — it disappears. Below the depth where the ink gives standing, where what lives there is too old and too alien for any marking system to mean anything to it. He went there in clan work — something had come up from too deep, he followed it back down further than he should have. The ink that was supposed to give him negotiated recognition got him recognized as *belonging* to the Deep instead. He came back. Not all the way.
+*   **The Itch:** The Deep treating him as one of its own. A constant pull — not toward danger exactly, but toward the place where the distinction between here and there stops being clear. He refuses to follow it all the way. He has refused every day since the Void. He doesn't know how much longer he can keep that true.
+*   **Motivations:** The line to hold. Which is something no one can give him now that the clan is gone and the world has stopped believing in wardens. The Lantern Crew is the closest thing to a clan he has — people who know the Deep is real, who need someone to haul them back. It's not enough. It's what there is.
+*   **Contradiction:** He protects the crew — warden function, exactly what he was trained for. But protecting them lets them go deeper, which takes more from the Deep. The same shape as Elara's contradiction, different angle. They recognize each other's tradition immediately and disagree about almost everything specific.
+*   **After reintegration:** With the Blooming resolved, the boundary is healthier than it has been in years. If TSG's disrupted pull was amplifying the Itch, reintegration quiets it — not gone, but settled. For the first time in years he isn't fighting the pull every waking hour. He doesn't know what to do with the quiet.
 *   **Capabilities:**
-    *   **Tank:** High resistance to psychic pressure.
-    *   **Glitch-Blade:** Wields a weapon that can sever the mind-body link of enemies.
+    *   **Psychic pressure resistance:** High tolerance built through warden training — the ink helps, but the resistance is also practiced. He has been in conditions that would have broken an untrained mind many times.
+    *   **Entity management:** Clan knowledge of how specific entities behave, what they respond to, how to drive them back or sever an unwanted attachment. Practical and specific, not theoretical.
+    *   **Warden's tools:** *Needs development — the Glitch-Blade is a placeholder inconsistent with clan tradition. Replace with tools specific to warden work: something for severing attachments, reinforcing boundaries, emergency ink application.*
 
 ### 4. Ren - "The Cartographer"
 *   **Role:** Operator / Mapmaker. Dry-side only.
@@ -47,6 +53,7 @@
 *   **The Maps:** She draws from crew debriefs, instrument readings, and what she believes is pattern recognition. Some of it is. Some of it is direct perception of indexed material the Eye feeds her — pre-sorted, pre-attributed, cleaner than anything a diver returns with. Her maps are more accurate than they should be. She attributes this to rigor.
 *   **Tension:** She understands the Deep better than anyone on the crew, including the divers who have been inside it. She is the most rational voice in the room about a place that defeats rationality — and her rationality is partly downstream of a connection to an ancient fragment of a sleeping god that she does not know she has.
 *   **The Archive:** The Eye holds a record of her — every session at the instruments, her pattern recognition, her discarded notes. She is indexed in there alongside the Architects. (See `canon/the_eye.md`)
+*   **After reintegration:** She felt the Eye reintegrate. She glimpsed Unity — TSG's fundamental nature — in the moment of contact, and she understands now why Nia didn't come back. She came back because her nature is to map, not to dissolve. The connection to TSG whole is different: less like a filing system, more like weather. She is developing new methods for reading something that doesn't organize itself for human consumption. What emerges through the connection is less indexed than the fragment provided — and more true. The Architects' actual experience, not just their notes.
 *   **Capabilities:**
     *   **The Soundboard:** Monitors Script Stability for active divers (waveform on CRT — smooth is in-character, jagged is dissonance). Feeds Emotional Keyframes through the Psyloc-Link when language fails in Zone 3+.
     *   **Narrative Extraction:** Can identify contextually plausible exit conditions in the dream environment — a door, a phone ringing — that divers can use to surface safely.

@@ -27,12 +27,14 @@ The Deep needs interiority before any other world-building is revised. Everythin
 - What was it before human consciousness was dense enough to shape it?
 - Can it have moods, seasons, something beyond Ley Line storms?
 
-### Kaelen — Contradiction
-Kaelen's motivation ("survival and duty") is a type, not a character. Elara and IO both have productive internal tensions. Kaelen needs one.
-- The Indigo Ink binds him to the Deep — he is half-already-there. What does a man in that position want from the surface world?
-- What did "getting too close to the Void" mean specifically, and what did it cost him?
-- What does the Itch pull him toward — and what does he refuse to follow it to?
-- A focused conversation, not a full document
+~~### Kaelen — Contradiction~~ ✓ see characters.md
+
+### Kaelen — Warden's Tools
+The Glitch-Blade is a placeholder inconsistent with clan tradition. Needs replacement with tools specific to warden work:
+- Something for severing unwanted entity attachments
+- Something for reinforcing or marking boundaries in the field
+- Emergency ink application — carrying raw Indigo Ink and the means to apply it under pressure
+- Should feel like working tools, not weapons
 
 ---
 
@@ -74,13 +76,13 @@ Core document written. Remaining:
 - At what point does the Eye protocol become inaccessible — too much structural damage to target precisely?
 
 ### Architects — History & Legacy
-The Architects are a recurring thread across multiple documents. Needs a dedicated session:
+Core framing established: they were not ignorant. They captured the Eye knowing the previous blooming had happened, believing separation of the fragment would prevent the next one. Wrong call, full knowledge. Needs a dedicated session:
 - What specifically did they discover, and in what order?
 - What did they attempt with oubliettes?
-- Did they have knowledge of non-human depth? Of the sleeping giants?
-- Did they capture the Eye knowing what it was, or did they misunderstand it the same way the crew does?
+- Did they have knowledge of non-human depth? Of the sleeping giants beyond TSG?
 - Did they leave anything besides the Cistern — other sites, documents, surviving students?
 - Is Barnaby's connection to their collapse a story to be told, or background?
+- What does Ren find in the Architect experience (not notes) that changes what the crew knows?
 
 ---
 
@@ -110,6 +112,23 @@ Once the above is resolved, restructure around the Method Actor content as the l
 ---
 
 ## Stories
+
+### The Second Chapter — After Reintegration
+What the crew is without the infrastructure:
+
+**What's gone:** The Vault (collapsed), Storm-Forging, depth anchor (Zone 3 ceiling now), the Orrery, Eye Protocol for Psyloc treatment. IO is grieving and not leading. The operation as it existed is over.
+
+**What remains:** The Cistern building. The heptagonal pool. The Tuning Forks. A large Psyloc stockpile. Ren's maps. The crew.
+
+**Elara steps into the vacuum.** She begins teaching the old ways — her clan training, the tradition that sought high concentrations of non-human life. Patience and non-interpretation. Belonging to the Deep rather than performing your way through it. Without the Eye's logic field holding the door open, this is now survival technique rather than specialist skill. The Method Actor mechanic still works but is no longer the only approach. Elara's methods are slower, harder, less controllable — and let the crew access things performance never could. Her contradiction resolves productively: she spent the whole first arc troubled by what the operation took. Now she teaches how to move through the Deep without taking.
+
+**Ren's connection changes.** She glimpsed Unity during reintegration — felt what Nia walked toward, understood the appeal, came back. She can feel the Eye is still present in some sense, but different: reintegrated, whole, no longer a fragment reaching for itself. The connection to TSG whole is less like a filing system and more like weather. Vast, not organized for human consumption. She has to develop new methods for reading it. But what comes through is less indexed and more true — the Architects' actual experience, not just their notes. She is developing the ability to map something that doesn't want to be mapped, which is exactly her nature.
+
+**The Architect revelation (emerging through Ren):** They weren't ignorant. They captured the Eye knowing the previous blooming had happened, believing that keeping the fragment separated from TSG would prevent the next one. They thought they were solving the problem. They were extending it — slowly, over 150 years. They made the wrong call with full knowledge. This reframes them from hubristic Victorians who didn't understand what they had into people who understood exactly what they had and chose wrong. More interesting. More tragic.
+
+**IO's re-entry:** She comes back through the Psyloc treatment problem. Without the Eye Protocol, advanced thinning is now untreatable. That's a solvable problem that doesn't require what she lost. It's smaller than the cartography project. It's useful. It might be the first thing she does that isn't about Nia.
+
+**The Deep post-Blooming:** With TSG whole and returning toward dormancy, the disruption settles. Ley lines resume normal flow. Oubliettes re-stabilize. The city starts sleeping again. The crew is now operating in a recovering Deep — and Elara's methods combined with Ren's connection may allow access to layers the Eye's logic field never reached. Different, not lesser.
 
 ### The Shape of the Main Arc
 The crew discovers the Eye is a fragment of TSG (through Ren's archive discovery). They understand that freeing it resolves the Blooming — and destroys everything they've built. They choose reintegration.
