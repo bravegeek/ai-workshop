@@ -14,8 +14,8 @@ The document has been partially cleaned. Remaining open questions:
 
 ## Decisions Required (audit-flagged — need resolution before writing)
 
-### Nia's State: Peaceful vs. Imprisoned
-`characters.md` frames her dissolution as peace — *"in the way a river is there after it meets the sea."* `the_blooming.md` frames it as bondage — *"She is not free."* These are not the same thing and the distinction is load-bearing for IO's arc, what the signal means, and whether reintegration is liberation or something else. **Requires a decision, not just a flag.**
+~~### Nia's State: Peaceful vs. Imprisoned~~ ✓ resolved
+She is at peace — found her bliss. IO and the crew misread the signal as distress. Nia is past the point where the distinction matters to her and can't correct it. She walked out (no body). The operation was built after she left. The misreading drives IO's arc; the truth lands at reintegration. See `characters.md`.
 
 ### The Eye's Agency
 Three live documents, three positions:
