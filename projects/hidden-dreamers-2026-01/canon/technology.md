@@ -23,24 +23,24 @@ IO bridges the gap between Dream-Logic and physical law.
 ### 1. The Resonant Seeds (Retrieval)
 *   **The Tool:** **"The Seed-Core"** (Null-Glass geometric forms).
     *   **Material:** **Null-Glass** is a synthetic, non-reactive crystal that acts as a psychic vacuum. It has zero "Semantic Weight."
-    *   **Disguise:** Can be holographically masked to look like common props (coins, bolts, pocket watches) to bypass the Dream's Immune System.
+    *   **Disguise:** Can be shaped and surface-treated to resemble common props (coins, bolts, pocket watches) to bypass the Dream's Immune System.
 *   **Function:** Acoustic capture of an object's "Concept."
 *   **The Mechanic (The Heist):**
     *   **The Tuning:** The Diver vibrates the Seed-Core (using a "Tuning Fork") to match the target object's frequency.
     *   **The Vacuum:** The seed sucks the "Soul/Pattern" out of the dream object. The original object turns to grey ash, and the seed begins to glow.
-    *   **The Decay (The Rot):** A charged seed is volatile. It must be developed within **3 Somatic Cycles** (approx. 48 hours). If it sits too long, the captured pattern "rots," turning the seed into a **"Poltergeist Shard"** (a glitched, hostile anomaly that haunts the HQ).
+    *   **The Decay (The Rot):** A charged seed is volatile. It must be developed within **3 Somatic Cycles** (approx. 48 hours). If it sits too long, the captured pattern "rots," turning the seed into a **"Poltergeist Shard"** (a corrupted, hostile anomaly that haunts the HQ).
 *   **The Development (Storm-Forging):**
     *   **The Storm:** You cannot develop just anytime. You must wait for a **Ley Line Storm (High Tide)** to flush the Silt from the Cistern.
-    *   **The Crystallization:** The seed is lowered into the storm. The "Liquid Starlight" rushes into the vacuum pattern, solidifying into the "Hyper-Real" matter of the artifact.
+    *   **The Crystallization:** The seed is lowered into the storm. The surging Mnemosyne-Current rushes into the vacuum pattern, solidifying into the hyper-real matter of the artifact.
+    *   **Status:** No longer operational. Storm-Forging required the Eye's logic field to hold the development space stable. With reintegration, the field is gone. The process is now historical.
 
 ### 2. The Abyssal Bath (The Developer)
 *   **Role:** The Cistern water acts as the universal developer fluid.
-*   **Star-Field (Light-Pollution):** Each print leaves bioluminescent motes. If unpurged by a Tidal Flush, these fragments corrupt future prints (Fidelity Loss).
+*   **Residue:** Each development cycle leaves psychic sediment in the water. If unpurged by a Tidal Flush, these fragments corrupt future prints (Fidelity Loss).
 
 ### 3. The Heart of the Storm (The Eye)
 *   **The Reality:** Not a Leviathan. A fragment of one of the ancient presences in the Silt — separated by the Architects in 1887 and held at 80m in rusted anchor chains. The crew treats it as a power source and reality anchor. This is accurate as far as it goes. See `canon/the_eye.md`.
 *   **Function:** Generates a Class-5 logic field that stabilizes the HQ, enables depth access, and powers Storm-Forging.
-*   **Maintenance:** Requires periodic removal of **Psychic Lampreys** — deep parasites drawn to the logic field — using non-conductive crowbars. If too many attach, the logic field thins and rooms destabilize.
 *   **Control:** **Lead eyelids** are mechanically lowered to muffle its gaze. The winch systems that would raise it are shattered. It is not going anywhere.
 *   **The Sight (Two States):**
     *   **Passive (The Oracle):** The Eye exists outside linear time. It leaks "Ghost Files" onto the HQ instruments — corrupted records of dives that haven't happened yet, blueprints for technology not yet invented. Unreliable, difficult to interpret, but no one else has precognitive data at all.
@@ -52,7 +52,7 @@ IO bridges the gap between Dream-Logic and physical law.
     *   **Thermal Lining:** The Cistern water is "Psychically Cold."
     *   **Non-Conductive Crowbars:** Used for prying lampreys off the Eye without conducting the "Song."
 *   **Mechanical Chronometers:**
-    *   **Necessity:** Digital clocks fail or glitch near the Eye. Time Dilation (1 min = 1 hour) makes internal time-sensing impossible.
+    *   **Necessity:** Electronic clocks fail near the Eye. Time Dilation (1 min = 1 hour) makes internal time-sensing impossible.
     *   **Design:** Over-sized, brass, wind-up clocks worn on the forearm.
     *   **The Rule:** "Trust the Tick." If the hand moves, time has passed, regardless of how you feel.
 

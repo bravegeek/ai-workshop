@@ -1,5 +1,17 @@
 # Hidden Dreamers: TODO
 
+## In Progress
+
+### Technology Review (`canon/technology.md`)
+The document has been partially cleaned. Remaining open questions:
+- **Sensory-deprivation pods**: too clinical for the aesthetic? The dive room is a dim lounge — do the rigs belong, or does the crew just lie down?
+- **Wet-Rigs**: still reference "modified SCUBA" — plausible Victorian-adjacent gear, or needs rethinking?
+- **Seed-Core disguise**: physical surface treatment to resemble props — does the Immune System respond to appearance or to psychic signature? If the latter, disguise is irrelevant.
+- **Storm-Forging**: marked as no longer operational post-reintegration. Decide whether to archive the section clearly or leave as-is for pre-reintegration story use.
+- **IO's Monocle**: "wireframe of cold light" — visual metaphor, probably fine. Confirm intentional.
+
+---
+
 ## Priority 1 — Prerequisite (do first, unlocks everything)
 
 
@@ -29,22 +41,15 @@ The Deep needs interiority before any other world-building is revised. Everythin
 
 ~~### Kaelen — Contradiction~~ ✓ see characters.md
 
-### Kaelen — Warden's Tools
-The Glitch-Blade is a placeholder inconsistent with clan tradition. Needs replacement with tools specific to warden work:
-- Something for severing unwanted entity attachments
-- Something for reinforcing or marking boundaries in the field
-- Emergency ink application — carrying raw Indigo Ink and the means to apply it under pressure
-- Should feel like working tools, not weapons
+~~### Kaelen — Warden's Tools~~ ✓ see characters.md
 
 ---
 
 ## Priority 2 — Research & Redesign
 
 ### The Antagonist Question
-There is no entity or force in this world making deliberate choices that work against the crew. The Sleeping God is asleep. The Amber Bleed is a symptom. The Whispering Iron is two lines with no function.
-- Does this world have deliberate opposition, or is that a choice being made?
-- If the antagonism is structural rather than agentive (the Psychosphere itself, the consequences of what the crew does), how does that manifest as story pressure?
-- What is the Whispering Iron actually doing? Who or what placed it? What does it want with inner monologues?
+Resolved as man vs. nature: the antagonism is structural, not agentive. The Blooming is not malicious. The Psychosphere is not hostile. The crew's choices create the pressure. The human antagonist question (see `scratchpad/whispering_iron.md`) is shelved for a different story.
+- Remaining: how does structural antagonism manifest as *story pressure* scene by scene? What does the crew push against when nothing is pushing back?
 
 ### Zone System
 The current five-band model is too mechanical — a game rulebook, not a lived experience. Requires research before redesign.
