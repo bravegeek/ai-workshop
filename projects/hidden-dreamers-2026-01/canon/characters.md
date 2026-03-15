@@ -96,7 +96,3 @@
 *   **What it is, underneath:** Unknown. "Unity" is a human interpretation of something more fundamental — the impulse to dissolve boundary, to merge, to end separation between things. Whether it has any awareness of the crew, of Nia, of what it is doing to the Psychosphere is an open question.
 *   **Nia's role:** She tuned into its frequency first and went to find the source. She is now the live wire between the presence and anything that can reach her.
 
-### 2. The Whispering Iron (The Network)
-*   **Nature:** A decentralized network of psychic recording devices — small, embedded, easy to miss.
-*   **Origin:** Unknown to the crew.
-*   **Function:** Records inner monologues. Found in increasing numbers in zones where the Blooming's influence is strongest. Whether this is coincidence, opportunism, or design is unclear.

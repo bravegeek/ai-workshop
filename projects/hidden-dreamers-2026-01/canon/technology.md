@@ -9,7 +9,7 @@
     *   **Bypass:** They ignore "Psychic Static" and radio jamming.
 *   **Application:**
     *   **The Headsets:** IO has integrated small shards into the team's throat-mics.
-    *   **The Danger:** The connection is "Open." If you don't toggle it off, you hear the other person's intrusive thoughts. Prolonged exposure causes "Drift" (identity loss).
+    *   **The Danger:** The connection is open. Untoggled, you hear the other person's intrusive thoughts. Prolonged exposure contributes to barrier thinning — the crew knows this about their own equipment. Whether the general thinning effect of casual Psyloc use is known outside dreamer circles is a different question. See `canon/psyloc.md`.
 
 ### 2. The Techno-Mage Loadout (IO's Kit)
 IO bridges the gap between Dream-Logic and physical law.
@@ -18,13 +18,7 @@ IO bridges the gap between Dream-Logic and physical law.
     *   **Anti-Mesmerism:** The Monocle filters the Eye's gaze, preventing the user from falling into the "Symmetry Trance."
 *   **The Gauntlet (The Wand)**: A haptic glove allowing direct interaction with dream-matter. She can physically grasp and reposition small dream objects, or mirror a structure from one surface to another.
 
-## II. The Cursed Tools (Espionage)
-
-### 1. The Whispering Iron (The Psychic Wiretap)
-*   **Description:** A rusted iron nail or needle made of "Dead Data" (Deep Matter).
-*   **Function:** Records the target's **Inner Monologue** and emotional state.
-
-## III. The HQ Tech (The Cistern)
+## II. The HQ Tech (The Cistern)
 
 ### 1. The Resonant Seeds (Retrieval)
 *   **The Tool:** **"The Seed-Core"** (Null-Glass geometric forms).
@@ -43,16 +37,14 @@ IO bridges the gap between Dream-Logic and physical law.
 *   **Role:** The Cistern water acts as the universal developer fluid.
 *   **Star-Field (Light-Pollution):** Each print leaves bioluminescent motes. If unpurged by a Tidal Flush, these fragments corrupt future prints (Fidelity Loss).
 
-### 3. The Heart of the Storm (The Battery)
-*   **Type:** A Class-5 Manic Geode (Indigo).
-*   **The Reality:** The **Eye of a Leviathan**, trapped in rusted 19th-century anchor chains at 80m.
-*   **Function:** Power source and reality anchor for the HQ.
-*   **Maintenance:** Requires "Barnacle Scraping" to remove **Psychic Lampreys** that drain the field.
-*   **Control:** **Tuning Dampers** (Lead eyelids) are mechanically lowered to muffle the Eye's gaze.
-*   **The Sight (Dual-Mode):**
-    *   **Passive Mode (The Oracle):** The Eye exists outside of linear time. It bleeds "Ghost Files" onto the HQ servers—corrupted logs of dives that haven't happened yet or blueprints for tech not yet invented. The crew mines this "Future Echo" for intel, though interpretation is risky (The Self-Fulfilling Prophecy).
-    *   **Active Mode (The Periscope):** In emergencies, the Technomancer can mechanically retract the Lead Eyelids. This projects a holographic, real-time sphere of any location in the Deep.
-        *   *The Cost:* Opening the Eye releases **Lethe-Light**. It doesn't burn skin; it bleaches memory. Exposure >30 seconds causes permanent "Mnestic Rot" (forgetting names, faces, or core motivations).
+### 3. The Heart of the Storm (The Eye)
+*   **The Reality:** Not a Leviathan. A fragment of one of the ancient presences in the Silt — separated by the Architects in 1887 and held at 80m in rusted anchor chains. The crew treats it as a power source and reality anchor. This is accurate as far as it goes. See `canon/the_eye.md`.
+*   **Function:** Generates a Class-5 logic field that stabilizes the HQ, enables depth access, and powers Storm-Forging.
+*   **Maintenance:** Requires periodic removal of **Psychic Lampreys** — deep parasites drawn to the logic field — using non-conductive crowbars. If too many attach, the logic field thins and rooms destabilize.
+*   **Control:** **Lead eyelids** are mechanically lowered to muffle its gaze. The winch systems that would raise it are shattered. It is not going anywhere.
+*   **The Sight (Two States):**
+    *   **Passive (The Oracle):** The Eye exists outside linear time. It leaks "Ghost Files" onto the HQ instruments — corrupted records of dives that haven't happened yet, blueprints for technology not yet invented. Unreliable, difficult to interpret, but no one else has precognitive data at all.
+    *   **Active (The Gaze):** Retracting the lead eyelids releases **Lethe-Light** into the Cistern. It bleaches whatever is most active in the minds of anyone exposed. Used surgically for the Eye Protocol (Psyloc treatment). Exposure without the Monocle's attenuation causes progressive memory loss — the mechanism that killed the Architects.
 
 ### 4. Dive Gear & Chronometry
 *   **Standard Rigs (Dry Dives):** Sensory-deprivation pods for 90% of missions.
@@ -67,9 +59,15 @@ IO bridges the gap between Dream-Logic and physical law.
 ### 5. The Tuning Forks (Medical)
 *   **Purpose:** Treating "The Bends" (Psychic Decompression). When struck, the heptagonal acoustics shatter dream-logic residues clinging to a diver's mind.
 
-### 6. The Pale Lens (Security)
-*   **Class:** Class-4 Narrative Artifact.
-*   **Origin:** Recovered from "The Lighthouse of Lethe" (a Dead Drift).
-*   **Function:** Projects "Null-Light" that reveals **Intent**.
-    *   **Narrative Detection:** Hums violently in the presence of a "False Narrative" (lies, cover identities, or Deep Parasite possession).
-    *   **Defense:** Triggers a "Zeno Loop" in the Orthogonal Foyer, trapping intruders in an infinite hallway until neutralized.
+### 6. The Pale Lens (Threshold Detector)
+*   **Class:** Class-4 Artifact.
+*   **Origin:** Recovered from a Dead Drift — a coastal city that lost its relationship to language and, eventually, to itself. The Lens was originally used to guide things home. IO recalibrated it for the inverse: identifying what doesn't belong.
+*   **Location:** The Heptagonal Antechamber. Mounted on a fixed brass pedestal, sweeping continuously.
+*   **Function:** Projects Null-Light — light that casts no shadows. Reads *fit*: whether something has the right relationship to this space and the people in it. Not lie detection. An intruder's cover story doesn't register as a lie — it registers as wrong, the way a forgery looks wrong under the right light. An entity from the Deep with no surface anchor registers as mostly Psychosphere with a thin surface layer.
+    *   Reads in both directions — unauthorized entry and unauthorized egress.
+    *   When it flags, it signals the Mechanical Lock.
+
+### 7. The Mechanical Lock (Threshold Enforcer)
+*   **Type:** Heavy brass mechanism, Victorian engineering. Controls the elevator shaft from the Antechamber level.
+*   **Function:** When signalled by the Pale Lens, the lock engages. The elevator does not move. Whatever the Lens flagged is now in a heptagonal space with collapsing-obsession acoustics and no exit.
+*   **Design principle:** The lock is not the security system. The room is. The lock just prevents escape while the room does its work.

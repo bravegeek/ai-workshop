@@ -76,7 +76,19 @@ The crew does not yet know this.
 
 ---
 
-## VII. Open Questions
+## VII. Operational Consequences (Known)
+
+The Blooming is already disrupting the crew's operation in measurable ways:
+
+**Storm-Forging windows are no longer predictable.** The tide cycle — historically governed by the sleeping presence's REM rhythm — is disrupted. High Tides now surge irregularly. The crew cannot reliably schedule Storm-Forging, which threatens the artifact pipeline that funds everything else.
+
+**Oubliettes are drifting.** Sealed pockets that have been stable for years are shifting position as the Blooming reorganizes the Deep's gravity. Maps that were accurate are becoming unreliable.
+
+**The Immune System is reorienting.** Zones that used to have consistent character are developing strange attractors. Dives that should be routine are encountering unfamiliar resistance patterns.
+
+---
+
+## VIII. Open Questions
 
 - What is the presence's drive, at the level beneath human interpretation? "Unity" is a human reading of something older — what is the thing underneath?
 - Did it notice Nia, or is she simply lodged in its signal the way debris is caught in a current?

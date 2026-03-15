@@ -55,9 +55,10 @@ The crew discovered Barnaby through a multi-stage process:
 This wasn't about fear or trust-building - it was **assessment**. He needed to understand who they were before committing to visibility.
 
 ### Current Dynamics
-- Participates in missions by choice (e.g., "The Spotter" role in Blue-Sky heist)
+- Participates in missions by choice — typically as spotter, warning the crew when the Immune System is mobilizing
 - Provides reconnaissance and early warning systems
 - Guards HQ spaces (particularly when inhabiting the Script-Lock)
+- **Diver verification:** Functions as the informal third layer of the return protocol. Knows the crew's psychic signatures well enough to notice when the person who came back isn't quite the person who went in. Cannot be fooled by a performance that satisfies the image match. How he communicates this is still being developed.
 - Genuine affection for crew members (specific relationships need development)
 
 ## Open Questions for Development

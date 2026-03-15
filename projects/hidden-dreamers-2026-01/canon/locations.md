@@ -16,12 +16,19 @@
     *   **The Fractal Architecture (Recursive Depth):** The Vault is **Dream-Reactive**. It is not a static building; it is a spatial record of the crew's success.
         *   **Semantic Volume:** Every "Deep Artifact" has a "weight" that warps the physical architecture. Bringing a powerful artifact into the Vault causes the walls to fold outward, creating new alcoves, hallways, or entire sub-chambers that reflect the *thematic origin* of the item.
         *   **The Living Map:** To "explore" the HQ is to walk through a physical timeline of the crew's history. The "Unexplored Depths" are simply rooms they haven't found the right Key-Artifact to unlock yet.
-    *   **The Celestial Ceiling (The Orrery):** The vaulted ceiling is a **Dynamic Star-Chart**.
-        *   **Mechanism:** The Indigo Geode projects a massive, swirling 3D hologram of the Deep into the center of the room.
-        *   **Function:** It tracks the **Drift** of the Silt-Continents in real-time. The crew uses this to predict "Collisions" between dream-masses or to locate stable "Oubliettes."
-    *   **The Catwalks (The Cloud Layer):** High-level walkways holding the sensitive Server Racks. The "Psychic Gravity" pulls interference down toward the pit, making the ceiling the safest zone for electronics.
+    *   **Vault Security — needs development:** IO has embedded Psyloc-Shards throughout the Vault as a distributed sensor network. Unauthorized Psychosphere presence (entities without a surface-world anchor) triggers a response from the Symbolic Legacy of surrounding artifacts — their wills, normally negotiated with individually, turned outward collectively. The Vault improves as a security system with every dive. The mechanism and specifics need a dedicated session.
+    *   **The Celestial Ceiling (The Orrery):** The vaulted ceiling is a dynamic map of the Deep.
+        *   **Mechanism:** The Eye's perception — existing outside linear time, oriented toward the Psychosphere — bleeds a navigable feed into the Cistern's upper space. The crew has learned to read it as a real-time chart of Drift movement.
+        *   **Function:** Tracks the drift of the Silt-Continents. Allows the crew to intercept oubliettes dredged by confluence events before they sink again.
+    *   **The Catwalks (The Cloud Layer):** High-level walkways holding the crew's instruments and map storage. Psychic interference pulls downward toward the Eye, making the upper level the most stable zone for sensitive equipment.
 *   **The Ground Floor (The Rim):**
-    *   **Function:** The stone floor encircling the central pit. Contains living quarters and "Dry-Dive" pods.
+    *   **Function:** The stone floor encircling the central pit. Contains living quarters and the Dive Room.
+*   **The Dive Room:**
+    *   **Concept:** A dim, quiet lounge. Not a medical bay, not a pod room. The crew reclines on worn couches, breathing slows, minimal headgear maintains the Psyloc-Shard link and Ren's Soundboard connection. Everything else is just a comfortable room and a decision to go under.
+    *   **Entry:** Open. Anyone with access to the Cistern can enter the Dive Room.
+    *   **Exit (The Image Match):** The only way out of the Dive Room unassisted is to correctly match a fresh set of images — presented on a mechanical card display before each dive, arranged by the diver according to their own associations. Not a password. A snapshot of how you perceive things at that moment. On surfacing, the same cards are presented. If your groupings hold, the door opens. If they don't, you stay in the room until someone comes to you.
+        *   The images are generated fresh each dive from a rotating library — they cannot be memorized or anticipated. What's tested is not recall but the interpretive framework the diver brings to them. Someone returning under deep Narrative Capture perceives the cards through the role they're still wearing. The mismatch is usually obvious.
+        *   Failure is not an alarm. The door simply doesn't open. The room is comfortable. Someone will notice.
 *   **The Cistern (The Central Pool):**
     *   **Shape:** **Heptagon (7-Sided)**.
     *   **Geometry:** A "Magical" number. Creates non-repeating acoustic echoes that prevent "Standing Ideas" (obsessions) from taking root in the HQ.
@@ -34,16 +41,14 @@
     *   **Depth & Chronal Pressure:**
         *   **The Gradient:** Proximity to the Eye causes **Time Dilation**.
         *   **80m Depth:** 1 minute at the battery equals roughly 1 hour in the HQ. Divers must use mechanical timers to track their air and relative reality.
-    *   **The Heart of the Storm (80m depth):** The **Indigo Geode**.
-        *   **The Truth:** It is the **Eye of a Leviathan**, harpooned and dragged up by the original Architects.
-        *   **The Suspension:** It is tangled in a massive, rusted web of 19th-century anchor chains (The Harpoon Snap). The winch systems are shattered, leaving the god-beast's eye paralyzed halfway to the surface.
-        *   **Maintenance (The Barnacle Scrape):** The Eye attracts **Psychic Lampreys** (Deep Parasites) that feed on its "Logic Leakage." 
-            *   *Crisis:* If too many lampreys attach, they drain the HQ's Logic Field, causing rooms to collapse or gravity to fail.
-            *   *The Job:* The crew must perform "Wet Dives" to physically pry the lampreys off the Geode with non-conductive crowbars.
-    *   **Usage:** The industrial and existential hub. Maintenance of the Eye is the price of power.
+    *   **The Heart of the Storm (80m depth):** The Eye.
+        *   **What the crew believes:** The Eye of a Leviathan — a god-beast harpooned and dragged up by the Architects. A power source. Infrastructure.
+        *   **What it is:** A fragment of one of the ancient presences in the Silt, separated from the larger entity in 1887 and suspended in rusted anchor chains. The winch systems are shattered. It is not going anywhere. See `canon/the_eye.md`.
+        *   **Maintenance (The Barnacle Scrape):** The Eye attracts Psychic Lampreys drawn to its logic field. If too many attach, the field thins — rooms destabilize, gravity flickers. The crew performs wet dives to pry them off with non-conductive crowbars.
+    *   **Usage:** The industrial and existential centre. Maintenance of the Eye is the price of everything.
 ### 3. Atmosphere
-*   **Sound:** **The God's Ear**. The 7-sided geometry prevents standing waves, making whispers carry for miles with eerie clarity.
-*   **Lighting:** Blue status LEDs and the faint, scary indigo pulse from the deep.
+*   **Sound:** **The God's Ear**. The 7-sided geometry prevents standing waves, making whispers carry with unnerving clarity.
+*   **Lighting:** Oil lamps on the catwalks, mechanical indicators on the instrument panels, and the faint indigo pulse rising from the deep. Digital lighting fails too close to the Eye — the upper level is lit; below the Rim, you use what doesn't need electricity.
 
 ---
 
@@ -84,18 +89,13 @@
     *   **Method:** Authorized personnel must actively hum a dissonant tune, focus on a sharp/painful memory, or use a "Static Generator" to cut through the soothing "Nothing to see here" signal.
     *   **Access:** Once the trance is broken, the filing cabinets are revealed as a facade for the heavy, hermetic blast doors of the Decontamination Hallway.
 
-#### Bottom-Side: The Orthogonal Foyer
-*   **Origin:** This room did not exist in the original blueprints. It grew when the crew recovered **The Pale Lens** (Class-4 Artifact).
-    *   **Source:** Recovered from "The Lighthouse of Lethe"—a Dead Drift of a coastal city that forgot language. The Lens originally projected "Darkness" that erased identity; IO recalibrated it to target only *false* identities.
-*   **Layout:**
-    *   **The Rotunda:** A cold, grey marble circular chamber.
-    *   **Traffic Flow:** The elevator opens to a grand central staircase for "Patron" access. Wide, utilitarian ramps spiral down the perimeter walls for freight/carts, hiding behind heavy stone columns.
-    *   **The Centerpiece:** The Pale Lens sits on a rotating brass pedestal at the base of the stairs, constantly sweeping the room with a beam of "Null-Light" (light that casts no shadows).
-*   **The Mechanism (Narrative Detection):**
-    *   The Lens was originally a lighthouse meant to guide nightmares. Now, it filters **Intent**. It functions as a "Psychic Metal Detector," humming violently if it detects a "Foreign Narrative" (a spy with a cover story, a disguised intruder, or someone possessed by a Deep Parasite).
-*   **The Trap (The Zeno Loop):**
-    *   If the Lens flags a target, it doesn't attack physically. It warps the room's geometry using **Zeno's Paradox**.
-    *   **The Effect:** The intruder can walk toward the exit door, but they never get closer. Every step covers half the remaining distance, trapping them in an infinite, stretching hallway until security can "collect" them.
+#### Bottom-Side: The Threshold (The Heptagonal Antechamber)
+*   **Origin:** Architect-designed. Built before the Cistern pool, as preparation for it. The same seven-sided geometry, the same non-repeating acoustics — a psychic airlock between the shaft and the Cistern proper. The elevator opens directly into it.
+*   **Layout:** Seven walls of dark stone, low ceiling, oil lamp brackets. Austere. The Architects did not decorate threshold spaces.
+*   **The Pale Lens:** Mounted centrally on a fixed brass pedestal. It sweeps the room continuously with Null-Light — light that casts no shadows. Its function is detection: it reads whether something *belongs* here, whether it has the right relationship to this space and the people in it. Not lie detection. Fit. An intruder with a cover story doesn't register as lying — they register as wrong, the way a forged object looks wrong in the right light. An entity from the Deep with no surface-world anchor registers as mostly Psychosphere with a thin surface layer over it.
+    *   The Lens flags in both directions: unauthorized entry and unauthorized egress. Something trying to leave with what it shouldn't have — a stolen artifact, a hitchhiker trying to escape — reads the same way.
+*   **The Enforcer:** A mechanical lock — heavy brass, Victorian engineering — controlling the elevator shaft. When the Lens flags, the lock engages. The elevator does not move. The flagged entity is now in a heptagonal space with collapsing-obsession acoustics and no way up or down. The room is the cage. The enforcer is the lock.
+    *   The heptagonal geometry does the rest: whatever the entity was trying to hold onto — its cover, its purpose, its direction — keeps dissolving in the non-repeating resonance. Not painful. Disorienting in a specific way. By the time the crew arrives, it is usually not sure why it came.
 
 ---
 
@@ -119,16 +119,13 @@
 *   **Concept:** The turbulent, fluid space between the Drifts.
 *   **The Hazard:** Physics changes randomly. "Envy Storms" might cause your equipment to malfunction out of jealousy. "Gravity Squalls" might reverse up and down.
 
-### 4. The Fossil Grove (The First Anomaly)
-*   **Location:** A "Pocket" in the Deep, approx. 1,200m depth equivalent.
-*   **Description:** An ancient forest of petrified trees (Slate/Ash).
-*   **The Corruption (The Amber):**
-    *   **Visual:** The grey stone trees are being transmuted into **Transparent Amber Glass**.
-    *   **Scent:** Smells of burning solder and **Lavender** (Nia's scent).
-    *   **Sound:** High-pitched *tinking* of glass leaves shattering.
-*   **Significance:** This is the first site where IO confirms the "Amber" is linked to Nia's memory.
+### 4. The Stilled Zones (Blooming Influence)
+*   **Character:** As the Blooming reorganizes the Deep around the waking presence, certain zones develop strange attractors — areas where the normal flow of experience stops circulating and begins repeating. Dreams that should process and sink instead orbit the same moment.
+*   **Signs:** Loops in the environment. A forest where every tree has fallen the same way. A street where the same figure crosses at the same interval. Experience that should be past, held open.
+*   **Diver risk:** Narrative Capture accelerates here. The repetitive structure makes it easier for the Deep to cast a diver into a role and harder to break out of it. Dissonance techniques still work but require more force.
+*   **Significance:** These zones mark the outer edges of the Blooming's influence — where TSG's gravity is strong enough to arrest flow but not yet strong enough to fully reorganize the space. Their spread can be tracked as a measure of how far the Blooming has progressed.
 
 ### 5. The Silt Flats (The Abyssal Floor)
-*   **Description:** An infinite plain of grey dust (ground-down secrets).
-*   **Hazards:** "Memory Gas" pockets. Walking here feels like moving through quicksand.
-*   **Inhabitants:** The Leviathans (World-Eaters) graze here.
+*   **Description:** An infinite plain of grey dust. The crew's working interpretation: ground-down secrets. The truth: compressed residue from approximately a billion years of all life on Earth. The grey powder at the bottom is not human in origin. It is older than animals.
+*   **Hazards:** The pre-verbal nature of the Silt makes it hostile to narrative identity. Walking here without strong role-anchoring causes the Method Actor mechanic to erode — not through attack, but through the absence of any structure to perform within.
+*   **Inhabitants:** Leviathans graze here, breaking down abandoned dreamscapes. The sleeping giants rest here, or did — the one now Blooming is no longer simply resting.

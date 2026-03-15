@@ -1,7 +1,9 @@
 # Hidden Dreamers: Mechanics & Physics
 
 ## I. The Bathymetry of Sleep (Zonal Changes)
-As a Dreamwalker descends, the "Physics of Thought" changes. These are the reliable indicators of depth.
+*Note: These zone descriptions are the crew's working model — inherited from Architect-era maps and their own experience in human-origin layers. They do not reflect the psychosphere.md depth model (depth as age and compression, non-human contributions below Zone 3). The zone system needs a full redesign once the Deep-as-character session is complete. See `todo.md`.*
+
+As a Dreamwalker descends, the character of experience changes. These are the crew's reliable indicators of depth.
 
 ### Zone 1: The Surface (The R.E.M. Crust)
 *   **Depth:** 0 - 100m (Psychic Equivalent)
@@ -11,7 +13,7 @@ As a Dreamwalker descends, the "Physics of Thought" changes. These are the relia
 
 ### Zone 2: The Shallows (The Archetypal Twilight)
 *   **Depth:** 100m - 1,000m
-*   **The Look:** Cinematic and cohesive. The lighting is always "Golden Hour" or "Blue Hour." The resolution shifts from digital video to **Oil Painting**.
+*   **The Look:** Cinematic and cohesive. The lighting is always Golden Hour or Blue Hour. Experience sharpens from chaotic surface noise into something that feels composed — like moving from a crowd into a painting.
 *   **Physics:** Narrative Logic. You can't just "fly"; you need wings. Doors lead to thematically connected places.
 *   **The Danger:** Medium. Getting caught in "Melodrama Loops" (emotional quicksand).
 
@@ -43,33 +45,31 @@ The Deep is not a land; it is a **pressure zone**.
 *   **The Gravity**: Down here, emotional weight is literal weight. A "Guilt" complex can weigh as much as a tank.
 
 ### 2. Entity Ecology (The Deep Fauna)
-*   **The Leviathans (The Silent Ones)**: Massive, slow-moving shapes (abstract gigantism) that consume abandoned dreamscapes to recycle data.
-*   **The Amber Bleed (The Vitrification)**:
-    *   **The Effect**: A physical manifestation of the **Sleeping God's** dream leaking into the void, filtered through a human **Host** (Nia).
-    *   **Mechanism**: It **freezes** the chaotic Deep into **Transparent Amber Glass**. It preserves the Host's memories as static, indestructible "fossilized" moments.
-    *   **Danger**: Getting trapped means becoming a static image in the dream forever.
+*   **The Leviathans (The Silent Ones)**: Massive, slow-moving creatures. They graze abandoned dreamscapes, breaking down what is no longer dreamed into material that feeds the current. The Deep's equivalent of decomposers.
+*   **The Blooming (The Reorientation)**: A presence in the Silt — one of several ancient aggregations of primal drive — is waking. The Deep is developing a gravity well around it. Ley line currents redirect. Oubliettes drift. Zones that had consistent character develop strange attractors and repetitive loops. See `canon/the_blooming.md`.
 *   **The Anglers (Lure-Lights)**: Predatory thoughts that manifest as desires (lost loved ones, safety) to trap consciousness in a Loop.
 *   **The Mycelium (The Rot)**: Currently classified as a hazard — a fungal network connecting disparate fears. This classification is likely wrong. See `psychosphere.md`. The Mycelium may predate animals in the Psychosphere by hundreds of millions of years. It is not an enemy. It is infrastructure doing its job. The crew has been treating part of the oldest system in the Deep as an obstacle.
 
 ---
 
-### 3. Ley Lines (The Data Streams)
-Ley Lines are the "Fiber Optics" of the Psychosphere.
+### 3. Ley Lines (The Currents)
+Ley Lines are the circulatory system of the Psychosphere — channels through which accumulated experience flows, compresses, and sinks.
 
 ### 1. Structure & Flow
-*   **The Current (Mnemosyne-Current)**: A river of liquid light carrying the **"Semantic Plankton"**—the raw, unformed data of the collective human experience (half-formed ideas, stray emotions, sensory echoes).
-    *   **The Look:** A bioluminescent blizzard of glowing motes. To touch it is to experience a "Flash-Flood" of random human memories.
-    *   **The Function:** This is the **"Ink"** of reality. It provides the raw creative mass required for artifact crystallization.
+*   **The Current (Mnemosyne-Current)**: A river of condensed experience — half-formed ideas, stray emotions, sensory echoes from centuries of sleeping minds.
+    *   **The Look:** A luminous drift of moving motes, slow at depth, turbulent near the surface. To touch it is to absorb a flood of unattributed human memory.
+    *   **The Function:** Raw material for artifact crystallization. The emotional mass that gives objects their weight and density.
 *   **The Tides (The Somatic Cycle)**:
-    *   **The Heartbeat**: The Deep rises and falls with the REM cycle of the **Sleeping God**.
-    *   **High Tide (REM Active)**: The "Storm." The current surges, flushing the Silt from the Cistern and filling it with high-density Mnemosyne-Current. This is the only window for **Storm-Forging**.
-    *   **Low Tide (Delta Wave)**: Deep sleep. The current slows to a trickle. Calm, silent, and navigable for divers.
+    *   **The Heartbeat**: The Deep has historically risen and fallen with the sleep cycles of the ancient presences in the Silt. The dominant cycle has long been attributed to the largest — the one now blooming.
+    *   **High Tide (REM Active)**: The current surges, flushing the Silt from the Cistern and filling it with high-density Mnemosyne-Current. This is the only window for **Storm-Forging**.
+    *   **Low Tide**: The current slows to a trickle. Calm, silent, navigable.
+    *   **Current status**: With the Blooming underway, the tide cycle is disrupted. Whether this means more frequent High Tides, irregular surges, or eventual cessation is not yet known. Storm-Forging windows have become unpredictable. See `canon/the_blooming.md`.
 
-### 2. The Great Duality: The Eye vs. The Lines
+### 2. The Core Tension: The Eye vs. The Lines
 The stability of the HQ depends on the balance between two opposing forces:
-*   **The Eye (Lethe-Light):** The **Eraser**. It projects a field of "Null-Silence" that bleaches memory and dissolves narrative. It provides the "Blank Paper" of reality.
-*   **The Lines (Mnemosyne-Current):** The **Ink**. It provides the emotional weight and material density needed to "Write" new objects into existence.
-*   **The Synthesis:** Artifact development is the act of using the Eye’s power to hold a space open (The Paper) while the Ley Line Storm fills it with data (The Ink).
+*   **The Eye (Lethe-Light):** The **Eraser**. Its field bleaches memory and dissolves narrative — holding a space open, cleared of prior meaning.
+*   **The Lines (Mnemosyne-Current):** The **Ink**. Emotional weight and material density that fills cleared space with new form.
+*   **The Synthesis:** Artifact development is the act of using the Eye’s field to hold a cleared space while the Ley Line Storm fills it. What the Eye erases, the Current writes into.
 
 ### 3. Interaction with Reality (The Bleed)
 *   **Nodes (Confluences)**: Intersections of lines (Haunted places, The Cistern).
@@ -97,7 +97,7 @@ The Deep is not a physical space, but a **Semantic Archive**. To navigate it, on
 *   **Dissonance (The Break)**: To escape "Capture," a diver must introduce an anachronism or logical paradox (e.g., playing death metal in a serene garden) to shatter the immersion and force a reality-reset.
 
 ### 3. Chronal Pressure (Time Dilation)
-*   **Source:** The intense "Psychic Gravity" of the Leviathan's Eye (The Battery).
+*   **Source:** The presence of the Eye at 80m depth. Something about its nature — existing outside linear time, as a fragment of something ancient enough to predate linear time — warps time's flow in proximity.
 *   **Mechanism:** Proximity to the Eye warps the flow of time relative to the surface.
 *   **Gradient:**
     *   **Surface/Rim:** 1:1 ratio.
@@ -105,7 +105,16 @@ The Deep is not a physical space, but a **Semantic Archive**. To navigate it, on
     *   **The Eye (80m):** 1:60 ratio (1 min = 1 hour).
 *   **Hazard:** Divers may experience "Reality Drift," surfacing to find days have passed while they were performimg a "quick" repair.
 
-### 3. Psychic Parasitism (The Lampreys)
+### 3. Diver Verification Protocol
+
+IO does not do things halfway. Three layers of protection against a diver returning compromised — under Narrative Capture, identity erosion, or carrying something that followed them home.
+
+**The Buddy System.** Standard protocol: no solo dives. Your partner knows what you were like going in. Subtle wrongness — a shift in how you speak, what you reach for, what you don't remember caring about — is visible to someone who was watching. The dive room door not opening is the formal signal; the partner is usually already concerned before that.
+
+**The Image Match.** Before each dive, the diver arranges a fresh set of cards drawn from a rotating library — grouping them by association, by whatever logic feels natural. The same cards are presented on surfacing. If the groupings hold, the door opens. If they don't, the door stays closed and someone comes to the diver. Not an alarm — the room is comfortable. But the door doesn't open.
+- The cards cannot be memorized or anticipated: fresh draw each dive. What's tested is not recall but perceptual framework. Someone returning under deep Narrative Capture perceives the cards through the role they're still wearing. The mismatch is usually obvious to Ren, who holds the baseline.
+
+**Barnaby.** The informal third layer. He has known the crew long enough to recognise their psychic signatures. He notices when the person who came back isn't quite the person who went in — not through analysis but through the same instinct that tells a dog something is wrong before anyone else in the room knows it. He cannot be fooled by a performance that satisfies the image match. Whether he communicates what he notices, and how, is still being developed.
 *   **Entity:** **Psychic Lampreys** (Deep Parasites).
 *   **Behavior:** They are drawn to high-density logic fields. They latch onto the Leviathan's Eye like barnacles to feed on the Indigo current.
 *   **Symptom:** As they feed, the HQ's "Reality Buffer" thins. Walls may become translucent, gravity may flicker, or the "Folding Rooms" may begin to compress unexpectedly.
@@ -169,9 +178,9 @@ The Technomancer stays "Dry" in the HQ, operating the **Soundboard**. They are t
     *   **Visual:** They watch a waveform on a CRT. Smooth = "In Character." Jagged/Red = "Dissonance" (The Immune System is suspicious).
     *   **The Emotional Key-Frame (The Prompt):** Because language breaks in Zone 3+, the Technomancer cannot feed "lines." Instead, they pulse **Emotional Archetypes** through the Psyloc-Link.
         *   *Example:* If IO freezes in a Noir scene, the Technomancer doesn't say "Act natural." They transmit a **"High-Contrast Melancholy"** pulse, forcing IO's body to adopt the correct slumped, weary posture of the role.
-*   **The Backdrop (Rendering Support):**
-    *   **Problem:** High-fidelity memories require immense processing power to render convincing avatars.
-    *   **Action:** The Technomancer burns server power (or sacrifices artifacts) to "Up-Res" the Diver's camouflage if it starts to glitch.
+*   **The Backdrop (Camouflage Support):**
+    *   **Problem:** High-fidelity memories can expose a diver whose camouflage thins under pressure — the role starts to feel wrong to the environment.
+    *   **Action:** The Technomancer feeds reinforcing material through the Psyloc-Link — emotional keyframes, sensory anchors — to shore up the performance. In extremis, sacrificing an artifact can flood the Psyloc-Link with enough raw material to restabilize the role.
 *   **The Stage Hook (Narrative Extraction):**
     *   **Problem:** Waking up abruptly from Zone 4 causes "The Bends" (Psychic Shock).
     *   **Solution:** The Technomancer hacks the environment to spawn a "Narrative Exit."
