@@ -3,13 +3,7 @@
 ## Priority 1 — Prerequisite (do first, unlocks everything)
 
 
-### Nia — Character Note
-She's described as "the Heart of the original team" and given two sentences. She drives IO's entire private mission and is the literal mechanism of the Amber Bleed. She needs to be a ghost worth grieving.
-- Who was she as a person, before the addiction?
-- What made her the Heart — what did she provide that no one else did?
-- What does IO actually miss: the person, or the team she made possible?
-- What was she looking for when she tuned into the Sleeping God? Curiosity, longing, escape?
-- A brief character note is sufficient — not a full document
+~~### Nia — Character Note~~ ✓ see characters.md
 
 ### Sleeping Giants — The Deeper Cosmology
 Core shape established: primal aggregations in the Silt, too old for personality, predating the architecture that makes motivation legible. Legends are misreadings of their signal. TSG is one of many. The Eye is a fragment of TSG. Remaining:
@@ -116,6 +110,15 @@ Once the above is resolved, restructure around the Method Actor content as the l
 ---
 
 ## Stories
+
+### The Shape of the Main Arc
+The crew discovers the Eye is a fragment of TSG (through Ren's archive discovery). They understand that freeing it resolves the Blooming — and destroys everything they've built. They choose reintegration.
+
+- **Elara's arc completes:** She joined because organized expeditions cause less destruction than the alternative. The whole operation was built on the most destructive thing imaginable. Freeing the Eye is her contradiction resolving.
+- **Ren's arc:** She finds it first. She chooses to tell IO. The moment she does, the Eye stops being her relationship and becomes the crew's decision.
+- **IO's arc:** The rescue mission collapses — not because it failed but because it was the wrong shape for what actually happened. Nia's signal crystallizes the clarity she's been circling. She makes the choice knowing it doesn't save Nia back to something she can hold.
+- **Nia's ending:** She disperses into the Psychosphere after reintegration. Not a casualty — she was already gone, and already home. IO has to grieve someone who left on purpose and was fine.
+- **After:** The Vault collapses. The operation is gone. Ren still has her connection to TSG whole. What that becomes is the open question.
 
 ### Ren — Untitled short story (seed)
 Ren discovers something in the Eye's archive that shouldn't be there — a memory attributed to her, from a dive she never took. Or she finds an Architect memory that reveals what the Eye actually is, and realizes she has been in contact with a fragment of TSG for years without knowing it. The dramatic tension: she is the one person who can navigate the archive, potentially the only one who can communicate with TSG through the fragment — and she's the person who never goes in, who stays dry, whom everyone treats as support. The question the story turns on: does she tell IO? The moment she does, the Eye stops being a relationship and becomes a resource.

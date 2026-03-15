@@ -8,8 +8,9 @@
 *   **Visuals:** Sharp suits, corneal implants (monocle), haptic gloves. Always checking a mechanical watch.
 *   **Motivations:**
     *   **Public:** **Cartography**. Mapping the Deep — its geography, its ecology, its history. The salvage pays for the work.
-    *   **Private (Project Lullaby):** **Rescue**. Beneath the cartography is a second map, one she doesn't share. She is looking for Nia.
-*   **Backstory:** A brilliant neuro-chemist who discovered the **Psyloc-Shards** (Indigo Fungus). She built the team's telepathic comms. She blames herself for Nia's addiction to the connection and subsequent loss.
+    *   **Private (Project Lullaby):** **Rescue**. Beneath the cartography is a second map, one she doesn't share. She is looking for Nia. The rescue mission is grief wearing the shape of a purpose. This has been circling under the surface for some time. She has not let herself look at it directly.
+*   **Backstory:** A brilliant neuro-chemist who discovered the Psyloc-Shards (Indigo Fungus). She built the team's telepathic comms. She blames herself for Nia's exposure to the connection. Whether the blame is accurate — whether Nia was lost or whether Nia left — is the question IO cannot bring herself to answer.
+*   **The Arc:** The cartography, the salvage, the operation, the precision — all of it is architecture around a wound. What holds IO together is having a mission. Nia's signal, when it comes, removes the architecture. IO has to make the choice to free the Eye — destroying everything she built — knowing it doesn't save Nia back to something she can hold. It frees Nia into something IO cannot follow. The act of letting go and the act of destruction happen at the same time, and neither feels like heroism.
 *   **Capabilities:**
     *   **Techno-Magic:** Uses the Deck to run Translation Scripts — notation scored in compressed symbolic language — that force dream-physics to obey rational rules.
     *   **Mage-Sight:** Sees Ley Lines as a wireframe of cold light.
@@ -56,10 +57,14 @@
 ## II. The Lost
 
 ### 1. Nia Aethelgard - "The Pilot Fish"
-*   **Status:** **Trapped / Missing**.
-*   **Role:** The catalyst for IO's mission.
-*   **Backstory:** IO's younger sister. The "Heart" of the original team. She became addicted to the **Psyloc-Shard connection**, eventually tuning into a frequency no one else could hear (The Sleeping God). She walked into the Deep to find the source.
-*   **Current State:** Bonded to the **Sleeping God**. She is the "Dreamer" keeping it asleep. Her memories are leaking out, creating the **Amber Bleed**.
+*   **Status:** Not missing. Gone. There is a difference.
+*   **Role:** IO's younger sister. The emotional centre of the original team — the one who made the others want to come back up. Not because she was warm, exactly, but because she was *present* in a way that made presence feel like enough.
+*   **Who she was:** Nia had a specific quality that is hard to name: she paid full attention. Not strategically, not selectively. Whatever was in front of her got all of her. This made her extraordinary in the Deep — she didn't perform emotional states to navigate, she just felt them, completely, and the Psychosphere treated her like she belonged. It also made the Psyloc-Shard connection intoxicating in a way it wasn't for the others. She wasn't addicted to the drug. She was addicted to the feeling of being fully heard by something vast.
+*   **What she was looking for:** Not escape. Not oblivion. She heard a frequency no one else could locate and went to find its source the way you walk toward music — not because you've decided to, but because your feet are already moving. She found TSG while it was stirring, and the contact was too large to survive intact and walk away from. She didn't walk away.
+*   **Current state:** She has been living inside the experience of something that feels everything as unified, undifferentiated, total. She is not suffering. She is not the Nia who left — that person dissolved some time ago — but what replaced her is not nothing. She is there, in the way a river is there after it meets the sea.
+*   **The signal:** When reintegration approaches, she turns toward IO the way you turn toward a voice you know. What comes through is not words — she is past language — but recognition. IO feels herself recognized. In that recognition, everything IO has been carrying is named at once. The signal is not *help me*. It is closer to: *I know what you're planning. Do it. I'm going somewhere else anyway.*
+*   **After reintegration:** TSG becoming whole dissolves the conditions that held Nia in place. She doesn't get absorbed. She disperses — into the Psychosphere itself. Not as a casualty. As something that belongs there now. IO built the operation trying to bring her back. Nia was never coming back. She was already home.
+*   **What IO has to grieve:** Not her death. Her choice. You cannot be angry at death the way you can be angry at someone who left on purpose and was, by any honest measure, *fine*.
 
 ---
 
