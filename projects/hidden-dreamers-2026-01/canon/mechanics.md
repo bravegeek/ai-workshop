@@ -46,7 +46,7 @@ The Deep is not a land; it is a **pressure zone**.
 
 ### 2. Entity Ecology (The Deep Fauna)
 *   **The Leviathans (The Silent Ones)**: Massive, slow-moving creatures. They graze abandoned dreamscapes, breaking down what is no longer dreamed into material that feeds the current. The Deep's equivalent of decomposers.
-*   **The Blooming (The Reorientation)**: A presence in the Silt — one of several ancient aggregations of primal drive — is waking. The Deep is developing a gravity well around it. Ley line currents redirect. Oubliettes drift. Zones that had consistent character develop strange attractors and repetitive loops. See `canon/the_blooming.md`.
+*   **The Blooming**: A presence in the Silt — one of several ancient aggregations of primal drive — is waking. The Deep is developing a gravity well around it. Ley line currents redirect. Oubliettes drift. Zones that had consistent character develop strange attractors and repetitive loops. See `canon/the_blooming.md`.
 *   **The Anglers (Lure-Lights)**: Predatory thoughts that manifest as desires (lost loved ones, safety) to trap consciousness in a Loop.
 *   **The Mycelium (The Creep)**: Crew classification: a hazard — a spreading network in the Silt that makes the boundaries of self feel unreliable. The sensation of it arrives before any visual cue: a slow permeability, like the edges of the diver are becoming optional. The classification is wrong. See `psychosphere.md`. The Mycelium predates animals in the Psychosphere by hundreds of millions of years. It is the Silt's substrate — the oldest continuous infrastructure in the Deep, routing and connecting everything below the animal layers. It is not an enemy. It is not interested in the crew at all. The paradigm shift, when it comes, is not a fight or an escape. It is a diver realising the thing they've been navigating around is what the Silt *is*.
 
@@ -140,7 +140,7 @@ The Lantern Crew's survival depends on a precarious balance between keeping know
     *   Powerful artifacts are "heavy" with meaning. When stored in the HQ, they push against reality, creating physical space (extra rooms/halls) around them.
     *   *Rule:* "The Artifact makes the Room." You cannot have the library without the Book of Silences.
 *   **The Collapse (The Sale/Removal)**:
-    *   **The Logic Field Tether**: Artifacts only manifest their "Semantic Volume" when within the HQ's Class-5 Logic Field (powered by the Leviathan Eye).
+    *   **The Logic Field Tether**: Artifacts only manifest their "Semantic Volume" when within the HQ's Class-5 Logic Field (powered by the Eye — a TSG fragment, see `canon/the_eye.md`).
     *   **The Divorce**: Selling or removing an artifact from the HQ severs this tether. The item physically "shrinks" back to its base object size. The room it generated **instantly collapses** back into the wall. Any data, furniture, or *people* inside are crushed or ejected into the void.
     *   **The Market**: Buyers (Corporations, Cults) purchase these items for their standalone utility, but they cannot replicate the spatial distortion without their own "Heart of the Storm."
 *   **Mitigation Protocols**:

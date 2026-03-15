@@ -20,8 +20,8 @@ IO bridges the gap between Dream-Logic and physical law.
 
 ## II. The HQ Tech (The Cistern)
 
-### 1. The Resonant Seeds (Retrieval)
-*   **The Tool:** **"The Seed-Core"** (Null-Glass geometric forms).
+### 1. The Seed-Core (Retrieval)
+*   **The Tool:** Null-Glass geometric forms.
     *   **Material:** **Null-Glass** is a synthetic, non-reactive crystal that acts as a psychic vacuum. It has zero "Semantic Weight."
     *   **Disguise:** Can be shaped and surface-treated to resemble common props (coins, bolts, pocket watches) to bypass the Dream's Immune System.
 *   **Function:** Acoustic capture of an object's "Concept."

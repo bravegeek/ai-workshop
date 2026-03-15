@@ -7,10 +7,8 @@
 *   **The Building:** Purpose-built by the Architects in the 1880s during the Austro-Hungarian golden age. From the street it presents as a private learned society — a brass plaque, serious Victorian-adjacent architecture, the kind of institution that announces serious people doing serious work without inviting inspection. The underground component is far larger than the surface suggests.
 *   **The Cistern:** The heptagonal pool at the Institute's core sits directly above the thermal cave system. The water is geothermally sourced — rising from deep underground, warm, mineral-rich, continuous. The Architects didn't install a pool. They built around a spring that was already there.
 *   **The Underworks:** The formal designation for the entire underground complex — what appears on the Architects' original plans, what's carved into the lintel above the elevator shaft. Contains the Heptagonal Antechamber, the Cistern, the Vault, the Dive Room, the catwalks, and all operational infrastructure. The crew calls it **the Workings** or **the Works**. Characters who are home use the short version. Characters creating distance use the full name.
-*   **Concept:** A "Failed Victorian Dream-Engine." The architecture represents an attempt by 19th-century occultists to bridge the gap between industrial order and esoteric power.
-*   **Symbolism (The Clock & The Spell):**
-    *   The tension between the **12 sides** of the room and the **7 sides** of the pit reflects the struggle to "Clock" the chaotic nature of dreams into a predictable machine.
-*   **In Practice:** Museum and workshop in equal measure. The Vault holds artifacts in various states of integration; the catwalks are strung with Ren's drift-charts and ley line maps; and every room that has folded outward from an artifact's semantic weight serves as an accidental archive of somewhere the crew has been. The Architects failed here. The crew works in the ruins of that failure, using the same tools.
+*   **Concept:** The Architects built precisely and with full knowledge of what they were attempting. The geometry is deliberate: the 12-sided Vault imposes order and archive logic; the 7-sided Cistern prevents obsessive fixation through non-repeating acoustics. The tension between them — the drive to catalogue and the drive to prevent any single idea from taking root — reflects the Architects' awareness that the thing in the basement could not be controlled, only managed. They were right about the geometry. They were wrong about one variable.
+*   **In Practice:** Museum and workshop in equal measure. The Vault holds artifacts in various states of integration; the catwalks are strung with Ren's drift-charts and ley line maps; every room that has folded outward from an artifact's Semantic Volume is an accidental archive of somewhere the crew has been. The Architects built this. The crew works in it using the same tools, watched by the same walls.
 
 ### 2. Layout
 *   **The Vault (The Shell):**
@@ -32,7 +30,7 @@
     *   **Exit (The Image Match):** The only way out of the Dive Room unassisted is to correctly match a fresh set of images — presented on a mechanical card display before each dive, arranged by the diver according to their own associations. Not a password. A snapshot of how you perceive things at that moment. On surfacing, the same cards are presented. If your groupings hold, the door opens. If they don't, you stay in the room until someone comes to you.
         *   The images are generated fresh each dive from a rotating library — they cannot be memorized or anticipated. What's tested is not recall but the interpretive framework the diver brings to them. Someone returning under deep Narrative Capture perceives the cards through the role they're still wearing. The mismatch is usually obvious.
         *   Failure is not an alarm. The door simply doesn't open. The room is comfortable. Someone will notice.
-*   **The Cistern (The Central Pool):**
+*   **The Cistern:**
     *   **Shape:** **Heptagon (7-Sided)**.
     *   **Geometry:** A "Magical" number. Creates non-repeating acoustic echoes that prevent "Standing Ideas" (obsessions) from taking root in the HQ.
     *   **The Ghost Floors (Storm Resonance):** During **Ley Line Surges (High Tide)**, the walls "glitch," overlaying reality with the **19th-Century Past**.

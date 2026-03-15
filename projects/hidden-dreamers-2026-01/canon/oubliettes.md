@@ -43,9 +43,9 @@ Finding an oubliette at the wrong depth is always significant. It was either mov
 
 **Ley line confluence dredging.** A powerful ley line intersection creates a vortex that pulls Nodes up from the Silt. An ancient oubliette can be surfaced into accessible layers by a confluence event — briefly. It will sink back. This is a **ticking-clock structure**: a pocket from deep time has been dredged into Zone 2. The crew has a window before it descends again.
 
-**Amber Bleed stasis.** The Amber freezes things in place. It can trap an oubliette at a shallower depth than it should occupy, holding it accessible indefinitely — an unintended consequence of the crisis.
+**Blooming gravity.** As TSG stirs and the Deep reorganizes around it, oubliettes near the gravity well's influence can be held at wrong depths — suspended by the same pull that disrupts Ley line tides. An oubliette that should have sunk back into the Silt remains accessible because something far below is holding the currents still. This is not a gift. It means whatever is in that pocket is now sitting in a layer whose culture has no relationship to it.
 
-**Architect relocation.** The Victorian Architects experimented with relocating oubliettes using the Leviathan Eye's time-distortion and reality-anchoring properties. The crew may find ancient pockets at wrong depths with no obvious explanation — until they read the Victorian records more carefully.
+**Architect relocation.** The Victorian Architects experimented with relocating oubliettes using the Eye's time-distortion and reality-anchoring properties. The crew may find ancient pockets at wrong depths with no obvious explanation — until they read the Victorian records more carefully.
 
 **Shell degradation.** A very old oubliette's shell thins over time. The contents don't move, but they bleed flavor into adjacent layers — alien sensation, wrong-scale experience, ancient texture leaking through a cracked crust. A zone that feels ancient and profoundly wrong without a visible oubliette may mean you're standing next to one losing its seal.
 

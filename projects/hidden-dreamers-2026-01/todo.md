@@ -12,6 +12,23 @@ The document has been partially cleaned. Remaining open questions:
 
 ---
 
+## Decisions Required (audit-flagged — need resolution before writing)
+
+### Nia's State: Peaceful vs. Imprisoned
+`characters.md` frames her dissolution as peace — *"in the way a river is there after it meets the sea."* `the_blooming.md` frames it as bondage — *"She is not free."* These are not the same thing and the distinction is load-bearing for IO's arc, what the signal means, and whether reintegration is liberation or something else. **Requires a decision, not just a flag.**
+
+### The Eye's Agency
+Three live documents, three positions:
+- `characters.md` — "not an agent, a presence"
+- `cistern_advantage.md` — Ghost Files as passive leakage
+- `the_eye.md` — "noise can be shaped," possible intentionality
+Pick one position or explicitly frame the contradiction as the crew's unresolved question. Either is valid but both can't be true simultaneously.
+
+### Ren's Involuntary Eye Connection — Flag as Intentional Setup
+Ren has been used as a sensor by the Eye for years without knowing it. The documents acknowledge this but don't flag the emotional weight of the eventual discovery. When she finds out: this isn't a surprise, it's a breach. The revelation that something was indexing her, attending to her specifically, using her accuracy without consent — that needs to be noted as a deliberate setup with consequences, not just a world-building detail. Add a note to `the_eye.md` and `characters.md`.
+
+---
+
 ## Priority 1 — Prerequisite (do first, unlocks everything)
 
 
