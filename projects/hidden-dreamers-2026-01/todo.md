@@ -67,6 +67,25 @@ Resolved as man vs. nature: the antagonism is structural, not agentive. The Bloo
 - Elara and Kaelen's traditions are altruistic; others will not be. Predatory/extractive traditions still work — the Deep responds to stance, not ethics.
 - Introduce traditions through story as needed; resist designing the full ecosystem speculatively.
 
+### Dive Aesthetics — Oubliettes vs. Open Drift
+*Unlocked by: Zone System redesign.* The structural decision is made: oubliettes have genre, open Drift doesn't. Each oubliette is a sealed pocket with its own visual logic — it reads as a genre because it preserves the character of its origin. Open Drift is rawer, less narrative, harder to genre-ify. Needs a dedicated session to answer:
+
+**Oubliettes:**
+- What is the visual tell that you've entered one? How does the transition feel?
+- How does genre assert itself — does it arrive all at once or does it creep in?
+- Does the diver know what genre they're in, or do they only notice in retrospect?
+- What does the Immune System look like *inside* a genre? Does it enforce genre logic (a horror oubliette that punishes comedy, a heist oubliette that turns unplanned noise into alarms)?
+- What happens at the edge — the moment you're about to drift out of a sealed pocket?
+- Example oubliettes to sketch: one Victorian, one pre-linguistic, one collective grief, one recent/personal
+
+**Open Drift:**
+- What does raw Psychosphere look like when it isn't shaped by a sealed memory?
+- Impressionistic, sensory, culturally layered — but what does that *feel* like to move through?
+- How do different depths read differently without discrete zone bands?
+- What does the Mycelium (The Creep) feel like from the inside?
+- What does a Ley line look like when you're standing in it?
+- How do you know you're in open Drift rather than a very large oubliette?
+
 ### Zone System
 The current five-band model is too mechanical — a game rulebook, not a lived experience. Requires research before redesign.
 - Research: phenomenology of actual altered states (REM/NREM, hypnagogia, lucid dreaming, sleep paralysis, dissociation, ego dissolution)
