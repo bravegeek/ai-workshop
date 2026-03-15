@@ -145,4 +145,4 @@ The Plumb delivers you directly into the Antechamber. Not past it — into it. I
 ### 5. The Silt Flats (The Abyssal Floor)
 *   **Description:** An infinite plain of grey dust. The crew's working interpretation: ground-down secrets. The truth: compressed residue from approximately a billion years of all life on Earth. The grey powder at the bottom is not human in origin. It is older than animals.
 *   **Hazards:** The pre-verbal nature of the Silt makes it hostile to narrative identity. Walking here without strong role-anchoring causes the Method Actor mechanic to erode — not through attack, but through the absence of any structure to perform within.
-*   **Inhabitants:** Leviathans graze here, breaking down abandoned dreamscapes. The sleeping giants rest here, or did — the one now Blooming is no longer simply resting.
+*   **Inhabitants:** Leviathans graze here, breaking down abandoned dreamscapes. The sleeping gods rest here, or did — the one now Blooming is no longer simply resting.

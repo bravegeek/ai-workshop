@@ -10,9 +10,9 @@ This is wrong in ways that matter.
 
 ## II. What It Actually Is
 
-The Eye is a fragment of TSG — the sleeping giant currently blooming in the Silt.
+The Eye is a fragment of TSG (The Sleeping God) — one of the ancient presences in the Silt, currently blooming.
 
-The Architects harpooned what they believed was an extraordinarily powerful Leviathan. They had a framework for powerful creatures. They had no framework for sleeping giants, no way to recognize that what they'd caught was a piece of something vast and ancient that predated the concept of "creature." They dragged the fragment to the surface, chained it at 80 metres, and built their entire operation around what it could do.
+The Architects harpooned what they believed was an extraordinarily powerful Leviathan. They had a framework for powerful creatures. They had no framework for sleeping gods — no way to recognize that what they'd caught was a piece of something vast and ancient that predated the concept of "creature." They dragged the fragment to the surface, chained it at 80 metres, and built their entire operation around what it could do.
 
 What they built their operation around was a piece of a god they didn't know was there.
 
@@ -77,7 +77,7 @@ When TSG and the Eye reintegrate — if that happens, and the blooming suggests 
 
 The crew loses the tool: no logic field, no depth anchor, no Storm-Forging, no Orrery. Every artifact-generated room in the Vault collapses simultaneously.
 
-What may survive is Ren's connection. TSG, whole, has been in contact with her mind for years through the fragment. The relationship was built before reintegration. A complete sleeping giant is not obligated to maintain it — but it is also not the same as a complete stranger.
+What may survive is Ren's connection. TSG, whole, has been in contact with her mind for years through the fragment. The relationship was built before reintegration. A complete sleeping god is not obligated to maintain it — but it is also not the same as a complete stranger.
 
 What that connection becomes, and what it means to have a relationship with something that size, is not yet known. It is not infrastructure. It is not an ally in any framework the crew currently has. It is something that knows Ren, has been indexing her, and may — in whatever way applies — have something like regard for her.
 

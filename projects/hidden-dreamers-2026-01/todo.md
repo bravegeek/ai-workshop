@@ -30,7 +30,7 @@ The Eye was drawn to Ren by affinity (her epistemic profile rhymes with how an a
 
 ~~### Nia — Character Note~~ ✓ see characters.md
 
-### Sleeping Giants — The Deeper Cosmology
+### Sleeping Gods — The Deeper Cosmology
 Core shape established: primal aggregations in the Silt, too old for personality, predating the architecture that makes motivation legible. Legends are misreadings of their signal. TSG is one of many. The Eye is a fragment of TSG. Remaining:
 - What are these entities beneath the human interpretation? "Unity" is a reading — what is the drive underneath?
 - Which legends are surface traces? Select a few that do narrative work, not a comprehensive list.
@@ -87,7 +87,7 @@ Not every dream, zone, or Oubliette has the same response. The current model imp
 The existing maps were made by the Architects, who likely never descended far enough to encounter non-human contributions. If the crew doesn't know, the discovery of pre-human layers becomes a major narrative event — not just a new location but a paradigm shift in what they think the Deep is.
 
 **Is the Psychosphere finite?**
-Does it extend only as far as Earth life, or — if consciousness is a fundamental property of information-processing matter — does it connect to something larger? Implications for the Sleeping Giants' nature and origin. If some of them predate Earth life, what does that mean?
+Does it extend only as far as Earth life, or — if consciousness is a fundamental property of information-processing matter — does it connect to something larger? Implications for the Sleeping Gods' nature and origin. If some of them predate Earth life, what does that mean?
 
 ### Psyloc — Open Questions (see `canon/psyloc.md`)
 Core document written. Remaining:
@@ -100,7 +100,7 @@ Core document written. Remaining:
 Core framing established: they were not ignorant, not reckless — they were good at this. Years of productive, careful work before 1887. The Psyloc dysregulation was accumulating slowly the whole time, undetectable without instruments they didn't have. Then they captured the Eye fragment — a calculated decision, believed to prevent the next blooming. They had no way to know Lethe-Light would interact catastrophically with years of Psyloc dysregulation. The dissolution was progressive. They kept working as long as they could. Some of what they built — the heptagonal geometry, the tools, the Cistern — was constructed while they were already losing ground. They built something that outlasted them without knowing it would have to. Needs a dedicated session:
 - What specifically did they discover, and in what order?
 - What did they attempt with oubliettes?
-- Did they have knowledge of non-human depth? Of the sleeping giants beyond TSG?
+- Did they have knowledge of non-human depth? Of the sleeping gods beyond TSG?
 - Did they leave anything besides the Cistern — other sites, documents, surviving students?
 - Is Barnaby's connection to their collapse a story to be told, or background?
 - What does Ren find in the Architect experience (not notes) that changes what the crew knows?
@@ -122,7 +122,7 @@ Core document written. Remaining questions to resolve when stories require them:
 Leviathans, Anglers, Mycelium are archetypes. Make them specific to a world built from collective human experience.
 - What does a creature that evolved *here* actually eat, want, fear?
 - How does each relate to the Amber Bleed crisis?
-- How do they relate to the sleeping giants — prey, parasite, descendant?
+- How do they relate to the sleeping gods — prey, parasite, descendant?
 
 ---
 
