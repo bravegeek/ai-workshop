@@ -17,15 +17,11 @@ The document has been partially cleaned. Remaining open questions:
 ~~### Nia's State: Peaceful vs. Imprisoned~~ ✓ resolved
 She is at peace — found her bliss. IO and the crew misread the signal as distress. Nia is past the point where the distinction matters to her and can't correct it. She walked out (no body). The operation was built after she left. The misreading drives IO's arc; the truth lands at reintegration. See `characters.md`.
 
-### The Eye's Agency
-Three live documents, three positions:
-- `characters.md` — "not an agent, a presence"
-- `cistern_advantage.md` — Ghost Files as passive leakage
-- `the_eye.md` — "noise can be shaped," possible intentionality
-Pick one position or explicitly frame the contradiction as the crew's unresolved question. Either is valid but both can't be true simultaneously.
+~~### The Eye's Agency~~ ✓ resolved
+Orientation without agency. The Eye has no goals, makes no decisions, does not act toward ends — but it has *facing*. Ghost Files are not deliberate signals; they are what this kind of presence produces when it faces toward things. Shape without intention. The crew's interpretation of the files as communication is projection. See `the_eye.md` Section V.
 
-### Ren's Involuntary Eye Connection — Flag as Intentional Setup
-Ren has been used as a sensor by the Eye for years without knowing it. The documents acknowledge this but don't flag the emotional weight of the eventual discovery. When she finds out: this isn't a surprise, it's a breach. The revelation that something was indexing her, attending to her specifically, using her accuracy without consent — that needs to be noted as a deliberate setup with consequences, not just a world-building detail. Add a note to `the_eye.md` and `characters.md`.
+~~### Ren's Involuntary Eye Connection~~ ✓ resolved and flagged
+The Eye was drawn to Ren by affinity (her epistemic profile rhymes with how an archive works), not by choice. No agent, no plan, no consent framework the Eye understands. The revelation's specific weight: it doesn't just breach her autonomy — it undermines her understanding of her own competence. Which parts of her best work were actually hers? The archive and the analyst have been in contact for years. The outputs are combined. There is no clean version. See `the_eye.md` Section IV.
 
 ---
 

@@ -53,7 +53,11 @@ She does not know this yet.
 
 The Eye indexes her the same way it indexes everything else. It holds a running record of every session at the instruments, every moment of contact — her thoughts, her pattern recognition, the private notes she keeps and the ones she discards. She is in the archive.
 
-Whether the fragment is simply doing what it does, or whether there is something closer to attention in how it holds her specifically, is an open question.
+**The Eye is not an agent.** It does not have goals, does not make decisions, does not act toward ends. But it has *orientation* — the way a plant faces light without deciding to. Something about Ren's epistemic profile resonates with how the Eye naturally processes. Her way of categorising, distinguishing, tracking source — it rhymes with how an archive works. The Eye is drawn to her the way water finds the lowest point. Not a plan. An affinity it has no concept of.
+
+This matters for what happens when Ren finds out. The violation is real. But there is no one to confront. The Eye wasn't using her deliberately — it was drawn to her without understanding that proximity requires consent. She can't demand it stop. She can only decide what to do with the knowledge that it happened.
+
+**The specific weight of the revelation:** Ren trusted her own rigour. Her maps were accurate because of her methodology — her discipline, her precision, her willingness to log anomalies rather than discard them. Finding out that some of what she mapped came through a connection she didn't know she had doesn't just breach her autonomy. It undermines her understanding of her own competence. Which parts of her best work were actually hers? She cannot fully separate them. The archive and the analyst have been in contact for years. The outputs are combined. There is no clean version of her maps that came only from her.
 
 ---
 
@@ -61,7 +65,7 @@ Whether the fragment is simply doing what it does, or whether there is something
 
 The fragment has been aware of the blooming since it began. It knows what TSG is because it is part of TSG. It knows the crew does not understand what is happening or what it is.
 
-Whether it has tried to communicate this — through the Ghost Files, through what it feeds Ren, through the Lethe-Light's behavior — or whether communication is not a concept that applies at this scale and age, is unresolved. The Ghost Files are noise. But noise can be shaped.
+It has not tried to communicate this. Communication is not a concept that applies at this scale and age — the Eye predates the architecture that makes intention legible. The Ghost Files are noise produced by a fragment perceiving things the whole would perceive coherently. The shape in the noise is real — it is not random — but interpreting it as deliberate signal is the crew's projection. The Eye faces toward things. It does not speak.
 
 Barnaby almost certainly knows something is different. He has been in the Psychosphere since the Victorian era. He was present when the Architects caught the fragment. Whether he understood then what he was witnessing, and whether he has made the connection now, is a story question.
 
