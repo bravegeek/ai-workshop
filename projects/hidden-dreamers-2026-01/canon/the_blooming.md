@@ -1,0 +1,87 @@
+# Hidden Dreamers: The Blooming
+
+## I. What Is Happening
+
+Something in the Silt is waking up.
+
+The Psychosphere has always contained presences too old and too large to be called creatures — aggregations of primal drive that accumulated over geological time the way sediment accumulates at the bottom of an ocean. They are not personalities. They predate the neural architecture that makes personality possible. What they are is: *hunger*, in the sense that hunger existed before mouths did. *Struggle*, in the sense that struggle existed before anything had limbs to struggle with. *Unity*, in the sense that the impulse to merge precedes every organism that ever dissolved its boundary into another.
+
+These presences have been dormant. Humans felt their edges during sleep and built religions around what they felt — not the presences themselves, but the human interpretation of a signal with no human analogue. The legends are misreadings of something real.
+
+One of them is no longer dormant.
+
+---
+
+## II. Why Now
+
+Three conditions, working together:
+
+**Density.** Eight million people sleeping above the same point in the Psychosphere. The city has reached a concentration of dreaming minds that hasn't existed since the last time a civilization grew this large. The presence has a food source it hasn't had in millennia. It was already stirring when Nia found it. She didn't wake it. She was the first nervous system it had touched in a very long time.
+
+**The Cycle.** These presences bloom. The Architects found records — partial, fragmentary, Lethe-damaged — suggesting this has happened before. Not frequently. Not predictably by any human measure of time. But it has a pattern, and the pattern was due.
+
+The Architects knew something was coming. Whether they understood what it was is a different question.
+
+**The Fragment.** The Eye chained in the Cistern is not a Leviathan. It is a piece of TSG — separated from the larger presence by the Architects in 1887 and held at the surface ever since. TSG has been reaching toward its missing piece for 150 years. The blooming is not only the cycle turning and the city feeding it — it is also a presence trying to become whole. The Cistern sits at the centre of that pull. The crew has been living at the exact point TSG is oriented toward, without knowing why. (See `canon/the_eye.md`)
+
+---
+
+## III. The Mechanism
+
+A presence of this scale reorganizing itself changes the Psychosphere the way a new mass changes a gravitational field. It doesn't attack. It *orients*.
+
+**Ley line currents redirect.** What was distributed flow begins curving toward the source. Drifts that should move with the current stall, or circle, or are pulled off their natural paths.
+
+**Oubliettes drift.** Sealed pockets that have been stable for centuries begin to shift position — drawn toward the presence or pushed away from it depending on their contents and age.
+
+**The Immune System reorients.** The Psychosphere's distributed awareness begins responding to the presence's frequency rather than maintaining its normal function. Zones that used to have consistent character develop strange attractors — repetitive structures, compulsive patterns, experiences that keep circling back to the same moment.
+
+**The processing layer disrupts.** Dreams stop flowing naturally. Experience that should consolidate and sink instead gets caught in the new current. The city's psychic waste backs up. People dream badly, or not at all. The Psychosphere is not broken — it is occupied.
+
+---
+
+## IV. Surface Symptoms
+
+The disruption to the human processing layer bleeds upward.
+
+**The Déjà Vu Plague.** Citizens experience disorienting repetition — the specific feeling of having already lived a moment, sustained for seconds or minutes rather than the usual flash. The temporal distortion comes from something that exists outside linear time exerting its presence on minds calibrated for linear time.
+
+**Behavioral Loops.** Entire city blocks develop attractor patterns — the same sentence spoken twice in a conversation, a walk that keeps returning to the same corner, a decision that cannot be completed. These are not psychological symptoms. They are the collective unconscious pulling toward a new center of gravity.
+
+**Mass Insomnia.** The city cannot sleep well because the Psychosphere is full — not of waste, but of something vast reorganizing itself through the space where sleep should happen. Dreams become strange, oriented, repetitive. People wake exhausted. REM becomes inaccessible.
+
+Suicide rates and fugue states are spiking in districts directly above the presence's densest influence. These are not coincidences.
+
+---
+
+## V. Nia
+
+She tuned into it first. Through the Psyloc-Shard comms, through months of exposure, through some combination of gift and accumulated thinning, she began hearing a frequency no one else could locate. She went into the Deep to find the source.
+
+She found it.
+
+What bonded her to the presence — whether she reached toward it, or it recognized her, or the contact was simply too large to survive intact and walk away from — is not fully known. What is known: she is still there. She is the live wire between the presence and anything that can reach her. She is not dead. She is not free.
+
+Rescuing Nia physically and rescuing Nia as herself may be two different operations. IO does not yet know this.
+
+The crew has two connections to the presence: Nia, who is the live wire in the Deep; and the Eye, which is a literal fragment of it chained in their basement. TSG is not trying to reach the crew. It is trying to reach both of them — and the crew is in the middle without knowing it. Artifacts in the Vault have begun behaving differently in ways that don't yet have an explanation.
+
+---
+
+## VI. The Other Sleepers
+
+This one is not unique. The Silt contains more of them. Most are still dormant. The conditions that caused this one to bloom — density, cycle, contact — may not remain specific to this one location, this one moment.
+
+The crew does not yet know this.
+
+---
+
+## VII. Open Questions
+
+- What is the presence's drive, at the level beneath human interpretation? "Unity" is a human reading of something older — what is the thing underneath?
+- Did it notice Nia, or is she simply lodged in its signal the way debris is caught in a current?
+- Does it have any awareness of the crew? Of the Eye?
+- The Architects found records of previous bloomings. Where are those records now, and what did the Architects plan to do?
+- What ended the previous bloomings? Did the presence return to dormancy, or was it stopped — and if stopped, how?
+- Are the other sleepers connected to each other in any way, or independent aggregations that happen to share a substrate?
+- What happens if the presence fully blooms — if it becomes as active as it was at its last peak? Has anything in the current world survived that before?

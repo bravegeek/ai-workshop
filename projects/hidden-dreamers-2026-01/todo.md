@@ -2,12 +2,28 @@
 
 ## Priority 1 — Prerequisite (do first, unlocks everything)
 
+
+### Nia — Character Note
+She's described as "the Heart of the original team" and given two sentences. She drives IO's entire private mission and is the literal mechanism of the Amber Bleed. She needs to be a ghost worth grieving.
+- Who was she as a person, before the addiction?
+- What made her the Heart — what did she provide that no one else did?
+- What does IO actually miss: the person, or the team she made possible?
+- What was she looking for when she tuned into the Sleeping God? Curiosity, longing, escape?
+- A brief character note is sufficient — not a full document
+
+### Sleeping Giants — The Deeper Cosmology
+Core shape established: primal aggregations in the Silt, too old for personality, predating the architecture that makes motivation legible. Legends are misreadings of their signal. TSG is one of many. The Eye is a fragment of TSG. Remaining:
+- What are these entities beneath the human interpretation? "Unity" is a reading — what is the drive underneath?
+- Which legends are surface traces? Select a few that do narrative work, not a comprehensive list.
+- The other sleepers: still dormant, but the conditions that caused TSG to bloom may not stay specific to this location. Does the crew ever learn this?
+- What ended previous bloomings?
+
 ### Inanimate Characters — Develop Further
-The Eye, the Cistern, and the Vault have been added to `characters.md` as presences/prisoners. The Eye in particular is underwritten given what it actually is — a living god-beast that has been imprisoned since the Victorian era. Open questions to resolve:
-- Does the Eye know what the crew is? Does it distinguish them from the Architects?
-- Does it want anything, or has it been captive long enough that want has transformed into something else?
-- How does the crew's relationship to the Eye change if/when they begin to think of it as a prisoner rather than infrastructure?
+The Eye now has its own document (`canon/the_eye.md`) covering its nature as a TSG fragment, the archive mechanic, and Ren's connection. Remaining open questions:
+- Does the Eye want reintegration, or has 150 years of separation produced something more complicated?
+- Is the Lethe-Light deliberate or ambient — and if deliberate, toward what end?
 - Does the Cistern's "management" of the psychic environment ever feel like *preference* — spaces it allows, states it resists?
+- What does Barnaby know, and why hasn't he said it?
 
 ### The Deep as Character
 The Deep needs interiority before any other world-building is revised. Everything else — zones, ecology, immune response — should feel like it follows from what the Deep *is*, not from a system designed top-down. This is a discussion session, not research.
@@ -17,9 +33,22 @@ The Deep needs interiority before any other world-building is revised. Everythin
 - What was it before human consciousness was dense enough to shape it?
 - Can it have moods, seasons, something beyond Ley Line storms?
 
+### Kaelen — Contradiction
+Kaelen's motivation ("survival and duty") is a type, not a character. Elara and IO both have productive internal tensions. Kaelen needs one.
+- The Indigo Ink binds him to the Deep — he is half-already-there. What does a man in that position want from the surface world?
+- What did "getting too close to the Void" mean specifically, and what did it cost him?
+- What does the Itch pull him toward — and what does he refuse to follow it to?
+- A focused conversation, not a full document
+
 ---
 
 ## Priority 2 — Research & Redesign
+
+### The Antagonist Question
+There is no entity or force in this world making deliberate choices that work against the crew. The Sleeping God is asleep. The Amber Bleed is a symptom. The Whispering Iron is two lines with no function.
+- Does this world have deliberate opposition, or is that a choice being made?
+- If the antagonism is structural rather than agentive (the Psychosphere itself, the consequences of what the crew does), how does that manifest as story pressure?
+- What is the Whispering Iron actually doing? Who or what placed it? What does it want with inner monologues?
 
 ### Zone System
 The current five-band model is too mechanical — a game rulebook, not a lived experience. Requires research before redesign.
@@ -34,6 +63,30 @@ Not every dream, zone, or Oubliette has the same response. The current model imp
 - Oubliettes vs. open Drifts — sealed pocket universe vs. flowing collective memory should differ
 - One entity with local variation, or genuinely different kinds of awareness in different places?
 - What makes some places feel welcoming (Elara's lost Oubliette) vs. hostile?
+
+### Foundational Questions from `psychosphere.md`
+
+**Does the crew know about non-human depth?**
+The existing maps were made by the Architects, who likely never descended far enough to encounter non-human contributions. If the crew doesn't know, the discovery of pre-human layers becomes a major narrative event — not just a new location but a paradigm shift in what they think the Deep is.
+
+**Is the Psychosphere finite?**
+Does it extend only as far as Earth life, or — if consciousness is a fundamental property of information-processing matter — does it connect to something larger? Implications for the Sleeping Giants' nature and origin. If some of them predate Earth life, what does that mean?
+
+### Psyloc — Open Questions (see `canon/psyloc.md`)
+Core document written. Remaining:
+- Is there an optimal thinning level that can be deliberately managed without inevitably progressing?
+- Are the crew thinning themselves through standard Psyloc-Shard comms use?
+- Is the thinning effect known, suspected, or actively suppressed in dreamer circles?
+- At what point does the Eye protocol become inaccessible — too much structural damage to target precisely?
+
+### Architects — History & Legacy
+The Architects are a recurring thread across multiple documents. Needs a dedicated session:
+- What specifically did they discover, and in what order?
+- What did they attempt with oubliettes?
+- Did they have knowledge of non-human depth? Of the sleeping giants?
+- Did they capture the Eye knowing what it was, or did they misunderstand it the same way the crew does?
+- Did they leave anything besides the Cistern — other sites, documents, surviving students?
+- Is Barnaby's connection to their collapse a story to be told, or background?
 
 ---
 
@@ -51,6 +104,7 @@ Core document written. Remaining questions to resolve when stories require them:
 Leviathans, Anglers, Mycelium are archetypes. Make them specific to a world built from collective human experience.
 - What does a creature that evolved *here* actually eat, want, fear?
 - How does each relate to the Amber Bleed crisis?
+- How do they relate to the sleeping giants — prey, parasite, descendant?
 
 ---
 
@@ -61,35 +115,12 @@ Once the above is resolved, restructure around the Method Actor content as the l
 
 ---
 
-## Priority 2 (continued) — Foundational Questions from `psychosphere.md`
+## Stories
 
-### Does the crew know about non-human depth?
-The existing maps were made by the Architects, who likely never descended far enough to encounter non-human contributions. If the crew doesn't know, the discovery of pre-human layers becomes a major narrative event — not just a new location but a paradigm shift in what they think the Deep is.
-
-### Is the Psychosphere finite?
-Does it extend only as far as Earth life, or — if consciousness is a fundamental property of information-processing matter — does it connect to something larger? Implications for the Sleeping God's nature and origin.
-
-### What happens when nothing is dreaming?
-Has the Psychosphere accumulated enough mass over a billion years that it persists independently of active dreaming? Or is it sustained continuously by sleeping life? Relevant to the Amber Bleed crisis: if the Deep becomes too clogged to process sleep, and the city stops sleeping, does the Psychosphere begin to collapse?
-
----
-
-## Priority 2 (continued) — Psyloc Open Questions
-
-### Psyloc — Open Questions (see `canon/psyloc.md`)
-Core document written. Remaining:
-- Is there an optimal thinning level that can be deliberately managed without inevitably progressing?
-- Are the crew thinning themselves through standard Psyloc-Shard comms use?
-- Is the thinning effect known, suspected, or actively suppressed in dreamer circles?
-- At what point does the Eye protocol become inaccessible — too much structural damage to target precisely?
-
-### Architects — History & Legacy
-The Architects are a recurring thread across multiple documents. Needs a dedicated session:
-- What specifically did they discover, and in what order?
-- What did they attempt with oubliettes?
-- Did they have knowledge of non-human depth?
-- Did they leave anything besides the Cistern — other sites, documents, surviving students?
-- Is Barnaby's connection to their collapse a story to be told, or background?
+### Ren — Untitled short story (seed)
+Ren discovers something in the Eye's archive that shouldn't be there — a memory attributed to her, from a dive she never took. Or she finds an Architect memory that reveals what the Eye actually is, and realizes she has been in contact with a fragment of TSG for years without knowing it. The dramatic tension: she is the one person who can navigate the archive, potentially the only one who can communicate with TSG through the fragment — and she's the person who never goes in, who stays dry, whom everyone treats as support. The question the story turns on: does she tell IO? The moment she does, the Eye stops being a relationship and becomes a resource.
+- Setting: almost entirely the Cistern — her station, the instruments, the Eye below
+- No prior world knowledge required from the reader — the cosmology arrives through what she discovers
 
 ---
 
@@ -99,3 +130,7 @@ The Architects are a recurring thread across multiple documents. Needs a dedicat
 - ~~Cistern advantage & world context~~ (see `canon/cistern_advantage.md`)
 - ~~Psychosphere foundation~~ (see `canon/psychosphere.md`)
 - ~~Ghost Storm mechanic~~ (documented in `canon/cistern_advantage.md`)
+- ~~Psyloc core document~~ (see `canon/psyloc.md`)
+- ~~Amber Bleed rewrite~~ → dropped entirely, replaced with The Blooming (see `canon/the_blooming.md`)
+- ~~The Eye — core document~~ (see `canon/the_eye.md`; covers fragment nature, archive mechanic, Ren's connection)
+- ~~Cistern/Vault-TSG connection~~ → resolved: the Eye is the connection; Ren is the interface

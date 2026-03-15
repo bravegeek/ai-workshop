@@ -39,15 +39,16 @@
 
 ### 4. Ren - "The Cartographer"
 *   **Role:** Operator / Mapmaker. Dry-side only.
-*   **Archetype:** The one who knows the territory best and has never set foot in it.
+*   **Archetype:** The one who knows the territory best and has never set foot in it — or thinks she hasn't.
 *   **Visuals:** Ink-stained fingers. Surrounded by large-format charts pinned to every surface of her station. Speaks in precise, clipped sentences on comms.
 *   **Motivations:** **Legibility**. She wants to make the Deep knowable — to build a map accurate enough that the next expedition doesn't have to discover everything from scratch.
-*   **Backstory:** She tried to dive once. Past Zone 2, she began losing the boundary between her own memories and the Silt's — came back unsure which of her childhood recollections were hers. It took weeks to stabilize. She won't try again. She stays dry and works the instruments.
-*   **The Maps:** She draws from crew debriefs, instrument readings, and Psyloc-fed impressions. Her charts are the project's real product — dense, annotated, occasionally beautiful. She sometimes identifies patterns in the data that the divers, who were inside the experience, couldn't see from within it.
-*   **Tension:** She understands the Deep better in theory than anyone on the crew, and has no felt sense of it whatsoever. She is the most rational voice in the room about a place that defeats rationality.
+*   **Backstory:** She tried to dive once. Past Zone 2, she began losing the boundary between her own memories and the Silt's — came back unsure which of her childhood recollections were hers. It took weeks to stabilize. She won't try again. She stays dry and works the instruments. What she has not understood: her failure was epistemic, not emotional. Her mind works by categorizing and source-attributing information. Undifferentiated psychic flow is specifically what she cannot survive. The Eye provides indexed input — Psychosphere material tagged by source, origin, attribution. Her mind can process that. She has been experiencing the Deep through the Eye's perception for years without knowing it.
+*   **The Maps:** She draws from crew debriefs, instrument readings, and what she believes is pattern recognition. Some of it is. Some of it is direct perception of indexed material the Eye feeds her — pre-sorted, pre-attributed, cleaner than anything a diver returns with. Her maps are more accurate than they should be. She attributes this to rigor.
+*   **Tension:** She understands the Deep better than anyone on the crew, including the divers who have been inside it. She is the most rational voice in the room about a place that defeats rationality — and her rationality is partly downstream of a connection to an ancient fragment of a sleeping god that she does not know she has.
+*   **The Archive:** The Eye holds a record of her — every session at the instruments, her pattern recognition, her discarded notes. She is indexed in there alongside the Architects. (See `canon/the_eye.md`)
 *   **Capabilities:**
     *   **The Soundboard:** Monitors Script Stability for active divers (waveform on CRT — smooth is in-character, jagged is dissonance). Feeds Emotional Keyframes through the Psyloc-Link when language fails in Zone 3+.
-    *   **Narrative Extraction:** Hacks the dream environment to spawn a contextually plausible exit — a door, a phone ringing, an airlock — when divers need to surface safely.
+    *   **Narrative Extraction:** Can identify contextually plausible exit conditions in the dream environment — a door, a phone ringing — that divers can use to surface safely.
     *   **The Hum:** Reads the Cistern's passive antenna feed to identify nearby Drifts by genre frequency before a dive.
 
 ---
@@ -90,14 +91,12 @@
 ## IV. The Anomalies
 
 ### 1. The Sleeping God (The Unbroken Tongue)
-*   **Nature:** An ancient Archetype of **Unity** and **Truth**.
-*   **Status:** Slumbering in the Bedrock of the Deep.
-*   **Influence:**
-    *   **The Tides:** Its REM cycle controls the danger level of the Deep.
-    *   **The Amber:** Its dreams (filtered through Nia) turn reality into glass.
-    *   **Motivation:** It wants to end the "Separation" (Secrets/Lies) between minds.
+*   **Nature:** One of many ancient presences in the Silt — aggregations of primal drive that accumulated over geological time. Not a personality. Something older than the neural architecture that makes personality possible. Humans felt its edges during sleep and built legends around what they felt. The legends are misreadings of a signal with no human analogue.
+*   **Status:** Blooming. It was dormant. It is no longer. (See `canon/the_blooming.md`)
+*   **What it is, underneath:** Unknown. "Unity" is a human interpretation of something more fundamental — the impulse to dissolve boundary, to merge, to end separation between things. Whether it has any awareness of the crew, of Nia, of what it is doing to the Psychosphere is an open question.
+*   **Nia's role:** She tuned into its frequency first and went to find the source. She is now the live wire between the presence and anything that can reach her.
 
 ### 2. The Whispering Iron (The Network)
-*   **Nature:** A decentralized surveillance network of "Psychic Bugs."
-*   **Origin:** Unknown to the crew (suspected Anomaly).
-*   **Function:** Records inner monologues. Appearing in high numbers near Amber zones.
+*   **Nature:** A decentralized network of psychic recording devices — small, embedded, easy to miss.
+*   **Origin:** Unknown to the crew.
+*   **Function:** Records inner monologues. Found in increasing numbers in zones where the Blooming's influence is strongest. Whether this is coincidence, opportunism, or design is unclear.
