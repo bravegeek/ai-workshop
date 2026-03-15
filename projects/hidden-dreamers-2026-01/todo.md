@@ -31,13 +31,8 @@ The Eye now has its own document (`canon/the_eye.md`) covering its nature as a T
 - Does the Cistern's "management" of the psychic environment ever feel like *preference* — spaces it allows, states it resists?
 - What does Barnaby know, and why hasn't he said it?
 
-### The Deep as Character
-The Deep needs interiority before any other world-building is revised. Everything else — zones, ecology, immune response — should feel like it follows from what the Deep *is*, not from a system designed top-down. This is a discussion session, not research.
-- What does the Deep want, if anything? Neutral, indifferent, curious, hungry?
-- How does it respond to the Amber Bleed — not ecologically but *tonally*?
-- What is its relationship to the city above? Does it know the surface exists?
-- What was it before human consciousness was dense enough to shape it?
-- Can it have moods, seasons, something beyond Ley Line storms?
+~~### The Deep as Character~~ ✓ see `canon/psychosphere.md` Section VII
+The Deep has culture, not personality. The Immune System is a cultural immune response, not a defense mechanism. Zones follow evolutionary timescales. The Blooming is cultural disruption at the root. The crew deposits as well as extracts.
 
 ~~### Kaelen — Contradiction~~ ✓ see characters.md
 
@@ -50,6 +45,14 @@ The Deep needs interiority before any other world-building is revised. Everythin
 ### The Antagonist Question
 Resolved as man vs. nature: the antagonism is structural, not agentive. The Blooming is not malicious. The Psychosphere is not hostile. The crew's choices create the pressure. The human antagonist question (see `scratchpad/whispering_iron.md`) is shelved for a different story.
 - Remaining: how does structural antagonism manifest as *story pressure* scene by scene? What does the crew push against when nothing is pushing back?
+
+### Clan Traditions & The Deep
+*Unlocked by: Deep as Character session.* Different traditions reveal different facets of the Deep — the system can't be designed until the Deep has interiority. Develop traditions in response to gaps in what the current crew can perceive, not as a top-down catalogue.
+- What aspects of the Deep are currently dark to Elara, Kaelen, and IO's stances?
+- What stance would unlock each dark area? Work backward from the gap to the tradition.
+- Known stances: Belong (Elara), Declare (Kaelen), Impose (IO/Architects), Become (Method Actor — orphaned, no clan)
+- Elara and Kaelen's traditions are altruistic; others will not be. Predatory/extractive traditions still work — the Deep responds to stance, not ethics.
+- Introduce traditions through story as needed; resist designing the full ecosystem speculatively.
 
 ### Zone System
 The current five-band model is too mechanical — a game rulebook, not a lived experience. Requires research before redesign.
@@ -81,13 +84,14 @@ Core document written. Remaining:
 - At what point does the Eye protocol become inaccessible — too much structural damage to target precisely?
 
 ### Architects — History & Legacy
-Core framing established: they were not ignorant. They captured the Eye knowing the previous blooming had happened, believing separation of the fragment would prevent the next one. Wrong call, full knowledge. Needs a dedicated session:
+Core framing established: they were not ignorant, not reckless — they were good at this. Years of productive, careful work before 1887. The Psyloc dysregulation was accumulating slowly the whole time, undetectable without instruments they didn't have. Then they captured the Eye fragment — a calculated decision, believed to prevent the next blooming. They had no way to know Lethe-Light would interact catastrophically with years of Psyloc dysregulation. The dissolution was progressive. They kept working as long as they could. Some of what they built — the heptagonal geometry, the tools, the Cistern — was constructed while they were already losing ground. They built something that outlasted them without knowing it would have to. Needs a dedicated session:
 - What specifically did they discover, and in what order?
 - What did they attempt with oubliettes?
 - Did they have knowledge of non-human depth? Of the sleeping giants beyond TSG?
 - Did they leave anything besides the Cistern — other sites, documents, surviving students?
 - Is Barnaby's connection to their collapse a story to be told, or background?
 - What does Ren find in the Architect experience (not notes) that changes what the crew knows?
+- The crew is the Architects' echo: same Psyloc exposure, same Lethe-Light proximity, safety protocols that work without anyone understanding the full mechanism. How close are they to the same edge?
 
 ---
 
@@ -143,6 +147,27 @@ The crew discovers the Eye is a fragment of TSG (through Ren's archive discovery
 - **IO's arc:** The rescue mission collapses — not because it failed but because it was the wrong shape for what actually happened. Nia's signal crystallizes the clarity she's been circling. She makes the choice knowing it doesn't save Nia back to something she can hold.
 - **Nia's ending:** She disperses into the Psychosphere after reintegration. Not a casualty — she was already gone, and already home. IO has to grieve someone who left on purpose and was fine.
 - **After:** The Vault collapses. The operation is gone. Ren still has her connection to TSG whole. What that becomes is the open question.
+
+### IO — Childhood & Education
+IO is European. Origin TBD. Her path to Budapest and the Institute follows the hint trail (see prequel seed below) — she could have grown up anywhere, studied anywhere. Her old money background and the social circles she came from are established; the specific national/cultural origin is open. Resolve when writing the prequel.
+
+### IO — The Aethelgard Prequel (seed)
+IO's origin story. The trail of hints that leads her to the Institute, the Eye, and eventually the absence of Nia. Dramatic irony throughout: the precision and intelligence IO trusts most are the tools she uses to walk herself into exactly what her ancestors built and lost.
+
+**Structure:**
+- **The first hint** — childhood. A locked room, a document she's too young to understand but old enough to remember, a relative who says something they shouldn't. Filed away.
+- **The academic thread** — IO the neuro-chemist follows the Psyloc-Shards down a research path she believes is original. She finds Victorian predecessors. The work stops abruptly in the late 1880s. The authors share her surname.
+- **The building** — found through estate records. A property the family has been maintaining for generations without entering. She goes in expecting a curiosity. She finds the Architect records, the pool, the Eye.
+- **The slow understanding** — not all at once. Each discovery is a hint leading to the next. She thinks she's uncovering history. She's inheriting a problem.
+- **Nia** — drawn in as the operation takes shape. The prequel ends with Nia gone and IO converting grief into mission. The main story begins the morning after.
+
+**Open questions for the prequel:**
+- What is the first hint specifically — childhood memory or adult discovery?
+- How much did the family know? Were there instructions, warnings, or deliberate suppression?
+- When and how does Nia enter the operation?
+- Was Nia's exposure to Psyloc gradual or a specific event IO can point to?
+- Does IO discover the Lethe-Light/Psyloc interaction before or after Nia is lost?
+- Barnaby's reveal — does it happen in the prequel or the main story?
 
 ### Ren — Untitled short story (seed)
 Ren discovers something in the Eye's archive that shouldn't be there — a memory attributed to her, from a dive she never took. Or she finds an Architect memory that reveals what the Eye actually is, and realizes she has been in contact with a fragment of TSG for years without knowing it. The dramatic tension: she is the one person who can navigate the archive, potentially the only one who can communicate with TSG through the fragment — and she's the person who never goes in, who stays dry, whom everyone treats as support. The question the story turns on: does she tell IO? The moment she does, the Eye stops being a relationship and becomes a resource.

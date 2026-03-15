@@ -69,7 +69,7 @@ These run at timescales that make human impatience dangerous. Plant-origin zones
 
 ## V. The Mycelium Recontextualized
 
-The Mycelium (currently mapped as "a fungal network connecting disparate fears") requires reassessment.
+The Mycelium (crew designation: **The Creep** — named for the sensation of boundaries becoming unreliable before any visual cue) requires reassessment.
 
 It has been in the Psychosphere for approximately 400 million years. It predates animals. It may be the underlying infrastructure through which other contributions flow — the original network before there was anything complex enough to dream.
 
@@ -94,7 +94,45 @@ The Mnemosyne-Current (already documented) is likely episodic/semantic — riche
 
 ---
 
-## VII. Open Questions
+## VII. The Deep as Culture
+
+The Deep does not have personality or intention. It has something more useful for storytelling: **culture** — the accumulated character that emerges when enough entities share an environment long enough. Culture doesn't require awareness. It requires density and time. The Deep has both.
+
+### What Culture Means Here
+
+Culture isn't decided. It emerges. A city develops a pace, a tolerance, a set of unstated rules about how space is used and who belongs in it — not because anyone designed it, but because enough people behaved the same way for long enough that the behavior became the environment. The Deep operates the same way. A billion years of accumulated living experience has shaped it into something with characteristic tendencies: ways it responds, patterns it falls into, things it resists and things it amplifies.
+
+This reframes the Immune System entirely. It is not a defense mechanism. It is a **cultural immune response** — the Deep proceeding according to its own accumulated character, and the diver being visibly, persistently *wrong*. Not detected. Just off.
+
+The tourist in New York isn't attacked. They're just wrong in a hundred small ways — the pace, the sidewalk etiquette, the eye contact. The city doesn't reject them. It proceeds as if they're not quite real, and the friction accumulates. That is the Immune System. The doors that lock, the NPCs who become hostile, the weather that turns — none of that is aimed at the diver. It's the Deep continuing to be itself around someone who doesn't fit.
+
+### What This Means for the Crew
+
+**Method Acting is acculturation, not camouflage.** The diver who tunes their emotional state to match the environment isn't fooling anything. They're temporarily learning to move like a local. The performance works not because it deceives but because it briefly makes the diver culturally legible.
+
+**Elara belongs.** Her tradition shaped her into something the Deep's culture recognizes. She doesn't perform. She fits. The Deep doesn't notice her the way it doesn't notice its own residents — not because she's invisible but because she generates no friction.
+
+**Kaelen has standing.** The Indigo Ink doesn't grant access — it marks him as someone the culture has a category for. Not a resident. A known visitor with recognized business. The Deep uses the category the clan gave him.
+
+**IO is always a tourist.** Her Translation Scripts are technically correct and visibly foreign. She moves through the Deep like someone who learned it from a guidebook. This is not a failure — she gets where she's going. But she will never stop generating friction.
+
+### Regional and Historical Character
+
+The Deep has **regional character.** The Psychosphere beneath this city is shaped by its specific contributors — unusually human-dense, unusually recent, unusually loud with narrative and grief and ambition. The Deep beneath a forest, a battlefield, an ocean is the same network shaped by radically different experience. What the crew knows is one cultural expression of the Psychosphere.
+
+The Deep has **historical character.** The Plague years left something. The Industrial Revolution left something. The specific texture of a city that has buried its children in waves — that accumulates as cultural sediment. Not as individual memories but as characteristic tendency. The way a neighborhood has a feeling that persists long after the people who made it are gone.
+
+**The crew deposits as well as extracts.** Every dive contributes emotional material to the Deep's culture. Every artifact removed leaves a gap. Elara's discomfort is made precise by this: the operation doesn't just take. It shapes the Deep, slowly, in the direction of whatever the crew brings in.
+
+### The Blooming as Cultural Disruption
+
+TSG stirring is not a mechanical disruption to Ley line flow. It is something ancient and enormous asserting a tendency that predates the Deep's accumulated culture entirely. The layers above it are being reorganized around a presence that has no relationship to anything that shaped them. The Deep's culture is being overwritten at the root.
+
+From the Silt's perspective — if perspective is even the right word — the Blooming is not an event. It is the beginning of a very long note.
+
+---
+
+## VIII. Open Questions
 
 ### Psyloc in Dreamer Circles
 IO discovered Psyloc independently — it is not a difficult observation for the gifted. Harvesting it is known practice in Level 2 dreamer circles. What IO contributed was *application*: the communications technology, the comms integration, the understanding of resonance properties. The substance itself is not secret. The crew's advantage is not knowledge monopoly — it is depth. Shallow Psyloc is available to anyone who can reach Zone 1–2. The crew's deep-harvested product is categorically more potent and more precise than anything a surface practitioner can obtain.

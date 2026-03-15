@@ -1,9 +1,12 @@
 # Hidden Dreamers: Locations
 
-## I. Reality: The Lantern Crew HQ (The Abyssal Cistern)
+## I. Reality: The Lantern Crew HQ (The Aethelgard Institute)
 
 ### 1. Overview
-*   **Location:** Buried 150m deep in the city's bedrock.
+*   **Location:** Budapest. Buda side, built into the hillside above the thermal cave system. The Institute sits on a Ley line confluence — a natural intersection where the barrier between the waking world and the Psychosphere is thin. This is why the site has been used continuously since Roman times: the Romans built baths here, the Ottomans built a hammam, the Architects built the Institute. Each civilization noticed the same thing and built their relationship to it differently. The Architects were the last and the most sophisticated, and they made the worst decision.
+*   **The Building:** Purpose-built by the Architects in the 1880s during the Austro-Hungarian golden age. From the street it presents as a private learned society — a brass plaque, serious Victorian-adjacent architecture, the kind of institution that announces serious people doing serious work without inviting inspection. The underground component is far larger than the surface suggests.
+*   **The Cistern:** The heptagonal pool at the Institute's core sits directly above the thermal cave system. The water is geothermally sourced — rising from deep underground, warm, mineral-rich, continuous. The Architects didn't install a pool. They built around a spring that was already there.
+*   **The Underworks:** The formal designation for the entire underground complex — what appears on the Architects' original plans, what's carved into the lintel above the elevator shaft. Contains the Heptagonal Antechamber, the Cistern, the Vault, the Dive Room, the catwalks, and all operational infrastructure. The crew calls it **the Workings** or **the Works**. Characters who are home use the short version. Characters creating distance use the full name.
 *   **Concept:** A "Failed Victorian Dream-Engine." The architecture represents an attempt by 19th-century occultists to bridge the gap between industrial order and esoteric power.
 *   **Symbolism (The Clock & The Spell):**
     *   The tension between the **12 sides** of the room and the **7 sides** of the pit reflects the struggle to "Clock" the chaotic nature of dreams into a predictable machine.
@@ -52,27 +55,43 @@
 
 ---
 
-## II. HQ Access: The Alchemical Threshold
+## II. HQ Access: The Entry Sequence
 
-### 1. The Entrance (B4 Surface Façade)
-*   **Location:** Fourth sub-basement (B4) of a nondescript commercial building.
-*   **Appearance:** A dusty, neglected storage area filled with outdated office furniture and rusted ventilation units.
-*   **The Transition:** A set of heavy, industrial non-descript doors leads to a clean, pressurized hallway. This serves as a "Decontamination" zone to keep surface grit from the sensitive 300m shaft.
+### Design Philosophy
+The Architects built security from the bottom up. The upper layers filter out obvious threats. The real security is at the bottom, where they had complete control. A sophisticated threat — an entity that passed the upper checks, a compromised diver who genuinely belongs — descends believing it has won. It arrives in a room designed to catch it. The trap works because it looks like an arrival point. Legitimate visitors experience the Antechamber as welcoming. You only experience it as a trap if you're what it was built to catch.
 
-### 2. The Shaft (The Octagon)
-*   **Shape:** **Octagonal (8-Sided)**.
+### 1. The Institute (Surface)
+The building elevator serves the above-ground floors and basement normally. Nothing unusual.
+
+### 2. The Basement — First Check (The Radio)
+Psyloc-Shard based signature verification. Not a password — a psychic check. Something a prepared intruder could fake. Not the real security. Filters the obvious.
+
+### 3. The Filing Cabinet Door
+A concealed entrance in the sub-basement. Beyond it, the surface world ends.
+
+### 4. The Preparation Room
+A small spartan space belonging to neither world. A bench, hooks for surface-world items, a brass intercom to the Workings. Where you leave what doesn't go down. The crew moves through it without ceremony. First-time visitors feel the weight of the threshold.
+
+### 5. The Stone Passage
+Ten meters of raw geology. Building materials end at the preparation room door. Beyond: rock, temperature climbing, humidity rising, the thermal cave system announcing itself. By the end the Institute is completely gone.
+
+### 6. The Plumb Platform
+The formal name for the deep elevator system is **The Plumb** — what appears on the Architects' original plans, carved into the lintel above the platform. The crew calls it **the Cage** (after the elevator car itself) or just **the Lift**.
+
+### 7. The Shaft
+*   **Shape:** Octagonal (8-sided). In occult tradition the octagon bridges the square (earth, material) and the circle (spirit, infinite) — the geometry of squaring the circle.
 *   **Depth:** 300 meters.
-*   **Symbolism (The Gate):** In occult tradition, the Octagon represents the bridge between the **Square** (Earth/Material) and the **Circle** (Spirit/Infinite). It is the geometry of "Squaring the Circle."
-*   **Architecture:** The shaft walls are lined with polished stone and brass vertical channels. A massive stairway wraps the circumference of the shaft, cantilevered from the ridges of the octagon.
-*   **Atmosphere:** Looking down, the shaft feels like a vertical foyer. The 300m drop is up-lit, highlighting the architectural precision.
+*   **Architecture:** Shaft walls lined with polished stone and brass vertical channels. A massive stairway wraps the full circumference, cantilevered from the ridges of the octagon — for maintenance, for emergencies, and for those who prefer to arrive having earned it.
+*   **Atmosphere:** Looking down from the platform, the shaft reads as a vertical foyer. The 300m drop is up-lit, the architectural precision visible all the way to the bottom.
 
-### 3. The Elevator (The Transforming Cage)
-*   **Concept:** A dual-purpose vessel that shifts geometry based on the "Class" of the descent.
-*   **Mechanism (Squaring the Circle):**
-    *   **Luxury Mode (The Circle):** For patrons and core crew. The floor segments retract to form a perfect, opulent circle. The interior is finished in dark wood, velvet, and warm brass. It feels isolated from the "Industrial" shaft outside.
-    *   **Freight Mode (The Octagon):** For hauling Silt or heavy gear. The curved wall panels slide back, and floor segments unfold to fill the entire octagonal footprint of the shaft. 
-    *   **Logic:** Pallets and mining equipment are rectangular; the octagon maximizes floor space and locks into the heavy-load guide rails for stability.
-*   **Psychic Significance:** The transition from Circle to Octagon is a physical manifestation of "breaking the dream" to deal with the "raw matter" of the Deep.
+### 8. The Cage (The Elevator Car)
+*   **Concept:** A dual-purpose vessel. Shifts geometry based on what is being carried.
+*   **Passenger Mode (The Circle):** Floor segments retract to form a perfect circle. Interior finished in dark wood, velvet, warm brass. Feels isolated from the industrial shaft outside. For crew and guests.
+*   **Freight Mode (The Octagon):** Curved wall panels slide back, floor segments unfold to fill the full octagonal footprint of the shaft. For hauling gear, artifacts, equipment from the Deep. The rectangle of a pallet locks cleanly into the octagonal floor.
+*   **The transition from Circle to Octagon:** a physical manifestation of shifting between the human and the operational. The crew barely notices it. First-timers always do.
+
+### 9. The Heptagonal Antechamber — The Real Security
+The Plumb delivers you directly into the Antechamber. Not past it — into it. Intentional. The Pale Lens sweeps from its brass pedestal. If you fit, the far door opens. If the Lens flags something, the Mechanical Lock engages: the Plumb does not move, the far door does not open. The thing that was flagged is now in a heptagonal space with collapsing-obsession acoustics and no exit. See `canon/technology.md`.
 
 ### 4. Security Protocols
 

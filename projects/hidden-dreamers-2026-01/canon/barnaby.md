@@ -76,6 +76,17 @@ Does polymorphic shifting affect his consciousness?
 - Are his memories of the Architects clear or degraded?
 - Does he remember their names, faces, or just feelings?
 
+### What Barnaby Knows
+Barnaby witnessed the full arc — the competent years and the dissolution. He knew the Architects before the Eye fragment arrived: careful, skilled practitioners doing real work. He watched what the Lethe-Light/Psyloc combination did to them over time. He doesn't have the language or the mechanism, but he has the before and after.
+
+This is what his silence carries. Not just grief for people he loved — but knowledge of what they were capable of before the variable they couldn't account for was introduced. He has watched one crew of Psyloc users live with the Eye. He is now watching another. Whether he understands the risk well enough to act on it, or whether he simply carries it as dread he can't articulate, is an open question.
+
+The todo entry asks: *what does Barnaby know, and why hasn't he said it?* Possible answers:
+- He doesn't have the conceptual framework to communicate it — he experienced it, he didn't understand it
+- He tried, in the early days with the crew, and wasn't understood
+- He's waiting to see if this crew makes the same choice (capturing the Eye was the trigger — the Eye is already here, so the question is whether they'll make it worse)
+- Some part of him doesn't want to know the answer
+
 ### The Trap Mystery
 How and why was Barnaby trapped in an artifact?
 - Deliberate preservation by his owner?

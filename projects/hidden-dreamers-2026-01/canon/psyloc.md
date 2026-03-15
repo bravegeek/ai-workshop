@@ -93,6 +93,8 @@ If thinning is structural neuroplasticity, the Lethe-Light offers a potential Ph
 
 Not palliative. Potentially curative for the structural component.
 
+**Critical constraint: Lethe-Light only affects people with Psyloc dysregulation.** The Light targets active, dysregulated epigenetic expression of the Psychosphere connection sequences. Without Psyloc dysregulation, those sequences run at baseline — too quiet for the Light to get purchase on. This is why the Eye Protocol works as a treatment (it hits exactly what Psyloc altered) and why the Architects died (years of Psyloc dysregulation made them vulnerable to the Light they were living with). Someone who has never used Psyloc can look at the Eye with significantly reduced risk. The danger is the combination, not the Light alone.
+
 ### The Procedure
 - Patient actively holds the target experience in mind while approaching the Eye
 - The Light preferentially bleaches what is most active
