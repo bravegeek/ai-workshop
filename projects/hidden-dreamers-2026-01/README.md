@@ -15,7 +15,7 @@ Locked or near-locked decisions about how the world works.
 | `psychosphere.md` | The Psychosphere — what it is, zones, the Deep as culture |
 | `the_eye.md` | The Eye — TSG fragment, archive mechanic, Ren's connection |
 | `the_blooming.md` | TSG waking — what it is, what it does, what it means |
-| `locations.md` | The Aethelgard Institute, the Underworks, the Deep biomes |
+| `locations.md` | The Mordaunt Institute, the Underworks, the Deep biomes |
 | `mechanics.md` | Dive mechanics — Method Actor, Narrative Capture, Immune System |
 | `technology.md` | Gear, artifacts, tools |
 | `psyloc.md` | Psyloc — the substance, the mechanism, Lethe-Light interaction |
@@ -29,7 +29,7 @@ Arc structure, character arcs, story seeds.
 |------|----------|
 | `arc1.md` | Main arc shape, hooks, character arcs, resolution |
 | `arc2.md` | Second arc — rebuild, healing, Budapest aftermath, hooks |
-| `io_prequel.md` | Aethelgard origin story seed and open questions |
+| `io_prequel.md` | Mordaunt origin story seed and open questions |
 | `ren_story.md` | Ren short story seed |
 | `voices.md` | Character voice reference — salvaged passages with the right register |
 

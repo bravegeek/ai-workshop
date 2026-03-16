@@ -1,4 +1,4 @@
-# IO — Proctor IO (Isolde Aethelgard) — "The Vector"
+# IO — Proctor IO (Isolde Mordaunt) — "The Vector"
 
 **Role:** Cartographer / Techno-Mage / Team Architect
 **Archetype:** The Clinical Operator. She hides her wounds behind precision and glass.
@@ -11,11 +11,19 @@
 
 ## Backstory
 
-A brilliant neuro-chemist who "discovered" the Psyloc-Shards (Indigo Fungus) — though how much of that discovery was original research and how much was following a path her ancestors already walked is an open question. She grew up with a famous name and no money. The Aethelgard name opened doors — schools, circles, dinner tables — but she was performing membership rather than holding it, and she knew it early. The money had been gone for generations, the education paid for by reputation alone, and the people she sat next to never noticed the difference because she made sure they didn't.
+A brilliant neuro-chemist who "discovered" the Psyloc-Shards (Indigo Fungus) — though how much of that discovery was original research and how much was following a path her ancestors already walked is an open question. She grew up with a famous name and no money. The Mordaunt name opened doors — schools, circles, dinner tables — but she was performing membership rather than holding it, and she knew it early. The money had been gone for generations, the education paid for by reputation alone, and the people she sat next to never noticed the difference because she made sure they didn't.
+
+## The Name
+
+*Mordaunt* — from Norman French *mordant*: biting, cutting, corrosive. Also a chemical term: the fixative that makes pigment or acid bond permanently to a surface. The substance that makes things impossible to remove. A family whose defining tragedy is about memory being dissolved and then archived carries a name that means the thing that makes things permanent.
+
+The historical Mordaunts were a minor English noble family ruined by the 1870 divorce scandal — dragged into something they couldn't control, their reputation used and discarded by people with more social gravity. The pattern repeats. IO's branch of the family was destroyed by the same mechanism a decade later: the establishment protecting itself, a plausible family sacrificed to the accounting.
+
+The name opened doors. It also marked them.
 
 ## The Stolen Inheritance
 
-The Aethelgard fortune didn't dry up — it was taken. The family was scapegoated, positioned as the responsible party in something they didn't cause, by people with enough power to arrange the accounting and enough social gravity to make it stick. The Aethelgards were chosen because they were plausible, isolated, and carried a faintly strange reputation that made them easy to believe the worst of. IO found the evidence in the estate records when she found the Institute. The animosity isn't diffuse class resentment. It's specific, documented, and personal.
+The Mordaunt fortune didn't dry up — it was taken. The family was scapegoated, positioned as the responsible party in something they didn't cause, by people with enough power to arrange the accounting and enough social gravity to make it stick. The Mordaunts were chosen because they were plausible, isolated, and carried a faintly strange reputation that made them easy to believe the worst of. IO found the evidence in the estate records when she found the Institute. The animosity isn't diffuse class resentment. It's specific, documented, and personal.
 
 **The deeper irony:** The Architects were scapegoated because they *knew something* — a secret extracted from the Deep that was dangerous to whoever destroyed them. But the Lethe-Light was already dissolving their memories before the persecution even landed. They were silenced for knowledge they were already losing. And the Lethe-Light didn't destroy those memories — it archived them. What the family was destroyed to suppress has been sitting in the Eye intact for 150 years, indexed and attributed, waiting. IO doesn't know this is recoverable. The recovery happens through Ren, after reintegration, through the Eye that destroyed the Architects in the first place. IO gets what she was looking for. She just doesn't get to be the one who finds it.
 

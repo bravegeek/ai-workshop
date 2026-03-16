@@ -1,6 +1,6 @@
 # Hidden Dreamers: Locations
 
-## I. Reality: The Lantern Crew HQ (The Aethelgard Institute)
+## I. Reality: The Lantern Crew HQ (The Mordaunt Institute)
 
 ### 1. Overview
 *   **Location:** Budapest. Buda side, built into the hillside above the thermal cave system. The Institute sits on a Ley line confluence — a natural intersection where the barrier between the waking world and the Psychosphere is thin. This is why the site has been used continuously since Roman times: the Romans built baths here, the Ottomans built a hammam, the Architects built the Institute. Each civilization noticed the same thing and built their relationship to it differently. The Architects were the last and the most sophisticated, and they made the worst decision.

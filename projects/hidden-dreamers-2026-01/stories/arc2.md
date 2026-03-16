@@ -24,7 +24,7 @@ The Cistern building. The heptagonal pool. The Tuning Forks. A large Psyloc stoc
 
 **The recontextualizing revelation** — the pre-Eye Vault audit surfaces what the Architects actually knew. The Architects captured the Eye *knowing* a previous blooming had happened, believing separation would prevent the next one. They were wrong with full knowledge. This changes what the arc 1 choice meant: the reintegration was right *and* more costly than the crew understood.
 
-**Institutional antagonist** — the leapfrog has competitive consequences. Whoever benefited from destroying the Aethelgards has been watching the Institute for 150 years. A crew that surpasses the Architects becomes interesting again. Arc 2's external threat is human and institutional, not supernatural. Doesn't contaminate the healing theme — threat comes from outside, healing happens inside.
+**Institutional antagonist** — the leapfrog has competitive consequences. Whoever benefited from destroying the Mordaunts has been watching the Institute for 150 years. A crew that surpasses the Architects becomes interesting again. Arc 2's external threat is human and institutional, not supernatural. Doesn't contaminate the healing theme — threat comes from outside, healing happens inside.
 
 ---
 

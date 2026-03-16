@@ -1,4 +1,4 @@
-# IO — The Aethelgard Prequel (Seed)
+# IO — The Mordaunt Prequel (Seed)
 
 IO's origin story. The trail of hints that leads her to the Institute, the Eye, and eventually the absence of Nia. Dramatic irony throughout: the precision and intelligence IO trusts most are the tools she uses to walk herself into exactly what her ancestors built and lost.
 

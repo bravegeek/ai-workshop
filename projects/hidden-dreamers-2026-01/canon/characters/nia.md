@@ -1,4 +1,4 @@
-# Nia Aethelgard — "The Pilot Fish"
+# Nia Mordaunt — "The Pilot Fish"
 
 **Status:** Not missing. Gone. There is a difference.
 **Role:** IO's younger sister. The emotional centre of the original team — the one who made the others want to come back up. Not because she was warm, exactly, but because she was *present* in a way that made presence feel like enough.

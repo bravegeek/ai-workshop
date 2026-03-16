@@ -1,6 +1,6 @@
 # Hidden Dreamers: Technology & Artifacts
 
-## I. The Aethelgard Tech (Bio-Crystalline)
+## I. The Mordaunt Tech (Bio-Crystalline)
 
 ### 1. The Psyloc-Shards (The Comms)
 *   **Origin:** Derived from the **Indigo Fungus (Psyloc-V)**, a rare deep-dream organism. When extracted to reality via the Crucible, it petrifies into a "Living Crystal."
