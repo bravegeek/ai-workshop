@@ -1,8 +1,10 @@
-# Hidden Dreamers: The Cistern Advantage
+# Hidden Dreamers: World Context
 
-## The Short Version
+*Note: The operational advantage sections (I–V, VII) reflect the pre-reintegration state. The Eye is gone; the monopoly, depth access, and Orrery no longer exist. The world context sections (VI) remain current canon.*
 
-The crew has a fortress with a god chained in the basement. The fortress is extraordinary. The chain is the question.
+## The Short Version (Pre-Reintegration)
+
+The crew had a fortress with a god chained in the basement. The fortress was extraordinary. The chain was the question.
 
 ---
 

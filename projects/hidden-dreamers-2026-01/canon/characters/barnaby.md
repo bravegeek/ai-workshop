@@ -87,6 +87,13 @@ The todo entry asks: *what does Barnaby know, and why hasn't he said it?* Possib
 - He's waiting to see if this crew makes the same choice (capturing the Eye was the trigger — the Eye is already here, so the question is whether they'll make it worse)
 - Some part of him doesn't want to know the answer
 
+### Barnaby as Pre-Eye Index
+Barnaby is the only living record of what the Vault contained before 1887 — which artifacts predate the Eye, which were developed after, and how the practice changed when the logic field came online. The Architects' pre-Eye knowledge is the least documented layer in the Vault precisely because it was assumed: by the time anyone was writing things down comprehensively, the Eye had already transformed everything. Nobody wrote down what everyone already knew.
+
+In the second arc, this makes Barnaby more valuable than he's been in decades. IO and Ren are trying to find the pre-Eye layer of the Vault — artifacts that work at root level, without logic field support — as the foundation for rebuilding. Barnaby knows which ones are which. He knows what the Architects could do before the Eye changed the terms.
+
+Whether he knows this is what the crew needs, and whether he has the means to communicate it, is part of his second arc role.
+
 ### The Trap Mystery
 How and why was Barnaby trapped in an artifact?
 - Deliberate preservation by his owner?

@@ -42,7 +42,8 @@ The Eye now has its own document (`canon/the_eye.md`) covering its nature as a T
 - Does the Eye want reintegration, or has 150 years of separation produced something more complicated?
 - Is the Lethe-Light deliberate or ambient — and if deliberate, toward what end?
 - Does the Cistern's "management" of the psychic environment ever feel like *preference* — spaces it allows, states it resists?
-- What does Barnaby know, and why hasn't he said it?
+- What does Barnaby know, and why hasn't he said it? **New angle:** Barnaby is the only living index of the pre-Eye Vault — he knows which artifacts predate 1887, how the practice worked before the logic field, what the Architects could do before the Eye transformed everything. This is the foundation IO and Ren need for the second arc rebuild. Does he know this is what they need? Can he communicate it? See `barnaby.md`.
+- **What was the Eye suppressing in the Vault, and why?** Post-reintegration, something that was held down is now simply present. The dodecagonal geometry still imposes order; this is different from order imposed by the Eye. What required containing, and what does it want now? (See `locations.md` — Vault After Reintegration, Release.)
 
 ~~### The Deep as Character~~ ✓ see `canon/psychosphere.md` Section VII
 The Deep has culture, not personality. The Immune System is a cultural immune response, not a defense mechanism. Zones follow evolutionary timescales. The Blooming is cultural disruption at the root. The crew deposits as well as extracts.
@@ -152,72 +153,14 @@ Once the above is resolved, restructure around the Method Actor content as the l
 
 ---
 
-## Stories
-
-### The Second Chapter — After Reintegration
-What the crew is without the infrastructure:
-
-**What's gone:** The Vault (collapsed), Storm-Forging, depth anchor (Zone 3 ceiling now), the Orrery, Eye Protocol for Psyloc treatment. IO is grieving and not leading. The operation as it existed is over.
-
-**What remains:** The Cistern building. The heptagonal pool. The Tuning Forks. A large Psyloc stockpile. Ren's maps. The crew.
-
-**Elara steps into the vacuum.** She begins teaching the old ways — her clan training, the tradition that sought high concentrations of non-human life. Patience and non-interpretation. Belonging to the Deep rather than performing your way through it. Without the Eye's logic field holding the door open, this is now survival technique rather than specialist skill. The Method Actor mechanic still works but is no longer the only approach. Elara's methods are slower, harder, less controllable — and let the crew access things performance never could. Her contradiction resolves productively: she spent the whole first arc troubled by what the operation took. Now she teaches how to move through the Deep without taking.
-
-**Ren's connection changes.** She glimpsed Unity during reintegration — felt what Nia walked toward, understood the appeal, came back. She can feel the Eye is still present in some sense, but different: reintegrated, whole, no longer a fragment reaching for itself. The connection to TSG whole is less like a filing system and more like weather. Vast, not organized for human consumption. She has to develop new methods for reading it. But what comes through is less indexed and more true — the Architects' actual experience, not just their notes. She is developing the ability to map something that doesn't want to be mapped, which is exactly her nature.
-
-**The Architect revelation (emerging through Ren):** They weren't ignorant. They captured the Eye knowing the previous blooming had happened, believing that keeping the fragment separated from TSG would prevent the next one. They thought they were solving the problem. They were extending it — slowly, over 150 years. They made the wrong call with full knowledge. This reframes them from hubristic Victorians who didn't understand what they had into people who understood exactly what they had and chose wrong. More interesting. More tragic.
-
-**IO's re-entry:** She comes back through the Psyloc treatment problem. Without the Eye Protocol, advanced thinning is now untreatable. That's a solvable problem that doesn't require what she lost. It's smaller than the cartography project. It's useful. It might be the first thing she does that isn't about Nia.
-
-**The Deep post-Blooming:** With TSG whole and returning toward dormancy, the disruption settles. Ley lines resume normal flow. Oubliettes re-stabilize. The city starts sleeping again. The crew is now operating in a recovering Deep — and Elara's methods combined with Ren's connection may allow access to layers the Eye's logic field never reached. Different, not lesser.
-
-### The Shape of the Main Arc
-The crew discovers the Eye is a fragment of TSG (through Ren's archive discovery). They understand that freeing it resolves the Blooming — and destroys everything they've built. They choose reintegration.
-
-- **Elara's arc completes:** She joined because organized expeditions cause less destruction than the alternative. The whole operation was built on the most destructive thing imaginable. Freeing the Eye is her contradiction resolving.
-- **Ren's arc:** She finds it first. She chooses to tell IO. The moment she does, the Eye stops being her relationship and becomes the crew's decision.
-- **IO's arc:** The rescue mission collapses — not because it failed but because it was the wrong shape for what actually happened. Nia's signal crystallizes the clarity she's been circling. She makes the choice knowing it doesn't save Nia back to something she can hold.
-- **Nia's ending:** She disperses into the Psychosphere after reintegration. Not a casualty — she was already gone, and already home. IO has to grieve someone who left on purpose and was fine.
-- **After:** The Vault collapses. The operation is gone. Ren still has her connection to TSG whole. What that becomes is the open question.
-
-### IO — Childhood & Education
-IO is European. Origin TBD. Her path to Budapest and the Institute follows the hint trail (see prequel seed below) — she could have grown up anywhere, studied anywhere. Her old money background and the social circles she came from are established; the specific national/cultural origin is open. Resolve when writing the prequel.
-
-### IO — The Aethelgard Prequel (seed)
-IO's origin story. The trail of hints that leads her to the Institute, the Eye, and eventually the absence of Nia. Dramatic irony throughout: the precision and intelligence IO trusts most are the tools she uses to walk herself into exactly what her ancestors built and lost.
-
-**Structure:**
-- **The first hint** — childhood. A locked room, a document she's too young to understand but old enough to remember, a relative who says something they shouldn't. Filed away.
-- **The academic thread** — IO the neuro-chemist follows the Psyloc-Shards down a research path she believes is original. She finds Victorian predecessors. The work stops abruptly in the late 1880s. The authors share her surname.
-- **The building** — found through estate records. A property the family has been maintaining for generations without entering. She goes in expecting a curiosity. She finds the Architect records, the pool, the Eye.
-- **The slow understanding** — not all at once. Each discovery is a hint leading to the next. She thinks she's uncovering history. She's inheriting a problem.
-- **Nia** — drawn in as the operation takes shape. The prequel ends with Nia gone and IO converting grief into mission. The main story begins the morning after.
-
-**Open questions for the prequel:**
-- What is the first hint specifically — childhood memory or adult discovery?
-- How much did the family know? Were there instructions, warnings, or deliberate suppression?
-- When and how does Nia enter the operation?
-- Was Nia's exposure to Psyloc gradual or a specific event IO can point to?
-- Does IO discover the Lethe-Light/Psyloc interaction before or after Nia is lost?
-- Barnaby's reveal — does it happen in the prequel or the main story?
-- What specifically did the Architects know that got the family destroyed? What memory, from which oubliette, belonging to whom?
-- Who destroyed them — a specific family, institution, or individual? Are their successors still active? Has IO already run operations against them without knowing the connection?
-- IO finds the scapegoating evidence in the estate records alongside the Institute. Does she find it before or after she understands what the Institute is? Does finding the grievance change how she approaches the building?
-
-### Ren — Untitled short story (seed)
-Ren discovers something in the Eye's archive that shouldn't be there — a memory attributed to her, from a dive she never took. Or she finds an Architect memory that reveals what the Eye actually is, and realizes she has been in contact with a fragment of TSG for years without knowing it. The dramatic tension: she is the one person who can navigate the archive, potentially the only one who can communicate with TSG through the fragment — and she's the person who never goes in, who stays dry, whom everyone treats as support. The question the story turns on: does she tell IO? The moment she does, the Eye stops being a relationship and becomes a resource.
-- Setting: almost entirely the Cistern — her station, the instruments, the Eye below
-- No prior world knowledge required from the reader — the cosmology arrives through what she discovers
-
----
-
 ## Done
 - ~~Phase 2: Strip digital/pop-culture metaphors from `mechanics.md`~~ (4K TV, Looney Tunes, buffering)
 - ~~Oubliettes core document~~ (see `canon/oubliettes.md`)
-- ~~Cistern advantage & world context~~ (see `canon/cistern_advantage.md`)
+- ~~Cistern advantage & world context~~ (see `canon/world_context.md`)
 - ~~Psychosphere foundation~~ (see `canon/psychosphere.md`)
-- ~~Ghost Storm mechanic~~ (documented in `canon/cistern_advantage.md`)
+- ~~Ghost Storm mechanic~~ (see `canon/locations.md`)
 - ~~Psyloc core document~~ (see `canon/psyloc.md`)
 - ~~Amber Bleed rewrite~~ → dropped entirely, replaced with The Blooming (see `canon/the_blooming.md`)
 - ~~The Eye — core document~~ (see `canon/the_eye.md`; covers fragment nature, archive mechanic, Ren's connection)
 - ~~Cistern/Vault-TSG connection~~ → resolved: the Eye is the connection; Ren is the interface
+- ~~Arc structure & story seeds~~ → see `stories/` directory
