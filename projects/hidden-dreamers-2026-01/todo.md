@@ -200,6 +200,9 @@ IO's origin story. The trail of hints that leads her to the Institute, the Eye, 
 - Was Nia's exposure to Psyloc gradual or a specific event IO can point to?
 - Does IO discover the Lethe-Light/Psyloc interaction before or after Nia is lost?
 - Barnaby's reveal — does it happen in the prequel or the main story?
+- What specifically did the Architects know that got the family destroyed? What memory, from which oubliette, belonging to whom?
+- Who destroyed them — a specific family, institution, or individual? Are their successors still active? Has IO already run operations against them without knowing the connection?
+- IO finds the scapegoating evidence in the estate records alongside the Institute. Does she find it before or after she understands what the Institute is? Does finding the grievance change how she approaches the building?
 
 ### Ren — Untitled short story (seed)
 Ren discovers something in the Eye's archive that shouldn't be there — a memory attributed to her, from a dive she never took. Or she finds an Architect memory that reveals what the Eye actually is, and realizes she has been in contact with a fragment of TSG for years without knowing it. The dramatic tension: she is the one person who can navigate the archive, potentially the only one who can communicate with TSG through the fragment — and she's the person who never goes in, who stays dry, whom everyone treats as support. The question the story turns on: does she tell IO? The moment she does, the Eye stops being a relationship and becomes a resource.
