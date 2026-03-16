@@ -38,7 +38,7 @@ The Cistern building. The heptagonal pool. The Tuning Forks. A large Psyloc stoc
 
 **Barnaby becomes the pre-Eye index.** He is the only living record of what the Vault contained before 1887 — which artifacts predate the Eye, how the practice worked before the logic field. IO and Ren need this foundation for the rebuild. Whether he knows this is what they need, and whether he can communicate it, is a second arc thread. See `canon/characters/barnaby.md`.
 
-**Kaelen sits with the quiet.** The Itch has settled. He doesn't know what to do without the constant pull to resist. His arc in the second arc is learning what he is when he isn't fighting.
+**Lorcan sits with the quiet.** The Itch has settled. He doesn't know what to do without the constant pull to resist. His arc in the second arc is learning what he is when he isn't fighting.
 
 ---
 

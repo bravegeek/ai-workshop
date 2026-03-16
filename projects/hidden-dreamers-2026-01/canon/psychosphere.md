@@ -112,7 +112,7 @@ The tourist in New York isn't attacked. They're just wrong in a hundred small wa
 
 **Elara belongs.** Her tradition shaped her into something the Deep's culture recognizes. She doesn't perform. She fits. The Deep doesn't notice her the way it doesn't notice its own residents — not because she's invisible but because she generates no friction.
 
-**Kaelen has standing.** The Indigo Ink doesn't grant access — it marks him as someone the culture has a category for. Not a resident. A known visitor with recognized business. The Deep uses the category the clan gave him.
+**Lorcan has standing.** The Indigo Ink doesn't grant access — it marks him as someone the culture has a category for. Not a resident. A known visitor with recognized business. The Deep uses the category the clan gave him.
 
 **IO is always a tourist.** Her Translation Scripts are technically correct and visibly foreign. She moves through the Deep like someone who learned it from a guidebook. This is not a failure — she gets where she's going. But she will never stop generating friction.
 
@@ -145,7 +145,7 @@ IO discovered Psyloc independently — it is not a difficult observation for the
    - **Elara** has the clearest instinctive sense of it. Her resonance reading has picked up signatures that don't feel human — not hostile, not welcoming, just *other*. She has no language for it yet. She may have private notes about anomalous zones she hasn't shared.
    - **Ren** has the data without the interpretation. Her maps contain unexplained readings — currents that don't behave like emotional currents, zones that register on the Hum as something unclassifiable. She's been logging these as instrument error or unknown phenomena. They are not instrument error.
    - **IO** has noticed the pattern — the deeper you go, the less human the material feels — and filed it as a property of depth and pressure. She has the framework for the discovery but hasn't asked the right question yet.
-   - **Kaelen** feels it physically. The Itch — the pull toward the Deep from the Indigo Ink — may partly be the non-human layers. He has the most visceral sense of something ancient without the vocabulary to name it.
+   - **Lorcan** feels it physically. The Itch — the pull toward the Deep from the Indigo Ink — may partly be the non-human layers. He has the most visceral sense of something ancient without the vocabulary to name it.
    - **Barnaby** almost certainly knows. He has been in the Psychosphere since the Victorian era — longer than any of them. Whether he can communicate what he knows, or whether the crew has thought to ask, is another matter.
 
 2. **Is the Psychosphere finite?** No. It extends wherever consciousness exists. If consciousness is a fundamental property of information-processing matter — and under IIT it is — the Psychosphere connects to whatever is out there. Earth is a node, not the whole network. The deepest Silt may not be purely terrestrial. The Sleeping God's origin becomes a more open question. This is a long horizon, not a near-term story concern, but it changes the nature of what the very bottom of the Deep actually is.

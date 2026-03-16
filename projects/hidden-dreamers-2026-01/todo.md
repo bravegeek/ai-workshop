@@ -48,9 +48,9 @@ The Eye now has its own document (`canon/the_eye.md`) covering its nature as a T
 ~~### The Deep as Character~~ ✓ see `canon/psychosphere.md` Section VII
 The Deep has culture, not personality. The Immune System is a cultural immune response, not a defense mechanism. Zones follow evolutionary timescales. The Blooming is cultural disruption at the root. The crew deposits as well as extracts.
 
-~~### Kaelen — Contradiction~~ ✓ see characters.md
+~~### Lorcan — Contradiction~~ ✓ see characters.md
 
-~~### Kaelen — Warden's Tools~~ ✓ see characters.md
+~~### Lorcan — Warden's Tools~~ ✓ see characters.md
 
 ---
 
@@ -62,10 +62,10 @@ Resolved as man vs. nature: the antagonism is structural, not agentive. The Bloo
 
 ### Clan Traditions & The Deep
 *Unlocked by: Deep as Character session.* Different traditions reveal different facets of the Deep — the system can't be designed until the Deep has interiority. Develop traditions in response to gaps in what the current crew can perceive, not as a top-down catalogue.
-- What aspects of the Deep are currently dark to Elara, Kaelen, and IO's stances?
+- What aspects of the Deep are currently dark to Elara, Lorcan, and IO's stances?
 - What stance would unlock each dark area? Work backward from the gap to the tradition.
-- Known stances: Belong (Elara), Declare (Kaelen), Impose (IO/Architects), Become (Method Actor — orphaned, no clan)
-- Elara and Kaelen's traditions are altruistic; others will not be. Predatory/extractive traditions still work — the Deep responds to stance, not ethics.
+- Known stances: Belong (Elara), Declare (Lorcan), Impose (IO/Architects), Become (Method Actor — orphaned, no clan)
+- Elara and Lorcan's traditions are altruistic; others will not be. Predatory/extractive traditions still work — the Deep responds to stance, not ethics.
 - Introduce traditions through story as needed; resist designing the full ecosystem speculatively.
 
 ### Dive Aesthetics — Oubliettes vs. Open Drift

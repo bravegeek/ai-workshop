@@ -11,7 +11,7 @@ Locked or near-locked decisions about how the world works.
 
 | File | Contents |
 |------|----------|
-| `characters/` | One file per character: io, elara, kaelen, ren, nia, barnaby, presences |
+| `characters/` | One file per character: io, elara, lorcan, ren, nia, barnaby, presences |
 | `psychosphere.md` | The Psychosphere — what it is, zones, the Deep as culture |
 | `the_eye.md` | The Eye — TSG fragment, archive mechanic, Ren's connection |
 | `the_blooming.md` | TSG waking — what it is, what it does, what it means |

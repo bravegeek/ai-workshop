@@ -18,7 +18,7 @@ Her ability to read the Deep makes the crew better at not disturbing things — 
 
 ## Clan — Elara's Tradition
 
-Where Kaelen's tradition taught you to *declare* yourself to the Deep, Elara's taught you to *disappear* into it and belong. Extended time in deep wilderness, fungal networks, old-growth environments — developing tolerance for alien experience not through resistance but through patience and non-interpretation: the ability to sit inside an experience without the mind reaching for a human framework that doesn't exist there.
+Where Lorcan's tradition taught you to *declare* yourself to the Deep, Elara's taught you to *disappear* into it and belong. Extended time in deep wilderness, fungal networks, old-growth environments — developing tolerance for alien experience not through resistance but through patience and non-interpretation: the ability to sit inside an experience without the mind reaching for a human framework that doesn't exist there.
 
 This makes her the only crew member currently capable of navigating non-human oubliettes without serious psychological risk. It is not immunity. It is the practiced ability to stop reaching.
 

@@ -27,7 +27,7 @@ The crew discovers the Eye is a fragment of TSG (through Ren's archive discovery
 
 **Nia:** She disperses into the Psychosphere after reintegration. Not a casualty — she was already gone, and already home. IO has to grieve someone who left on purpose and was fine. That specific grief has no clean shape.
 
-**Kaelen:** Holds the line throughout. The Itch has been amplified by TSG's disrupted pull. After reintegration it quiets — not gone, but settled. He doesn't know what to do with the quiet.
+**Lorcan:** Holds the line throughout. The Itch has been amplified by TSG's disrupted pull. After reintegration it quiets — not gone, but settled. He doesn't know what to do with the quiet.
 
 ---
 

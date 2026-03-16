@@ -9,16 +9,16 @@ These passages have the right register even if the surrounding scene doesn't. Us
 
 **Elara — sensing others' emotional state as physical intrusion:**
 > The night shift security guard is thinking about his divorce again — a heavy, grey fog of regret that's drifting across the room. I pull my coat tighter. Being this close to IO is like standing next to a server rack; she gives off a low, constant hum of calculation that makes my head ache.
-> Thorne is worse. He walks in and the air pressure drops. He feels... heavy. Dense. Like a stone dropped in a pond.
+> Foy is worse. He walks in and the air pressure drops. He feels... heavy. Dense. Like a stone dropped in a pond.
 
-**Kaelen — physical relationship to the Deep, the Itch:**
+**Lorcan — physical relationship to the Deep, the Itch:**
 > My skin knows where we're going before my brain does. The tattoos are reacting to the proximity of the Needle — a faint, burning sensation, like a sunburn under the leather.
 
 > The Serpent Rune on my ribs is no longer just warm; it's a brand. I can feel the ink trying to peel itself off my skin, reaching out toward the darkness beyond the glass.
 
 **IO — holding it together through precision:**
 > She isn't a machine. She's just a woman holding her breath.
-*(this is Kaelen observing IO — keep the outside view)*
+*(this is Lorcan observing IO — keep the outside view)*
 
 ---
 
@@ -28,7 +28,7 @@ The zone transition where language stops working as sound and becomes matter. Wo
 
 > The words leave my mouth as a puff of grey smoke that smells like wet wool. I frown. We've hit the Babel Zone. Language is no longer a sound; it's a physical weight.
 
-> I try to tell IO that the air is turning into glass, but when I open my mouth, a handful of blue marbles spills out. They clatter on the floor, rolling toward Kaelen's boots.
+> I try to tell IO that the air is turning into glass, but when I open my mouth, a handful of blue marbles spills out. They clatter on the floor, rolling toward Lorcan's boots.
 
 > The "Silence" isn't a lack of noise — it's a frequency so low it vibrates in my marrow. Up above, the city's dreams were a chaotic choir. Down here, at the lip of the Deep, the choir has been replaced by a single, crushing note.
 
@@ -50,7 +50,7 @@ This principle should inform the technology and equipment design going forward.
 
 The cleanest example of the Method Actor mechanic executing — how you read a target's dream, design a role around their logic, and extract without triggering the Immune System.
 
-**The setup:** Target (Dr. Thorne) is in a high-anxiety Zone 2 dreamscape — an infinite rusted construction site in the clouds. He's building a tower that never ends. The Golden Rivet in his hand is the MacGuffin (the algorithm he's protecting). His fear is collapse and incompetence. The Suits circling like vultures are the Immune System's local expression.
+**The setup:** Target (Dr. Foy) is in a high-anxiety Zone 2 dreamscape — an infinite rusted construction site in the clouds. He's building a tower that never ends. The Golden Rivet in his hand is the MacGuffin (the algorithm he's protecting). His fear is collapse and incompetence. The Suits circling like vultures are the Immune System's local expression.
 
 **IO's role:** Union Foreman. High-vis vest, hard hat, clipboard. Authoritative, calm, "shift is over." The role fits the dreamscape's internal logic — a foreman *belongs* on a construction site, has authority over the worker, can legitimately ask him to hand over equipment.
 

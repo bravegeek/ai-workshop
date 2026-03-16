@@ -107,7 +107,7 @@ This mystery should remain undefined for now - it's narrative potential.
 Individual dynamics with crew members:
 - **IO:** Does he recognize her obsessive patterns? Does he help with Project Lullaby?
 - **Elara:** Can she sense his emotional frequencies? Does his polymorphism create "static"?
-- **Kaelen:** Does he see kinship in Kaelen's bound state (Indigo Ink)?
+- **Lorcan:** Does he see kinship in Lorcan's bound state (Indigo Ink)?
 - **Ren:** How does the Operator interact with an artifact-based entity?
 
 ### Operational Details
