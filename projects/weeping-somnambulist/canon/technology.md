@@ -14,8 +14,46 @@
 ### 2. The Techno-Mage Loadout (IO's Kit)
 IO bridges the gap between Dream-Logic and physical law.
 *   **The Deck (The Grimoire)**: A brass-bound instrument with fluid-pump keys. It runs "Translation Scripts"—notation scored into compressed symbolic language—that force dream-physics to obey rational rules.
-*   **The Monocle (Mage-Sight)**: A multi-lens goggle with corneal implants. It renders the dream as a **wireframe of cold light**, stripping away illusion to expose the underlying structure.
+*   **The Monocle (Mage-Sight)**: A multi-lens goggle with corneal implants that IO cannot remove without surgery. Built from Architect designs but recalibrated — the original version was cruder, oriented toward structural analysis alone. IO refined it after the Eye Protocol work, because she needed it to also attenuate the Eye's gaze without blocking structural perception. The corneal implants mean she is never entirely without it. See below for full development.
     *   **Anti-Mesmerism:** The Monocle filters the Eye's gaze, preventing the user from falling into the "Symmetry Trance."
+
+---
+
+### 3. The Monocle — Perception & Cost
+
+#### What It Perceives
+
+The Monocle strips the surface of the Psychosphere — the genre, the emotional grammar, the dream's content — and renders the underlying structure as cold light. "Wireframe" is accurate but incomplete as a description.
+
+**Ley lines as current.** Not decorative threads — functional force with direction, density, and speed. IO reads a ley line the way a sailor reads wind: where it's running hard, where it eddies, where confluences are building toward storm conditions. She can identify a ley surge before it manifests as weather. She uses this for approach vectors and for predicting where the Immune System's attention will concentrate.
+
+**Oubliette shells as membrane integrity.** From outside, an oubliette is sealed. Through the Monocle it reads as a surface with thickness and condition: old, stable oubliettes smooth and dense; recent ones raw, uneven; degrading ones showing fracture patterns in the seal. IO can assess structural integrity before committing to entry. She cannot read the interior from outside. The Monocle shows her the container. It does not show her what the container holds.
+
+**Memory density as topography.** The Silt and open Drift read with varying opacity — dense near ley confluences and oubliettes, thin in open Drift. IO navigates by this the way a surveyor reads elevation. Dense zones tell her where the old weight is, where things have been accumulating for a long time, where the floor drops away into something older.
+
+**Emotional charge translated to force vectors.** Grief reads as compression — the space pulled inward around an absence. Coherent love reads as organised structure, multiple elements facing the same direction. Fear reads as incoherence and sharp edges. Terror is the same but ambient, the incoherence too distributed to locate. IO does not experience these. She reads them structurally and translates backwards. This is slower than feeling them. It is also much more stable over the course of a long dive.
+
+**The Eye's logic field.** In the Cistern and at depth beneath it, the heptagonal geometry imposed by the Eye's logic field is literal through the Monocle — the wireframe snaps to it, rigid angles asserting over the surrounding flow. IO noted this in early dives as "the feeling of architecture." She stopped noting it years ago because it became the baseline. She no longer has a clear memory of what the Deep looked like without a frame imposed on it.
+
+**The Immune System before manifestation.** Not creatures, not threat — pure attention. The wireframe becomes denser, more organized, in a way IO cannot always name but has learned to act on. She perceives it as a quality of loading, the way a weight shift reads in a structure before the crack appears. She sees Immune System attention earlier than the other divers. What she misses is the interval before geometry: the feeling of being watched precedes any structural change, and the Monocle catches only the structural change. She is always one beat late on the first warning.
+
+**The Eye's gaze, attenuated.** The Monocle does not block Lethe-Light. It slows and filters it so that it doesn't hit IO the way it hits unshielded minds. Through the Monocle, active Lethe-Light reads as cold pressure along all exposed surfaces, directional and organised — diffuse force with a source. The Symmetry Trance is what happens when a mind comes into range of something whose perception is total and whose archive contains a model of you. The pull isn't the Eye reaching out. It is the observer finding themselves already known. The Monocle breaks this by keeping structure between IO and the Eye's facing. She perceives the Eye as geometry and force. She does not experience being known.
+
+This protection is real. It is also why IO cannot receive what the Eye offers Ren without technological mediation. Ren has no shield. The Eye's indexed perception reaches her directly. IO has made herself perceptible to the Eye only as a structural outline. Whatever the Eye holds of IO is a wireframe.
+
+#### What It Costs
+
+The Monocle's primary cost is not physical.
+
+IO cannot receive the Psychosphere empathically while wearing it. The stripping of illusion strips the communication the Psychosphere offers. Elara reads a space by feeling its logic, its invitation, what it offers and what it resists — the emotional grammar is how the Deep speaks. IO cannot access this channel through the Monocle. She knows things Elara doesn't know: structure, force, mechanics, age, ley current density. Elara knows things IO doesn't: texture, meaning, what the space is trying to say, whether it's hostile or merely strange. They are complementary in a way neither fully chose.
+
+**The cost specific to the mission.** IO built the Monocle partly to find Nia — a tool precise enough to map the Psychosphere at the resolution needed to locate one person in it. The tool prevents her from recognising Nia empathically. If Nia is somewhere in the Deep, IO can identify the structural anomaly. She cannot feel whether it is her sister. She has compensated with cartographic methodology: she looks for patterns that don't fit the local logic, structural signatures that rhyme with what she knows about Nia's diver profile. This is rigorous. It is also exactly wrong for what she is actually looking for. She knows this. She continues.
+
+**Accumulated irreversibility.** Extended use has changed IO's perceptual baseline in ways she cannot fully assess because she has no comparison point. The corneal implants require surgery to remove; she has been using Mage-Sight as her primary perceptual mode for years. She could theoretically operate without the Monocle in the Psychosphere. She has not done this since the early dives. She does not know what unmediated Deep perception looks like now. The instrument is no longer separable from the observer.
+
+**The bleed.** The corneal implants don't activate topside the same way — there is no Psychosphere surface to strip, no wireframe to render. But they are present. After extended dives, IO occasionally catches structural overlays on surface spaces: a room's geometry persisting at the edge of vision, a cold-light flicker along something that might be a ley line running beneath Budapest. She does not document this. She has normalised it as an artefact of extended deep operation. Whether it is artefact or early thinning, she has decided not to pursue the question.
+
+**The watch.** IO always checks a mechanical watch — "Trust the Tick." This is partly temporal grounding, standard deep-operation protocol. It is also that the watch is visible through the Monocle exactly as it is visible without it: mass, mechanism, hands moving. The Monocle strips illusion. It cannot strip the watch because the watch has no illusion to strip. It is just a watch. When everything else is wireframe and cold light, the watch remains the same object. This is what "Trust the Tick" actually means to IO. Not just: trust the time. Trust the thing the instrument cannot process.
 *   **The Gauntlet (The Wand)**: A haptic glove allowing direct interaction with dream-matter. She can physically grasp and reposition small dream objects, or mirror a structure from one surface to another.
 
 ## II. Caerulite — Harvest & Forms

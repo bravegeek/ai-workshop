@@ -14,7 +14,7 @@
 ~~- **Wet-Rigs**~~ ✓ removed
 ~~- **Seed-Core**~~ ✓ replaced — now the **Witness** (crew term) / **Reliquary** (Architect term). Mnemonic object personally significant to the diver. Significance is the binding agent. Accumulates change with each carry. See `canon/technology.md`.
 ~~- **Storm-Forging**~~ ✓ resolved — historical process, no longer operational. The Eye acted as stop bath; without it development runs uncontrolled. Attempting it post-reintegration produces unpredictable results. See `stories/arc2.md` — the accidental development scene.
-- **IO's Monocle**: still needs depth — "wireframe of cold light" is the visual, but what does it actually perceive, and what does it cost IO to use it?
+~~- **IO's Monocle**~~ ✓ resolved — perception developed (ley lines as current, oubliette shells as membrane integrity, memory density as topography, emotional charge translated to force vectors, Immune System as pre-manifest loading, Eye's gaze as attenuated pressure). Cost: cannot receive the Psychosphere empathically; extended use has changed her perceptual baseline; the same tool she built to find Nia prevents recognising Nia by feel; bleed into surface vision after deep dives. See `canon/technology.md` Section I, Part 3 and `canon/characters/io.md`.
 
 ---
 

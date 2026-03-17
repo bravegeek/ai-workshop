@@ -57,4 +57,4 @@ The cartography, the salvage, the operation, the precision — all of it is arch
 ## Capabilities
 
 - **Techno-Magic:** Uses the Deck to run Translation Scripts — notation scored in compressed symbolic language — that force dream-physics to obey rational rules.
-- **Mage-Sight:** Sees Ley Lines as a wireframe of cold light.
+- **Mage-Sight (The Monocle):** Sees ley lines, oubliette shells, memory density, and emotional charge as structural data — force, direction, age, integrity. Strips the Psychosphere's surface and renders the underlying architecture in cold light. Attenuates the Eye's gaze; prevents the Symmetry Trance by keeping structure between IO and the Eye's facing. The cost: she cannot receive the Psychosphere empathically. She knows things Elara doesn't know and doesn't know things Elara does. Extended use has changed her baseline perception in ways she cannot assess because she has no comparison point — the instrument is no longer separable from the observer. The same tool she built to find Nia prevents her from recognising Nia by feel. See `canon/technology.md` Section I, Part 3.
