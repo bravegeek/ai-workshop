@@ -2,14 +2,14 @@
 
 ## I. The Mordaunt Tech (Bio-Crystalline)
 
-### 1. The Psyloc-Shards (The Comms)
-*   **Origin:** Derived from the **Indigo Fungus (Psyloc-V)**, a rare deep-dream organism. When extracted to reality via the Crucible, it petrifies into a "Living Crystal."
+### 1. The Caerulite-Shards (The Comms)
+*   **Origin:** Derived from the **Indigo Fungus (Caerulite-V)**, a rare deep-dream organism. When extracted to reality via the Crucible, it petrifies into a "Living Crystal."
 *   **Properties:**
     *   **Resonance:** Shards from the same cluster vibrate in perfect unison across any distance or dimension.
     *   **Bypass:** They ignore "Psychic Static" and radio jamming.
 *   **Application:**
     *   **The Headsets:** IO has integrated small shards into the team's throat-mics.
-    *   **The Danger:** The connection is open. Untoggled, you hear the other person's intrusive thoughts. Prolonged exposure contributes to barrier thinning — the crew knows this about their own equipment. Whether the general thinning effect of casual Psyloc use is known outside dreamer circles is a different question. See `canon/psyloc.md`.
+    *   **The Danger:** The connection is open. Untoggled, you hear the other person's intrusive thoughts. Prolonged exposure contributes to barrier thinning — the crew knows this about their own equipment. Whether the general thinning effect of casual Caerulite use is known outside dreamer circles is a different question. See `canon/caerulite.md`.
 
 ### 2. The Techno-Mage Loadout (IO's Kit)
 IO bridges the gap between Dream-Logic and physical law.
@@ -44,7 +44,7 @@ IO bridges the gap between Dream-Logic and physical law.
 *   **Control:** **Lead eyelids** are mechanically lowered to muffle its gaze. The winch systems that would raise it are shattered. It is not going anywhere.
 *   **The Sight (Two States):**
     *   **Passive (The Oracle):** The Eye exists outside linear time. It leaks "Ghost Files" onto the HQ instruments — corrupted records of dives that haven't happened yet, blueprints for technology not yet invented. Unreliable, difficult to interpret, but no one else has precognitive data at all.
-    *   **Active (The Gaze):** Retracting the lead eyelids releases **Lethe-Light** into the Cistern. It bleaches whatever is most active in the minds of anyone exposed. Used surgically for the Eye Protocol (Psyloc treatment). Exposure without the Monocle's attenuation causes progressive memory loss — the mechanism that killed the Architects.
+    *   **Active (The Gaze):** Retracting the lead eyelids releases **Lethe-Light** into the Cistern. It bleaches whatever is most active in the minds of anyone exposed. Used surgically for the Eye Protocol (Caerulite treatment). Exposure without the Monocle's attenuation causes progressive memory loss — the mechanism that killed the Architects.
 
 ### 4. Dive Gear & Chronometry
 *   **Standard Rigs (Dry Dives):** Sensory-deprivation pods for 90% of missions.

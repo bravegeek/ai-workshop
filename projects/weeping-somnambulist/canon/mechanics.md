@@ -20,7 +20,7 @@ As a Dreamwalker descends, the character of experience changes. These are the cr
 ### Zone 3: The Thermocline (The Barrier / The Babel Zone)
 *   **Depth:** The Transition Layer
 *   **The Phenomenon:** The temperature (emotional warmth) drops instantly.
-*   **The Shift:** **Language breaks down.** Words on signs scramble into alien glyphs. Spoken language becomes sound-color (Synesthesia). You must *communicate via Intent* (or use Psyloc-Shard comms).
+*   **The Shift:** **Language breaks down.** Words on signs scramble into alien glyphs. Spoken language becomes sound-color (Synesthesia). You must *communicate via Intent* (or use Caerulite-Shard comms).
 *   **Visuals:** Geometric fractals intrude on reality. Surfaces repeat themselves; edges stutter like a skipping record.
 
 ### Zone 4: The Deep (The Midnight Zone)
@@ -176,11 +176,11 @@ The Technomancer stays "Dry" in the HQ, operating the **Soundboard**. They are t
 
 *   **The Monitor (Script Stability):**
     *   **Visual:** They watch a waveform on a CRT. Smooth = "In Character." Jagged/Red = "Dissonance" (The Immune System is suspicious).
-    *   **The Emotional Key-Frame (The Prompt):** Because language breaks in Zone 3+, the Technomancer cannot feed "lines." Instead, they pulse **Emotional Archetypes** through the Psyloc-Link.
+    *   **The Emotional Key-Frame (The Prompt):** Because language breaks in Zone 3+, the Technomancer cannot feed "lines." Instead, they pulse **Emotional Archetypes** through the Caerulite-Link.
         *   *Example:* If IO freezes in a Noir scene, the Technomancer doesn't say "Act natural." They transmit a **"High-Contrast Melancholy"** pulse, forcing IO's body to adopt the correct slumped, weary posture of the role.
 *   **The Backdrop (Camouflage Support):**
     *   **Problem:** High-fidelity memories can expose a diver whose camouflage thins under pressure — the role starts to feel wrong to the environment.
-    *   **Action:** The Technomancer feeds reinforcing material through the Psyloc-Link — emotional keyframes, sensory anchors — to shore up the performance. In extremis, sacrificing an artifact can flood the Psyloc-Link with enough raw material to restabilize the role.
+    *   **Action:** The Technomancer feeds reinforcing material through the Caerulite-Link — emotional keyframes, sensory anchors — to shore up the performance. In extremis, sacrificing an artifact can flood the Caerulite-Link with enough raw material to restabilize the role.
 *   **The Stage Hook (Narrative Extraction):**
     *   **Problem:** Waking up abruptly from Zone 4 causes "The Bends" (Psychic Shock).
     *   **Solution:** The Technomancer hacks the environment to spawn a "Narrative Exit."

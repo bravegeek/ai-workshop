@@ -11,7 +11,7 @@ The crew discovers the Eye is a fragment of TSG (through Ren's archive discovery
 - **Mystery:** What is the Eye, really? What is the Blooming?
 - **Ticking clock:** The Blooming is accelerating — the Psychosphere is reorganizing around TSG's waking presence, Stilled Zones spreading, normal flow disrupted.
 - **Dramatic irony:** Nia is not lost. She found her bliss. IO is building a rescue operation for someone who left on purpose and is, by any honest measure, fine.
-- **Escalating cost:** Every dive deepens Psyloc exposure. The crew is doing to themselves what the Architects did, just more slowly.
+- **Escalating cost:** Every dive deepens Caerulite exposure. The crew is doing to themselves what the Architects did, just more slowly.
 
 **The trauma arc 1 must clarify for arc 2:** IO built everything to find Nia. The Eye reintegrates and Nia was never lost. The grief isn't for what failed — it's for what was never true.
 

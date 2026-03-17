@@ -24,7 +24,7 @@ The Eye's reality anchor stabilizes the logic field well enough that the crew ca
 
 Exclusive access this provides:
 - The deepest and most compressed artifacts (Diamond Theory — pressure makes them extraordinary)
-- The highest-quality Psyloc harvest (more prevalent and more potent at depth)
+- The highest-quality Caerulite harvest (more prevalent and more potent at depth)
 - The non-human layers other dreamwalkers have never reached
 - Oubliettes that no one else can physically get to
 
@@ -61,11 +61,11 @@ Walking the Vault is walking the history of how far ahead of everyone else they'
 
 ---
 
-## V. The Psyloc Supply Chain
+## V. The Caerulite Supply Chain
 
-Psyloc and its properties are known in Level 2 dreamer circles — harvesting it is common practice for those with access to Zone 1–2. IO's contribution was application: communications technology, resonance integration, the comms infrastructure the crew uses. She did not discover a secret. She built something with what was already known.
+Caerulite and its properties are known in Level 2 dreamer circles — harvesting it is common practice for those with access to Zone 1–2. IO's contribution was application: communications technology, resonance integration, the comms infrastructure the crew uses. She did not discover a secret. She built something with what was already known.
 
-The crew's advantage is not knowledge — it is **depth**. Shallow Psyloc is serviceable. Deep-harvested Psyloc from Zone 4+ is categorically more potent, more precise, and more stable than anything a surface practitioner can obtain. The wealthy event circuit and high-end chaperone ecosystem run on product that requires going where no one else can go. The crew don't hold a monopoly on the substance. They hold a monopoly on quality.
+The crew's advantage is not knowledge — it is **depth**. Shallow Caerulite is serviceable. Deep-harvested Caerulite from Zone 4+ is categorically more potent, more precise, and more stable than anything a surface practitioner can obtain. The wealthy event circuit and high-end chaperone ecosystem run on product that requires going where no one else can go. The crew don't hold a monopoly on the substance. They hold a monopoly on quality.
 
 ---
 
@@ -87,8 +87,8 @@ Organizations use Level 2 dreamwalkers as consultants in the same credibility sp
 
 The crew's professional position: the people Level 2 consultants refer clients to when the job is beyond them. Word of mouth only.
 
-### Psyloc in the Wider World
-Psyloc thins the Psychosphere barrier chemically. Effects scale with dose:
+### Caerulite in the Wider World
+Caerulite thins the Psychosphere barrier chemically. Effects scale with dose:
 
 | Use | Dose | Effect | Risk |
 |-----|------|--------|------|
@@ -97,11 +97,11 @@ Psyloc thins the Psychosphere barrier chemically. Effects scale with dose:
 | High dose | Full | Partial waking entry into Zone 1, extreme perceptual disruption | Entry without rig = no anchor |
 | Overdose | Accidental | Full waking entry | Body awake, mind in the Deep, no extraction protocol |
 
-**The cumulative thinning effect** — regular Psyloc use permanently thins the user's barrier over time. This is likely suppressed information. Wealthy event attendees may be slowly, unknowingly approaching Level 1 contact. They start having strange dreams. They start seeing things. Eventually someone ends up in the Psychosphere without a rig.
+**The cumulative thinning effect** — regular Caerulite use permanently thins the user's barrier over time. This is likely suppressed information. Wealthy event attendees may be slowly, unknowingly approaching Level 1 contact. They start having strange dreams. They start seeing things. Eventually someone ends up in the Psychosphere without a rig.
 
-**Chaperones** at Psyloc events are not trip-sitters. They are low-level practitioners managing potential Psychosphere incursion. A bad trip in this world is partial entry — the person is going somewhere, not just having a difficult experience. A room of thirty thinned barriers is a temporary local node; the Psychosphere bleeds into reality at the event site. Chaperone is a specialized and dangerous profession.
+**Chaperones** at Caerulite events are not trip-sitters. They are low-level practitioners managing potential Psychosphere incursion. A bad trip in this world is partial entry — the person is going somewhere, not just having a difficult experience. A room of thirty thinned barriers is a temporary local node; the Psychosphere bleeds into reality at the event site. Chaperone is a specialized and dangerous profession.
 
-The crew are likely the primary Psyloc supplier at the high end. They are also the people chaperones call when something goes wrong that they can't handle.
+The crew are likely the primary Caerulite supplier at the high end. They are also the people chaperones call when something goes wrong that they can't handle.
 
 ---
 

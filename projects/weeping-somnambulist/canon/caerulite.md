@@ -1,23 +1,25 @@
-# Weeping Somnambulist: Psyloc
+# Weeping Somnambulist: Caerulite
 
 ## I. What It Is
 
-Psyloc is a compound derived from the Indigo Fungus — a deep-dream organism harvested from the Psychosphere. It is not a secret. Harvesting and use are known in Level 2 dreamer circles. IO's contribution was application: communications technology, resonance integration, the Psyloc-Shard comms system. She did not discover a secret substance. She built something precise with available material.
+Caerulite is a compound derived from the Indigo Fungus — a deep-dream organism harvested from the Psychosphere. It is not a secret. Harvesting and use are known in Level 2 dreamer circles. IO's contribution was application: communications technology, resonance integration, the Caerulite-Shard comms system. She did not discover a secret substance. She built something precise with available material.
 
-The crew's advantage is not knowledge — it is depth. Shallow Psyloc from Zone 1–2 is serviceable. Deep-harvested Psyloc from Zone 4+ is categorically more potent, more precise, and more stable. Quality scales with depth. The crew can go where surface practitioners cannot.
+Street name: *Glow* — for the bioluminescent effect the compound produces in water during extraction, visible before the tea is drunk. The name travels through the recreational market. IO uses the Architect term in her notes and Glow in everything else.
+
+The crew's advantage is not knowledge — it is depth. Shallow Caerulite from Zone 1–2 is serviceable. Deep-harvested Caerulite from Zone 4+ is categorically more potent, more precise, and more stable. Quality scales with depth. The crew can go where surface practitioners cannot.
 
 ---
 
 ## II. Mechanism
 
 ### Crossing the Blood-Brain Barrier
-Psyloc is lipophilic — fat-soluble. It crosses the blood-brain barrier easily because the barrier is largely fatty tissue. This is not unusual; real psilocybin operates the same way.
+Caerulite is lipophilic — fat-soluble. It crosses the blood-brain barrier easily because the barrier is largely fatty tissue. This is not unusual; real psilocybin operates the same way.
 
 ### What It Does
-Once inside, Psyloc binds to receptors in the **default mode network** — the brain system responsible for self-referential thought, mind-wandering, memory consolidation, and dreaming. It activates the brain's dream-state machinery while the person is conscious. REM processes run simultaneously on top of waking consciousness. The Psychosphere becomes accessible because the interface is already running.
+Once inside, Caerulite binds to receptors in the **default mode network** — the brain system responsible for self-referential thought, mind-wandering, memory consolidation, and dreaming. It activates the brain's dream-state machinery while the person is conscious. REM processes run simultaneously on top of waking consciousness. The Psychosphere becomes accessible because the interface is already running.
 
 ### Why It Accumulates
-Psyloc embeds in the **myelin sheaths** — the fatty insulation around neurons. It does not flush quickly. With repeated exposure, the brain stops treating the Psyloc-induced state as an intrusion and begins treating it as baseline. Receptors restructure. Neural architecture physically adapts. The boundary between waking and dream state stops being a door and becomes a membrane that keeps thinning.
+Caerulite embeds in the **myelin sheaths** — the fatty insulation around neurons. It does not flush quickly. With repeated exposure, the brain stops treating the Caerulite-induced state as an intrusion and begins treating it as baseline. Receptors restructure. Neural architecture physically adapts. The boundary between waking and dream state stops being a door and becomes a membrane that keeps thinning.
 
 This is neuroplasticity. The barrier thinning is not metaphorical. It is physical.
 
@@ -70,19 +72,19 @@ This is where recreational use lives. Why people come back.
 Recovery is not abstinence. It is a two-phase process with different timelines and different failure modes.
 
 ### Phase 1: Flushing
-Psyloc clears from the myelin sheaths slowly — weeks to months depending on depth and duration of use. During this phase the person remains symptomatic because the compound is still physically present.
+Caerulite clears from the myelin sheaths slowly — weeks to months depending on depth and duration of use. During this phase the person remains symptomatic because the compound is still physically present.
 
-**Withdrawal is potentially more destabilizing than sustained use.** The brain is calibrated for Psyloc's presence. Remove it and the dream-state pathways fire incorrectly, randomly, without the structure the drug provided. Partial flushing may feel worse than full presence — the signal goes in and out, neither calibrated for Psyloc nor for its absence.
+**Withdrawal is potentially more destabilizing than sustained use.** The brain is calibrated for Caerulite's presence. Remove it and the dream-state pathways fire incorrectly, randomly, without the structure the drug provided. Partial flushing may feel worse than full presence — the signal goes in and out, neither calibrated for Caerulite nor for its absence.
 
 ### Phase 2: Neural Retraining
-The harder problem. Even after full flushing, the pathways remain. The brain restructured itself around the compound — receptor density, connection patterns, the architecture of the barrier. Without Psyloc activating them, the pathways persist, misfiring, waiting for a signal that isn't coming.
+The harder problem. Even after full flushing, the pathways remain. The brain restructured itself around the compound — receptor density, connection patterns, the architecture of the barrier. Without Caerulite activating them, the pathways persist, misfiring, waiting for a signal that isn't coming.
 
 The equivalent is PAWS — Post-Acute Withdrawal Syndrome. Long after the substance is gone, the neural rewiring continues to produce symptoms.
 
 Retraining requires deliberately activating those pathways in a controlled way to rebuild them toward a new baseline. Months to years. Cognitive work, not just abstinence.
 
 ### The Dependency Trap
-The most effective retraining may use **controlled Psyloc micro-exposure** to access the rewired pathways and reconfigure them. Hair of the dog, but mechanically justified — some real treatments operate this way. This means recovery requires ongoing supervised Psyloc access, not elimination of it. The person cannot recover alone.
+The most effective retraining may use **controlled Caerulite micro-exposure** to access the rewired pathways and reconfigure them. Hair of the dog, but mechanically justified — some real treatments operate this way. This means recovery requires ongoing supervised Caerulite access, not elimination of it. The person cannot recover alone.
 
 ---
 
@@ -93,7 +95,7 @@ If thinning is structural neuroplasticity, the Lethe-Light offers a potential Ph
 
 Not palliative. Potentially curative for the structural component.
 
-**Critical constraint: Lethe-Light only affects people with Psyloc dysregulation.** The Light targets active, dysregulated epigenetic expression of the Psychosphere connection sequences. Without Psyloc dysregulation, those sequences run at baseline — too quiet for the Light to get purchase on. This is why the Eye Protocol works as a treatment (it hits exactly what Psyloc altered) and why the Architects died (years of Psyloc dysregulation made them vulnerable to the Light they were living with). Someone who has never used Psyloc can look at the Eye with significantly reduced risk. The danger is the combination, not the Light alone.
+**Critical constraint: Lethe-Light only affects people with Caerulite dysregulation.** The Light targets active, dysregulated epigenetic expression of the Psychosphere connection sequences. Without Caerulite dysregulation, those sequences run at baseline — too quiet for the Light to get purchase on. This is why the Eye Protocol works as a treatment (it hits exactly what Caerulite altered) and why the Architects died (years of Caerulite dysregulation made them vulnerable to the Light they were living with). Someone who has never used Caerulite can look at the Eye with significantly reduced risk. The danger is the combination, not the Light alone.
 
 ### The Procedure
 - Patient actively holds the target experience in mind while approaching the Eye
@@ -121,7 +123,7 @@ The Cistern has all the components for a full recovery protocol:
 - **The Eye** — structural erasure of rewired pathways via targeted Lethe-Light exposure
 - **The Tuning Forks** — acoustic recalibration for residual psychic noise; the heptagonal geometry of the Cistern creates specific resonance patterns that support retraining
 - **The Heptagonal Pool** — prevents obsessive fixation from taking root during recovery
-- **The Abyssal Bath** — controlled environment for supervised micro-dose Psyloc re-entry during retraining phase
+- **The Abyssal Bath** — controlled environment for supervised micro-dose Caerulite re-entry during retraining phase
 - **IO's Monocle** — precision attenuation for the Eye procedure
 
 No equivalent facility exists. The crew could offer the only functional rehabilitation programme for advanced thinning in the world.
@@ -134,7 +136,7 @@ The constraint: clients mean visitors. Visitors mean security risk. The Cistern'
 
 Nia is at terminal stage. Full barrier dissolution. Structural rewiring at maximum depth and duration.
 
-Even if IO extracts her from the Deep, her brain is configured for permanent Psychosphere interface. The flushing timeline is unknown at this stage — Psyloc this deeply embedded may not flush completely. The retraining required would be unprecedented. At this level of structural change, full recovery may not be possible.
+Even if IO extracts her from the Deep, her brain is configured for permanent Psychosphere interface. The flushing timeline is unknown at this stage — Caerulite this deeply embedded may not flush completely. The retraining required would be unprecedented. At this level of structural change, full recovery may not be possible.
 
 **Rescuing Nia physically and rescuing Nia as herself are potentially two different operations.**
 
@@ -145,7 +147,7 @@ IO does not yet know this.
 ## VIII. Open Questions
 
 - Is there an optimal thinning level — enough to make a better diver, not enough to lose the self — and can it be managed deliberately without inevitably progressing?
-- The Psyloc-Shard comms: prolonged use creates sustained low-level Psychosphere connection. Are the crew thinning themselves through their standard equipment?
+- The Caerulite-Shard comms: prolonged use creates sustained low-level Psychosphere connection. Are the crew thinning themselves through their standard equipment?
 - Is the thinning effect known, suspected, or actively suppressed in dreamer circles? Who benefits from it staying quiet?
 - At what point does the Eye protocol become inaccessible — too much structural damage to target precisely?
 - Can the retraining protocol be documented and taught, or does it require IO's specific equipment and expertise?

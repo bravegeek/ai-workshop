@@ -116,22 +116,22 @@ The existing maps were made by the Architects, who likely never descended far en
 **Is the Psychosphere finite?**
 Does it extend only as far as Earth life, or — if consciousness is a fundamental property of information-processing matter — does it connect to something larger? Implications for the Sleeping Gods' nature and origin. If some of them predate Earth life, what does that mean?
 
-### Psyloc — Open Questions (see `canon/psyloc.md`)
+### Caerulite — Open Questions (see `canon/caerulite.md`)
 Core document written. Remaining:
 - Is there an optimal thinning level that can be deliberately managed without inevitably progressing?
-- Are the crew thinning themselves through standard Psyloc-Shard comms use?
+- Are the crew thinning themselves through standard Caerulite-Shard comms use?
 - Is the thinning effect known, suspected, or actively suppressed in dreamer circles?
 - At what point does the Eye protocol become inaccessible — too much structural damage to target precisely?
 
 ### Architects — History & Legacy
-Core framing established: they were not ignorant, not reckless — they were good at this. Years of productive, careful work before 1887. The Psyloc dysregulation was accumulating slowly the whole time, undetectable without instruments they didn't have. Then they captured the Eye fragment — a calculated decision, believed to prevent the next blooming. They had no way to know Lethe-Light would interact catastrophically with years of Psyloc dysregulation. The dissolution was progressive. They kept working as long as they could. Some of what they built — the heptagonal geometry, the tools, the Cistern — was constructed while they were already losing ground. They built something that outlasted them without knowing it would have to. Needs a dedicated session:
+Core framing established: they were not ignorant, not reckless — they were good at this. Years of productive, careful work before 1887. The Caerulite dysregulation was accumulating slowly the whole time, undetectable without instruments they didn't have. Then they captured the Eye fragment — a calculated decision, believed to prevent the next blooming. They had no way to know Lethe-Light would interact catastrophically with years of Caerulite dysregulation. The dissolution was progressive. They kept working as long as they could. Some of what they built — the heptagonal geometry, the tools, the Cistern — was constructed while they were already losing ground. They built something that outlasted them without knowing it would have to. Needs a dedicated session:
 - What specifically did they discover, and in what order?
 - What did they attempt with oubliettes?
 - Did they have knowledge of non-human depth? Of the sleeping gods beyond TSG?
 - Did they leave anything besides the Cistern — other sites, documents, surviving students?
 - Is Barnaby's connection to their collapse a story to be told, or background?
 - What does Ren find in the Architect experience (not notes) that changes what the crew knows?
-- The crew is the Architects' echo: same Psyloc exposure, same Lethe-Light proximity, safety protocols that work without anyone understanding the full mechanism. How close are they to the same edge?
+- The crew is the Architects' echo: same Caerulite exposure, same Lethe-Light proximity, safety protocols that work without anyone understanding the full mechanism. How close are they to the same edge?
 
 ---
 
@@ -166,7 +166,7 @@ Once the above is resolved, restructure around the Method Actor content as the l
 - ~~Cistern advantage & world context~~ (see `canon/world_context.md`)
 - ~~Psychosphere foundation~~ (see `canon/psychosphere.md`)
 - ~~Ghost Storm mechanic~~ (see `canon/locations.md`)
-- ~~Psyloc core document~~ (see `canon/psyloc.md`)
+- ~~Caerulite core document~~ (see `canon/caerulite.md`)
 - ~~Amber Bleed rewrite~~ → dropped entirely, replaced with The Blooming (see `canon/the_blooming.md`)
 - ~~The Eye — core document~~ (see `canon/the_eye.md`; covers fragment nature, archive mechanic, Ren's connection)
 - ~~Cistern/Vault-TSG connection~~ → resolved: the Eye is the connection; Ren is the interface

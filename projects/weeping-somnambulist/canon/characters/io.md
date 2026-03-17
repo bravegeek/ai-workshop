@@ -11,7 +11,7 @@
 
 ## Backstory
 
-A brilliant neuro-chemist who "discovered" the Psyloc-Shards (Indigo Fungus) — though how much of that discovery was original research and how much was following a path her ancestors already walked is an open question. She grew up with a famous name and no money. The Mordaunt name opened doors — schools, circles, dinner tables — but she was performing membership rather than holding it, and she knew it early. The money had been gone for generations, the education paid for by reputation alone, and the people she sat next to never noticed the difference because she made sure they didn't.
+A brilliant neuro-chemist who "discovered" the Caerulite-Shards (Indigo Fungus) — though how much of that discovery was original research and how much was following a path her ancestors already walked is an open question. She grew up with a famous name and no money. The Mordaunt name opened doors — schools, circles, dinner tables — but she was performing membership rather than holding it, and she knew it early. The money had been gone for generations, the education paid for by reputation alone, and the people she sat next to never noticed the difference because she made sure they didn't.
 
 ## The Name
 
@@ -31,15 +31,15 @@ The Mordaunt fortune didn't dry up — it was taken. The family was scapegoated,
 
 ## Nia's Loss — The Correct Sequence
 
-IO and Nia explored the Institute together informally before any operation existed — early descents, no protocols, no crew, no safety infrastructure. Nia's Psyloc exposure happened during those first explorations. IO watched her thin progressively and didn't stop it in time, or didn't recognise what she was watching until it was too late. One morning Nia walked out. No note. Just gone. *The protocols that now govern every dive exist because of Nia. Nia never got the benefit of them.*
+IO and Nia explored the Institute together informally before any operation existed — early descents, no protocols, no crew, no safety infrastructure. Nia's Caerulite exposure happened during those first explorations. IO watched her thin progressively and didn't stop it in time, or didn't recognise what she was watching until it was too late. One morning Nia walked out. No note. Just gone. *The protocols that now govern every dive exist because of Nia. Nia never got the benefit of them.*
 
 **The operation was built after.** The cartography, the salvage, the crew, the Underworks infrastructure — all of it is the scaffold IO needed to go deep enough to find her sister. Project Lullaby isn't a hidden mission inside a real operation. The real operation is Project Lullaby wearing a business suit. IO built the Batcave to rescue one person and told herself it was something else. See `stories/io_prequel.md`.
 
 ## The Operation
 
-IO preys on the rich. Corporate secrets extracted from the Deep and sold. Psyloc distributed through a handful of high-end cut-outs — she never touches the retail end directly. The targets are abstractions: corporations, bad actors, people who deserve it. The class war has a clean logic when the faces are hypothetical.
+IO preys on the rich. Corporate secrets extracted from the Deep and sold. Caerulite — street name *Glow*, for the bioluminescent effect in the water before it's drunk — distributed through a handful of high-end cut-outs. She never touches the retail end directly. The targets are abstractions: corporations, bad actors, people who deserve it. The class war has a clean logic when the faces are hypothetical.
 
-**Inadvertent Psychosphere Excursions (IPEs):** A secondary revenue stream she created by selling the risk. Wealthy recreational Psyloc users occasionally slip through the thinned barrier into the Psychosphere and can't find their way back. The crew retrieves them. The families pay. IO knows the thinning effect and decided not to look at it. For a while, this holds.
+**Inadvertent Psychosphere Excursions (IPEs):** A secondary revenue stream she created by selling the risk. Wealthy recreational Glow users occasionally slip through the thinned barrier into the Psychosphere and can't find their way back. The crew retrieves them. The families pay. IO knows the thinning effect and decided not to look at it. For a while, this holds.
 - **The first face:** A stranger's kid. Mostly intact, minor scarring. IO writes it as acceptable. She almost believes it.
 - **The second face:** An old family friend — old money, one of the good ones, someone IO remembers as a gap-toothed girl who was the only person who ever beat her at Mario Kart. Her successful kid is in trouble. The friend called in a favor based on whispers and a polished version of what IO does. She doesn't know IO is three steps up the chain from why her kid was vulnerable. IO retrieves the kid. Takes the payment. Watches her friend hold her child. Doesn't tell her.
 - **The response:** IO raises her prices. Narrows the distribution. Tells herself she just needs to target the bad ones more precisely. This is horror at herself wearing the shape of a mission — the same conversion she always makes. The grief arrives, she gives it a purpose, and the purpose lets her keep moving.

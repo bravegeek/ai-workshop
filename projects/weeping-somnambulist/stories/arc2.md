@@ -8,11 +8,11 @@ Healing and rebuilding — but healing as the container for the story, not the s
 
 ## What's Gone
 
-The Vault (collapsed), Storm-Forging, depth anchor (Zone 3 ceiling now), the Orrery, Eye Protocol for Psyloc treatment. IO is grieving and not leading. The operation as it existed is over.
+The Vault (collapsed), Storm-Forging, depth anchor (Zone 3 ceiling now), the Orrery, Eye Protocol for Caerulite treatment. IO is grieving and not leading. The operation as it existed is over.
 
 ## What Remains
 
-The Cistern building. The heptagonal pool. The Tuning Forks. A large Psyloc stockpile. Ren's maps. The crew. Barnaby.
+The Cistern building. The heptagonal pool. The Tuning Forks. A large Caerulite stockpile. Ren's maps. The crew. Barnaby.
 
 ---
 
@@ -34,7 +34,9 @@ The Cistern building. The heptagonal pool. The Tuning Forks. A large Psyloc stoc
 
 **Ren takes the lead on rebuilding.** The navigator has to go under now. She leads the pre-Eye Vault audit, develops the TSG connection into new navigational infrastructure, and works the Budapest cases as data. The connection to TSG whole is less like a filing system and more like weather. She is developing the ability to map something that doesn't want to be mapped, which is exactly her nature. What comes through is less indexed — and more true. The Architects' actual experience, not just their notes.
 
-**IO heals.** She grieves properly for the first time — too exhausted to do otherwise. She learns to sit with herself. She is present at the Institute without being in charge, holding institutional memory while Ren leads. Her re-entry into active work comes through the Psyloc treatment problem: without the Eye Protocol, advanced thinning is untreatable. That's a solvable problem that doesn't require what she lost. It might be the first thing she does that isn't about Nia. See `canon/characters/io.md`.
+**IO heals.** She grieves properly for the first time — too exhausted to do otherwise. She learns to sit with herself. She is present at the Institute without being in charge, holding institutional memory while Ren leads. Her re-entry into active work comes through the Caerulite treatment problem: without the Eye Protocol, advanced thinning is untreatable. That's a solvable problem that doesn't require what she lost. It might be the first thing she does that isn't about Nia. See `canon/characters/io.md`.
+
+**Water memory — IO's research thread.** The Cistern pool has been developing for 150 years in proximity to a TSG fragment. If water retains impressions of what passed through it, that pool is extraordinary — not just the developer medium IO built it to be, but an accumulated record of every dive, every extraction, every Caerulite harvest conducted there. This connects to the Pale Lens surviving reintegration unexpectedly: both are residue of the Eye's long presence, both behaving in ways she can't account for. Water memory is how IO starts understanding what the Cistern *became* during the Eye's tenure, rather than what she designed it to be. A problem she can approach from the bench, alone, without leading anything. Pseudoscientific framing (Mesmer's animal magnetism is the Architects' era; structured water research is the more grounded modern parallel) — she's building toward something real without knowing yet what it is.
 
 **Barnaby becomes the pre-Eye index.** He is the only living record of what the Vault contained before 1887 — which artifacts predate the Eye, how the practice worked before the logic field. IO and Ren need this foundation for the rebuild. Whether he knows this is what they need, and whether he can communicate it, is a second arc thread. See `canon/characters/barnaby.md`.
 

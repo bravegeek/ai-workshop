@@ -38,6 +38,6 @@ Ren takes the lead on rebuilding. She leads the pre-Eye Vault audit, developing 
 
 ## Capabilities
 
-- **The Soundboard:** Monitors Script Stability for active divers (waveform on CRT — smooth is in-character, jagged is dissonance). Feeds Emotional Keyframes through the Psyloc-Link when language fails in Zone 3+.
+- **The Soundboard:** Monitors Script Stability for active divers (waveform on CRT — smooth is in-character, jagged is dissonance). Feeds Emotional Keyframes through the Caerulite-Link when language fails in Zone 3+.
 - **Narrative Extraction:** Can identify contextually plausible exit conditions in the dream environment — a door, a phone ringing — that divers can use to surface safely.
 - **The Hum:** Reads the Cistern's passive antenna feed to identify nearby Drifts by genre frequency before a dive.

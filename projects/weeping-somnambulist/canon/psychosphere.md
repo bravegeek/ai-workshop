@@ -134,8 +134,8 @@ From the Silt's perspective — if perspective is even the right word — the Bl
 
 ## VIII. Open Questions
 
-### Psyloc in Dreamer Circles
-IO discovered Psyloc independently — it is not a difficult observation for the gifted. Harvesting it is known practice in Level 2 dreamer circles. What IO contributed was *application*: the communications technology, the comms integration, the understanding of resonance properties. The substance itself is not secret. The crew's advantage is not knowledge monopoly — it is depth. Shallow Psyloc is available to anyone who can reach Zone 1–2. The crew's deep-harvested product is categorically more potent and more precise than anything a surface practitioner can obtain.
+### Caerulite in Dreamer Circles
+IO discovered Caerulite independently — it is not a difficult observation for the gifted. Harvesting it is known practice in Level 2 dreamer circles. What IO contributed was *application*: the communications technology, the comms integration, the understanding of resonance properties. The substance itself is not secret. The crew's advantage is not knowledge monopoly — it is depth. Shallow Caerulite is available to anyone who can reach Zone 1–2. The crew's deep-harvested product is categorically more potent and more precise than anything a surface practitioner can obtain.
 
 ---
 

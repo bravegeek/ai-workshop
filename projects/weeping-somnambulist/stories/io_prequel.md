@@ -14,7 +14,7 @@ IO is European. Origin TBD. Her path to Budapest and the Institute follows the h
 
 **The first hint** — childhood. A locked room, a document she's too young to understand but old enough to remember, a relative who says something they shouldn't. Filed away.
 
-**The academic thread** — IO the neuro-chemist follows the Psyloc-Shards down a research path she believes is original. She finds Victorian predecessors. The work stops abruptly in the late 1880s. The authors share her surname.
+**The academic thread** — IO the neuro-chemist follows the Caerulite-Shards down a research path she believes is original. She finds Victorian predecessors. The work stops abruptly in the late 1880s. The authors share her surname.
 
 **The building** — found through estate records. A property the family has been maintaining for generations without entering. She goes in expecting a curiosity. She finds the Architect records, the pool, the Eye.
 
@@ -29,8 +29,8 @@ IO is European. Origin TBD. Her path to Budapest and the Institute follows the h
 - What is the first hint specifically — childhood memory or adult discovery?
 - How much did the family know? Were there instructions, warnings, or deliberate suppression?
 - When and how does Nia enter the operation?
-- Was Nia's exposure to Psyloc gradual or a specific event IO can point to?
-- Does IO discover the Lethe-Light/Psyloc interaction before or after Nia is lost?
+- Was Nia's exposure to Caerulite gradual or a specific event IO can point to?
+- Does IO discover the Lethe-Light/Caerulite interaction before or after Nia is lost?
 - Barnaby's reveal — does it happen in the prequel or the main story?
 - What specifically did the Architects know that got the family destroyed? What memory, from which oubliette, belonging to whom?
 - Who destroyed them — a specific family, institution, or individual? Are their successors still active? Has IO already run operations against them without knowing the connection?

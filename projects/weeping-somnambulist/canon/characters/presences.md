@@ -12,7 +12,7 @@ Characters that are not people. Brief entries — full documentation lives in de
 
 **Presence:**
 - **The Oracle Bleed:** It exists outside linear time. It leaks Ghost Files onto the instruments — corrupted records of dives that haven't happened yet. Whether this is communication, distress, or something with no human analogue is resolved: it is neither deliberate communication nor distress. It is what this kind of presence produces when it faces toward things. Shape without intention.
-- **Lethe-Light:** When its lead eyelids are retracted, it releases light that bleaches Psyloc-dysregulated memory. The Architects died of this — slowly, forgetting names, then faces, then themselves. The crew uses mechanical shutters and strict time limits.
+- **Lethe-Light:** When its lead eyelids are retracted, it releases light that bleaches Caerulite-dysregulated memory. The Architects died of this — slowly, forgetting names, then faces, then themselves. The crew uses mechanical shutters and strict time limits.
 
 ---
 

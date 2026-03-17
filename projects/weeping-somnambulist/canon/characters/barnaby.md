@@ -65,7 +65,7 @@ This wasn't about fear or trust-building - it was **assessment**. He needed to u
 
 ### Communication Method
 How does Barnaby convey complex thoughts?
-- Direct telepathy via Psyloc connection?
+- Direct telepathy via Caerulite connection?
 - Behavioral cues the crew has learned to read?
 - Limited verbal ability in certain forms?
 - Something else entirely?
@@ -77,9 +77,9 @@ Does polymorphic shifting affect his consciousness?
 - Does he remember their names, faces, or just feelings?
 
 ### What Barnaby Knows
-Barnaby witnessed the full arc — the competent years and the dissolution. He knew the Architects before the Eye fragment arrived: careful, skilled practitioners doing real work. He watched what the Lethe-Light/Psyloc combination did to them over time. He doesn't have the language or the mechanism, but he has the before and after.
+Barnaby witnessed the full arc — the competent years and the dissolution. He knew the Architects before the Eye fragment arrived: careful, skilled practitioners doing real work. He watched what the Lethe-Light/Caerulite combination did to them over time. He doesn't have the language or the mechanism, but he has the before and after.
 
-This is what his silence carries. Not just grief for people he loved — but knowledge of what they were capable of before the variable they couldn't account for was introduced. He has watched one crew of Psyloc users live with the Eye. He is now watching another. Whether he understands the risk well enough to act on it, or whether he simply carries it as dread he can't articulate, is an open question.
+This is what his silence carries. Not just grief for people he loved — but knowledge of what they were capable of before the variable they couldn't account for was introduced. He has watched one crew of Caerulite users live with the Eye. He is now watching another. Whether he understands the risk well enough to act on it, or whether he simply carries it as dread he can't articulate, is an open question.
 
 The todo entry asks: *what does Barnaby know, and why hasn't he said it?* Possible answers:
 - He doesn't have the conceptual framework to communicate it — he experienced it, he didn't understand it

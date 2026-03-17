@@ -17,7 +17,7 @@
     *   **The Fractal Architecture (Recursive Depth):** The Vault is **Dream-Reactive**. It is not a static building; it is a spatial record of the crew's success.
         *   **Semantic Volume:** Every "Deep Artifact" has a "weight" that warps the physical architecture. Bringing a powerful artifact into the Vault causes the walls to fold outward, creating new alcoves, hallways, or entire sub-chambers that reflect the *thematic origin* of the item.
         *   **The Living Map:** To "explore" the HQ is to walk through a physical timeline of the crew's history. The "Unexplored Depths" are simply rooms they haven't found the right Key-Artifact to unlock yet.
-    *   **Vault Security — needs development:** IO has embedded Psyloc-Shards throughout the Vault as a distributed sensor network. Unauthorized Psychosphere presence (entities without a surface-world anchor) triggers a response from the Symbolic Legacy of surrounding artifacts — their wills, normally negotiated with individually, turned outward collectively. The Vault improves as a security system with every dive. The mechanism and specifics need a dedicated session.
+    *   **Vault Security — needs development:** IO has embedded Caerulite-Shards throughout the Vault as a distributed sensor network. Unauthorized Psychosphere presence (entities without a surface-world anchor) triggers a response from the Symbolic Legacy of surrounding artifacts — their wills, normally negotiated with individually, turned outward collectively. The Vault improves as a security system with every dive. The mechanism and specifics need a dedicated session.
     *   **The Celestial Ceiling (The Orrery):** The vaulted ceiling is a dynamic map of the Deep.
         *   **Mechanism:** The Eye's perception — existing outside linear time, oriented toward the Psychosphere — bleeds a navigable feed into the Cistern's upper space. The crew has learned to read it as a real-time chart of Drift movement.
         *   **Function:** Tracks the drift of the Silt-Continents. Allows the crew to intercept oubliettes dredged by confluence events before they sink again.
@@ -35,7 +35,7 @@
 *   **The Ground Floor (The Rim):**
     *   **Function:** The stone floor encircling the central pit. Contains living quarters and the Dive Room.
 *   **The Dive Room:**
-    *   **Concept:** A dim, quiet lounge. Not a medical bay, not a pod room. The crew reclines on worn couches, breathing slows, minimal headgear maintains the Psyloc-Shard link and Ren's Soundboard connection. Everything else is just a comfortable room and a decision to go under.
+    *   **Concept:** A dim, quiet lounge. Not a medical bay, not a pod room. The crew reclines on worn couches, breathing slows, minimal headgear maintains the Caerulite-Shard link and Ren's Soundboard connection. Everything else is just a comfortable room and a decision to go under.
     *   **Entry:** Open. Anyone with access to the Cistern can enter the Dive Room.
     *   **Exit (The Image Match):** The only way out of the Dive Room unassisted is to correctly match a fresh set of images — presented on a mechanical card display before each dive, arranged by the diver according to their own associations. Not a password. A snapshot of how you perceive things at that moment. On surfacing, the same cards are presented. If your groupings hold, the door opens. If they don't, you stay in the room until someone comes to you.
         *   The images are generated fresh each dive from a rotating library — they cannot be memorized or anticipated. What's tested is not recall but the interpretive framework the diver brings to them. Someone returning under deep Narrative Capture perceives the cards through the role they're still wearing. The mismatch is usually obvious.
@@ -77,7 +77,7 @@ The Architects built security from the bottom up. The upper layers filter out ob
 The building elevator serves the above-ground floors and basement normally. Nothing unusual.
 
 ### 2. The Basement — First Check (The Radio)
-Psyloc-Shard based signature verification. Not a password — a psychic check. Something a prepared intruder could fake. Not the real security. Filters the obvious.
+Caerulite-Shard based signature verification. Not a password — a psychic check. Something a prepared intruder could fake. Not the real security. Filters the obvious.
 
 ### 3. The Filing Cabinet Door
 A concealed entrance in the sub-basement. Beyond it, the surface world ends.

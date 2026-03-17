@@ -18,9 +18,9 @@ Locked or near-locked decisions about how the world works.
 | `locations.md` | The Mordaunt Institute, the Underworks, the Deep biomes |
 | `mechanics.md` | Dive mechanics — Method Actor, Narrative Capture, Immune System |
 | `technology.md` | Gear, artifacts, tools |
-| `psyloc.md` | Psyloc — the substance, the mechanism, Lethe-Light interaction |
+| `caerulite.md` | Caerulite — the substance, the mechanism, Lethe-Light interaction |
 | `oubliettes.md` | Sealed pockets of preserved experience |
-| `world_context.md` | Dreamwalking ecosystem, Psyloc in the world, operational context (pre-reintegration) |
+| `world_context.md` | Dreamwalking ecosystem, Caerulite in the world, operational context (pre-reintegration) |
 
 ### `stories/` — Narrative Development
 Arc structure, character arcs, story seeds.

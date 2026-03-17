@@ -56,7 +56,7 @@ Suicide rates and fugue states are spiking in districts directly above the prese
 
 ## V. Nia
 
-She tuned into it first. Through the Psyloc-Shard comms, through months of exposure, through some combination of gift and accumulated thinning, she began hearing a frequency no one else could locate. She went into the Deep to find the source.
+She tuned into it first. Through the Caerulite-Shard comms, through months of exposure, through some combination of gift and accumulated thinning, she began hearing a frequency no one else could locate. She went into the Deep to find the source.
 
 She found it.
 

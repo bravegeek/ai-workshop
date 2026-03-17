@@ -19,7 +19,7 @@ Artifacts are classified by **Semantic Density** (depth of origin) and **Operati
 
 ### A. Personal Equipment (IO's Loadout)
 
-#### 1. **Psyloc-Shards** — Class 2 (Bio-Crystalline Comms)
+#### 1. **Caerulite-Shards** — Class 2 (Bio-Crystalline Comms)
 - **Power Level**: Medium-Low
 - **Strengths**:
   - Ignores psychic static/jamming
@@ -195,7 +195,7 @@ Artifacts are classified by **Semantic Density** (depth of origin) and **Operati
 - **Form**: Translucent, waxy plugs that mold to ear canal
 - **Function**:
   - Filters out "psychic noise" (anglers, lure-lights, siren calls)
-  - Does NOT block Psyloc-Shard comms (different frequency)
+  - Does NOT block Caerulite-Shard comms (different frequency)
   - Allows wearer to hear "true sound" vs. "desire sound"
 - **Limitation**:
   - Single-use (melts after 2 hours of exposure to Deep)
@@ -266,7 +266,7 @@ Artifacts are classified by **Semantic Density** (depth of origin) and **Operati
 - **Function**:
   - Single-use emergency beacon
   - Ignites a "Narrative Fire" (highly visible across all zones)
-  - Broadcasts distress signal on Psyloc-Shard frequency + visual alert
+  - Broadcasts distress signal on Caerulite-Shard frequency + visual alert
   - Creates 2-minute "Safe Zone" (Immune System pauses aggression to "watch the fire")
 - **Limitation**:
   - Attracts ALL entities in 500m radius (good and bad)
