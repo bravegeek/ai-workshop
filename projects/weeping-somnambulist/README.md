@@ -17,8 +17,8 @@ Locked or near-locked decisions about how the world works.
 | `the_blooming.md` | TSG waking — what it is, what it does, what it means |
 | `locations.md` | The Mordaunt Institute, the Underworks, the Deep biomes |
 | `mechanics.md` | Dive mechanics — Method Actor, Narrative Capture, Immune System |
-| `technology.md` | Gear, artifacts, tools |
-| `caerulite.md` | Caerulite — the substance, the mechanism, Lethe-Light interaction |
+| `technology.md` | Gear, artifacts, tools — includes Caerulite harvest & extraction mechanic, the Witness/Reliquary, Storm-Forging (historical), Cistern pool as transitional medium |
+| `caerulite.md` | Caerulite — the substance, thinning mechanism, Lethe-Light interaction, Glow (street name), Eye Protocol |
 | `oubliettes.md` | Sealed pockets of preserved experience |
 | `world_context.md` | Dreamwalking ecosystem, Caerulite in the world, operational context (pre-reintegration) |
 
@@ -46,5 +46,7 @@ Planning, open questions, prioritized work. Story content lives in `stories/`.
 ## Current State
 
 Arc 1 shape is established. Arc 2 foundations are in place. The world bible covers the Psychosphere, the Eye, the Blooming, the Institute, and core mechanics. Characters are fully developed for arc 1; second arc threads are in `stories/arc2.md`.
+
+The Caerulite harvest and extraction mechanic is fully developed — carrier model, cultural traditions, product hierarchy (Glow/tea → crystals → smoked → Shards), Cistern pool as engineered sacred spring. The Witness/Reliquary replaces the old Seed-Core. Storm-Forging is resolved as historical with narrative consequence (accidental development scene in arc 2). Arc 2 hooks include water memory, the accidental development, and the Architect Reliquaries.
 
 Active priorities in `todo.md`.

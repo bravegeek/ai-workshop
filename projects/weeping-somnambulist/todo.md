@@ -10,12 +10,11 @@
 ## In Progress
 
 ### Technology Review (`canon/technology.md`)
-The document has been partially cleaned. Remaining open questions:
-- **Sensory-deprivation pods**: too clinical for the aesthetic? The dive room is a dim lounge — do the rigs belong, or does the crew just lie down?
-- **Wet-Rigs**: still reference "modified SCUBA" — plausible Victorian-adjacent gear, or needs rethinking?
-- **Seed-Core disguise**: physical surface treatment to resemble props — does the Immune System respond to appearance or to psychic signature? If the latter, disguise is irrelevant.
-- **Storm-Forging**: marked as no longer operational post-reintegration. Decide whether to archive the section clearly or leave as-is for pre-reintegration story use.
-- **IO's Monocle**: "wireframe of cold light" — visual metaphor, probably fine. Confirm intentional.
+~~- **Sensory-deprivation pods**~~ ✓ removed
+~~- **Wet-Rigs**~~ ✓ removed
+~~- **Seed-Core**~~ ✓ replaced — now the **Witness** (crew term) / **Reliquary** (Architect term). Mnemonic object personally significant to the diver. Significance is the binding agent. Accumulates change with each carry. See `canon/technology.md`.
+~~- **Storm-Forging**~~ ✓ resolved — historical process, no longer operational. The Eye acted as stop bath; without it development runs uncontrolled. Attempting it post-reintegration produces unpredictable results. See `stories/arc2.md` — the accidental development scene.
+- **IO's Monocle**: still needs depth — "wireframe of cold light" is the visual, but what does it actually perceive, and what does it cost IO to use it?
 
 ---
 
@@ -171,3 +170,6 @@ Once the above is resolved, restructure around the Method Actor content as the l
 - ~~The Eye — core document~~ (see `canon/the_eye.md`; covers fragment nature, archive mechanic, Ren's connection)
 - ~~Cistern/Vault-TSG connection~~ → resolved: the Eye is the connection; Ren is the interface
 - ~~Arc structure & story seeds~~ → see `stories/` directory
+- ~~Project rename~~ → Weeping Somnambulist; Psyloc → Caerulite; street name Glow
+- ~~Caerulite harvest & extraction mechanic~~ → carrier model, hands in water, fading window, biophoton glow, heart-brain coherence, product hierarchy (tea/crystals/smoked/Shards), cultural traditions, Cistern as engineered sacred spring (see `canon/technology.md` Section II)
+- ~~Seed-Core~~ → replaced with Witness/Reliquary (see `canon/technology.md`)
