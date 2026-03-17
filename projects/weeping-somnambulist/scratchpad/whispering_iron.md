@@ -10,7 +10,7 @@
 
 ## Why It Was Cut
 
-The initial Hidden Dreamers story is man vs. nature — the crew against the Psychosphere, the Blooming, the consequences of their own choices. The Whispering Iron pointed toward a human antagonist: an organization watching, harvesting inner monologues, positioned to exploit the Blooming. That's the right shape for a different story in this world, not this one.
+The initial Weeping Somnambulist story is man vs. nature — the crew against the Psychosphere, the Blooming, the consequences of their own choices. The Whispering Iron pointed toward a human antagonist: an organization watching, harvesting inner monologues, positioned to exploit the Blooming. That's the right shape for a different story in this world, not this one.
 
 ## Potential Future Use
 

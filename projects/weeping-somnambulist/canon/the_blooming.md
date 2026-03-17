@@ -1,4 +1,4 @@
-# Hidden Dreamers: The Blooming
+# Weeping Somnambulist: The Blooming
 
 ## I. What Is Happening
 

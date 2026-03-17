@@ -1,4 +1,4 @@
-# Hidden Dreamers
+# Weeping Somnambulist
 
 Tragic sci-fi / techno-noir. The collective unconscious (the Psychosphere) is a physical dimension that can be entered, mapped, and mined. A crew of specialists operates out of a 19th-century institute in Budapest, built around a god chained in the basement.
 

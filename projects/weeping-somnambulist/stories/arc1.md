@@ -1,4 +1,4 @@
-# Hidden Dreamers: Arc 1 — The Main Story
+# Weeping Somnambulist: Arc 1 — The Main Story
 
 ## Shape
 

@@ -1,4 +1,4 @@
-# Hidden Dreamers: The Eye
+# Weeping Somnambulist: The Eye
 
 ## I. What the Crew Thinks It Is
 

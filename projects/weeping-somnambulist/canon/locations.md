@@ -1,4 +1,4 @@
-# Hidden Dreamers: Locations
+# Weeping Somnambulist: Locations
 
 ## I. Reality: The Lantern Crew HQ (The Mordaunt Institute)
 

@@ -1,4 +1,4 @@
-# Hidden Dreamers: Presences & Prisoners
+# Weeping Somnambulist: Presences & Prisoners
 
 Characters that are not people. Brief entries — full documentation lives in dedicated canon files.
 

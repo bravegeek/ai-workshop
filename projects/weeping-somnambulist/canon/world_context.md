@@ -1,4 +1,4 @@
-# Hidden Dreamers: World Context
+# Weeping Somnambulist: World Context
 
 *Note: The operational advantage sections (I–V, VII) reflect the pre-reintegration state. The Eye is gone; the monopoly, depth access, and Orrery no longer exist. The world context sections (VI) remain current canon.*
 

@@ -1,4 +1,4 @@
-# Hidden Dreamers: The Psychosphere
+# Weeping Somnambulist: The Psychosphere
 
 ## I. What It Is
 

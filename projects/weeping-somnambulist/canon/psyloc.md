@@ -1,4 +1,4 @@
-# Hidden Dreamers: Psyloc
+# Weeping Somnambulist: Psyloc
 
 ## I. What It Is
 

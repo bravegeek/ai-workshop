@@ -1,4 +1,4 @@
-# Hidden Dreamers: Mechanics & Physics
+# Weeping Somnambulist: Mechanics & Physics
 
 ## I. The Bathymetry of Sleep (Zonal Changes)
 *Note: These zone descriptions are the crew's working model — inherited from Architect-era maps and their own experience in human-origin layers. They do not reflect the psychosphere.md depth model (depth as age and compression, non-human contributions below Zone 3). The zone system needs a full redesign once the Deep-as-character session is complete. See `todo.md`.*

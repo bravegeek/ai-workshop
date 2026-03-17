@@ -1,4 +1,11 @@
-# Hidden Dreamers: TODO
+# Weeping Somnambulist: TODO
+
+## Character Names — Remaining
+
+- **Elara Vance** — *Vance* is American-feeling, slightly at odds with the Budapest setting. Needs an origin decision for Elara first: where is she from, what tradition, what does her background suggest for a surname?
+- **Ren** — no surname established. Short first name, Japanese resonance, cartographer energy. Surname TBD once her background is developed.
+
+---
 
 ## In Progress
 

@@ -1,4 +1,4 @@
-# Hidden Dreamers: Technology & Artifacts
+# Weeping Somnambulist: Technology & Artifacts
 
 ## I. The Mordaunt Tech (Bio-Crystalline)
 

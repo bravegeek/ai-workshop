@@ -1,4 +1,4 @@
-# Hidden Dreamers: Arc 2 — The Rebuild
+# Weeping Somnambulist: Arc 2 — The Rebuild
 
 ## Theme
 

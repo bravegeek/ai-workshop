@@ -1,4 +1,4 @@
-# Hidden Dreamers: Oubliettes
+# Weeping Somnambulist: Oubliettes
 
 ## I. What They Are
 

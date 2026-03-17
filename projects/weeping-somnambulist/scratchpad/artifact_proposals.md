@@ -1,4 +1,4 @@
-# Hidden Dreamers: Artifact Analysis & Suggestions
+# Weeping Somnambulist: Artifact Analysis & Suggestions
 ## Creative Muse Analysis Session
 
 ---
