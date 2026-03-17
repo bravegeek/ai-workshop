@@ -37,11 +37,10 @@ The Eye was drawn to Ren by affinity (her epistemic profile rhymes with how an a
 ~~### Nia — Character Note~~ ✓ see characters.md
 
 ### Sleeping Gods — The Deeper Cosmology
-Core shape established: primal aggregations in the Silt, too old for personality, predating the architecture that makes motivation legible. Legends are misreadings of their signal. TSG is one of many. The Eye is a fragment of TSG. Remaining:
-- What are these entities beneath the human interpretation? "Unity" is a reading — what is the drive underneath?
-- Which legends are surface traces? Select a few that do narrative work, not a comprehensive list.
-- The other sleepers: still dormant, but the conditions that caused TSG to bloom may not stay specific to this location. Does the crew ever learn this?
-- What ended previous bloomings?
+Core cosmology document written: `canon/cosmology.md`. Covers drive beneath "unity" (chemotaxis model), full spectrum of human interpretations (unity/community/conquering and beyond), loss-of-self question, legend survival bias, Eye as ongoing archive and reintegration problem, other sleepers. Remaining:
+- Which specific legends are surface traces? Select a few that do narrative work, not a comprehensive list.
+- The other sleepers: do they share the same drive or are they variations? Does the crew ever learn about them?
+- What ended previous bloomings? (Complete records may be inside the Eye.)
 
 ### Inanimate Characters — Develop Further
 The Eye now has its own document (`canon/the_eye.md`) covering its nature as a TSG fragment, the archive mechanic, and Ren's connection. Remaining open questions:
