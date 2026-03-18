@@ -19,7 +19,7 @@ The crew discovers the Eye is a fragment of TSG (through Ren's archive discovery
 
 ## Character Arcs
 
-**Elara:** She joined because organized expeditions cause less destruction than the alternative. The whole operation was built on the most destructive thing imaginable — a god chained in the basement. Freeing the Eye is her contradiction resolving. Relief and loss arrive together.
+**Ama:** She joined because organized expeditions cause less destruction than the alternative. The whole operation was built on the most destructive thing imaginable — a god chained in the basement. Freeing the Eye is her contradiction resolving. Relief and loss arrive together.
 
 **Ren:** She finds it first — the truth about what the Eye is, surfacing through the archive, arriving in her maps before she understands what she's seeing. She chooses to tell IO. The moment she does, the Eye stops being her relationship and becomes the crew's decision.
 

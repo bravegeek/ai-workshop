@@ -76,11 +76,11 @@ The **Method Actor mechanic breaks down** in proportion to how non-human the oub
 | Insect | None — requires hive dissolution | Loss of individual self |
 | Plant / fungal | None — wrong timescale entirely | Temporal dissociation |
 
-### Elara's Clan Training
+### Ama's Clan Training
 
-Elara has training from a tradition that deliberately sought high concentrations of non-human life — extended time in deep wilderness, fungal networks, old-growth environments — to develop tolerance for alien experience.
+Ama has training from a tradition that deliberately sought high concentrations of non-human life — extended time in deep wilderness, fungal networks, old-growth environments — to develop tolerance for alien experience.
 
-The skill is not immunity. It is **patience and non-interpretation**: the ability to sit inside an alien experience without the mind reaching for a human narrative framework that doesn't exist there. Most divers confronting a dinosaur oubliette would break when that reach finds nothing. Elara has been trained to stop reaching.
+The skill is not immunity. It is **patience and non-interpretation**: the ability to sit inside an alien experience without the mind reaching for a human narrative framework that doesn't exist there. Most divers confronting a dinosaur oubliette would break when that reach finds nothing. Ama has been trained to stop reaching.
 
 This makes her the only crew member currently capable of navigating a dinosaur oubliette without serious psychological risk — and even for her it would be at the edge of what's survivable.
 

@@ -69,7 +69,7 @@ The water mechanic was discovered independently across cultures; the Architects 
 - *Reliquary* — the Architect term. Institutional, sacred-object register. A container for something precious.
 - *Witness* — the crew's term. What the object actually does: it observes and accumulates. Possibly a translation of the warden term — Lorcan's tradition named it first.
 - *Finné* — the warden/Irish term (*witness*, *one who testifies*). Predates the Architect practice. The wardens used the same object not for extraction but for boundary-working: carrying evidence of what they'd encountered back across the threshold.
-- Elara's tradition has no formal term. Her relationship to the Deep is not extractive — she uses an object but resists the frame of tool. When pressed she calls it *the thing I carry*, which is not evasion. It is her actual position.
+- Ama's tradition has no formal term. Her relationship to the Deep is not extractive — she uses an object but resists the frame of tool. When pressed she calls it *the thing I carry*, which is not evasion. It is her actual position.
 - Shamanic traditions broadly name it after relationship rather than function: *keeper*, *companion*, *bearer*. The object accompanies rather than captures.
 
 ### 2. The Cistern Pool (The Transitional Medium)

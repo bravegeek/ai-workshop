@@ -24,7 +24,7 @@ Indigo Ink — clan work, not mercenary equipment. They were given to him, not c
 
 ## Clan — The Wardens
 
-Where Elara's tradition taught you to disappear into the Deep and belong to it, Lorcan's taught you to declare yourself to it. The Indigo Ink is a two-way marking system: *this person is known to us, leave them alone* — and simultaneously — *this person has standing to be here, they have business.* The wardens maintained the boundary between the Deep and the surface world. Not warriors — they didn't fight the Deep. They managed it. When something was bleeding through into waking life, when a sleeper went somewhere they couldn't return from alone, the wardens went in and held the line.
+Where Ama's tradition taught you to disappear into the Deep and belong to it, Lorcan's taught you to declare yourself to it. The Indigo Ink is a two-way marking system: *this person is known to us, leave them alone* — and simultaneously — *this person has standing to be here, they have business.* The wardens maintained the boundary between the Deep and the surface world. Not warriors — they didn't fight the Deep. They managed it. When something was bleeding through into waking life, when a sleeper went somewhere they couldn't return from alone, the wardens went in and held the line.
 
 ## The Symbiosis
 
@@ -77,7 +77,7 @@ On the surface: competent, laconic, reliable. Does the job. Doesn't complain. Ju
 
 ## Contradiction
 
-He protects the crew — warden function, exactly what he was trained for. But protecting them lets them go deeper, which takes more from the Deep. The same shape as Elara's contradiction, different angle. They recognize each other's tradition immediately and disagree about almost everything specific.
+He protects the crew — warden function, exactly what he was trained for. But protecting them lets them go deeper, which takes more from the Deep. The same shape as Ama's contradiction, different angle. They recognize each other's tradition immediately and disagree about almost everything specific.
 
 ## Arc
 
