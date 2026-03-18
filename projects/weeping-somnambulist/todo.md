@@ -2,7 +2,7 @@
 
 ## Character Names — Remaining
 
-- **Elara Vance** — *Vance* is American-feeling, slightly at odds with the Budapest setting. Needs an origin decision for Elara first: where is she from, what tradition, what does her background suggest for a surname?
+- ~~**Ama**~~ ✓ renamed from Elara Vance. Trail name Ama, birth name Elara, origin southern China (Yunnan/Guizhou). No surname established or needed for now.
 - **Ren** — no surname established. Short first name, Japanese resonance, cartographer energy. Surname TBD once her background is developed.
 
 ---
@@ -67,10 +67,10 @@ Resolved as man vs. nature: the antagonism is structural, not agentive. The Bloo
 
 ### Clan Traditions & The Deep
 *Unlocked by: Deep as Character session.* Different traditions reveal different facets of the Deep — the system can't be designed until the Deep has interiority. Develop traditions in response to gaps in what the current crew can perceive, not as a top-down catalogue.
-- What aspects of the Deep are currently dark to Elara, Lorcan, and IO's stances?
+- What aspects of the Deep are currently dark to Ama, Lorcan, and IO's stances?
 - What stance would unlock each dark area? Work backward from the gap to the tradition.
-- Known stances: Belong (Elara), Declare (Lorcan), Impose (IO/Architects), Become (Method Actor — orphaned, no clan)
-- Elara and Lorcan's traditions are altruistic; others will not be. Predatory/extractive traditions still work — the Deep responds to stance, not ethics.
+- Known stances: Belong (Ama), Declare (Lorcan), Impose (IO/Architects), Become (Method Actor — orphaned, no clan)
+- Ama and Lorcan's traditions are altruistic; others will not be. Predatory/extractive traditions still work — the Deep responds to stance, not ethics.
 - Introduce traditions through story as needed; resist designing the full ecosystem speculatively.
 
 ### Dive Aesthetics — Oubliettes vs. Open Drift
@@ -104,7 +104,7 @@ Not every dream, zone, or Oubliette has the same response. The current model imp
 - What determines a location's sensitivity? Age? Emotional density? Collective vs. personal memory?
 - Oubliettes vs. open Drifts — sealed pocket universe vs. flowing collective memory should differ
 - One entity with local variation, or genuinely different kinds of awareness in different places?
-- What makes some places feel welcoming (Elara's lost Oubliette) vs. hostile?
+- What makes some places feel welcoming (Ama's lost Oubliette) vs. hostile?
 
 ### Foundational Questions from `psychosphere.md`
 

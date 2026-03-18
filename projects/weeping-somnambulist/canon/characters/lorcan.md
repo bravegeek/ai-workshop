@@ -8,13 +8,41 @@
 **Archetype:** The last practitioner of a tradition the world stopped believing in.
 **Visuals:** 5'7" with the presence of someone considerably larger — the ink does part of the work, the Deep's recognition bleeding into how people read him on the surface. He doesn't perform authority. It arrives before he does. Heavy leather trench coat, fingerless gloves. The tattoos are visible at every edge — throat, wrists, the back of his hands. Not decorative. Working marks.
 
+## Age & Longevity
+
+Lorcan does not know how old he is. Precise calendar tracking stopped meaning anything after enough deep dives — time already moved strangely for him long before longevity became an obvious fact. He knows he was in Budapest in 1887 because the Itch spiked when the Eye was captured and he remembers the Institute going up. What came before that is less reliable: memories that feel like they belong to someone else, compressed and out of sequence.
+
+**The longevity is a side effect, not a gift.** Extended time in the Deep slows biological ageing — not through any deliberate mechanism, but as an accumulated consequence of the symbiosis. The Deep operates on geological timescales; a symbiont who ages and dies in decades is barely useful. The body adapts to the relationship over time. Lorcan didn't set out to live this long. He was present when the wound opened, couldn't in good conscience leave while the boundary was broken, and the biology followed the obligation. He didn't notice it happening because time already moved strangely. He stopped counting at some point because the number stopped meaning anything.
+
+**Appearance:** He looks like a man in his late thirties or early forties. The presence is the tell — not supernatural, just earned over a span of time that doesn't fit the face. People sense the discrepancy without being able to name it. He doesn't explain it. The crew hasn't asked directly.
+
+**Exact timeline:** TBD — to be refined as the narrative requires. What's established: he was a seasoned warden, not a novice, when the Eye was captured. He had already seen enough to recognise what the Architects were building toward. He said something. Nobody listened. That's a different wound than being dismissed young.
+
 ## The Tattoos
 
 Indigo Ink — clan work, not mercenary equipment. They were given to him, not chosen. Each mark is a negotiated term in a relationship between his body and the Deep. The Serpent Rune on his ribs burns and vibrates near entities — a warden's early warning system, not an alarm he bought.
 
 ## Clan — The Wardens
 
-Where Elara's tradition taught you to disappear into the Deep and belong to it, Lorcan's taught you to declare yourself to it. The Indigo Ink is a two-way marking system: *this person is known to us, leave them alone* — and simultaneously — *this person has standing to be here, they have business.* The wardens maintained the boundary between the Deep and the surface world. Not warriors — they didn't fight the Deep. They managed it. When something was bleeding through into waking life, when a sleeper went somewhere they couldn't return from alone, the wardens went in and held the line.
+Where Ama's tradition taught you to disappear into the Deep and belong to it, Lorcan's taught you to declare yourself to it. The Indigo Ink is a two-way marking system: *this person is known to us, leave them alone* — and simultaneously — *this person has standing to be here, they have business.* The wardens maintained the boundary between the Deep and the surface world. Not warriors — they didn't fight the Deep. They managed it. When something was bleeding through into waking life, when a sleeper went somewhere they couldn't return from alone, the wardens went in and held the line.
+
+## The Symbiosis
+
+The warden relationship with the Deep is not a contract in the legal sense — it is a declaration of symbiosis. The Deep has a functional problem: the boundary between itself and the surface world requires management it cannot perform from its own side. It can't reach up. It can only produce things that bleed through — entities, pressure, oubliettes grazing the surface, sensitives being pulled under. Someone has to work that boundary from the surface side. The wardens were the Deep's immune response at the threshold — the thing the Deep needed at the surface layer that it couldn't generate itself.
+
+The ink is mutual recognition, not servitude. The Deep says: this person works the boundary, they have standing here, other things leave them alone. The warden says: I manage what comes through, I hold the line, I push back what doesn't belong above.
+
+**What the Itch actually is:** Not the Deep claiming him. The Deep signalling that the boundary needs work — that something is wrong at the threshold and the symbiont is needed. Lorcan has spent years interpreting it as a pull toward dissolution. It may be closer to the way a doctor feels drawn toward an emergency. Not destruction. Vocation. His refusal to follow the Itch all the way down has been correct in form and possibly wrong in interpretation. He thought he was resisting being consumed. He may have been refusing to do the job.
+
+**The Budapest wound:** The Eye's separation from TSG created a chronic wound in the boundary at this specific location — a foreign body in tissue producing constant low-grade inflammation. The Deep has been signalling that the boundary needs a warden at exactly this site for 150 years. The Itch didn't start when Lorcan arrived in Budapest. But Budapest is where it got loudest, and he's been here ever since without fully understanding why he stayed. He was placed. The longevity followed.
+
+**Post-reintegration:** The Itch settles because TSG returning toward dormancy repairs the boundary from the inside. The Deep doesn't need the symbiont urgently right now. The silence isn't the contract waiting — it's the patient recovering. But a recovered patient isn't healthy indefinitely. The boundary will need management again. The question his arc is really asking: now that he understands what the symbiosis actually is, does he choose it? That's a different arc than endurance. It's consent.
+
+**Open questions:**
+- What did the clan promise the Deep in return for recognition? What does Lorcan owe that he hasn't named yet?
+- Does the ink change as the terms of the relationship shift? The Deep is a responsive system; if the relationship is renegotiated, the record of it might update.
+- The dispersal of the warden clans left other boundaries unmanaged across multiple sites. Budapest was the loudest wound. It wasn't the only one.
+- Using the field kit means extending terms on behalf of a relationship he can't fully represent. Now that he understands the symbiosis more clearly, that carries ethical weight it didn't before.
 
 **What happened to the clan:** The world outgrew them. Cities expanded, the old knowledge became superstition, and the tradition couldn't sustain itself without the social recognition that gave it meaning. They dispersed. Lorcan went mercenary because warden skills are warden skills regardless of who's paying. He hasn't gone back to look for what remains. He doesn't know if anything does, and hasn't let himself find out.
 
@@ -49,7 +77,7 @@ On the surface: competent, laconic, reliable. Does the job. Doesn't complain. Ju
 
 ## Contradiction
 
-He protects the crew — warden function, exactly what he was trained for. But protecting them lets them go deeper, which takes more from the Deep. The same shape as Elara's contradiction, different angle. They recognize each other's tradition immediately and disagree about almost everything specific.
+He protects the crew — warden function, exactly what he was trained for. But protecting them lets them go deeper, which takes more from the Deep. The same shape as Ama's contradiction, different angle. They recognize each other's tradition immediately and disagree about almost everything specific.
 
 ## Arc
 

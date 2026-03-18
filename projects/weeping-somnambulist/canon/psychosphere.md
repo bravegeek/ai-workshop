@@ -110,7 +110,7 @@ The tourist in New York isn't attacked. They're just wrong in a hundred small wa
 
 **Method Acting is acculturation, not camouflage.** The diver who tunes their emotional state to match the environment isn't fooling anything. They're temporarily learning to move like a local. The performance works not because it deceives but because it briefly makes the diver culturally legible.
 
-**Elara belongs.** Her tradition shaped her into something the Deep's culture recognizes. She doesn't perform. She fits. The Deep doesn't notice her the way it doesn't notice its own residents — not because she's invisible but because she generates no friction.
+**Ama belongs.** Her tradition shaped her into something the Deep's culture recognizes. She doesn't perform. She fits. The Deep doesn't notice her the way it doesn't notice its own residents — not because she's invisible but because she generates no friction.
 
 **Lorcan has standing.** The Indigo Ink doesn't grant access — it marks him as someone the culture has a category for. Not a resident. A known visitor with recognized business. The Deep uses the category the clan gave him.
 
@@ -122,7 +122,7 @@ The Deep has **regional character.** The Psychosphere beneath this city is shape
 
 The Deep has **historical character.** The Plague years left something. The Industrial Revolution left something. The specific texture of a city that has buried its children in waves — that accumulates as cultural sediment. Not as individual memories but as characteristic tendency. The way a neighborhood has a feeling that persists long after the people who made it are gone.
 
-**The crew deposits as well as extracts.** Every dive contributes emotional material to the Deep's culture. Every artifact removed leaves a gap. Elara's discomfort is made precise by this: the operation doesn't just take. It shapes the Deep, slowly, in the direction of whatever the crew brings in.
+**The crew deposits as well as extracts.** Every dive contributes emotional material to the Deep's culture. Every artifact removed leaves a gap. Ama's discomfort is made precise by this: the operation doesn't just take. It shapes the Deep, slowly, in the direction of whatever the crew brings in.
 
 ### The Blooming as Cultural Disruption
 
@@ -142,7 +142,7 @@ IO discovered Caerulite independently — it is not a difficult observation for 
 1. **Does the crew know this?** Not fully — but they've felt the edges of it. The Architects' maps only cover what humans can navigate. The non-human depth is unmapped. Each crew member has encountered anomalies that don't fit the human model and has no framework to explain them. The `psychosphere.md` framework is the explanation they've been missing. Discovery is a process of it clicking into place, story by story.
 
    **Per character:**
-   - **Elara** has the clearest instinctive sense of it. Her resonance reading has picked up signatures that don't feel human — not hostile, not welcoming, just *other*. She has no language for it yet. She may have private notes about anomalous zones she hasn't shared.
+   - **Ama** has the clearest instinctive sense of it. Her resonance reading has picked up signatures that don't feel human — not hostile, not welcoming, just *other*. She has no language for it yet. She may have private notes about anomalous zones she hasn't shared.
    - **Ren** has the data without the interpretation. Her maps contain unexplained readings — currents that don't behave like emotional currents, zones that register on the Hum as something unclassifiable. She's been logging these as instrument error or unknown phenomena. They are not instrument error.
    - **IO** has noticed the pattern — the deeper you go, the less human the material feels — and filed it as a property of depth and pressure. She has the framework for the discovery but hasn't asked the right question yet.
    - **Lorcan** feels it physically. The Itch — the pull toward the Deep from the Indigo Ink — may partly be the non-human layers. He has the most visceral sense of something ancient without the vocabulary to name it.

@@ -7,7 +7,7 @@
 
 These passages have the right register even if the surrounding scene doesn't. Useful as voice reference when writing.
 
-**Elara — sensing others' emotional state as physical intrusion:**
+**Ama — sensing others' emotional state as physical intrusion:**
 > The night shift security guard is thinking about his divorce again — a heavy, grey fog of regret that's drifting across the room. I pull my coat tighter. Being this close to IO is like standing next to a server rack; she gives off a low, constant hum of calculation that makes my head ache.
 > Foy is worse. He walks in and the air pressure drops. He feels... heavy. Dense. Like a stone dropped in a pond.
 
@@ -68,7 +68,7 @@ The cleanest example of the Method Actor mechanic executing — how you read a t
 
 ---
 
-## Elara's Drift-Wood Manifestation — In Action
+## Ama's Drift-Wood Manifestation — In Action
 
 The mechanics of how she grows structures from the Deep's raw material:
 

@@ -1,7 +1,17 @@
 # Nia Mordaunt — "The Pilot Fish"
 
+**Full name:** Naïa Mordaunt. *NAH-ya*. Breton in origin — *wave*, *flow*, the water that moves without deciding to. A French-Algerian family with a name from the Atlantic coast: not unusual, families collect names from wherever they've been. It carries water before the story earns it.
+
+**The nickname:** *Nia* — what IO called her. Shorter, warmer, more like a breath than a name. The full name is on the documents. Nia is what she was in the room.
+
 **Status:** Not missing. Gone. There is a difference.
 **Role:** IO's younger sister. The emotional centre of the original team — the one who made the others want to come back up. Not because she was warm, exactly, but because she was *present* in a way that made presence feel like enough.
+
+## Before Budapest
+
+Two girls who always went further in than they were supposed to. Naïa a half-step ahead because she wasn't thinking about coming back, Inès right behind her keeping track of both of them. They came home filthy. They went back the next day.
+
+The Institute wasn't a discovery. It was a bigger version of the place they always found. The dynamic didn't change — it just scaled up. The woods became the Psychosphere, and one day Naïa went far enough that Inès couldn't follow.
 
 ## Who She Was
 

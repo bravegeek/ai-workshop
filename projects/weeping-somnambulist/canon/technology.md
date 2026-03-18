@@ -11,10 +11,6 @@
     *   **The Headsets:** IO has integrated small shards into the team's throat-mics.
     *   **The Danger:** The connection is open. Untoggled, you hear the other person's intrusive thoughts. Prolonged exposure contributes to barrier thinning — the crew knows this about their own equipment. Whether the general thinning effect of casual Caerulite use is known outside dreamer circles is a different question. See `canon/caerulite.md`.
 
-### 2. The Techno-Mage Loadout (IO's Kit)
-IO bridges the gap between Dream-Logic and physical law.
-*   **The Deck (The Grimoire)**: A brass-bound instrument with fluid-pump keys. It runs "Translation Scripts"—notation scored into compressed symbolic language—that force dream-physics to obey rational rules.
-
 ## II. Caerulite — Harvest & Forms
 
 ### The Indigo Fungus in the Psychosphere
@@ -66,7 +62,7 @@ The water mechanic was discovered independently across cultures; the Architects 
 - *Reliquary* — the Architect term. Institutional, sacred-object register. A container for something precious.
 - *Witness* — the crew's term. What the object actually does: it observes and accumulates. Possibly a translation of the warden term — Lorcan's tradition named it first.
 - *Finné* — the warden/Irish term (*witness*, *one who testifies*). Predates the Architect practice. The wardens used the same object not for extraction but for boundary-working: carrying evidence of what they'd encountered back across the threshold.
-- Elara's tradition has no formal term. Her relationship to the Deep is not extractive — she uses an object but resists the frame of tool. When pressed she calls it *the thing I carry*, which is not evasion. It is her actual position.
+- Ama's tradition has no formal term. Her relationship to the Deep is not extractive — she uses an object but resists the frame of tool. When pressed she calls it *the thing I carry*, which is not evasion. It is her actual position.
 - Shamanic traditions broadly name it after relationship rather than function: *keeper*, *companion*, *bearer*. The object accompanies rather than captures.
 
 ### 2. The Cistern Pool (The Transitional Medium)

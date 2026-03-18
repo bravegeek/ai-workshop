@@ -164,7 +164,7 @@ Artifacts are classified by **Semantic Density** (depth of origin) and **Operati
 - Memory-Jars are "low fidelity" (inadequate for complex data)
 
 ### 5. **Crew-Specific Gaps**:
-- **Elara**: No tools that amplify her Empath/Manifestation abilities
+- **Ama**: No tools that amplify her Empath/Manifestation abilities
 - **Kaelen**: Glitch-Blade mentioned but no support tech for his Anchor role
 - **Ren**: Technomancer has no autonomous assistants (all manual operation)
 
@@ -336,20 +336,20 @@ Artifacts are classified by **Semantic Density** (depth of origin) and **Operati
 
 ### **TIER 4: Crew-Specific Enhancements (Class 3-4)**
 
-#### J. **The Conductor's Baton (For Elara)** — Class 3 (Empath Amplifier)
+#### J. **The Conductor's Baton (For Ama)** — Class 3 (Empath Amplifier)
 - **Origin**: Zone 2 (Shallows), extracted from "Orchestra Conductor" memory
 - **Form**: Slender wooden baton, worn smooth, tip glows faintly when active
 - **Function**:
-  - Amplifies Elara's Manifestation ability (grow structures faster/larger)
+  - Amplifies Ama's Manifestation ability (grow structures faster/larger)
   - Allows her to "conduct" emotional currents in Ley Lines (redirect flow)
   - Can "harmonize" dissonant psychic fields (calm storms, soothe NPCs)
 - **Limitation**:
   - Requires both hands (can't multitask)
-  - Drains Elara's emotional reserves rapidly (max 10 minutes use)
+  - Drains Ama's emotional reserves rapidly (max 10 minutes use)
   - Fragile (made of drift-wood, not combat-rated)
 - **Tactical Use**: Environmental manipulation, de-escalation, creating cover
 - **Lore**: A conductor who died mid-performance; his "the show must go on" obsession became a tool of control
-- **Power Level**: High (Elara-specific)
+- **Power Level**: High (Ama-specific)
 
 ---
 
@@ -450,7 +450,7 @@ All suggested artifacts adhere to established world rules:
 1. **Echo-Locket** (Prevents Ego Death)
 2. **Smoke-Signal Flare** (Emergency Extraction)
 3. **Gossip's Ear** (Reconnaissance)
-4. **Conductor's Baton** (Elara's utility expansion)
+4. **Conductor's Baton** (Ama's utility expansion)
 
 ### Medium-Term Development:
 5. **Orphan's Shroud** (Stealth missions)
