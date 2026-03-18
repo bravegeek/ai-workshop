@@ -132,7 +132,36 @@ From the Silt's perspective — if perspective is even the right word — the Bl
 
 ---
 
-## VIII. Open Questions
+## VIII. The Deep as Ecosystem
+
+The Deep is not sentient. It does not read divers, evaluate them, or respond to intention. It responds the way an ecosystem responds — not to what a diver means, but to what they *are* and what they *do*. A foreign organism moving through terrain.
+
+This reframes the Immune System precisely. Not customs enforcement with judgment — biological immune response. No evaluation. Self-pattern, not-self pattern, respond accordingly. The diver doesn't trigger it by performing badly. They trigger it by being there. The question is how much signal they generate, and whether they can move in ways that minimize it.
+
+The traditions reread through this frame:
+- **Lorcan's ink** marks him as self-pattern. Not because the Deep agrees he belongs — because the ink produces a signal the immune response reads as not-foreign.
+- **Ama's tradition** reduces not-self signal. She doesn't declare herself self. She makes herself small enough not to register.
+- **IO's Translation Scripts** are maximally disruptive — forcing local physics to obey different rules. She generates high signal. The logic field absorbed the friction. Without it, that approach becomes dangerous fast.
+
+### The Zones as Terrain
+
+Not bands with thresholds. Biomes with gradients. The transition between zones is the way forest becomes moorland — you notice you're somewhere different before you can say when it changed.
+
+Each zone has its own substrate composition, its own dominant organisms, its own ecology shaped by what accumulated there over geological time. What lives in narrative-dense shallow substrate differs from what lives in pre-linguistic mid-depth differs from what lives in pre-animal Silt. Different pressures, different forms, different relationships.
+
+A diver moves through these zones as a foreign body. The ecosystem responds accordingly — not with hostility, with indifference and function. The friction is the friction of being wrong for the environment, not the friction of being hunted.
+
+### Ecology — Broad Categories
+
+**Parasites** feed on the energy of memory and experience without contributing to it. Specifically: on the *act of remembering* — the psychic energy of a mind holding an experience. Not stealing the memory. Feeding on the holding. A diver who keeps returning to the same memory in the Deep feeds one without knowing it. Progressively harder to surface from that memory. Not because something is trapping them — because something is very comfortable there.
+
+**Symbionts** evolved alongside conscious minds and return something in exchange for proximity. Lorcan's warden ink involves relationships with these — the declaration is partly to the Deep's culture and partly to specific entities the clan tradition had established terms with. Some shamanic practices were cultivating these relationships intentionally without fully understanding the mechanism. The diver gets better navigation, early warning, something that reads the immune response and signals before it mobilizes. The symbiont gets proximity to a rich, active mind moving through the Deep. Barnaby may be the most developed symbiont the story already contains.
+
+**The Immune Response** in the biological sense — entities or processes that distinguish self-pattern from not-self pattern and respond to the latter. Not a single organism. An ecological function distributed across the Deep's culture, expressed differently in different zones and different substrate types. Inside an oubliette it enforces the genre logic of that specific pocket — the immune response of a horror oubliette looks different from a grief oubliette's because the substrate differs.
+
+---
+
+## IX. Open Questions
 
 ### Caerulite in Dreamer Circles
 IO discovered Caerulite independently — it is not a difficult observation for the gifted. Harvesting it is known practice in Level 2 dreamer circles. What IO contributed was *application*: the communications technology, the comms integration, the understanding of resonance properties. The substance itself is not secret. The crew's advantage is not knowledge monopoly — it is depth. Shallow Caerulite is available to anyone who can reach Zone 1–2. The crew's deep-harvested product is categorically more potent and more precise than anything a surface practitioner can obtain.

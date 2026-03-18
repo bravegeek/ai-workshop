@@ -131,7 +131,21 @@ She is receiving information about the thing trying to reabsorb the thing giving
 
 TSG is not unique. The Silt contains more of them — dormant aggregations, each formed over geological time from whatever accumulated in their particular substrate and location.
 
-Open questions:
+They are not cultural entities. They are primal ones. TSG's pull toward unity is chemotaxis — 3.5 billion years old. The other Sleepers would be the same order of thing: drives that predate nervous systems, predate multicellularity, predate the distinction between self and environment. Not gods in any theological sense. Aggregations of what life has always done, compressed until it has mass.
+
+**Candidate drives — what other Sleepers might be:**
+
+*Persist* — the oldest drive. The thing that made the first replicating molecule copy itself. Not survival in the animal sense — something more fundamental. The refusal to stop. Accumulation of duration. Everything alive carries this. An aggregation of that drive at geological scale would be vast, dense, and almost impossible to read as anything recognizable. It just *continues*.
+
+*Consume* — not predation, which is late and specific. The earlier thing: the absorption of environment into self, the boundary between inside and outside as permeable and negotiable. Older than mouths. A Sleeper built from this wouldn't feel threatening — it would feel like appetite, directionless and total.
+
+*Divide* — the drive toward multiplication, differentiation, complexity. Life wanting to become more kinds of life. Not growth exactly — proliferation. The pressure toward variation. A blooming of this would look like the Psychosphere itself becoming generative, producing new forms faster than the ecology can stabilize.
+
+*Respond* — the drive that made the first organism flinch. Pure reactivity, before there was anything to react *with* in a meaningful sense. The hardest to navigate because it has no orientation the way TSG does. It responds to whatever touches it, amplified.
+
+These are candidates, not canon. The specific character of each Sleeper should emerge from what the story needs, not from a designed catalogue.
+
+**Open questions:**
 - Are they connected to each other, or independent aggregations that happen to share a substrate?
 - Do they share the same fundamental drive, or are they variations — different primal pressures that accumulated differently?
 - The conditions that caused TSG to bloom (density, cycle, fragment proximity) may not stay specific to this location and moment. Whether other sleepers can bloom under different conditions, or whether something about this moment is generative, is not yet established.
