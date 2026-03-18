@@ -1,8 +1,14 @@
-# IO — Proctor IO (Isolde Mordaunt) — "The Vector"
+# IO — Proctor IO (Inès Mordaunt) — "The Vector"
+
+**Full name:** Inès Mordaunt. *ee-NES*. French spelling with the accent — the name carried by a specific kind of French-Algerian family: assimilated enough to be handed a French name, distinct enough that the accent is still there. The Mordaunt name opens doors. The face complicates it. IO learned early how to enter a room before the room had time to decide.
+
+**The nickname:** *IO* — two letters, clean, doesn't invite questions about origin or pronunciation. Nia started calling her that. It stuck because of the way Nia said it — *EE-oh*, quick and warm and certain. After Nia, nobody who uses it the right way is left. She kept it anyway. The full name is on documents she doesn't look at.
+
+**The mythological register:** IO in Greek myth is a priestess of Hera transformed by Zeus and left to wander the earth in an altered form, unable to return to what she was. She probably didn't choose the echo consciously. It fits regardless.
 
 **Role:** Cartographer / Techno-Mage / Team Architect
 **Archetype:** The Clinical Operator. She hides her wounds behind precision and glass.
-**Visuals:** Sharp suits, corneal implants (monocle), haptic gloves. Always checking a mechanical watch.
+**Visuals:** Dark eyes, dark hair, brown skin. Sharp suits as armour against a specific kind of dismissal. Always checking a mechanical watch.
 
 ## Motivations
 
@@ -11,7 +17,9 @@
 
 ## Backstory
 
-A brilliant neuro-chemist who "discovered" the Caerulite-Shards (Indigo Fungus) — though how much of that discovery was original research and how much was following a path her ancestors already walked is an open question. She grew up with a famous name and no money. The Mordaunt name opened doors — schools, circles, dinner tables — but she was performing membership rather than holding it, and she knew it early. The money had been gone for generations, the education paid for by reputation alone, and the people she sat next to never noticed the difference because she made sure they didn't.
+A brilliant neuro-chemist who "discovered" the Caerulite-Shards (Indigo Fungus) — though how much of that discovery was original research and how much was following a path her ancestors already walked is an open question. French-Algerian, early thirties. She grew up with a famous name and no money. The Mordaunt name opened doors — schools, circles, dinner tables — but she was performing membership rather than holding it, and she knew it early. The money had been gone for generations, the education paid for by reputation alone. The people she sat next to never noticed the difference because she made sure they didn't. The suits, the precision, the careful management of rooms — all of it learned young, specific to what she was navigating: a name that promised one thing and a face that prompted a second look.
+
+She found the Institute with Nia. That's the fact that precedes everything else — not the operation, not the cartography, not Project Lullaby. Two women in their mid-twenties who stumbled into something extraordinary and went in together because it was extraordinary. The operation, the protocols, the crew — all of that came later. What came first was joy.
 
 ## The Name
 
@@ -31,9 +39,11 @@ The Mordaunt fortune didn't dry up — it was taken. The family was scapegoated,
 
 ## Nia's Loss — The Correct Sequence
 
-IO and Nia explored the Institute together informally before any operation existed — early descents, no protocols, no crew, no safety infrastructure. Nia's Caerulite exposure happened during those first explorations. IO watched her thin progressively and didn't stop it in time, or didn't recognise what she was watching until it was too late. One morning Nia walked out. No note. Just gone. *The protocols that now govern every dive exist because of Nia. Nia never got the benefit of them.*
+IO and Nia found the Institute together — two women in their mid-twenties, no map, no framework, just the pull of something extraordinary under the city. Early descents, no protocols, no crew, no safety infrastructure. That period wasn't an operation. It was discovery. It was the best time.
 
-**The operation was built after.** The cartography, the salvage, the crew, the Underworks infrastructure — all of it is the scaffold IO needed to go deep enough to find her sister. Project Lullaby isn't a hidden mission inside a real operation. The real operation is Project Lullaby wearing a business suit. IO built the Batcave to rescue one person and told herself it was something else. See `stories/io_prequel.md`.
+Nia's Caerulite exposure happened during those first explorations — before either of them understood what thinning was, before IO had built any system to measure or manage it. IO watched her thin progressively and didn't stop it in time, or didn't recognise what she was watching until it was too late. One morning Nia walked out. No note. Just gone. *The protocols that now govern every dive exist because of Nia. Nia never got the benefit of them.*
+
+**The operation was built after.** The cartography, the salvage, the crew, the Underworks infrastructure — all of it is the scaffold IO needed to go deep enough to find her sister. Project Lullaby isn't a hidden mission inside a real operation. The real operation is Project Lullaby wearing a business suit. IO built the Batcave to rescue one person and told herself it was something else. What she doesn't examine: she also couldn't leave. The Institute is where Nia was. It is the last place she was Inès. See `stories/io_prequel.md`.
 
 ## The Operation
 
@@ -41,7 +51,7 @@ IO preys on the rich. Corporate secrets extracted from the Deep and sold. Caerul
 
 **Inadvertent Psychosphere Excursions (IPEs):** A secondary revenue stream she created by selling the risk. Wealthy recreational Glow users occasionally slip through the thinned barrier into the Psychosphere and can't find their way back. The crew retrieves them. The families pay. IO knows the thinning effect and decided not to look at it. For a while, this holds.
 - **The first face:** A stranger's kid. Mostly intact, minor scarring. IO writes it as acceptable. She almost believes it.
-- **The second face:** An old family friend — old money, one of the good ones, someone IO remembers as a gap-toothed girl who was the only person who ever beat her at Mario Kart. Her successful kid is in trouble. The friend called in a favor based on whispers and a polished version of what IO does. She doesn't know IO is three steps up the chain from why her kid was vulnerable. IO retrieves the kid. Takes the payment. Watches her friend hold her child. Doesn't tell her.
+- **The second face:** An old family friend — old money, one of the good ones, someone IO remembers as a gap-toothed girl from the years when the Mordaunt name still got her into those houses. Her successful kid is in trouble. The friend called in a favor based on whispers and a polished version of what IO does. She doesn't know IO is three steps up the chain from why her kid was vulnerable. IO retrieves the kid. Takes the payment. Watches her friend hold her child. Doesn't tell her.
 - **The response:** IO raises her prices. Narrows the distribution. Tells herself she just needs to target the bad ones more precisely. This is horror at herself wearing the shape of a mission — the same conversion she always makes. The grief arrives, she gives it a purpose, and the purpose lets her keep moving.
 
 ## The Pattern

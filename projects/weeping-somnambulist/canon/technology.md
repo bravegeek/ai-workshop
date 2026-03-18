@@ -14,7 +14,7 @@
 ### 2. The Techno-Mage Loadout (IO's Kit)
 IO bridges the gap between Dream-Logic and physical law.
 *   **The Deck (The Grimoire)**: A brass-bound instrument with fluid-pump keys. It runs "Translation Scripts"—notation scored into compressed symbolic language—that force dream-physics to obey rational rules.
-*   **The Monocle (Mage-Sight)**: A multi-lens goggle with corneal implants. It renders the dream as a **wireframe of cold light**, stripping away illusion to expose the underlying structure.
+*   **The Monocle (Mage-Sight)**: A multi-lens optical instrument. It renders the dream as a **wireframe of cold light**, stripping away illusion to expose the underlying structure.
     *   **Anti-Mesmerism:** The Monocle filters the Eye's gaze, preventing the user from falling into the "Symmetry Trance."
 *   **The Gauntlet (The Wand)**: A haptic glove allowing direct interaction with dream-matter. She can physically grasp and reposition small dream objects, or mirror a structure from one surface to another.
 
