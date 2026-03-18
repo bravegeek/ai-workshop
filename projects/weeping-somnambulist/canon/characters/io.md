@@ -67,4 +67,3 @@ The cartography, the salvage, the operation, the precision — all of it is arch
 ## Capabilities
 
 - **Techno-Magic:** Uses the Deck to run Translation Scripts — notation scored in compressed symbolic language — that force dream-physics to obey rational rules.
-- **Mage-Sight:** Sees Ley Lines as a wireframe of cold light.

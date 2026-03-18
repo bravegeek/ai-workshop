@@ -14,7 +14,7 @@
 ~~- **Wet-Rigs**~~ ✓ removed
 ~~- **Seed-Core**~~ ✓ replaced — now the **Witness** (crew term) / **Reliquary** (Architect term). Mnemonic object personally significant to the diver. Significance is the binding agent. Accumulates change with each carry. See `canon/technology.md`.
 ~~- **Storm-Forging**~~ ✓ resolved — historical process, no longer operational. The Eye acted as stop bath; without it development runs uncontrolled. Attempting it post-reintegration produces unpredictable results. See `stories/arc2.md` — the accidental development scene.
-- **IO's Monocle**: still needs depth — "wireframe of cold light" is the visual, but what does it actually perceive, and what does it cost IO to use it?
+~~- **IO's Monocle**~~ ✓ resolved — perception developed (ley lines as current, oubliette shells as membrane integrity, memory density as topography, emotional charge translated to force vectors, Immune System as pre-manifest loading, Eye's gaze as attenuated pressure). Cost: cannot receive the Psychosphere empathically; extended use has changed her perceptual baseline; the same tool she built to find Nia prevents recognising Nia by feel; bleed into surface vision after deep dives. See `canon/technology.md` Section I, Part 3 and `canon/characters/io.md`.
 
 ---
 
@@ -37,11 +37,10 @@ The Eye was drawn to Ren by affinity (her epistemic profile rhymes with how an a
 ~~### Nia — Character Note~~ ✓ see characters.md
 
 ### Sleeping Gods — The Deeper Cosmology
-Core shape established: primal aggregations in the Silt, too old for personality, predating the architecture that makes motivation legible. Legends are misreadings of their signal. TSG is one of many. The Eye is a fragment of TSG. Remaining:
-- What are these entities beneath the human interpretation? "Unity" is a reading — what is the drive underneath?
-- Which legends are surface traces? Select a few that do narrative work, not a comprehensive list.
-- The other sleepers: still dormant, but the conditions that caused TSG to bloom may not stay specific to this location. Does the crew ever learn this?
-- What ended previous bloomings?
+Core cosmology document written: `canon/cosmology.md`. Covers drive beneath "unity" (chemotaxis model), full spectrum of human interpretations (unity/community/conquering and beyond), loss-of-self question, legend survival bias, Eye as ongoing archive and reintegration problem, other sleepers. Remaining:
+- Which specific legends are surface traces? Select a few that do narrative work, not a comprehensive list.
+- The other sleepers: do they share the same drive or are they variations? Does the crew ever learn about them?
+- What ended previous bloomings? (Complete records may be inside the Eye.)
 
 ### Inanimate Characters — Develop Further
 The Eye now has its own document (`canon/the_eye.md`) covering its nature as a TSG fragment, the archive mechanic, and Ren's connection. Remaining open questions:
