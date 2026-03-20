@@ -79,7 +79,32 @@ The water mechanic was discovered independently across cultures; the Architects 
     *   **Passive (The Oracle):** The Eye exists outside linear time. It leaks "Ghost Files" onto the HQ instruments — corrupted records of dives that haven't happened yet, blueprints for technology not yet invented. Unreliable, difficult to interpret, but no one else has precognitive data at all.
     *   **Active (The Gaze):** Retracting the lead eyelids releases **Lethe-Light** into the Cistern. It bleaches whatever is most active in the minds of anyone exposed. Used surgically for the Eye Protocol (Caerulite treatment). Unprotected exposure causes progressive memory loss — the mechanism that killed the Architects.
 
-### 4. Chronometry
+### 4. IO's Resonance Collection
+
+IO's operative toolkit for the Deep. Not a single device — a curated set of instruments, some built by her, some inherited from the Architects, each tuned to reduce impedance mismatch between her signal and the Deep's substrate at a specific depth or zone character.
+
+**The underlying mechanic — impedance matching and resonance:**
+The Deep at each depth has a characteristic resonant profile shaped by what accumulated there over geological time. Narrative-dense shallow zones have one character; pre-linguistic mid-depth another; pre-animal Silt something else entirely. IO's signal is wrong for all of it — she generates friction by being precisely herself in an environment shaped by everything that isn't her. The tools don't change what she is. They add harmonics that reduce destructive interference, making her signal *less wrong* in a specific, controllable way. The ecosystem's response becomes predictable rather than undifferentiated.
+
+Using the wrong tool for the depth doesn't just fail — it can worsen the interference, add dissonance, make her more visible to the immune response rather than less. Tool selection is consequential.
+
+**Pre-dive selection:**
+Ren reads the Hum and provides a substrate profile — zone character, dominant frequency, what's active nearby. IO selects against it: what's down there, what frequency is dominant, what she used in similar conditions previously, what it cost. The selection draws on instrument knowledge, accumulated experience, and pattern recognition built through years of reading the Deep through the monocle. She is already most of the way through the dive before she enters the water.
+
+**Failure mode:**
+She reads conditions correctly, selects appropriately, goes in — and the substrate shifts. Blooming reorganization, or she's descended past what the pre-dive profile covered. Now she's mid-depth with tools calibrated for something that no longer matches. She cannot surface to reselect. She works with what she has. Improvisation is what she's worst at. This is the specific vulnerability her preparation is designed to avoid and cannot always prevent.
+
+**The Architect instruments:**
+The Vault contains tools the Architects left — some finished, some mid-development when the dissolution took the maker. Some are tuned to frequencies the crew has never navigated: depths the Architects reached, things they found and never documented. IO can read the calibration without fully understanding what it was designed for. She brings instruments on instinct. They do unexpected things.
+
+Some of these respond better to her than to anyone else on the crew — not because of standing, but because her resonant profile is descended from the people who made them. The calibration was built around a Mordaunt nervous system. She picks up a tool that has been in the Vault for 150 years and it fits in a way that is slightly, unnervingly, as if it was made for her. Because it was.
+
+**What it isn't:**
+Not credentials. Not standing. Not a claim the Deep evaluates and accepts. The ecosystem doesn't recognize her as belonging — it encounters a specific, legible signal and responds to that rather than to the general noise of a foreign organism. She is always a foreign organism. The tools make her a *known* one, briefly and locally.
+
+---
+
+### 5. Chronometry
 *   **Mechanical Chronometers:**
     *   **Necessity:** Electronic clocks fail near the Eye. Time Dilation (1 min = 1 hour) makes internal time-sensing impossible.
     *   **Design:** Over-sized, brass, wind-up clocks worn on the forearm.

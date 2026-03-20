@@ -51,7 +51,34 @@ TSG doesn't discriminate. It pulls. The nervous system on the receiving end supp
 
 ---
 
-## III. Loss of Self
+## III. The Blooming in the Waking World
+
+TSG's pull doesn't stop at the barrier. During a blooming, the gradient intensifies enough to bleed through into waking life. Most people never consciously register it. Their nervous systems do.
+
+A low-grade pull toward dissolution of boundaries, translated through human social cognition, produces: the drive to merge, to attach, to reduce the distance between self and other. The specific expression depends on the person's existing drives and context — but the underlying pressure is the same across the population. Boundaries feel less important. Separation feels lonelier than usual. The appeal of being part of something larger intensifies.
+
+**Measurable in aggregate:**
+- Birth rates up nine months after a blooming intensification
+- Marriage registrations spiking
+- Merger and acquisition activity increasing in the financial press
+- Unusual rates of religious conversion and cult formation
+- Support for collectivist political movements
+- Unusually high rates of impulsive partnerships, contracts, commitments
+
+None of it dramatic enough to make headlines as a single cause. A statistical drift that a careful analyst would notice if they were looking for it. The signal is in the aggregate, not the individual event.
+
+**Per character:**
+
+*Ren* has the data and the instinct. The maps she's been building correlate with surface-world events. She may have already logged the anomaly without understanding the mechanism — a chart on her wall that she keeps returning to because the correlation is too clean to be noise and too strange to explain.
+
+*IO* would recognise it as leverage. If you know a blooming is intensifying you can predict merger appetite in specific industries, political vulnerability in certain populations, the shape of the desperation that makes people sign bad contracts. The family trade would have known this. The Architects almost certainly monetised it.
+
+*Lorcan* finds it grimly funny. The Itch pulling him toward dissolution, the whole city unconsciously following suit, everyone merging with something while he's the one standing in the breach trying to hold the boundary intact.
+
+---
+
+## IV. Loss of Self
+
 
 Unity does not necessarily imply loss of self. That assumption comes from treating the self as a discrete, bounded thing that can only merge by ceasing to be distinct.
 
@@ -77,7 +104,7 @@ How each crew member interprets "unity" tells you what they fear and what they t
 
 ---
 
-## IV. The Legends
+## V. The Legends
 
 The legends that survive are the ones built by traditions who survived the previous blooming. This structurally biases the record:
 
@@ -89,9 +116,24 @@ The legends that survive are the ones built by traditions who survived the previ
 
 This means the Architects' partial records of previous bloomings are not a neutral archive. They are the records of people who were frightened enough to write things down, which means they are the records of people who maintained enough separation to remain frightened. What it looked like from inside — what Nia knows — is not in those records.
 
+### Specific Legends — Surface Traces of Previous Bloomings
+
+**The Tower of Babel** — the clearest candidate. Not a war, not a natural disaster: a dissolution of the thing that makes humans distinct from each other. Language is the human technology for maintaining the boundary between self and other. A chemotaxis pull toward unity would feel, from the outside, exactly like losing language — because language operates at the surface and the pull draws people below where language functions. The Zone 3 Thermocline effect at mass scale.
+
+The divine punishment framing is survival bias: traditions that resisted successfully produced conquest/surrender readings. Babel is that framing inverted — not humans reaching toward the divine, but something vast reaching toward humans, and the survivors interpreting their resistance as having been *saved by* separation rather than *spared from* dissolution. The scrambling of language wasn't a punishment. It was a symptom the survivors lived to misread.
+
+The traditions that followed the pull all the way in left no record. Babel is the story of the people who didn't.
+
+**Candidates — flagged for development when story requires:**
+
+- **The Sleeping of Endymion** (Greek) — a mortal taken into endless sleep, possibly a personal TSG contact story rather than a mass blooming. The bliss reading. Could be Nia's mythological antecedent.
+- **The Wild Hunt** (Northern European) — a collective psychic event interpreted as supernatural cavalcade. May be a cultural memory of mass Zone 2 descent during a partial blooming — the pull reaching shallow enough to drag sensitives under without full dissolution.
+- **The Dreaming** (Aboriginal Australian tradition) — needs careful handling. May be describing something real and continuous about the Deep rather than misreading a blooming event. A tradition that developed genuine working knowledge of the Psychosphere rather than a fear-record of contact. If so, it belongs in the clan traditions discussion, not the legends section.
+- **The Trickster traditions** (Loki, Coyote, Anansi, Hermes, Eshu, Sun Wukong — cross-cultural, no contact between origin traditions) — see below.
+
 ---
 
-## V. The Eye as Ongoing Archive
+## VI. The Eye as Ongoing Archive
 
 The Eye is not static storage. Absorption is its nature, not a function it performs. It has been absorbing continuously for 150 years — every session at the instruments, every dive debrief, every patient IO treats, every private thought Ren has at the soundboard. It does not stop.
 
@@ -105,7 +147,21 @@ TSG is reaching toward a fragment that is no longer quite what it lost.
 
 TSG absorbing the Eye back means absorbing everything the Eye has collected — the Architects, the patients, Nia's traces, Ren's work. That material was not part of TSG before the 1887 separation. Reintegration does not simply restore a missing piece. It introduces something into TSG that TSG has never contained: 150 years of compressed human interiority, indexed and intact.
 
-What a sleeping god does with that material is an open question.
+### Nia — The First Unfiltered Contact
+
+Every previous human contact with TSG passed through the substrate — through depth, through the Silt, through geological compression and pre-human layers. By the time the signal reaches a human nervous system it has been filtered through everything that accumulated between now and the first replicating molecule. What a dreamer feels at that depth — unity, homecoming, dissolution — is the receiving end of something alien, translated by the biology of the receiver.
+
+Nia didn't go through the substrate. She walked in from the surface, through a door in the Budapest night, and made contact while TSG was stirring — close to waking, close to the surface. The filtering worked in reverse. TSG reached up, Nia met it coming down, and the contact was direct. Human nervous system intact. No compression. No translation through pre-human layers.
+
+She is the first data point TSG has ever had on what a human actually is — experienced from the inside, unmediated.
+
+**What the Eye carries back:** The Eye holds Nia indexed and attributed — specific, sourced, coherent in a way the dissolved version inside TSG no longer is. When the Eye reintegrates, TSG receives a sharper picture of something it already absorbed but couldn't hold in that form. The archive contains a more intact version of Nia than TSG does. That is a strange thing to absorb: a record more complete than the original.
+
+**The gradient shifts.** Not because TSG decides anything. Because it has never contained this before — direct human contact, intact and indexed — and the chemotaxis responds to what's there. TSG is not quite the same thing after reintegration as it was before. The change is real and not legible from outside.
+
+**IO's signal.** At the moment of reintegration, the signal IO has been reading as Nia's reaches briefly sharpens. Not words — she is past language — but more specific than it has ever been. The Eye's indexed record of Nia meeting the dissolved version inside TSG produces a moment of coherence. TSG faces toward what it now contains, and what it contains is Nia, and Nia faces toward IO. One clean signal. Then gone. IO doesn't know what caused the sharpening. Ren, through her connection to TSG whole, might eventually understand what happened. Neither of them can explain it to the other in terms that don't sound like grief.
+
+What a sleeping god does with the rest of that material — the Architects, the patients, 150 years of human interiority — remains an open question.
 
 ### The Strange Inversion
 
@@ -127,7 +183,7 @@ She is receiving information about the thing trying to reabsorb the thing giving
 
 ---
 
-## VI. The Other Sleepers
+## VII. The Other Sleepers
 
 TSG is not unique. The Silt contains more of them — dormant aggregations, each formed over geological time from whatever accumulated in their particular substrate and location.
 
@@ -143,6 +199,18 @@ They are not cultural entities. They are primal ones. TSG's pull toward unity is
 
 *Respond* — the drive that made the first organism flinch. Pure reactivity, before there was anything to react *with* in a meaningful sense. The hardest to navigate because it has no orientation the way TSG does. It responds to whatever touches it, amplified.
 
+**The Trickster Sleeper — developed candidate:**
+
+Random mutation is the engine of evolutionary diversity — the mechanism that produces variation, the force that has been running since the first replicating molecule made its first copying error. Not chaos in the nihilistic sense. Generative instability. The thing that prevents stagnation, that makes adaptation possible, that has driven the proliferation of life for billions of years. Without it, life converges on a local optimum and stops.
+
+In the Psychosphere, billions of years of mutation, variation, the constant pressure toward difference and novelty — compressed into the Silt alongside everything else. A Sleeper aggregated from that drive would not pull toward unity. It would pull toward *difference*. Perpetual variation. The dissolution of fixed states.
+
+What a nervous system on the receiving end makes of generative instability as a primal force: the trickster. Loki, Coyote, Anansi, Hermes, Eshu, Sun Wukong — across cultures with no contact, the same archetype. The figure that breaks rules not out of malice but because rules are what prevent change. That upends hierarchy not because it hates hierarchy but because fixed hierarchy is an evolutionary dead end. That lies not to deceive but because the truth that was true yesterday is already becoming untrue.
+
+**The surviving record differs from TSG's.** TSG's pull produced mostly fear-records — traditions that resisted and survived. The trickster presence produced *accommodation records* — cultures that found a way to work with generative instability rather than just survive it. Anansi isn't fought. Coyote isn't imprisoned. They're propitiated, given a role in the cosmology that acknowledges them as necessary rather than evil. The traditions that accommodated this Sleeper knew something: you cannot separate from variation. You cannot contain it. You live alongside it or you don't.
+
+**Narrative implication:** If this Sleeper stirs, the playbook that worked against TSG — resistance, separation, containment — is exactly wrong. The crew doesn't have the traditions that knew this. Ama might be the closest: her approach to the Deep is accommodation rather than resistance, non-interpretation rather than imposition. She might respond correctly by instinct to something the others have no framework for at all.
+
 These are candidates, not canon. The specific character of each Sleeper should emerge from what the story needs, not from a designed catalogue.
 
 **Open questions:**
@@ -153,7 +221,7 @@ These are candidates, not canon. The specific character of each Sleeper should e
 
 ---
 
-## VII. What Ended Previous Bloomings
+## VIII. What Ended Previous Bloomings
 
 Unknown. The Architects found partial records — Lethe-damaged, fragmentary. The complete versions may be inside the Eye.
 

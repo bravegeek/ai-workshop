@@ -13,6 +13,16 @@ Two girls who always went further in than they were supposed to. Naïa a half-st
 
 The Institute wasn't a discovery. It was a bigger version of the place they always found. The dynamic didn't change — it just scaled up. The woods became the Psychosphere, and one day Naïa went far enough that Inès couldn't follow.
 
+## The Mordaunt Attunement
+
+The family's relationship to the Deep predates Budapest — generations of proximity and practice that left biological traces, passed forward without the framework that would make them legible. Subsequent Mordaunts felt things they couldn't explain and had no tradition to put them in. See `canon/characters/io.md` — The Mordaunt Attunement.
+
+Nia and IO carried the same inheritance. It expressed differently. IO's became methodology — the Architect stance reconstructed from residue, precise and imposing. Nia's became permeability. The barrier was already thin before she touched Caerulite, and she never tried to reinforce it. She didn't know there was anything to reinforce. She just lived at the surface of things and the Deep was always there, just below.
+
+This is why her thinning happened faster than IO's. Not just Caerulite exposure — a barrier that was already thin, in someone who wasn't paying attention to it, eroding toward something she was constitutionally oriented toward.
+
+---
+
 ## Who She Was
 
 Nia had a specific quality that is hard to name: she paid full attention. Not strategically, not selectively. Whatever was in front of her got all of her. This made her extraordinary in the Deep — she didn't perform emotional states to navigate, she just felt them, completely, and the Psychosphere treated her like she belonged. It also made the Caerulite-Shard connection intoxicating in a way it wasn't for the others. She wasn't addicted to the drug. She was addicted to the feeling of being fully heard by something vast.
@@ -32,6 +42,16 @@ She has found her bliss. Living inside the experience of something that feels ev
 ## The Misreading
 
 IO and the crew read the signal as distress — something held, something reaching, something that wants out. This is a reasonable interpretation. The evidence supports it. Nia is past the point where the distinction between *imprisoned* and *arrived* matters to her, and past the point of being able to correct it even if it did. She is not trying to redirect IO's interpretation. The warmth leaks through regardless.
+
+## The First Unfiltered Contact
+
+Every human contact with TSG before Nia passed through the substrate — depth, Silt, geological compression, billions of years of pre-human accumulation. The signal arrives filtered. What a dreamer feels is the human nervous system's translation of something alien. Unity, homecoming, dissolution — all of those are the receiving end, not the thing itself.
+
+Nia didn't go through the substrate. She walked in from the surface and met TSG while it was stirring, close to waking. Direct contact, human nervous system intact. No compression, no translation through pre-human layers.
+
+She is the first data point TSG has ever had on what a human actually is — experienced from the inside, unmediated. That is not nothing, even at geological scale. The chemotaxis responds to what it contains. TSG after Nia is not quite the same thing as TSG before her.
+
+She probably doesn't know this. It is not the kind of thing you can know from inside it.
 
 ## The Signal at Reintegration
 

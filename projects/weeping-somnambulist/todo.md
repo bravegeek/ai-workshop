@@ -3,19 +3,21 @@
 ## Character Names — Remaining
 
 - ~~**Ama**~~ ✓ renamed from Elara Vance. Trail name Ama, birth name Elara, origin southern China (Yunnan/Guizhou). No surname established or needed for now.
-- **Ren** — no surname established. Short first name, Japanese resonance, cartographer energy. Surname TBD once her background is developed.
+- **Ren** — nickname, short for *Renaissance Fair* (fringe network, stuck). Given name and surname unresolved — reveal when a scene requires it. Eastern European origin (Hungarian, Czech, or Polish) established as intended backstory, held loosely. See `canon/characters/ren.md`.
 
 ---
 
 ## In Progress
 
-### Technology Review (`canon/technology.md`)
+- **`canon/mechanics.md`** — still references Translation Scripts. Needs a pass to align with the Resonance Collection and the ecosystem model.
+
+### ~~Technology Review (`canon/technology.md`)~~ ✓ fully resolved
 ~~- **Sensory-deprivation pods**~~ ✓ removed
 ~~- **Wet-Rigs**~~ ✓ removed
 ~~- **Seed-Core**~~ ✓ replaced — now the **Witness** (crew term) / **Reliquary** (Architect term). Mnemonic object personally significant to the diver. Significance is the binding agent. Accumulates change with each carry. See `canon/technology.md`.
 ~~- **Storm-Forging**~~ ✓ resolved — historical process, no longer operational. The Eye acted as stop bath; without it development runs uncontrolled. Attempting it post-reintegration produces unpredictable results. See `stories/arc2.md` — the accidental development scene.
 ~~- **IO's Monocle**~~ ✓ resolved — perception developed (ley lines as current, oubliette shells as membrane integrity, memory density as topography, emotional charge translated to force vectors, Immune System as pre-manifest loading, Eye's gaze as attenuated pressure). Cost: cannot receive the Psychosphere empathically; extended use has changed her perceptual baseline; the same tool she built to find Nia prevents recognising Nia by feel; bleed into surface vision after deep dives. See `canon/technology.md` Section I, Part 3 and `canon/characters/io.md`.
-- **IO's Translation Scripts** — legacy mechanic, needs replacement. Scripts imply the Deep runs on logic that can be overridden with the right notation — conflicts with the ecosystem model. The stance (Impose) is right for IO's character; the mechanic is wrong. What does Impose actually look like without scripts? Candidates: the Witness warping local substrate through accumulated carried weight; the Deck as precision of attention that briefly forces legibility at a cost; declaration mechanics borrowed from warden tradition without the standing, so it works expensively. Core truth to preserve: IO is always slightly wrong for the Deep, always generating friction, and what she has isn't a workaround — it's tolerance for the cost and the precision to make the friction count.
+~~- **IO's Translation Scripts**~~ ✓ replaced — Resonance Collection. Impedance-matching instruments tuned to specific depth profiles. Pre-dive selection against Ren's Hum reading. Architect tools respond to Mordaunt nervous system. Failure mode: substrate shifts mid-dive, can't reselect. See `canon/technology.md` Section 4 and `canon/characters/io.md`.
 
 ---
 
@@ -40,7 +42,7 @@ The Eye was drawn to Ren by affinity (her epistemic profile rhymes with how an a
 ### Sleeping Gods — The Deeper Cosmology
 Core cosmology document written: `canon/cosmology.md`. Covers drive beneath "unity" (chemotaxis model), full spectrum of human interpretations (unity/community/conquering and beyond), loss-of-self question, legend survival bias, Eye as ongoing archive and reintegration problem, other sleepers. Remaining:
 - Which specific legends are surface traces? Select a few that do narrative work, not a comprehensive list.
-- The other sleepers: do they share the same drive or are they variations? Does the crew ever learn about them?
+- The other sleepers: do they share the same drive or are they variations? Does the crew ever learn about them? Candidate drives documented in `canon/cosmology.md`: Persist, Consume, Divide, Respond.
 - What ended previous bloomings? (Complete records may be inside the Eye.)
 
 ### Inanimate Characters — Develop Further
@@ -123,6 +125,8 @@ Core document written. Remaining:
 - At what point does the Eye protocol become inaccessible — too much structural damage to target precisely?
 
 ### Architects — History & Legacy
+**New framing:** The Architects were not curious Victorians. They were a professional operation scaling up — the Mordaunt family trade formalised at a site they had deliberately secured. This reframes the questions: what specifically were they extracting, who were their clients, what did they find that got them destroyed?
+
 Core framing established: they were not ignorant, not reckless — they were good at this. Years of productive, careful work before 1887. The Caerulite dysregulation was accumulating slowly the whole time, undetectable without instruments they didn't have. Then they captured the Eye fragment — a calculated decision, believed to prevent the next blooming. They had no way to know Lethe-Light would interact catastrophically with years of Caerulite dysregulation. The dissolution was progressive. They kept working as long as they could. Some of what they built — the heptagonal geometry, the tools, the Cistern — was constructed while they were already losing ground. They built something that outlasted them without knowing it would have to. Needs a dedicated session:
 - What specifically did they discover, and in what order?
 - What did they attempt with oubliettes?
@@ -173,3 +177,5 @@ Once the above is resolved, restructure around the Method Actor content as the l
 - ~~Project rename~~ → Weeping Somnambulist; Psyloc → Caerulite; street name Glow
 - ~~Caerulite harvest & extraction mechanic~~ → carrier model, hands in water, fading window, biophoton glow, heart-brain coherence, product hierarchy (tea/crystals/smoked/Shards), cultural traditions, Cistern as engineered sacred spring (see `canon/technology.md` Section II)
 - ~~Seed-Core~~ → replaced with Witness/Reliquary (see `canon/technology.md`)
+- ~~Mordaunt attunement~~ → generational proximity, epigenetic inheritance, framework stripped by the Eye, biology persisting without context. See `canon/characters/io.md`.
+- ~~Mordaunt family trade~~ → exploration first, artifact extraction as trade, secret extraction as revenue model, Budapest as professional upgrade, persecution as capacity-suppression. IO's operation is the same shape rebuilt. See `canon/characters/io.md`.

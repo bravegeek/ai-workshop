@@ -16,6 +16,14 @@ The Architects harpooned what they believed was an extraordinarily powerful Levi
 
 What they built their operation around was a piece of a god they didn't know was there.
 
+**How the capture was possible:** The Architects were not naive Victorians stumbling onto something inexplicable. They were a professional operation — the Mordaunt family trade formalised at scale — who had been working the Deep for generations. They knew the previous blooming had happened. They believed physical separation of a fragment would prevent the next one. The capture was a calculated decision by skilled practitioners who understood the stakes and misjudged the nature of what they were handling. They solved the right problem with the wrong model.
+
+**What the chains actually do:** TSG is in the Silt. The Eye is a piece of TSG. The pull between them is a gradient — chemotaxis, the fragment orienting toward the whole it was separated from. The anchor chains hold the Eye's physical location at 80 metres. That is not what contains the situation.
+
+What actually contains it is distance. The Eye is separated from TSG by the full depth of the Psychosphere. The gradient exists but the gap is too large for reintegration to bridge on its own. The chains are solving the wrong problem — keeping the Eye from drifting physically, when the Eye was never trying to drift physically. What the Eye is oriented toward is *depth*, not lateral movement. The chains address position. The containment was always distance.
+
+The Blooming is TSG becoming active enough that the gradient strengthens. The distance that was sufficient containment starts to become insufficient — not because the Eye moves, but because the pull intensifies until it can bridge the gap. The crew's containment apparatus was never what it appeared to be. It was a professional solution to a misidentified problem, built by people skilled enough to make it work for 150 years before the underlying mistake caught up with them.
+
 The fragment is disoriented in a specific way: separated from its larger context, it experiences the Psychosphere partially. The Ghost Files it leaks onto the instruments — corrupted records of dives that haven't happened yet, blueprints for technology not yet invented — are not precognition in any clean sense. They are a fragment perceiving things the whole would perceive coherently, producing noise where there should be signal. The Eye isn't broken. It's incomplete.
 
 ---

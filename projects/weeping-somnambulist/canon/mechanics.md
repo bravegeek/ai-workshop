@@ -1,7 +1,11 @@
 # Weeping Somnambulist: Mechanics & Physics
 
+**⚠ DOCUMENT STATUS:** This file contains significant legacy content that conflicts with current canon. Correction notes are marked inline. A full rewrite is pending the Zone System redesign session. Do not use this file as a writing reference without checking the notes. See `todo.md` Priority 4.
+
+---
+
 ## I. The Bathymetry of Sleep (Zonal Changes)
-*Note: These zone descriptions are the crew's working model — inherited from Architect-era maps and their own experience in human-origin layers. They do not reflect the psychosphere.md depth model (depth as age and compression, non-human contributions below Zone 3). The zone system needs a full redesign once the Deep-as-character session is complete. See `todo.md`.*
+*⚠ SUPERSEDED: The five-band model below is the crew's inherited working model — too mechanical, reads like a game rulebook. The psychosphere.md depth model (depth as age and compression, zones as biomes not bands, gradient not threshold) replaces this. Full redesign pending. See `canon/psychosphere.md` Sections III–IV and `todo.md` — Zone System.*
 
 As a Dreamwalker descends, the character of experience changes. These are the crew's reliable indicators of depth.
 
@@ -115,19 +119,12 @@ IO does not do things halfway. Three layers of protection against a diver return
 - The cards cannot be memorized or anticipated: fresh draw each dive. What's tested is not recall but perceptual framework. Someone returning under deep Narrative Capture perceives the cards through the role they're still wearing. The mismatch is usually obvious to Ren, who holds the baseline.
 
 **Barnaby.** The informal third layer. He has known the crew long enough to recognise their psychic signatures. He notices when the person who came back isn't quite the person who went in — not through analysis but through the same instinct that tells a dog something is wrong before anyone else in the room knows it. He cannot be fooled by a performance that satisfies the image match. Whether he communicates what he notices, and how, is still being developed.
-*   **Entity:** **Psychic Lampreys** (Deep Parasites).
-*   **Behavior:** They are drawn to high-density logic fields. They latch onto the Leviathan's Eye like barnacles to feed on the Indigo current.
-*   **Symptom:** As they feed, the HQ's "Reality Buffer" thins. Walls may become translucent, gravity may flicker, or the "Folding Rooms" may begin to compress unexpectedly.
-*   **Treatment:** Physical removal (The Barnacle Scrape) using non-conductive tools.
+*⚠ LEGACY: Psychic Lampreys / Barnacle Scrape — early draft content, not developed into current canon. The Eye is a TSG fragment, not a Leviathan, and does not attract lampreys in this way. Discard or redevelop if ecology session produces something compatible. See `todo.md` Priority 3 — Ecology.*
 
 ### 4. Artifact Translation
-*   **The Schema-Plate Principle**: To bring an item back, you must "Capture" its code on lead-glass plates.
-*   **The Gestation Cycle (The Cistern)**:
-    *   **Development**: Plates are submerged. Silt accretes onto the fractal etchings.
-    *   **Seasoning (Ontological Cooling)**: Objects must "cool" in the water until their resonance matches Reality.
-*   **Artifact Density (The Diamond Theory)**:
-    *   **Pressure = Hardness**: The deeper an object is found, the more "compressed" it is by psychic pressure.
-    *   **Deep Artifacts (Hard-Code)**: Indestructible, hyper-real items that impose their own physics on reality.
+*⚠ SUPERSEDED: Schema-Plate Principle replaced by the Witness/Reliquary mechanic. The diver is the carrier — artifact pattern encodes into them during the dive, transferred via the Witness (a personally significant object) on surfacing, developed in the storm-charged Cistern pool. Storm-Forging is now historical — the Eye acted as stop bath; without it development is uncontrolled. See `canon/technology.md` Sections I and III.*
+
+*⚠ NOTE: "Seed-Crucible" below is a legacy term — replaced by the Witness/Reliquary. See `canon/technology.md`.*
 
 ### 3. The Law of Symbolic Legacy (The "Haunted" Tool)
 *   **Rule**: Transformation is not purification. When a memory from the Silt is petrified into an artifact, it retains the *Subconscious History* of its origin.
@@ -153,12 +150,12 @@ The Lantern Crew's survival depends on a precarious balance between keeping know
 ## VI. The Immune System & The Operator (Method Mechanics)
 
 ### 1. The Principle: "The Foreign Body"
-The Deep behaves like a **Psychic Immune System**. It seeks to maintain narrative coherence.
-*   **The Breach:** A Diver entering a memory is a "Foreign Body" (an infection).
-*   **The Response:** If the environment detects an anomaly (e.g., a diver wearing modern clothes in a Victorian memory), it attacks.
-    *   *Mild Response:* "Narrative Friction." Doors lock, NPCs become hostile, weather turns bad.
-    *   *Severe Response:* "Rejection." The floor collapses, gravity reverses, or the diver is forcibly ejected (waking up with a migraine).
-*   **The Camouflage:** "Method Acting" is survival. It is the art of convincing the Immune System that you *belong* in the scene.
+*⚠ PARTIALLY SUPERSEDED: The Immune System does not evaluate, detect, or decide. It responds the way a biological immune system responds — self-pattern vs. not-self pattern, no cognition involved. The diver is not "detected" for wearing wrong clothes. They generate friction by being a foreign organism in an ecosystem. The response scales with the signal they produce, not with their behaviour's legibility. See `canon/psychosphere.md` Section VIII. The Method Actor mechanic below remains valid — camouflage works not because it fools anything but because it briefly reduces the diver's not-self signal.*
+
+The Deep behaves like a **biological immune system** — not a narrative one. It responds to what a diver *is* and what they *do*, not to whether they fit the story.
+*   **The Breach:** A diver entering the Deep is a foreign organism in an ecosystem.
+*   **The Response:** Scales with the signal the diver produces. A diver moving with minimal friction generates minimal response. A diver imposing, extracting, or generating dissonance produces more.
+*   **The Camouflage:** Method Acting works not because it deceives but because it briefly makes the diver culturally legible — reducing not-self signal rather than faking self-signal.
 
 ### 2. Preparation: Tuning the Radio
 We do not prep for every dive. Zone 1-2 (The Shallows) are chaotic enough to allow "Smash-and-Grab" tactics. Zone 3+ requires "Scripting."
@@ -172,6 +169,8 @@ We do not prep for every dive. Zone 1-2 (The Shallows) are chaotic enough to all
     *   *Decision:* "It's a War Zone. Load the 'Medic' and 'Soldier' avatars. Do not break character."
 
 ### 3. The Technomancer (The Stage Manager)
+*⚠ NOTE: "Technomancer" is a legacy role label — current canon uses Ren's specific capabilities (Soundboard, Narrative Extraction, The Hum). The mechanics below are broadly compatible but the framing predates her character development. IO's operative mechanic in the Deep is now the Resonance Collection (impedance-matching instruments, pre-dive selection against Ren's Hum reading) — not Translation Scripts or Techno-Magic. See `canon/characters/io.md` and `canon/technology.md` Section 4.*
+
 The Technomancer stays "Dry" in the HQ, operating the **Soundboard**. They are the lifeline.
 
 *   **The Monitor (Script Stability):**

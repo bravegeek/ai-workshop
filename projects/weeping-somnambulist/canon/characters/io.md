@@ -29,6 +29,42 @@ The historical Mordaunts were a minor English noble family ruined by the 1870 di
 
 The name opened doors. It also marked them.
 
+## The Family Trade
+
+The Mordaunts were dream espionage before they had a name for it. The trade is older than Budapest, older than the Architects, older than any formal practice. It began with the attunement — a family that felt things, dreamed strangely, found thin places — and someone in the line who understood enough to go in deliberately.
+
+**The earliest version** wasn't extraction. It was exploration, artifact recovery, the kind of knowledge that couldn't be obtained any other way. Healing. Pattern recognition from the Deep's accumulated experience. The sort of thing that builds a quiet local reputation over generations. Not wealth. Influence. People came to them.
+
+**The turn:** That reputation attracted patrons who wanted something specific — not wisdom, a *secret*. A competitor's plans. Something held inside a dreaming mind. The family obliged, once, for enough. Found out how easy it was compared to artifact work. Cleaner, faster, no object to smuggle. The target doesn't know they've been visited. No evidence. The artifact work continued. The extraction work became the revenue stream that funded everything else.
+
+**Budapest as inflection point:** They found the confluence and recognised what it was. Suddenly they could go deeper, stay longer, extract more precisely. What was a modest family trade became something that could threaten powerful people. The Architects formalised the practice — the geometry, the tools, the Cistern engineering — because at that scale it needed infrastructure. The wealth accumulated. So did the danger.
+
+**The persecution reread:** They weren't destroyed for knowing something embarrassing. They were destroyed because they had become too good at this, too reliably, for too long. Someone with enough to lose decided the risk wasn't acceptable anymore. The scapegoating was the cleanest solution — a family that couldn't be bought or scared off, by then too established for those approaches to work. The persecution wasn't about a single secret. It was about ending the capacity.
+
+**IO's operation is the same shape.** Corporate targets, better cut-outs, more sophisticated operational security — rebuilt from scratch after seeing what happened when it failed. She targets bad actors and tells herself the class war logic makes it clean. She is running the family trade. She didn't invent dream espionage. She rediscovered it alone and called it something else.
+
+The thing she doesn't fully examine: the family was destroyed for exactly this. She knows the evidence. She has the estate records. She built the operation anyway, with better security, aimed at people who arguably deserve it. Whether that's justice or repetition compulsion is a question she hasn't asked herself directly.
+
+---
+
+## The Mordaunt Attunement
+
+The family's relationship to the Deep predates Budapest. They were already attuned before they found the confluence — the site attracted them because they were the kind of people who find sites like that. When they located the Budapest confluence they recognised what it was, and through careful discovery and deft manoeuvring secured the land the Institute now occupies. That was deliberate. A family that knew what they were looking at and knew how to get their hands on it.
+
+The Architects worked the site, thinned progressively, and the Eye took everything — not just their knowledge but their lived experience of what they were. The institutional memory dissolved with them. The heritage that should have passed down didn't. The family line continued, but the framework went dark.
+
+**What remained: the biology.** Epigenetic changes accumulated over generations of proximity and practice, passed forward without the context that would make them legible. Subsequent Mordaunts had anomalous experiences they couldn't explain — dreams too vivid, places that felt wrong, a persistent sense of something just beneath the surface. No tradition. No framework. The sensitivity running in the blood with no instructions attached.
+
+IO grew up with this and became a neuro-chemist. That is not coincidence — it is the attunement expressing itself as compulsion toward the mechanism she could feel but not name. She built a scientific framework for something her nervous system already knew. When she found the Institute she thought she was discovering something new. She was recovering something that had been hers before she was born, stripped of context by the very thing she now runs her operation around.
+
+The Eye has been absorbing her since she arrived. The thing that took her family's heritage is now indexing hers.
+
+**IO and Nia:** The same attunement, expressed differently. IO's inheritance became methodology — the Architect stance reconstructed from residue, imposing and precise. Nia's became permeability — the barrier was already thin and she never tried to reinforce it. The Deep treated Nia like she belonged because she didn't push back. IO pushes back constantly. The Resonance Collection is, in part, IO trying to engineer what Nia simply was.
+
+**The stolen inheritance, reread:** Destroying the Mordaunts wasn't only about suppressing information. If the attunement is heritable — if what makes a Mordaunt useful at this site is biological as much as cultural — then the persecution was also an attempt to suppress a *capacity*. It didn't work. IO has it anyway. She just had to rediscover it alone, without the framework her ancestors would have given her, in the building that took that framework away.
+
+---
+
 ## The Stolen Inheritance
 
 The Mordaunt fortune didn't dry up — it was taken. The family was scapegoated, positioned as the responsible party in something they didn't cause, by people with enough power to arrange the accounting and enough social gravity to make it stick. The Mordaunts were chosen because they were plausible, isolated, and carried a faintly strange reputation that made them easy to believe the worst of. IO found the evidence in the estate records when she found the Institute. The animosity isn't diffuse class resentment. It's specific, documented, and personal.
@@ -66,4 +102,26 @@ The cartography, the salvage, the operation, the precision — all of it is arch
 
 ## Capabilities
 
-- **Techno-Magic:** Uses the Deck to run Translation Scripts — notation scored in compressed symbolic language — that force dream-physics to obey rational rules.
+- **The Resonance Collection:** IO's primary operative tool in the Deep. A curated set of instruments — some built by her, some inherited from the Architects — each tuned to reduce impedance mismatch between her signal and the Deep's substrate at a specific depth or zone character. She doesn't blend in. She can't. What the tools do is make her *less wrong*, specifically and controllably, so the ecosystem's response is predictable rather than undifferentiated friction.
+
+  Each depth has a characteristic resonant profile shaped by what accumulated there. A tool tuned for narrative-dense Zone 2 creates different harmonics than one tuned for pre-linguistic Zone 4. Using the wrong tool doesn't just fail — it can worsen the interference, add dissonance, make her more visible to the immune response rather than less.
+
+  **Pre-dive selection** is a skilled practice. Ren reads the Hum and hands IO a substrate profile. IO selects against it — not just what's down there but what frequency is dominant, what she used last time in similar conditions, what it cost her. The selection is instrument, accumulated experience, and pattern recognition built from years of reading the Deep through the monocle.
+
+  **Failure mode:** She reads the conditions, selects correctly, goes in — and the substrate shifts mid-dive. Blooming reorganization, or she's gone deeper than the pre-dive profile covered. Now she's mid-depth with tools calibrated for something that no longer matches. She can't surface to reselect. She works with what she has. Improvisation is what she's worst at.
+
+- **The Architect Tools:** The Vault contains instruments the Architects left — some finished, some mid-development when the dissolution took the maker. These are tuned to frequencies the crew has never navigated. IO can read the calibration without fully understanding what it was designed for. A pre-Eye tool calibrated for something in Zone 4 that the Architects found and never documented. She brings it on instinct. It does something unexpected.
+
+  Some of these respond better to her than to anyone else — not because of standing, but because her resonant profile is descended from the people who made them. The calibration was built around a Mordaunt nervous system. She picks up a tool that has been in the Vault for 150 years and it fits in a way that is slightly, unnervingly, as if it was made for her. Because it was.
+
+- **The Witness (accumulated):** IO's Witness has been carried deep, repeatedly, for years. It has accumulated enough carried history that it exerts weight — bending the local substrate slightly around her. Not a tool she activates. A consequence of her history in the Deep. See `canon/technology.md`.
+
+## IO and Nia — The Tool Question
+
+Nia didn't need the tools. Wouldn't have used them. They would have worked against her.
+
+The Resonance Collection exists to reduce interference between a controlling, imposing signal and the substrate. Nia had no controlling signal. Her full-attention quality — the thing that made the Psychosphere treat her like she belonged — meant she generated no friction. The ecosystem read her as self-adjacent rather than foreign. She received completely and the Deep responded in kind. A wetsuit on someone who breathes underwater.
+
+The Mordaunt heritage gave them both the same attunement — thinned barriers, proximity to the confluence from childhood, a nervous system that half-knew the Deep before either of them touched Caerulite. It expressed differently. IO's inheritance became methodology: the Architect stance rebuilt from residue, imposing and precise. Nia's became permeability: the barrier was already thin and she never tried to reinforce it.
+
+IO built increasingly sophisticated tools to do what her sister did effortlessly and without trying. The Resonance Collection is, in part, IO trying to become Nia through engineering. She never could. That is not a failure of the tools.
