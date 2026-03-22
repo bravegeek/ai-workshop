@@ -204,8 +204,8 @@ Core document written. Remaining questions to resolve when stories require them:
 ### Ecology
 Leviathans, Anglers, Mycelium are archetypes. Make them specific to a world built from collective human experience.
 - What does a creature that evolved *here* actually eat, want, fear?
-- How does each relate to the Amber Bleed crisis?
 - How do they relate to the sleeping gods — prey, parasite, descendant?
+- **Eye maintenance mechanic** — the Psychic Lampreys / Barnacle Scrape mechanic was legacy content built around the Eye being a Leviathan; discarded when the Eye became a TSG fragment. The maintenance problem is real (the logic field degrades, the Eye requires ongoing management) but the mechanism needs redevelopment under the current cosmology. What does upkeep of a TSG fragment actually involve?
 - **Research ref:** Florida dumped decommissioned shellfish shells into the Gulf and it restored local ecosystem function — calcium cycle replenishment, reef substrate restoration. Look up the specific program and mechanism. Possible inspiration for how the Psychosphere self-repairs after disruption, or how the crew might restore damaged zones by returning what was extracted rather than just stopping extraction.
 
 ---

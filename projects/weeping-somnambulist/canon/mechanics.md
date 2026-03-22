@@ -142,7 +142,7 @@ The Lantern Crew's survival depends on a precarious balance between keeping know
     *   **The Market**: Buyers (Corporations, Cults) purchase these items for their standalone utility, but they cannot replicate the spatial distortion without their own "Heart of the Storm."
 *   **Mitigation Protocols**:
     *   **(A) The Extraction**: Frantic documentation of the room's murals/secrets before the sale.
-    *   **(B) The Memory-Jar**: Using a "Seed-Crucible" to capture a holographic echo of the room (low fidelity).
+    *   **(B) The Memory-Jar**: Using a Witness/Reliquary to capture a holographic echo of the room (low fidelity).
     *   **(C) The Sacrifice**: Refusing to sell "Deep" items to preserve the HQ's structure, selling only "Shallows" junk to scrape by. This leaves the HQ cluttered and psychically loud.
 
 ---

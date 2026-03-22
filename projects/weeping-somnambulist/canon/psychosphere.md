@@ -120,7 +120,7 @@ The tourist in New York isn't attacked. They're just wrong in a hundred small wa
 
 **Lorcan has standing.** The Indigo Ink doesn't grant access — it marks him as someone the culture has a category for. Not a resident. A known visitor with recognized business. The Deep uses the category the clan gave him.
 
-**IO is always a tourist.** Her Translation Scripts are technically correct and visibly foreign. She moves through the Deep like someone who learned it from a guidebook. This is not a failure — she gets where she's going. But she will never stop generating friction.
+**IO is always a tourist.** Her Resonance Collection is technically correct and visibly foreign — impedance-matching tools that make her *less wrong* rather than locally legible. She moves through the Deep like someone who learned it from a guidebook. This is not a failure — she gets where she's going. But she will never stop generating friction.
 
 ### Regional and Historical Character
 
@@ -147,7 +147,7 @@ This reframes the Immune System precisely. Not customs enforcement with judgment
 The traditions reread through this frame:
 - **Lorcan's ink** marks him as self-pattern. Not because the Deep agrees he belongs — because the ink produces a signal the immune response reads as not-foreign.
 - **Ama's tradition** reduces not-self signal. She doesn't declare herself self. She makes herself small enough not to register.
-- **IO's Translation Scripts** are maximally disruptive — forcing local physics to obey different rules. She generates high signal. The logic field absorbed the friction. Without it, that approach becomes dangerous fast.
+- **IO's Resonance Collection** is maximally disruptive — impedance-matching tools that reduce her not-self signal but cannot eliminate it. She generates high signal. The logic field absorbed the friction. Without it, that approach becomes dangerous fast.
 
 ### The Zones as Terrain
 

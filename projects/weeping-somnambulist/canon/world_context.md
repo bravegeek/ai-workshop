@@ -111,6 +111,6 @@ Everything above depends on the Eye.
 
 Eye offline → no logic field → no Semantic Volume → every artifact-generated room collapses simultaneously, crushing anything inside → no Storm-Forging → no depth anchor → no Orrery → no Hum.
 
-The crew's entire operation runs on one harpooned Leviathan held in place by rusted Victorian anchor chains. The lampreys are a maintenance problem that cannot be solved, only managed. The lead eyelids are mechanical and can fail. The chains are 19th-century metallurgy at 80m depth in psychically corrosive water.
+The crew's entire operation runs on a fragment of something ancient held in place by rusted Victorian anchor chains — chains the Architects built to solve a problem they had misidentified. The lead eyelids are mechanical and can fail. The chains are 19th-century metallurgy at 80m depth in psychically corrosive water. The Eye requires ongoing maintenance the crew manages without fully understanding the mechanism.
 
-Every advantage is downstream of a single point of failure that is also a prisoner with its own nature and possibly its own intentions.
+Every advantage is downstream of a single point of failure that is also a piece of something vast, with its own orientation and no concept of the operation built around it.
