@@ -40,7 +40,26 @@ A presence of this scale reorganizing itself changes the Psychosphere the way a 
 
 ---
 
-## IV. Surface Symptoms
+## IV. The Mycelium as Secondary Mechanism
+
+The Blooming produces a second, independent threat that compounds the first.
+
+TSG's reorganization of the Deep disrupts the normal processing layer — dislodging oubliettes, redirecting ley lines, backing up unconsolidated experience at every depth. This is a massive nutrient event for the Mycelium (The Creep), which follows gradients of unresolved and unprocessed material. The Mycelium does not follow TSG. It follows the food. The Blooming creates more food than the Deep has seen in centuries.
+
+At the same time, TSG's core drive — unity, boundary dissolution, merger — runs on the same frequency as the connective-current the Mycelium operates through. TSG's rising amplifies that frequency. The Creep doesn't bloom *toward* TSG. It blooms *with* it. The network's latent boundary-dissolution tendency gets turned up.
+
+**Zone-by-zone threat progression:**
+- **Early Blooming:** Mycelium appearing in Zone 4 (animal depth). Divers notice something wrong; no framework yet.
+- **Mid Blooming:** Zone 3 (thermocline, pre-linguistic). Dangerous — self-edges are already soft at this depth. The Creep's boundary dissolution compounds the zone's natural character.
+- **Late/Peak Blooming:** Zone 2 (collective human archetypes). The Creep is now accessible to anyone with enough psychic thinning — Caerulite users, long-term sensitives, anyone the Blooming has already worn down. No intentional diving required.
+
+**The diagnostic trap:** TSG's surface effects and the Mycelium's surface effects are indistinguishable. Both produce boundary erosion, dissociation, dissolution of self-edges, inability to complete a thought or a decision. The city is being worked on by two mechanisms producing identical symptoms through completely different processes. Addressing TSG does not address the Mycelium. Misidentifying which is dominant leads to the wrong intervention — and the wrong intervention may make the other worse.
+
+The crew would be the only people who could recognize the distinction. They may not.
+
+---
+
+## VI. Surface Symptoms
 
 The disruption to the human processing layer bleeds upward.
 
@@ -54,7 +73,7 @@ Suicide rates and fugue states are spiking in districts directly above the prese
 
 ---
 
-## V. Nia
+## VII. Nia
 
 She tuned into it first. Through the Caerulite-Shard comms, through months of exposure, through some combination of gift and accumulated thinning, she began hearing a frequency no one else could locate. She went into the Deep to find the source.
 
@@ -68,7 +87,7 @@ The crew has two connections to the presence: Nia, who is the live wire in the D
 
 ---
 
-## VI. The Other Sleepers
+## VIII. The Other Sleepers
 
 This one is not unique. The Silt contains more of them. Most are still dormant. The conditions that caused this one to bloom — density, cycle, contact — may not remain specific to this one location, this one moment.
 
@@ -76,7 +95,7 @@ The crew does not yet know this.
 
 ---
 
-## VII. Operational Consequences (Known)
+## IX. Operational Consequences (Known)
 
 The Blooming is already disrupting the crew's operation in measurable ways:
 
@@ -88,7 +107,7 @@ The Blooming is already disrupting the crew's operation in measurable ways:
 
 ---
 
-## VIII. Open Questions
+## X. Open Questions
 
 - What is the presence's drive, at the level beneath human interpretation? "Unity" is a human reading of something older — what is the thing underneath?
 - Did it notice Nia, or is she simply lodged in its signal the way debris is caught in a current?

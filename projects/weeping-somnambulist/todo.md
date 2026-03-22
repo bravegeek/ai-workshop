@@ -75,6 +75,7 @@ Resolved as man vs. nature: the antagonism is structural, not agentive. The Bloo
 - Known stances: Belong (Ama), Declare (Lorcan), Impose (IO/Architects), Become (Method Actor — orphaned, no clan)
 - Ama and Lorcan's traditions are altruistic; others will not be. Predatory/extractive traditions still work — the Deep responds to stance, not ethics.
 - Introduce traditions through story as needed; resist designing the full ecosystem speculatively.
+- **Ama as healer:** People with Ama's communion stance may make unusually capable healers — not because of training but because the Belong stance means genuinely *being with* microbial and cellular life rather than observing it. A doctor imposes a diagnostic frame; Ama receives what the body is doing. Cellular processes, microbial ecology, inflammation — these are legible to her in ways that bypass abstraction. This could make her a better diagnostician than most physicians in contexts where conventional medicine fails, and a natural interpreter of what the Psychosphere's immune response is actually doing biologically. What does this look like in practice — and does she know this is unusual?
 
 ### Dive Aesthetics — Oubliettes vs. Open Drift
 *Unlocked by: Zone System redesign.* The structural decision is made: oubliettes have genre, open Drift doesn't. Each oubliette is a sealed pocket with its own visual logic — it reads as a genre because it preserves the character of its origin. Open Drift is rawer, less narrative, harder to genre-ify. Needs a dedicated session to answer:
@@ -140,6 +141,10 @@ Core framing established: they were not ignorant, not reckless — they were goo
 
 ## Priority 3 — Expansion
 
+### Scene Seed — The Mycelium Oubliette
+The crew is trapped inside an oubliette the Mycelium is actively dissolving. The Creep isn't targeting them — it's targeting the oubliette, which is the richest substrate in the room. The crew is caught in the digestion. The oubliette's genre logic breaks down at the edges first — holes in the internal reality, things from outside bleeding in. Lorcan works the dissolving boundary: his tradition means he's less signal, he can get closer to the edge than the others, he buys time or finds the exit while they stay toward the centre where the oubliette's integrity still holds. The scene is his arc in miniature: defending a boundary that is objectively losing, using exactly the tools he was trained for, knowing it only slows things down.
+- **Still to decide:** What is the oubliette? The specific genre/origin determines how the dissolution reads and what bleeds in from outside.
+
 ### Oubliettes — Open Questions (see `canon/oubliettes.md`)
 Core document written. Remaining questions to resolve when stories require them:
 - Minimum size: can a single person's recurring trauma create one?
@@ -153,6 +158,7 @@ Leviathans, Anglers, Mycelium are archetypes. Make them specific to a world buil
 - What does a creature that evolved *here* actually eat, want, fear?
 - How does each relate to the Amber Bleed crisis?
 - How do they relate to the sleeping gods — prey, parasite, descendant?
+- **Research ref:** Florida dumped decommissioned shellfish shells into the Gulf and it restored local ecosystem function — calcium cycle replenishment, reef substrate restoration. Look up the specific program and mechanism. Possible inspiration for how the Psychosphere self-repairs after disruption, or how the crew might restore damaged zones by returning what was extracted rather than just stopping extraction.
 
 ---
 

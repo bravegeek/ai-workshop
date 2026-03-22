@@ -75,6 +75,12 @@ It has been in the Psychosphere for approximately 400 million years. It predates
 
 **It is not malicious.** It does what fungi do: decomposes, connects, absorbs, routes. When it appears in the Deep, it is not attacking. It is incorporating — breaking down foreign material not out of hostility but out of patient, ancient function. The distinction matters narratively. An enemy can be fought. Infrastructure that is doing its job cannot.
 
+**Ecological role: decomposer.** The Psychosphere's equivalent of dead organic matter is unresolved experience — trauma, suppressed grief, material that was never integrated and doesn't sink cleanly. It accumulates as dense, inert pockets: oubliettes, mass trauma deposits, the psychic residue of events too large to process. The Mycelium breaks down what the normal processing layer cannot. Without it, the Psychosphere would clog under centuries of undigested material. It is the cleanup function, not a predator.
+
+**Nutrient gradient: emotional density and unresolved material.** The Creep follows concentration. Oubliettes are extraordinarily rich — sealed, concentrated, centuries of unprocessed experience. Recent disruption produces fresh material before it compresses. Death events and mass trauma read like carcasses. A live diver is the richest source in the room: actively generating unresolved experience in real time, far denser than ambient substrate. The Mycelium doesn't distinguish. It does what it does to dense unprocessed material, and a diver is the densest thing present.
+
+**Why Lorcan's ink provides partial protection:** The warden tradition involves processing experience in real time — the practice of holding the boundary means actively integrating what crosses it rather than accumulating it. Lorcan generates less unresolved material than an untrained diver. He is less appetising as substrate. The protection is partial, not immunity: he can work closer to the Creep's edge than the others can, and it reaches him more slowly. But protection has limits when the gradient is overwhelming.
+
 The crew currently treats the Mycelium as a hazard. Whether this classification survives contact with the deeper truth is an open question.
 
 ---
@@ -152,6 +158,8 @@ Each zone has its own substrate composition, its own dominant organisms, its own
 A diver moves through these zones as a foreign body. The ecosystem responds accordingly — not with hostility, with indifference and function. The friction is the friction of being wrong for the environment, not the friction of being hunted.
 
 ### Ecology — Broad Categories
+
+**The Mycelium** is the Deep's decomposer — not a predator, not a creature in the narrative sense. It breaks down unresolved experience and routes the material back into the substrate. It follows nutrient gradients (emotional density, unresolved material, oubliettes) and has no relationship to the cultural immune response or the ink system. The Indigo Ink gives standing with the Deep's cultural layer; the Mycelium operates below that layer entirely. During the Blooming, TSG's unity-frequency amplifies the connective-current the Mycelium runs on, making it faster, higher-reaching, and more effective. It also mobilizes upward following the Blooming's massive nutrient disruption — dislodged oubliettes, disrupted ley lines, the backed-up processing layer. See the Blooming doc for zone-by-zone threat progression.
 
 **Parasites** feed on the energy of memory and experience without contributing to it. Specifically: on the *act of remembering* — the psychic energy of a mind holding an experience. Not stealing the memory. Feeding on the holding. A diver who keeps returning to the same memory in the Deep feeds one without knowing it. Progressively harder to surface from that memory. Not because something is trapping them — because something is very comfortable there.
 
