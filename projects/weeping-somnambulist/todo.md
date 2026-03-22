@@ -9,8 +9,6 @@
 
 ## In Progress
 
-- **`canon/mechanics.md`** — still references Translation Scripts. Needs a pass to align with the Resonance Collection and the ecosystem model.
-
 ### ~~Technology Review (`canon/technology.md`)~~ ✓ fully resolved
 ~~- **Sensory-deprivation pods**~~ ✓ removed
 ~~- **Wet-Rigs**~~ ✓ removed
@@ -180,6 +178,7 @@ Once the above is resolved, restructure around the Method Actor content as the l
 - ~~The Eye — core document~~ (see `canon/the_eye.md`; covers fragment nature, archive mechanic, Ren's connection)
 - ~~Cistern/Vault-TSG connection~~ → resolved: the Eye is the connection; Ren is the interface
 - ~~Arc structure & story seeds~~ → see `stories/` directory
+- ~~`canon/mechanics.md` pass~~ → Leviathans corrected from decomposers to current-grazers; Mycelium updated with decomposer/nutrient gradient model and Blooming amplification; Section VI.3 updated from Technomancer to Ren/Resonance Collection framing
 - ~~Project rename~~ → Weeping Somnambulist; Psyloc → Caerulite; street name Glow
 - ~~Caerulite harvest & extraction mechanic~~ → carrier model, hands in water, fading window, biophoton glow, heart-brain coherence, product hierarchy (tea/crystals/smoked/Shards), cultural traditions, Cistern as engineered sacred spring (see `canon/technology.md` Section II)
 - ~~Seed-Core~~ → replaced with Witness/Reliquary (see `canon/technology.md`)

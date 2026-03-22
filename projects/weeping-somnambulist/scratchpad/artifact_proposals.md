@@ -89,7 +89,7 @@ Artifacts are classified by **Semantic Density** (depth of origin) and **Operati
 
 ### C. HQ Infrastructure
 
-#### 6. **Resonant Seeds (Seed-Cores)** — Class 2-5 (Variable by Target)
+#### 6. **The Witness (Reliquary)** — Class 2-5 (Variable by Target)
 - **Power Level**: High (extraction), Critical (system dependency)
 - **Strengths**:
   - Universal extraction tool (acoustic capture)

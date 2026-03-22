@@ -10,9 +10,9 @@ The crew had a fortress with a god chained in the basement. The fortress was ext
 
 ## I. The Core Monopoly: Artifact Development
 
-Anyone skilled enough can harvest a Seed-Core in the Deep. No one else can develop it into an artifact.
+Anyone skilled enough can carry a pattern back from the Deep. No one else can develop it into an artifact.
 
-Storm-Forging requires three things simultaneously: a High Tide window, the Cistern's developed bath water, and the Eye's Class-5 logic field. Without all three, a charged Seed-Core rots into a Poltergeist Shard. The Cistern is the only known facility that can complete the process.
+Storm-Forging requires three things simultaneously: a High Tide window, the Cistern's developed bath water, and the Eye's Class-5 logic field. Without all three, a pattern carried in the Witness rots into a Poltergeist Shard. The Cistern is the only known facility that can complete the process.
 
 The crew are the only artifact manufacturers in existence. Other dreamwalkers can find things. Only the crew can turn what they find into something stable, portable, and sellable. That is an industrial monopoly built on infrastructure no one else has.
 

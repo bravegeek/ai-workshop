@@ -49,10 +49,10 @@ The Deep is not a land; it is a **pressure zone**.
 *   **The Gravity**: Down here, emotional weight is literal weight. A "Guilt" complex can weigh as much as a tank.
 
 ### 2. Entity Ecology (The Deep Fauna)
-*   **The Leviathans (The Silent Ones)**: Massive, slow-moving creatures. They graze abandoned dreamscapes, breaking down what is no longer dreamed into material that feeds the current. The Deep's equivalent of decomposers.
+*   **The Leviathans (The Silent Ones)**: Massive, slow-moving creatures. They graze the Mnemosyne-Current — filter-feeding on active psychic flow rather than breaking down stuck material. The Mycelium handles decomposition; the Leviathans are consumers. When they dissolve or die, the material they carried releases all at once, likely seeding oubliettes the way a whale fall seeds a temporary deep-sea ecosystem. Ecological role, specific behaviour, and relation to the Blooming undeveloped — see `todo.md` Priority 3.
 *   **The Blooming**: A presence in the Silt — one of several ancient aggregations of primal drive — is waking. The Deep is developing a gravity well around it. Ley line currents redirect. Oubliettes drift. Zones that had consistent character develop strange attractors and repetitive loops. See `canon/the_blooming.md`.
 *   **The Anglers (Lure-Lights)**: Predatory thoughts that manifest as desires (lost loved ones, safety) to trap consciousness in a Loop.
-*   **The Mycelium (The Creep)**: Crew classification: a hazard — a spreading network in the Silt that makes the boundaries of self feel unreliable. The sensation of it arrives before any visual cue: a slow permeability, like the edges of the diver are becoming optional. The classification is wrong. See `psychosphere.md`. The Mycelium predates animals in the Psychosphere by hundreds of millions of years. It is the Silt's substrate — the oldest continuous infrastructure in the Deep, routing and connecting everything below the animal layers. It is not an enemy. It is not interested in the crew at all. The paradigm shift, when it comes, is not a fight or an escape. It is a diver realising the thing they've been navigating around is what the Silt *is*.
+*   **The Mycelium (The Creep)**: Crew classification: a hazard — a spreading network in the Silt that makes the boundaries of self feel unreliable. The sensation of it arrives before any visual cue: a slow permeability, like the edges of the diver are becoming optional. The classification is incomplete. The Mycelium is the Deep's decomposer: it breaks down unresolved and unprocessed experience — the material that won't naturally integrate — and routes it back into the substrate. It follows nutrient gradients (emotional density, sealed oubliettes, mass trauma deposits, any active diver generating unresolved experience in real time). It is not interested in the crew. A diver is simply the richest substrate in the room. During the Blooming, it mobilises upward through the zones, following the massive nutrient disruption TSG's reorganisation produces. TSG's unity-frequency also amplifies the connective-current the Mycelium runs on, making it faster and higher-reaching than it would be under any other disruption. Lorcan's warden practice (processing experience in real time) makes him less appetising as substrate — partial protection, not immunity. See `canon/psychosphere.md` Section V and `canon/the_blooming.md` Section IV for full treatment.
 
 ---
 
@@ -171,17 +171,19 @@ We do not prep for every dive. Zone 1-2 (The Shallows) are chaotic enough to all
 ### 3. The Technomancer (The Stage Manager)
 *⚠ NOTE: "Technomancer" is a legacy role label — current canon uses Ren's specific capabilities (Soundboard, Narrative Extraction, The Hum). The mechanics below are broadly compatible but the framing predates her character development. IO's operative mechanic in the Deep is now the Resonance Collection (impedance-matching instruments, pre-dive selection against Ren's Hum reading) — not Translation Scripts or Techno-Magic. See `canon/characters/io.md` and `canon/technology.md` Section 4.*
 
-The Technomancer stays "Dry" in the HQ, operating the **Soundboard**. They are the lifeline.
+Ren stays dry in the HQ, operating the **Soundboard**. She is the lifeline.
 
 *   **The Monitor (Script Stability):**
-    *   **Visual:** They watch a waveform on a CRT. Smooth = "In Character." Jagged/Red = "Dissonance" (The Immune System is suspicious).
-    *   **The Emotional Key-Frame (The Prompt):** Because language breaks in Zone 3+, the Technomancer cannot feed "lines." Instead, they pulse **Emotional Archetypes** through the Caerulite-Link.
-        *   *Example:* If IO freezes in a Noir scene, the Technomancer doesn't say "Act natural." They transmit a **"High-Contrast Melancholy"** pulse, forcing IO's body to adopt the correct slumped, weary posture of the role.
+    *   **Visual:** She watches a waveform on a CRT. Smooth = the diver is generating low not-self signal. Jagged/Red = friction is building — the Immune System is responding.
+    *   **The Emotional Key-Frame (The Prompt):** Because language breaks in Zone 3+, Ren cannot feed lines. Instead, she pulses **Emotional Archetypes** through the Caerulite-Link.
+        *   *Example:* If IO freezes in a Noir oubliette, Ren doesn't say "Act natural." She transmits a **"High-Contrast Melancholy"** pulse, nudging IO's body into the register the environment expects.
+*   **The Resonance Collection (IO's Operative Tool):**
+    *   IO's instruments in the Deep are impedance-matching tools — each tuned to a specific depth profile. Pre-dive selection is made against Ren's Hum reading of the target zone. Architect-built instruments respond to Mordaunt nervous system. Failure mode: the substrate shifts mid-dive and the instrument can't be reselected. See `canon/technology.md` Section 4 and `canon/characters/io.md`.
 *   **The Backdrop (Camouflage Support):**
     *   **Problem:** High-fidelity memories can expose a diver whose camouflage thins under pressure — the role starts to feel wrong to the environment.
-    *   **Action:** The Technomancer feeds reinforcing material through the Caerulite-Link — emotional keyframes, sensory anchors — to shore up the performance. In extremis, sacrificing an artifact can flood the Caerulite-Link with enough raw material to restabilize the role.
+    *   **Action:** Ren feeds reinforcing material through the Caerulite-Link — emotional keyframes, sensory anchors — to shore up the performance. In extremis, sacrificing an artifact can flood the link with enough raw material to restabilize the role.
 *   **The Stage Hook (Narrative Extraction):**
-    *   **Problem:** Waking up abruptly from Zone 4 causes "The Bends" (Psychic Shock).
-    *   **Solution:** The Technomancer hacks the environment to spawn a "Narrative Exit."
-    *   *Example:* In a Sci-Fi memory, the Technomancer hacks a console to announce "Emergency Venting." The airlock opens—that is the safe exit point.
+    *   **Problem:** Waking abruptly from Zone 4 causes psychic shock — the equivalent of decompression sickness.
+    *   **Solution:** Ren works the environment to open a Narrative Exit — a story-logical off-ramp that lets the diver surface with the arc rather than against it.
+    *   *Example:* In a Sci-Fi oubliette, she seeds an "Emergency Venting" event. The airlock is the exit point.
 
