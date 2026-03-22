@@ -124,12 +124,32 @@ The divine punishment framing is survival bias: traditions that resisted success
 
 The traditions that followed the pull all the way in left no record. Babel is the story of the people who didn't.
 
+**The Noahic Flood** — the containment legend. The standard reading: God set a boundary on the waters, the flood rose, the flood receded, a covenant was sealed — never again. The rainbow as permanent limit. The shore as the enforced boundary of what the deep is permitted to reach.
+
+The cosmology reading: the blooming peaked and the cycle turned. The waters receded on their own. Noah's covenant is a misread of chemotaxis completing — the pull weakening as the gradient normalized, the surface world stabilizing as the presence returned toward dormancy. The rainbow isn't a seal. It's a survivor watching the tide go out and calling it a treaty. The boundary wasn't enforced. It was resumed.
+
+The shore detail is significant. *Here and no further* — encoded into Genesis as divine decree, the hard limit between the deep and the living world. What it actually is: the natural waterline of a presence that was always going to recede. The tradition made permanent what was temporary, turned a cycle into a covenant, called survival victory.
+
+The flood itself maps cleanly onto the Blooming's mechanism: not water rising but dissolution rising — the substrate asserting itself at the surface layer, the boundary between deep and waking world becoming briefly negotiable. The flood is what it looks like when the processing layer fails completely and the deep reaches the surface. Not metaphorically. Literally.
+
+The covenant's specific language admits to a cycle without knowing it. *Never again* only means something if there was a before. The tradition is remembering a pattern while insisting it was a singular event.
+
+**What the crew can extract:** The boundary held — but not because of anything anyone did. The cycle completed. That is either reassuring (it ended before) or terrifying (it ended after the world drowned). The legend doesn't say how long the flood lasted. It doesn't say what the world looked like at peak. It only says there were survivors, and that they built a theology around the waterline.
+
+The Architects knew this legend. The 1887 capture was almost certainly informed by it — a deliberate attempt to enforce the covenant permanently rather than wait for the cycle to turn. To make the seal real this time. The crew is the inheritors of that attempt and its consequences.
+
+**Established — enough to write from:**
+- **The Sleeping of Endymion** (Greek) — a mortal taken into endless sleep. Personal TSG contact, not a mass blooming. The bliss reading. Nia's mythological antecedent.
+- **The Dreaming** (Aboriginal Australian tradition) — needs careful handling. May be describing something real and continuous about the Deep rather than misreading a blooming event. A tradition that developed genuine working knowledge rather than a fear-record. If so, it belongs in clan traditions, not here.
+- **The Trickster traditions** (Loki, Coyote, Anansi, Hermes, Eshu, Sun Wukong — cross-cultural, no contact between origin traditions) — see Sleepers section.
+
 **Candidates — flagged for development when story requires:**
 
-- **The Sleeping of Endymion** (Greek) — a mortal taken into endless sleep, possibly a personal TSG contact story rather than a mass blooming. The bliss reading. Could be Nia's mythological antecedent.
 - **The Wild Hunt** (Northern European) — a collective psychic event interpreted as supernatural cavalcade. May be a cultural memory of mass Zone 2 descent during a partial blooming — the pull reaching shallow enough to drag sensitives under without full dissolution.
-- **The Dreaming** (Aboriginal Australian tradition) — needs careful handling. May be describing something real and continuous about the Deep rather than misreading a blooming event. A tradition that developed genuine working knowledge of the Psychosphere rather than a fear-record of contact. If so, it belongs in the clan traditions discussion, not the legends section.
-- **The Trickster traditions** (Loki, Coyote, Anansi, Hermes, Eshu, Sun Wukong — cross-cultural, no contact between origin traditions) — see below.
+- **Pralaya** (Hindu cosmology) — periodic dissolution of the universe back into primordial waters at the end of each cosmic cycle. Not catastrophe — structural rhythm. A tradition that didn't frame dissolution as something to survive but as inevitable. Gets closer to the cosmological truth than Genesis does, and still couldn't stop it.
+- **Namazu** (Japanese) — the giant catfish held down by the god Kashima with a stone. When Kashima's attention lapses, Namazu moves. A containment legend requiring constant active maintenance — the seal works only while someone is watching. Kashima always eventually looks away. Maps directly onto the Architects' chains and the crew's operation.
+- **Nun** (Egyptian) — the primordial waters that existed before creation, that still surround the created world, that will reclaim it when creation ends. Not a god — the substrate. The precondition. Creation happened inside Nun and Nun is still there at the edges. Maps almost directly onto the Silt.
+- **Sedna** (Inuit) — the drowned woman whose dismembered fingers became sea creatures, who lives at the ocean floor and must be periodically propitiated by a shaman descending to comb her tangled hair. *Preferred candidate.* The only legend that describes an ongoing working relationship rather than a singular event — someone goes down regularly, not to fight or contain but to tend. Lorcan's job description in mythological form. If developed, belongs partly in clan traditions alongside The Dreaming.
 
 ---
 

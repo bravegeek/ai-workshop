@@ -39,9 +39,9 @@ The Eye was drawn to Ren by affinity (her epistemic profile rhymes with how an a
 
 ### Sleeping Gods — The Deeper Cosmology
 Core cosmology document written: `canon/cosmology.md`. Covers drive beneath "unity" (chemotaxis model), full spectrum of human interpretations (unity/community/conquering and beyond), loss-of-self question, legend survival bias, Eye as ongoing archive and reintegration problem, other sleepers. Remaining:
-- Which specific legends are surface traces? Select a few that do narrative work, not a comprehensive list.
-- The other sleepers: do they share the same drive or are they variations? Does the crew ever learn about them? Candidate drives documented in `canon/cosmology.md`: Persist, Consume, Divide, Respond.
-- What ended previous bloomings? (Complete records may be inside the Eye.)
+- ~~Which specific legends are surface traces?~~ ✓ Three established: **Babel** (mass dissolution, misread as punishment), **Endymion** (personal contact, bliss reading — Nia's antecedent), **the Flood** (containment legend, misread as covenant — the Architects were following this playbook). Enough to write from.
+- The other sleepers: do they share the same drive or are they variations? Does the crew ever learn about them? Candidate drives documented in `canon/cosmology.md`: Persist, Consume, Divide, Respond. Trickster Sleeper developed as leading candidate.
+- What ended previous bloomings? (Complete records may be inside the Eye.) Current answer: the cycle turned on its own — the flood receded without human intervention. The Architects knew this and tried to make the seal permanent rather than wait. That attempt is what the crew inherited.
 
 ### Inanimate Characters — Develop Further
 The Eye now has its own document (`canon/the_eye.md`) covering its nature as a TSG fragment, the archive mechanic, and Ren's connection. Remaining open questions:
