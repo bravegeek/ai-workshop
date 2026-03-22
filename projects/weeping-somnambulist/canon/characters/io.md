@@ -94,6 +94,29 @@ IO preys on the rich. Corporate secrets extracted from the Deep and sold. Caerul
 
 IO converts grief into missions. Project Lullaby is grief for Nia wearing the shape of cartography. The class warfare is self-loathing wearing the shape of justice. Both are real. The cartography is genuinely valuable. The targeting is genuinely more defensible. Neither is actually what's happening. She is too precise a thinker to be completely unaware of this. She simply doesn't have a better option. The mission is what gets her out of bed. The arc ends when she runs out of missions to convert grief into and has to make a choice that isn't a purpose.
 
+## The Powerlessness Problem
+
+IO's operation was built on the premise that the right infrastructure, the right protocols, the right precision could manage what the Architects couldn't. She looked at their failure and identified the errors: insufficient rigor, inadequate safety margins, overreach without preparation. She corrected those errors. She built something better.
+
+Then the Blooming happens anyway.
+
+Not because she failed. Because containment was never the mechanism. The Architects weren't incompetent — they were good at this, careful, professional, and they died anyway. IO isn't incompetent either. The approach itself is wrong. There's nothing to get right.
+
+That's a different kind of powerlessness than losing a fight. It's finding out the fight was never the right frame. Every hour she spent building the apparatus, every protocol she wrote, every depth she charted — none of it was addressing the actual thing. She was managing a symptom and calling it a cure. The competence was real. The object of the competence was wrong.
+
+It stacks:
+- The bloom she couldn't prevent, because prevention was never available
+- The containment that was always wrong, that the Flood legend already knew was wrong
+- The Nia she can't recover, because Nia isn't lost
+- The Eye she has to release, which means releasing the operation, the Vault, everything she built
+- The monocle that lets her see everything except Nia by feel
+
+The specific shape of the wound: IO has always converted powerlessness into a mission. Grief becomes a purpose. The purpose gets her moving. The arc ends when she runs out of missions to convert grief into — when the bloom, the reintegration, the aftermath have all consumed themselves and she's standing in the Institute with nothing left to build, no one left to find, no enemy left to target with precision.
+
+What she has to learn — and doesn't have a methodology for — is being present without a mission. The aftermath work, the IPE cases, sitting with people who can't be fixed: these require exactly the quality she spent her life engineering around. She has to become somewhat more like Nia. Not because Nia was right and she was wrong. Because the Deep, and the city, and the people in it, need a different kind of attention than the one she trained herself to give.
+
+She doesn't become Nia. She becomes someone who has learned something from grief rather than converted it.
+
 ## Arc
 
 The cartography, the salvage, the operation, the precision — all of it is architecture around a wound. What holds IO together is having a mission. Nia's signal, when it comes, removes the architecture. IO has to make the choice to free the Eye — destroying everything she built — knowing it doesn't save Nia back to something she can hold. It frees Nia into something IO cannot follow. The act of letting go and the act of destruction happen at the same time, and neither feels like heroism.

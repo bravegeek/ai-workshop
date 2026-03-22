@@ -32,6 +32,24 @@ The Eye was drawn to Ren by affinity (her epistemic profile rhymes with how an a
 
 ---
 
+## Crew Dynamics — For Future Development
+
+### The Moral Grey Problem — Compartmentalisation by Design
+
+IO structures the operation so Ama and Lorcan don't touch the grey work. They don't need to. The division writes itself:
+- **Ama and Lorcan** do the dive work — retrieval, IPEs, artifact recovery, navigation, safety. Defensible by almost any standard.
+- **IO and Ren** handle jobs that don't get discussed at the table. Secret extraction is precise and targeted — IO alone or minimal support, Ren processes the output. Neither volunteers what it was.
+
+IO keeps it clean for them deliberately: she needs them functional, she knows Lorcan would walk if he knew the full shape, and making them complicit would require her to look at it more directly than she does.
+
+**What Ama and Lorcan actually know:** The operation isn't purely altruistic. Some jobs come from sources IO doesn't name. They've each chosen, for their own reasons, not to push on it. Lorcan has a private line he hasn't stated — he'd do certain things, not others, and IO hasn't asked him to cross it yet. Ama's discomfort is more diffuse — it's about what the operation does to the Deep, not specifically about the espionage.
+
+**Ren** knows everything. Clean pragmatic peace — the targets are bad actors, the class war logic holds, the work is interesting.
+
+**The waiting explosion:** A job where IO can't keep it compartmentalised. Ama or Lorcan in the room when the thing they've been not-asking-about becomes visible. What they do then tells you who they are. Needs a dedicated scene/session when the story is ready for it.
+
+---
+
 ## Priority 1 — Prerequisite (do first, unlocks everything)
 
 
@@ -40,8 +58,8 @@ The Eye was drawn to Ren by affinity (her epistemic profile rhymes with how an a
 ### Sleeping Gods — The Deeper Cosmology
 Core cosmology document written: `canon/cosmology.md`. Covers drive beneath "unity" (chemotaxis model), full spectrum of human interpretations (unity/community/conquering and beyond), loss-of-self question, legend survival bias, Eye as ongoing archive and reintegration problem, other sleepers. Remaining:
 - ~~Which specific legends are surface traces?~~ ✓ Three established: **Babel** (mass dissolution, misread as punishment), **Endymion** (personal contact, bliss reading — Nia's antecedent), **the Flood** (containment legend, misread as covenant — the Architects were following this playbook). Enough to write from.
-- The other sleepers: do they share the same drive or are they variations? Does the crew ever learn about them? Candidate drives documented in `canon/cosmology.md`: Persist, Consume, Divide, Respond. Trickster Sleeper developed as leading candidate.
-- What ended previous bloomings? (Complete records may be inside the Eye.) Current answer: the cycle turned on its own — the flood receded without human intervention. The Architects knew this and tried to make the seal permanent rather than wait. That attempt is what the crew inherited.
+- ~~The other sleepers: does the crew learn about them?~~ ✓ Yes — in arc 2, via Ren's data, Lorcan's geography, Ama's instinct. See Arc 2 premise above. Remaining: commit to which candidate drives are canon (Persist, Consume, Divide, Respond, Trickster). Trickster most developed.
+- ~~What ended previous bloomings?~~ ✓ The cycle turned on its own. The flood receded without human intervention. The Architects knew this and tried to make the seal permanent rather than wait for the next cycle. The crew inherited that attempt and its consequences.
 
 ### Inanimate Characters — Develop Further
 The Eye now has its own document (`canon/the_eye.md`) covering its nature as a TSG fragment, the archive mechanic, and Ren's connection. Remaining open questions:
@@ -49,7 +67,7 @@ The Eye now has its own document (`canon/the_eye.md`) covering its nature as a T
 - Is the Lethe-Light deliberate or ambient — and if deliberate, toward what end?
 - Does the Cistern's "management" of the psychic environment ever feel like *preference* — spaces it allows, states it resists?
 - What does Barnaby know, and why hasn't he said it? **New angle:** Barnaby is the only living index of the pre-Eye Vault — he knows which artifacts predate 1887, how the practice worked before the logic field, what the Architects could do before the Eye transformed everything. This is the foundation IO and Ren need for the second arc rebuild. Does he know this is what they need? Can he communicate it? See `barnaby.md`.
-- **What was the Eye suppressing in the Vault, and why?** Post-reintegration, something that was held down is now simply present. The dodecagonal geometry still imposes order; this is different from order imposed by the Eye. What required containing, and what does it want now? (See `locations.md` — Vault After Reintegration, Release.)
+- **What was the Eye suppressing in the Vault, and why?** Post-reintegration, something that was held down is now simply present. Five candidate options documented in `locations.md` (Vault After Reintegration, Release). Preferred direction: (D) confluence reasserts native character + (E) pre-Eye entities return, with (B) sealed Architect decision as optional additional layer. Needs a dedicated session to commit and develop.
 
 ~~### The Deep as Character~~ ✓ see `canon/psychosphere.md` Section VII
 The Deep has culture, not personality. The Immune System is a cultural immune response, not a defense mechanism. Zones follow evolutionary timescales. The Blooming is cultural disruption at the root. The crew deposits as well as extracts.
@@ -57,6 +75,38 @@ The Deep has culture, not personality. The Immune System is a cultural immune re
 ~~### Lorcan — Contradiction~~ ✓ see characters.md
 
 ~~### Lorcan — Warden's Tools~~ ✓ see characters.md
+
+---
+
+### The Decision to Reintegrate — How the Crew Gets There
+
+The crew's entire operation is built on the Eye. Letting it go means losing the logic field, the Vault's Semantic Volume, the Orrery, depth anchor, Storm-Forging — everything. The decision can't be purely tactical. They have to be backed into it, or convinced of something, or broken open enough to choose it anyway.
+
+Threads that could drive the conclusion:
+- The containment playbook is a known failure — Babel, the Flood, the Architects. Every attempt to make the seal permanent made things worse or just delayed the inevitable. Ren is probably the one who assembles this argument.
+- The Eye is no longer what TSG lost. 150 years of absorption means reintegration introduces something into TSG it has never contained — the Architects, the patients, Nia indexed and intact. There's an argument that this changes TSG. That it matters what goes back in.
+- The wound model: the Budapest site has been an open wound for 150 years. The Blooming is partly TSG reaching toward its missing piece. Containment isn't neutral — it's active harm to something vast, producing the crisis they're living in.
+- Nia. The live wire. Whatever the crew decides about the Eye, Nia is already inside TSG. Reintegration may be the only thing that produces the moment of coherence — the one clean signal — that IO gets. She may not know that going in.
+- The cost of not reintegrating: the aftershocks don't stop. The Mycelium doesn't fully recede. The city doesn't heal. Holding the Eye means holding the wound open indefinitely.
+
+**Still to develop:** the specific sequence of realisations, who gets there first, what IO's breaking point is, and whether the decision feels like defeat or something harder to name.
+
+---
+
+### Arc 2 — Premise (Cleanup & Partnership)
+
+Post-reintegration the pressure released but the fault is still there. The Psychosphere doesn't snap back — there are aftershocks as the Deep restabilizes, and the city's psychic infrastructure is damaged. Dreams are still wrong. The processing layer is scarred. Oubliettes that drifted haven't resettled. The Mycelium mobilised upward and hasn't fully receded.
+
+**Bloomings as earthquakes, not hurricanes.** Not seasonal — geological. Pressure builds along fault lines over variable timescales, releases when conditions stack. A spectrum:
+- *Micro-bloomings* — felt by sensitives, barely surface-visible, happen more frequently. Bad dream weeks. Chaperones have busy seasons.
+- *Moderate bloomings* — local, contained, century-scale. Leave scar tissue, feed legends.
+- *Full bloomings* — Babel/Flood scale. This was one of those.
+
+**The crew can't do cleanup alone.** They know how to extract. They don't know how to heal. Healing the Psychosphere requires traditions that work with the Deep's culture rather than imposing on it — stances the crew doesn't have, relationships with the Deep's ecology they haven't built, and probably returning some of what was extracted rather than just stopping extraction. Necessity forces the partnerships.
+
+**Ama brokers the relationships.** She has the standing, the instinct, and the least investment in the crew's operational model. The other dreamers they partner with have different stances, different dark areas, different pieces of the picture. The collaboration is also the worldbuilding: you learn what each tradition unlocks by watching it work the problem the crew can't solve.
+
+**The other sleepers land here.** Ren's post-reintegration data review surfaces anomalous readings that don't originate from Budapest or TSG. Lorcan, with the Itch finally quiet, remembers other sites where something pulled. Ama has private notes on signatures that don't feel human. Two data points — symptom cluster, warden pull — are enough to form a hypothesis. The crew realises Budapest was one wound among several, that what they just survived is one instance of something plural, and that the playbook they built applies to exactly one sleeper out of an unknown number. The emotional register: not wonder. The exhaustion of people who just finished something realising it wasn't the thing.
 
 ---
 
