@@ -55,3 +55,4 @@ bin/
 
 # Codex local artifacts
 .codex/
+lancedb/

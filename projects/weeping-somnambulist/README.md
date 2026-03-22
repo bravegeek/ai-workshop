@@ -53,3 +53,7 @@ Recent additions: cosmology doc written (Sleeping Gods as primal drives, chemota
 The Caerulite harvest and extraction mechanic is fully developed — carrier model, cultural traditions, product hierarchy (Glow/tea → crystals → smoked → Shards), Cistern pool as engineered sacred spring. The Witness/Reliquary replaces the old Seed-Core. Storm-Forging is resolved as historical with narrative consequence (accidental development scene in arc 2). Arc 2 hooks include water memory, the accidental development, and the Architect Reliquaries.
 
 Active priorities in `todo.md`.
+
+# tech notes
+## local rag mcp server
+claude mcp add local-rag --scope user --env BASE_DIR=/home/greg/dev/ai-workshop -- /home/greg/.nvm/versions/node/v25.2.0/bin/npx -y mcp-local-rag
