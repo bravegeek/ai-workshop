@@ -112,6 +112,15 @@ Post-reintegration the pressure released but the fault is still there. The Psych
 
 ## Priority 2 — Research & Redesign
 
+### Ley Lines — Arc 2+ Narrative Development
+
+Ley lines are currently infrastructure. Options for giving them dramatic weight in later arcs:
+
+- **Experiential texture** — what does it feel like to stand in a ley line, cross one, get caught in one? Each current type (episodic, emotional, territorial, collective, chemical, connective) should have a distinct phenomenology. Currently the mechanics exist but the sensory vocabulary doesn't. Develop in the Zone System session.
+- **Damaged lines and dead zones** — post-Blooming, some channels have shifted or dried. Arc 2 cleanup includes ley line repair, which may require returning what was extracted (connects to Florida shellfish calcium cycle ref). The crew isn't restoring what was — they're helping the watershed find a new stable topology.
+- **Contested confluences** — other groups will move on confluences the crew can't control post-reintegration. Lorcan's warden tradition was managing boundaries at multiple sites; those sites have been unmanaged for decades. Some are confluences. What's been building there?
+- **Current as sleeper diagnostic** — each sleeper propagates through a different current. TSG used the connective current. A different sleeper would disrupt a different frequency and produce different surface symptoms. The Hum becomes an early warning system for sleeper activity across arcs.
+
 ### The Antagonist Question
 Resolved as man vs. nature: the antagonism is structural, not agentive. The Blooming is not malicious. The Psychosphere is not hostile. The crew's choices create the pressure. The human antagonist question (see `scratchpad/whispering_iron.md`) is shelved for a different story.
 - Remaining: how does structural antagonism manifest as *story pressure* scene by scene? What does the crew push against when nothing is pushing back?

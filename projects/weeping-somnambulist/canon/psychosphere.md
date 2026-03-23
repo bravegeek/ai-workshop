@@ -85,9 +85,19 @@ The crew currently treats the Mycelium as a hazard. Whether this classification 
 
 ---
 
-## VI. Ley Lines as Biological Frequencies
+## VI. Ley Lines — The Watershed Model
 
-If all life contributes on a spectrum, different ley line currents carry fundamentally different types of psychic material — corresponding to the distinct memory systems that evolved in different organisms:
+### What Ley Lines Are
+
+Ley lines are not the source of psychic material. They are the **drainage system** — channels that form where accumulated experience carves paths through the substrate, shaped by the weight and density of what flows into them. All life produces psychic material continuously. Ley lines are where that material collects and flows, the way rivers form where terrain channels water downward.
+
+They exist at all depths, not just the surface. A ley line at Zone 1 carries recent human dream-material. The same line at Zone 4 carries what that material has become after compression — older, stranger, less human. Following a current downward is watching it change character as it deepens, the way a river changes from mountain stream to delta. The Cistern taps into the Budapest confluence at surface level, but those lines extend through every zone.
+
+The correct geological metaphor is a **watershed**: all the material produced across a region drains toward the same lines, which carry it toward the deep the way rivers carry water toward the sea. The Silt is where everything eventually compresses and settles. The sleeping gods are what formed in that sediment over geological time.
+
+### Ley Lines as Biological Frequencies
+
+Different currents carry different types of psychic material — corresponding to the distinct memory systems that evolved in different organisms:
 
 - **Episodic currents** — specific events, narrative memory (human/mammal)
 - **Emotional currents** — fear, grief, joy, processed faster and deeper than conscious thought (mammal/animal)
@@ -96,7 +106,27 @@ If all life contributes on a spectrum, different ley line currents carry fundame
 - **Chemical currents** — slow, seasonal, growth-oriented (plant)
 - **Connective currents** — absorptive, boundary-dissolving, patient (fungal)
 
-The Mnemosyne-Current (already documented) is likely episodic/semantic — richest in human material, most navigable. The deeper and older the current, the less navigable it becomes without the right biological tuning.
+The Mnemosyne-Current is likely episodic/semantic — richest in human material, most navigable. The deeper and older the current, the less navigable it becomes without the right biological tuning.
+
+### Topology Shifts — History Changes the Watershed
+
+Ley line topology is not fixed. The watershed changes shape when its contributors change. This has been happening continuously throughout human history:
+
+**Population events reshape flow.** The Black Death removed a third of Europe's contributors in a decade, then flooded the channels with survivor grief. Ley lines that had carried dense urban human material ran thinner; new channels formed under the weight of collective trauma. The Industrial Revolution pulled millions into cities simultaneously — watersheds that had been rural and slow suddenly flooded with narrative density. New confluences formed where cities grew fast enough. Old ones dried out.
+
+**Deforestation is a ley line event.** The Amazon isn't just ecology — it's hundreds of millions of years of plant and fungal material actively generating. Industrial-scale deforestation removes non-human contributors that have been feeding the watershed for geological time. Channels that ran through that substrate losing their source. The watershed changing shape not because of human experience but because of the absence of something far older.
+
+**Confluences don't precede cities — they attract them.** The Budapest site was significant before the Romans found it because the watershed was already rich there. The city grew on top of a confluence that predated it. But the city also changed the confluence by growing — 150 years of industrial Budapest feeding the watershed differently than the thermal spring the Romans built around. The crew isn't working a fixed geological feature. They're working something that has been slowly changing under them.
+
+### Post-Blooming Topology
+
+TSG's activity during the Blooming functioned as a gravity well — pulling the watershed out of its natural topology, redirecting flow toward itself. Post-reintegration, the lines don't snap back. The channels TSG carved during the Blooming remain. Some flows that were redirected haven't returned to their original paths.
+
+The watershed is healing but into a different shape than before — the way a river finds a new course after a flood rather than returning to the old one. Arc 2 cleanup isn't restoring the Psychosphere to what it was. That's not available. It's helping it find a stable new topology.
+
+### Ley Lines as Diagnostic Tool
+
+Each sleeper, if it stirs, propagates through a different current — the one most resonant with its drive. TSG propagated through the connective current (boundary dissolution, the Mycelium's frequency). A different sleeper would disrupt a different current and produce different surface symptoms. Reading which current is disrupted tells you what you're dealing with before you go deep enough to feel it directly. This makes the Hum — Ren's passive ley line monitoring — the crew's early warning system for sleeper activity, not just a pre-dive navigation tool.
 
 ---
 
