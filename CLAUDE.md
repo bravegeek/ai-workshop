@@ -54,6 +54,13 @@ Commands vary by project. Check each project's configuration files first:
 - Keep experiments isolated in their own directories
 - Document non-obvious decisions in project READMEs
 
+## Search
+
+Prefer the `local-rag` MCP tools for searching and exploring repo content:
+- Use `mcp__local-rag__query_documents` for semantic search over indexed content
+- Use `mcp__local-rag__ingest_file` to index a file before querying it
+- Fall back to Grep/Glob only when the RAG index clearly won't help (e.g. exact symbol lookup, file pattern matching)
+
 ## Notes
 
 - The repository uses `main` as the default branch
