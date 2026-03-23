@@ -230,6 +230,38 @@ Leviathans, Anglers, Mycelium are archetypes. Make them specific to a world buil
 
 ---
 
+### Artifacts — Framework Established, Development Needed
+
+Artifacts are not just tools — they have personality and narrative potential. Each one is somebody's something: a piece of extracted experience that retains the character of its origin. Needs a dedicated canon document.
+
+**Three eras:**
+- *Pre-Eye* — self-sustaining, personally scaled, folk-art strange. A recurring dream, a specific skill at peak, a lost language, a childhood place, a grief, a mastery. Hold their own shape without a logic field.
+- *During-Eye* — collectively scaled, abstract, logic-field-dependent. A cultural fear, a historical event's emotional density, a forgotten god, an architectural memory of a vanished building, a pre-linguistic Zone 4 state nobody fully understands.
+- *Post-Eye* — uncharted. Direction is back toward pre-Eye character with current knowledge. Barnaby is the key to identifying which pre-Eye artifacts are in the Vault.
+
+**Stance and artifact affinity:**
+- IO (Impose) — gets the largest, most complex artifacts; artifacts requiring receptivity resist her or degrade faster in her hands
+- Ama (Belong) — can only encounter artifacts that consent in some sense; what she brings back is more intact
+- Lorcan (Declare) — bounded, clear-edged artifacts with strong identities; struggles with diffuse collective artifacts
+- Barnaby — inhabits, not carries; has character opinions about Vault residents; his avoidance of specific artifacts is information
+- Ren — external, archival; probably has a private taxonomy IO doesn't know about
+
+**Crew relationships:**
+- IO: instrumental, private feelings she won't admit to
+- Ama: uneasy; extraction economy sits badly; may have already returned one without telling IO
+- Lorcan: develops relationships with long-term Vault residents; talks to them; notices when they change; treats curation as wardenship
+- Ren: cataloguing curiosity; knows provenance and properties best, but externally
+- Barnaby: the most intimate — knows them from the inside, has opinions about their characters
+
+**Narrative potential:**
+- An artifact waiting for a specific kind of person (Ama)
+- A pre-Eye artifact Barnaby is attached to — the crew learns why
+- Ren traces provenance of something significant
+- An artifact Ama wants to return; the negotiation with IO
+- Post-reintegration artifacts developed under the Eye's field reverting to something unrecognizable
+
+**Still to develop:** specific named artifacts with individual characters; how this connects to the Vault suppression question.
+
 ## Priority 4 — Restructure
 
 ### Rebuild `mechanics.md`

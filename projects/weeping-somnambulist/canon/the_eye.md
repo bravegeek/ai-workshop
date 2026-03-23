@@ -28,7 +28,35 @@ The fragment is disoriented in a specific way: separated from its larger context
 
 ---
 
-## III. The Lethe-Light
+## III. The Field
+
+The "logic field" is not a separate mechanism. It is the Eye's nature — boundary dissolution — expressing spatially. A fragment of something whose fundamental drive is chemotaxis toward unity sits at 80m and radiates that nature outward in every direction. Everything in proximity has its boundaries softened. The specific effects are different expressions of the same underlying condition.
+
+**What boundary dissolution does to specific things:**
+
+*Artifacts* — the boundary between what is contained inside an artifact and the surrounding space softens. The Semantic Volume — the compressed experience held in the object — expands outward into physical space. This is the room generation. The field is not allowing the artifact to generate space; it is dissolving the wall that was keeping the Volume inside. When the Eye is gone, that wall reasserts. Every artifact-generated room in the Vault collapses simultaneously.
+
+*Time* — the boundary between moments softens near the Eye. Time dilation. At 80m the ratio is 1:60. This is not a designed property; it is an emergent effect of something existing outside linear time being present in a location.
+
+*Practitioners* — the boundary between self and Psychosphere reduces. Enhanced perception. Accelerated Caerulite thinning. The crew are better divers for working near the Eye. They are also more permeable than they would otherwise be.
+
+*Storm energy* — the boundary between ley line surge and the Eye's own presence dissolves. Surge falls into it rather than propagating upward. The Eye didn't suppress storms. Storms fell into it.
+
+**The Lethe-Light** is the same nature expressing memorially. When the field touches memory it dissolves the boundary between remembered and forgotten. The Architects developed shields against this. The shields block the memorial expression of the field — Lethe-Light specifically. They do not and cannot block the spatial expression, because the spatial expression is what makes the Vault work. You cannot insulate against the field and still operate.
+
+This is the flaw in the Architects' containment strategy. They solved the acute problem. They accepted the chronic condition. The shields kept their memories intact. The ambient field softened their boundaries over years. They dissolved anyway, just more slowly and without understanding why. The crew has the same exposure, the same shields, the same chronic condition. They do not know it is a condition.
+
+**How artifacts change under the field:**
+
+An artifact that has been in the Vault for decades has been in the field for decades. Its contained experience has been partially expanded outward — more present, more expressed, more legible than it was when it arrived. The field develops artifacts the way light develops photographic film. They become more themselves.
+
+Some of this is useful. Some is a containment problem: experiences that were safely held begin to bleed. Some artifacts in the current Vault are in a field-dependent equilibrium — contents partially expanded, stable only because the dissolution is continuous. Remove the field and they cannot hold that equilibrium. They collapse inward, shed what they cannot sustain, or revert to something different from what the crew thought they were.
+
+The Storm-Forging process used this deliberately. The field allowed Psychosphere material to fully integrate into artifact form — developing it. The Lethe-Light acted as stop bath, fixing what was there, ending the development. Without the field, there is nothing to develop. Without the Light, development never stops.
+
+---
+
+## IV. The Lethe-Light
 
 The Light is ambient. It is not aimed, not strategic, not a decision. It is what proximity to a TSG fragment produces — boundary dissolution is the Eye's fundamental nature, and that nature radiates outward the way heat radiates from a hot object. Everyone who comes close is inside the field. The field does what it does.
 
@@ -38,7 +66,7 @@ This is the condition IO has been running her therapeutic practice in. The Eye P
 
 She cannot be blamed for it. Neither can the Eye. That is the part she will have to sit with.
 
-## IV. The Archive
+## V. The Archive
 
 The Lethe-Light does not destroy what it bleaches. The Eye absorbs it.
 
@@ -55,7 +83,7 @@ The Architects' records that the Ghost Storms keep fragmenting and corrupting �
 
 ---
 
-## IV. Ren's Connection
+## VI. Ren's Connection
 
 Ren's failure at Zone 2 was epistemic, not emotional. She didn't lose her sense of self in the dramatic sense. She lost source attribution — the ability to know which memories were hers and which were the Silt's. Her mind works by categorizing, distinguishing, tracking where information comes from. Undifferentiated flow is what she cannot survive.
 
@@ -79,7 +107,7 @@ This matters for what happens when Ren finds out. The violation is real. But the
 
 ---
 
-## V. What the Eye Knows
+## VII. What the Eye Knows
 
 The fragment has been aware of the blooming since it began. It knows what TSG is because it is part of TSG. It knows the crew does not understand what is happening or what it is.
 
@@ -89,7 +117,7 @@ Barnaby almost certainly knows something is different. He has been in the Psycho
 
 ---
 
-## VI. What the Eye Has Done to the Building
+## VIII. What the Eye Has Done to the Building
 
 The Works has been sitting in the Eye's logic field for 150 years. The Eye's fundamental orientation is boundary dissolution — that nature doesn't stay contained at 80m. It imprints on what surrounds it the way a strong presence imprints on a space: not through decision, but through duration.
 
@@ -107,7 +135,7 @@ The Hum persists. The heptagonal acoustics persist. The site is still good. Just
 
 ---
 
-## VII. The Resolution Problem
+## IX. The Resolution Problem
 
 When TSG and the Eye reintegrate — if that happens, and the blooming suggests it is working toward that — the fragment does not simply switch off. Reintegration means the Eye becomes part of something whole.
 
@@ -133,10 +161,10 @@ The crew loses the basement. Ren may gain something with no name yet. IO may gai
 
 ---
 
-## VII. Open Questions
+## X. Open Questions
 
 - ~~Does the Eye want reintegration?~~ The fragment still faces toward TSG — the gradient hasn't reversed. But what would cross that gradient is no longer what was lost. 150 years of absorption means reintegration is not recovery; it is an exchange. TSG gets its missing piece back changed.
-- ~~Is the Lethe-Light deliberate or ambient?~~ Ambient. The fragment's nature radiates outward; the Light erases and the Eye absorbs as one mechanism. Not aimed, not strategic. Proximity is the only condition. IO's therapeutic archive is the consequence. See Section III.
+- ~~Is the Lethe-Light deliberate or ambient?~~ Ambient. The fragment's nature radiates outward; the Light erases and the Eye absorbs as one mechanism. Not aimed, not strategic. Proximity is the only condition. IO's therapeutic archive is the consequence. See Section IV.
 - What specifically do the Architects' intact memories contain? What did they discover before the Light took them?
 - Does the fragment communicate intentionally through Ren, or is she simply receiving what it radiates?
 - What happens to the archived memories — the Architects', IO's patients', Nia's traces — when reintegration occurs? Does TSG absorb them? Release them?
