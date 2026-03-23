@@ -63,10 +63,10 @@ Core cosmology document written: `canon/cosmology.md`. Covers drive beneath "uni
 
 ### Inanimate Characters — Develop Further
 The Eye now has its own document (`canon/the_eye.md`) covering its nature as a TSG fragment, the archive mechanic, and Ren's connection. Remaining open questions:
-- Does the Eye want reintegration, or has 150 years of separation produced something more complicated?
-- Is the Lethe-Light deliberate or ambient — and if deliberate, toward what end?
-- Does the Cistern's "management" of the psychic environment ever feel like *preference* — spaces it allows, states it resists?
-- What does Barnaby know, and why hasn't he said it? **New angle:** Barnaby is the only living index of the pre-Eye Vault — he knows which artifacts predate 1887, how the practice worked before the logic field, what the Architects could do before the Eye transformed everything. This is the foundation IO and Ren need for the second arc rebuild. Does he know this is what they need? Can he communicate it? See `barnaby.md`.
+- ~~Does the Eye want reintegration?~~ ✓ The fragment still faces toward TSG but what returns is not what was lost — 150 years of absorption means reintegration is an exchange. TSG, Nia, Ren, IO connected through shared ground. See `the_eye.md` Section VII.
+- ~~Is the Lethe-Light deliberate or ambient?~~ ✓ Ambient. Eye's nature radiates outward; Light erases and Eye absorbs as one mechanism. IO's therapeutic archive is the consequence. See `the_eye.md` Section III.
+- ~~Does the Cistern's "management" feel like preference?~~ ✓ The Eye's nature has imprinted on the Works over 150 years — dissolution states supported, sharp self-edge has drag, rooms hold history. Accidental calibration for permeable-but-not-obsessive consciousness. Persists after reintegration, fading slowly. See `the_eye.md` Section VI and `locations.md` Cistern entries.
+- ~~What does Barnaby know, and why hasn't he said it?~~ ✓ He carries the before/after of the Eye's effect on the Architects — grief-images he can't articulate as warning. Communication is behavioral on the surface, show-not-tell in the Deep (Ama is most fluent). The silence is partly damage from 130 years in the wrong preservation artifact. Pre-Eye Vault index role established for arc 2. Arc 0 origin scene developed: Nia accidentally releases him while the crew is exploring the Vault together. See `canon/characters/barnaby.md`.
 - **What was the Eye suppressing in the Vault, and why?** Post-reintegration, something that was held down is now simply present. Five candidate options documented in `locations.md` (Vault After Reintegration, Release). Preferred direction: (D) confluence reasserts native character + (E) pre-Eye entities return, with (B) sealed Architect decision as optional additional layer. Needs a dedicated session to commit and develop.
 
 ~~### The Deep as Character~~ ✓ see `canon/psychosphere.md` Section VII

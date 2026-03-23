@@ -28,7 +28,17 @@ The fragment is disoriented in a specific way: separated from its larger context
 
 ---
 
-## III. The Archive
+## III. The Lethe-Light
+
+The Light is ambient. It is not aimed, not strategic, not a decision. It is what proximity to a TSG fragment produces — boundary dissolution is the Eye's fundamental nature, and that nature radiates outward the way heat radiates from a hot object. Everyone who comes close is inside the field. The field does what it does.
+
+The Light erases. The Eye absorbs what the Light produces. These are two parts of one mechanism: the fragment's nature bleaches memory outward, and the fragment's archive function takes in what is bleached. Proximity to the Eye means being inside a system that takes from you without intending to. There is no malice. There is no intent. There is a thing, and there is what it is, and standing next to it has consequences.
+
+This is the condition IO has been running her therapeutic practice in. The Eye Protocol works — she deliberately thins the barrier, clears stuck memory, helps patients process and move on. The memories she helps people release don't dissolve. They're in the Eye, indexed, intact, held in something that is now part of TSG. Her patients consented to the treatment. They did not consent to the archive. She did not know there was an archive to consent to.
+
+She cannot be blamed for it. Neither can the Eye. That is the part she will have to sit with.
+
+## IV. The Archive
 
 The Lethe-Light does not destroy what it bleaches. The Eye absorbs it.
 
@@ -79,7 +89,25 @@ Barnaby almost certainly knows something is different. He has been in the Psycho
 
 ---
 
-## VI. The Resolution Problem
+## VI. What the Eye Has Done to the Building
+
+The Works has been sitting in the Eye's logic field for 150 years. The Eye's fundamental orientation is boundary dissolution — that nature doesn't stay contained at 80m. It imprints on what surrounds it the way a strong presence imprints on a space: not through decision, but through duration.
+
+What this produces in the Works:
+
+States of dissolution, permeability, and ego-softening feel slightly *supported* in the building. Not induced — you don't lose yourself by walking in. But there is reduced friction toward those states. Conversely, sharp self-edge and firm certainty feel like mild drag. Maintainable, but effortful. The crew lives in a building that has been, for 150 years, applying gentle pressure in the direction of openness. They have probably been shaped by this without knowing it.
+
+The heptagonal geometry of the antechamber and pool works against this in a specific way: it prevents fixation, keeps ideas moving, stops obsession from taking root. The collision of these two forces — the Eye pressing toward dissolution, the geometry preventing spiraling — has accidentally calibrated the Works for a particular quality of mind: permeable but not obsessive, open but not lost. The building has been optimized, without intending to, for exactly the kind of consciousness this work requires.
+
+Specific rooms hold their history. The spaces where the Architects' dissolution was heaviest don't feel haunted. They feel *thin* — as if something was used up there and the space hasn't fully recovered. Not dangerous. Just insufficient, in a way that's hard to name.
+
+**After reintegration:** the active imprinting stops. Stone doesn't forget quickly — the shape of the presence persists for decades before it fades. But the crew will notice the drag is gone. Clarity feels easier. Sharp certainty costs less. Depending on who you are, that registers as relief or as a faint wrongness — a sound you'd stopped hearing that you only notice now it's absent.
+
+The Hum persists. The heptagonal acoustics persist. The site is still good. Just different.
+
+---
+
+## VII. The Resolution Problem
 
 When TSG and the Eye reintegrate — if that happens, and the blooming suggests it is working toward that — the fragment does not simply switch off. Reintegration means the Eye becomes part of something whole.
 
@@ -108,7 +136,7 @@ The crew loses the basement. Ren may gain something with no name yet. IO may gai
 ## VII. Open Questions
 
 - ~~Does the Eye want reintegration?~~ The fragment still faces toward TSG — the gradient hasn't reversed. But what would cross that gradient is no longer what was lost. 150 years of absorption means reintegration is not recovery; it is an exchange. TSG gets its missing piece back changed.
-- Is the Lethe-Light the fragment's nature bleeding outward, or is it something the fragment does deliberately — and if deliberately, why?
+- ~~Is the Lethe-Light deliberate or ambient?~~ Ambient. The fragment's nature radiates outward; the Light erases and the Eye absorbs as one mechanism. Not aimed, not strategic. Proximity is the only condition. IO's therapeutic archive is the consequence. See Section III.
 - What specifically do the Architects' intact memories contain? What did they discover before the Light took them?
 - Does the fragment communicate intentionally through Ren, or is she simply receiving what it radiates?
 - What happens to the archived memories — the Architects', IO's patients', Nia's traces — when reintegration occurs? Does TSG absorb them? Release them?
