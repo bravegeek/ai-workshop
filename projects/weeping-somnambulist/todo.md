@@ -137,6 +137,16 @@ Resolved as man vs. nature: the antagonism is structural, not agentive. The Bloo
 ### Dive Aesthetics — Oubliettes vs. Open Drift
 *Unlocked by: Zone System redesign.* The structural decision is made: oubliettes have genre, open Drift doesn't. Each oubliette is a sealed pocket with its own visual logic — it reads as a genre because it preserves the character of its origin. Open Drift is rawer, less narrative, harder to genre-ify. Needs a dedicated session to answer:
 
+**Tonal references — what each contributes:**
+- **Inception / The Matrix** — useful for oubliette structure (genre logic, rules the crew can read and exploit) but wrong register for the open Deep. The danger in these is designed and agentive. The Deep's danger is ecological and indifferent.
+- **Alice in Wonderland** — the oubliette model at its purest. Each pocket has internally consistent but alien rules that predate the visitor. The danger isn't malicious — the environment proceeds according to itself and the diver nearly dies by applying the wrong logic. Method Acting is Alice trying to survive Wonderland by playing along.
+- **Annihilation** — the absorption theme maps directly onto TSG, the Mycelium, and the loss-of-self question. Area X isn't hostile, it incorporates. The specific dread: you can't tell the difference between dissolution and becoming until it's too late to matter. Nia's story exactly. Also what Lorcan resists every day.
+- **Samurai Jack** — the oubliette model made episodic. Each location self-contained, its own visual logic, its own rules, its own kind of danger. Wonder and danger coexist without cancelling each other. Jack reads the environment and adapts or dies. The crew moves through oubliettes the way Jack moves through locations: each one complete in itself, each one leaving something behind.
+- **Scavengers Reign** — the open Deep and zone system. See Zone System entry. Ecology as protagonist, world with its own interiority the characters can't fully access.
+- **Disney World** — the failure mode. When a world becomes too legible, too safe, too curated for the visitor's comfort, it stops being alive. The Deep should never feel fully oriented. Not as a cheap scare — because that's what living ecosystems actually feel like.
+
+**The through-line:** the world has interiority the protagonist can't fully access. Wonderland has its own politics. Area X has its own project. Jack's worlds have their own histories. The Deep has 400 million years of accumulated life before anyone arrived to dive it.
+
 **Oubliettes:**
 - What is the visual tell that you've entered one? How does the transition feel?
 - How does genre assert itself — does it arrive all at once or does it creep in?
@@ -159,6 +169,7 @@ The current five-band model is too mechanical — a game rulebook, not a lived e
 - Do zones make sense as discrete bands, or a gradient — blurring, not stepping?
 - Redesign goal: descent should feel like *falling into something*, not descending through labelled layers
 - What does a first-time diver experience vs. a veteran?
+- **Tonal reference: *Scavengers Reign* (2023).** The clearest visual/tonal model for how the Deep should feel. Ecology as protagonist — the world behaves according to its own rules regardless of whether anyone's watching. Beauty and danger as the same thing, neither being the point. Incomprehensible scale made tactile through small specific details. Symbiosis as horror and wonder simultaneously. No discrete zones — terrain that changes character as you move through it, noticed before it can be named. The five-band model is Inception; the redesign target is Scavengers Reign.
 
 ### Immune System — Response Levels
 Not every dream, zone, or Oubliette has the same response. The current model implies uniformity.
