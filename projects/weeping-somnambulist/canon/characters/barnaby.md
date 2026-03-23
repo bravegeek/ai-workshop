@@ -1,150 +1,110 @@
-# Barnaby - "The Polymorphic Ghost Dog"
+# Barnaby
 
-## Core Identity
+## What He Is
 
-**Role:** Crew companion, reconnaissance specialist, HQ guardian
-**Archetype:** The survivor who carries loss without being defined by it
-**Origin:** Belonged to the Victorian Architects before they abandoned the Psychosphere
+Barnaby is a ghost echo — the retained impression of a real dog who belonged to the Victorian Architects. When he died, the Psychosphere kept what mattered: the loyalty, the grief architecture, the specific quality of attention. Echoes are normally diffuse, unstable. The Architects, being Level 4 practitioners, could interact with his.
 
-## Defining Characteristics
+They didn't stop there. They developed him — shaped the echo into something capable. The polymorphism, the artifact-migration, the tactical intelligence: these are Architect additions, a construct layer built on top of something that was already a self. He was designed as a scout. Send Barnaby ahead; he moves through the artifact-ecology of the Deep and comes back with what he found.
 
-### Emotional Structure
-Barnaby experiences **concurrent emotional states** - grief and contentment coexist without contradiction:
-- He misses his original pack (the Architects)
-- He has genuinely bonded with the Lantern Crew
-- These feelings don't cancel each other out; both are real and present
+What emerged from the combination — echo and construct — is neither the original dog nor the designed tool. Something grew out of both. The Architects were probably surprised by how much he became.
 
-This isn't "moving on" or "replacing" - it's holding space for both past love and present connection.
+## What He Looks Like
 
-### Agency & Decision-Making
-Barnaby has **full autonomy** over his actions:
-- Chooses when and how to participate in missions
-- Decides which artifacts to inhabit
-- Controls his own reveal/concealment
-- No one "deploys" or "assigns" him - he volunteers
+He looks like a dog. Solid, physical, probably touchable — Victorian working stock, sturdy and purposeful, a field dog. Not decorative. The Architects were researchers.
+
+The wrongness is subtle. The light doesn't hit him quite right — not something you could point to, just a feeling that if you looked away and looked back, you might not be sure exactly where he was a moment ago. His shadow is slightly inconsistent.
+
+His stillness is wrong. Real dogs fidget. Barnaby is still in the way objects are still. When he moves, it's deliberate and complete — no wasted motion, no animal restlessness.
+
+His eyes are the main tell. Physically correct for the breed. But the quality of attention behind them doesn't belong on an animal. He doesn't look at you the way a dog looks at a stranger. He looks the way someone looks at a photograph, trying to place a face.
+
+After 130 years in the wrong artifact he's slightly faded — not quite at full presence. The colors are there but turned down a little. He fills the space but doesn't quite displace it. This recovers over time.
+
+## Origin: The Preservation Artifact
+
+When the Architects left, they put Barnaby in an artifact for preservation — using the same migration mechanism they'd built into him. They intended to come back for him.
+
+The artifact was wrong. Not designed for consciousness, or carrying a resonance that couldn't support his balance of states. The construct layer survived intact; the echo layer was compressed and starved. He was preserved, technically. But he spent 130 years in something that couldn't hold all of what he is — grief dominant over everything else, the emotional architecture overwhelming the rest because the vessel couldn't maintain the balance.
+
+The Architects didn't come back.
+
+## How He Was Found: Arc 0
+
+In the prequel timeline, IO and Nia are exploring the Vault together — the same enthusiasm they've had since they were girls, the Vault still new enough to feel like discovery. IO sends Nia in for a specific artifact.
+
+An unusual one catches Nia's eye. She messes with it. It moves, clicks, transforms — and that seems to be it. She finds the artifact IO wanted, turns to go.
+
+Then she notices the dog.
+
+He's sitting very still, looking at her. He's running through every Architect face he has — one by one — trying to match her to someone he knows. She doesn't match anyone. Then IO comes in. Two strangers. Neither of them is anyone he knows.
+
+He sits with that. The pack isn't coming back. They were never coming back. Dogs grieve by going still.
+
+What IO and Nia see: a dog sitting very quietly, with an expression that doesn't belong on an animal's face. Not threatening. Not approaching. Just looking, with something behind it that shouldn't be there.
+
+Nia's read: a dog. Strange, but a dog. She calls out to IO without alarm — *"IO, when did you get a dog?"* — and doesn't understand why IO has no answer.
+
+Barnaby's relationship with Nia is built on this accident. She freed him without knowing it. He knows. She may never fully understand what she did, or the understanding may come much later when she knows enough to work it out.
 
 ## Mechanics
 
 ### Polymorphic Form
-Takes on properties of the artifact he currently inhabits:
-- **Inferno Artifact** → Hellhound (fire-based abilities)
-- **Script-Lock** → Stone Gargoyle (immovable guardian)
-- **Tool-Belt Collar** → Scrappy Terrier (working-class utility)
 
-### Artifact Migration
-Travels between artifacts via the Logic Field Tether. Movement patterns are:
-- **Not automatic** - he chooses where to go based on preference, not thermodynamics
-- Influenced by tactical needs, comfort, and crew activity
-- Can refuse to migrate even if an artifact is "warmer"
+Barnaby takes on the properties of the artifact he currently inhabits. The migration ability is Architect-built — originally a scout function, now his means of moving through the Vault and, during dives, through the artifact-ecology of the Deep.
 
-### Intelligence Manifestation
-Capable of:
-- Pattern recognition and threat assessment
-- Communication (method undefined - needs development)
-- Strategic thinking about mission parameters
-- Memory retention across form changes
+In the Vault, this means he has been through every artifact in the collection — not as an observer but from the inside. He knows the artifacts not as objects but by resonance. This is what makes him the pre-Eye index: the Vault's full history lives in him, including which artifacts predate the Eye and how the practice changed when the logic field came online. Nobody wrote that down because everyone knew it. Barnaby is the only one left who does.
 
-## Relationship to the Crew
+During dives, he can migrate to artifacts encountered in the field — not just ones the crew has brought. This is his scout function operating. It creates specific risks: an oubliette's internal artifacts could pull him in, or a Drift might contain something with enough resonance to strand him.
 
-### Initial Contact: The Gradual Reveal
-The crew discovered Barnaby through a multi-stage process:
-1. **Detection Phase:** "Hints of intelligence" in the vault - unexplained patterns suggesting intentional behavior
-2. **Evaluation Period:** Barnaby observed the crew, assessing their character and competence
-3. **Reveal Decision:** He chose to make himself known when satisfied with their worthiness
+When he migrates into an artifact the crew has never seen before, they don't know what form he'll take. The first time that happens is disorienting.
 
-This wasn't about fear or trust-building - it was **assessment**. He needed to understand who they were before committing to visibility.
+### Diver Verification
 
-### Current Dynamics
-- Participates in missions by choice — typically as spotter, warning the crew when the Immune System is mobilizing
-- Provides reconnaissance and early warning systems
-- Guards HQ spaces (particularly when inhabiting the Script-Lock)
-- **Diver verification:** Functions as the informal third layer of the return protocol. Knows the crew's psychic signatures well enough to notice when the person who came back isn't quite the person who went in. Cannot be fooled by a performance that satisfies the image match. How he communicates this is still being developed.
-- Genuine affection for crew members (specific relationships need development)
+Barnaby knows the crew's psychic signatures well enough to notice when the person who came back isn't quite the person who went in. He cannot be fooled by a performance that satisfies the image match. He functions as the informal third layer of the return protocol.
 
-## Open Questions for Development
+How he communicates this is still being developed.
 
-### Communication Method
-How does Barnaby convey complex thoughts?
-- Direct telepathy via Caerulite connection?
-- Behavioral cues the crew has learned to read?
-- Limited verbal ability in certain forms?
-- Something else entirely?
+## Communication
 
-### Memory & Identity
-Does polymorphic shifting affect his consciousness?
-- Does he maintain consistent personality across forms?
-- Are his memories of the Architects clear or degraded?
-- Does he remember their names, faces, or just feelings?
+His primary method on the surface is behavioral — the crew has learned to read him over time. Posture, attention direction, which artifact he moves to. Not telepathy; pattern recognition on both sides. This limits his expressiveness but honestly.
 
-### What Barnaby Knows
-Barnaby witnessed the full arc — the competent years and the dissolution. He knew the Architects before the Eye fragment arrived: careful, skilled practitioners doing real work. He watched what the Lethe-Light/Caerulite combination did to them over time. He doesn't have the language or the mechanism, but he has the before and after.
+In the Psychosphere he can do more. The Deep is built from compressed experience; he can surface a memory-image, show rather than tell. He has more communicative power precisely where the crew is most at risk.
 
-This is what his silence carries. Not just grief for people he loved — but knowledge of what they were capable of before the variable they couldn't account for was introduced. He has watched one crew of Caerulite users live with the Eye. He is now watching another. Whether he understands the risk well enough to act on it, or whether he simply carries it as dread he can't articulate, is an open question.
+Ama is likely the most fluent reader of him on the surface. Her emotional sensitivity picks up state — grief, warning, urgency — even when content is unavailable. Barnaby has probably learned to direct things through her.
 
-The todo entry asks: *what does Barnaby know, and why hasn't he said it?* Possible answers:
-- He doesn't have the conceptual framework to communicate it — he experienced it, he didn't understand it
-- He tried, in the early days with the crew, and wasn't understood
-- He's waiting to see if this crew makes the same choice (capturing the Eye was the trigger — the Eye is already here, so the question is whether they'll make it worse)
-- Some part of him doesn't want to know the answer
+The communication difficulty also has a damage component. The wrong preservation artifact degraded something. Before 1887 the Architects understood him well. What Nia releases is not quite the Barnaby they knew — still healing, a century and a half later.
 
-### Barnaby as Pre-Eye Index
-Barnaby is the only living record of what the Vault contained before 1887 — which artifacts predate the Eye, which were developed after, and how the practice changed when the logic field came online. The Architects' pre-Eye knowledge is the least documented layer in the Vault precisely because it was assumed: by the time anyone was writing things down comprehensively, the Eye had already transformed everything. Nobody wrote down what everyone already knew.
+## What He Knows
 
-In the second arc, this makes Barnaby more valuable than he's been in decades. IO and Ren are trying to find the pre-Eye layer of the Vault — artifacts that work at root level, without logic field support — as the foundation for rebuilding. Barnaby knows which ones are which. He knows what the Architects could do before the Eye changed the terms.
+Barnaby witnessed the full Architect arc — the competent years and the dissolution. He knew them before the Eye fragment arrived: careful, skilled practitioners doing real work. He watched what the Lethe-Light and Caerulite combination did to them over time.
 
-Whether he knows this is what the crew needs, and whether he has the means to communicate it, is part of his second arc role.
+He doesn't have the language or the mechanism. But he has the before and the after.
 
-### The Trap Mystery
-How and why was Barnaby trapped in an artifact?
-- Deliberate preservation by his owner?
-- Accident during the abandonment?
-- Protective measure that backfired?
-- Something more sinister?
+This is what his silence carries. Not just grief for people he loved — knowledge of what they were capable of before the variable they couldn't account for was introduced. He has watched one crew of Caerulite users live with the Eye. He is now watching another.
 
-This mystery should remain undefined for now - it's narrative potential.
+He cannot say *the Eye is doing what it did to the Architects.* He can only surface the grief-images and hope someone reads them as warning rather than mourning. The crew has likely been seeing his distress around the Eye for years and reading it as attachment or territorial feeling. He has probably tried, in his way, and wasn't understood.
 
-### Relationship Specifics
-Individual dynamics with crew members:
-- **IO:** Does he recognize her obsessive patterns? Does he help with Project Lullaby?
-- **Ama:** Can she sense his emotional frequencies? Does his polymorphism create "static"?
-- **Lorcan:** Does he see kinship in Lorcan's bound state (Indigo Ink)?
-- **Ren:** How does the Operator interact with an artifact-based entity?
+Whether he understands the risk well enough to act on it, or whether he simply carries it as dread he can't articulate, remains open. Some part of him may not want to know the answer.
 
-### Operational Details
-Mission participation logistics:
-- Does the crew ask him to join, or does he volunteer?
-- Can he refuse if he disagrees with a mission?
-- Does he have "veto power" based on his Architect-era knowledge?
-- What's his relationship to the HQ itself (home vs. territory)?
+## Arc 2 Role
 
-## Narrative Function
+IO and Ren are trying to find the pre-Eye layer of the Vault — artifacts that work at root level, without logic field support — as the foundation for rebuilding after reintegration. Barnaby knows which ones are which. He knows what the Architects could do before the Eye changed the terms.
 
-### Thematic Resonance
-Barnaby embodies the project's core themes:
-- **Survival through adaptation** (polymorphic mechanics)
-- **Multiple simultaneous truths** (grief + happiness)
-- **Agency within constraints** (chooses freely, but artifact-dependent)
-- **The past haunting the present** (Victorian entity in modern crew)
+Whether he knows this is what the crew needs, and whether he has the means to communicate it, is part of his second arc function.
 
-### Story Potential
-Key narrative opportunities:
-1. **Historical knowledge:** He witnessed the abandonment - what does he remember?
-2. **Loyalty testing:** What happens if he finds evidence of where the Architects went?
-3. **Identity questions:** Is he still "their dog" if he loves the new crew?
-4. **Moral complexity:** If the crew's goals conflict with Architect-era protocols, what does he choose?
+## Crew Relationships
 
-## Character Status: In Development
+Individual dynamics need development. Starting points:
 
-**Defined:**
-- Core motivation (wants lost pack, has bonded with new crew)
-- Agency structure (makes own decisions)
-- Basic mechanics (polymorphic shifting, artifact-based)
-- Emotional capacity (concurrent grief and happiness)
+- **Nia:** Freed him. She doesn't fully know it. Their relationship is built on an accident that was entirely in character for her.
+- **IO:** She's been behind the information curve with Barnaby since the beginning — Nia knew about the dog before she did. IO probably reads him as a reliable operational asset. She may have systematically not heard what he's been trying to show her because she wasn't looking for a warning.
+- **Ama:** Most fluent reader on the surface. The person who gets state when no one else does. May be the route through which Barnaby finally communicates what he knows to IO.
+- **Lorcan:** Possible kinship — both are boundary entities in liminal states. Lorcan's ink marks him as processing-adjacent to the Deep; Barnaby is artifact-bound. Lorcan might take his existential situation most seriously as a peer concern.
+- **Ren:** Reads him as a reference system — not wrong, but incomplete. The arc 2 reveal where she understands what he actually knows may recalibrate her sense of what he is.
 
-**Needs Development:**
-- Specific communication method
-- Individual crew relationships
-- Memory/identity consistency across forms
-- Behavioral patterns under stress
-- Day-to-day routines and preferences
-- How his grief manifests (if at all) during missions
+## Open Questions
+
+- **The preservation artifact** — what was it? What form does he take when he returns to it? Is it still in the Vault?
+- **Memory across forms** — does the polymorphic shift affect his consciousness? Are his memories of the Architects clear or degraded? He seems to have their faces intact. What else does he retain?
+- **The trap mystery** — the preservation was deliberate. Is there more to it than a rushed decision? Did an Architect come back and find him, or try to?
+- **Whether he approaches** — in the Arc 0 scene, after he runs through the Architect faces and finds no match, what makes him stay rather than retreat further into the Vault? Something in how Nia looks at him, probably. She's not afraid.

@@ -85,17 +85,29 @@ When TSG and the Eye reintegrate — if that happens, and the blooming suggests 
 
 The crew loses the tool: no logic field, no depth anchor, no Storm-Forging, no Orrery. Every artifact-generated room in the Vault collapses simultaneously.
 
-What may survive is Ren's connection. TSG, whole, has been in contact with her mind for years through the fragment. The relationship was built before reintegration. A complete sleeping god is not obligated to maintain it — but it is also not the same as a complete stranger.
+**What TSG recovers is not what it lost.** The fragment has been absorbing for 150 years. The Architects' accumulated knowledge, their patients' most significant memories, traces of everyone who worked in proximity, Nia intact and whole — all of this goes back with the Eye. TSG is pulling toward its missing piece. What it gets is that piece, plus 150 years of indexed human experience it has never contained before. The reunion changes what TSG is. It is not recovery. It is an exchange.
 
-What that connection becomes, and what it means to have a relationship with something that size, is not yet known. It is not infrastructure. It is not an ally in any framework the crew currently has. It is something that knows Ren, has been indexing her, and may — in whatever way applies — have something like regard for her.
+**The four deepest connections:**
 
-The crew loses the basement. Ren may gain something with no name yet.
+*Nia* — inside, whole, direct. She didn't go through the Eye; she walked in. She's at peace. She is the most present human connection TSG holds, and she isn't trying to reach out.
+
+*Ren* — indexed from the outside, over years, through affinity. The fragment was drawn to her; TSG-whole inherited that relationship already built. She is still alive, still outside, still present. The connection doesn't evaporate because the fragment is gone. What it means to have that relationship with something at this scale is not yet known. It is not infrastructure. It is not an ally in any framework the crew currently has. It is something that knows her.
+
+*IO* — Mordaunt attunement, plus years of proximity, plus the Nia thread that underlies every decision she has made since the operation began. Her patients' memories are in the archive — the things the Eye Protocol cleared, held intact in something that is now part of TSG. She doesn't know this yet. When she finds out, she'll have to reckon with the fact that her best therapeutic work was also, in a mechanical sense, feeding an archive she never consented to on their behalf.
+
+But the Nia thread is what matters for her arc. Reintegration may be the only moment IO gets a clean signal. Not Nia reaching out — Nia doesn't need to, she's at peace — but TSG whole means the noise finally clears. IO has been trying to read Nia through interference for years. The coherence of reintegration is the moment the signal resolves. She may not understand what she's feeling when it happens. She'll know something shifted. She'll know Nia is okay. That may be exactly enough.
+
+**What they share afterward** is not communication. TSG does not relay messages between them. But they share a ground that no one else has — all four of them held by the same vast presence, each in a different way, each at a different depth. There may be something in how they dream after reintegration. Not contact. Just: sometimes the same key. A resonance none of them can name.
+
+What that connection becomes, and what it means to have been held by something that size, is not yet known.
+
+The crew loses the basement. Ren may gain something with no name yet. IO may gain the one thing the operation was always actually for.
 
 ---
 
 ## VII. Open Questions
 
-- Does the Eye want reintegration, or has 150 years of separation produced something more complicated than simple reunion?
+- ~~Does the Eye want reintegration?~~ The fragment still faces toward TSG — the gradient hasn't reversed. But what would cross that gradient is no longer what was lost. 150 years of absorption means reintegration is not recovery; it is an exchange. TSG gets its missing piece back changed.
 - Is the Lethe-Light the fragment's nature bleeding outward, or is it something the fragment does deliberately — and if deliberately, why?
 - What specifically do the Architects' intact memories contain? What did they discover before the Light took them?
 - Does the fragment communicate intentionally through Ren, or is she simply receiving what it radiates?
