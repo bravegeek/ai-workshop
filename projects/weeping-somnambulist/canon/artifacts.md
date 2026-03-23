@@ -134,7 +134,68 @@ What is it waiting for? What kind of person does it respond to, and what kind do
 
 ---
 
-## VIII. Open Questions
+## VIII. Artifacts in Different Contexts
+
+### Surface (No Field)
+Mostly inert — Semantic Volume fully compressed. The object has a quality that's hard to name: slightly wrong in a way you can't point to, wrong weight, feels like it has an inside. Non-practitioners may not notice. Practitioners feel a low pull, a compressed presence.
+
+**The slow absorption model:** non-practitioners can't dive deliberately, but they sleep — and during sleep the barrier naturally thins and everyone enters the Psychosphere passively. An artifact nearby during sleep seeps into that passive contact. Not full access, but repeated exposure over weeks and months produces real effects. A musician sleeping near a mastery artifact doesn't wake up with the skill transferred, but their dreaming mind is touching it repeatedly, and the waking mind integrates what the dreaming mind experienced. Over time their playing improves in ways they can't fully account for. The artifact didn't teach them. It gave their sleeping mind something to learn from.
+
+No artifact does anything useful in the waking world through direct interaction alone. You cannot hold a language artifact and speak the language. The surface-world value of any artifact is entirely downstream of sleep exposure or deliberate dive access. IO probably doesn't volunteer this to clients.
+
+### The Psychosphere (During a Dive)
+Artifacts activate in the Deep — the boundary between contained and expressed naturally softens. The Semantic Volume begins to expand.
+
+- **Asserts itself as environment** — a carried artifact bleeds outward into the surrounding space. Strong artifacts in the right conditions can partially impose their own space over the existing environment.
+- **Changes how the Psychosphere reads the diver** — carrying a grief artifact makes you resonant with grief-dense spaces. Carrying a belonging artifact means certain spaces receive you as belonging. In an oubliette with specific genre logic, the right artifact functions as credentials.
+- **Can protect or expose** — a strong artifact expands around the diver as a shell of identity. Useful; also attracts attention. The Witness/Reliquary does this deliberately.
+- **Can be changed** — oubliettes may try to incorporate artifacts into their own genre logic. Mycelium finds artifact-carrying divers especially interesting (higher nutrient gradient). Artifacts can absorb new material during a dive and return different.
+
+### The Works (Inside the Eye's Logic Field)
+The middle state. The Eye's field dissolves the boundary between contained and expressed — artifacts are in partial activation without requiring a full dive.
+
+- **Semantic Volume expands** — artifacts generate rooms. The Vault's structure is accumulated partial expansions.
+- **Artifact is more present and legible** — personality and properties accessible from the surface. Ren can read it. Barnaby can migrate fully.
+- **Cross-artifact influence** — artifacts in proximity within the field affect each other. What sits next to what matters. The Vault is an ecology.
+- **Storm-Forging** — intentional use of this state: field allows partial development of Psychosphere material; Lethe-Light fixes it. Controlled artifact shaping without full immersion.
+- **Surface-side engagement** — practitioners can access some artifact properties without entering the Deep. How IO's therapeutic practice works.
+
+### After Reintegration
+The middle state disappears. Artifacts are either inert (surface) or fully active (Deep). The crew loses: Vault rooms, controlled artifact work, Storm-Forging, surface-side therapeutic engagement. What remains: the artifacts themselves — now requiring full immersion to access — and pre-Eye artifacts that were never field-dependent. This is why Barnaby's knowledge matters for arc 2.
+
+*Unresolved: whether the crew's Witnesses generate the rooms they live in, meaning they've been living inside their own identity artifacts expanded by the Eye's field. Interesting but not committed to — revisit.*
+
+---
+
+## IX. IO's Market
+
+Artifacts are the Lantern Crew's primary revenue. The market stratifies sharply by client type.
+
+### Non-Practitioner Clients
+The broad market. Clients who know something exists but don't have deliberate Psychosphere access. They get the slow absorption model — sleep exposure, gradual effect, results that look like natural development. IO frames the product as therapeutic or experiential without fully explaining the mechanism. This is what most clients are buying:
+
+- *Therapeutic* — stuck grief, recurring nightmares, processing blocks. An artifact with the right resonance given to a client to sleep near over weeks. Slower than the Eye Protocol but available to anyone who can pay.
+- *Experiential/access* — a language from a lost culture, a place that no longer exists, a belonging-dense artifact for someone severed from their history. Results are partial and slow: dream fragments, intuitions, a felt sense of something they've never directly experienced.
+- *Capacity* — skill and mastery artifacts sold to people trying to recover something lost or reach something just beyond them. Effects are real but take time and are hard to separate from natural development.
+
+### Practitioner Clients
+A smaller, professional market. Practitioners who can dive deliberately get the full version of whatever they buy — direct Psychosphere access, immediate effect, none of the months of slow absorption. The same artifact is dramatically more valuable in a practitioner's hands. IO prices accordingly and keeps the most powerful artifacts out of the general market.
+
+### The Secret Extraction Market
+A different product entirely. IO extracts experience from a specific person's Psychosphere layer while they sleep — their knowledge, their memories, their secrets, compressed into artifact form. The client wants what that person knows or has access to.
+
+The resulting artifact is inert to non-practitioners. It can only be read by someone who can enter the Psychosphere and access it directly. This means the secret extraction market is exclusively practitioners — a small, specific professional network. A list of names, not a public offering.
+
+The targets are framed as bad actors. Ren knows the full shape and is at peace with it. Ama and Lorcan know some jobs come from sources IO doesn't name and have each chosen not to push on it.
+
+### Why IO Built This
+The extraction economy funds the operation. The operation maintains the site and the crew. The site gives IO access to the Psychosphere. The Psychosphere is where Nia is.
+
+The therapeutic practice is real. The clients are genuinely helped. The market exists and IO runs it professionally. Underneath all of it is infrastructure for something personal that IO has never named as personal.
+
+---
+
+## X. Open Questions
 
 - What specific named artifacts are in the Vault, and what are their individual characters?
 - Which artifacts are in field-dependent equilibrium and will revert post-reintegration?
