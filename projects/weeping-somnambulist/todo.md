@@ -194,7 +194,7 @@ Core document written. Remaining:
 - At what point does the Eye protocol become inaccessible — too much structural damage to target precisely?
 
 ### Architects — History & Legacy
-**New framing:** The Architects were not curious Victorians. They were a professional operation scaling up — the Mordaunt family trade formalised at a site they had deliberately secured. This reframes the questions: what specifically were they extracting, who were their clients, what did they find that got them destroyed?
+**Framing:** The Architects were research and exploration driven — studying the Deep, building infrastructure to go deeper, formalizing knowledge. The Cistern, the geometry, the tools are an intellectual project. The Mordaunts brought the extraction craft and backing; the Architects provided depth access and the institutional framework. The espionage capability belongs to the Mordaunt tradition, not the Architects' core purpose — though they documented findings the Mordaunts could apply.
 
 Core framing established: they were not ignorant, not reckless — they were good at this. Years of productive, careful work before 1887. The Caerulite dysregulation was accumulating slowly the whole time, undetectable without instruments they didn't have. Then they captured the Eye fragment — a calculated decision, believed to prevent the next blooming. They had no way to know Lethe-Light would interact catastrophically with years of Caerulite dysregulation. The dissolution was progressive. They kept working as long as they could. Some of what they built — the heptagonal geometry, the tools, the Cistern — was constructed while they were already losing ground. They built something that outlasted them without knowing it would have to. Needs a dedicated session:
 - What specifically did they discover, and in what order?
@@ -208,6 +208,9 @@ Core framing established: they were not ignorant, not reckless — they were goo
 ---
 
 ## Priority 3 — Expansion
+
+### Scene Seed — IO's First Deliberate Extraction
+IO accidentally enters a known target's layer during an early dive (pre-operation, possibly pre-Nia's disappearance). She surfaces unsettled, recognizes what she found, and doesn't act on it immediately. Then something happens that gives her a reason. The scene is the moment she goes back deliberately — the turn from discovery to decision. What was the wrong, and who was the target? Whether this is told directly or as backstory IO can't fully articulate is open.
 
 ### Scene Seed — The Mycelium Oubliette
 The crew is trapped inside an oubliette the Mycelium is actively dissolving. The Creep isn't targeting them — it's targeting the oubliette, which is the richest substrate in the room. The crew is caught in the digestion. The oubliette's genre logic breaks down at the edges first — holes in the internal reality, things from outside bleeding in. Lorcan works the dissolving boundary: his tradition means he's less signal, he can get closer to the edge than the others, he buys time or finds the exit while they stay toward the centre where the oubliette's integrity still holds. The scene is his arc in miniature: defending a boundary that is objectively losing, using exactly the tools he was trained for, knowing it only slows things down.
@@ -270,6 +273,7 @@ Once the above is resolved, restructure around the Method Actor content as the l
 ---
 
 ## Done
+- ~~Secret extraction mechanics~~ → navigation (familiarity as anchor, objects as substitute), access (target immune response, timing), cost (accumulated intimacy), origin (started with known targets from social world, cold-target hygiene came later). See `canon/characters/io.md` — Secret Extraction section.
 - ~~Phase 2: Strip digital/pop-culture metaphors from `mechanics.md`~~ (4K TV, Looney Tunes, buffering)
 - ~~Oubliettes core document~~ (see `canon/oubliettes.md`)
 - ~~Cistern advantage & world context~~ (see `canon/world_context.md`)

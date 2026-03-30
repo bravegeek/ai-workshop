@@ -37,7 +37,7 @@ The Mordaunts were dream espionage before they had a name for it. The trade is o
 
 **The turn:** That reputation attracted patrons who wanted something specific — not wisdom, a *secret*. A competitor's plans. Something held inside a dreaming mind. The family obliged, once, for enough. Found out how easy it was compared to artifact work. Cleaner, faster, no object to smuggle. The target doesn't know they've been visited. No evidence. The artifact work continued. The extraction work became the revenue stream that funded everything else.
 
-**Budapest as inflection point:** They found the confluence and recognised what it was. Suddenly they could go deeper, stay longer, extract more precisely. What was a modest family trade became something that could threaten powerful people. The Architects formalised the practice — the geometry, the tools, the Cistern engineering — because at that scale it needed infrastructure. The wealth accumulated. So did the danger.
+**Budapest as inflection point:** They found the confluence and recognised what it was. Suddenly they could go deeper, stay longer, extract more precisely. What was a modest family trade became something that could threaten powerful people. The Architects built the infrastructure the site required — the geometry, the Cistern engineering, the tools for depth access — out of their own research ambitions. The Mordaunts provided the craft and the backing; the Architects provided the depth. The wealth accumulated. So did the danger.
 
 **The persecution reread:** They weren't destroyed for knowing something embarrassing. They were destroyed because they had become too good at this, too reliably, for too long. Someone with enough to lose decided the risk wasn't acceptable anymore. The scapegoating was the cleanest solution — a family that couldn't be bought or scared off, by then too established for those approaches to work. The persecution wasn't about a single secret. It was about ending the capacity.
 
@@ -77,9 +77,63 @@ The Mordaunt fortune didn't dry up — it was taken. The family was scapegoated,
 
 IO and Nia found the Institute together — two women in their mid-twenties, no map, no framework, just the pull of something extraordinary under the city. Early descents, no protocols, no crew, no safety infrastructure. That period wasn't an operation. It was discovery. It was the best time.
 
+Ren arrived during that period — following her own research thread to Budapest, finding IO and Nia already there. The first meeting was tense; IO hired her before the conversation was finished. Then she was part of it: three people mapping something nobody had mapped, each with a different relationship to what they were finding. Ren became the infrastructure that made the operation possible later. At the time she was just someone else who couldn't leave.
+
 Nia's Caerulite exposure happened during those first explorations — before either of them understood what thinning was, before IO had built any system to measure or manage it. IO watched her thin progressively and didn't stop it in time, or didn't recognise what she was watching until it was too late. One morning Nia walked out. No note. Just gone. *The protocols that now govern every dive exist because of Nia. Nia never got the benefit of them.*
 
 **The operation was built after.** The cartography, the salvage, the crew, the Underworks infrastructure — all of it is the scaffold IO needed to go deep enough to find her sister. Project Lullaby isn't a hidden mission inside a real operation. The real operation is Project Lullaby wearing a business suit. IO built the Batcave to rescue one person and told herself it was something else. What she doesn't examine: she also couldn't leave. The Institute is where Nia was. It is the last place she was Inès. See `stories/io_prequel.md`.
+
+## Secret Extraction — The Mechanics
+
+### Navigation: Familiarity as Anchor
+
+The Psychosphere is one shared space, not divided into private individual dimensions. Every sleeping mind is already there. Navigating to a *specific person's layer* requires being tuned to their frequency — some resonance that points toward where their experience pools in the undifferentiated flow.
+
+**Personal familiarity is the real anchor.** Years of proximity encode a person's texture: their specific preoccupations, the quality of their anxieties, the shape of what they were ashamed of. That accumulated knowledge is the tuning fork. IO can navigate to someone she knows well without any additional preparation. She already has the frequency.
+
+**Anchor objects are a substitute for familiarity.** When IO takes a cold target — someone she's never met — she needs something of theirs: an object handled repeatedly, worn, carried. Their experience has encoded into it. In the Psychosphere it functions like a track, pointing toward where their material pools. An object is a trace of a person. IO herself is a trace of a person when she's spent time with them. The object is the workaround when she hasn't.
+
+This shapes the operational supply chain for cold targets: the client provides the anchor object. IO conducts the extraction. The object cannot be returned unchanged — it's been used as a key and carries residue of what was found.
+
+**The Architect research.** Among the Vault contents IO inherited was a body of research documentation — the Architects' recorded findings about how the Psychosphere works, written in the register of people mapping territory rather than running operations. The object mechanic appeared in there as a navigational observation: personal objects encode the resonance of their owners and function as locators in the Deep, pointing toward where a specific person's material pools. The Architects noted it as a property of the Psychosphere, probably encountered during artifact retrieval work. They documented what they observed.
+
+IO had already worked most of this out before she found the notes — the craft was never written down, and the people who carried it were gone. The rediscovery wasn't hers alone: the early period with Nia was where much of it happened. Nia's permeability reached things IO's imposing stance couldn't, and IO's precision named and systematized what Nia experienced intuitively. They were each other's instruments. What IO now knows about navigating to a specific person's layer was partly discovered by Nia finding it first and IO watching, then building a framework around what she'd witnessed.
+
+After Nia left, IO was working from half a picture. Some of the craft she carries is things Nia showed her that she can only half-understand from the outside — the receiving end of what they built together, without the person who was best at it. The years of solo work that followed were partly filling gaps Nia left, with tools Nia wouldn't have used. Finding the Architects' notes was confirmation, not instruction. She hadn't been wrong. It didn't tell her what she was missing.
+
+Some entries describe phenomena she hasn't encountered — observations from depths the Architects reached that she hasn't. She has read them several times. She doesn't know yet what some of it was pointing at.
+
+### Access: What the Layer Looks Like
+
+The target has to be asleep and in deep non-REM — when the narrative dream-mind is quiet and the raw material is accessible rather than in motion. IO times her extractions accordingly. It is less like burglary, more like fishing. You wait for conditions.
+
+Inside the layer, she encounters the target's accumulated psychic immune response — their defensiveness around their own material, localized and specific. This is not uniform strength. Someone psychologically open is easier to move through than someone anxious. Someone with severe trauma is difficult not because of force but because their material is sealed in personal oubliettes with their own genre logic — IO has to enter and navigate those pockets to find what she came for.
+
+She is always a foreign organism in someone else's layer. She manages this the same way she manages the open Deep: reduce the mismatch, be *less wrong*, generate predictable rather than undifferentiated friction.
+
+### Cost: Accumulated Intimacy
+
+IO cannot extract from someone without being exposed to their layer. She reads context to find specific material, which means she encounters what she didn't go looking for: recurring fears, private grief, the thing that plays on loop at 3am. She processes this professionally. She doesn't write it down.
+
+She has accumulated years of private knowledge about targets she was paid to rob. Some have stayed with her in ways she doesn't account for. The intimacy of extended targeting work — multiple dives into the same layer over weeks — leaves something. Not contamination. More like the character of a place you've spent time in settling into you. IO has been inside some people more thoroughly than they've been inside themselves. She doesn't have a metric for this.
+
+### Origin: How It Started
+
+The trade predates the professional operation by years. It began accidentally.
+
+She was diving early — before the crew, before the protocols, probably before Nia was gone — and she slipped into someone's layer without intending to. Someone from her social world: a face she knew, someone who'd had her in their house. She recognized the layer because it had their texture. She didn't take anything. She surfaced unsettled. She may have told Nia.
+
+Then something happened — a harm, a wrong, something she couldn't address through any other means. She knew she could go back. She had the resonance already. The first deliberate extraction is the turn. Not the discovery. The decision.
+
+**She started with people she already knew.** The Mordaunt name had spent years getting her into rooms with people who thought she was their peer. She'd been performing membership close enough to see exactly what they were — their tells, their hypocrisies, the gap between who they presented and what they'd done. She was already extracting in a social register. The Deep gave her the unfiltered version.
+
+The class war logic was available before the capability was. The capability made it actionable.
+
+**The transition to cold targets was deliberate hygiene.** When she formalized the operation — clients, cut-outs, professional distance — she moved away from her social world. The clinical remove of *I don't know this person.* Targets became abstractions: corporations, bad actors, people who deserve it. The faces became hypothetical on purpose. This is the same conversion she makes everywhere: the thing she can't look at directly gets given a purpose, and the purpose makes it manageable.
+
+What she didn't fully account for: the cold targets accumulate too. She knows them intimately by the time she's done. The hygiene doesn't hold at depth.
+
+---
 
 ## The Operation
 
