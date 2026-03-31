@@ -24,12 +24,14 @@ Locked or near-locked decisions about how the world works.
 | `world_context.md` | Dreamwalking ecosystem, Caerulite in the world, operational context (pre-reintegration) |
 
 ### `stories/` — Narrative Development
-Arc structure, character arcs, story seeds.
+Arc structure, character arcs, scene inventory, narrative principles.
 
 | File | Contents |
 |------|----------|
 | `arc1.md` | Main arc shape, hooks, character arcs, resolution |
 | `arc2.md` | Second arc — rebuild, healing, Budapest aftermath, hooks |
+| `scenes.md` | Scene inventory — all known scenes by arc, with lens notes and open questions |
+| `narrative.md` | POV principles — the lens model, how and when to shift perspective |
 | `io_prequel.md` | Mordaunt origin story seed and open questions |
 | `ren_story.md` | Ren short story seed |
 | `voices.md` | Character voice reference — salvaged passages with the right register |
@@ -46,11 +48,11 @@ Planning, open questions, prioritized work. Story content lives in `stories/`.
 
 ## Current State
 
-Arc 1 shape is established. Arc 2 foundations are in place. The world bible covers the Psychosphere, the Eye, the Blooming, the Institute, core mechanics, and cosmology. Characters are fully developed for arc 1; second arc threads are in `stories/arc2.md`.
+Arc 1 and Arc 2 shapes are established. The world bible covers the Psychosphere, the Eye, the Blooming, the Institute, core mechanics, cosmology, artifacts, and all five characters. The original circle (IO, Nia, Ren) is established — Ren arrived during the exploration period before Nia left and stayed after.
 
-Recent additions: cosmology doc written (Sleeping Gods as primal drives, chemotaxis unity model, reintegration problem). Ren is fully developed — fringe academic, Zone 2 incident reframed, drawn to Budapest by anomaly data, post-reintegration connection to TSG whole. The Psychosphere doc reframes the Deep as an ecosystem — immune system as biological not evaluative, zones as biomes, ecology categories (parasites, symbionts, immune response). IO's Translation Scripts flagged as a legacy mechanic conflicting with the ecosystem model, pending replacement.
+Narrative structure is documented in `stories/narrative.md` — multi-lens POV, lens shifts driven by storytelling need. All known scenes catalogued in `stories/scenes.md` (prequel through arc 2).
 
-The Caerulite harvest and extraction mechanic is fully developed — carrier model, cultural traditions, product hierarchy (Glow/tea → crystals → smoked → Shards), Cistern pool as engineered sacred spring. The Witness/Reliquary replaces the old Seed-Core. Storm-Forging is resolved as historical with narrative consequence (accidental development scene in arc 2). Arc 2 hooks include water memory, the accidental development, and the Architect Reliquaries.
+Recent additions: artifact framework (formation, eras, calling, extraction, IO's market model). Secret extraction mechanics developed — navigation (familiarity as anchor, objects as substitute), access (personal immune response, timing), cost (accumulated intimacy). Architect framing corrected — research/exploration driven, distinct from the Mordaunt extraction craft.
 
 Active priorities in `todo.md`.
 

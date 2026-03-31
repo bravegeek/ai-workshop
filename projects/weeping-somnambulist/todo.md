@@ -46,7 +46,7 @@ IO keeps it clean for them deliberately: she needs them functional, she knows Lo
 
 **Ren** knows everything. Clean pragmatic peace — the targets are bad actors, the class war logic holds, the work is interesting.
 
-**The waiting explosion:** A job where IO can't keep it compartmentalised. Ama or Lorcan in the room when the thing they've been not-asking-about becomes visible. What they do then tells you who they are. Needs a dedicated scene/session when the story is ready for it.
+**The waiting explosion:** A job where IO can't keep it compartmentalised. Ama or Lorcan in the room when the thing they've been not-asking-about becomes visible. What they do then tells you who they are. See `stories/scenes.md` — A1.2.
 
 ---
 
@@ -209,31 +209,8 @@ Core framing established: they were not ignorant, not reckless — they were goo
 
 ## Priority 3 — Expansion
 
-### Scene Seed — IO and the Eye Protocol (Self-Treatment)
-IO uses the Eye Protocol on herself — a practice she's developed to manage grief she can't convert into a mission. The Lethe-Light files what she can't hold. During a session she surfaces something she previously archived and encounters it again.
-
-**What she finds — candidates:**
-- *A joy memory from the early period.* The most devastating option — not grief, which has a mission shape, but something from the best time, before grief required managing. Joy can't be converted. She archived it because she didn't know what else to do with it. Finding it again means holding it without the conversion available.
-- *The morning Nia left — the full version.* The account IO can never narrate because it's defended past legibility. She gave it to the Eye because looking at it directly was impossible. It's in there, intact, attributed.
-- *The moment she understood what the first extraction was.* She looked at it clearly — what she'd done, what she was — and then handed that clarity to the Eye rather than carry it.
-- *Something Nia said.* A specific line from the early period, too intact to keep. Not grief. Just Nia, speaking, in a register IO couldn't hold.
-
-These aren't mutually exclusive. The session might surface one and brush against the others.
-
-**The turn:** The Lethe-Light is still running. What surfaces is now most-active in her mind — which means if she doesn't end the session, it gets taken again. She decides whether to hold it this time or let it go.
-
-**The Nia layer:** Nia is in the Eye's archive. IO has been treating her grief with a tool that contains the person she's grieving. She may have encountered Nia through the indexed material before — a quality in the residue, something that felt almost like a voice — and processed it professionally without examining what it was.
-
-**The structural irony:** The precision and control IO trusts most may be downstream of deliberate self-erasure. She built the instrument. She knows how it works. Of course she used it on herself.
-
-IO's lens. The defence is the story — what she allows herself to know in real time, with the Lethe-Light running. See `stories/narrative.md`.
-
-### Scene Seed — IO's First Deliberate Extraction
-IO accidentally enters a known target's layer during an early dive (pre-operation, possibly pre-Nia's disappearance). She surfaces unsettled, recognizes what she found, and doesn't act on it immediately. Then something happens that gives her a reason. The scene is the moment she goes back deliberately — the turn from discovery to decision. What was the wrong, and who was the target? Whether this is told directly or as backstory IO can't fully articulate is open.
-
-### Scene Seed — The Mycelium Oubliette
-The crew is trapped inside an oubliette the Mycelium is actively dissolving. The Creep isn't targeting them — it's targeting the oubliette, which is the richest substrate in the room. The crew is caught in the digestion. The oubliette's genre logic breaks down at the edges first — holes in the internal reality, things from outside bleeding in. Lorcan works the dissolving boundary: his tradition means he's less signal, he can get closer to the edge than the others, he buys time or finds the exit while they stay toward the centre where the oubliette's integrity still holds. The scene is his arc in miniature: defending a boundary that is objectively losing, using exactly the tools he was trained for, knowing it only slows things down.
-- **Still to decide:** What is the oubliette? The specific genre/origin determines how the dissolution reads and what bleeds in from outside.
+### Scene Inventory
+Scene seeds have moved to `stories/scenes.md` — prequel through arc 2, with lens notes and open questions per scene. The todo no longer hosts scene content.
 
 ### Oubliettes — Open Questions (see `canon/oubliettes.md`)
 Core document written. Remaining questions to resolve when stories require them:
