@@ -261,6 +261,24 @@ Ren's connection to TSG whole is the closest thing to continued contact with wha
 
 ---
 
+### A2.5 — The Storm Riders (First Encounter Without the Eye)
+Post-reintegration, during the desynchronization period, a surge brings storm riders in force — more than any previous record, possibly into the building itself.
+
+**Dramatic core:** The crew encounters storm riders without the Eye's buffering, without the Architects' Ghost File protocols, and during the richest feeding event since the wound opened. Not an attack. Something that lives in the storm is now present in the wrong space. The crew has to figure out what you do with that.
+
+**Three possible shapes:**
+- *The surge dive* — a crew member is forced under during a storm and encounters riders from inside the surge. Moving with the current because that's the only viable option. Not targeted. Just vast and in motion and the diver is in the middle of it.
+- *Something comes up* — a rider doesn't recede when the surge passes. Present in the Cistern. Calm but not gone. Lorcan's scene: he knows there's a protocol, unsure it applies to something this far above its usual depth.
+- *The Architect attempt* — through what Barnaby carries, the crew watches a Ghost Floor echo of the Architects' failed capture attempt during a storm. First hard evidence of what the riders actually are and why they can't be held.
+
+**Lens:** Lorcan for the negotiation. Ama for the encounter from inside her stance — she experiences them as non-threatening before anyone else does, which is its own kind of unsettling to the crew.
+
+**Placement:** Arc 2, during the desynchronization period when storms are most intense.
+
+**Open:** What do storm riders look like — specific visual/sensory vocabulary still needed. Scale. Whether they school or move independently. The first named encounter. See `canon/storm_riders.md`.
+
+---
+
 ## Unplaced — Resolve When Arc Requires
 
 - **Ren's given name** — Eastern European origin, arrives quietly through a scene detail or a line of dialogue. Not a reveal, a confirmation.

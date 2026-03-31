@@ -21,6 +21,7 @@ Locked or near-locked decisions about how the world works.
 | `technology.md` | Gear, artifacts, tools — includes Caerulite harvest & extraction mechanic, the Witness/Reliquary, Storm-Forging (historical), Cistern pool as transitional medium |
 | `caerulite.md` | Caerulite — the substance, thinning mechanism, Lethe-Light interaction, Glow (street name), Eye Protocol |
 | `oubliettes.md` | Sealed pockets of preserved experience |
+| `storm_riders.md` | Storm riders — surge-bound entities, piezoelectric attraction, Ama's knowledge, folk frame (Szépasszony). Draft, marked for refinement. |
 | `world_context.md` | Dreamwalking ecosystem, Caerulite in the world, operational context (pre-reintegration) |
 
 ### `stories/` — Narrative Development

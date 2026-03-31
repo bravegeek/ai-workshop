@@ -212,6 +212,15 @@ Core framing established: they were not ignorant, not reckless — they were goo
 ### Scene Inventory
 Scene seeds have moved to `stories/scenes.md` — prequel through arc 2, with lens notes and open questions per scene. The todo no longer hosts scene content.
 
+### Storm Riders — Refinement Needed
+Core mechanics established in `canon/storm_riders.md`: resonant surge structures, upwelling/piezoelectric attraction, Budapest wound as chronic attractor, Odic force/cymatics pseudoscience frame, what Ama knows, why Lorcan's protocol works. Marked for refinement:
+- Appearance — specific visual/sensory vocabulary
+- Scale and behaviour (school vs. independent)
+- Negotiation specifics in practice
+- Barnaby's knowledge of the Architect attempts
+- Connection to (E) pre-Eye entities / confluence native character
+- First named encounter scene — see `stories/scenes.md` A2.5
+
 ### Oubliettes — Open Questions (see `canon/oubliettes.md`)
 Core document written. Remaining questions to resolve when stories require them:
 - Minimum size: can a single person's recurring trauma create one?
