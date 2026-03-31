@@ -28,23 +28,11 @@ The artifact was wrong. Not designed for consciousness, or carrying a resonance 
 
 The Architects didn't come back.
 
-## How He Was Found: Arc 0
+## How He Was Found
 
-In the prequel timeline, IO and Nia are exploring the Vault together — the same enthusiasm they've had since they were girls, the Vault still new enough to feel like discovery. IO sends Nia in for a specific artifact.
+Nia accidentally released him during the original circle's early exploration of the Vault — she triggered the wrong preservation artifact without knowing what was inside. She freed him without knowing it. He knows. His relationship with Nia is built on this accident, entirely in character for her.
 
-An unusual one catches Nia's eye. She messes with it. It moves, clicks, transforms — and that seems to be it. She finds the artifact IO wanted, turns to go.
-
-Then she notices the dog.
-
-He's sitting very still, looking at her. He's running through every Architect face he has — one by one — trying to match her to someone he knows. She doesn't match anyone. Then IO comes in. Two strangers. Neither of them is anyone he knows.
-
-He sits with that. The pack isn't coming back. They were never coming back. Dogs grieve by going still.
-
-What IO and Nia see: a dog sitting very quietly, with an expression that doesn't belong on an animal's face. Not threatening. Not approaching. Just looking, with something behind it that shouldn't be there.
-
-Nia's read: a dog. Strange, but a dog. She calls out to IO without alarm — *"IO, when did you get a dog?"* — and doesn't understand why IO has no answer.
-
-Barnaby's relationship with Nia is built on this accident. She freed him without knowing it. He knows. She may never fully understand what she did, or the understanding may come much later when she knows enough to work it out.
+*Scene content in `stories/scenes.md` — P5.*
 
 ## Mechanics
 

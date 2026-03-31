@@ -68,15 +68,27 @@ Nia thins progressively during the early explorations. Nobody understands what t
 ---
 
 ### P5 — Barnaby Released (Arc 0)
-Nia accidentally releases Barnaby while the original circle is exploring the Vault together.
+IO and Nia are exploring the Vault together — the Vault still new enough to feel like discovery. IO sends Nia ahead for a specific artifact.
 
-**Dramatic core:** Barnaby has been in the wrong preservation artifact for 130 years. He runs through the Architect faces he knows, finds no match, and considers retreating. Something in how Nia looks at him makes him stay.
+An unusual one catches Nia's eye. She messes with it. It moves, clicks, transforms — and that seems to be it. She finds the artifact IO wanted, turns to go.
 
-**Lens:** Possibly Nia — she's the one he responds to. Possibly Ren, as outside witness.
+Then she notices the dog.
+
+He's sitting very still, looking at her. He's running through every Architect face he has — one by one — trying to match her to someone he knows. She doesn't match anyone. Then IO comes in. Two strangers. Neither of them is anyone he knows.
+
+He sits with that. The pack isn't coming back. They were never coming back. Dogs grieve by going still.
+
+What IO and Nia see: a dog sitting very quietly, with an expression that doesn't belong on an animal's face. Not threatening. Not approaching. Just looking, with something behind it that shouldn't be there.
+
+Nia's read: a dog. Strange, but a dog. She calls out without alarm — *"IO, when did you get a dog?"* — and doesn't understand why IO has no answer.
+
+**Dramatic core:** Barnaby has been in the wrong preservation artifact for 130 years — grief dominant over everything else because the vessel couldn't maintain the balance. Nia frees him without knowing it. He knows. She may never fully understand what she did. His relationship with her is built on this accident, entirely in character for her.
+
+**Lens:** Nia for the entry — she finds the artifact, releases him, reads him as simply a dog. IO for the moment of recognition, or Ren as outside witness if she's present.
 
 **Placement:** Prequel, during the early exploration period. Establishes Barnaby before Arc 1 without requiring a separate origin scene.
 
-**Open:** What is the wrong preservation artifact he's been in? What is it like to be Barnaby after 130 years of that confinement? What specifically makes him stay when Nia looks at him?
+**Open:** What is the wrong preservation artifact — what form does he take in it? What specifically makes him stay when Nia looks at him rather than retreating further into the Vault? Is Ren present for this?
 
 ---
 
