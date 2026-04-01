@@ -42,7 +42,11 @@ The boundary. His POV is about edges — what he holds, what he contains, what h
 Use Lorcan's lens when: the story needs the weight of what someone knows and won't say, when the boundary between one thing and another is the drama, when the compartments fail.
 
 ### Barnaby
-Not a sustained POV — a fragmentary one. Discontinuous, non-linear, from inside the artifacts and the Vault. Used for specific moments where what it's like to inhabit rather than observe is the point.
+Not an interior lens — a behavioral one. No interiority access. Close third that stays outside him entirely: where he moves, where he won't go, how long he holds still, what his attention is doing. The reader has exactly the access to Barnaby that Barnaby has to the crew.
+
+This is the right register for him throughout: his intelligence and grief are legible through behavior, not stated. The prose mirrors the relationship — watching carefully from outside, inferring from what's observed. The reader learns the grammar of reading him in the same moment they meet him.
+
+Use Barnaby's register when: his knowledge needs to be present without being explained, when the warning is visible before anyone receives it, when what he can't say is the point.
 
 ---
 

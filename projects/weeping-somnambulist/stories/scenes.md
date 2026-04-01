@@ -126,6 +126,28 @@ See `arc1.md` for shape, hooks, and character arc summaries.
 
 ---
 
+### A1.0 — Opening (Intercut)
+
+Two threads, same night. Barnaby in the Vault. IO in the Eye room.
+
+**Barnaby's half:** Close third, no interiority. Where he moves, where he positions himself relative to the Eye room, what he won't approach, how long he holds still. The reader watches his movements the way he watches the crew — from outside, reading carefully. One moment that makes the intelligence behind his eyes undeniable: not stated, just present. The warning is visible to the reader before anyone in the story receives it.
+
+**IO's half:** IO using the Eye Protocol on herself. The Lethe-Light running, a memory surfacing that she previously archived. She's the one who built the instrument. She knows how it works. Of course she uses it on herself.
+
+**Why intercut:** His distress against her trust. His warning against her session. The two threads don't know about each other. The reader does. Dramatic irony active from the first pages — the reader is ahead of IO before the opening is over.
+
+**What the opening establishes:**
+- The Eye as both tool and ticking problem, simultaneously
+- IO's self-deception as the story's central mechanism
+- The grammar for reading Barnaby — the reader learns it here, needs it throughout
+- The register: interiority for IO, behavioral close third for Barnaby, no exposition
+
+**Lens:** IO's lens for the Eye room half. Close third (no interiority) for the Vault half.
+
+**Open:** Which archived memory does IO surface in the opening — joy from the early period, the morning Nia left, or something else? Does the opening end mid-session (suspended) or does she make a choice?
+
+---
+
 ### A1.1 — IO and the Eye Protocol (Self-Treatment)
 IO uses the Eye Protocol on herself — a practice she's developed to manage grief she can't convert into a mission.
 
