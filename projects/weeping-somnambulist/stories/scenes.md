@@ -142,7 +142,7 @@ Two threads, same night. Barnaby in the Vault. IO in the Eye room.
 - The grammar for reading Barnaby — the reader learns it here, needs it throughout
 - The register: interiority for IO, behavioral close third for Barnaby, no exposition
 
-**Lens:** IO's lens for the Eye room half. Close third (no interiority) for the Vault half.
+**Lens:** IO's lens for the Eye room half. The Vault half is close third with no interiority — and in Arc 1 this register is diegetically the Eye's observation. The Eye is watching Barnaby watching the Eye. The reader doesn't know this yet. When A1.3 lands, they understand what they've been reading since page one.
 
 **Open:** Which archived memory does IO surface in the opening — joy from the early period, the morning Nia left, or something else? Does the opening end mid-session (suspended) or does she make a choice?
 

@@ -65,3 +65,15 @@ The Eye's logic field organized psychic pressure above the city for 150 years. I
 With TSG whole and returning toward dormancy, disruption settles. Ley lines resume normal flow. Oubliettes re-stabilize. The city starts sleeping again. The crew is operating in a recovering Deep — and Ama's methods combined with Ren's connection may allow access to layers the Eye's logic field never reached. Different, not lesser.
 
 **Ley line storm management:** The Eye's two passive mechanisms — psychic mass as gravity well, and entrainment pulse keeping flows in phase — are gone. Storms get worse before they stabilize. The heptagonal geometry does the work alone now. A synthetic entrainment pulse device is the crew's engineering project: crude, maintenance-dependent, fails under large surges, but achievable. See `canon/locations.md`.
+
+---
+
+## Later Arcs — Thread Planted Here
+
+Arc 2 does not deliver TSG or the Eye directly. That encounter belongs to later arcs.
+
+Ren's connection to TSG whole is not the encounter — it's the thread. She is developing methods to read something vast, unorganized, not oriented toward human consumption. What comes through is weather, not signal. This is its own thing, distinct from what a direct encounter with TSG would mean.
+
+**The long thread:** TSG after Nia is not the same as TSG before her. She was the first direct human contact it ever had — experienced from the inside, unmediated. TSG has been changed by her. Whatever the crew eventually meets, it has been changed by Nia. IO may be present for that encounter. The grief that has no clean shape may find something it can do with itself — not resolution, but different.
+
+Ren's connection is what makes this possible and what plants the seed. Arc 2 ends with the thread visible. The encounter itself is later.

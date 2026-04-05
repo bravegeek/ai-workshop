@@ -46,6 +46,12 @@ Not an interior lens — a behavioral one. No interiority access. Close third th
 
 This is the right register for him throughout: his intelligence and grief are legible through behavior, not stated. The prose mirrors the relationship — watching carefully from outside, inferring from what's observed. The reader learns the grammar of reading him in the same moment they meet him.
 
+**In Arc 1, this register is the Eye's observation.** The behavioral close third is diegetically the Eye perceiving Barnaby — facing toward him, recording without interpretation, producing what it produces by nature. The prose technique has a source the reader doesn't know yet. When A1.3 lands — Ren's Eye revelation — the reader understands what they've been reading since the opening. The Barnaby sections weren't a narrative choice. They were the archive running.
+
+The opening scene makes this recursive: the Eye is watching Barnaby watching the Eye, while IO trusts the Eye completely in the next room. The reader is in the Eye's gaze for one half of the opening, IO's defended gaze for the other.
+
+**Post-reintegration, the Eye is gone.** The register has to change — another character's lens, or something rawer. The loss of the observer is itself meaningful: for the first time in 150 years, nothing is watching Barnaby the way the Eye watched him.
+
 Use Barnaby's register when: his knowledge needs to be present without being explained, when the warning is visible before anyone receives it, when what he can't say is the point.
 
 ---
