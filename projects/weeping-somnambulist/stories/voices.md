@@ -7,6 +7,15 @@
 
 These passages have the right register even if the surrounding scene doesn't. Useful as voice reference when writing.
 
+**IO — unguarded, elevator ride home (developed, not yet written):**
+The associative monologue on the way down to the Works. Register: wry, practical, warm, intelligence on idle. Key beats established:
+- Fashion: eclectic, thrift store, moves in old money circles without being of them. Victory: told an "old hen" at a dinner party that her darling jacket came from a thrift store. *Cost does not equal taste.* Old money dinner parties are more fun now that she's an adult (and can drink).
+- Solstice celebration coming up — will ask Ren what they should wear, and whether there'll be mead.
+- Stopped at the art supply store for Ren: paper, ink, pens. Notes the cost (practical mind never off). Then: *her maps are great, dreamwalking is so much easier when you know where you're going.* The understatement is the warmth.
+- Still to develop: something about the elevator itself (she knows its moods, its age, its sounds), something about Budapest above her as she descends, a small deferred operational note, a thought about the Victorian file cabinets.
+
+The voice is associative — one thought leads to the next by loose connection. Wry but not cynical. She enjoys things. The warmth toward the crew is understated rather than stated.
+
 **Ama — sensing others' emotional state as physical intrusion:**
 > The night shift security guard is thinking about his divorce again — a heavy, grey fog of regret that's drifting across the room. I pull my coat tighter. Being this close to IO is like standing next to a server rack; she gives off a low, constant hum of calculation that makes my head ache.
 > Foy is worse. He walks in and the air pressure drops. He feels... heavy. Dense. Like a stone dropped in a pond.

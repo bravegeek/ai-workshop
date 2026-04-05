@@ -165,7 +165,11 @@ IO uses the Eye Protocol on herself — a practice she's developed to manage gri
 
 **Lens:** IO. The defence mechanism is the story — what she allows herself to know in real time, with the Lethe-Light running.
 
-**Open:** Which archived memory does she surface? Does she hold it or let it go? Does she fully understand what she's been doing to herself, or does the recognition arrive during the scene?
+**The memory:** Nia swimming in the cistern — early exploration period, an ordinary evening. IO coming home from a dinner party, riding the elevator down through the building, finding Nia in the water. Not diving, not working. Just there.
+
+**Why it's too complete to hold:** IO's internal monologue runs constantly — wry, associative, practical. It stops when she finds Nia. Joy can't be converted into a mission. She archived the moment the commentary went quiet.
+
+**Open:** Does Nia know IO is watching before IO says anything — and what does she do? Does IO hold the memory this time or let it go? Does the recognition (that she's been treating her grief with a tool that contains the person she's grieving) arrive during this session?
 
 ---
 

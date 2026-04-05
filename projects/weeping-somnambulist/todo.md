@@ -4,7 +4,7 @@
 
 Four steps before writing. In order:
 
-1. **Decide the memory** — which archived memory IO surfaces during the Eye Protocol session in A1.0. Options in `stories/scenes.md` A1.1. One decision, immediately shapes the opening's emotional key.
+1. ~~**Decide the memory**~~ ✓ — Nia swimming in the cistern, early exploration period. IO coming home from a dinner party, elevator ride down, finds Nia in the water. IO's commentary stops. See `stories/scenes.md` A1.1 and `stories/voices.md`.
 2. **Develop Nia's voice** — nature is documented, texture isn't. What she sounded like, what she noticed, how she was in a room. Required because the opening memory almost certainly involves her.
 3. **Develop IO's unguarded register** — what she's like when the architecture partially drops. The defended IO is documented; this isn't. Follows Nia work because IO's protection is shaped by what she's protecting.
 4. **Write the opening** — the intercut scene (A1.0): Eye/Barnaby behavioral half, IO Eye Protocol half.
