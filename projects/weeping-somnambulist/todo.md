@@ -1,5 +1,18 @@
 # Weeping Somnambulist: TODO
 
+## Path to the Opening Scene
+
+Four steps before writing. In order:
+
+1. **Decide the memory** — which archived memory IO surfaces during the Eye Protocol session in A1.0. Options in `stories/scenes.md` A1.1. One decision, immediately shapes the opening's emotional key.
+2. **Develop Nia's voice** — nature is documented, texture isn't. What she sounded like, what she noticed, how she was in a room. Required because the opening memory almost certainly involves her.
+3. **Develop IO's unguarded register** — what she's like when the architecture partially drops. The defended IO is documented; this isn't. Follows Nia work because IO's protection is shaped by what she's protecting.
+4. **Write the opening** — the intercut scene (A1.0): Eye/Barnaby behavioral half, IO Eye Protocol half.
+
+Everything in Priority 1+ can wait. None of it blocks the opening.
+
+---
+
 ## Character Names — Remaining
 
 - ~~**Ama**~~ ✓ renamed from Elara Vance. Trail name Ama, birth name Elara, origin southern China (Yunnan/Guizhou). No surname established or needed for now.
