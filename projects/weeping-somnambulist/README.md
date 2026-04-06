@@ -9,20 +9,32 @@ Tragic sci-fi / techno-noir. The collective unconscious (the Psychosphere) is a 
 ### `canon/` — World Bible
 Locked or near-locked decisions about how the world works.
 
+**`characters/`** — One file per character: io, ama, lorcan, ren, nia, barnaby, presences
+
+**`world/`** — How the universe works
 | File | Contents |
 |------|----------|
-| `characters/` | One file per character: io, ama, lorcan, ren, nia, barnaby, presences |
-| `cosmology.md` | Sleeping Gods — chemotaxis model of unity, other Sleepers (Persist, Consume, Divide, Respond), legend survival bias, reintegration problem |
 | `psychosphere.md` | The Psychosphere — what it is, zones, the Deep as ecosystem |
+| `cosmology.md` | Sleeping Gods — chemotaxis model of unity, other Sleepers, legend survival bias, reintegration problem |
+| `world_context.md` | Dreamwalking ecosystem, Caerulite in the world, operational context |
+
+**`phenomena/`** — Specific notable things that exist in the world
+| File | Contents |
+|------|----------|
 | `the_eye.md` | The Eye — TSG fragment, archive mechanic, Ren's connection |
 | `the_blooming.md` | TSG waking — what it is, what it does, what it means |
-| `locations.md` | The Mordaunt Institute, the Underworks, the Deep biomes |
-| `mechanics.md` | Dive mechanics — Method Actor, Narrative Capture, Immune System |
-| `technology.md` | Gear, artifacts, tools — includes Caerulite harvest & extraction mechanic, the Witness/Reliquary, Storm-Forging (historical), Cistern pool as transitional medium |
-| `caerulite.md` | Caerulite — the substance, thinning mechanism, Lethe-Light interaction, Glow (street name), Eye Protocol |
+| `storm_riders.md` | Storm riders — surge-bound entities, piezoelectric attraction, Ama's knowledge, folk frame. Draft. |
 | `oubliettes.md` | Sealed pockets of preserved experience |
-| `storm_riders.md` | Storm riders — surge-bound entities, piezoelectric attraction, Ama's knowledge, folk frame (Szépasszony). Draft, marked for refinement. |
-| `world_context.md` | Dreamwalking ecosystem, Caerulite in the world, operational context (pre-reintegration) |
+
+**`craft/`** — How the crew operates
+| File | Contents |
+|------|----------|
+| `mechanics.md` | Dive mechanics — Method Actor, Narrative Capture, Immune System |
+| `technology.md` | Gear, tools — Witness/Reliquary, Storm-Forging, Cistern as transitional medium |
+| `caerulite.md` | Caerulite — the substance, thinning, Lethe-Light interaction, Eye Protocol |
+| `artifacts.md` | Artifact framework — formation, eras, calling, extraction |
+
+**`locations.md`** — The Mordaunt Institute, the Underworks, the Deep biomes
 
 ### `stories/` — Narrative Development
 Arc structure, character arcs, scene inventory, narrative principles.
