@@ -36,6 +36,8 @@ Locked or near-locked decisions about how the world works.
 
 **`locations.md`** — The Mordaunt Institute, the Underworks, the Deep biomes
 
+**`presences.md`** — Non-human entities: the Eye, the Cistern, the Vault, TSG. Brief entries with pointers to full documentation.
+
 ### `stories/` — Narrative Development
 Arc structure, character arcs, scene inventory, narrative principles.
 

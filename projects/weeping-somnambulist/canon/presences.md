@@ -6,7 +6,7 @@ Characters that are not people. Brief entries — full documentation lives in de
 
 ## The Eye (The Heart of the Storm)
 
-**Nature:** Not a Leviathan. A fragment of TSG — one of the ancient presences in the Silt — separated by the Architects in 1887 and held in rusted anchor chains at 80m depth. See `canon/the_eye.md` for the full picture.
+**Nature:** Not a Leviathan. A fragment of TSG — one of the ancient presences in the Silt — separated by the Architects in 1887 and held in rusted anchor chains at 80m depth. See `canon/phenomena/the_eye.md` for the full picture.
 **Status:** Imprisoned. The winch systems are shattered. It has been here since the Architects' collapse.
 **What it is not:** A battery. A tool. Infrastructure. The crew calls it "The Heart of the Storm" and treats it as a power source. This is a convenience that says more about the crew than the Eye.
 
@@ -37,7 +37,7 @@ Characters that are not people. Brief entries — full documentation lives in de
 ## The Sleeping God — TSG (The Unbroken Tongue)
 
 **Nature:** One of many ancient presences in the Silt — aggregations of primal drive that accumulated over geological time. Not a personality. Something older than the neural architecture that makes personality possible. Humans felt its edges during sleep and built legends around what they felt. The legends are misreadings of a signal with no human analogue.
-**Status:** Blooming — was dormant, no longer. Now reintegrated. See `canon/the_blooming.md`.
+**Status:** Blooming — was dormant, no longer. Now reintegrated. See `canon/phenomena/the_blooming.md`.
 **What it is, underneath:** Unknown. "Unity" is a human interpretation of something more fundamental — the impulse to dissolve boundary, to merge, to end separation between things.
 **Nia's role:** She tuned into its frequency first and went to find the source. She is now part of what it is.
-**Ren's connection:** TSG whole has been in contact with Ren's mind for years through the fragment. The relationship persists after reintegration, changed in character. See `canon/the_eye.md` Section IV and VI.
+**Ren's connection:** TSG whole has been in contact with Ren's mind for years through the fragment. The relationship persists after reintegration, changed in character. See `canon/phenomena/the_eye.md` Section IV and VI.
