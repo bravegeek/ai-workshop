@@ -313,6 +313,20 @@ Post-reintegration, during the desynchronization period, a surge brings storm ri
 
 ## Unplaced — Resolve When Arc Requires
 
+### Lorcan and IO — The Mordaunt Name
+
+Lorcan may know the Mordaunt name before IO tells him — not personally, but as inherited warden knowledge. The site in Budapest, the family that sat on it, the thing that went wrong. He would have grown up with that story as a cautionary tale about what happens when people with resources but insufficient standing try to manage something they don't fully understand.
+
+**Dramatic core:** IO feels the specific weight of being known that way — not as herself, but as a category. As the inheritor of a mistake she didn't make. That's a different thing than being judged. It's being pre-read.
+
+**Lens:** Either. Probably IO — the recognition lands through her.
+
+**Placement:** Arc 1, after the crew is established. Could be the moment that shifts their dynamic from professional to something more complicated.
+
+**Open:** Does Lorcan say it directly or does IO realize he already knew? What does he actually say — does he name the cautionary tale or just let the recognition sit in the room?
+
+---
+
 - **Ren's given name** — Eastern European origin, arrives quietly through a scene detail or a line of dialogue. Not a reveal, a confirmation.
 - **Barnaby as pre-Eye index** — the moment the crew understands what Barnaby knows and what it means for the rebuild. Arc 2, unlocked by Ren's Vault audit.
 - **Has Ama returned an artifact?** — the negotiation with IO when it surfaces. See `canon/artifacts.md`.
