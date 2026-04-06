@@ -169,7 +169,9 @@ IO uses the Eye Protocol on herself — a practice she's developed to manage gri
 
 **Why it's too complete to hold:** IO's internal monologue runs constantly — wry, associative, practical. It stops when she finds Nia. Joy can't be converted into a mission. She archived the moment the commentary went quiet.
 
-**Open:** Does Nia know IO is watching before IO says anything — and what does she do? Does IO hold the memory this time or let it go? Does the recognition (that she's been treating her grief with a tool that contains the person she's grieving) arrive during this session?
+**The cistern exchange (developed):** Nia was free diving, alone, again. IO arrives, monologue running (Caerulite glow unsettling, safety rules, *like it was built for her*). Nia surfaces: *"Storms coming!"* IO recalibrates, deflects with humor, asks *"When?"* Nia grins: *"That's the best part, it's almost here. Let's go tell Ren!"* IO offers a hand up. *"Don't get me wet, Little Fish."* Memory ends mid-gesture, before Nia takes the hand.
+
+**Open:** Does IO hold the memory this time or let it go? Does the recognition (that she's been treating her grief with a tool that contains the person she's grieving) arrive during this session, or does the scene end before she gets there?
 
 ---
 

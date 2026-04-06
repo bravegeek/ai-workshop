@@ -16,6 +16,21 @@ The associative monologue on the way down to the Works. Register: wry, practical
 
 The voice is associative — one thought leads to the next by loose connection. Wry but not cynical. She enjoys things. The warmth toward the crew is understated rather than stated.
 
+**IO and Nia — the cistern exchange (developed, not yet written):**
+IO arrives to find Nia free diving in the cistern, alone, again. The Caerulite glow unsettles her (*Cherenkov radiation and the swamp thing's aura had a love child they left in the gutter and it pooled down here*). Nia coming up. IO thinking: *she's a natural at this, all of this, like it was built for her.* The commentary slows. *There she is.* One last wry deflection — *she better not splash me, this is dry clean only* — and then: *wow, she looks excited.*
+
+Nia surfaces: *"Storms coming!"*
+IO recalibrates (*clear skies all week — wait, in the Psychosphere?*), deflects with the Giggle/dream crystals joke, asks: *"When?"*
+Nia grins: *"That's the best part, it's almost here. Let's go tell Ren!"*
+IO offers her a hand up. *"Don't get me wet, Little Fish."*
+
+**What the scene establishes:**
+- IO's monologue goes quiet when Nia surfaces. *Wow* is the moment the register changes — simpler, the defenses briefly not up.
+- *Like it was built for her* — IO says this without hearing it. It was.
+- *Little Fish* — IO's private name for Nia, predating any crew epithet. The warmth arrives inside the deflection.
+- Nia's inclusivity: she feels something delightful and immediately wants to share it. *Let's go tell Ren* — not performance, just the natural next thing. She receives experience completely and opens it outward.
+- The memory ends mid-gesture — IO reaching down, before Nia takes the hand. Still reaching.
+
 **Ama — sensing others' emotional state as physical intrusion:**
 > The night shift security guard is thinking about his divorce again — a heavy, grey fog of regret that's drifting across the room. I pull my coat tighter. Being this close to IO is like standing next to a server rack; she gives off a low, constant hum of calculation that makes my head ache.
 > Foy is worse. He walks in and the air pressure drops. He feels... heavy. Dense. Like a stone dropped in a pond.

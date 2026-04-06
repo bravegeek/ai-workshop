@@ -5,7 +5,7 @@
 Four steps before writing. In order:
 
 1. ~~**Decide the memory**~~ ✓ — Nia swimming in the cistern, early exploration period. IO coming home from a dinner party, elevator ride down, finds Nia in the water. IO's commentary stops. See `stories/scenes.md` A1.1 and `stories/voices.md`.
-2. **Develop Nia's voice** — nature is documented, texture isn't. What she sounded like, what she noticed, how she was in a room. Required because the opening memory almost certainly involves her.
+2. ~~**Develop Nia's voice**~~ ✓ — established through the cistern scene. Direct, delighted, inclusive (shares delight immediately — *let's go tell Ren*), already moving toward the next thing. Full attention that opens outward. *Little Fish.* See `stories/voices.md` and `canon/characters/nia.md`.
 3. **Develop IO's unguarded register** — what she's like when the architecture partially drops. The defended IO is documented; this isn't. Follows Nia work because IO's protection is shaped by what she's protecting.
 4. **Write the opening** — the intercut scene (A1.0): Eye/Barnaby behavioral half, IO Eye Protocol half.
 

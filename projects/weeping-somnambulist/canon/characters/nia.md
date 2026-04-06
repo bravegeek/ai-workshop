@@ -25,7 +25,7 @@ This is why her thinning happened faster than IO's. Not just Caerulite exposure 
 
 ## Who She Was
 
-Nia had a specific quality that is hard to name: she paid full attention. Not strategically, not selectively. Whatever was in front of her got all of her. This made her extraordinary in the Deep — she didn't perform emotional states to navigate, she just felt them, completely, and the Psychosphere treated her like she belonged. It also made the Caerulite-Shard connection intoxicating in a way it wasn't for the others. She wasn't addicted to the drug. She was addicted to the feeling of being fully heard by something vast.
+Nia had a specific quality that is hard to name: she paid full attention. Not strategically, not selectively. Whatever was in front of her got all of her. And when she felt something — delight, wonder, discovery — her immediate instinct was to share it. Not to perform it or announce it, but to turn toward the people she loved and bring them in. Full attention isn't hoarding. She received things completely and then opened them outward. This made her extraordinary in the Deep — she didn't perform emotional states to navigate, she just felt them, completely, and the Psychosphere treated her like she belonged. It also made the Caerulite-Shard connection intoxicating in a way it wasn't for the others. She wasn't addicted to the drug. She was addicted to the feeling of being fully heard by something vast.
 
 ## How She Left
 
