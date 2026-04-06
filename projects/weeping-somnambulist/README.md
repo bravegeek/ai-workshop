@@ -39,7 +39,7 @@ Locked or near-locked decisions about how the world works.
 **`presences.md`** — Non-human entities: the Eye, the Cistern, the Vault, TSG. Brief entries with pointers to full documentation.
 
 ### `stories/` — Narrative Development
-Arc structure, character arcs, scene inventory, narrative principles.
+Arc structure, character arcs, scene inventory, narrative principles, and written drafts.
 
 | File | Contents |
 |------|----------|
@@ -47,9 +47,9 @@ Arc structure, character arcs, scene inventory, narrative principles.
 | `arc2.md` | Second arc — rebuild, healing, Budapest aftermath, hooks |
 | `scenes.md` | Scene inventory — all known scenes by arc, with lens notes and open questions |
 | `narrative.md` | POV principles — the lens model, how and when to shift perspective |
-| `io_prequel.md` | Mordaunt origin story seed and open questions |
-| `ren_story.md` | Ren short story seed |
 | `voices.md` | Character voice reference — salvaged passages with the right register |
+| `seeds/` | Underdeveloped story ideas: io_prequel, ren_story |
+| `drafts/` | Written prose — chapters and scenes in progress |
 
 ### `scratchpad/` — Working Material
 `artifact_proposals.md` — artifact inventory and classification (needs audit against current canon)
