@@ -56,10 +56,12 @@ Commands vary by project. Check each project's configuration files first:
 
 ## Search
 
-Prefer the `local-rag` MCP tools for searching and exploring repo content:
-- Use `mcp__local-rag__query_documents` for semantic search over indexed content
-- Use `mcp__local-rag__ingest_file` to index a file before querying it
-- Fall back to Grep/Glob only when the RAG index clearly won't help (e.g. exact symbol lookup, file pattern matching)
+**ALWAYS query RAG before opening files.** When the user asks about content, characters, mechanics, or anything in the project, run `mcp__local-rag__query_documents` first. Only open specific files if RAG results are insufficient or you need the full file for editing.
+
+- Use `mcp__local-rag__query_documents` for any content question — character details, world mechanics, scene notes, todo items
+- Use `mcp__local-rag__ingest_file` if a file may not be indexed yet before querying
+- Fall back to Grep/Glob only for exact symbol lookup or file pattern matching
+- Never load a full file just to search it — query RAG first
 
 ## Notes
 
