@@ -31,6 +31,17 @@ IO offers her a hand up. *"Don't get me wet, Little Fish."*
 - Nia's inclusivity: she feels something delightful and immediately wants to share it. *Let's go tell Ren* — not performance, just the natural next thing. She receives experience completely and opens it outward.
 - The memory ends mid-gesture — IO reaching down, before Nia takes the hand. Still reaching.
 
+**IO — present-tense Eye Protocol session, after the memory surfaces:**
+The mission framing reasserts, then cracks. *We were like Peter and Wendy in Neverland, always exploring, looking for the next adventure. When we found this, we were kids again. Nia was so good at it, a complete natural. I'll get her back. Right after I figure out where she is.*
+
+The gap sits there unexamined. She's built the entire operation and she still doesn't know where Nia is. She says it like a to-do item.
+
+Then the architecture drops: *I could really use your help right now, Nia.*
+
+The wry monologue gone. The mission voice gone. Talking to someone who isn't there, through a machine that contains them.
+
+**The Peter/Wendy frame:** IO casts the early period as an adventure story because adventure stories have shapes. But the analogy is more accurate than she knows — Wendy came home, Peter stayed. Nia didn't come back from Neverland.
+
 **Ama — sensing others' emotional state as physical intrusion:**
 > The night shift security guard is thinking about his divorce again — a heavy, grey fog of regret that's drifting across the room. I pull my coat tighter. Being this close to IO is like standing next to a server rack; she gives off a low, constant hum of calculation that makes my head ache.
 > Foy is worse. He walks in and the air pressure drops. He feels... heavy. Dense. Like a stone dropped in a pond.

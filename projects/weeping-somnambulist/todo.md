@@ -6,7 +6,7 @@ Four steps before writing. In order:
 
 1. ~~**Decide the memory**~~ ✓ — Nia swimming in the cistern, early exploration period. IO coming home from a dinner party, elevator ride down, finds Nia in the water. IO's commentary stops. See `stories/scenes.md` A1.1 and `stories/voices.md`.
 2. ~~**Develop Nia's voice**~~ ✓ — established through the cistern scene. Direct, delighted, inclusive (shares delight immediately — *let's go tell Ren*), already moving toward the next thing. Full attention that opens outward. *Little Fish.* See `stories/voices.md` and `canon/characters/nia.md`.
-3. **Develop IO's unguarded register** — what she's like when the architecture partially drops. The defended IO is documented; this isn't. Follows Nia work because IO's protection is shaped by what she's protecting.
+3. ~~**Develop IO's unguarded register**~~ ✓ — established through the opening scene development. The wry associative monologue (elevator ride), the commentary going quiet when Nia surfaces, the mission framing cracking (*right after I figure out where she is*), the architecture dropping (*I could really use your help right now, Nia*). See `stories/voices.md`.
 4. **Write the opening** — the intercut scene (A1.0): Eye/Barnaby behavioral half, IO Eye Protocol half.
 
 Everything in Priority 1+ can wait. None of it blocks the opening.
