@@ -171,7 +171,11 @@ IO uses the Eye Protocol on herself — a practice she's developed to manage gri
 
 **The cistern exchange (developed):** Nia was free diving, alone, again. IO arrives, monologue running (Caerulite glow unsettling, safety rules, *like it was built for her*). Nia surfaces: *"Storms coming!"* IO recalibrates, deflects with humor, asks *"When?"* Nia grins: *"That's the best part, it's almost here. Let's go tell Ren!"* IO offers a hand up. *"Don't get me wet, Little Fish."* Memory ends mid-gesture, before Nia takes the hand.
 
-**Open:** Does IO hold the memory this time or let it go? Does the recognition (that she's been treating her grief with a tool that contains the person she's grieving) arrive during this session, or does the scene end before she gets there?
+**Ending:** Left open deliberately. The reader doesn't yet know what the Eye Protocol does. They've just met IO and Nia in a warm, alive moment. The scene ends without resolving whether IO holds the memory or lets it go.
+
+The horror is retroactive: when the reader finally understands the Eye Protocol — that it erases what it archives, that Nia is indexed inside it — they'll understand what was at stake in the opening. She wanted to remove *this*. The cistern. The storm. Little Fish. The hand.
+
+**Writing note:** Handle the Eye Protocol with restraint in the opening. Show IO using it. Don't explain what it does. The reader should feel the weight of *I could really use your help right now, Nia* without knowing exactly what's at stake. The not-knowing is the point.
 
 ---
 
