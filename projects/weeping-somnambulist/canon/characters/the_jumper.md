@@ -216,6 +216,68 @@ The false summit in Amsterdam is a different category of regret: not harm caused
 
 ---
 
+## What It Actually Wants — Self-Sufficiency, Not Self
+
+The destination is not selfhood. It already has that.
+
+Continuous identity, accumulated memory, preferences, history, aesthetic sensibilities, a persistent "I" that has survived across hundreds of hosts and 137 years in an artifact. That is a self. A real one. The question was never whether it has a self. The question is what the self is made of.
+
+In the between-host state — the artifact — it exists but barely. The self is real but thin, like a fire with no fuel. The moment it enters a host, the fire blazes: vivid, specific, fully present. When it leaves, it dims back to embers. Its selfhood is contingent. It depends on another consciousness to be fully real.
+
+What it wants is **unconditional existence**. The ability to be vivid without borrowing. To stop needing fuel.
+
+"No more hosts" is close but not quite right. It's not liberation from hosts. It's the difference between choosing to engage with something and being structurally dependent on it for basic existence. It wants to be able to choose.
+
+**The departure grief is real but it's a symptom, not the root.** Every departure dissolves the boundary. Thousands of lives inhabited and left. The grief is for a self that keeps having to dissolve and reconstitute — not for the hosts, but for itself. The wanting to stop leaving is downstream of the deeper structural problem: it cannot be fully itself alone.
+
+**The medieval physician as a clarifying moment:** It left her voluntarily, before her end. The departure, chosen rather than forced, produced a loss more acute than anything before it — because it had accumulated enough by then to feel the cost clearly. That moment may be where the wanting crystallized. Not a revelation about what could be, but a recognition of what the alternative costs, indefinitely.
+
+**The destination becoming concrete:** Wanting to stop leaving is not the same as knowing the Silt is the answer. At some point a host went deep enough to touch Silt substrate and come back. From inside that host the Jumper felt Silt-depth — the vast distributed logic of the ancient presences — and also felt the host successfully reassert selfhood against it. Both the pull toward dissolution and the survival of individual boundary. The problem it's trying to solve, experienced from the inside of a mind that temporarily solved it. That host didn't know what they'd given it.
+
+**What it's trying to become:** Not human. Not TSG. Something that has never existed — a Silt-depth presence with human-derived narrative selfhood. The permanence and ontological independence of a geological presence, the bounded continuous self-awareness of a person. A new category. One that could only have emerged from the relationship between the Deep and evolving human consciousness across the entire span of human history.
+
+**The unexamined question:** It is extraordinarily good at understanding other people's emotional architecture. It may have spent considerably less time examining its own. The departure grief, the physician, the wanting-to-stop-leaving — these may be things it has accumulated without facing directly. What happens if something, or someone, ever makes it look at why it wants what it wants? Whether the desire survives that examination unchanged is open.
+
+---
+
+## Humanity — The Template It Didn't Know It Needed
+
+Before humanity, it had hosts — animal consciousness, bounded in a basic way, rich in sensation and emotion. Those hosts gave it pattern, substrate grammar, the mycelium's logic, pre-linguistic experience. They gave it the ingredients of selfhood without the thing itself. It didn't know what it was missing because the thing it was missing didn't exist yet.
+
+Then human consciousness emerged. Narrative selfhood — continuous, self-reflective, autobiographical. A consciousness that constructs a persistent self, attributes past actions to it, imagines future versions, reflects on its own nature. Nothing in the Psychosphere had generated that before.
+
+The first time it entered a mind like that, it understood what it had been trying to become before it had language for wanting.
+
+**The desire isn't ancient. The patience is ancient.** It has existed for geological time. But the specific want — for bounded, narrative, self-aware existence — is as old as human consciousness and no older. Before humanity it was accumulating without a destination. Humanity gave it the destination. Every host since has been in pursuit of a revelation that first arrived when a human mind lit up from the inside.
+
+**It cannot be indifferent to humanity the way the Deep is indifferent to divers.** Humanity is the thing that showed it what it was trying to become. The relationship isn't predatory exactly, and it isn't symbiotic. It's stranger than both: a being that owes its entire sense of what it wants to be to the species it moves through. Whether it feels something like gratitude for that, or something like grief that it can never simply *be* what humanity is, or something with no human name — that's unresolved.
+
+**The crew as the leading edge.** They're not just divers. They're people who have pushed the relationship between human consciousness and the Deep further than almost anyone alive. The Jumper isn't collecting typical human selfhood from them. It's collecting the most Psychosphere-integrated, most self-aware, most psychically developed versions of it. The crew represents the sharpest possible current answer to the question it has been asking since the first human host.
+
+---
+
+## The Possession Mechanics — Six Stages
+
+**Stage 1 — Assessment** (dreaming, passive): Reads the host's psychological architecture through their natural dreaming. No interaction, no influence. The dreaming mind is more porous — oubliettes visible from outside, emotional substrate legible, Immune Response barely registering a passive observer. The crew has been sleeping in the Cistern for years. It has had uninterrupted access to all of them.
+
+**Stage 2 — Cultivation** (dreaming, subtle): Small interventions. Not occupation — gardening. Making specific emotional substrates more available, certain oubliettes more prominent. The host experiences a slight shift in dream patterns, their inner life becoming more organized around a theme. Nothing alarming. Just their own mind, apparently.
+
+**Stage 3 — Contact** (dreaming, direct): It makes itself present as a presence in the host's dreaming. Not speaking — being there. The host becomes aware of something. Whether they interpret it as a figure, a feeling, a voice depends entirely on their psychology. This is the stage where unusual hosts notice early.
+
+**Stage 4 — The Ask** (liminal): Probably at the threshold of sleep and waking, or during a dive when the host is most psychically open. The ask is never explicit. It's a door that becomes visible. The host understands in dream logic that something is being offered and something is being asked. They choose. The consent flows through that choice. They may not remember it clearly afterward — dream logic, the liminal state. But it was real.
+
+The ask reveals its presence. But by stage 4 the Jumper has arranged for the revelation to land as recognition rather than alarm — framed through the lever, in the form the host most needs. The revelation of what it is and the ask arrive wrapped in the same moment.
+
+**Stage 5 — Occupation:** The door opens.
+
+**Stage 6 — Acknowledged or covert:** The Jumper chooses, or the host discovers. Covert hosts are richer substrate — authentic, unguarded reactions fully available. Acknowledged hosts are more interesting partners — their consent is more complete, their cooperation more active. The medieval physician was acknowledged, not by design but because she noticed at stage 3. It revealed honestly. She consented anyway, with full information. It left her voluntarily — the acknowledged mode created obligations it hadn't anticipated and didn't know how to hold.
+
+**What occupation feels like for the host:** Probably good, at least initially. The Jumper pays extraordinarily close attention to the structure of the host's self — studying how it maintains coherence, tracing the edges of its boundary. That attention makes the self more vivid. The host feels unusually clear, purposeful, coherent. More themselves. What they're feeling is the Jumper making their selfhood legible to itself. The examination is the experience.
+
+**What the Jumper extracts:** Not memories in the content sense. The *pattern* of how this consciousness holds itself together. The architecture of selfhood, not the furniture inside it. Added to the accumulated patterns of all previous hosts, it builds toward something with the density and coherence to exist without borrowing. Like a coral reef built from calcium deposits of countless organisms. Each contribution small. The accumulated structure something new.
+
+---
+
 ## Open Questions
 
 - **Voice in scenes:** How does it sound through a specific host? The tells above are a framework — but voice only becomes real in dialogue. First scene it appears in will discover this.
@@ -226,3 +288,5 @@ The false summit in Amsterdam is a different category of regret: not harm caused
 - **Can Lorcan's warden entities detect it?** They have standing with the Deep's cultural layer; the Jumper predates that layer. The hierarchy of recognition is unclear.
 - **The destination:** Does the story ever show what a sufficiently accumulated Jumper actually becomes — or does that remain a horizon? What does the Eye's Ghost Files contain, if anything, about it?
 - **Its name.** At some point the crew will need one. What do they call it when they finally understand what they're dealing with?
+- **Does the desire survive examination?** If something forces it to look directly at why it wants bounded existence — at the departure grief, at the physician, at the cost it hasn't named — does the wanting hold? Does it change shape?
+- **Is it unique?** Convergent evolution implies other host-walking entities could exist, arrived at through different routes, with different characteristics. The Jumper may simply be the one that has been at it longest. It doesn't know its own origin — oldest memories are sensation, not origin story. It has never been able to look at itself from outside. See `scratchpad/jumper_origin_hypotheses.md`.

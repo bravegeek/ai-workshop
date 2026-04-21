@@ -90,6 +90,15 @@ The Psychosphere and the waking world are in an unknown feedback loop that histo
 **4. The Trickster as counterpoint to the Jumper.**
 In the Jumper's character file, the Trickster is already referenced as the scarier immediate presence. Now that the Trickster Sleeper is developed, that comparison has more weight. The Jumper is purposeful and legible; the Trickster Sleeper is generative instability at geological scale — no playbook works against it, you can only accommodate. Worth noting the contrast explicitly in the Trickster's canon entry when written.
 
+### Jumper — Pending Development
+
+Material developed in brainstorm, captured in character file and scratchpad. Items that need a dedicated pass before writing scenes:
+
+- **Origin hypothesis** — three candidates in `scratchpad/jumper_origin_hypotheses.md` (mycelium-node, oubliette-condensation, immune-response-fragment). Commit to one or hold all three as ambiguity. The Jumper doesn't know its own origin — that may be the right answer.
+- **Other Jumper-types** — convergent evolution implies others could exist through different routes. Flag for arc 2 or later. Barnaby's pre-Eye Vault records as possible evidence of a prior encounter the crew never identified.
+- **The possession mechanics in scenes** — six stages established, but voice and the specific threshold moment only become real in dialogue. First scene the Jumper appears in will discover both.
+- **Which crew member it approaches first** — the strategic choice reveals what it prioritizes. Needs a decision before arc 1 plant scenes are written.
+
 ### Inanimate Characters — Develop Further
 The Eye now has its own document (`canon/the_eye.md`) covering its nature as a TSG fragment, the archive mechanic, and Ren's connection. Remaining open questions:
 - ~~Does the Eye want reintegration?~~ ✓ The fragment still faces toward TSG but what returns is not what was lost — 150 years of absorption means reintegration is an exchange. TSG, Nia, Ren, IO connected through shared ground. See `the_eye.md` Section VII.
