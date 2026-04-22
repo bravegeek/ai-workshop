@@ -27,7 +27,11 @@ The rebrand is forced by the fact that CRIT is a trademarked term (from Geoff Wo
 
 **Change:** Inline the needed CRIT content directly into the skill file as a reference section. Remove the external-file read.
 
+**Note:** The inlining is simpler than it sounds. The framework phases are already fully implemented in the skill body — `./prompts/crit-strategic-thinking` is a reference doc, not runtime logic. The `## CRIT Reference` section to embed is small.
+
 **Deliverable:** Updated skill with embedded `## CRIT Reference` section containing the framework template. Skill no longer references any file that isn't in the public release.
+
+**Post-release:** Update the workshop repo's `strategic-brainstorm-researcher.md` to deprecate it or point to the public repo. Otherwise it will silently diverge (still references `./prompts/crit-strategic-thinking`, still uses CRIT terminology). This is out of scope for v0.1 but should not be forgotten.
 
 ### 2. Parameterize output path
 
@@ -72,7 +76,7 @@ The rebrand is forced by the fact that CRIT is a trademarked term (from Geoff Wo
 - `SKILL.md` — Claude skill form with frontmatter
 - `prompt.md` — plain system prompt, paste-into-any-LLM form
 
-Phase 5 (file writing) may not work outside an agentic context. The prompt form must degrade gracefully — print the session documents inline when it can't write files.
+Phase 5 (file writing) may not work outside an agentic context. The prompt form must degrade gracefully. Since there is no runtime detection of file-write capability, the prompt form always prints session documents inline: each document (session summary, metadata, research plan if applicable) emitted as a labeled fenced markdown block, followed by an instruction to the user to copy and save manually. The prompt form never attempts to write files.
 
 **Deliverable:** Both files in the public repo, plus a README explaining which to use where.
 
@@ -119,7 +123,7 @@ Phase 5 (file writing) may not work outside an agentic context. The prompt form 
 - Product & innovation
 - Personal decisions & life planning
 - Creative projects
-- Nonprofit / civic work
+- Education & teaching
 - Academic research
 - Career & learning
 
@@ -144,7 +148,7 @@ guided-brainstorm/
 ## Acceptance criteria
 
 1. A new user can copy `SKILL.md` into a fresh `.claude/skills/` directory, activate it, and complete a full session without the skill referencing any file outside the public repo.
-2. A new user can paste `prompt.md` into ChatGPT or Gemini as a system prompt and complete Phases 1–4. Phase 5 degrades gracefully to inline output when file-writing isn't available.
+2. A new user can paste `prompt.md` into ChatGPT or Gemini as a system prompt and complete Phases 1–4. Phase 5 always outputs inline: each document as a labeled fenced block with a copy-and-save instruction. No file-write attempts.
 3. CRIT is credited in `NOTICE` and under a "Credits" heading in `README.md`, using the verbatim credit line from blocker 3. No CRIT branding appears in user-facing tool content.
 4. Default output path does NOT contain `projects/` and works from any cwd.
 5. No occurrences of "CRIT," "CRI," or "CRI-R" anywhere in `SKILL.md`, `prompt.md`, or phase headers. Phase names are Situation / Advisor / Conversation / Plan / Save. Tool is named "Guided Brainstorm."
@@ -155,8 +159,8 @@ guided-brainstorm/
 ## Open questions
 
 1. **Repo owner.** Release from the user's personal GitHub account, or set up a small org?
-2. **Example transcript source.** Redact `projects/ai-dev-productivity-pitch-2026-02/session.md`, or fabricate a generic one to avoid leaking internal product context? Redaction is faster; fabrication is safer.
-3. **License.** MIT for everything (simplest), or MIT for code + CC-BY-4.0 for the prompt form (more idiomatic)? Pick one and be consistent.
+2. ~~**Example transcript source.**~~ **Decided: fabricate.** A redacted internal session (`ai-dev-productivity-pitch-2026-02`) risks context leakage even with careful scrubbing, and a crafted example can show the tool at its best rather than at whatever that session happened to cover.
+3. ~~**License.**~~ **Decided: MIT for everything.** The prompt form isn't clearly a creative work in the CC-BY sense, and one license across the repo is simpler to communicate.
 4. **Step-name signoff.** Are Situation / Advisor / Conversation / Plan final, or should any be workshopped further? (Recommendation: ship with these, iterate based on early user feedback.)
 
 ## Out of scope for v0.1
@@ -171,12 +175,12 @@ guided-brainstorm/
 
 ## Work breakdown
 
-1. Decide open questions (repo owner, example source, license) — **15 min**
+1. Decide repo owner (example source and license already decided) — **5 min**
 2. Rewrite `SKILL.md` as Guided Brainstorm: inline framework content, parameterize output path, rebalance categories, rename phases, scrub all CRIT/CRI references — **90 min**
 3. Derive `prompt.md` from `SKILL.md` (plain-LLM form, degrades gracefully without file writes) — **30 min**
 4. Write `README.md` with quickstart for Claude / ChatGPT / Gemini and a Credits section — **60 min**
 5. Produce `LICENSE`, `NOTICE` (with verbatim credit line), `CHANGELOG.md` — **30 min**
-6. Redact or fabricate `examples/sample-session.md` — **60 min**
+6. Fabricate `examples/sample-session.md` — use a non-tech domain (e.g., career decision or creative project) to show breadth — **60 min**
 7. Test: run the skill in Claude and the prompt in ChatGPT + Gemini, verify all acceptance criteria — **60 min**
 
 Total: ~5.5 hours, loaded.
