@@ -74,21 +74,27 @@ Core cosmology document written: `canon/cosmology.md`. Covers drive beneath "uni
 - ~~The other sleepers: does the crew learn about them?~~ ✓ Yes — in arc 2, via Ren's data, Lorcan's geography, Ama's instinct. See Arc 2 premise above. Remaining: commit to which candidate drives are canon (Persist, Consume, Divide, Respond, Trickster). Trickster most developed.
 - ~~What ended previous bloomings?~~ ✓ The cycle turned on its own. The flood receded without human intervention. The Architects knew this and tried to make the seal permanent rather than wait for the next cycle. The crew inherited that attempt and its consequences.
 
-### **NEXT SESSION — Silt Presences: Exploratory**
+### ~~**NEXT SESSION — Silt Presences: Exploratory**~~ ✓ complete
 
-Needs a dedicated session before committing anything to canon. Brief:
+~~Needs a dedicated session before committing anything to canon.~~
 
-**1. Commit to the other Sleepers.**
-Candidates in `canon/world/cosmology.md` (Persist, Consume, Divide, Respond, Trickster). Trickster is the most developed — drive is generative instability / random mutation, produces accommodation records not fear-records, Ama is the crew member with correct instincts for it. The others are sketches. Session should decide which are canon, which stay speculative, and begin characterizing the committed ones.
+~~**1. Commit to the other Sleepers.**~~
+✓ Committed: Trickster, Ancestor, Metamorphic, Sacrifice (development held). Persist/Consume/Divide/Respond dropped. See `canon/world/cosmology.md` Section VII and `canon/presences.md`.
 
-**2. Bloom cycles as wildfire ecology.**
-Developed in brainstorm (not yet in canon): bloomings are cyclical ecological events, not catastrophes. Wildfire principles that apply: fire return interval, fire suppression debt (the 1887 Eye capture delayed a cycle and the current Blooming ran hotter as a result), serotiny (organisms that require bloom conditions to complete their lifecycle — the Jumper may be serotinous), prescribed burns (did any tradition attempt managed bloomings?). Each Sleeper blooms differently — TSG blooms as unity-pull, the Trickster would bloom as proliferating variation, others unknown. Needs a canon document extending `cosmology.md` or a standalone bloom-cycles doc.
+~~**2. Bloom cycles as wildfire ecology.**~~
+✓ Written. Fire return interval, suppression debt (1887), serotiny (Jumper and divers), prescribed burns, per-Sleeper bloom character. See `canon/phenomena/the_blooming.md` Section II.B.
 
-**3. History as substrate feedback.**
-The Psychosphere and the waking world are in an unknown feedback loop that historians don't know exists. Bloomings shape collective human behavior (not determining it — weighting it). Waking-world events generate substrate that feeds back as bloom conditions. The Architects were beginning to see this. Opens new fields: substrate historiography (reading history directly from the Deep), bloom cycle mapping (predictive models from historical signature data), feedback ecology (how specific events change substrate and what those changes produce downstream). IO's specific tension: knowledge monopoly problem — when and whether to share something this consequential. Needs a canon document, and an addition to IO's character file.
+~~**3. History as substrate feedback.**~~
+✓ Written. Two-direction loop, named correlations (Axial Age/TSG, Black Death/Ancestor, Renaissance/Trickster), Budapest as continuous example, Ren's maps as proto-substrate historiography, IO's post-reintegration realization. See `canon/world/cosmology.md` Section IX.
 
-**4. The Trickster as counterpoint to the Jumper.**
-In the Jumper's character file, the Trickster is already referenced as the scarier immediate presence. Now that the Trickster Sleeper is developed, that comparison has more weight. The Jumper is purposeful and legible; the Trickster Sleeper is generative instability at geological scale — no playbook works against it, you can only accommodate. Worth noting the contrast explicitly in the Trickster's canon entry when written.
+~~**4. The Trickster as counterpoint to the Jumper.**~~
+✓ Written into Trickster's canon entry. See `canon/world/cosmology.md` Section VII.
+
+**Additional items committed this session:**
+- Epigenetic mutations from diving — `canon/world/diver_biology.md` (new file)
+- Ancestor + epigenetic inheritance interaction — `canon/world/cosmology.md` Section VII and `canon/world/diver_biology.md`
+- Budapest confluence as global receiver — `canon/world/psychosphere.md` Section VI
+- Ley line confluence as attractor for multiple Sleeper signals — `canon/world/cosmology.md` Section VII, `canon/world/psychosphere.md` Section VI
 
 ### Jumper — Pending Development
 

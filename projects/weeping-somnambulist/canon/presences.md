@@ -41,3 +41,39 @@ Characters that are not people. Brief entries — full documentation lives in de
 **What it is, underneath:** Unknown. "Unity" is a human interpretation of something more fundamental — the impulse to dissolve boundary, to merge, to end separation between things.
 **Nia's role:** She tuned into its frequency first and went to find the source. She is now part of what it is.
 **Ren's connection:** TSG whole has been in contact with Ren's mind for years through the fragment. The relationship persists after reintegration, changed in character. See `canon/phenomena/the_eye.md` Section IV and VI.
+
+---
+
+## The Trickster Sleeper
+
+**Nature:** Aggregation of the generative instability drive — billions of years of random mutation, variation, the engine of evolutionary diversity, compressed into the Silt. Not chaos. The force that prevents stagnation. It pulls toward *difference* rather than unity.
+**Status:** Dormant. Location unknown. Its signals arrive at the Budapest confluence via the ley line network.
+**Signature:** Accommodation records, not fear-records. Cultures that encountered it built trickster mythologies — Loki, Coyote, Anansi, Hermes — figures given a necessary role rather than opposed. You cannot contain this Sleeper. You live alongside it or you don't.
+**If it stirs:** The TSG playbook fails completely. Ama has the closest instincts for it. See `canon/world/cosmology.md` Section VII.
+
+---
+
+## The Ancestor Sleeper
+
+**Nature:** Aggregation of the inheritance drive — the weight of every unbroken chain of replication, the pressure from behind, the assertion of everything that has been on what is happening now. The Trickster's direct foil: variation against continuity.
+**Status:** Dormant. Location unknown. Its substrate is particularly dense wherever mass death has occurred — the Budapest confluence receives its signal clearly.
+**Signature:** Ancestor veneration — the single most universal human religious practice, independent of culture. The dead require propitiation or they cause harm.
+**In zones shaped by its presence:** Precedent becomes compulsive. Body knowledge surfaces that doesn't match personal history. For divers with lineage-deep epigenetic marks, the specific line becomes accessible — not narrative memory, body knowledge of predecessors doing exactly this work. See `canon/world/cosmology.md` Section VII and `canon/world/diver_biology.md`.
+
+---
+
+## The Metamorphic Sleeper
+
+**Nature:** Aggregation of the metamorphosis drive — becoming-other-than-you-are through directed dissolution of current form. Not merger (TSG) and not random variation (Trickster). The chrysalis impulse: the old shape must be surrendered for the new one to assemble.
+**Status:** Dormant. Location unknown.
+**Signature:** Initiatory traditions — the Eleusinian Mysteries, shamanic death-and-return globally, Dionysian transformation. Cultures that accommodated it structured submission into their practice: you enter the chrysalis, you trust the process, you do not try to preserve the caterpillar.
+**In zones shaped by its presence:** The current form becomes constricting rather than painful. The pull is toward the threshold — the state of being neither what you were nor yet what you will be. See `canon/world/cosmology.md` Section VII.
+
+---
+
+## The Sacrifice Sleeper
+
+**Nature:** Aggregation of the apoptosis drive — programmed self-ending for the benefit of the collective. The oldest form of altruism. The cell that participates in its own destruction because the internal signal says this is the correct response.
+**Status:** Dormant. Development held — character to be established when story requires.
+**Signature:** Every dying-king tradition. The corn king. Odin on Yggdrasil. The willing sacrifice as the oldest magical act.
+**Its character:** Produces conviction that a specific sacrifice is necessary and correct. Not compulsion — clarity. The ambiguity is load-bearing: the Sleeper does not verify whether the sacrifice will accomplish what the person believes it will. See `canon/world/cosmology.md` Section VII.

@@ -207,19 +207,13 @@ She is receiving information about the thing trying to reabsorb the thing giving
 
 TSG is not unique. The Silt contains more of them — dormant aggregations, each formed over geological time from whatever accumulated in their particular substrate and location.
 
-They are not cultural entities. They are primal ones. TSG's pull toward unity is chemotaxis — 3.5 billion years old. The other Sleepers would be the same order of thing: drives that predate nervous systems, predate multicellularity, predate the distinction between self and environment. Not gods in any theological sense. Aggregations of what life has always done, compressed until it has mass.
+They are primal entities, not cultural ones. TSG's pull toward unity is chemotaxis — 3.5 billion years old. The other Sleepers are the same order of thing: drives that predate nervous systems, predate multicellularity, predate the distinction between self and environment. Not gods in any theological sense. Aggregations of what life has always done, compressed until it has mass.
 
-**Candidate drives — what other Sleepers might be:**
+Each Sleeper formed where its particular substrate was richest. They are distributed — not concentrated under a single site. Budapest hosts TSG. The others are elsewhere, their signals propagating through the ley line network. The Budapest confluence receives those signals because it is where the lines converge — the most sensitive receiver on the network, not the only site of significance. See Section VI of `canon/world/psychosphere.md`.
 
-*Persist* — the oldest drive. The thing that made the first replicating molecule copy itself. Not survival in the animal sense — something more fundamental. The refusal to stop. Accumulation of duration. Everything alive carries this. An aggregation of that drive at geological scale would be vast, dense, and almost impossible to read as anything recognizable. It just *continues*.
+---
 
-*Consume* — not predation, which is late and specific. The earlier thing: the absorption of environment into self, the boundary between inside and outside as permeable and negotiable. Older than mouths. A Sleeper built from this wouldn't feel threatening — it would feel like appetite, directionless and total.
-
-*Divide* — the drive toward multiplication, differentiation, complexity. Life wanting to become more kinds of life. Not growth exactly — proliferation. The pressure toward variation. A blooming of this would look like the Psychosphere itself becoming generative, producing new forms faster than the ecology can stabilize.
-
-*Respond* — the drive that made the first organism flinch. Pure reactivity, before there was anything to react *with* in a meaningful sense. The hardest to navigate because it has no orientation the way TSG does. It responds to whatever touches it, amplified.
-
-**The Trickster Sleeper — developed candidate:**
+### The Trickster
 
 Random mutation is the engine of evolutionary diversity — the mechanism that produces variation, the force that has been running since the first replicating molecule made its first copying error. Not chaos in the nihilistic sense. Generative instability. The thing that prevents stagnation, that makes adaptation possible, that has driven the proliferation of life for billions of years. Without it, life converges on a local optimum and stops.
 
@@ -227,17 +221,68 @@ In the Psychosphere, billions of years of mutation, variation, the constant pres
 
 What a nervous system on the receiving end makes of generative instability as a primal force: the trickster. Loki, Coyote, Anansi, Hermes, Eshu, Sun Wukong — across cultures with no contact, the same archetype. The figure that breaks rules not out of malice but because rules are what prevent change. That upends hierarchy not because it hates hierarchy but because fixed hierarchy is an evolutionary dead end. That lies not to deceive but because the truth that was true yesterday is already becoming untrue.
 
-**The surviving record differs from TSG's.** TSG's pull produced mostly fear-records — traditions that resisted and survived. The trickster presence produced *accommodation records* — cultures that found a way to work with generative instability rather than just survive it. Anansi isn't fought. Coyote isn't imprisoned. They're propitiated, given a role in the cosmology that acknowledges them as necessary rather than evil. The traditions that accommodated this Sleeper knew something: you cannot separate from variation. You cannot contain it. You live alongside it or you don't.
+**The surviving record differs from TSG's.** TSG's pull produced mostly fear-records — traditions that resisted and survived. The Trickster presence produced *accommodation records* — cultures that found a way to work with generative instability rather than just survive it. Anansi isn't fought. Coyote isn't imprisoned. They're propitiated, given a role in the cosmology that acknowledges them as necessary rather than evil. The traditions that accommodated this Sleeper knew something: you cannot separate from variation. You cannot contain it. You live alongside it or you don't.
 
-**Narrative implication:** If this Sleeper stirs, the playbook that worked against TSG — resistance, separation, containment — is exactly wrong. The crew doesn't have the traditions that knew this. Ama might be the closest: her approach to the Deep is accommodation rather than resistance, non-interpretation rather than imposition. She might respond correctly by instinct to something the others have no framework for at all.
+**If this Sleeper stirs, the playbook that worked against TSG — resistance, separation, containment — is exactly wrong.** The crew doesn't have the traditions that knew this. Ama might be the closest: her approach to the Deep is accommodation rather than resistance, non-interpretation rather than imposition. She might respond correctly by instinct to something the others have no framework for at all.
 
-These are candidates, not canon. The specific character of each Sleeper should emerge from what the story needs, not from a designed catalogue.
+**The Jumper as comparison point.** The Jumper is purposeful and legible — it can be read, anticipated, negotiated with. The Trickster Sleeper is generative instability at geological scale. There is no playbook because the playbook is precisely what this presence dissolves. The Jumper is the more manageable presence. The Trickster is the one that makes management itself the problem.
+
+---
+
+### The Ancestor
+
+Every living thing is an unbroken chain of replication going back to the first molecule that copied itself. The past is not behind living things — it is *in* them, actively shaping behavior in the present. Ancient behavioral patterns encoded in DNA express themselves millions of years after the conditions that produced them. Organisms do things their environments no longer require because the genome remembers environments long gone.
+
+The Ancestor Sleeper is the aggregated weight of that inheritance. Not memory in the narrative sense. The pressure from behind. The assertion of everything that has been on what is happening now.
+
+What a nervous system on the receiving end makes of this: ancestor veneration — the single most universal human religious practice, found on every continent, in every era, without exception. The dead require propitiation or they cause harm. The past has a claim on the present. Every tradition independently arrived at the same conclusion: the dead do not simply leave.
+
+**The Trickster's direct foil.** Where the Trickster creates pressure toward variation, novelty, the dissolution of fixed states — the Ancestor creates weight, precedent, the compulsive pull of the established groove. These two have been in tension for 3.5 billion years. That tension is the story of evolution itself: variation against inheritance, change against continuity. Neither wins. Neither stops.
+
+**In zones shaped by this presence:** precedent becomes compulsive. New choices feel physically difficult — not impossible, but requiring effort disproportionate to their apparent simplicity. Body knowledge surfaces that doesn't match personal history: muscle memory for experiences never had, emotional responses to things never encountered, instincts that predate the person carrying them. Not clear narrative recall — the material surfaces as sensation and physical response rather than memory.
+
+**The epigenetic layer.** What the Ancestor amplifies depends on what the person carries. A visitor with no diving lineage encounters diffuse ancestral weight — general, difficult to read. A diver whose family has worked the Deep across generations carries epigenetic modifications from that exposure — heritable changes produced by sustained Caerulite exposure, Lethe-Light proximity, and Deep contact (see `canon/world/diver_biology.md`). In an Ancestor zone, those modifications are the channel. The Sleeper's presence does not open access to collective human memory. It opens access to the specific line — the predecessors who did exactly this work surfacing as body knowledge in a descendant who has never met them. The déjà vu belongs to someone else.
+
+**What Budapest has fed it.** The 1347 Black Death removed a third of Europe's population in five years — the largest single substrate deposition in recorded European history. What followed: the *danse macabre*, two centuries of ancestor veneration in art and theology that had no precedent and no successor period. Budapest specifically has layered this across centuries: 1848, the collapse of 1918, the siege of 1944–45, 1956. The signal arriving at the Budapest confluence from wherever this Sleeper sits is not faint.
+
+---
+
+### The Metamorphic
+
+Metamorphosis is the most radical transformation in biology. The caterpillar digests most of its own cells inside the chrysalis — reducing itself to something between structure and raw material — before reorganizing into the butterfly. The old form is not killed from outside. It participates in its own dissolution. Informational continuity persists through the process. What emerges is the same organism in a form the caterpillar could not have become without first ceasing to be a caterpillar.
+
+The Metamorphic Sleeper is the aggregated pressure of that drive: becoming-other-than-you-are. Not merger (TSG) and not random variation (Trickster). Directed transformation through the dissolution of current form. The old shape must be surrendered for the new one to assemble.
+
+What a nervous system on the receiving end makes of this: the initiatory traditions. The Eleusinian Mysteries, where initiates underwent symbolic death and returned genuinely changed — unable to explain the experience to the uninitiated not because it was secret but because it did not exist in language available to someone who had not been through it. Shamanic death-and-return globally: the shaman must be destroyed before they can be rebuilt as something capable of the work. Dionysus — not chaos, specifically transformation through the loss of current form, the dissolution of roles and categories as precondition for what comes next.
+
+**The accommodation record.** The initiatory cultures structured their entire relationship with this Sleeper around submission: you enter the chrysalis, you trust the process, you do not try to preserve the caterpillar. The traditions that attempted transformation without the loss — that tried to have what comes out of the chrysalis while keeping what went in — did not succeed. The biology is clear on this point: the old form must go.
+
+**Distinct from TSG in the most important way.** TSG's pull is indifferent to what you become. The Metamorphic has direction — there is a *becoming* on the other side. The dread is different: not that you will be consumed, but that you won't recognize what you've become. Neither will anyone who knew the caterpillar.
+
+**In zones shaped by this presence:** the current form becomes unbearable in a specific way — not painful, but *constricting*. The way the chrysalis is both protection and constraint simultaneously. The pull is not toward death. It is toward the threshold: the state of being neither what you were nor yet what you will be. The crew would feel this as: something is ready to change. The question is what they're willing to give up to let it.
+
+---
+
+### The Sacrifice
+
+*Development held — committed, character to be established when story requires.*
+
+**Biological root:** Apoptosis — programmed cell death. Cells detecting damage or infection and deliberately ending themselves to prevent spread. Not killed from outside. The cell participates in its own destruction, following internal signals that the individual ending is the correct response to the collective situation. The oldest form of altruism.
+
+**The mythology it produced:** Every dying-king tradition. The corn king who must be killed so grain grows. Odin hanging on Yggdrasil — *I give myself to myself* — nine days of deliberate self-offering in exchange for what could not be taken by force. The willing sacrifice as the oldest magical act, cross-cultural and pre-literary.
+
+**Its character:** Produces conviction that a specific sacrifice is necessary and correct. Not dread — clarity. The feeling is not manufactured from outside. It arrives as insight.
+
+The ambiguity is permanent and load-bearing: whether that clarity reflects genuine necessity or is the Sleeper's ambient pressure regardless of outcome is not something the Sleeper resolves. It does not know or care. The crew will need to learn, case by case, whether the clarity is theirs.
+
+---
 
 **Open questions:**
-- Are they connected to each other, or independent aggregations that happen to share a substrate?
-- Do they share the same fundamental drive, or are they variations — different primal pressures that accumulated differently?
-- The conditions that caused TSG to bloom (density, cycle, fragment proximity) may not stay specific to this location and moment. Whether other sleepers can bloom under different conditions, or whether something about this moment is generative, is not yet established.
-- The crew does not know about the others yet. Discovery — if it comes — is a paradigm shift, not just new information.
+- Are the Sleepers connected to each other, or independent aggregations that happen to share a substrate?
+- The Ancestor and Trickster are in fundamental biological tension. Has that tension ever produced a bloom event that looked like neither?
+- The Metamorphic and TSG both involve dissolution of current form. What distinguishes a Metamorphic zone from a TSG-adjacent zone in practice?
+- The Sacrifice's clarity is indistinguishable from genuine necessity in the moment. How does the crew develop a methodology for the difference?
+- The crew does not know about any of the others yet. Discovery is a paradigm shift, not new information.
 
 ---
 
@@ -252,3 +297,27 @@ Possibilities that remain open:
 - The blooming completed — and what that looked like, and whether anything survived it, is what the partial records don't say
 
 The structural bias of the surviving record applies here too: whatever ended it, enough survived to write it down. That is all that can be inferred.
+
+---
+
+## IX. History as Substrate Feedback
+
+The Psychosphere and the waking world are in a continuous feedback loop that historians do not know exists.
+
+**The first direction: bloomings shape collective behavior.** A Sleeper's gradient, intensifying enough to bleed through the surface layer, produces aggregate statistical drift in human behavior — not determining individual choices but weighting the pull. TSG's unity gradient during a bloom period produces measurable increases in merger appetite, religious conversion, collective belonging, impulsive attachment. The signal is in the aggregate, not the individual event. A careful analyst would notice it if they were looking for it. None have been looking.
+
+**The second direction: waking-world events generate substrate.** Mass death, mass trauma, collective upheaval — these deposit densely into the Silt. The character of what's deposited shapes bloom conditions for whichever Sleeper's substrate they feed. A Sleeper that has been slowly accumulating feeds or starves depending on what history produces above it. The Architects were beginning to see this. The records are Lethe-damaged; how far along they were is unknown.
+
+**Named correlations:**
+
+*The Axial Age (approximately 800–200 BCE).* Confucius, the Buddha, Socrates, the Hebrew prophets, Zoroaster — emerging independently across cultures with no contact in the same window. The standard explanation is parallel social conditions. The substrate reading: a mild TSG gradient — not full dissolution but elevated. Mass spiritual seeking, the simultaneous pull toward something larger than the tribe. The philosophy is real. The Sleeper created the appetite for it.
+
+*The Black Death (1347–1351).* A third of Europe's population dead in five years. The largest single substrate deposition in recorded European history, and specifically an Ancestor deposition — the dead asserting in volume. What followed in the surviving culture: the *danse macabre*, two centuries of obsessive ancestor veneration that had no precedent in the period before. Historians explain it as trauma response. The substrate reading: the Ancestor's reservoir flooded, and the excess bled through.
+
+*The Renaissance (14th–17th centuries).* Hierarchy suddenly feeling arbitrary. New forms proliferating faster than existing frameworks can stabilize. The Trickster's accommodation record: the traditions that survived were not those that tried to suppress variation — the Inquisition's resistance ran hotter the harder it pushed — but those that found the instability a role in their cosmology. The pattern repeats at every scale: suppress variation and the suppression debt compounds.
+
+**Budapest as continuous example.** The city has been at the center of every major European convulsion since the Architects' active period. 1848 — the revolutions across Europe, the Architects still working, the substrate readings unusual in their records for reasons they noted without understanding. 1918 — the collapse of the Austro-Hungarian Empire depositing at the confluence. 1944–45 — one of the most sustained urban sieges of the war. 1956 — the revolution, 2,500 dead in days, 200,000 fled. Each event layering into the substrate beneath the city. The Budapest Silt is not merely dense. It is readable by period.
+
+**What Ren has built without knowing it.** Ren's correlation maps — the ones that are too clean to be noise — are proto-substrate historiography. She has been mapping surface-world events against Deep readings without a framework for what she is documenting. The correlation is real. The mechanism has been invisible. When the crew eventually gets the full picture, Ren's maps become explosive: she has already done years of work on a question she didn't know she was asking.
+
+**IO's realization — post-reintegration.** The feedback loop, fully understood, means substrate readings can forecast human behavior at scale. Not individual choices — aggregate drift. The direction of merger appetite in specific industries. Political vulnerability in certain populations. The shape of collective desperation before it becomes visible on the surface. This is the Mordaunt trade at civilizational scale: the family that monetized bloom timing would, with the full model, have a predictive instrument for the largest events in human history. IO would not frame the question of whether to use this as an ethical question. She would frame it as a strategic one. That is the more dangerous framing.

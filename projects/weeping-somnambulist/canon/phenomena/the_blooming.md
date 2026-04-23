@@ -26,6 +26,24 @@ The Architects knew something was coming. Whether they understood what it was is
 
 ---
 
+## II.B. Bloom Cycles as Ecological Events
+
+A blooming is not a catastrophe in the way a hurricane is a catastrophe. It is a cyclical ecological event in the way a wildfire is a cyclical ecological event — not evidence that something has gone wrong, but evidence that the system is following its own logic.
+
+**Fire return interval.** Wildfires in healthy ecosystems occur on a predictable timescale driven by fuel accumulation. When the interval is respected, each fire burns what has accumulated since the last one — hot enough to clear, not so hot as to destroy the substrate. Bloomings follow the same principle. The Architects' fragmentary records suggest a long interval: centuries, possibly longer. Not predictable by human timescales. But it has a pattern, and the pattern is biological, not random.
+
+**Fire suppression debt.** The most dangerous wildfires are not the ones that occur on schedule. They are the ones that occur after decades of active suppression — when the fuel load has built past what the natural cycle would have cleared. The 1887 Eye capture was fire suppression. The fragment held the cycle from completing. For 150 years, what would have bloomed built pressure instead. The current Blooming is running hotter than the underlying cycle would have produced because it is burning 150 years of accumulated fuel. This is not unusual in the system. It is exactly what fire suppression produces.
+
+**Serotiny.** Certain organisms have evolved lifecycle stages that require fire conditions to complete — seeds that only germinate in the heat of a burn, cones that only open in smoke. The Blooming may function as an activator for entities and capacities that cannot complete their lifecycle under normal substrate conditions. The Jumper may be serotinous: present in the substrate, dormant, requiring bloom conditions to become the thing it is. If so, the Jumper is not a product of this particular Blooming — it has been waiting for one.
+
+The same principle may apply to divers: certain inherited capacities, dormant under normal gradient, may require bloom-level pressure to activate. The crew may be demonstrating abilities during this Blooming that they cannot access outside it, without understanding why those capacities exist or what makes them temporary.
+
+**Each Sleeper blooms differently.** TSG blooms as unity-pull — the gradient toward dissolution, the connective current amplified. The Trickster, if it were to bloom, would produce something unrecognizable as a bloom in the TSG sense: proliferating variation, the dissolution of fixed forms, the Psychosphere becoming generative faster than its ecology can stabilize. Not a pull toward anything — an intensification of difference everywhere simultaneously. The surface symptoms would look nothing like what the city is currently experiencing. Diagnostic tools built for one Sleeper do not identify another.
+
+**Prescribed burns.** Whether any tradition ever attempted managed bloomings — small, controlled, deliberately provoked before the pressure built past the point of control — is unknown. The Architects' records suggest they understood the cycle existed. Whether they understood it well enough to attempt management is one of the questions inside the Eye.
+
+---
+
 ## III. The Mechanism
 
 A presence of this scale reorganizing itself changes the Psychosphere the way a new mass changes a gravitational field. It doesn't attack. It *orients*.

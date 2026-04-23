@@ -128,6 +128,16 @@ The watershed is healing but into a different shape than before — the way a ri
 
 Each sleeper, if it stirs, propagates through a different current — the one most resonant with its drive. TSG propagated through the connective current (boundary dissolution, the Mycelium's frequency). A different sleeper would disrupt a different current and produce different surface symptoms. Reading which current is disrupted tells you what you're dealing with before you go deep enough to feel it directly. This makes the Hum — Ren's passive ley line monitoring — the crew's early warning system for sleeper activity, not just a pre-dive navigation tool.
 
+### The Confluence as Global Receiver
+
+The Budapest confluence is not only an amplifier — it is a receiver. Ley lines carry material toward the confluence from everywhere they connect. A Sleeper stirring at a distant site propagates its gradient along the currents that flow toward Budapest the same way a disturbance upstream changes the water at the delta. The most significant confluence on the network is where the signal arrives most strongly.
+
+This means the crew is working at the most sensitive listening post on the Psychosphere's infrastructure. The anomalous readings Ren has been noting — the ones that don't match TSG's signature — are not local phenomena. They are signals from distant Sleeper sites, arriving via the lines, detectable at the confluence before they would be readable anywhere else on the surface.
+
+The implication runs two directions. The crew receives the earliest warning of anything moving in the Silt, anywhere. They also feel the gradient of a distant bloom first — not because it is reaching for Budapest specifically, but because Budapest is where everything flows through. That proximity cannot be left behind. Moving away from the confluence means losing the instrument.
+
+Post-reintegration, with TSG's bloom resolved and the local signal clearing, what the confluence receives from elsewhere will become audible for the first time. Ren's maps will begin showing readings she couldn't distinguish from TSG noise before. The cleanup will coincide with the discovery.
+
 ---
 
 ## VII. The Deep as Culture
