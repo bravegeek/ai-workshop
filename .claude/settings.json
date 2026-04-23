@@ -2,15 +2,6 @@
   "hooks": {
     "PostToolUse": [
       {
-        "matcher": "Edit|Write",
-        "hooks": [
-          {
-            "type": "command",
-            "command": "/home/greg/dev/ai-workshop/.claude/hooks/ingest-on-save.sh"
-          }
-        ]
-      },
-      {
         "matcher": "Task",
         "hooks": [
           {

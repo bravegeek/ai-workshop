@@ -56,12 +56,7 @@ Commands vary by project. Check each project's configuration files first:
 
 ## Search
 
-**ALWAYS query RAG before opening files.** When the user asks about content, characters, mechanics, or anything in the project, run `mcp__local-rag__query_documents` first. Only open specific files if RAG results are insufficient or you need the full file for editing.
-
-- Use `mcp__local-rag__query_documents` for any content question — character details, world mechanics, scene notes, todo items
-- Use `mcp__local-rag__ingest_file` if a file may not be indexed yet before querying
-- Fall back to Grep/Glob only for exact symbol lookup or file pattern matching
-- Never load a full file just to search it — query RAG first
+See global `~/.claude/CLAUDE.md` for search tool priority rules (RAG vs Grep vs Glob). Always query RAG first for content questions.
 
 ## Notes
 
