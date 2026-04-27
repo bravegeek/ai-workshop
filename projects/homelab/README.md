@@ -67,6 +67,17 @@ Complete the first-run wizard at `http://192.168.50.11:3000`, then follow the pr
 
 **If the script fails partway through**, fix the issue and re-run — all steps are idempotent.
 
+**To start over from scratch**, destroy the LXC and re-run:
+
+```bash
+ssh root@192.168.50.10 "pct stop 101 2>/dev/null; pct destroy 101"
+```
+
+**To run phase1**, in one line
+```bash
+cd ~/dev/ai-workshop/projects/homelab/scripts && ./phase1-dns.sh
+```
+
 **If you're on KDE/Plasma**, `ksshaskpass` may intercept SSH prompts and cause authentication failures. The scripts suppress this automatically via `SSH_ASKPASS_REQUIRE=never`. If you hit auth issues before the script has run, push your key to the LXC manually via Proxmox (no direct SSH needed):
 
 ```bash

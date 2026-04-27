@@ -21,27 +21,51 @@ ssh_lxc() {
 lxc_exists()  { ssh_proxmox pct status "$1" >/dev/null 2>&1; }
 lxc_running() { local s; s=$(ssh_proxmox pct status "$1" 2>/dev/null) && echo "$s" | grep -q running; }
 
-wait_for_lxc_network() {
-    local ip=$1
-    log "Waiting for LXC at ${ip} to come up..."
-    for i in $(seq 1 30); do
-        ping -c 1 -W 2 "${ip}" >/dev/null 2>&1 && return 0
+wait_for_lxc_running() {
+    local ctid=$1
+    log "Waiting for LXC ${ctid} to reach running state..."
+    for i in $(seq 1 10); do
+        local status
+        status=$(ssh_proxmox pct status "${ctid}" 2>/dev/null)
+        log "  LXC ${ctid} status: ${status:-unknown} (attempt ${i}/10)"
+        if echo "${status}" | grep -q "running"; then
+            return 0
+        fi
         sleep 2
     done
-    die "Timed out waiting for LXC ${ip}"
+    die "Timed out waiting for LXC ${ctid} — check: ssh ${PROXMOX_USER}@${PROXMOX_HOST} pct status ${ctid}"
 }
 
+
+clear_known_host() {
+    local ip=$1
+    ssh-keygen -f ~/.ssh/known_hosts -R "${ip}" >/dev/null 2>&1 || true
+}
 
 lxc_push_pubkey() {
     local ctid=$1
     local pubkey_file
-    pubkey_file=$(ls ~/.ssh/id_ed25519.pub ~/.ssh/id_rsa.pub 2>/dev/null | head -1)
+    for pubkey_file in ~/.ssh/id_ed25519.pub ~/.ssh/id_rsa.pub; do
+        [ -f "$pubkey_file" ] && break
+        pubkey_file=""
+    done
     [ -n "$pubkey_file" ] || die "No SSH public key found at ~/.ssh/id_ed25519.pub or ~/.ssh/id_rsa.pub"
 
     log "Pushing SSH key into LXC ${ctid}..."
     local proxmox_tmp="/tmp/pubkey_${ctid}.tmp"
     scp -q "${pubkey_file}" "${PROXMOX_USER}@${PROXMOX_HOST}:${proxmox_tmp}"
-    ssh_proxmox "pct push ${ctid} ${proxmox_tmp} /tmp/id.pub && pct exec ${ctid} -- sh -c 'mkdir -p /root/.ssh && chmod 700 /root/.ssh && cat /tmp/id.pub >> /root/.ssh/authorized_keys && chmod 600 /root/.ssh/authorized_keys && rm /tmp/id.pub' && rm -f ${proxmox_tmp}"
+    local pushed=0
+    for i in $(seq 1 15); do
+        log "  Waiting for LXC ${ctid} init (attempt ${i}/15)..."
+        if timeout 5 ssh -n -o ConnectTimeout=5 "${PROXMOX_USER}@${PROXMOX_HOST}" \
+            "pct push ${ctid} ${proxmox_tmp} /tmp/id.pub && pct exec ${ctid} -- sh -c 'mkdir -p /root/.ssh && chmod 700 /root/.ssh && cat /tmp/id.pub >> /root/.ssh/authorized_keys && chmod 600 /root/.ssh/authorized_keys && rm /tmp/id.pub' && rm -f ${proxmox_tmp}" \
+            2>/dev/null; then
+            pushed=1
+            break
+        fi
+        sleep 2
+    done
+    [ "${pushed}" -eq 1 ] || die "Timed out waiting for LXC ${ctid} init to accept pct exec"
     log "SSH key installed in LXC ${ctid}"
 }
 

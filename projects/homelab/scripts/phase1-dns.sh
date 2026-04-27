@@ -11,7 +11,7 @@ source "${SCRIPT_DIR}/config.sh"
 check_prereqs() {
     command -v ssh >/dev/null || die "ssh not found"
     command -v scp >/dev/null || die "scp not found"
-    ssh_proxmox true 2>/dev/null || die "Cannot SSH to Proxmox at ${PROXMOX_HOST} — check SSH key and host"
+    ssh_proxmox true || die "Cannot SSH to Proxmox at ${PROXMOX_HOST} — check SSH key and host"
 }
 
 create_lxc() {
@@ -43,7 +43,7 @@ start_lxc() {
         return
     fi
     log "Starting LXC ${DNS_CTID}..."
-    ssh_proxmox "nohup pct start ${DNS_CTID} </dev/null >/dev/null 2>&1 &"
+    ssh_proxmox pct start "${DNS_CTID}"
 }
 
 install_adguard() {
@@ -52,6 +52,7 @@ install_adguard() {
     else
         log "Installing AdGuard Home (this takes a few minutes)..."
         ssh_lxc "${ADGUARD_IP}" bash -s << 'EOF'
+            set -euo pipefail
             export DEBIAN_FRONTEND=noninteractive
             apt-get update -qq && apt-get install -y -qq curl ca-certificates python3
 
@@ -93,7 +94,8 @@ main() {
     check_prereqs
     create_lxc
     start_lxc
-    wait_for_lxc_network "${ADGUARD_IP}"
+    wait_for_lxc_running "${DNS_CTID}"
+    clear_known_host "${ADGUARD_IP}"
     lxc_push_pubkey "$DNS_CTID"
     wait_for_ssh "${ADGUARD_IP}"
     install_adguard
