@@ -1,0 +1,53 @@
+# Secrets and credentials
+*.env
+.env.*
+secrets/
+vault_pass*
+*_vault_password*
+*.vault
+*.secret
+
+# Ansible sensitive files
+inventory/hosts
+inventory/production
+inventory/staging
+group_vars/all/vault.yml
+host_vars/*/vault.yml
+
+# Terraform state (contains secrets)
+*.tfstate
+*.tfstate.*
+.terraform/
+*.tfvars
+!*.tfvars.example
+
+# SSH keys
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+known_hosts
+
+# Kubernetes secrets
+*-secret.yaml
+*-secret.yml
+
+# Credentials files
+credentials.yml
+credentials.yaml
+passwords.yml
+passwords.yaml
+
+
+# Scripts config with real values
+scripts/config.sh
+
+# Config with real values (commit *.example versions instead)
+config.yml
+config.yaml
+vars.yml
+vars.yaml
+hosts.yml
+hosts.yaml
+inventory.yml
+inventory.yaml

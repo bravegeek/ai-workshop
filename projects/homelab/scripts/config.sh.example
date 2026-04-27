@@ -1,0 +1,29 @@
+#!/bin/bash
+# Copy to config.sh and fill in real values. config.sh is gitignored.
+
+# Proxmox host
+PROXMOX_HOST="192.168.50.10"
+PROXMOX_USER="root"
+
+# Network — check your router for the gateway
+GATEWAY="192.168.50.1"
+LXC_BRIDGE="vmbr0"
+
+# Proxmox storage pool name — check with: pvesm status
+LXC_STORAGE="local-lvm"
+
+# LXC container IDs — must be unique integers, 100+
+DNS_CTID=101
+CADDY_CTID=103
+
+# LXC IPs
+ADGUARD_IP="192.168.50.11"
+CADDY_IP="192.168.50.13"
+TRUENAS_IP="192.168.50.12"
+
+# Domain
+DOMAIN="jax.bravegeek.com"
+BASE_DOMAIN="bravegeek.com"
+
+# AWS
+AWS_REGION="us-east-1"
