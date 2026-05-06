@@ -9,8 +9,9 @@ source "${SCRIPT_DIR}/lib.sh"
 source "${SCRIPT_DIR}/config.sh"
 
 check_prereqs() {
-    command -v ssh >/dev/null || die "ssh not found"
-    command -v scp >/dev/null || die "scp not found"
+    command -v ssh  >/dev/null || die "ssh not found"
+    command -v scp  >/dev/null || die "scp not found"
+    command -v curl >/dev/null || die "curl not found"
     ssh_proxmox true || die "Cannot SSH to Proxmox at ${PROXMOX_HOST} — check SSH key and host"
 }
 
@@ -25,16 +26,24 @@ create_lxc() {
     template=$(find_debian12_template)
     [ -n "$template" ] || die "Debian 12 template not found after download attempt"
 
+    local pubkey_remote
+    pubkey_remote=$(stage_pubkey_on_proxmox "${DNS_CTID}")
+
     log "Creating AdGuard Home LXC (CTID: ${DNS_CTID}, IP: ${ADGUARD_IP})..."
     ssh_proxmox pct create "${DNS_CTID}" "${template}" \
         --hostname adguard \
+        --ostype debian \
         --memory 512 \
+        --swap 512 \
         --cores 1 \
         --net0 "name=eth0,bridge=${LXC_BRIDGE},ip=${ADGUARD_IP}/24,gw=${GATEWAY}" \
         --storage "${LXC_STORAGE}" \
         --rootfs "${LXC_STORAGE}:4" \
         --unprivileged 1 \
-        --features nesting=1
+        --features keyctl=1,nesting=1 \
+        --ssh-public-keys "${pubkey_remote}" \
+        --onboot 1
+    ssh_proxmox rm -f "${pubkey_remote}"
 }
 
 start_lxc() {
@@ -72,22 +81,76 @@ EOF
     fi
 }
 
+configure_adguard() {
+    local wizard_base="http://${ADGUARD_IP}:3000"   # wizard only listens on 3000
+    local base="http://${ADGUARD_IP}:80"            # post-setup web UI port
+    local auth="${ADGUARD_USER}:${ADGUARD_PASSWORD}"
+
+    # /control/install/get_addresses is only present during wizard mode
+    if curl -sf "${wizard_base}/control/install/get_addresses" >/dev/null 2>&1; then
+        log "Running AdGuard Home initial setup..."
+
+        # Autofix any port conflicts before configuring
+        curl -sf -X POST "${wizard_base}/control/install/check_config" \
+            -H "Content-Type: application/json" \
+            -d '{"web":{"port":80,"ip":"0.0.0.0"},"dns":{"port":53,"ip":"0.0.0.0","autofix":true}}' \
+            >/dev/null 2>&1 || true
+
+        local resp
+        resp=$(curl -s -o /tmp/adguard_configure_resp.txt -w "%{http_code}" \
+            -X POST "${wizard_base}/control/install/configure" \
+            -H "Content-Type: application/json" \
+            -d "{\"web\":{\"ip\":\"0.0.0.0\",\"port\":80},\"dns\":{\"ip\":\"0.0.0.0\",\"port\":53},\"username\":\"${ADGUARD_USER}\",\"password\":\"${ADGUARD_PASSWORD}\"}")
+        [ "${resp}" = "200" ] || die "AdGuard Home initial setup failed (HTTP ${resp}): $(cat /tmp/adguard_configure_resp.txt)"
+        rm -f /tmp/adguard_configure_resp.txt
+
+        # AdGuard restarts on port 80 after configure — wait for it
+        wait_for_http "${base}"
+    else
+        log "AdGuard Home wizard already completed"
+    fi
+
+    log "Configuring upstream DNS..."
+    curl -sf -X POST "${base}/control/dns_config" \
+        -u "${auth}" \
+        -H "Content-Type: application/json" \
+        -d '{"upstream_dns":["https://dns.cloudflare.com/dns-query","https://dns.google/dns-query"],"bootstrap_dns":["9.9.9.10","149.112.112.10"],"upstream_mode":"parallel"}' \
+        || die "Failed to configure upstream DNS"
+
+    log "Adding DNS rewrites..."
+    local rewrites
+    rewrites=$(curl -sf "${base}/control/rewrite/list" -u "${auth}" 2>/dev/null || echo "[]")
+
+    _rewrite_add() {
+        local d=$1 a=$2
+        if echo "${rewrites}" | grep -q "\"${d}\""; then
+            log "  Already exists: ${d}"; return
+        fi
+        curl -sf -X POST "${base}/control/rewrite/add" \
+            -u "${auth}" \
+            -H "Content-Type: application/json" \
+            -d "{\"domain\":\"${d}\",\"answer\":\"${a}\"}" \
+            || die "Failed to add DNS rewrite ${d} → ${a}"
+        log "  Added: ${d} → ${a}"
+    }
+
+    _rewrite_add "proxmox.${DOMAIN}" "${PROXMOX_HOST}"
+    _rewrite_add "dns.${DOMAIN}"     "${ADGUARD_IP}"
+    _rewrite_add "truenas.${DOMAIN}" "${TRUENAS_IP}"
+    _rewrite_add "proxy.${DOMAIN}"   "${CADDY_IP}"
+}
+
 print_next_steps() {
     log "Done."
     echo ""
-    echo "  Complete initial setup: http://${ADGUARD_IP}:3000"
+    echo "  AdGuard Home is configured and running."
+    echo "  Web UI: http://${ADGUARD_IP}  (user: ${ADGUARD_USER})"
     echo ""
-    echo "  After setup, add DNS rewrites (Settings → DNS rewrites):"
-    echo "    proxmox.${DOMAIN}  →  ${PROXMOX_HOST}"
-    echo "    dns.${DOMAIN}      →  ${ADGUARD_IP}"
-    echo "    truenas.${DOMAIN}  →  ${TRUENAS_IP}"
-    echo "    proxy.${DOMAIN}    →  ${CADDY_IP}"
+    echo "  One manual step — point your router's DHCP DNS to ${ADGUARD_IP}:"
+    echo "    RT-AX86U Pro: LAN → DHCP Server → DNS Server 1"
     echo ""
-    echo "  Set upstream DNS (Settings → DNS settings → Upstream DNS):"
-    echo "    https://dns.cloudflare.com/dns-query"
-    echo "    https://dns.google/dns-query"
-    echo ""
-    echo "  Then point your router DHCP DNS to ${ADGUARD_IP}."
+    echo "  Then verify from a LAN client:"
+    echo "    dig proxmox.${DOMAIN} @${ADGUARD_IP} +short"
 }
 
 main() {
@@ -96,9 +159,10 @@ main() {
     start_lxc
     wait_for_lxc_running "${DNS_CTID}"
     clear_known_host "${ADGUARD_IP}"
-    lxc_push_pubkey "$DNS_CTID"
     wait_for_ssh "${ADGUARD_IP}"
     install_adguard
+    wait_for_http "http://${ADGUARD_IP}:3000"   # wizard port — configure_adguard handles the port 80 wait
+    configure_adguard
     print_next_steps
 }
 

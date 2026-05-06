@@ -53,17 +53,45 @@ The scripts need permissions to create IAM users and policies, and to list Route
 ```bash
 cd scripts
 cp config.sh.example config.sh
-# edit config.sh — all values should match what's established in docs/homelab-plan.md
+# edit config.sh — set all IPs, domain, and ADGUARD_USER/ADGUARD_PASSWORD
 ./phase1-dns.sh
 ```
 
-The script:
+The script does everything end-to-end:
 1. Downloads a Debian 12 LXC template if not already present
 2. Creates and starts the AdGuard Home LXC at `192.168.50.11`
-3. Installs AdGuard Home and starts the service
-4. Prints the DNS rewrites and upstream servers to configure
+3. Installs AdGuard Home
+4. Configures AdGuard via API: completes the setup wizard, sets upstream DNS (Cloudflare DoH + Google DoH), and adds all local DNS rewrites
 
-Complete the first-run wizard at `http://192.168.50.11:3000`, then follow the printed instructions.
+After the script completes, one manual step remains:
+
+1. **Point your router's DHCP DNS** to `192.168.50.11` (RT-AX86U Pro: LAN → DHCP Server → DNS Server 1)
+
+2. **Verify** DNS is working from a LAN client:
+
+   ```bash
+   # Should return 192.168.50.10 — confirms AdGuard rewrites are working
+   dig proxmox.jax.bravegeek.com @192.168.50.11 +short
+
+   # Should return 192.168.50.10 — do this after step 1 (router DNS update)
+   dig proxmox.jax.bravegeek.com +short
+
+   # Should return nothing — internal names must not exist in public DNS
+   dig proxmox.jax.bravegeek.com @1.1.1.1 +short
+   ```
+
+   If step 2 returns nothing after updating the router, flush your local DNS cache:
+   ```bash
+   resolvectl flush-caches   # systemd-resolved
+   ```
+
+**If you were previously running Pi-hole (LXC 100)**, stop it before running this script — both can't hold `192.168.50.11`:
+
+```bash
+ssh root@192.168.50.10 "pct stop 100 && pct set 100 --onboot 0"
+```
+
+The Pi-hole LXC is left in place in case you need to roll back — just stop AdGuard and start Pi-hole.
 
 **If the script fails partway through**, fix the issue and re-run — all steps are idempotent.
 
@@ -73,19 +101,12 @@ Complete the first-run wizard at `http://192.168.50.11:3000`, then follow the pr
 ssh root@192.168.50.10 "pct stop 101 2>/dev/null; pct destroy 101"
 ```
 
-**To run phase1**, in one line
+**To run phase1 in one line:**
 ```bash
 cd ~/dev/ai-workshop/projects/homelab/scripts && ./phase1-dns.sh
 ```
 
-**If you're on KDE/Plasma**, `ksshaskpass` may intercept SSH prompts and cause authentication failures. The scripts suppress this automatically via `SSH_ASKPASS_REQUIRE=never`. If you hit auth issues before the script has run, push your key to the LXC manually via Proxmox (no direct SSH needed):
-
-```bash
-cat ~/.ssh/id_ed25519.pub | ssh root@192.168.50.10 \
-  "pct exec 101 -- bash -c 'mkdir -p /root/.ssh && chmod 700 /root/.ssh && cat >> /root/.ssh/authorized_keys && chmod 600 /root/.ssh/authorized_keys'"
-```
-
-Then re-run the script.
+**If you're on KDE/Plasma**, `ksshaskpass` may intercept SSH prompts and cause authentication failures. The scripts suppress this automatically via `SSH_ASKPASS_REQUIRE=never`.
 
 ---
 
@@ -122,7 +143,7 @@ See `docs/homelab-plan.md`. Not scripted yet.
 | Hostname | Backend |
 |---|---|
 | `proxmox.jax.bravegeek.com` | Proxmox UI (`:8006`) |
-| `dns.jax.bravegeek.com` | AdGuard Home (`:3000`) |
+| `dns.jax.bravegeek.com` | AdGuard Home (`:80`) |
 | `truenas.jax.bravegeek.com` | TrueNAS (temporary) |
 
 All traffic goes through Caddy. Proxmox uses a self-signed cert internally — Caddy proxies it with `tls_insecure_skip_verify` on the upstream connection (LAN only).

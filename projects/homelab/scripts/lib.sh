@@ -42,7 +42,10 @@ clear_known_host() {
     ssh-keygen -f ~/.ssh/known_hosts -R "${ip}" >/dev/null 2>&1 || true
 }
 
-lxc_push_pubkey() {
+# Copies the local SSH public key to a temp path on the Proxmox host and prints
+# that path. Pass the printed path to `pct create --ssh-public-keys`; clean it
+# up afterward with `ssh_proxmox rm -f <path>`.
+stage_pubkey_on_proxmox() {
     local ctid=$1
     local pubkey_file
     for pubkey_file in ~/.ssh/id_ed25519.pub ~/.ssh/id_rsa.pub; do
@@ -50,23 +53,19 @@ lxc_push_pubkey() {
         pubkey_file=""
     done
     [ -n "$pubkey_file" ] || die "No SSH public key found at ~/.ssh/id_ed25519.pub or ~/.ssh/id_rsa.pub"
+    local remote_path="/tmp/pubkey_${ctid}.tmp"
+    scp -q "${pubkey_file}" "${PROXMOX_USER}@${PROXMOX_HOST}:${remote_path}"
+    echo "${remote_path}"
+}
 
-    log "Pushing SSH key into LXC ${ctid}..."
-    local proxmox_tmp="/tmp/pubkey_${ctid}.tmp"
-    scp -q "${pubkey_file}" "${PROXMOX_USER}@${PROXMOX_HOST}:${proxmox_tmp}"
-    local pushed=0
-    for i in $(seq 1 15); do
-        log "  Waiting for LXC ${ctid} init (attempt ${i}/15)..."
-        if timeout 5 ssh -n -o ConnectTimeout=5 "${PROXMOX_USER}@${PROXMOX_HOST}" \
-            "pct push ${ctid} ${proxmox_tmp} /tmp/id.pub && pct exec ${ctid} -- sh -c 'mkdir -p /root/.ssh && chmod 700 /root/.ssh && cat /tmp/id.pub >> /root/.ssh/authorized_keys && chmod 600 /root/.ssh/authorized_keys && rm /tmp/id.pub' && rm -f ${proxmox_tmp}" \
-            2>/dev/null; then
-            pushed=1
-            break
-        fi
-        sleep 2
+wait_for_http() {
+    local url=$1
+    log "Waiting for HTTP on ${url}..."
+    for i in $(seq 1 20); do
+        curl -sf "${url}" >/dev/null 2>&1 && return 0
+        sleep 3
     done
-    [ "${pushed}" -eq 1 ] || die "Timed out waiting for LXC ${ctid} init to accept pct exec"
-    log "SSH key installed in LXC ${ctid}"
+    die "Timed out waiting for HTTP on ${url}"
 }
 
 wait_for_ssh() {

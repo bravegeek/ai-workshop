@@ -21,6 +21,10 @@ ADGUARD_IP="192.168.50.11"
 CADDY_IP="192.168.50.13"
 TRUENAS_IP="192.168.50.12"
 
+# AdGuard Home admin credentials (used by phase1-dns.sh to configure AdGuard via API)
+ADGUARD_USER="admin"
+ADGUARD_PASSWORD=""  # set your AdGuard admin password here
+
 # Domain
 DOMAIN="jax.bravegeek.com"
 BASE_DOMAIN="bravegeek.com"
