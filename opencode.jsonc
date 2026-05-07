@@ -1,0 +1,52 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "local-rag": {
+      "type": "local",
+      "command": [
+        "npx",
+        "-y",
+        "mcp-local-rag"
+      ],
+      "environment": {
+        "BASE_DIR": "/home/greg/dev"
+      }
+    },
+    "github": {
+      "type": "local",
+      "command": [
+        "npx",
+        "-y",
+        "@modelcontextprotocol/server-github"
+      ]
+    },
+    "context7": {
+      "type": "local",
+      "command": [
+        "npx",
+        "-y",
+        "@upstash/context7-mcp@latest"
+      ]
+    },
+    "playwright": {
+      "type": "local",
+      "command": [
+        "npx",
+        "@playwright/mcp@latest"
+      ]
+    }
+  },
+  "model": "openrouter/deepseek/deepseek-v4-pro",
+  "provider": {
+    "openrouter": {
+      "models": {
+        "deepseek/deepseek-v4-pro": {},
+        "deepseek/deepseek-v4-flash": {},
+        "deepseek/deepseek-r1": {},
+        "nousresearch/hermes-4-405b": {},
+        "qwen/qwen3-coder-480b-a35b": {},
+        "z-ai/glm-5.1": {}
+      }
+    }
+  }
+}
