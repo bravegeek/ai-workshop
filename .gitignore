@@ -57,3 +57,6 @@ bin/
 .codex/
 lancedb/
 models/
+
+# Session artifacts (ephemeral brainstorming sessions)
+sessions/*/
