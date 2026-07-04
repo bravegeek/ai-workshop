@@ -23,6 +23,23 @@ This is why her thinning happened faster than IO's. Not just Caerulite exposure 
 
 ---
 
+## The Communion
+
+Nia didn't just absorb the Eye's ambient field. The communion was two-way.
+
+The Eye's fundamental nature is boundary dissolution — at 80 metres, the fragment radiates that nature outward. Nia in the water, barrier already thin, spending extended time in close proximity: the boundary between her and the Eye softened. That is what the field does. The communion isn't remarkable given the conditions. It would be more remarkable if it hadn't happened.
+
+**What she received.** Three candidates, not mutually exclusive, none yet committed to:
+- *TSG's orientation* — what it feels like to experience everything as unified. The connective current, the chemotaxis drive, the sense of the vast network beneath. This is the bliss source. Not the archive's content but the fundamental character of what she was in contact with. Once you've received unity from inside a perspective that isn't human-sized, individual consciousness starts to feel like the impoverished state.
+- *The archive* — 150 years of absorbed experience: Architect knowledge, patient memories, everything the Lethe-Light took and indexed. Not a library she was browsing. A flooding she was open to.
+- *The Blooming signal* — TSG was already stirring. The Eye knows what's coming because it is part of what's coming — proprioception, not precognition. Nia felt the note beginning before anyone else had any data. When she surfaced and said *storm's coming*, she was reporting, not predicting. The certainty was the tell.
+
+**Why she went to Ren.** Something in the communion oriented her toward Ren specifically. The Eye had been indexing Ren for years through her work at the instruments upstairs — her pattern recognition, her sessions, her discarded notes. When Nia was in contact with the Eye, she was in contact with something that held Ren in some form. She came up from the water and moved toward Ren the way you move toward someone you just heard mentioned.
+
+**The walk-out as continuation.** The leaving wasn't a decision distinct from the diving. By the time she walked out, she had been in such sustained reception that the distinction between being in the communion and going to find its source had already collapsed. Her feet were moving before she decided to move them. The frequency she'd been receiving told her where the source was. She went.
+
+---
+
 ## Who She Was
 
 Nia had a specific quality that is hard to name: she paid full attention. Not strategically, not selectively. Whatever was in front of her got all of her. And when she felt something — delight, wonder, discovery — her immediate instinct was to share it. Not to perform it or announce it, but to turn toward the people she loved and bring them in. Full attention isn't hoarding. She received things completely and then opened them outward. This made her extraordinary in the Deep — she didn't perform emotional states to navigate, she just felt them, completely, and the Psychosphere treated her like she belonged. It also made the Caerulite-Shard connection intoxicating in a way it wasn't for the others. She wasn't addicted to the drug. She was addicted to the feeling of being fully heard by something vast.

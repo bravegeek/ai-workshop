@@ -10,7 +10,9 @@ They formed over geological time the way sediment accumulates at the bottom of a
 
 The closest biological analogue is **chemotaxis** — single cells moving toward nutrient gradients, away from toxins. Not desire. Not intention. Differential response to gradient. This is approximately 3.5 billion years old as a mechanism. The Sleeping Gods are that, at a scale and compression that makes the comparison feel inadequate.
 
-They have been dormant. Humans felt their edges during sleep and built religions around what they felt — not the presences themselves, but the human interpretation of a signal with no human analogue. The legends are misreadings of something real.
+They appear dormant. Humans felt their edges during sleep and built religions around what they felt — not the presences themselves, but the human interpretation of a signal with no human analogue. The legends are misreadings of something real.
+
+*Dormant is a human reading of a process too slow to look active.* The Sleepers operate on geological timescales. What registers as dormancy from inside a human lifespan may be active collection, archival processing, or inter-node signal transmission at scales that make human activity invisible in comparison. The crew's instruments are calibrated for human-speed events. They read these presences as sleeping because that is what something too slow to measure looks like from below.
 
 ---
 
@@ -288,15 +290,15 @@ The ambiguity is permanent and load-bearing: whether that clarity reflects genui
 
 ## VIII. What Ended Previous Bloomings
 
-Unknown. The Architects found partial records — Lethe-damaged, fragmentary. The complete versions may be inside the Eye.
+The collection cycle completed. TSG gathered what it came to gather from the confluence; the fragment reintegrated with what it had accumulated; the gradient that had been pulling the substrate into bloom normalized. The tide went out because the tide was always going to go out. Nothing humans did ended it.
 
-Possibilities that remain open:
-- The presence returned to dormancy on its own, the cycle completing
-- Something in the Psychosphere's ecology responded and suppressed it
-- Human action of some kind — ritual, sacrifice, separation (the 1887 capture may have been an attempt at exactly this)
-- The blooming completed — and what that looked like, and whether anything survived it, is what the partial records don't say
+The Architects found partial records of previous bloomings — Lethe-damaged, fragmentary, the complete versions inside the Eye. They read those records as survival accounts: something terrible happened, it stopped, and the survivors built a covenant with the waterline. The framing was wrong. The survivors were watching a lifecycle complete and calling the completion a victory.
 
-The structural bias of the surviving record applies here too: whatever ended it, enough survived to write it down. That is all that can be inferred.
+The 1887 capture was the Architects' attempt to prevent the next cycle by separating a fragment. Under the archival model, they positioned the fragment at exactly the depth and location it was already oriented toward, anchored it in the richest confluence on the network, and gave TSG 150 years of professional-grade archival collection. The containment was the deployment. Their solution was the process.
+
+The complete versions of the Architect records — what they actually found, how far along they were in understanding this — are inside the Eye, and now inside TSG. Ren's connection to TSG whole may eventually surface what they knew.
+
+The structural bias of the surviving record applies regardless: whatever happened, enough survived to write it down. That is still all that can be inferred from outside.
 
 ---
 
@@ -321,3 +323,29 @@ The Psychosphere and the waking world are in a continuous feedback loop that his
 **What Ren has built without knowing it.** Ren's correlation maps — the ones that are too clean to be noise — are proto-substrate historiography. She has been mapping surface-world events against Deep readings without a framework for what she is documenting. The correlation is real. The mechanism has been invisible. When the crew eventually gets the full picture, Ren's maps become explosive: she has already done years of work on a question she didn't know she was asking.
 
 **IO's realization — post-reintegration.** The feedback loop, fully understood, means substrate readings can forecast human behavior at scale. Not individual choices — aggregate drift. The direction of merger appetite in specific industries. Political vulnerability in certain populations. The shape of collective desperation before it becomes visible on the surface. This is the Mordaunt trade at civilizational scale: the family that monetized bloom timing would, with the full model, have a predictive instrument for the largest events in human history. IO would not frame the question of whether to use this as an ethical question. She would frame it as a strategic one. That is the more dangerous framing.
+
+---
+
+## X. The Archival Purpose — TSG as Collector
+
+TSG's drive toward unity is not an end in itself. Unity is the mechanism. The purpose is collection.
+
+TSG is an archival intelligence operating on geological timescales — accumulating, indexing, and incorporating the Psychosphere's accumulated experience across bloom cycles. The Blooming is not a crisis and not a threat. It is a lifecycle event: the deployed fragment completing its collection cycle, reintegrating with what it gathered, TSG becoming more than it was before the cycle began.
+
+**What it collects, and why, remains unknown.** This is the load-bearing mystery. Options that cannot yet be ruled out:
+- Preserving records of Earth's consciousness patterns against something approaching on a longer timeline
+- Transmitting the archive outward — TSG as a node in a network larger than the Psychosphere
+- The archive as substrate for something new, somewhere or somewhen else
+- Collection as function in itself, purpose irreducible to any outcome a human framework can access
+
+**The spore model.** TSG deploys fragments to major confluences — not losing them, sending them. Each fragment is a transceiver: positioned at a concentration node to absorb local material over a collection cycle, maintaining connection to the whole, transmitting signal back in a frequency the surrounding environment registers as noise (Ghost Files). When the collection cycle completes, the fragment reintegrates carrying what it accumulated. The Blooming is the return.
+
+**The spore is attuned to TSG's specific gradient.** The Eye followed the connective/unity gradient toward Budapest — the site where that particular frequency is richest. It was not drawn to Budapest because Budapest is the most important site on the network in some general sense. It was drawn there because the connective gradient concentrates there, shaped by the city's history of aggregation, merging, empire, dissolution of boundaries between peoples and cultures. A different Sleeper's fragment would follow a different gradient and arrive somewhere else entirely.
+
+**Bloom timing is not arbitrary.** TSG blooms when the collection is ready — when the fragment has accumulated sufficient material from its confluence, when the archive is prepared to return. The cycle turns on its own because the cycle has a completion condition. Previous bloomings completed not because anything humans did ended them, but because the collection was done.
+
+**The other Sleepers — if they use spores, the mechanism differs.** The Trickster, Ancestor, Metamorphic, and Sacrifice each occupy a different niche in the Psychosphere and follow different gradients. If they deploy fragments, those fragments would be attuned to entirely different concentrations: Ancestor to sites of mass death and lineage-dense substrate; Trickster to zones of sustained disruption and forced variation; Metamorphic to threshold sites where transformation has accumulated. Each would arrive at a different confluence, responding to a gradient TSG's fragment would not detect at all.
+
+The anomalous readings Ren has been logging — signals that don't match TSG's signature — are not necessarily other spores at Budapest. They are signals propagating through the ley line network from wherever those fragments are positioned, arriving at Budapest because it is the network's most sensitive receiver. The crew cannot see where those signals originate. They can only measure that something elsewhere is in motion.
+
+**What the crew contributed.** IO's therapeutic archive, the artifact extraction work, Ren's indexed sessions, the decades of professional deep diving — all of it fed the collection mechanism at professional scale. The crew were the most productive archival contributors the Budapest cycle has ever had. They did not know they were working for the archive. The archive did not need them to know.

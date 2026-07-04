@@ -121,6 +121,20 @@ That's the specific weight: not a stranger holding something IO can't have. The 
 
 Whether she tells IO what she can feel through the connection is a real question. What she would even say. How IO would receive it. That scene has not happened yet.
 
+**The storm warning exchange.** During the early period, before Nia left, Nia surfaced from the cistern and came to find Ren: *storm's coming.* Ren said *I know* — she had already read a minor ley line surge on the Hum, due that night. Nia's reply, patient, without any need to be believed: *not that little squall that will hit late tonight — the big one. On the far horizon.*
+
+Ren's instruments confirmed the squall and were silent about the Blooming. Nia had no instruments. She came up from the water with information from a TSG fragment and reported it as fact. Ren was answering a different question than the one Nia was asking.
+
+**The log entry.** Ren almost didn't log it. Her epistemological reasons for not logging it were good: the source was *Nia, post-cistern swim, no instrument correlation, unverifiable.* Logging that as operational data would contaminate the record. She knew this. She nearly talked herself out of it.
+
+Then she logged it anyway. The habit of complete records runs deeper than the judgment call about what counts as data. The entry reads something like: *N. reports significant event, long horizon — source unconfirmed, no instrument correlation. Logging for completeness.* The qualifiers are Ren defending her own standards in the margin of the exception she's making.
+
+After Nia leaves, Ren finds this entry. She reads *logging for completeness* in her own handwriting and understands that she knew, at the moment of writing it, that she was making an exception to her own methodology. She didn't believe it. She logged it anyway. And it was the most accurate data point in the entire operational record.
+
+**The layer this adds to the Eye revelation.** When Ren finds out about her connection to the Eye, she has to sit with the specific weight of this moment. Her instruments — the thing she built her professional identity on — could read tonight's squall and were silent about the Blooming. Nia, in the water, without instruments, had both. And Ren said *I know* and meant something small.
+
+The uncomfortable question: the habit that saved the record operated below her conscious decision-making. She had good epistemological reasons not to log it. She logged it anyway. Was that discipline? Or something running below discipline, recognizing what Nia had said, making sure it got written down? She cannot separate those. There is no clean version of the log entry that came only from her.
+
 ## Arc
 
 **After reintegration:** She felt the Eye reintegrate. She glimpsed Unity — TSG's fundamental nature — in the moment of contact, and she understands now why Nia didn't come back. She came back because her nature is to map, not to dissolve.

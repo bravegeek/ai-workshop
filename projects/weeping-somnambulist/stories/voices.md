@@ -19,17 +19,25 @@ The voice is associative — one thought leads to the next by loose connection. 
 **IO and Nia — the cistern exchange (developed, not yet written):**
 IO arrives to find Nia free diving in the cistern, alone, again. The Caerulite glow unsettles her (*Cherenkov radiation and the swamp thing's aura had a love child they left in the gutter and it pooled down here*). Nia coming up. IO thinking: *she's a natural at this, all of this, like it was built for her.* The commentary slows. *There she is.* One last wry deflection — *she better not splash me, this is dry clean only* — and then: *wow, she looks excited.*
 
-Nia surfaces: *"Storms coming!"*
+Nia surfaces: *"Storm's coming."* Not alarmed. Certain.
 IO recalibrates (*clear skies all week — wait, in the Psychosphere?*), deflects with the Giggle/dream crystals joke, asks: *"When?"*
 Nia grins: *"That's the best part, it's almost here. Let's go tell Ren!"*
 IO offers her a hand up. *"Don't get me wet, Little Fish."*
+
+**The Ren beat (same scene, continues):**
+They find Ren. Nia: *"Storm's coming."*
+Ren, not looking up from the instruments: *"I know."* She's already read the minor surge on the Hum. Due tonight.
+Nia, patient, without any need to be believed: *"Not that little squall that will hit late tonight. The big one. On the far horizon."*
+The exchange ends there. Ren's instruments confirmed the squall. They were silent about the Blooming.
 
 **What the scene establishes:**
 - IO's monologue goes quiet when Nia surfaces. *Wow* is the moment the register changes — simpler, the defenses briefly not up.
 - *Like it was built for her* — IO says this without hearing it. It was.
 - *Little Fish* — IO's private name for Nia, predating any crew epithet. The warmth arrives inside the deflection.
-- Nia's inclusivity: she feels something delightful and immediately wants to share it. *Let's go tell Ren* — not performance, just the natural next thing. She receives experience completely and opens it outward.
-- The memory ends mid-gesture — IO reaching down, before Nia takes the hand. Still reaching.
+- Nia's register in the Ren beat: no frustration, no performance, no need for Ren to validate what she received. She reports it the same way she'd report weather she walked through. The patience is total.
+- Ren's *I know* is not arrogance — she's right about the squall. The instruments are right. The tragedy is scale: she was answering the wrong question.
+- IO is present for both halves and understands neither. She files it as Nia being Nia.
+- The memory ends mid-gesture — IO reaching down in the cistern, before Nia takes the hand. Still reaching. The Ren beat may or may not surface with it — the defended core is the cistern, the commentary going quiet, *there she is.*
 
 **IO — present-tense Eye Protocol session, after the memory surfaces:**
 The mission framing reasserts, then cracks. *We were like Peter and Wendy in Neverland, always exploring, looking for the next adventure. When we found this, we were kids again. Nia was so good at it, a complete natural. I'll get her back. Right after I figure out where she is.*

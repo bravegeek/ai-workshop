@@ -169,7 +169,13 @@ IO uses the Eye Protocol on herself — a practice she's developed to manage gri
 
 **Why it's too complete to hold:** IO's internal monologue runs constantly — wry, associative, practical. It stops when she finds Nia. Joy can't be converted into a mission. She archived the moment the commentary went quiet.
 
-**The cistern exchange (developed):** Nia was free diving, alone, again. IO arrives, monologue running (Caerulite glow unsettling, safety rules, *like it was built for her*). Nia surfaces: *"Storms coming!"* IO recalibrates, deflects with humor, asks *"When?"* Nia grins: *"That's the best part, it's almost here. Let's go tell Ren!"* IO offers a hand up. *"Don't get me wet, Little Fish."* Memory ends mid-gesture, before Nia takes the hand.
+**The cistern exchange (developed):** Nia was free diving, alone, again. IO arrives, monologue running (Caerulite glow unsettling, safety rules, *like it was built for her*). Nia surfaces: *"Storm's coming."* Not alarmed — certain. IO recalibrates, deflects with humor, asks *"When?"* Nia grins: *"That's the best part, it's almost here. Let's go tell Ren!"* IO offers a hand up. *"Don't get me wet, Little Fish."* They go find Ren.
+
+**The Ren beat (same scene, continues):** Nia tells Ren: *storm's coming.* Ren says *I know* — she's already read a minor ley line surge on the Hum, due that night. Nia's reply, patient, without any need to be believed: *not that little squall that will hit late tonight — the big one. On the far horizon.* Ren's instruments confirmed the squall and were silent about the Blooming. Nia had no instruments — she had the Eye at 80 metres. IO is present for this exchange and files it without framework.
+
+**What Ren does after:** Second-guesses logging it (the source is unverifiable, logging it would contaminate the record), then logs it anyway out of habit. The entry reads: *N. reports significant event, long horizon — source unconfirmed, no instrument correlation. Logging for completeness.* The most accurate data point in the operational record, filed under an apology.
+
+**Memory ends:** Mid-gesture in the cistern, before Nia takes IO's hand. Still reaching. The Ren beat may or may not be part of what IO surfaces — it happened in the same hour, but the defended core is the cistern moment, the commentary going quiet, *there she is.*
 
 **Ending:** Left open deliberately. The reader doesn't yet know what the Eye Protocol does. They've just met IO and Nia in a warm, alive moment. The scene ends without resolving whether IO holds the memory or lets it go.
 

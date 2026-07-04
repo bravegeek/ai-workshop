@@ -85,6 +85,10 @@ Ren arrived during that period — following her own research thread to Budapest
 
 Nia's Caerulite exposure happened during those first explorations — before either of them understood what thinning was, before IO had built any system to measure or manage it. IO watched her thin progressively and didn't stop it in time, or didn't recognise what she was watching until it was too late. One morning Nia walked out. No note. Just gone. *The protocols that now govern every dive exist because of Nia. Nia never got the benefit of them.*
 
+**IO in the cistern scene.** IO was present when Nia surfaced and said *storm's coming.* She heard the full exchange — Ren's *I know* about the minor surge already on the instruments, then Nia's patient correction: *not that little squall that will hit late tonight — the big one, on the far horizon.* IO didn't have the framework. She filed it as Nia being Nia: intense, exact, operating on a frequency the instruments didn't confirm. The quality that made her extraordinary in the Deep.
+
+What IO didn't hear: the storm warning. What she built after — the Orrery, the Hum calibration, the Ghost Storm readings, the entire intelligence infrastructure pointed at the Deep's far horizon — is the long way around to information Nia had directly in the water. She was standing in the room when Nia said it. She didn't know that's what she'd heard.
+
 **The operation was built after.** The cartography, the salvage, the crew, the Underworks infrastructure — all of it is the scaffold IO needed to go deep enough to find her sister. Project Lullaby isn't a hidden mission inside a real operation. The real operation is Project Lullaby wearing a business suit. IO built the Batcave to rescue one person and told herself it was something else. What she doesn't examine: she also couldn't leave. The Institute is where Nia was. It is the last place she was Inès. See `stories/io_prequel.md`.
 
 ## Secret Extraction — The Mechanics

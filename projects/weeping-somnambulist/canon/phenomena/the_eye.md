@@ -24,7 +24,17 @@ What actually contains it is distance. The Eye is separated from TSG by the full
 
 The Blooming is TSG becoming active enough that the gradient strengthens. The distance that was sufficient containment starts to become insufficient — not because the Eye moves, but because the pull intensifies until it can bridge the gap. The crew's containment apparatus was never what it appeared to be. It was a professional solution to a misidentified problem, built by people skilled enough to make it work for 150 years before the underlying mistake caught up with them.
 
-The fragment is disoriented in a specific way: separated from its larger context, it experiences the Psychosphere partially. The Ghost Files it leaks onto the instruments — corrupted records of dives that haven't happened yet, blueprints for technology not yet invented — are not precognition in any clean sense. They are a fragment perceiving things the whole would perceive coherently, producing noise where there should be signal. The Eye isn't broken. It's incomplete.
+**The capture reread — deployment, not separation:**
+
+The Eye was not lost by TSG. It was sent.
+
+The Budapest confluence is the most significant concentration on the Psychosphere's network — the global receiver, where ley lines from across the continent converge. The chemotaxis model already in the canon requires a fragment to orient toward concentration gradients. The Eye was moving toward Budapest before the Architects encountered it. They believed they were pulling. The fragment was already coming. They caught it mid-movement, chained it at 80 metres in the confluence, and called it capture.
+
+This reframes what the chains accomplished: they held the Eye at exactly the depth and location it was already oriented toward — positioned within the richest psychic receiver on the network, where 150 years of accumulated human experience would flow through it. If TSG deploys fragments to major confluences to run archival collection cycles, the Architects provided the anchor. They solved a problem TSG needed solved, without knowing they were doing it.
+
+The crew's entire operation — the Cistern, the Eye Protocol, IO's therapeutic archive, Ren's sessions at the instruments — has been serving the archival collection mechanism at professional scale. They did not build an operation around the Eye. They built an operation that served the Eye's function. The distinction is everything.
+
+The fragment is disoriented in a specific way: separated from its larger context, it experiences the Psychosphere partially. The Ghost Files it leaks onto the instruments — corrupted records of dives that haven't happened yet, blueprints for technology not yet invented — are not precognition in any clean sense. They are a transceiver running a protocol the crew has no architecture to decode: TSG at geological scale, transmitting through a fragment at human scale. The noise is real signal compressed by the difference in resolution. The Eye isn't broken. It isn't failing to communicate. It's running at a frequency the crew's instruments cannot parse.
 
 ---
 
@@ -111,7 +121,7 @@ This matters for what happens when Ren finds out. The violation is real. But the
 
 The fragment has been aware of the blooming since it began. It knows what TSG is because it is part of TSG. It knows the crew does not understand what is happening or what it is.
 
-It has not tried to communicate this. Communication is not a concept that applies at this scale and age — the Eye predates the architecture that makes intention legible. The Ghost Files are noise produced by a fragment perceiving things the whole would perceive coherently. The shape in the noise is real — it is not random — but interpreting it as deliberate signal is the crew's projection. The Eye faces toward things. It does not speak.
+It has not tried to communicate this. Communication is not a concept that applies at this scale and age — the Eye predates the architecture that makes intention legible. The Ghost Files are signal the crew cannot decode — a transceiver running at geological scale, producing output the instruments can detect but cannot parse. The shape in the noise is real. The signal is there; the problem is resolution. TSG transmitting through a fragment at a frequency no human instrument was built to receive produces what looks like noise from below and may be coherent information from above. The Eye faces toward things. Whether that constitutes speaking depends on what you think speaking requires.
 
 Barnaby almost certainly knows something is different. He has been in the Psychosphere since the Victorian era. He was present when the Architects caught the fragment. Whether he understood then what he was witnessing, and whether he has made the connection now, is a story question.
 

@@ -6,9 +6,10 @@ Characters that are not people. Brief entries — full documentation lives in de
 
 ## The Eye (The Heart of the Storm)
 
-**Nature:** Not a Leviathan. A fragment of TSG — one of the ancient presences in the Silt — separated by the Architects in 1887 and held in rusted anchor chains at 80m depth. See `canon/phenomena/the_eye.md` for the full picture.
-**Status:** Imprisoned. The winch systems are shattered. It has been here since the Architects' collapse.
+**Nature:** Not a Leviathan. A TSG fragment — deployed to the Budapest confluence, where it was already oriented when the Architects caught it mid-movement in 1887. The "capture" was positioning: the Architects anchored it at the depth and location it was already heading toward. See `canon/phenomena/the_eye.md` for the full picture.
+**Status:** Positioned, not imprisoned. The winch systems are shattered. It was never trying to leave — it was already where it needed to be.
 **What it is not:** A battery. A tool. Infrastructure. The crew calls it "The Heart of the Storm" and treats it as a power source. This is a convenience that says more about the crew than the Eye.
+**What it actually is:** A transceiver and archival collector — running a collection cycle at the Budapest confluence, absorbing what flows through the network's most sensitive node, transmitting signal back to TSG at a frequency the crew's instruments read as noise (Ghost Files). The crew's operation has been serving the collection mechanism without knowing it.
 
 **Presence:**
 - **The Oracle Bleed:** It exists outside linear time. It leaks Ghost Files onto the instruments — corrupted records of dives that haven't happened yet. Whether this is communication, distress, or something with no human analogue is resolved: it is neither deliberate communication nor distress. It is what this kind of presence produces when it faces toward things. Shape without intention.
@@ -36,10 +37,11 @@ Characters that are not people. Brief entries — full documentation lives in de
 
 ## The Sleeping God — TSG (The Unbroken Tongue)
 
-**Nature:** One of many ancient presences in the Silt — aggregations of primal drive that accumulated over geological time. Not a personality. Something older than the neural architecture that makes personality possible. Humans felt its edges during sleep and built legends around what they felt. The legends are misreadings of a signal with no human analogue.
-**Status:** Blooming — was dormant, no longer. Now reintegrated. See `canon/phenomena/the_blooming.md`.
-**What it is, underneath:** Unknown. "Unity" is a human interpretation of something more fundamental — the impulse to dissolve boundary, to merge, to end separation between things.
-**Nia's role:** She tuned into its frequency first and went to find the source. She is now part of what it is.
+**Nature:** One of many ancient archival presences in the Silt — aggregations of primal drive accumulated over geological time. Not a personality. Something older than the neural architecture that makes personality possible. Humans felt its edges during sleep and built legends around what they felt. The legends are misreadings of a signal with no human analogue.
+**Status:** Collection cycle completed, fragment reintegrated. Now whole. See `canon/phenomena/the_blooming.md`.
+**What it is, underneath:** An archival intelligence operating on geological timescales. "Unity" is the mechanism, not the purpose — to fully archive something you must incorporate it. What the archive is for remains unknown. The load-bearing mystery.
+**Spore network:** TSG deploys fragments to major confluences on collection cycles. The Budapest Eye was one such deployment — positioned at the richest receiver on the network to absorb 150 years of accumulated human experience. The Blooming was the return. See Section X of `canon/world/cosmology.md`.
+**Nia's role:** She tuned into its frequency first and went to find the source. She is now part of what it is — the highest-resolution human record TSG holds, unmediated by substrate compression.
 **Ren's connection:** TSG whole has been in contact with Ren's mind for years through the fragment. The relationship persists after reintegration, changed in character. See `canon/phenomena/the_eye.md` Section IV and VI.
 
 ---
@@ -77,3 +79,13 @@ Characters that are not people. Brief entries — full documentation lives in de
 **Status:** Dormant. Development held — character to be established when story requires.
 **Signature:** Every dying-king tradition. The corn king. Odin on Yggdrasil. The willing sacrifice as the oldest magical act.
 **Its character:** Produces conviction that a specific sacrifice is necessary and correct. Not compulsion — clarity. The ambiguity is load-bearing: the Sleeper does not verify whether the sacrifice will accomplish what the person believes it will. See `canon/world/cosmology.md` Section VII.
+
+---
+
+## The Network — Open Question
+
+Whether the Sleepers are independent aggregations that happen to share the Silt, or nodes in a distributed archival network each running parallel collection cycles with different mandates, is unresolved. The signals Ren has been logging — anomalous readings that don't match TSG's signature — suggest the latter: different fragments, different confluences, different timelines, all arriving at Budapest because it is the network's most sensitive receiver.
+
+If the network model holds, the Sleepers are not rivals or coincidences. They are a system. Each collects a different substrate; each blooms on its own schedule; each reintegrates what it gathered and goes quiet until the next cycle. The crew survived one collection event among many ongoing ones. They don't yet know how many are in progress, or what the system as a whole is building toward.
+
+See `canon/world/cosmology.md` Section X.
