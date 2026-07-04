@@ -2,9 +2,15 @@
 
 ## I. What Artifacts Are
 
-Artifacts are compressed Psychosphere material — pieces of experience that have become dense enough to solidify into object form. Each one is somebody's something: a fragment of extracted consciousness that retains the character of its origin. The Psychosphere doesn't keep facts; it keeps experiences. Artifacts are what experiences become when conditions are right for crystallization.
+Artifacts are what Psychosphere experience becomes when conditions are right to fix it into stable form in the physical world. Each one is somebody's something: a fragment of extracted consciousness that retains the character of its origin. The Psychosphere doesn't keep facts; it keeps experiences.
 
-They have personality because they came from something that had character. They are not neutral tools.
+**Two fundamentally different mechanisms produce artifacts**, depending on era and method:
+
+*Compressed material (pre-Eye artifacts):* Experience that has concentrated under pressure — in oubliettes, at confluences, in the Silt — until it crystallizes into something dense enough to hold its own shape across the barrier. Slow, personal, self-sustaining. These don't require a reference field to maintain their form. They are the real thing, condensed.
+
+*Holographic projection (during-Eye artifacts):* Experience encoded through the interference of two fields during Storm-Forging — storm flux as object beam, Lethe-Light as reference beam — and projected as a stable 3D object into physical space. These require the Eye's active presence to sustain the projection. They are, in a precise sense, reconstructions. See Section III and `technology.md`.
+
+Both have personality because they came from something that had character. They are not neutral tools. But what they *are*, physically, differs — and this matters for what happens to them post-reintegration.
 
 ---
 
@@ -57,7 +63,7 @@ Barnaby knows which artifacts in the Vault are pre-Eye. This is the foundation I
 
 ### During-Eye (1887–Present)
 
-The logic field allowed extraction of things that couldn't survive the transition otherwise. Storm-Forging fixed their patterns using Lethe-Light as stop bath. Larger, more abstract, less personal.
+The Eye made Storm-Forging possible: a two-beam interference process that encodes Psychosphere patterns as holographic projections in physical space. Storm flux (the object beam) carries the dense Psychosphere material; Lethe-Light (the reference beam) provides the coherent signal that fixes the interference pattern into the Witness. The projection develops in the pool: a stable 3D object, mostly in normal space, sustained by the Eye's active presence. Larger, more abstract, and less personal than pre-Eye compressed material — but also more structurally precise, more legible, and field-dependent.
 
 Examples:
 - *A collective fear* — not one person's, a cultural one. Extracted from depth. When activated, fills a space.
@@ -157,7 +163,7 @@ The middle state. The Eye's field dissolves the boundary between contained and e
 - **Semantic Volume expands** — artifacts generate rooms. The Vault's structure is accumulated partial expansions.
 - **Artifact is more present and legible** — personality and properties accessible from the surface. Ren can read it. Barnaby can migrate fully.
 - **Cross-artifact influence** — artifacts in proximity within the field affect each other. What sits next to what matters. The Vault is an ecology.
-- **Storm-Forging** — intentional use of this state: field allows partial development of Psychosphere material; Lethe-Light fixes it. Controlled artifact shaping without full immersion.
+- **Storm-Forging** — the two-beam holographic process: storm flux as object beam, Lethe-Light as reference beam, interference pattern encoded into the Witness, projection developed in the pool. The Eye's active presence is required for both beams simultaneously. The Lethe-Light doesn't stop development by erasing — the exposure is complete, the reference beam has done its work, the interference pattern is fixed. Without it, storm flux keeps driving the pattern with nothing to stabilize against: development never stops. See `technology.md` for full mechanism.
 - **Surface-side engagement** — practitioners can access some artifact properties without entering the Deep. How IO's therapeutic practice works.
 
 ### After Reintegration
