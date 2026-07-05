@@ -135,6 +135,20 @@ After Nia leaves, Ren finds this entry. She reads *logging for completeness* in 
 
 The uncomfortable question: the habit that saved the record operated below her conscious decision-making. She had good epistemological reasons not to log it. She logged it anyway. Was that discipline? Or something running below discipline, recognizing what Nia had said, making sure it got written down? She cannot separate those. There is no clean version of the log entry that came only from her.
 
+**What she has.** During the early period, before Nia left, they exchanged possessions — the contact mechanic IO and Nia had worked out, passed to Ren when she joined. Ren has something of Nia's. Nia had something of Ren's, which is inside the Eye now.
+
+Ren has not used it unmediated. She understands what it does: follow the resonance into the Psychosphere, find where Nia's material pools. But she can't instrument that approach. The Soundboard reads the diver; there is no Soundboard for yourself. What comes back through an unmediated contact would arrive with no source attribution — exactly the condition that nearly destroyed her at Zone 2. She would be holding something that felt like Nia and would have no way to verify it was Nia rather than what she expected to find.
+
+She hasn't tried. She has the object. She knows what it's for. The reason she hasn't is not fear of the Deep. It's that she cannot trust data she cannot source-attribute, and this is precisely the kind of data that cannot be sourced.
+
+The additional weight: Nia had something of Ren's. That object is inside the Eye — the archive holds the contact thread from Nia to Ren. What the Eye has been radiating since reintegration includes a thread toward Ren alongside the thread toward IO. The Ghost Files have her resonance in them. She has been reading data that contains a tuning fork pointed at her, and filing the anomalies as *environmental factor, unknown, investigate further.*
+
+**The direction she forgets.** The contact goes both ways. Ren couldn't follow the thread to Nia — can't go deep enough, can't survive the unindexed approach. But Nia could come to Ren. Everyone sleeps; during sleep the barrier thins and the shallow layer is accessible. Nia's permeability made the shallow layer easy to move through. She visited Ren in dreams before she left — following Ren's possession to her dream space, where Ren was the dreamer and the space was hers to survive. Ren would have been unable to source-attribute those visits. She would have filed them as dreams.
+
+She may have filed some of her most accurate map data the same way: *dream, origin unclear, corroborated by instruments.* She may have already been in contact with Nia after Nia disappeared, in the passive Psychosphere access everyone has during sleep, without knowing it was contact rather than dreaming. She has no framework to separate them.
+
+IO has Ren's possession. Whether IO visits is a question the story hasn't answered yet. Whether anything presses at the edge of Ren's sleep through the Eye's radiating thread toward her is a question she has not thought to ask.
+
 ## Arc
 
 **After reintegration:** She felt the Eye reintegrate. She glimpsed Unity — TSG's fundamental nature — in the moment of contact, and she understands now why Nia didn't come back. She came back because her nature is to map, not to dissolve.

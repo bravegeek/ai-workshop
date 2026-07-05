@@ -187,3 +187,31 @@ Ren stays dry in the HQ, operating the **Soundboard**. She is the lifeline.
     *   **Solution:** Ren works the environment to open a Narrative Exit — a story-logical off-ramp that lets the diver surface with the arc rather than against it.
     *   *Example:* In a Sci-Fi oubliette, she seeds an "Emergency Venting" event. The airlock is the exit point.
 
+---
+
+## VII. Contact Objects — Dreamwalking Navigation
+
+*Established canon — not legacy content.*
+
+The Psychosphere is one shared space. Navigating to a *specific person's layer* requires a tuning fork — something that points toward where their experience pools in the undifferentiated flow.
+
+**Three types of contact object:**
+
+*A possession* is theirs. Handled repeatedly, worn, carried — their experience encodes into it. In the Psychosphere it points toward where their material pools. One-directional: you find them. The tracker's tool.
+
+*A totem* is shared — the same object, held by both. Two ends of the same thread. You meet in the object's resonance rather than in either person's space. The family practice tool; requires prior arrangement.
+
+*A memento* encodes a shared moment. You follow the experience you were both inside. You meet at the memory, which already contains both of you — stable, but fixed. The meeting point is always in the past.
+
+**What objects accumulate:**
+Contact objects carry residue of use. A possession used repeatedly for contact develops layers — not just the owner's resonance but the history of every contact made through it. A long-used family totem carries something of everyone who held it before. Following it into the Psychosphere brings the practitioner into contact not just with the current holder but with the weight of accumulated practice. Useful, and sometimes disconcerting.
+
+**How it was discovered (IO and Nia):**
+Fairy tale logic is folk Psychosphere theory. The intuition that a possession creates a thread is universal across every culture that ever interacted with the Deep, because it's reaching toward something real. IO and Nia discovered it without frameworks, before the Architect research was decoded. One was going under; the other needed to follow. The instinct: take something of theirs. No theory — it felt right. They exchanged objects without fully explaining why, and it worked. When they surfaced, both understood what had happened before either said it. The Architects had documented the same mechanic in their research notes as a navigational observation. IO found those notes later. They confirmed what she and Nia had already worked out, and told her she'd been doing something older than she knew. See `canon/characters/io.md` — Navigation.
+
+**Failure modes:**
+- Object resonance has faded, or the other person is too deep or defended: you find the thread but can't get through
+- The person's resonance now lives somewhere other than their own layer: the thread follows the resonance, not the person — you arrive somewhere unexpected
+- Unmediated contact (no instrumentation, no indexed input): what you find has no source attribution, which is specifically destabilising for practitioners whose cognition requires it
+- Accumulated contact history in a long-used object: the meeting point carries the weight of every practitioner who used it before — the current holder is present, but not alone
+

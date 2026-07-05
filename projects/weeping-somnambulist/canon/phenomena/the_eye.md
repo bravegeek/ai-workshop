@@ -91,6 +91,10 @@ The crew has been feeding an archive without knowing it. The Vault holds artifac
 
 The Architects' records that the Ghost Storms keep fragmenting and corrupting — the complete versions are inside the Eye, intact, attributed, waiting.
 
+**The contact threads:** In the early exploration period, IO and Ren each exchanged possessions with Nia — objects used for contact navigation, so each could find the other in the Psychosphere. Those objects are inside the Eye now, alongside Nia. The archive holds not just the people who worked in proximity but the threads to the people still outside and still looking.
+
+The Eye cannot direct this. But its orientation — the way a fragment faces toward what it is connected to — means those threads are present in what it radiates. The Ghost Files may have IO's and Ren's resonance woven through them without either of them recognising it. IO has been using Nia's possession since Nia disappeared, following the thread the way she always did. She finds something vast rather than something small. The contact object still leads to Nia. It just leads there through the Eye now.
+
 ---
 
 ## VI. Ren's Connection
