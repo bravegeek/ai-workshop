@@ -116,6 +116,74 @@ Hat stays on. She takes a drink without looking up.
 
 ---
 
+## Nia's Turn — The Patch, Redirected
+
+A big lightning strike. The thunderclap makes them both jump.
+
+**IO:** *"I'm heading out."*
+
+**Ren:** *"I'll cut that patch after the storm passes."*
+
+IO looks at her. The lock weakens once you know about it — so why does she still want to mow? She's probably just messing with you. IO gets up to leave.
+
+The patch is in front of her.
+
+She turns to walk another way. The patch is in front of her.
+
+Ren appears at her side. **"What did you do?"**
+
+*Nothing, I'm just leaving.* The grass is tall now — taller than it was. Something is moving in it. A figure coming out of the patch, its shape wrong enough that you want to look away, but the patch is always in front of you so looking away doesn't work.
+
+**"What did you do?"** Ren asks again, fake calm.
+
+*She's definitely messing with you.*
+
+IO glances at Ren. Ren is pale. Staring at the figure. Not performing.
+
+**IO:** *"Ren. You can stop now. You beat me fair and square."*
+
+Ren grabs her hand.
+
+The creature pulls its hood back. The hands are scarred — every dive into the cistern, every session in the Eye's field, the physical record encoded into the dream version of her body. The fingers are mismatched, bend at odd angles, but move with a specific nimble precision calibrated to the Deep's physics, not the yard's.
+
+From the shadow of the hood: pinpricks of green light. Caerulite bioluminescence. A specific frequency.
+
+**IO:** *"Oh god. REN!"*
+
+---
+
+The creature stops. Just short of reaching them. IO's grip on Ren's hand is embarrassingly tight.
+
+The hood falls back the rest of the way.
+
+Nia's face. Nia's smile. The green lights in her eyes instead of pupils — not replacing the warmth. Underneath it.
+
+From the rain, from the air, from her mouth which hasn't moved:
+
+*"Boo."*
+
+Lightning. When it clears they're on the surface. The three of them. Nia sitting cross-legged, completely pleased with herself.
+
+IO stares at her.
+
+**Nia:** *"You left me a patch to work with."*
+
+**IO:** *"I — that was —"*
+
+**Nia:** *"Thank you for the patch."*
+
+Ren is still holding IO's hand. She looks down at it. Releases it with great dignity. Says nothing.
+
+---
+
+**What Nia did:** She took the compulsion IO seeded — *can't leave until it's done* — and attached it to IO. The patch kept repositioning because Nia picked up IO's own lock and used it on its maker. IO couldn't leave because she was still, somewhere, following her own rule. Nia didn't build a scare. She dissolved into the environment, took what was already there, and redirected it.
+
+The creature is Nia — not a construct, not something she built. She inhabits the wrongness of the shape because she doesn't push back against it. The scarred hands are hers. The green lights are her frequency. The horror is something that exists at the angle where the Psychosphere presses through into a space it doesn't quite fit. Nia fits it.
+
+The unspoken rule of horror night: don't give Nia a foothold. If she gets in, she's already the environment, and you were never going to find her before she found you.
+
+---
+
 ## Open Questions
 
 - What specifically is in the patch of grass? IO's scare should be consistent with her horror taste — psychological, architectural, something that doesn't fit the domestic genre logic. Develop when writing the full scene.
