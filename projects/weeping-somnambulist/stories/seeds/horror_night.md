@@ -82,6 +82,40 @@ IO built a trap inside what she thought was someone else's dream. She was inside
 
 ---
 
+## The Figure in the Grass — What IO Built
+
+IO's scare is directional. That's her methodology — precise deployment at a specific moment. She needed Ren to *approach*, because the scare is the turn.
+
+A figure standing in the patch, facing away. Still. Waiting for the sound of footsteps coming through the grass. When approached closely enough, it turns. That's the scare — the turn, the face, the eye contact at close range. Built for the moment Ren is standing three feet away and realizes what she's looking at.
+
+The mower reaches the patch. The figure turns. There's nobody there. Just an unmanned mower with a bandana on the handle.
+
+Dream logic: the mower cuts around it, or through it, or it steps aside. The patch gets mowed regardless. The figure is now standing in cut grass, turned, facing the direction Ren was supposed to come from — which is the direction of the bench.
+
+From under the hat, Ren hears the mower finish. Lifts the brim just enough. Sees a figure in the mowed patch, turned, looking at her from across the yard. Lowers the hat back over her face.
+
+It can't come to her. It was built for the approach. The scare is directional — it only deploys one way. The figure can turn and face her all it wants. The distance is Ren's. The bench is Ren's. She's not going to it.
+
+IO has to materialize. Her scare is standing in the mowed patch doing nothing, facing a woman resting in the shade with a hat over her face. The job is done. The patch is cut. The figure turned and found a bandana.
+
+IO comes out.
+
+Ren doesn't move.
+
+**IO:** *"The bandana."*
+
+**Ren:** *"You built it for someone walking toward it."*
+
+Beat.
+
+**IO:** *"...yes."*
+
+**Ren:** *"I know."*
+
+Hat stays on. She takes a drink without looking up.
+
+---
+
 ## Open Questions
 
 - What specifically is in the patch of grass? IO's scare should be consistent with her horror taste — psychological, architectural, something that doesn't fit the domestic genre logic. Develop when writing the full scene.
