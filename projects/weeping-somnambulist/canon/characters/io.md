@@ -129,11 +129,52 @@ Inside the layer, she encounters the target's accumulated psychic immune respons
 
 She is always a foreign organism in someone else's layer. She manages this the same way she manages the open Deep: reduce the mismatch, be *less wrong*, generate predictable rather than undifferentiated friction.
 
+### Reconnaissance: Multiple Nights Before the Extraction
+
+For significant targets, the extraction night is execution, not discovery. The work happens before.
+
+**Night one: orientation.** She follows the possession into the target's layer and doesn't reach for anything. She reads the genre logic — what kind of space is this person's dream, what are the dominant themes, how is the layer organized. Surfaces clean. Doesn't touch anything. Builds the substrate profile.
+
+**Night two: mapping.** She goes further. Locates where the material she wants is likely to pool — surface anxieties are visible, recurring fears are legible, actual secrets are compressed into specific pockets, sealed, defended. She finds those pockets without approaching them. Notes the immune response: how defended is this person, where are the seams, what is the genre logic trying to cast her as. The role it offers tells her something about what the space needs to accept visitors.
+
+**Night three onward: preparation.** She figures out the performance. What role makes her legible to this space. A layer organized around hierarchical anxiety has clear authority structures — a legitimate authority is what the genre logic has a slot for. A grief-saturated layer requires a different register entirely. She builds the performance before she needs to perform it. By the extraction night she's not discovering anything. She's executing a plan that already exists.
+
+**What she arranges in the waking world:**
+Reconnaissance extends outside the dream. She times visits to the target's deepest REM windows — which means knowing their routine, their habits, whether they sleep clean. She engineers their emotional state when she needs to: an anxious target's layer is churned up and defended material is closer to the surface; a calm target is less defended and easier to move through. She may engineer a waking world encounter — a professional meeting, a chance overlap at an event — not to take anything, but to read their texture before the first reconnaissance night. She lifts the possession herself when the client can't provide one. Something small, returnable, untraceable. It goes back, usually.
+
+She processes the waking world arrangements as conditions management. The extraction is the work; everything before it is preparation. The frame holds if she doesn't look at it directly.
+
+**The line she maintains:**
+She doesn't dose targets with Caerulite — thinning someone's barrier without consent is the line. Whether she's held it completely, or whether there's one case that doesn't bear examination, is something she hasn't fully accounted for.
+
+---
+
 ### Cost: Accumulated Intimacy
 
 IO cannot extract from someone without being exposed to their layer. She reads context to find specific material, which means she encounters what she didn't go looking for: recurring fears, private grief, the thing that plays on loop at 3am. She processes this professionally. She doesn't write it down.
 
 She has accumulated years of private knowledge about targets she was paid to rob. Some have stayed with her in ways she doesn't account for. The intimacy of extended targeting work — multiple dives into the same layer over weeks — leaves something. Not contamination. More like the character of a place you've spent time in settling into you. IO has been inside some people more thoroughly than they've been inside themselves. She doesn't have a metric for this.
+
+### Scheduling: The Ley Line Network
+
+IO's extraction queue runs across Europe and occasionally further. She doesn't work targets in order of client priority — she works them in order of network conditions.
+
+The possession thread to a target always exists. But the quality of passage along the ley line network between Budapest and the target's location varies. When the current between Budapest and London is running favorable, the connection is cleaner, easier to sustain, less fatiguing. When the current is weak or running cross, the same extraction is noisier, costs more, risks more. She can row against the current. She waits for wind when she can.
+
+Ren reads this from the Hum. She tracks the network — when London is favorable from Budapest, how long the window lasts, which targets can be queued consecutively and which require recovery time between. The ley line currents are the weather the operation runs on. Scheduling against them is as much Ren's work as navigation support is.
+
+*"London window opens tonight, closes in four days. Who do we have queued?"*
+
+**Different targets, different lines:**
+Paris runs frequently favorable — geographically closer, stronger line. London is less reliable but predictable enough to schedule around. A target in Istanbul runs on a different current — longer, less reliable, higher fatigue cost. Targets further out may only have favorable windows once in a given month. IO maintains the queue and waits.
+
+**The confluence character of the target's location:**
+A target in London is dreaming inside the London confluence — the city's accumulated historical weight (Roman, medieval, early modern, wartime) bleeds into their layer even if they're not sensitive to it. IO reads that character when she enters and calibrates against it. Ren tracks it too — the confluence flavor of the target's current location, not just the current between Budapest and there. A target who travels changes their layer's flavor. IO prefers to work a target in their home city. The layer is more legible when they're dreaming in their own ground.
+
+**Waking world preparation vs. dreamwalking:**
+The two operations are separable. Waking world work — lifting the possession, observing the target, engineering circumstances — happens at the target's location and may require someone on the ground. The dreamwalking itself happens from Budapest, on favorable current, through the strongest node in the network. IO can prepare a London target on location and return to Budapest for the actual extraction. She does not always travel to the target.
+
+---
 
 ### Origin: How It Started
 
