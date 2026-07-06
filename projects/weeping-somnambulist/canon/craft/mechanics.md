@@ -189,9 +189,26 @@ Ren stays dry in the HQ, operating the **Soundboard**. She is the lifeline.
 
 ---
 
-## VII. Contact Objects — Dreamwalking Navigation
+## VII. Dreamwalking
 
 *Established canon — not legacy content.*
+
+The Psychosphere is one shared space, but not all navigation works the same way.
+
+**Diving** is entering the open Deep as a foreign organism — navigating by your own signal against undifferentiated space. Zone character, depth, substrate, immune response: all of it shapes and resists you. You are always foreign.
+
+**Dreamwalking** is different in kind. During sleep, the barrier naturally thins and every sleeping mind touches the Psychosphere passively. The dreamer is already there — in their own layer, their own genre logic, their own space. A practitioner with the right contact object can navigate to where a sleeping person already is. You are not entering the open Deep. You are entering someone else's dream, which operates by their rules.
+
+The dreamer's space is protective for the dreamer. Their genre logic dominates. A visitor is the foreign organism; the dreamer is native. This is why someone who cannot survive the open Deep can still be visited in dreams — and can receive visitors without navigating anything. They're already home.
+
+**Three modes:**
+- *Navigating to a layer* — using a contact object to find where a specific person's experience pools. The target need not be asleep; their material is accessible whenever they are. Used for extraction, for searching, for cold targets.
+- *Visiting during sleep* — navigating to the shallow layer where a sleeping person already is. You enter their dream space and their genre logic. The contact object is the thread; the sleeping mind is the destination.
+- *Shared space* — two or more practitioners constructing or entering a space together deliberately. Not one person's dream and not the open Deep. A third condition: space built from will rather than passive dreaming or undifferentiated flow. Horror night operates in this mode.
+
+---
+
+### Contact Objects
 
 The Psychosphere is one shared space. Navigating to a *specific person's layer* requires a tuning fork — something that points toward where their experience pools in the undifferentiated flow.
 
@@ -214,4 +231,47 @@ Fairy tale logic is folk Psychosphere theory. The intuition that a possession cr
 - The person's resonance now lives somewhere other than their own layer: the thread follows the resonance, not the person — you arrive somewhere unexpected
 - Unmediated contact (no instrumentation, no indexed input): what you find has no source attribution, which is specifically destabilising for practitioners whose cognition requires it
 - Accumulated contact history in a long-used object: the meeting point carries the weight of every practitioner who used it before — the current holder is present, but not alone
+
+---
+
+## VIII. The Mordaunt Family Practice
+
+The Mordaunts trained in the contact mechanic for generations before the Architect formalization. The biological attunement — thinned barriers, a nervous system that half-knows the Deep — was the inheritance. The practice was the instruction that made it legible.
+
+**The training progression:**
+
+*Proximity first.* A Mordaunt child has been sleeping in the family home for years before any formal training begins. During sleep the barrier thins universally — the child has been passively overlapping with the family's Psychosphere signatures since infancy. Training doesn't begin the day someone decides to teach. It begins the night the child is brought home.
+
+*Following.* The first formal step: the parent goes under, leaving something of themselves for the child to hold. The child learns to recognize the resonance — the specific texture of this person — and to move toward it without overrunning it. Not to find, but to approach. The distinction matters.
+
+*Receiving.* The parent calls from inside. The child learns what it feels like when someone is trying to reach you: a pull in the dream, something familiar pressing against attention. Learning to answer rather than dismiss it as ordinary dreaming.
+
+*Holding.* Being in someone else's space without dissolving into it. The genre logic is theirs; the visitor must stay themselves. The hardest skill and the most critical. Children who cannot hold themselves in another person's space have no business going deeper.
+
+*Calling.* Initiating contact from inside — generating a pull another person can feel and follow. Requires knowing your own signal clearly enough to project it deliberately.
+
+*Distance.* The thread thins across distance but doesn't break if the contact object is strong enough. Working the thread across a city, then a country, then further. Each extension takes time. The family's professional reach was built over generations of extending the range.
+
+**The family totem:**
+
+A shared object used across generations, accumulating the resonance of everyone who held it. Following it into the Psychosphere brings the practitioner into contact not just with the current holder but with the whole lineage — past family members present in some form, the accumulated practice real and available.
+
+A Mordaunt child holding the family totem for the first time doesn't just find their parent. They brush against the whole line. This is support (the accumulated practice is present, the lineage helps) and weight (the history is in the meeting point — joy, grief, the dissolution of the Architects, everything the line carried). The family's most skilled practitioners could distinguish current holders from lineage residue. Learning that distinction was itself a training milestone.
+
+If a Mordaunt family totem survived the Architect dissolution, it is somewhere in the Vault — unrecognized, probably filed as a minor artifact of unusual resonance. IO has not found it. She would not know what she was holding if she did.
+
+**The framework going dark:**
+
+The Lethe-Light took the Architects' memories and eventually their selves. The biological attunement passed forward — epigenetic, structural. The cultural transmission did not. There was no one left to teach.
+
+Subsequent Mordaunts had anomalous experiences without context: dreams too vivid, places that felt wrong, a persistent pull toward something without a name. The sensitivity with no instructions attached. IO grew up with this and became a neuro-chemist — the attunement expressing itself as compulsion toward the mechanism she could feel but not name.
+
+She and Nia rediscovered the contact mechanic by feel in the early period, before the Architect research was decoded. They were doing an ancient family practice without knowing it was a family practice. The Architect notes confirmed the mechanic when IO found them. They did not tell her what was missing.
+
+**What IO doesn't have:**
+- The training progression — she reverse-engineered the mechanic rather than being taught into it. Some of what she knows is correct but arrived at wrong.
+- The family totem — she has no object carrying the lineage. What she has are objects she built her own practice around.
+- The context for what she is — she knows the mechanics but not that she is the latest iteration of something that has existed for generations.
+
+The specific texture of the loss: she doesn't know what she's missing. She built a complete framework from residue and observation and it works. She cannot see the shape of what isn't there.
 
