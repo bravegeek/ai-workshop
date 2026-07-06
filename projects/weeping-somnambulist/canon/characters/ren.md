@@ -78,6 +78,10 @@ She tried to dive once. Past Zone 2, she began losing the boundary between her o
 
 **What she has not understood:** Her failure was epistemic, not emotional. Her mind works by categorizing and source-attributing information. Undifferentiated psychic flow is specifically what she cannot survive. The Eye provides indexed input — Psychosphere material tagged by source, origin, attribution. Her mind can process that. She has been experiencing the Deep through the Eye's perception for years without knowing it.
 
+Her natural fit with the Psychosphere is invisible to her because it doesn't look like what talent is supposed to look like. She thinks she failed at the Deep. What actually happened: she's not suited to diving. She's suited to *receiving*. The Deep was coming to her — organized, attributed, legible — because her mind and the Eye's archive function are structurally compatible. She hasn't been shut out of the Psychosphere. The Psychosphere has been coming to her through the one channel that works for how she thinks, and she's been calling the output pattern recognition.
+
+She is, in a specific sense, more naturally fitted to the Psychosphere than IO is. She would find this deeply uncomfortable to hear.
+
 ### The Zone 2 Incident
 
 It scared her. It still scares her — and the fear is specifically resistant to categorization, which makes it worse.

@@ -236,6 +236,8 @@ The cartography, the salvage, the operation, the precision — all of it is arch
 
 **After reintegration:** IO grieves properly for the first time — she's too exhausted to do otherwise. She learns to sit with herself because she doesn't have the energy not to. She finds value in helping others: the Budapest aftermath cases, people who can't pay, who don't know what's wrong. The IPE work she was doing quietly, now above ground and local. She is present at the Institute without being in charge for the first time, holding institutional memory while Ren leads the rebuild. See `stories/arc2.md`.
 
+Ren takes the lead because Ren is the right shape for what comes next — the person the Eye chose, the one TSG maintained a connection to, the one whose natural fit with the Psychosphere is deepest even if she never dove willingly. IO built everything. The thing the next phase needs is exactly what she spent her life engineering around: being present without a mission, receiving without imposing, letting the space be what it is. She's going to have to learn something Nia knew from birth.
+
 ## Capabilities
 
 - **The Resonance Collection:** IO's primary operative tool in the Deep. A curated set of instruments — some built by her, some inherited from the Architects — each tuned to reduce impedance mismatch between her signal and the Deep's substrate at a specific depth or zone character. She doesn't blend in. She can't. What the tools do is make her *less wrong*, specifically and controllably, so the ecosystem's response is predictable rather than undifferentiated friction.
@@ -261,3 +263,10 @@ The Resonance Collection exists to reduce interference between a controlling, im
 The Mordaunt heritage gave them both the same attunement — thinned barriers, proximity to the confluence from childhood, a nervous system that half-knew the Deep before either of them touched Caerulite. It expressed differently. IO's inheritance became methodology: the Architect stance rebuilt from residue, imposing and precise. Nia's became permeability: the barrier was already thin and she never tried to reinforce it.
 
 IO built increasingly sophisticated tools to do what her sister did effortlessly and without trying. The Resonance Collection is, in part, IO trying to become Nia through engineering. She never could. That is not a failure of the tools.
+
+**The gap she knows about:**
+IO is the person least naturally suited to the Deep among the people who work it. She knows this. She has known it since the beginning — standing next to Nia, watching Nia slip into the Deep the way water finds its level, building protocols because she had to where Nia just went. The attunement is real. The biology is there. The expression of it is all effort.
+
+What she did with that: she looked at her limitations and built around them rather than through them. She didn't become the best diver. She built the machine that makes the diving possible — the protocols, the infrastructure, the extraction operation, the security architecture, the crew. The person least naturally suited to the Deep is the one who constructed everything that lets everyone else do the work.
+
+The apparatus is a masterwork. It was never quite enough for the thing she actually needed it for. She built the Batcave trying to reach Nia, who could have found her way there without a map.
