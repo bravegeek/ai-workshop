@@ -1,8 +1,8 @@
 # The Lease
 
-Early period. The operation is taking shape — artifacts coming in, the
-extraction work beginning, the basement becoming what it's becoming. The
-school's lease is up for renewal. IO doesn't renew it.
+Early period. IO and Nia are still finding the shape of what they have —
+what the building is, what the basement holds, what the confluence means.
+The school's lease is up for renewal. IO doesn't renew it.
 
 Or starts not to.
 
