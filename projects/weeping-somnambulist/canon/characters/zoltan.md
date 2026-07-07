@@ -62,11 +62,17 @@ He has been standing very still near the stairwell off the second landing for th
 
 **The youngest, Lili** — nine. Treats Barnaby as a dog. Treats the building as home. Has not yet organized the strangeness into a category requiring explanation. She leaves food out for Barnaby with the complete confidence that he eats it. Whether Barnaby eats it is an open question. The food disappears.
 
+Nia taught ear training at the school on Tuesday afternoons — "creative listening," she called it. She'd been doing it since March before IO found out. All three children were in the class at some point. Lili still hums things she learned there.
+
 ---
 
 ## Relationship with the Crew
 
 **IO:** Mutual respect with specific weight. She inherited a legal title to a building his family has maintained for four generations. They both know this and neither mentions it. She doesn't condescend. He doesn't perform deference. When she thanks him for something, she means it specifically, and he receives it the same way. He has caught her, twice, standing in the courtyard at 3am doing nothing in particular, and both times he left her alone. She noticed that he noticed and left her alone. That exchange established something between them that has no name.
+
+When the school's lease came up for renewal, he had been prepared for the outcome. New operation, artifacts coming in, children in the building — he'd understood the logic even before she articulated it. Then nothing happened. The school stayed. He assumed it was IO's decision. He has credited her with it ever since — the owner who looked at his family and the children and chose decency over efficiency. That's a significant part of why his respect for IO carries the weight it does.
+
+It was Nia's decision. IO has never corrected the impression. It's easier to carry the credit than to explain whose it actually was — and some part of her may not want to say it out loud.
 
 **Ren:** She asked him a very precise question about the building's pressure behavior in year two of the operation. He answered it completely and accurately. She came back with a follow-up three days later. He answered that too. They have a working relationship based on the shared understanding that exact observations matter. He finds her unsentimental quality familiar.
 
