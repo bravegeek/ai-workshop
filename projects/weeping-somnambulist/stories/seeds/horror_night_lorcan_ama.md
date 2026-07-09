@@ -17,32 +17,113 @@ says nothing.
 
 On the fifth week he joins without announcing it.
 
-He doesn't build a trap. He doesn't become the environment. He does
-one thing: he makes it real.
+---
 
-Not a figure, not a mechanism, not an aesthetic. The specific quality
-of something that has actually been in the Deep's deep places and knows
-what lives there and is now standing in your dream space with all of
-that knowledge active in its posture. For approximately thirty seconds
-the game stops being a game.
+IO's stage is immaculate. A glass tunnel through deep aquarium water —
+the specific blue-dark of it, the ambient sound of filtration systems,
+bioluminescent things drifting at the right distance. She's seeded the
+horror vectors carefully: a hairline fracture in the glass catching the
+light just so, something with too many teeth circling at the edge of
+visibility, the pressure differential you can feel in your ears. The
+crew moves through it reading for the mechanism. They're looking for
+the moment she springs it.
 
-Then he releases it. Completely, cleanly, the way you'd set something
-down.
+Lorcan is with them. Hands in pockets, occasionally glancing at
+something, apparently just another participant. Ten minutes in the
+tunnel and he hasn't triggered anything. The crew relaxes
+incrementally. The trap must be further in.
 
-The crew surfaces. Nobody speaks for a moment.
+He stops walking.
 
-He says: *"That's what it actually feels like. Now you know."*
+Goes completely still.
 
-IO files it as calibration data. Ren files it under a category she
-hadn't had before. Nia is quiet in a way that is different from her
-usual quiet — not shaken, but respectful, the way you're quiet near
-something genuinely large.
+They stop because Lorcan going still is a signal. They've learned this.
+When he stops moving like that, something has changed in the space.
+
+He's looking at something beyond the glass. Not the hairline fracture.
+Not the thing with teeth. Past them. Into the dark beyond where IO's
+stage was designed to go.
+
+The shadow arrives before the shape does. The light changes — not
+dramatically, the specific dimming of something large moving between
+a light source and where they're standing. The bioluminescent things
+scatter. Not in fear exactly. The way small fish move when something
+larger moves through the same water.
+
+Then the shape.
+
+It's moving slowly. At its scale, slow is fast. It crosses their
+section of tunnel in what feels like a long time and is probably four
+seconds. There are no good reference points for its size because the
+aquarium has ceased to be a useful container — the building, the
+tunnel, revealed as a glass tube inside something that has no interest
+in being an aquarium. It didn't come here. It was here. The tunnel
+was built through its territory and nobody told it.
+
+It doesn't look at them.
+
+That's the part that stays. It doesn't look at them the way you don't
+look at the particular paving stone you step on. They are not
+significant enough. Something the approximate size of a city block
+moving past and they have not registered as anything worth the
+attention of something that thinks, if it thinks, in geological time.
+
+The glass doesn't crack. The water doesn't flood. The thing with teeth
+has stopped circling and is somewhere else, doing the fish equivalent
+of making itself small.
+
+The leviathan passes.
+
+The light comes back. The bioluminescent things return to their orbits.
+The aquarium is an aquarium again, except smaller than it was before
+in a way that isn't going to go away.
+
+---
+
+Lorcan sits down on the floor of the tunnel. Tilts his head back
+against the glass.
+
+IO is very still. Not the controlled stillness of thinking — the other
+kind. The kind that means something has temporarily exceeded the
+engineering. She was looking for the trap mechanism and found something
+that doesn't have one because it doesn't know they're there.
+
+Nia is looking at Lorcan with the expression she uses when something
+is exactly as large as she always suspected. She's been deeper than
+anyone. She's touched something like this. She's looking at him because
+she wants to know: did he put it there, or did he move them to where
+it was, or did he simply remove the filter that IO's stage was providing
+and show them what was underneath it the whole time?
+
+He meets her eyes.
+
+He doesn't answer.
+
+She files it as all three simultaneously and decides that's probably
+right. A construct from memory so precise it arrives with the weight
+of the real thing — proof of what he survived and carries. A
+navigation, surgical and controlled, the ink giving him standing to
+take them somewhere real for thirty seconds without them knowing they'd
+gone. A removal of the stage itself, showing them what was under it
+before IO started building, what is always under everything they build.
+
+All three. None of them less true than the others.
+
+Ren has her notebook out. She was writing during. She doesn't look up
+immediately. When she does her expression is the one she gets when a
+data set has become significantly more interesting.
+
+*"Good stage,"* Lorcan says to IO. *"Nice hairline fracture."*
+
+A beat.
+
+*"That's what it actually feels like. Now you know."*
 
 He does it once a season. Never the same shape twice. Just often enough
 that everyone knows the real thing is possible, and they carry that
 knowledge into every other horror night, and into every dive.
 
-This is the instruction. He just doesn't call it that.
+This is the instruction. He doesn't call it that.
 
 ---
 
