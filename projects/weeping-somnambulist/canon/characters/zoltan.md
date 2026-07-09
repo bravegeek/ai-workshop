@@ -58,7 +58,7 @@ He has been standing very still near the stairwell off the second landing for th
 
 **The eldest, Dóra** — twenty-three. Born on campus, raised on campus, knows the building the way her father does and then some. She was the child who found the passage in the east wing. She was eleven. She told her father and then they both agreed not to mention it to anyone. She's studying architecture in Budapest and comes home on weekends. She and Ren have had exactly two conversations, both of which lasted longer than either of them intended.
 
-**The middle child, Bence** — sixteen. At the age where he knows something significant is happening and doesn't have adult language for it yet. He's done his own investigation — quietly, the way his father does things quietly — and has a notebook. The notebook is not accurate but it's earnest. He and Barnaby have an understanding. He's the only person on campus Barnaby plays with, in the limited way Barnaby plays.
+**The middle child, Bence** — sixteen. At the age where he knows something significant is happening and doesn't have adult language for it yet. He's done his own investigation — quietly, the way his father does things quietly — and has a notebook. The notebook is meticulous: dates, times, locations, cross-referenced observations, and a strict right-margin column for things he cannot yet categorize. The right-margin column is often the longest. He is not getting things wrong — he is building a data set without a framework. When he eventually gets the framework, the data will still be good. He and Barnaby have an understanding. He's the only person on campus Barnaby plays with, in the limited way Barnaby plays.
 
 **The youngest, Lili** — nine. Treats Barnaby as a dog. Treats the building as home. Has not yet organized the strangeness into a category requiring explanation. She leaves food out for Barnaby with the complete confidence that he eats it. Whether Barnaby eats it is an open question. The food disappears.
 
@@ -98,6 +98,6 @@ Zoltán has never seriously considered leaving.
 
 - What exactly did the first Kovács understand? The family stories soften things — how much was deliberately simplified before passing down?
 - Dóra and the east wing passage: does she go back? Does she find something, eventually, that she brings to IO or Ren?
-- Bence's notebook: what has he correctly intuited and what has he gotten wrong? Does it become relevant?
+- Bence's notebook: the observations are meticulous and uncorrupted by practitioner frameworks. What does Ren do with it when she finally reads it? What does the right-margin column add up to?
 - The seasonal passage in the east wing: what is it, and does it connect to anything the crew needs?
 - Whether Zoltán ever asks, or is ever told, what is actually happening in the basement — and what he does with that knowledge.
