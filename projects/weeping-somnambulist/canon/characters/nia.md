@@ -48,6 +48,12 @@ Nia had a specific quality that is hard to name: she paid full attention. Not st
 
 She walked out. No dive, no equipment, no controlled entry. One morning during the early pre-operation period she simply wasn't there. The barrier was thin enough by then that she didn't need the Cistern to go in. She found a door in the street, or in a dream, or in the thermal dark of the Budapest night, and walked through it. There is no body. There is a last morning, and then absence.
 
+**What she knew:** The middle version. Not: she had no idea what she was doing. Not: she understood the full cost and made a calculated choice. Something in between — a sense, half-formed and not-yet-named, that going as deep as the call was asking might mean not coming back as Nia Mordaunt. Not as the person IO had walked behind in the woods. Not as the person who turned toward people she loved and brought them in.
+
+She didn't sit with that sense long enough to name it. She didn't write it down. She didn't say it to IO. The call was louder than the uncertainty — not because she dismissed the uncertainty, but because it was already half-dissolved into the call itself by the time it arrived. You can't clearly weigh a cost when the thing you're weighing it against has already started to feel like where you belong.
+
+She went because she went. Not naively, not fully knowingly. In the space between.
+
 ## What She Was Looking For
 
 Not escape. Not oblivion. She heard a frequency no one else could locate and went to find its source the way you walk toward music — not because you've decided to, but because your feet are already moving. She found TSG while it was stirring, and the contact was too large to survive intact and walk away from. She didn't walk away.
