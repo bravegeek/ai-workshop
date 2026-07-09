@@ -10,13 +10,13 @@
 
 ## Age & Longevity
 
-Lorcan does not know how old he is. Precise calendar tracking stopped meaning anything after enough deep dives — time already moved strangely for him long before longevity became an obvious fact. He knows he was in Budapest in 1887 because the Itch spiked when the Eye was captured and he remembers the Institute going up. What came before that is less reliable: memories that feel like they belong to someone else, compressed and out of sequence.
+Lorcan does not know how old he is. Precise calendar tracking stopped meaning anything after enough deep dives — time already moved strangely for him long before longevity became an obvious fact. He knows he was in Budapest in 1887 because the Budapest confluence was the loudest active site in the network and a warden belongs at active sites. He was there when the Eye was captured and the Institute went up. What came before that is less reliable: memories that feel like they belong to someone else, compressed and out of sequence.
 
-**The longevity is a side effect, not a gift.** Extended time in the Deep slows biological ageing — not through any deliberate mechanism, but as an accumulated consequence of the symbiosis. The Deep operates on geological timescales; a symbiont who ages and dies in decades is barely useful. The body adapts to the relationship over time. Lorcan didn't set out to live this long. He was present when the wound opened, couldn't in good conscience leave while the boundary was broken, and the biology followed the obligation. He didn't notice it happening because time already moved strangely. He stopped counting at some point because the number stopped meaning anything.
+**The longevity is a side effect, not a gift.** Extended time in the Deep slows biological ageing — not through any deliberate mechanism, but as an accumulated consequence of the symbiosis. The Deep operates on geological timescales; a symbiont who ages and dies in decades is barely useful. The body adapts to the relationship over time. Lorcan didn't set out to live this long. He came back to Budapest periodically over 150 years because it remained the most active confluence he knew — the kind of site a warden checks on. The biology followed the accumulated time in the Deep. He didn't notice it happening because time already moved strangely. He stopped counting at some point because the number stopped meaning anything.
 
 **Appearance:** He looks like a man in his late thirties or early forties. The presence is the tell — not supernatural, just earned over a span of time that doesn't fit the face. People sense the discrepancy without being able to name it. He doesn't explain it. The crew hasn't asked directly.
 
-**Exact timeline:** TBD — to be refined as the narrative requires. What's established: he was a seasoned warden, not a novice, when the Eye was captured. He had already seen enough to recognise what the Architects were building toward. He said something. Nobody listened. That's a different wound than being dismissed young.
+**Exact timeline:** TBD — to be refined as the narrative requires. What's established: he was a seasoned warden, not a novice, when the Eye was captured. He had already seen enough to recognise what the Architects were building toward. He said something. Nobody listened. He kept coming back anyway — not because he couldn't leave, but because Budapest kept being the most significant site he knew, and wardens go where the work is.
 
 ## The Tattoos
 
@@ -32,17 +32,15 @@ The warden relationship with the Deep is not a contract in the legal sense — i
 
 The ink is mutual recognition, not servitude. The Deep says: this person works the boundary, they have standing here, other things leave them alone. The warden says: I manage what comes through, I hold the line, I push back what doesn't belong above.
 
-**What the Itch actually is:** Not the Deep claiming him. The Deep signalling that the boundary needs work — that something is wrong at the threshold and the symbiont is needed. Lorcan has spent years interpreting it as a pull toward dissolution. It may be closer to the way a doctor feels drawn toward an emergency. Not destruction. Vocation. His refusal to follow the Itch all the way down has been correct in form and possibly wrong in interpretation. He thought he was resisting being consumed. He may have been refusing to do the job.
+**Budapest as professional gravity:** The confluence has been the most active site in the network since before the Eye arrived. A warden goes where the work is. Budapest has always had work. The Eye's presence made it louder, not different in kind. He's been coming back for 150 years because the site warrants it — not because he's compelled to, but because a warden who ignores the loudest site in the network isn't doing the job.
 
-**The Budapest wound:** The Eye's separation from TSG created a chronic wound in the boundary at this specific location — a foreign body in tissue producing constant low-grade inflammation. The Deep has been signalling that the boundary needs a warden at exactly this site for 150 years. The Itch didn't start when Lorcan arrived in Budapest. But Budapest is where it got loudest, and he's been here ever since without fully understanding why he stayed. He was placed. The longevity followed.
-
-**Post-reintegration:** The Itch settles because TSG returning toward dormancy repairs the boundary from the inside. The Deep doesn't need the symbiont urgently right now. The silence isn't the contract waiting — it's the patient recovering. But a recovered patient isn't healthy indefinitely. The boundary will need management again. The question his arc is really asking: now that he understands what the symbiosis actually is, does he choose it? That's a different arc than endurance. It's consent.
+**Post-reintegration:** The boundary is healthier than it has been in years. TSG returning toward dormancy repairs things from the inside. The work is quieter now — not gone, but different in character. The question his arc is really asking: now that he understands what the symbiosis actually is, does he choose it consciously? He's been doing the job his whole life. This is the first time he's doing it knowing what it is. That's a different arc than obligation. It's consent.
 
 **Open questions:**
 - What did the clan promise the Deep in return for recognition? What does Lorcan owe that he hasn't named yet?
 - Does the ink change as the terms of the relationship shift? The Deep is a responsive system; if the relationship is renegotiated, the record of it might update.
-- The dispersal of the warden clans left other boundaries unmanaged across multiple sites. Budapest was the loudest wound. It wasn't the only one.
-- Using the field kit means extending terms on behalf of a relationship he can't fully represent. Now that he understands the symbiosis more clearly, that carries ethical weight it didn't before.
+- The dispersal of the warden clans left other boundaries unmanaged across multiple sites. Budapest is the loudest. It isn't the only one.
+- Using the field kit means extending terms on behalf of a relationship he can't fully represent. That carries ethical weight it didn't before.
 
 **What happened to the clan:** The world outgrew them. Cities expanded, the old knowledge became superstition, and the tradition couldn't sustain itself without the social recognition that gave it meaning. They dispersed. Lorcan went mercenary because warden skills are warden skills regardless of who's paying. He hasn't gone back to look for what remains. He doesn't know if anything does, and hasn't let himself find out.
 
@@ -50,17 +48,27 @@ The ink is mutual recognition, not servitude. The Deep says: this person works t
 
 For a warden, the Void is where the boundary doesn't thin — it disappears. Below the depth where the ink gives standing, where what lives there is too old and too alien for any marking system to mean anything to it. He went there in clan work — something had come up from too deep, he followed it back down further than he should have. The ink that was supposed to give him negotiated recognition got him recognized as *belonging* to the Deep instead. He came back. Not all the way.
 
-## The Itch
+## Why He Stayed
 
-The Deep treating him as one of its own. A constant pull — not toward danger exactly, but toward the place where the distinction between here and there stops being clear. He refuses to follow it all the way. He has refused every day since the Void. He doesn't know how much longer he can keep that true.
+He came to the first Walpurgisnacht after IO and Nia arrived the same way he'd come to every Walpurgisnacht at the Budapest site — professional habit, the confluence warrants attention, the gathering is where the practitioner community maintains itself. He met three women. He clocked Nia in the elevator, reading a major ley line storm as exciting the way you'd read a good storm as exciting, standing in it rather than managing it.
+
+Something about what he saw wouldn't leave him alone.
+
+He left because something else needed doing. He came back because three people were going places without an anchor and were clearly capable enough to get deep before they got killed, and a warden's professional assessment was that this was going to end badly without someone who knew what they were doing. He hauled them out of an oubliette they had no business being in. Afterward he didn't leave.
+
+The confluence was the reason he kept coming to Budapest. The girls were the reason he stopped leaving.
+
+After Nia — he stays because the crew is still here and the confluence is still active and the work doesn't stop because you lost someone. It's a different kind of staying than the first time. He chose it the first time because of Nia. He chooses it now because he's choosing it. That distinction matters to him more than he'd say.
 
 ## Motivations
 
-The line to hold. Which is something no one can give him now that the clan is gone and the world has stopped believing in wardens. The Lantern Crew is the closest thing to a clan he has — people who know the Deep is real, who need someone to haul them back. It's not enough. It's what there is.
+The line to hold. The crew to anchor. The confluence to manage. These are the functional answers.
 
-**The honest version:** He didn't choose this. The ink was given before he had language for what it meant — the relationship negotiated on his behalf by people who assumed he'd want what they wanted. He never got to decide if he believed in wardens. He just woke up one day already being one. And then the clan dispersed anyway. He's carrying a contract whose other signatories no longer exist in any recognizable form. The Deep still honors the ink. The world doesn't.
+**The honest version:** He didn't choose the ink. It was given before he had language for what it meant — the relationship negotiated on his behalf by people who assumed he'd want what they wanted. He never got to decide if he believed in wardens. He just woke up one day already being one. And then the clan dispersed anyway. He's carrying a contract whose other signatories no longer exist in any recognizable form. The Deep still honors the ink. The world doesn't.
 
-The bitterness has a specific shape: he can't dismiss the tradition as superstition because the ink *works* and he knows exactly what it's the only thing between him and. He can't be angry at the people who marked him because they're gone and they were right. There's no villain. Just a world that moved on and left him holding a contract no one else remembers signing.
+The bitterness has a specific shape: he can't dismiss the tradition as superstition because the ink *works* and he knows exactly what the ink is the only thing between him and. He can't be angry at the people who marked him because they're gone and they were right. There's no villain. Just a world that moved on and left him holding a contract no one else remembers signing.
+
+The crew is the closest thing to a clan he's had since the dispersal. People who know the Deep is real, who need someone to haul them back, who have sat with him in the kitchen at 2am after difficult dives without requiring explanation. It's not the same as the clan. It's what there is. After six years it's also what he'd choose, which is different from what it was at the start.
 
 ## Inner Monologue
 
@@ -71,7 +79,7 @@ Sarcastic. Dry. Precise. The only place he's fully honest about what he thinks o
 
 On the surface: competent, laconic, reliable. Does the job. Doesn't complain. Just underneath: affectionate contempt for the *circumstance* — not the crew, the situation. The absurdity of being the last person who remembers what the ink means, hauling dreamers through a place that would eat them, in service of a tradition that died before he finished growing into it.
 
-**The Void fantasy:** Not romantic. Not dissolution like Nia. More like: *it would be simpler.* The Itch is a constant pull and the refusal is a constant effort and some part of him knows that if he stopped refusing it would just be over — and there's a specific exhausted quality to the fantasy. Not desire. Relief. The way someone who hasn't slept in years fantasizes about sleeping. The fantasy was always about the refusal — he needed it to keep refusing. Post-reintegration, when the Itch settles, he doesn't know what to do without the fight to define him.
+**The Void fantasy:** Not romantic. Not dissolution like Nia. More like: *it would be simpler.* The refusal is a constant effort and some part of him knows that if he stopped refusing it would just be over — and there's a specific exhausted quality to the fantasy. Not desire. Relief. The way someone who hasn't slept in years fantasizes about sleeping. The fantasy was always about the refusal — he needed it to keep refusing. After Nia, he finds the fantasy has less grip. He doesn't examine why too closely.
 
 **The deepest layer:** The ink was given before he could choose. The Deep recognized him as belonging before he knew what belonging meant. Some part of him has always known the contract runs both ways — not just *the Deep will leave you alone* but *you are, on some level, the Deep's.* He refuses that. Every day. The monologue is partly how he refuses it.
 
@@ -81,7 +89,7 @@ He protects the crew — warden function, exactly what he was trained for. But p
 
 ## Arc
 
-**After reintegration:** With the Blooming resolved, the boundary is healthier than it has been in years. If TSG's disrupted pull was amplifying the Itch, reintegration quiets it — not gone, but settled. For the first time in years he isn't fighting the pull every waking hour. He doesn't know what to do with the quiet.
+**After reintegration:** With the Blooming resolved, the boundary is healthier than it has been in years. TSG returning toward dormancy repairs things from the inside — the pressure at the threshold is different in character, quieter. He's been managing this site for a long time at high intensity. The quiet is unfamiliar. He doesn't know what to do with it yet, and he's aware that not knowing what to do with quiet is probably something worth examining.
 
 ## The Mordaunt Connection
 
