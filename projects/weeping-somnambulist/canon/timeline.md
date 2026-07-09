@@ -40,19 +40,31 @@ talks IO out of letting it lapse.
 They live modestly. The Mordaunt trust sustains them. IO's previous life
 left resources. Nobody is counting carefully because nobody needs to.
 
-This is the richest period that never gets told directly. Evenings around
-artifacts they don't fully understand. Vocabulary getting built from
-accumulated evenings of getting things wrong and occasionally right.
-Someone picks something up and it does something unexpected. Someone
-pushes too far and needs hauling back. The taxonomy of the Deep assembled
-from the inside, by people who have no instruction manual and are writing
-one as they go.
+**[PLACEHOLDER — The Honeymoon Years]**
+The richest period that never gets told directly — or told in fragments,
+through memory and implication. Candidate for expanded treatment as
+interstitial material, flashback seeds, or a companion novella. Key
+territory to develop:
 
-The Resonance Collection has its first crude iterations here — not a
-methodology yet, just IO noticing what works and what doesn't and
-remembering. The early dives are terrifying and exhilarating and produce
-the specific closeness of people who have been genuinely scared together
-and came back. They become tighter than siblings. Sisters-in-arms.
+- First dives together: what they find, what goes wrong, what they
+  don't expect. The vocabulary being built in real time.
+- Artifact evenings: three people around something they don't understand,
+  arguing about what it is, occasionally being right.
+- The school lease confrontation and Nia's Tuesday class beginning.
+- Early Walpurgisnacht: the gathering, the community, the politics of
+  inheriting this address.
+- The bond forming — not through declaration but through accumulated
+  shared experience of difficult places.
+
+**Year 2 inflection: Lorcan joins after the oubliette.**
+Before Lorcan, the dives are brave and under-anchored. After, they get
+serious. Lorcan's warden knowledge fills the gaps they didn't know they
+had — where the danger actually lives, how to read the Deep's immune
+response, what an oubliette looks like from the inside versus the outside,
+protocol for coming back. The Resonance Collection's first crude
+iterations sharpen into something more deliberate. They go deeper because
+they now know how to do it safely. The exploration becomes more ambitious
+precisely as it becomes more disciplined.
 
 **The bond between them — Nia, Ren, IO — is forged here.** Not by
 design. By shared experience of something extraordinary, and the specific
