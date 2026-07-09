@@ -2,6 +2,66 @@
 
 ---
 
+## Arc 0: The Honeymoon
+
+**Frame:** Before the operation. Before the frame of Arc 1 exists. Spring going into summer — warm, open, discovery. IO and Nia arrive at the Institute not knowing what they have. They find out together. The genre hasn't set yet. This is the before-time.
+
+The arc plants seeds the reader won't recognize until later. The school that persists. The garden. The Tuesday class. Ren arriving as the unlikely third musketeer. Lorcan clocking Nia in the elevator. Bence starting his notebook. The Walpurgisnacht gathering that has always happened here. The Hum. The east wing passage. Barnaby, already present.
+
+None of these feel significant yet. That's the point.
+
+**Ends when Nia doesn't come back.**
+
+---
+
+### Act I — The Campus
+
+**Situation:**
+- IO and Nia arrive at the Institute on the strength of a letter from a Vienna law firm and Nia's refusal to leave.
+- No operation. No extraction. Just two women exploring a building that is stranger than any building should be, in a city built on a ley line confluence, and finding it exactly as interesting as it looks.
+- The school is already here. Erzsébet feeds them when they surface looking wrong. Zoltán watches without being obvious about it. Barnaby is on the premises and always has been.
+
+**Beat 1 — The Letter**
+- IO gets the letter at twenty-five. She has no context for what she's inherited. Nia says: *what letter, I want some Magyar cake.*
+- They come anyway. They stay because Nia falls in love with the campus immediately and completely, and IO has never been able to say no to Nia going further in.
+
+**Beat 2 — The Lease**
+- When the school's lease comes up for renewal, IO's instinct is to clear the upper floors — space, focus, operational clarity.
+- Nia disagrees. Nia is specific and clear about disagreeing.
+- The school stays. The Kovács children are in Nia's Tuesday class before IO notices she's teaching one.
+
+---
+
+### Act II — The Found Family
+
+**Beat 3 — Ren**
+- Ren arrives early in the exploration phase. The unlikely third — not a natural fit on paper, immediately indispensable in practice.
+- She and Nia have a bond that arrives before anyone can explain it. IO watches this happen and files it.
+- Ren source-attributes everything. In the early period this reads as academic habit. Later it will read as something else.
+
+**Beat 4 — Lorcan**
+- He comes to Walpurgisnacht the way he always has — professional habit, the confluence warrants attention. He meets three women. He clocks Nia in the elevator.
+- He leaves because something else needs doing. He comes back because they are going places without an anchor.
+- He hauls them out of an oubliette they had no business being in. After that he doesn't leave.
+
+**Beat 5 — The Gathering**
+- Walpurgisnacht. The practitioner community maintaining itself, the way it has at this site longer than the building exists.
+- Nia in the gathering with no velvet rope. She moves through it the way weather moves. The upper rooms are warm in a way they aren't usually.
+- The crew, for one evening, is a found family at a party in a building they love. This will not recur in quite this form.
+
+---
+
+### Act III — The Ending
+
+**Beat 6 — The Call**
+- Nia begins to be somewhere slightly other than where she is. Not dramatically. The way a radio starts to pick up a second frequency underneath the first.
+- She doesn't name what she's receiving. She doesn't know she could.
+- She goes. One morning she isn't there. The barrier had been thin for a while. She found a door and walked through it. She sensed without naming it that going that deep might mean not coming back as bounded Nia Mordaunt. The call was louder than the uncertainty.
+
+**Key question:** Who is IO without Nia a half-step ahead of her?
+
+---
+
 ## Arc 1: The Machine
 
 **Frame:** Six years post-Nia. IO at operational peak. The Institute running clean. Nia present only as absence — what the campus still holds of her: Tuesday afternoon light in the courtyard, the garden she kept, the school that persisted because she built it to outlast her.
