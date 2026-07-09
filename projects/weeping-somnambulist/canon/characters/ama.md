@@ -46,6 +46,16 @@ Her tradition has no formal name and no single cultural root. It is old enough t
 
 This makes her the only crew member currently capable of navigating non-human oubliettes without serious psychological risk. It is not immunity. It is the practiced ability to stop reaching.
 
+## On Nia
+
+They look like the same kind of person — both at ease in the Deep, both constitutionally at home there, both perceiving things the others have to work to reach. The resemblance is real. It's also superficial, and flattening both of them.
+
+Nia's permeability is constitutional. She didn't earn it, didn't walk toward it, didn't have to. She arrived. The Deep recognized her the way weather recognizes open ground. She could no more explain how she does what she does than a tuning fork could explain resonance. The path to where Nia is doesn't exist — you can't follow her there because she didn't come by a path.
+
+Ama did it the hard way. She noticed early that she perceived things others didn't and then spent decades finding out what that meant — traditions, teachers, the accumulated discipline of stopping interpretation before it settles, of sitting inside alien experience without forcing it into a human frame. What feels effortless in her now is practiced discipline that became nature. She made herself, over time, into something that resembles what Nia simply is.
+
+The cost: decades. The payoff: she knows every step because she had to take each one. She can teach because she walked the path. Nia couldn't teach what she knows — not evasion, just literal impossibility. The path to where she is doesn't run through effort and time; it runs through being Nia. Ama's path is replicable, in principle, by someone willing to commit to it. That's the thing she has in Arc 2 that Nia never could have offered.
+
 ## Arc
 
 **After reintegration:** The operation's destructive foundation is gone — and so is the operation. Relief and loss arrive together. She steps into the vacuum IO leaves, not by claiming leadership but by having something to teach. Her tradition — patience, non-interpretation, belonging to the Deep rather than performing through it — becomes the crew's new operational foundation without the Eye's logic field holding the door open. She teaches what she knows. It is the first time she has not been troubled by her own usefulness.
